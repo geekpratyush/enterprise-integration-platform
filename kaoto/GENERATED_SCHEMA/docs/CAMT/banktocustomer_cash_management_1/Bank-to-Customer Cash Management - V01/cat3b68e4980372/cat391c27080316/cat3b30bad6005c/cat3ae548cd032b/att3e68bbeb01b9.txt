@@ -1,0 +1,1 @@
+Separate Trading of Registered Interest and Principal of Securities.  STRIPS are also called zero-coupon securities, because the only time an investor receives a payment during the life of a STRIP is when it matures. The STRIPS program lets investors hold and trade the individual interest.

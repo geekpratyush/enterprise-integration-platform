@@ -1,0 +1,1 @@
+Specifies the address where voting ballot can be sent. 

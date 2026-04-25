@@ -1,0 +1,1 @@
+If Name is present, then BEI is not allowed. If Name is not present, then BEI is mandatory.

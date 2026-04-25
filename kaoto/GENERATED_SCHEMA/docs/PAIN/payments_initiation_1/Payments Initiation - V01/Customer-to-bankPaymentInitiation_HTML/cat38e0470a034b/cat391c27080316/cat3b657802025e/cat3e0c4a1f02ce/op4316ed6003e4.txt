@@ -1,0 +1,1 @@
+ If Type is PEPT, then Year/PEP is mandatory. If Type is PEPT, then Year/ISA is not allowed. If Type is ISAT then Year/ISA is mandatory. If Type is ISAT, then Year/PEP is not allowed.

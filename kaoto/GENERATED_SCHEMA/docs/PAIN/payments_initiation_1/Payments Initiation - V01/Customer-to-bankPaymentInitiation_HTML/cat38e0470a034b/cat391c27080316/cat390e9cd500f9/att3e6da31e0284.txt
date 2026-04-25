@@ -1,0 +1,1 @@
+Indicates the overall weighted average liquidity expressed as a percentage of average daily volume.

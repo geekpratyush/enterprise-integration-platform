@@ -1,0 +1,1 @@
+Identifies that the broker is restricted to dealing with other buy side firms.

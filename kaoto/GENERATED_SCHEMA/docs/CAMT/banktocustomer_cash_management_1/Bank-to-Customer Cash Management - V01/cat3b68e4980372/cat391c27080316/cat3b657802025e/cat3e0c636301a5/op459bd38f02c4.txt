@@ -1,0 +1,1 @@
+Either Basis oe ExtendedBasis may be present but not both.

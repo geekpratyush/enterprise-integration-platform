@@ -1,0 +1,1 @@
+Indicates whether an entry is a credit or a debit.

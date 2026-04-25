@@ -1,0 +1,1 @@
+Total number of the type of asset that are transferred.

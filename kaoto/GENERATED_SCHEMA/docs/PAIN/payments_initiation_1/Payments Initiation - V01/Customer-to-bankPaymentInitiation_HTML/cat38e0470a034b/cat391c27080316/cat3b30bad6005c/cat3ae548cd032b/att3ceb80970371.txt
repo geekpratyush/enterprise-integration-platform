@@ -1,0 +1,1 @@
+Securities amount is lower than the minimum existing settlement amount for the instructed financial instrument.

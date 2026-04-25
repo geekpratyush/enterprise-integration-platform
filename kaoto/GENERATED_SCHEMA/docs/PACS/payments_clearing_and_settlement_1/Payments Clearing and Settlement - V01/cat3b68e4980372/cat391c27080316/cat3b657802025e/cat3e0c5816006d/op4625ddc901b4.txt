@@ -1,0 +1,1 @@
+Either Status or Rejected must be present, but not both.

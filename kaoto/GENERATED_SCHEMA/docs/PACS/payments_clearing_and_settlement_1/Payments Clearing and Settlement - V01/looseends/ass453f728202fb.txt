@@ -1,0 +1,3 @@
+Specifies the domain, the family and the sub-family of the bank transaction code, in a structured and hierarchical format.
+
+Usage: If a specific family or subfamily code cannot be provided, the generic family code defined for the domain or the generic subfamily code defined for the family should be provided.

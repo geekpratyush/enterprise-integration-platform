@@ -1,0 +1,1 @@
+Specifies the type of Transfer, PEP or ISA.

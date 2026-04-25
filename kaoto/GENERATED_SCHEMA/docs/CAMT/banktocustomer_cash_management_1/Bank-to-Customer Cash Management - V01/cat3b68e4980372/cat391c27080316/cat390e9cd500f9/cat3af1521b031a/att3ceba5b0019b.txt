@@ -1,0 +1,2 @@
+Period during which the status of the transfer is valid.
+

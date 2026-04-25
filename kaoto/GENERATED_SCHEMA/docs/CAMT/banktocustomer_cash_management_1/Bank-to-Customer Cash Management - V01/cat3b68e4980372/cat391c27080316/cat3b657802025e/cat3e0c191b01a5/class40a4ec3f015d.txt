@@ -1,0 +1,1 @@
+Identification of the place of safekeeping expressed as a code and a BIC/BEI.

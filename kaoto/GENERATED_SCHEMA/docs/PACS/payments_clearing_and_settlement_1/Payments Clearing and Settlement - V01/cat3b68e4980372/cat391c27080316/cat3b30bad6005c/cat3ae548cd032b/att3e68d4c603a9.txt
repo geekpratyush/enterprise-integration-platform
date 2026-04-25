@@ -1,0 +1,1 @@
+An order which is not to be executed as a whole if the executing broker judges that it may disturb the price.

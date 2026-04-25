@@ -1,0 +1,1 @@
+Specifies that the message is an actual confirmation of the execution of a transfer request.

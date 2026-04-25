@@ -1,0 +1,1 @@
+Indicates classification and volume parameters on the transfer of a financial instrument.

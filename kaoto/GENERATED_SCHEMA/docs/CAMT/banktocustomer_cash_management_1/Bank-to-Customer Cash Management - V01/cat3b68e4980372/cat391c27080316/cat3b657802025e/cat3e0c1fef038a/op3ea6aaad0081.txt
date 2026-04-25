@@ -1,0 +1,1 @@
+Either MarketParticipant or BIC must be present but not both.

@@ -1,0 +1,1 @@
+Source and target currencies for which information is request.

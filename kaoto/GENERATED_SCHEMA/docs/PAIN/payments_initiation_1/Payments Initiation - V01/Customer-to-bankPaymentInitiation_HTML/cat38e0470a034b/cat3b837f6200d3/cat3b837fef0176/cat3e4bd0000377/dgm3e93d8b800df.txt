@@ -1,0 +1,14 @@
+Scenario : mix of status types : accept/repaired/rejected by first agent
+
+In this scenario, the first agent receives a group with multiple single transactions. 
+The first agent does all the checks and reports on different statuses for all of the individual transactions. 
+
+Information needed by the initiating party to reconcile the status info with payment initiation sent :
+Group ID, requested execution date, possibly payment type identification details and name of message type sent, debtor's account details and debtor identification. + individual payment instruction ID/payment transaction ID/instructed amount + optionally creditor's account details and creditor ID.
+
+After receiving the status information, the customer needs to repair the rejected transactions and re-submit them to the first agent.
+
+Note : please note that this is just one possible scenario. It is very well possible to give only status information for the 'rejected' transactions in the group only, and not report on the 'positive acceptance' status for the other transactions in the group.
+This will depend on the product/service/agreement between the customer and his bank.
+
+

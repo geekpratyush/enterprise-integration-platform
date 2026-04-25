@@ -1,0 +1,1 @@
+Transaction is payment for Instalment/hire-purchase agreement.

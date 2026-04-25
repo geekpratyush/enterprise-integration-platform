@@ -1,0 +1,66 @@
+CrossTrade
+../../../../webviewer/18.jpg
+dgm42ccec7b03b4.htm
+
+
+
+(
+)
+<<MessageComponent>> CrossTrade1
+../../../../webviewer/143.jpg
+class3e54f40d0234.htm
+
+
+
+(
+CrossIdentification
+../../../../webviewer/31.jpg
+att3e54f424029b.htm
+
+
+
+(
+)
+Type
+../../../../webviewer/31.jpg
+att3e564e3d03c0.htm
+
+
+
+(
+)
+theCrossTrade ( CrossTrade )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f05432a0351.htm
+
+
+
+)
+Associations
+../../../../webviewer/assoccat.gif
+
+
+
+
+(
+<<SWSTrace>> (theCrossTrade:CrossTrade) (theCrossTrade1:CrossTrade1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3f05432a0239.htm
+
+
+
+(
+CrossTrade ( theCrossTrade )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f05432a0333.htm
+
+
+
+CrossTrade1 ( theCrossTrade1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f05432a0351.htm
+
+
+
+)
+)

@@ -1,0 +1,1 @@
+Code allocated to financial institutions by the Registration Authority, under an international identification scheme, as described in the latest version of the standard ISO 9362 "Banking - Banking telecommunication messages - Bank Identifier Codes". SWIFT is the Registration Authority for ISO 9362.

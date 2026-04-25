@@ -1,0 +1,1 @@
+Specifies the type of bank service selected by the user.

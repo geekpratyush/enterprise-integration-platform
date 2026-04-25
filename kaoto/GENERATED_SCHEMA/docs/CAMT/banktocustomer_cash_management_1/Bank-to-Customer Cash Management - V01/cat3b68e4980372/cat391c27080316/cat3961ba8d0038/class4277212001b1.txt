@@ -1,0 +1,5 @@
+Party that issue voting instructions instructions. It can be:
+
+- Beneficial Owner (the effective owner of the shares)
+- Investment Manager
+- Proxy Agency 

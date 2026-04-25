@@ -1,0 +1,1 @@
+Coded creditor reference type.

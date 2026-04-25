@@ -1,0 +1,1 @@
+Indicates a "Yes" or "No" type of answer for an element.

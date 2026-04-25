@@ -1,0 +1,5 @@
+Indicates that the common accounting information in the transaction is included once and not repeated for each transaction.
+
+MeaningWhenTrue: Indicates that there is only one occurence of the PaymentInformation block and several occurences of the DirectDebitTransaction block.
+
+MeaningWhenFalse: Indicates that there is the same number of occurences for both PaymentInformation and  DirectDebitTransactionInformation blocks.

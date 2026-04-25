@@ -1,0 +1,1 @@
+Identification of an account and the account owner. The account owner is identified with the  Bank Identification Code or Business Entity Identification or party issuer identification or name and address. The account is identified in free text or by its issuer's identification.

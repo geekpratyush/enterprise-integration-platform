@@ -1,0 +1,5 @@
+Identifies the request to receive a report on the progress of the order or not.
+
+A 'Yes' value means a request for regular status messages to be sent.
+A 'No' value means no request to receive regular status messages.
+

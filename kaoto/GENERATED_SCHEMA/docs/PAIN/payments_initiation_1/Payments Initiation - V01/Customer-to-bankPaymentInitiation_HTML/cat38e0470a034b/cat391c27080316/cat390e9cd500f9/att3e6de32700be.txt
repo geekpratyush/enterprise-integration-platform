@@ -1,0 +1,2 @@
+Indicates whether the broker is to locate the stock in conjunction with a short sell order.
+This information is mandatory in case of short sales. When executed, the report will then mention the securities location.

@@ -1,0 +1,1 @@
+Holds a portion of another party's inventory of financial instruments within a location or market.

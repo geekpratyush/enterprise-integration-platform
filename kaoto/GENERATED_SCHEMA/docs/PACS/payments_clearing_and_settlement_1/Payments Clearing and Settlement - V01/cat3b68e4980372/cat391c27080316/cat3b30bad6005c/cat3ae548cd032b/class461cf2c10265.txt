@@ -1,0 +1,1 @@
+Specifies the role of the Issuer agent.

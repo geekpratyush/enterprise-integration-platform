@@ -1,0 +1,674 @@
+BusinessActorsAndRoles
+../../../webviewer/18.jpg
+dgm3a5f11a5018f.htm
+
+
+
+(
+)
+<<Actor>> SettlementAgent
+../../../webviewer/41.jpg
+class3950bbed0157.htm
+class3950bbed0157.txt
+
+
+(
+)
+<<Actor>> GlobalSettlementAgent
+../../../webviewer/41.jpg
+class3961df1900db.htm
+class3961df1900db.txt
+
+
+(
+)
+<<Actor>> LocalSettlementAgent
+../../../webviewer/41.jpg
+class3961df24038a.htm
+class3961df24038a.txt
+
+
+(
+)
+<<Actor>> Regulator
+../../../webviewer/41.jpg
+class3961dfd20290.htm
+class3961dfd20290.txt
+
+
+(
+)
+<<Actor>> Investor
+../../../webviewer/41.jpg
+class39666ed3036b.htm
+class39666ed3036b.txt
+
+
+(
+)
+<<Actor>> MarketMaker
+../../../webviewer/41.jpg
+class38e65eb003ad.htm
+class38e65eb003ad.txt
+
+
+(
+)
+<<Actor>> InvestmentDecisionMaker
+../../../webviewer/41.jpg
+class3986da77011d.htm
+class3986da77011d.txt
+
+
+(
+)
+<<Actor>> TradingParty
+../../../webviewer/41.jpg
+class3986e34b00af.htm
+class3986e34b00af.txt
+
+
+(
+)
+<<Actor>> InterestedAgent
+../../../webviewer/41.jpg
+class3a02da00027d.htm
+class3a02da00027d.txt
+
+
+(
+)
+<<Actor>> TradeInstructor
+../../../webviewer/41.jpg
+class3a5f121a03a0.htm
+class3a5f121a03a0.txt
+
+
+(
+)
+<<Actor>> PostTradeAdministrator
+../../../webviewer/41.jpg
+class3a5f130d027d.htm
+class3a5f130d027d.txt
+
+
+(
+)
+<<Actor>> Trader
+../../../webviewer/41.jpg
+class3a5f1337029b.htm
+class3a5f1337029b.txt
+
+
+(
+)
+<<Actor>> ConfirmationParty
+../../../webviewer/41.jpg
+class3a798b9500cb.htm
+class3a798b9500cb.txt
+
+
+(
+)
+<<Actor>> CentralCounterparty
+../../../webviewer/41.jpg
+class399ba3c30053.htm
+class399ba3c30053.txt
+
+
+(
+)
+<<Actor>> CentralSecuritiesDepository
+../../../webviewer/41.jpg
+class3961df920126.htm
+class3961df920126.txt
+
+
+(
+)
+<<Actor>> Infrastructure
+../../../webviewer/41.jpg
+class3a5f176a01ed.htm
+class3a5f176a01ed.txt
+
+
+(
+)
+<<Actor>> SystemTransactionAdministrator
+../../../webviewer/41.jpg
+class3d6de4b301a3.htm
+class3d6de4b301a3.txt
+
+
+(
+)
+<<Actor>> ThirdParty
+../../../webviewer/41.jpg
+class3d6de4b301b7.htm
+class3d6de4b301b7.txt
+
+
+(
+)
+<<Actor>> SystemDirectMember
+../../../webviewer/41.jpg
+class3d6de4b301c1.htm
+class3d6de4b301c1.txt
+
+
+(
+)
+<<Actor>> SystemIndirectMember
+../../../webviewer/41.jpg
+class3d6de4b301ce.htm
+class3d6de4b301ce.txt
+
+
+(
+)
+<<Actor>> SystemMember
+../../../webviewer/41.jpg
+class3d6de4b301cb.htm
+class3d6de4b301cb.txt
+
+
+(
+)
+<<Actor>> Agent
+../../../webviewer/41.jpg
+class3dda135600d2.htm
+class3dda135600d2.txt
+
+
+(
+)
+<<Actor>> AgreementParty
+../../../webviewer/41.jpg
+class3dda135600e9.htm
+class3dda135600e9.txt
+
+
+(
+)
+<<Actor>> InitiatingParty
+../../../webviewer/41.jpg
+class3dda135600fc.htm
+class3dda135600fc.txt
+
+
+(
+theOrder customer-to-bank payment ( Order customer-to-bank payment )
+../../../webviewer/82.jpg
+../../../looseends/role3dddf01500fe.htm
+
+
+
+theReport on payment transaction status ( Report on payment transaction status )
+../../../webviewer/82.jpg
+../../../looseends/role3df74d240078.htm
+
+
+
+theReport on payment transaction status ( Report on payment transaction status )
+../../../webviewer/82.jpg
+../../../looseends/role3e4b9027034a.htm
+
+
+
+theOrder credit transfer ( Order credit transfer )
+../../../webviewer/82.jpg
+../../../looseends/role3ddb48f802eb.htm
+
+
+
+theRequest to cancel payment order ( Request to cancel payment order )
+../../../webviewer/82.jpg
+../../../looseends/role3ddb48fd019d.htm
+
+
+
+theOrder cheque issuance ( Order cheque issuance )
+../../../webviewer/82.jpg
+../../../looseends/role3ddb49000328.htm
+
+
+
+theReport on payment transaction status ( Report on payment transaction status )
+../../../webviewer/82.jpg
+../../../looseends/role3def6b6e0369.htm
+
+
+
+theAuthorize payment ( Authorize payment )
+../../../webviewer/82.jpg
+../../../looseends/role3def6b950365.htm
+
+
+
+)
+<<Actor>> DebitParty
+../../../webviewer/41.jpg
+class3dda13560141.htm
+class3dda13560141.txt
+
+
+(
+theReport on payment transaction's financial impact ( Report on payment transaction's financial impact )
+../../../webviewer/82.jpg
+../../../looseends/role3e4b8fe70245.htm
+
+
+
+theReport on payment transaction status ( Report on payment transaction status )
+../../../webviewer/82.jpg
+../../../looseends/role3e4b904200b6.htm
+
+
+
+)
+<<Actor>> CreditParty
+../../../webviewer/41.jpg
+class3dda13560110.htm
+class3dda13560110.txt
+
+
+(
+theReport on payment transaction's financial impact ( Report on payment transaction's financial impact )
+../../../webviewer/82.jpg
+../../../looseends/role3e4b8fdc0326.htm
+
+
+
+theReport on payment transaction status ( Report on payment transaction status )
+../../../webviewer/82.jpg
+../../../looseends/role3e4b903d0016.htm
+
+
+
+)
+<<Actor>> PaymentClearingAgent
+../../../webviewer/41.jpg
+class3dda135601a6.htm
+class3dda135601a6.txt
+
+
+(
+theValidate interbank payment ( Validate interbank payment )
+../../../webviewer/82.jpg
+../../../looseends/role3def796f00c5.htm
+
+
+
+theClear interbank payment ( Clear interbank payment )
+../../../webviewer/82.jpg
+../../../looseends/role3e4b8bb60024.htm
+
+
+
+)
+<<Actor>> PaymentSettlementAgent
+../../../webviewer/41.jpg
+class3dda13560174.htm
+class3dda13560174.txt
+
+
+(
+theSettle  interbank payment ( Settle  interbank payment )
+../../../webviewer/82.jpg
+../../../looseends/role3dddf035019b.htm
+
+
+
+theAssess interbank payment risk ( Assess interbank payment risk )
+../../../webviewer/82.jpg
+../../../looseends/role3def798b0151.htm
+
+
+
+theReport ( Report )
+../../../webviewer/82.jpg
+../../../looseends/role3e4b8f9f01e6.htm
+
+
+
+)
+<<Actor>> FinalAgent
+../../../webviewer/41.jpg
+class3dda13560189.htm
+class3dda13560189.txt
+
+
+(
+theReport ( Report )
+../../../webviewer/82.jpg
+../../../looseends/role3def6d550319.htm
+
+
+
+theGenerate regulatory reporting information ( Generate regulatory reporting information )
+../../../webviewer/82.jpg
+../../../looseends/role3e4b909400c8.htm
+
+
+
+theGenerate regulatory reporting information ( Generate regulatory reporting information )
+../../../webviewer/82.jpg
+../../../looseends/role3e4b90a80359.htm
+
+
+
+theSettle customer-to-bank payment ( Settle customer-to-bank payment )
+../../../webviewer/82.jpg
+../../../looseends/role3e4b916702c0.htm
+
+
+
+)
+<<Actor>> FirstAgent
+../../../webviewer/41.jpg
+class3dda135601b1.htm
+class3dda135601b1.txt
+
+
+(
+theReport ( Report )
+../../../webviewer/82.jpg
+../../../looseends/role3def6d500019.htm
+
+
+
+theSettle customer-to-bank payment ( Settle customer-to-bank payment )
+../../../webviewer/82.jpg
+../../../looseends/role3e4b916d0168.htm
+
+
+
+theClear customer-to-bank payment ( Clear customer-to-bank payment )
+../../../webviewer/82.jpg
+../../../looseends/role3e4b91f8023a.htm
+
+
+
+theAccept customer-to-bank payment ( Accept customer-to-bank payment )
+../../../webviewer/82.jpg
+../../../looseends/role3e4b921c00b7.htm
+
+
+
+theOrder credit transfer ( Order credit transfer )
+../../../webviewer/82.jpg
+../../../looseends/role3ddb490a0321.htm
+
+
+
+theRequest to cancel payment order ( Request to cancel payment order )
+../../../webviewer/82.jpg
+../../../looseends/role3ddb49150132.htm
+
+
+
+theOrder cheque issuance ( Order cheque issuance )
+../../../webviewer/82.jpg
+../../../looseends/role3ddb4923015a.htm
+
+
+
+theReport on payment transaction status ( Report on payment transaction status )
+../../../webviewer/82.jpg
+../../../looseends/role3def6b670188.htm
+
+
+
+theAuthorize payment ( Authorize payment )
+../../../webviewer/82.jpg
+../../../looseends/role3def6b9e012d.htm
+
+
+
+)
+<<Actor>> ForwardingAgent
+../../../webviewer/41.jpg
+class3dda135601c5.htm
+class3dda135601c5.txt
+
+
+(
+theClear customer-to-bank payment ( Clear customer-to-bank payment )
+../../../webviewer/82.jpg
+../../../looseends/role3e4b91f30181.htm
+
+
+
+theAccept customer-to-bank payment ( Accept customer-to-bank payment )
+../../../webviewer/82.jpg
+../../../looseends/role3e4b9222008c.htm
+
+
+
+)
+<<Actor>> Creditor
+../../../webviewer/41.jpg
+class3dda1356012e.htm
+class3dda1356012e.txt
+
+
+(
+theSettle customer-to-bank payment ( Settle customer-to-bank payment )
+../../../webviewer/82.jpg
+../../../looseends/role3e4b91620060.htm
+
+
+
+)
+<<Actor>> Debtor
+../../../webviewer/41.jpg
+class3dda13560156.htm
+class3dda13560156.txt
+
+
+(
+theReport on payment transaction's financial impact ( Report on payment transaction's financial impact )
+../../../webviewer/82.jpg
+../../../looseends/role3df74b9c02b9.htm
+
+
+
+theSettle customer-to-bank payment ( Settle customer-to-bank payment )
+../../../webviewer/82.jpg
+../../../looseends/role3e4b913100a5.htm
+
+
+
+)
+<<Actor>> FinalParty
+../../../webviewer/41.jpg
+class3dda135601f5.htm
+class3dda135601f5.txt
+
+
+(
+)
+<<Actor>> OriginatingParty
+../../../webviewer/41.jpg
+class3dda13560209.htm
+class3dda13560209.txt
+
+
+(
+)
+<<Actor>> TransferAgent
+../../../webviewer/41.jpg
+class3e1ea266033c.htm
+class3e1ea266033c.txt
+
+
+(
+)
+<<Actor>> Intermediary
+../../../webviewer/41.jpg
+class3e1ea266033e.htm
+class3e1ea266033e.txt
+
+
+(
+)
+<<Actor>> Custodian
+../../../webviewer/41.jpg
+class3e1ea266034b.htm
+class3e1ea266034b.txt
+
+
+(
+)
+<<Actor>> PayingAgent
+../../../webviewer/41.jpg
+class3e1ea266034f.htm
+class3e1ea266034f.txt
+
+
+(
+)
+<<Actor>> FundAccountant
+../../../webviewer/41.jpg
+class3e1ea266035b.htm
+class3e1ea266035b.txt
+
+
+(
+)
+<<Actor>> InvestmentManager
+../../../webviewer/41.jpg
+class3e1ea266035d.htm
+class3e1ea266035d.txt
+
+
+(
+)
+<<Actor>> FundManagementCompany
+../../../webviewer/41.jpg
+class3e1ea266036d.htm
+class3e1ea266036d.txt
+
+
+(
+)
+<<Actor>> Registrar
+../../../webviewer/41.jpg
+class3e1ea266036f.htm
+class3e1ea266036f.txt
+
+
+(
+)
+<<Actor>> CashCorrespondent
+../../../webviewer/41.jpg
+class3e1ea266037a.htm
+class3e1ea266037a.txt
+
+
+(
+)
+<<Actor>> DataProvider
+../../../webviewer/41.jpg
+class3e1ea266037c.htm
+class3e1ea266037c.txt
+
+
+(
+)
+<<Actor>> TreasurySettlementParty
+../../../webviewer/41.jpg
+class3ead366c00d8.htm
+class3ead366c00d8.txt
+
+
+(
+)
+<<Actor>> BuySideParty
+../../../webviewer/41.jpg
+class3f02c3490389.htm
+class3f02c3490389.txt
+
+
+(
+)
+<<Actor>> RedistributorAgent
+../../../webviewer/41.jpg
+class3f02c349038b.htm
+class3f02c349038b.txt
+
+
+(
+)
+<<Actor>> SellSideParty
+../../../webviewer/41.jpg
+class3f02c3490393.htm
+class3f02c3490393.txt
+
+
+(
+)
+<<Actor>> Invoicee
+../../../webviewer/41.jpg
+class3f0a7fdf01a6.htm
+class3f0a7fdf01a6.txt
+
+
+(
+)
+<<Actor>> Invoicer
+../../../webviewer/41.jpg
+class3f0a7fdf01a9.htm
+class3f0a7fdf01a9.txt
+
+
+(
+)
+<<Actor>> AccountOwner
+../../../webviewer/41.jpg
+class40ed5a5c01ea.htm
+class40ed5a5c01ea.txt
+
+
+(
+)
+<<Actor>> AccountServicer
+../../../webviewer/41.jpg
+class40ed5a8a02cc.htm
+class40ed5a8a02cc.txt
+
+
+(
+)
+<<Business Actor>> CaseAssignee
+../../../webviewer/122.jpg
+class414ff79a0118.htm
+class414ff79a0118.txt
+
+
+(
+)
+<<Business Actor>> CaseAssigner
+../../../webviewer/122.jpg
+class414ff7710187.htm
+class414ff7710187.txt
+
+
+(
+)
+<<Business Actor>> InvestigationManager
+../../../webviewer/122.jpg
+class40a0a0ad0110.htm
+class40a0a0ad0110.txt
+
+
+(
+)
+Associations
+../../../webviewer/assoccat.gif
+
+
+
+
+(
+)

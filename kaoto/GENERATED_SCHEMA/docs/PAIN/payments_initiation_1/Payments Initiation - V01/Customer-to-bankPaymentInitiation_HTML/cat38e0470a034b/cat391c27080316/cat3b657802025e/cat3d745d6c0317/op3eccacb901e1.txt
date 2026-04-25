@@ -1,0 +1,4 @@
+If PaymentMethodByFirstAgent is CHK, then PaymentTransaction/ChequeInstruction is optional.
+If PaymentMethodByFirstAgent is different from CHK, then PaymentTransaction/ChequeInstruction is not allowed.
+
+Rule rationale: ChequeInstructionDetails may be present if the payment method is Cheque. It must not be present if the payment method is 'Transfer'.

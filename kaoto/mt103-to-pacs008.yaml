@@ -1,0 +1,25 @@
+# DEP: org.apache.camel.quarkus:camel-quarkus-joor:3.15.0
+# DEP: org.apache.camel.quarkus:camel-quarkus-swift:3.15.0
+# DEP: com.prowidesoftware:pw-swift-core:SRU2025-10.3.12
+
+## DEP: org.apache.camel.quarkus:camel-quarkus-joor:3.15.0
+## DEP: org.apache.camel.quarkus:camel-quarkus-swift:3.15.0
+## DEP: com.prowidesoftware:pw-swift-core:SRU2025-10.3.12
+- route:
+    id: forward-mt103-to-pacs008-service
+    from:
+      uri: "file:input/MT?noop=true&include=.*\\.txt"
+      steps:
+        - log: "Forward Translation Started: ${file:name}"
+        - unmarshal:
+            swiftMt: {}
+        - setBody:
+            joor: |
+              var mt = (com.prowidesoftware.swift.model.mt.AbstractMT) body;
+              return mt.xml();
+        - log: "XML for XSLT: ${body}"
+        - to: "xslt-saxon:file:GENERATED_SCHEMA/mappings/SRU_25/pacs.008/Base_MT103_to_pa\
+            cs008.xslt"
+        - log: "Forward Translation Complete: ${file:name}"
+        - to: "file:output/MX?fileName=${file:name.noext}.xml"
+        - log: "Target Message: ${body}"

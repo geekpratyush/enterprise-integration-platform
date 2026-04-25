@@ -1,0 +1,1 @@
+Bank Identifier Code.  code allocated to a financial institution by a Registration Authority under an international identification scheme, as described in the latest edition of the international standard ISO 9362 "Banking - Banking telecommunication messages - Bank identifier codes".

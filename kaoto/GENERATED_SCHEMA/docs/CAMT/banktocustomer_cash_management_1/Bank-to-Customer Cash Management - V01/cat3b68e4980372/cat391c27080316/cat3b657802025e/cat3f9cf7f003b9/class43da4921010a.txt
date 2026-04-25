@@ -1,0 +1,1 @@
+Information used to calculate the tax.

@@ -1,0 +1,1 @@
+If Issuer contains the value NewYorkClearingHouse, then Scheme must be present and may only contain the value USCH (NewYorkClearingHouseUniversalIdentifier) or USCP (NewYorkClearingHouseParticipantIdentifier).

@@ -1,0 +1,2 @@
+Format of the account number specified is not valid for local Sort/National Clearing Code.
+

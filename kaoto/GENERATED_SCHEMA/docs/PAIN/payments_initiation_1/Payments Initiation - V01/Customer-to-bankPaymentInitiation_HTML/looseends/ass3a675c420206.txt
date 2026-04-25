@@ -1,0 +1,1 @@
+Market in which a trade transaction has been executed.

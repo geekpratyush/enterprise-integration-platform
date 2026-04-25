@@ -1,0 +1,1 @@
+Indicates whether the instruments is backed by any kind of asset or not.

@@ -1,0 +1,1 @@
+At least one message element in the list (PreviousReference, OtherReference, AccountApplicationIdentification) must be present.

@@ -1,0 +1,1 @@
+Specifies that the execution was subject to best execution rules as defined by MiFID.

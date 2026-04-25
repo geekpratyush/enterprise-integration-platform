@@ -1,0 +1,1 @@
+Settlement done by netting amounts (for trades in the same currency and for the same value date).

@@ -1,0 +1,3 @@
+Unique and unambiguous identifier of a return transaction, assigned by a sending party.
+
+Usage: the return transaction identification can be used for reconciliation or to link tasks relating to the return payment transaction.

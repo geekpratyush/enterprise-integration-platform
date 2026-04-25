@@ -1,0 +1,1 @@
+Provides the place of listing using a market identifier code (MIC).

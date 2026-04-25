@@ -1,0 +1,1 @@
+Specifies the type of product characteristic by means of a code.

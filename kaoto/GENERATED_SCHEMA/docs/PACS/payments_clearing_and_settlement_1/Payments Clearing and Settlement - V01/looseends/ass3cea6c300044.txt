@@ -1,0 +1,1 @@
+Person or department responsible for managing the recovery functions related to a system.

@@ -1,0 +1,1 @@
+If CurrentYear is not present then PreviousYears is mandatory. If CurrentYear is present then PreviousYears is optional.

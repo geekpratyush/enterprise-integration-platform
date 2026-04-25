@@ -1,0 +1,1 @@
+If the initiating party requested that the final party (ie the beneficiary) is paid by cheque by the first agent, the first agent can send the cheques either to the final party or to the initiating party, depending on what the initiating party requested.

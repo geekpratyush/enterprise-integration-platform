@@ -1,0 +1,1 @@
+Security held in an account on which the balance is calculated.

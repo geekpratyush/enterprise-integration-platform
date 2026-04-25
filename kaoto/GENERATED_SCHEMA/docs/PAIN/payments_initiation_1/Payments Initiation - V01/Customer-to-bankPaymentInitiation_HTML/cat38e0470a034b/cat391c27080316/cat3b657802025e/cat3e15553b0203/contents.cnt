@@ -1,0 +1,564 @@
+SwitchSubscriptionLeg
+../../../../webviewer/18.jpg
+dgm3e15554601ff.htm
+
+
+
+(
+)
+SwitchSubscriptionLeg_ISA
+../../../../webviewer/18.jpg
+dgm42034b5c00f0.htm
+
+
+
+(
+)
+SwitchSubscriptionLeg_1
+../../../../webviewer/18.jpg
+dgm42034b4a01a8.htm
+
+
+
+(
+)
+<<MessageComponent>> SwitchSubscriptionLegOrder1
+../../../../webviewer/143.jpg
+class3e0b28fe05b0.htm
+class3e0b28fe05b0.txt
+
+
+(
+GrossAmountIndicator[0..1]
+../../../../webviewer/31.jpg
+att3f1f8fea0152.htm
+
+
+
+(
+)
+IncomePreference[0..1]
+../../../../webviewer/31.jpg
+att3f1f8fea0170.htm
+
+
+
+(
+)
+PhysicalDeliveryIndicator
+../../../../webviewer/31.jpg
+att3f97eeda038a.htm
+att3f97eeda038a.txt
+
+
+(
+)
+LegIdentification
+../../../../webviewer/33.jpg
+att3fa8d5250148.htm
+att3fa8d5250148.txt
+
+
+(
+)
+TaxDetails ( Tax1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e0b28fe05af.htm
+
+
+
+ChargeDetails ( Charge1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e0b28fe05c5.htm
+
+
+
+CommissionDetails ( Commission1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e0b28fe05cd.htm
+
+
+
+FinancialInstrumentDetails ( FinancialInstrument1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e0b28fe05d5.htm
+
+
+
+theSwitchSubscriptionLeg ( SwitchSubscriptionLeg )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e1555f10309.htm
+../../../../looseends/role3e1555f10309.txt
+
+
+PhysicalDeliveryDetails ( NameAndAddress1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f97ef76000f.htm
+
+
+
+SettlementAndCustodyDetails ( FundSettlementParameters2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f9d1eed00fa.htm
+
+
+
+theSwitchOrder1 ( SwitchOrder1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e0b28fe05bb.htm
+
+
+
+FinancialInstrumentQuantityChoice ( FinancialInstrumentQuantity2Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f9fe554000f.htm
+
+
+
+theSwitchSubscriptionLegOrder2 ( SwitchSubscriptionLegOrder2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41920b920291.htm
+
+
+
+<<Textual>> PhysicalDeliveryDetailsRule
+../../../../webviewer/36.jpg
+op3f97eee8003e.htm
+op3f97eee8003e.txt
+
+
+(
+)
+<<Textual>> GrossAmountIndicatorRule
+../../../../webviewer/36.jpg
+op3f9d2dbc005d.htm
+op3f9d2dbc005d.txt
+
+
+(
+)
+)
+<<MessageComponent>> SwitchSubscriptionLegOrder2
+../../../../webviewer/143.jpg
+class41920b0b0058.htm
+class41920b0b0058.txt
+
+
+(
+LegIdentification [0..1]
+../../../../webviewer/33.jpg
+att41920b0b0210.htm
+att41920b0b0210.txt
+
+
+(
+)
+IncomePreference[0..1]
+../../../../webviewer/31.jpg
+att41920b0b006c.htm
+
+
+
+(
+)
+RequestedSettlementCurrency[0..1]
+../../../../webviewer/31.jpg
+att41b712300229.htm
+
+
+
+(
+)
+RequestedNAVCurrency[0..1]
+../../../../webviewer/31.jpg
+att41b712300251.htm
+
+
+
+(
+)
+PhysicalDeliveryIndicator
+../../../../webviewer/31.jpg
+att41920b0b0076.htm
+att41920b0b0076.txt
+
+
+(
+)
+theSwitchSubscriptionLeg ( SwitchSubscriptionLeg )
+../../../../webviewer/82.jpg
+../../../../looseends/role41920b0b021d.htm
+
+
+
+FinancialInstrumentDetails ( FinancialInstrument6 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41920b0b02b1.htm
+
+
+
+TaxDetails ( Tax6 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41920b0b02e6.htm
+
+
+
+FinancialInstrumentQuantityChoice ( FinancialInstrumentQuantity4Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role41920b0b0281.htm
+
+
+
+ChargeDetails ( Charge8 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41920b0b02c7.htm
+
+
+
+CommissionDetails ( Commission6 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41920b0b02d1.htm
+
+
+
+SettlementAndCustodyDetails ( FundSettlementParameters4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41920b0b0228.htm
+
+
+
+PhysicalDeliveryDetails ( NameAndAddress4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41920b0b0231.htm
+
+
+
+theSwitchOrder2 ( SwitchOrder2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role419209c30101.htm
+
+
+
+theSwitchSubscriptionLegOrder1 ( SwitchSubscriptionLegOrder1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41920b9202af.htm
+
+
+
+<<Textual>> PhysicalDeliveryDetailsRule
+../../../../webviewer/36.jpg
+op41920b0b02f7.htm
+op41920b0b02f7.txt
+
+
+(
+)
+)
+Associations
+../../../../webviewer/assoccat.gif
+
+
+
+
+(
+Association (TaxDetails:Tax1) (theSwitchSubscriptionLegOrder1:SwitchSubscriptionLegOrder1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3e0b28fe05ac.htm
+../../../../looseends/ass3e0b28fe05ac.txt
+
+
+(
+Tax1 ( TaxDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e0b28fe05ad.htm
+
+
+
+SwitchSubscriptionLegOrder1 ( theSwitchSubscriptionLegOrder1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e0b28fe05af.htm
+
+
+
+)
+Association (ChargeDetails:Charge1) (theSwitchSubscriptionLegOrder1:SwitchSubscriptionLegOrder1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3e0b28fe05c2.htm
+../../../../looseends/ass3e0b28fe05c2.txt
+
+
+(
+Charge1 ( ChargeDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e0b28fe05c3.htm
+
+
+
+SwitchSubscriptionLegOrder1 ( theSwitchSubscriptionLegOrder1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e0b28fe05c5.htm
+
+
+
+)
+Association (CommissionDetails:Commission1) (theSwitchSubscriptionLegOrder1:SwitchSubscriptionLegOrder1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3e0b28fe05ca.htm
+../../../../looseends/ass3e0b28fe05ca.txt
+
+
+(
+Commission1 ( CommissionDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e0b28fe05cb.htm
+
+
+
+SwitchSubscriptionLegOrder1 ( theSwitchSubscriptionLegOrder1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e0b28fe05cd.htm
+
+
+
+)
+Association (FinancialInstrumentDetails:FinancialInstrument1) (theSwitchSubscriptionLegOrder1:SwitchSubscriptionLegOrder1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3e0b28fe05d2.htm
+../../../../looseends/ass3e0b28fe05d2.txt
+
+
+(
+FinancialInstrument1 ( FinancialInstrumentDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e0b28fe05d3.htm
+
+
+
+SwitchSubscriptionLegOrder1 ( theSwitchSubscriptionLegOrder1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e0b28fe05d5.htm
+
+
+
+)
+<<SWSTrace>> (theSwitchSubscriptionLeg:SwitchSubscriptionLeg) (theSwitchSubscriptionLegOrder1:SwitchSubscriptionLegOrder1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3e1555f10179.htm
+
+
+
+(
+SwitchSubscriptionLeg ( theSwitchSubscriptionLeg )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e1555f102cd.htm
+
+
+
+SwitchSubscriptionLegOrder1 ( theSwitchSubscriptionLegOrder1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e1555f10309.htm
+../../../../looseends/role3e1555f10309.txt
+
+
+)
+Association (PhysicalDeliveryDetails:NameAndAddress1) (theSwitchSubscriptionLegOrder1:SwitchSubscriptionLegOrder1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3f97ef740280.htm
+
+
+
+(
+NameAndAddress1 ( PhysicalDeliveryDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f97ef750399.htm
+
+
+
+SwitchSubscriptionLegOrder1 ( theSwitchSubscriptionLegOrder1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f97ef76000f.htm
+
+
+
+)
+Association (SettlementAndCustodyDetails:FundSettlementParameters2) (theSwitchSubscriptionLegOrder1:SwitchSubscriptionLegOrder1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3f9d1eeb0399.htm
+../../../../looseends/ass3f9d1eeb0399.txt
+
+
+(
+FundSettlementParameters2 ( SettlementAndCustodyDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f9d1eed00bb.htm
+
+
+
+SwitchSubscriptionLegOrder1 ( theSwitchSubscriptionLegOrder1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f9d1eed00fa.htm
+
+
+
+)
+<<SWSTrace>> (theSwitchSubscriptionLeg:SwitchSubscriptionLeg) (theSwitchSubscriptionLegOrder2:SwitchSubscriptionLegOrder2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass41920b0b021a.htm
+
+
+
+(
+SwitchSubscriptionLeg ( theSwitchSubscriptionLeg )
+../../../../webviewer/82.jpg
+../../../../looseends/role41920b0b021b.htm
+
+
+
+SwitchSubscriptionLegOrder2 ( theSwitchSubscriptionLegOrder2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41920b0b021d.htm
+
+
+
+)
+Association (FinancialInstrumentDetails:FinancialInstrument6) (theSwitchSubscriptionLegOrder2:SwitchSubscriptionLegOrder2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass41920b0b02a6.htm
+../../../../looseends/ass41920b0b02a6.txt
+
+
+(
+FinancialInstrument6 ( FinancialInstrumentDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role41920b0b02a7.htm
+
+
+
+SwitchSubscriptionLegOrder2 ( theSwitchSubscriptionLegOrder2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41920b0b02b1.htm
+
+
+
+)
+Association (TaxDetails:Tax6) (theSwitchSubscriptionLegOrder2:SwitchSubscriptionLegOrder2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass41920b0b02e3.htm
+../../../../looseends/ass41920b0b02e3.txt
+
+
+(
+Tax6 ( TaxDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role41920b0b02e4.htm
+
+
+
+SwitchSubscriptionLegOrder2 ( theSwitchSubscriptionLegOrder2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41920b0b02e6.htm
+
+
+
+)
+Association (FinancialInstrumentQuantityChoice:FinancialInstrumentQuantity4Choice) (theSwitchSubscriptionLegOrder2:SwitchSubscriptionLegOrder2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass41920b0b027e.htm
+../../../../looseends/ass41920b0b027e.txt
+
+
+(
+FinancialInstrumentQuantity4Choice ( FinancialInstrumentQuantityChoice )
+../../../../webviewer/82.jpg
+../../../../looseends/role41920b0b027f.htm
+
+
+
+SwitchSubscriptionLegOrder2 ( theSwitchSubscriptionLegOrder2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41920b0b0281.htm
+
+
+
+)
+Association (ChargeDetails:Charge8) (theSwitchSubscriptionLegOrder2:SwitchSubscriptionLegOrder2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass41920b0b02c4.htm
+../../../../looseends/ass41920b0b02c4.txt
+
+
+(
+Charge8 ( ChargeDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role41920b0b02c5.htm
+
+
+
+SwitchSubscriptionLegOrder2 ( theSwitchSubscriptionLegOrder2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41920b0b02c7.htm
+
+
+
+)
+Association (CommissionDetails:Commission6) (theSwitchSubscriptionLegOrder2:SwitchSubscriptionLegOrder2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass41920b0b02ce.htm
+../../../../looseends/ass41920b0b02ce.txt
+
+
+(
+Commission6 ( CommissionDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role41920b0b02cf.htm
+
+
+
+SwitchSubscriptionLegOrder2 ( theSwitchSubscriptionLegOrder2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41920b0b02d1.htm
+
+
+
+)
+Association (SettlementAndCustodyDetails:FundSettlementParameters4) (theSwitchSubscriptionLegOrder2:SwitchSubscriptionLegOrder2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass41920b0b0225.htm
+../../../../looseends/ass41920b0b0225.txt
+
+
+(
+FundSettlementParameters4 ( SettlementAndCustodyDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role41920b0b0226.htm
+
+
+
+SwitchSubscriptionLegOrder2 ( theSwitchSubscriptionLegOrder2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41920b0b0228.htm
+
+
+
+)
+Association (PhysicalDeliveryDetails:NameAndAddress4) (theSwitchSubscriptionLegOrder2:SwitchSubscriptionLegOrder2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass41920b0b022e.htm
+
+
+
+(
+NameAndAddress4 ( PhysicalDeliveryDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role41920b0b022f.htm
+
+
+
+SwitchSubscriptionLegOrder2 ( theSwitchSubscriptionLegOrder2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41920b0b0231.htm
+
+
+
+)
+)

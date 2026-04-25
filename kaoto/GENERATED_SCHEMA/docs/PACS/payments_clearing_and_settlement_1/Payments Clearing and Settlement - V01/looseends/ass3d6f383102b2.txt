@@ -1,0 +1,1 @@
+Cash account credited from a  standing order mechanism.

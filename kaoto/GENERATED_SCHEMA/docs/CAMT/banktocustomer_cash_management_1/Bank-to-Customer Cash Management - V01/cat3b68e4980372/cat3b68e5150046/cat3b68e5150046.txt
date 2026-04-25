@@ -1,0 +1,2 @@
+Package containing the specification of the business or messaging solution and all individual messages of your project. It contains a sub-package per message (where useful these message packages can be grouped in message sets for which a specific package shall be created - this is up to the model editor to decide to structure it or not).
+Each sub-package contains a class diagram with the message, the message class and the individual message constructs that are local to this message.

@@ -1,0 +1,1 @@
+Limits between which a person's salary is estimated.

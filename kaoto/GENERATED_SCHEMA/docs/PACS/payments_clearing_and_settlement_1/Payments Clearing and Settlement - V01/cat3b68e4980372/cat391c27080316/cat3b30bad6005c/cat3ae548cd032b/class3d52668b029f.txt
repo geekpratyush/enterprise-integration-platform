@@ -1,0 +1,1 @@
+Specifies the nature of a statement update, eg, it is a complete statement.

@@ -1,0 +1,1 @@
+Parameters to be applied on deal amount for orders when the amount is a fractional number.

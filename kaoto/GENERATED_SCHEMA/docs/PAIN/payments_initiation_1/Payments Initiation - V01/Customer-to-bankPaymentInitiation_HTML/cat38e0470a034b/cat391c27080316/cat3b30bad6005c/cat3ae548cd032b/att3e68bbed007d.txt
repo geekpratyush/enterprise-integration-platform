@@ -1,0 +1,1 @@
+Closing Yield Most Recent Month - The yield of a bond based on the closing price as of the most recent month's end.

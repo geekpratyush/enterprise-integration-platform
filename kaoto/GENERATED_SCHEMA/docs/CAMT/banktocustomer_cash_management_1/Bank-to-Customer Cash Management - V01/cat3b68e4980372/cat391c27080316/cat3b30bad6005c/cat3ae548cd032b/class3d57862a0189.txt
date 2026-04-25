@@ -1,0 +1,1 @@
+Number of objects represented as a decimal number, eg, 0.75 or 45.6.

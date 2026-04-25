@@ -1,0 +1,1 @@
+Information related to a party identification or account identification.

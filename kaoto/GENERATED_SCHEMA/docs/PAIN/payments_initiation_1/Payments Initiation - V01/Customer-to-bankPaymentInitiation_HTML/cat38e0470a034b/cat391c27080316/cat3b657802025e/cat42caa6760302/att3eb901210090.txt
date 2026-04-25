@@ -1,0 +1,1 @@
+Identifies the interval period in minutes between each ListStatus you wish to receive. 

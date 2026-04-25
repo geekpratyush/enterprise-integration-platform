@@ -1,0 +1,1 @@
+Balance representing the amount that a financial institution has set aside for a specific reason and which is therefore not available.

@@ -1,0 +1,1 @@
+An order which may be executed in partials or outside the hours of the exchange or other exchange rules.

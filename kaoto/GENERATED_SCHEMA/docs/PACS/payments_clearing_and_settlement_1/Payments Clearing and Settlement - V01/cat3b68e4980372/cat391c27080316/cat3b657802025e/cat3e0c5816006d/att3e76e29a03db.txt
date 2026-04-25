@@ -1,0 +1,1 @@
+Indicates whether the account currency is requested.

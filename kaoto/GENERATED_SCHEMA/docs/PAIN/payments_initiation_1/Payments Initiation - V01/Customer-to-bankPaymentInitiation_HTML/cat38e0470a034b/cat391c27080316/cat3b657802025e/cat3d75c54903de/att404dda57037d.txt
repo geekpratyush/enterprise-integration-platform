@@ -1,0 +1,1 @@
+Specifies the status of a transaction included in the payment initiation

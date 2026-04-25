@@ -1,0 +1,1 @@
+Information concerning the original transactions, to which the status report message refers.

@@ -1,0 +1,1 @@
+Identifier of a security assigned by the Consolidated Tape Association.

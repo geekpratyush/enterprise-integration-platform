@@ -1,0 +1,4 @@
+Credit transfer type that is specific to a user community and is required for use within that user community.
+
+Usage : When available, codes provided by local authorities should be used in the Max35Text format.
+

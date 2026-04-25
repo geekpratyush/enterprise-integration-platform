@@ -1,0 +1,1 @@
+A type of quantity of financial instrument expressed in a relative size.

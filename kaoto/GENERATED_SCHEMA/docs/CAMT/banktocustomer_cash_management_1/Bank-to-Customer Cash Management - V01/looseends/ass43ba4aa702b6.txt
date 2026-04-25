@@ -1,0 +1,1 @@
+Specifies the amount of the premium of a foreign exchange option trade and its settlement place.

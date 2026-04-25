@@ -1,0 +1,1 @@
+Either ExemptionReason or ExtendedExemptionReason may be present but not both.

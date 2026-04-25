@@ -1,0 +1,1 @@
+Specifies the role of a trading party in a transaction.

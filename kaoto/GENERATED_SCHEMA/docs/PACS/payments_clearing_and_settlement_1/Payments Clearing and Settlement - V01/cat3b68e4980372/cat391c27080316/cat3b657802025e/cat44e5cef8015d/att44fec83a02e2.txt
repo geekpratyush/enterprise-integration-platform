@@ -1,0 +1,1 @@
+Indicates whether the investor is eligible to participate in the profits and losses from a new issue.

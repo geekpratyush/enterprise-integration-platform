@@ -1,0 +1,2 @@
+OtherReference should be used for transfers sent by proprietary way or for system references. 
+If OtherReference is present, OtherReference/MessageName must contain 'fax' or 'phone' or 'email', for example.

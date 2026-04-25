@@ -1,0 +1,1 @@
+Specifies the currency of the to be transferred amount, which is different from the currency of the debtor's account.

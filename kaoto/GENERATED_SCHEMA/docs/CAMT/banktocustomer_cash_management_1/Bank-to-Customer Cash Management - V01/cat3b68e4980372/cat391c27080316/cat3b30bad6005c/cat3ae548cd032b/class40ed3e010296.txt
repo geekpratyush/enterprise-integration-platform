@@ -1,0 +1,1 @@
+Indicates the source of a price quotation.

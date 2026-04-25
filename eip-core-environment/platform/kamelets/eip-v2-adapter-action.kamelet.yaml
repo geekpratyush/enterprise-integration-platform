@@ -1,0 +1,46 @@
+apiVersion: camel.apache.org/v1
+kind: Kamelet
+metadata:
+  name: eip-v2-adapter-action
+  labels:
+    camel.apache.org/kamelet.type: "action"
+spec:
+  definition:
+    title: "EIP v2 Audit Adapter"
+    description: "Transforms incoming messages into a standardized Audit v2 JSON structure for persistence."
+    properties:
+      sourceSystem:
+        type: string
+        description: "The originating system of the message."
+        default: "unknown"
+      targetSystem:
+        type: string
+        description: "The destination system of the message."
+        default: "unknown"
+      operation:
+        type: string
+        description: "The business operation being audited."
+        default: "generic-process"
+  template:
+    from:
+      uri: "kamelet:source"
+      steps:
+        - setHeader:
+            name: "audit_message_id"
+            simple: "${id}"
+        - setHeader:
+            name: "audit_correlation_id"
+            simple: "${header.CorrelationId}"
+        - setBody:
+            simple: |
+              {
+                "message_id": "${header.audit_message_id}",
+                "correlation_id": "${header.audit_correlation_id}",
+                "source_system": "{{sourceSystem}}",
+                "target_system": "{{targetSystem}}",
+                "operation": "{{operation}}",
+                "status": "AUDITED",
+                "payload": "${body}"
+              }
+        - marshal:
+            json: {}

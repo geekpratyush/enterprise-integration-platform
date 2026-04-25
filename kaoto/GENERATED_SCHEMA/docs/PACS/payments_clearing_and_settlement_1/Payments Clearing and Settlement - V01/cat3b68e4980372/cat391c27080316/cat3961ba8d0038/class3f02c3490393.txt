@@ -1,0 +1,2 @@
+A broker that sells its services (eg, research, analysis and recommendation), to buy-side parties.
+

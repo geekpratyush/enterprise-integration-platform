@@ -1,0 +1,124 @@
+FIToFICustomerDirectDebitV01Instruction
+../../../../../webviewer/18.jpg
+dgm446a3bbe02e6.htm
+
+
+
+(
+)
+<<Message>> FIToFICustomerDirectDebitV01
+../../../../../webviewer/141.jpg
+class446a3fc903d5.htm
+class446a3fc903d5.txt
+
+
+(
+GroupHeader ( GroupHeader3 )
+../../../../../webviewer/82.jpg
+../../../../../looseends/role446a40080143.htm
+
+
+
+DirectDebitTransactionInformation ( DirectDebitTransactionInformation2 )
+../../../../../webviewer/82.jpg
+../../../../../looseends/role446a4983028d.htm
+
+
+
+<<Textual>> InstructedAgentRule
+../../../../../webviewer/36.jpg
+op4497aa6d0189.htm
+op4497aa6d0189.txt
+
+
+(
+)
+<<Textual>> InstructingAgentRule
+../../../../../webviewer/36.jpg
+op4497aa6d01a7.htm
+op4497aa6d01a7.txt
+
+
+(
+)
+<<Textual>> TotalInterbankSettlementAmount1Rule
+../../../../../webviewer/36.jpg
+op4497acf6035c.htm
+op4497acf6035c.txt
+
+
+(
+)
+<<Textual>> TotalInterbankSettlementAmount2Rule
+../../../../../webviewer/36.jpg
+op4497ad8500f7.htm
+op4497ad8500f7.txt
+
+
+(
+)
+<<Textual>> InterbankSettlementDateRule
+../../../../../webviewer/36.jpg
+op4497adce023e.htm
+op4497adce023e.txt
+
+
+(
+)
+<<Textual>> PaymentTypeInformationRule
+../../../../../webviewer/36.jpg
+op449c1a5b0316.htm
+op449c1a5b0316.txt
+
+
+(
+)
+)
+Associations
+../../../../../webviewer/assoccat.gif
+
+
+
+
+(
+Association (GroupHeader:GroupHeader3) (theFIToFICustomerDirectDebitV01:FIToFICustomerDirectDebitV01)
+../../../../../webviewer/81.jpg
+../../../../../looseends/ass446a400603bf.htm
+../../../../../looseends/ass446a400603bf.txt
+
+
+(
+GroupHeader3 ( GroupHeader )
+../../../../../webviewer/82.jpg
+../../../../../looseends/role446a40080141.htm
+
+
+
+FIToFICustomerDirectDebitV01 ( theFIToFICustomerDirectDebitV01 )
+../../../../../webviewer/82.jpg
+../../../../../looseends/role446a40080143.htm
+
+
+
+)
+Association (DirectDebitTransactionInformation:DirectDebitTransactionInformation2) (theFIToFICustomerDirectDebitV01:FIToFICustomerDirectDebitV01)
+../../../../../webviewer/81.jpg
+../../../../../looseends/ass446a497f02e9.htm
+../../../../../looseends/ass446a497f02e9.txt
+
+
+(
+DirectDebitTransactionInformation2 ( DirectDebitTransactionInformation )
+../../../../../webviewer/82.jpg
+../../../../../looseends/role446a4983028b.htm
+
+
+
+FIToFICustomerDirectDebitV01 ( theFIToFICustomerDirectDebitV01 )
+../../../../../webviewer/82.jpg
+../../../../../looseends/role446a4983028d.htm
+
+
+
+)
+)

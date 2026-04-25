@@ -1,0 +1,2 @@
+Information related to the new price valuation of a financial instrument, which overrides previously sent information.
+

@@ -1,0 +1,1 @@
+Following elements have been changed from mandatory to Optional: CreditDebitIndicator, RelatedReference, Purpose, StatusValue, StatusValueTime

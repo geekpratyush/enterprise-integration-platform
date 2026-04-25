@@ -1,0 +1,1 @@
+Specifies the reason for a message rejected status.

@@ -1,0 +1,1 @@
+Transfer of an amount of money in the books of the account servicer. An advice should be sent back to the account owner.

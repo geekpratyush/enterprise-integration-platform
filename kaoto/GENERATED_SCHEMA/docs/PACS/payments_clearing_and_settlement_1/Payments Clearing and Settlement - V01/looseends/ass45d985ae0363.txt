@@ -1,0 +1,4 @@
+Provides information on the charges included in the entry amount.
+
+Usage : this component is used on entry level in case of batch or aggregate bookings.
+

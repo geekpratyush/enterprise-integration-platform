@@ -1,0 +1,1 @@
+Indicates whether the transaction is exempt from commission.

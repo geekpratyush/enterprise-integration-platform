@@ -1,0 +1,3 @@
+The account owner receives the notification.
+The information contained in the notification may be used for cash positioning, reconciliation, investigations by counterparties, etc.
+

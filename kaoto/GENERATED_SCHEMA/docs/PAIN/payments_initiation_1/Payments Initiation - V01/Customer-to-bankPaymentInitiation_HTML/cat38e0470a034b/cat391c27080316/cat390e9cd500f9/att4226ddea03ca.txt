@@ -1,0 +1,1 @@
+Specifies the applicable Incoterm by means of a code.

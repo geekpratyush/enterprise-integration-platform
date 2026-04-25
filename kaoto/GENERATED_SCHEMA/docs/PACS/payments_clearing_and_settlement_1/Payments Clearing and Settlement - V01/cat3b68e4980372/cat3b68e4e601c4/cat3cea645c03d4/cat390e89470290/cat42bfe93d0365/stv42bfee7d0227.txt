@@ -1,0 +1,1 @@
+The PaymentClearingAgent prepares the outgoing payment instruction and selects the next PaymentClearingAgent and/or the clearing channel through which the payment instruction will be cleared and/or settled.

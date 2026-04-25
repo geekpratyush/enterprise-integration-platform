@@ -1,0 +1,1 @@
+Transaction is the settlement of a trade, eg, a securities transaction.

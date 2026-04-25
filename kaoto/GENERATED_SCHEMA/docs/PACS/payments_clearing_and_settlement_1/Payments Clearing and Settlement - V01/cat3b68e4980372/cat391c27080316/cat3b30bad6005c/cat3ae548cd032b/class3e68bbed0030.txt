@@ -1,0 +1,1 @@
+Contains the type of price to which the discretion offset is related to.

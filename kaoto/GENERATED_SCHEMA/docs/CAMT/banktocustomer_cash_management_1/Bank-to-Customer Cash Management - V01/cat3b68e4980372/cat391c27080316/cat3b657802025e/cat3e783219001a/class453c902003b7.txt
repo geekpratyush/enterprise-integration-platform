@@ -1,0 +1,1 @@
+Interest type is expressed as a code or a text.

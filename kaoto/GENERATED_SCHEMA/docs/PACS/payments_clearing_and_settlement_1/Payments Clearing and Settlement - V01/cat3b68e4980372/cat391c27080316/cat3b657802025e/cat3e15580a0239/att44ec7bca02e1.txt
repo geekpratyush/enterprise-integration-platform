@@ -1,0 +1,1 @@
+Method by which the transaction is settled.

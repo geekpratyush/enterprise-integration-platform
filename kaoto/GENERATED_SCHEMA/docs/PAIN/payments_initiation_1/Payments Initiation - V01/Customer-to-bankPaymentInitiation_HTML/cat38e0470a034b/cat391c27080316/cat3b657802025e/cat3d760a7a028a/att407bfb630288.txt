@@ -1,0 +1,3 @@
+Unique and unambiguous identification of a payment transaction, as assigned by any of the parties on the initiating side, that will be passed on throughout the entire end-to-end chain. 
+
+Usage: the end-to-end identification can be used for reconciliation or to link tasks relating to the payment transaction and can be included in several related messages to the payment transaction between forwarding or first agent and debtor or initiating party, and between final agent and creditor.  

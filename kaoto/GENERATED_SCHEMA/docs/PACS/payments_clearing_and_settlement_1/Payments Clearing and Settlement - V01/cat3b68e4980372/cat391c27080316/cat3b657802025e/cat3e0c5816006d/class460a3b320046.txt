@@ -1,0 +1,1 @@
+Reason for which a transaction report is rejected.

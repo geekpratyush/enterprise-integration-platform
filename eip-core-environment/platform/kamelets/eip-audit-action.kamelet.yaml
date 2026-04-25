@@ -1,0 +1,71 @@
+apiVersion: camel.apache.org/v1alpha1
+kind: Kamelet
+metadata:
+  name: eip-audit-action
+  labels:
+    camel.apache.org/kamelet.type: "action"
+spec:
+  definition:
+    title: "EIP Audit Action"
+    description: "Standardized Audit Event Generator. Reshapes exchange into the EIP Audit Envelope (JSON) with optional encryption."
+    properties:
+      encryption:
+        title: Encryption Type
+        description: "NONE, BASE64, or AES (AES requires EIP_AUDIT_ENCRYPTION_KEY env or password param)."
+        type: string
+        default: "NONE"
+        enum: ["NONE", "BASE64", "AES"]
+      password:
+        title: Manual Password
+        description: "A manual encryption key/password to override the default environment variable."
+        type: string
+        default: ""
+      cryptoBean:
+        title: Crypto Bean
+        description: "The bean for AES encryption."
+        type: string
+        default: "auditEncryptionProcessor"
+  template:
+    from:
+      uri: "kamelet:source"
+      steps:
+        # Step 0: Set manual key override if provided
+        - choice:
+            when:
+              - simple: "'{{password}}' != ''"
+                steps:
+                  - setHeader:
+                      name: "EIP_AUDIT_KEY_OVERRIDE"
+                      constant: "{{password}}"
+        # Step 1: Initialize standardized envelope Map
+        - setBody:
+            groovy: |
+              def envelope = [:]
+              envelope.audit_id = "AUD-${java.util.UUID.randomUUID().toString()}".toString()
+              envelope.timestamp = java.time.LocalDateTime.now().toString()
+              envelope.correlation_id = (request.headers.get('breadcrumbId') ?: request.headers.get('CamelBreadcrumbId') ?: "N/A").toString()
+              envelope.route_id = (exchange.fromRouteId ?: "N/A").toString()
+              envelope.payload = request.body
+              envelope.is_encrypted = false
+              return envelope
+        
+        # Step 2: Conditional Encryption
+        - choice:
+            when:
+              - simple: "'{{encryption}}' == 'BASE64'"
+                steps:
+                  - setBody:
+                      groovy: |
+                        def b = request.body
+                        if (b.payload != null) {
+                            b.payload = java.util.Base64.getEncoder().encodeToString(b.payload.toString().getBytes()).toString()
+                            b.is_encrypted = true
+                        }
+                        return b
+              - simple: "'{{encryption}}' == 'AES'"
+                steps:
+                  - to: "bean:{{cryptoBean}}"
+
+        
+        - log: ">>> [AUDIT-ACTION] Generated Audit Event ({{encryption}}): ${body}"
+

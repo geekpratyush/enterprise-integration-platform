@@ -1,0 +1,2 @@
+Unique identification assigned by the TSU to the transaction.
+This identification is to be used in any communication between the parties and with the TSU.

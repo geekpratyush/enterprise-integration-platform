@@ -1,0 +1,1 @@
+Identification of the payment instruction (eg, field 20 of an MT 103) when meaningful to the case assignee.

@@ -1,0 +1,1 @@
+The agent undertakes the necessary risk checks when accepting the payment, before execution date has been reached.  Examples of this risk assessment are :  check limits, embargo, money laundering information, etc 

@@ -1,0 +1,1 @@
+Information related to the account from which the financial instrument is to be withdrawn.

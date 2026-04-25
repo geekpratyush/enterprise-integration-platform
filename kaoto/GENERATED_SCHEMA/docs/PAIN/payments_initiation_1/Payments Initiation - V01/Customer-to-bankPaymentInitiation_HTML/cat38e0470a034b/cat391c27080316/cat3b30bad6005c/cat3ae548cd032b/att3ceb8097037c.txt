@@ -1,0 +1,1 @@
+Securities are blocked, eg, because of a corporate action event or re-alignment.

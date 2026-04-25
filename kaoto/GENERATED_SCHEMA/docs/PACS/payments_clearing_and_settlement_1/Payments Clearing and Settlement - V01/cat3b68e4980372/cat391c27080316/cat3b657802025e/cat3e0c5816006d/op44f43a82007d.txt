@@ -1,0 +1,1 @@
+If the confirmation message was not solicited by the receiver, then the value of the OrderReference element in every occurrence of MultipleExecutionDetails/IndividualExecutionDetails must be UNSOLICITED.

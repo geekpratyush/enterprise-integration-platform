@@ -1,0 +1,1 @@
+Specifies whether the adjustment must be substracted or added to the total amount.

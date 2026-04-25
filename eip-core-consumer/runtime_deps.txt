@@ -1,0 +1,1301 @@
+
+> Task :dependencies
+
+------------------------------------------------------------
+Root project 'eip-core-consumer'
+------------------------------------------------------------
+
+runtimeClasspath - Runtime classpath of source set 'main'.
++--- io.quarkus:quarkus-bom:3.34.0
+|    +--- io.quarkus:quarkus-jdbc-mssql:3.34.0 (c)
+|    +--- io.quarkus:quarkus-jdbc-mysql:3.34.0 (c)
+|    +--- io.quarkus:quarkus-jdbc-oracle:3.34.0 (c)
+|    +--- io.quarkus:quarkus-jdbc-postgresql:3.34.0 (c)
+|    +--- io.quarkus:quarkus-tls-registry:3.34.0 -> 3.34.3 (c)
+|    +--- io.quarkus:quarkus-narayana-jta:3.34.0 -> 3.34.3 (c)
+|    +--- io.quarkus:quarkus-liquibase:3.34.0 (c)
+|    +--- io.quarkus:quarkus-core:3.34.0 -> 3.34.3 (c)
+|    +--- io.quarkus:quarkus-arc:3.34.0 -> 3.34.3 (c)
+|    +--- io.netty:netty-transport:4.1.130.Final -> 4.2.8.Final (c)
+|    +--- io.netty:netty-handler:4.1.130.Final -> 4.2.8.Final (c)
+|    +--- io.netty:netty-codec-http:4.1.130.Final -> 4.2.8.Final (c)
+|    +--- io.netty:netty-transport-native-epoll:4.1.130.Final -> 4.2.8.Final (c)
+|    +--- io.netty:netty-handler-proxy:4.1.130.Final -> 4.2.8.Final (c)
+|    +--- io.quarkus:quarkus-tls-registry-spi:3.34.0 -> 3.34.3 (c)
+|    +--- io.quarkus:quarkus-credentials:3.34.0 -> 3.34.3 (c)
+|    +--- io.smallrye.certs:smallrye-private-key-pem-parser:0.9.2 (c)
+|    +--- org.scala-lang:scala-library:2.13.16 -> 2.13.18 (c)
+|    +--- com.fasterxml.jackson.core:jackson-core:2.21.1 (c)
+|    +--- jakarta.xml.bind:jakarta.xml.bind-api:4.0.5 (c)
+|    +--- org.bouncycastle:bcprov-jdk18on:1.83 (c)
+|    +--- org.bouncycastle:bcpkix-jdk18on:1.83 (c)
+|    +--- org.slf4j:slf4j-api:2.0.17 (c)
+|    +--- org.bouncycastle:bcutil-jdk18on:1.83 (c)
+|    +--- jakarta.transaction:jakarta.transaction-api:2.0.1 (c)
+|    +--- io.quarkus:quarkus-agroal:3.34.0 (c)
+|    +--- com.microsoft.sqlserver:mssql-jdbc:13.2.1.jre11 (c)
+|    +--- org.antlr:antlr4-runtime:4.13.2 (c)
+|    +--- com.mysql:mysql-connector-j:9.6.0 (c)
+|    +--- com.oracle.database.jdbc:ojdbc17:23.26.0.0.0 (c)
+|    +--- com.oracle.database.nls:orai18n:23.26.0.0.0 (c)
+|    +--- org.postgresql:postgresql:42.7.10 (c)
+|    +--- io.quarkus:quarkus-vertx:3.34.0 -> 3.34.3 (c)
+|    +--- io.quarkus:quarkus-jaxp:3.34.0 (c)
+|    +--- io.quarkus:quarkus-jackson:3.34.0 (c)
+|    +--- com.fasterxml.jackson.module:jackson-module-jakarta-xmlbind-annotations:2.21.1 (c)
+|    +--- org.eclipse.angus:angus-activation:2.0.3 (c)
+|    +--- io.quarkus:quarkus-kafka-client:3.34.0 (c)
+|    +--- at.yawk.lz4:lz4-java:1.10.1 -> 1.10.3 (c)
+|    +--- io.quarkus:quarkus-smallrye-fault-tolerance:3.34.0 (c)
+|    +--- io.smallrye:smallrye-fault-tolerance-standalone:6.10.0 (c)
+|    +--- io.quarkus:quarkus-transaction-annotations:3.34.0 -> 3.34.3 (c)
+|    +--- io.quarkus:quarkus-mutiny:3.34.0 -> 3.34.3 (c)
+|    +--- io.quarkus:quarkus-datasource-common:3.34.0 -> 3.34.3 (c)
+|    +--- io.smallrye:smallrye-context-propagation-jta:2.3.0 (c)
+|    +--- io.smallrye.reactive:smallrye-reactive-converter-api:3.0.3 (c)
+|    +--- io.smallrye.reactive:smallrye-reactive-converter-mutiny:3.0.3 (c)
+|    +--- io.smallrye.reactive:mutiny-zero-flow-adapters:1.1.1 (c)
+|    +--- org.jboss.narayana.jta:narayana-jta:7.3.3.Final (c)
+|    +--- org.jboss.narayana.jts:narayana-jts-integration:7.3.3.Final (c)
+|    +--- io.quarkus:quarkus-liquibase-common:3.34.0 (c)
+|    +--- org.liquibase:liquibase-core:4.33.0 (c)
+|    +--- org.osgi:osgi.core:6.0.0 (c)
+|    +--- org.yaml:snakeyaml:2.6 (c)
+|    +--- io.quarkus:quarkus-jaxb:3.34.0 (c)
+|    +--- io.quarkus:quarkus-smallrye-health:3.34.0 (c)
+|    +--- jakarta.annotation:jakarta.annotation-api:3.0.0 (c)
+|    +--- jakarta.enterprise:jakarta.enterprise.cdi-api:4.1.0 (c)
+|    +--- jakarta.inject:jakarta.inject-api:2.0.1 (c)
+|    +--- io.smallrye.common:smallrye-common-os:2.17.0 (c)
+|    +--- io.quarkus:quarkus-ide-launcher:3.34.0 -> 3.34.3 (c)
+|    +--- io.quarkus:quarkus-development-mode-spi:3.34.0 -> 3.34.3 (c)
+|    +--- io.smallrye.config:smallrye-config:3.16.0 (c)
+|    +--- org.jboss.logging:jboss-logging:3.6.2.Final -> 3.6.3.Final (c)
+|    +--- org.jboss.logmanager:jboss-logmanager:3.2.1.Final (c)
+|    +--- org.jboss.threads:jboss-threads:3.9.2 (c)
+|    +--- org.jboss.slf4j:slf4j-jboss-logmanager:2.0.2.Final (c)
+|    +--- org.wildfly.common:wildfly-common:2.0.1 (c)
+|    +--- io.quarkus:quarkus-value-registry:3.34.0 -> 3.34.3 (c)
+|    +--- io.quarkus:quarkus-bootstrap-runner:3.34.0 -> 3.34.3 (c)
+|    +--- io.quarkus:quarkus-fs-util:1.3.0 (c)
+|    +--- io.quarkus.arc:arc:3.34.0 -> 3.34.3 (c)
+|    +--- org.eclipse.microprofile.context-propagation:microprofile-context-propagation-api:1.3 (c)
+|    +--- io.netty:netty-common:4.1.130.Final -> 4.2.8.Final (c)
+|    +--- io.netty:netty-buffer:4.1.130.Final -> 4.2.8.Final (c)
+|    +--- io.netty:netty-resolver:4.1.130.Final -> 4.2.8.Final (c)
+|    +--- io.netty:netty-transport-native-unix-common:4.1.130.Final -> 4.2.8.Final (c)
+|    +--- io.netty:netty-transport-classes-epoll:4.1.130.Final -> 4.2.8.Final (c)
+|    +--- io.netty:netty-codec-socks:4.1.130.Final -> 4.2.8.Final (c)
+|    +--- io.smallrye.common:smallrye-common-constraint:2.17.0 (c)
+|    +--- io.vertx:vertx-core:4.5.25 -> 4.5.26 (c)
+|    +--- commons-io:commons-io:2.21.0 (c)
+|    +--- com.fasterxml.jackson.core:jackson-annotations:2.21 (c)
+|    +--- jakarta.activation:jakarta.activation-api:2.1.4 (c)
+|    +--- io.netty:netty-transport-native-kqueue:4.1.130.Final (c)
+|    +--- io.netty:netty-transport-classes-kqueue:4.1.130.Final (c)
+|    +--- io.netty:netty-codec:4.1.130.Final -> 4.1.132.Final (c)
+|    +--- io.quarkus:quarkus-datasource:3.34.0 (c)
+|    +--- io.agroal:agroal-api:3.0 (c)
+|    +--- io.agroal:agroal-narayana:3.0 (c)
+|    +--- io.agroal:agroal-pool:3.0 (c)
+|    +--- io.quarkus:quarkus-netty:3.34.0 -> 3.34.3 (c)
+|    +--- co.elastic.clients:elasticsearch-java:9.2.3 -> 9.3.0 (c)
+|    +--- org.elasticsearch.client:elasticsearch-rest-client-sniffer:9.2.3 -> 9.3.0 (c)
+|    +--- com.fasterxml.jackson.core:jackson-databind:2.21.1 (c)
+|    +--- org.jboss.logging:commons-logging-jboss-logging:2.0.0.Final (c)
+|    +--- com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.21.1 (c)
+|    +--- com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.21.1 (c)
+|    +--- com.fasterxml.jackson.module:jackson-module-parameter-names:2.21.1 (c)
+|    +--- io.micrometer:micrometer-observation:1.16.3 (c)
+|    +--- org.apache.kafka:kafka-clients:4.1.1 (c)
+|    +--- io.quarkus:quarkus-devservices:3.34.0 (c)
+|    +--- io.smallrye:smallrye-fault-tolerance:6.10.0 (c)
+|    +--- io.quarkus:quarkus-smallrye-context-propagation:3.34.0 -> 3.34.3 (c)
+|    +--- io.smallrye:smallrye-fault-tolerance-context-propagation:6.10.0 (c)
+|    +--- io.smallrye:smallrye-fault-tolerance-mutiny:6.10.0 (c)
+|    +--- io.smallrye:smallrye-fault-tolerance-api:6.10.0 (c)
+|    +--- io.smallrye:smallrye-fault-tolerance-core:6.10.0 (c)
+|    +--- io.smallrye:smallrye-fault-tolerance-apiimpl:6.10.0 (c)
+|    +--- io.smallrye.reactive:mutiny:3.1.1 (c)
+|    +--- io.smallrye.reactive:mutiny-smallrye-context-propagation:3.1.1 (c)
+|    +--- org.reactivestreams:reactive-streams:1.0.4 (c)
+|    +--- jakarta.el:jakarta.el-api:6.0.1 (c)
+|    +--- jakarta.interceptor:jakarta.interceptor-api:2.2.0 (c)
+|    +--- org.jboss:jboss-transaction-spi:8.0.0.Final (c)
+|    +--- jakarta.resource:jakarta.resource-api:2.1.0 (c)
+|    +--- org.eclipse.microprofile.reactive-streams-operators:microprofile-reactive-streams-operators-api:3.0.1 (c)
+|    +--- org.apache.commons:commons-text:1.15.0 (c)
+|    +--- org.apache.commons:commons-lang3:3.20.0 (c)
+|    +--- org.glassfish.jaxb:jaxb-runtime:4.0.6 (c)
+|    +--- org.eclipse.microprofile.config:microprofile-config-api:3.1 -> 3.1.1-RC1 (c)
+|    +--- io.smallrye:smallrye-health:4.3.0 (c)
+|    +--- io.smallrye:smallrye-health-provided-checks:4.3.0 (c)
+|    +--- io.quarkus:quarkus-vertx-http:3.34.0 (c)
+|    +--- io.quarkus:quarkus-jsonp:3.34.0 (c)
+|    +--- io.smallrye.config:smallrye-config-core:3.16.0 (c)
+|    +--- io.smallrye.common:smallrye-common-cpu:2.17.0 (c)
+|    +--- io.smallrye.common:smallrye-common-expression:2.17.0 (c)
+|    +--- io.smallrye.common:smallrye-common-net:2.17.0 (c)
+|    +--- io.smallrye.common:smallrye-common-ref:2.17.0 (c)
+|    +--- jakarta.json:jakarta.json-api:2.1.3 (c)
+|    +--- org.eclipse.parsson:parsson:1.1.7 (c)
+|    +--- io.smallrye.common:smallrye-common-annotation:2.17.0 (c)
+|    +--- io.smallrye.common:smallrye-common-function:2.17.0 (c)
+|    +--- io.quarkus:quarkus-classloader-commons:3.34.0 -> 3.34.3 (c)
+|    +--- io.smallrye.common:smallrye-common-io:2.17.0 (c)
+|    +--- org.crac:crac:1.5.0 (c)
+|    +--- io.netty:netty-codec-haproxy:4.1.130.Final -> 4.1.132.Final (c)
+|    +--- io.smallrye.common:smallrye-common-vertx-context:2.17.0 (c)
+|    +--- io.quarkus:quarkus-virtual-threads:3.34.0 -> 3.34.3 (c)
+|    +--- io.quarkus:quarkus-vertx-latebound-mdc-provider:3.34.0 -> 3.34.3 (c)
+|    +--- io.smallrye.reactive:smallrye-mutiny-vertx-core:3.21.5 -> 3.21.6 (c)
+|    +--- io.smallrye:smallrye-fault-tolerance-vertx:6.10.0 -> 6.10.1 (c)
+|    +--- io.quarkus:quarkus-security-runtime-spi:3.34.0 -> 3.34.3 (c)
+|    +--- io.netty:netty-codec-http2:4.1.130.Final -> 4.1.132.Final (c)
+|    +--- org.awaitility:awaitility:4.3.0 (c)
+|    +--- org.jetbrains:annotations:26.1.0 (c)
+|    +--- com.fasterxml.jackson.dataformat:jackson-dataformat-csv:2.21.1 (c)
+|    +--- com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.21.1 (c)
+|    +--- com.fasterxml.jackson.dataformat:jackson-dataformat-properties:2.21.1 (c)
+|    +--- jakarta.servlet:jakarta.servlet-api:6.0.0 (c)
+|    +--- org.bouncycastle:bcpg-jdk18on:1.83 (c)
+|    +--- info.picocli:picocli:4.7.7 (c)
+|    +--- io.opentelemetry:opentelemetry-api:1.57.0 (c)
+|    +--- io.opentelemetry.semconv:opentelemetry-semconv:1.37.0 (c)
+|    +--- org.elasticsearch.client:elasticsearch-rest-client:9.2.3 -> 9.3.0 (c)
+|    +--- org.apache.httpcomponents:httpclient:4.5.14 (c)
+|    +--- org.apache.httpcomponents:httpcore:4.4.16 (c)
+|    +--- commons-codec:commons-codec:1.21.0 (c)
+|    +--- org.jspecify:jspecify:1.0.0 (c)
+|    +--- io.micrometer:micrometer-commons:1.16.3 (c)
+|    +--- org.xerial.snappy:snappy-java:1.1.10.8 (c)
+|    +--- org.eclipse.microprofile.fault-tolerance:microprofile-fault-tolerance-api:4.1.2 (c)
+|    +--- io.smallrye:smallrye-fault-tolerance-autoconfig-core:6.10.0 (c)
+|    +--- io.smallrye:smallrye-context-propagation:2.3.0 (c)
+|    +--- org.jctools:jctools-core:4.0.5 (c)
+|    +--- org.glassfish.jaxb:jaxb-core:4.0.6 (c)
+|    +--- org.eclipse.microprofile.health:microprofile-health-api:4.0.1 (c)
+|    +--- io.quarkus.security:quarkus-security:2.3.2 (c)
+|    +--- io.smallrye.reactive:smallrye-mutiny-vertx-web:3.21.5 (c)
+|    +--- io.vertx:vertx-web:4.5.25 (c)
+|    +--- com.aayushatharva.brotli4j:brotli4j:1.16.0 (c)
+|    +--- io.smallrye.common:smallrye-common-classloader:2.17.0 (c)
+|    +--- io.smallrye.config:smallrye-config-common:3.16.0 (c)
+|    +--- io.smallrye.reactive:smallrye-mutiny-vertx-runtime:3.21.5 -> 3.21.6 (c)
+|    +--- io.smallrye.reactive:vertx-mutiny-generator:3.21.5 -> 3.21.6 (c)
+|    +--- org.scala-lang:scala-reflect:2.13.16 (c)
+|    +--- org.hamcrest:hamcrest:2.2 (c)
+|    +--- io.opentelemetry:opentelemetry-context:1.57.0 (c)
+|    +--- org.apache.httpcomponents:httpasyncclient:4.1.5 (c)
+|    +--- org.apache.httpcomponents:httpcore-nio:4.4.16 (c)
+|    +--- io.smallrye:smallrye-context-propagation-api:2.3.0 (c)
+|    +--- io.smallrye:smallrye-context-propagation-storage:2.3.0 (c)
+|    +--- org.glassfish.jaxb:txw2:4.0.6 (c)
+|    +--- io.smallrye:smallrye-health-api:4.3.0 (c)
+|    +--- io.smallrye.reactive:smallrye-mutiny-vertx-web-common:3.21.5 (c)
+|    +--- io.smallrye.reactive:smallrye-mutiny-vertx-auth-common:3.21.5 (c)
+|    +--- io.smallrye.reactive:smallrye-mutiny-vertx-bridge-common:3.21.5 (c)
+|    +--- io.smallrye.reactive:smallrye-mutiny-vertx-uri-template:3.21.5 (c)
+|    +--- io.vertx:vertx-web-common:4.5.25 (c)
+|    +--- io.vertx:vertx-auth-common:4.5.25 (c)
+|    +--- io.vertx:vertx-bridge-common:4.5.25 (c)
+|    +--- io.netty:netty-resolver-dns:4.1.130.Final -> 4.1.132.Final (c)
+|    +--- io.vertx:vertx-codegen:4.5.25 -> 4.5.26 (c)
+|    +--- org.ow2.asm:asm:9.9.1 (c)
+|    +--- org.ow2.asm:asm-commons:9.9.1 (c)
+|    +--- org.ow2.asm:asm-analysis:9.9.1 (c)
+|    +--- org.ow2.asm:asm-tree:9.9.1 (c)
+|    +--- org.ow2.asm:asm-util:9.9.1 (c)
+|    +--- io.opentelemetry:opentelemetry-common:1.57.0 (c)
+|    +--- io.vertx:vertx-uri-template:4.5.25 (c)
+|    \--- io.netty:netty-codec-dns:4.1.130.Final -> 4.1.132.Final (c)
++--- org.apache.camel.quarkus:camel-quarkus-bom:3.33.0
+|    +--- org.apache.camel:camel-core-catalog:4.18.0 -> 4.18.1 (c)
+|    +--- org.apache.camel.quarkus:camel-quarkus-cassandraql:3.33.0 (c)
+|    +--- org.apache.camel.quarkus:camel-quarkus-catalog:3.33.0 (c)
+|    +--- org.apache.camel.quarkus:camel-quarkus-datasonnet:3.33.0 (c)
+|    +--- org.apache.camel.quarkus:camel-quarkus-direct:3.33.0 (c)
+|    +--- org.apache.camel.quarkus:camel-quarkus-elasticsearch:3.33.0 (c)
+|    +--- org.apache.camel.quarkus:camel-quarkus-file:3.33.0 (c)
+|    +--- org.apache.camel.quarkus:camel-quarkus-ftp:3.33.0 (c)
+|    +--- org.apache.camel.quarkus:camel-quarkus-groovy:3.33.0 (c)
+|    +--- org.apache.camel.quarkus:camel-quarkus-jackson:3.33.0 (c)
+|    +--- org.apache.camel.quarkus:camel-quarkus-jms:3.33.0 (c)
+|    +--- org.apache.camel.quarkus:camel-quarkus-joor:3.33.0 (c)
+|    +--- org.apache.camel.quarkus:camel-quarkus-jta:3.33.0 (c)
+|    +--- org.apache.camel.quarkus:camel-quarkus-kafka:3.33.0 (c)
+|    +--- org.apache.camel.quarkus:camel-quarkus-kamelet:3.33.0 (c)
+|    +--- org.apache.camel.quarkus:camel-quarkus-microprofile-fault-tolerance:3.33.0 (c)
+|    +--- org.apache.camel.quarkus:camel-quarkus-seda:3.33.0 (c)
+|    +--- org.apache.camel.quarkus:camel-quarkus-sql:3.33.0 (c)
+|    +--- org.apache.camel.quarkus:camel-quarkus-timer:3.33.0 (c)
+|    +--- org.apache.camel.quarkus:camel-quarkus-yaml-dsl:3.33.0 (c)
+|    +--- com.ibm.mq:com.ibm.mq.jakarta.client:9.4.5.0 (c)
+|    +--- io.quarkiverse.groovy:quarkus-groovy:3.32.3 -> 3.34.3 (c)
+|    +--- org.apache.camel.kamelets:camel-kamelets:4.18.0 (c)
+|    +--- org.apache.camel.quarkus:camel-quarkus-core:3.33.0 (c)
+|    +--- org.apache.camel:camel-api:4.18.0 -> 4.18.1 (c)
+|    +--- org.apache.camel:camel-support:4.18.0 -> 4.18.1 (c)
+|    +--- org.apache.camel.quarkus:camel-quarkus-microprofile-health:3.33.0 (c)
+|    +--- org.springframework:spring-tx:6.2.15 -> 6.1.13 (c)
+|    +--- org.apache.groovy:groovy:4.0.29 -> 4.0.30 (c)
+|    +--- jakarta.jms:jakarta.jms-api:3.1.0 (c)
+|    +--- org.apache.camel:camel-tooling-model:4.18.0 -> 4.18.1 (c)
+|    +--- org.json:json:20240303 -> 20251224 (c)
+|    +--- org.apache.camel:camel-cassandraql:4.18.0 (c)
+|    +--- com.datastax.oss.quarkus:cassandra-quarkus-client:1.4.1 (c)
+|    +--- org.apache.cassandra:java-driver-query-builder:4.19.2 (c)
+|    +--- org.apache.camel:camel-catalog:4.18.0 (c)
+|    +--- org.apache.camel:camel-datasonnet:4.18.0 (c)
+|    +--- com.lihaoyi:geny_2.13:0.6.2 (c)
+|    +--- org.apache.camel:camel-direct:4.18.0 (c)
+|    +--- org.apache.camel:camel-elasticsearch:4.18.0 (c)
+|    +--- org.apache.camel.quarkus:camel-quarkus-support-commons-logging:3.33.0 (c)
+|    +--- org.apache.camel:camel-file:4.18.0 (c)
+|    +--- org.apache.camel:camel-ftp:4.18.0 (c)
+|    +--- io.quarkiverse.jsch:quarkus-jsch:3.1.2 (c)
+|    +--- org.apache.camel.quarkus:camel-quarkus-support-language:3.33.0 (c)
+|    +--- org.apache.camel:camel-groovy:4.18.0 (c)
+|    +--- org.apache.camel:camel-jackson:4.18.0 (c)
+|    +--- org.apache.camel.quarkus:camel-quarkus-support-spring:3.33.0 (c)
+|    +--- org.apache.camel:camel-jms:4.18.0 (c)
+|    +--- org.springframework:spring-jms:6.2.15 -> 6.1.13 (c)
+|    +--- org.springframework:spring-messaging:6.2.15 -> 6.1.13 (c)
+|    +--- org.apache.camel:camel-joor:4.18.0 (c)
+|    +--- org.apache.camel:camel-jta:4.18.0 (c)
+|    +--- org.apache.camel:camel-kafka:4.18.0 (c)
+|    +--- org.apache.camel:camel-kamelet:4.18.0 (c)
+|    +--- org.apache.camel:camel-microprofile-fault-tolerance:4.18.0 (c)
+|    +--- org.apache.camel:camel-seda:4.18.0 (c)
+|    +--- org.apache.camel.quarkus:camel-quarkus-support-jdbc:3.33.0 (c)
+|    +--- org.apache.camel:camel-sql:4.18.0 (c)
+|    +--- org.apache.camel:camel-timer:4.18.0 (c)
+|    +--- org.apache.camel:camel-yaml-dsl:4.18.0 (c)
+|    +--- org.apache.camel:camel-base:4.18.0 (c)
+|    +--- org.apache.camel:camel-componentdsl:4.18.0 (c)
+|    +--- org.apache.camel:camel-core-engine:4.18.0 (c)
+|    +--- org.apache.camel:camel-core-languages:4.18.0 (c)
+|    +--- org.apache.camel:camel-core-processor:4.18.0 (c)
+|    +--- org.apache.camel:camel-endpointdsl:4.18.0 (c)
+|    +--- org.apache.camel:camel-main:4.18.0 (c)
+|    +--- org.apache.camel:camel-microprofile-config:4.18.0 (c)
+|    +--- org.apache.camel:camel-util:4.18.0 -> 4.18.1 (c)
+|    +--- org.apache.camel:camel-management-api:4.18.0 -> 4.18.1 (c)
+|    +--- org.apache.camel:camel-util-json:4.18.0 -> 4.18.1 (c)
+|    +--- org.apache.camel:camel-xml-jaxp-util:4.18.0 -> 4.18.1 (c)
+|    +--- org.apache.camel:camel-microprofile-health:4.18.0 (c)
+|    +--- commons-beanutils:commons-beanutils:1.11.0 (c)
+|    +--- org.apache.cassandra:java-driver-core:4.19.2 (c)
+|    +--- org.apache.cassandra:java-driver-guava-shaded:4.19.2 (c)
+|    +--- org.apache.camel:camel-xml-jaxb:4.18.0 (c)
+|    +--- org.apache.camel:camel-cluster:4.18.0 (c)
+|    +--- org.apache.camel:camel-health:4.18.0 (c)
+|    +--- com.github.mwiede:jsch:2.27.6 -> 2.27.7 (c)
+|    +--- org.apache.camel:camel-attachments:4.18.0 (c)
+|    +--- org.apache.camel.quarkus:camel-quarkus-support-spring-beans:3.33.0 (c)
+|    +--- org.apache.camel.quarkus:camel-quarkus-support-spring-context:3.33.0 (c)
+|    +--- org.apache.camel.quarkus:camel-quarkus-support-spring-core:3.33.0 (c)
+|    +--- org.apache.camel:camel-core-reifier:4.18.0 (c)
+|    +--- org.apache.camel:camel-core-model:4.18.0 (c)
+|    +--- org.springframework:spring-jdbc:6.2.15 -> 6.1.13 (c)
+|    +--- org.apache.camel:camel-yaml-dsl-common:4.18.0 (c)
+|    +--- org.apache.camel:camel-yaml-dsl-deserializers:4.18.0 (c)
+|    +--- org.apache.camel:camel-dsl-support:4.18.0 (c)
+|    +--- org.apache.commons:commons-collections4:4.5.0 (c)
+|    +--- org.glassfish.jaxb:jaxb-runtime:4.0.6 (c)
+|    +--- org.apache.camel:camel-base-engine:4.18.0 (c)
+|    +--- commons-collections:commons-collections:3.2.2 (c)
+|    +--- com.datastax.oss:native-protocol:1.5.2 (c)
+|    +--- com.jayway.jsonpath:json-path:2.10.0 (c)
+|    +--- com.google.re2j:re2j:1.7 (c)
+|    +--- org.apache.camel:camel-xml-jaxp:4.18.0 (c)
+|    +--- com.github.luben:zstd-jni:1.5.6-10 (c)
+|    +--- org.snakeyaml:snakeyaml-engine:3.0.1 (c)
+|    +--- com.github.jnr:jnr-ffi:2.2.13 (c)
+|    +--- com.github.jnr:jnr-constants:0.9.11 -> 0.10.3 (c)
+|    +--- net.minidev:json-smart:2.6.0 (c)
+|    +--- org.apache.camel:camel-xml-io-util:4.18.0 (c)
+|    +--- org.apache.httpcomponents.client5:httpclient5:5.5.1 -> 5.6 (c)
+|    +--- org.apache.httpcomponents.core5:httpcore5:5.3.6 -> 5.4 (c)
+|    \--- org.apache.httpcomponents.core5:httpcore5-h2:5.3.6 -> 5.4 (c)
++--- org.springframework:spring-framework-bom:6.1.13
+|    +--- org.springframework:spring-tx:6.1.13 (c)
+|    +--- org.springframework:spring-beans:6.1.13 (c)
+|    +--- org.springframework:spring-jms:6.1.13 (c)
+|    +--- org.springframework:spring-messaging:6.1.13 (c)
+|    +--- org.springframework:spring-core:6.1.13 (c)
+|    +--- org.springframework:spring-jdbc:6.1.13 (c)
+|    \--- org.springframework:spring-jcl:6.1.13 (c)
++--- com.pratyush.eip:eip-core-lib:1.0.0-SNAPSHOT
+|    +--- io.quarkus:quarkus-bom:3.34.0 (*)
+|    +--- org.apache.camel.quarkus:camel-quarkus-bom:3.33.0 (*)
+|    +--- org.apache.camel.quarkus:camel-quarkus-core -> 3.33.0
+|    |    +--- io.quarkus:quarkus-core:3.33.0 -> 3.34.3
+|    |    |    +--- jakarta.annotation:jakarta.annotation-api:3.0.0
+|    |    |    +--- jakarta.enterprise:jakarta.enterprise.cdi-api:4.1.0
+|    |    |    |    +--- jakarta.enterprise:jakarta.enterprise.lang-model:4.1.0
+|    |    |    |    +--- jakarta.annotation:jakarta.annotation-api:3.0.0
+|    |    |    |    +--- jakarta.el:jakarta.el-api:6.0.0 -> 6.0.1
+|    |    |    |    +--- jakarta.interceptor:jakarta.interceptor-api:2.2.0
+|    |    |    |    \--- jakarta.inject:jakarta.inject-api:2.0.1
+|    |    |    +--- jakarta.inject:jakarta.inject-api:2.0.1
+|    |    |    +--- io.smallrye.common:smallrye-common-os:2.17.0
+|    |    |    +--- io.quarkus:quarkus-ide-launcher:3.34.3
+|    |    |    +--- io.quarkus:quarkus-development-mode-spi:3.34.3
+|    |    |    |    +--- org.jboss.logging:jboss-logging:3.6.3.Final
+|    |    |    |    \--- io.smallrye.common:smallrye-common-os:2.17.0
+|    |    |    +--- io.smallrye.config:smallrye-config:3.16.0
+|    |    |    |    +--- io.smallrye.config:smallrye-config-core:3.16.0
+|    |    |    |    |    +--- org.eclipse.microprofile.config:microprofile-config-api:3.1.1-RC1
+|    |    |    |    |    +--- jakarta.annotation:jakarta.annotation-api:2.1.1 -> 3.0.0
+|    |    |    |    |    +--- io.smallrye.common:smallrye-common-annotation:2.15.0 -> 2.17.0
+|    |    |    |    |    +--- io.smallrye.common:smallrye-common-expression:2.15.0 -> 2.17.0
+|    |    |    |    |    |    +--- io.smallrye.common:smallrye-common-function:2.17.0
+|    |    |    |    |    |    |    +--- io.smallrye.common:smallrye-common-constraint:2.17.0
+|    |    |    |    |    |    |    |    \--- org.jboss.logging:jboss-logging:3.6.0.Final -> 3.6.3.Final
+|    |    |    |    |    |    |    \--- org.jboss.logging:jboss-logging:3.6.0.Final -> 3.6.3.Final
+|    |    |    |    |    |    \--- org.jboss.logging:jboss-logging:3.6.0.Final -> 3.6.3.Final
+|    |    |    |    |    +--- io.smallrye.common:smallrye-common-constraint:2.15.0 -> 2.17.0 (*)
+|    |    |    |    |    +--- io.smallrye.common:smallrye-common-classloader:2.15.0 -> 2.17.0
+|    |    |    |    |    +--- org.jboss.logging:jboss-logging:3.6.1.Final -> 3.6.3.Final
+|    |    |    |    |    \--- io.smallrye.config:smallrye-config-common:3.16.0
+|    |    |    |    |         +--- org.eclipse.microprofile.config:microprofile-config-api:3.1.1-RC1
+|    |    |    |    |         +--- io.smallrye.common:smallrye-common-classloader:2.15.0 -> 2.17.0
+|    |    |    |    |         \--- org.jboss.logging:jboss-logging:3.6.1.Final -> 3.6.3.Final
+|    |    |    |    \--- org.jboss.logging:jboss-logging:3.6.1.Final -> 3.6.3.Final
+|    |    |    +--- org.jboss.logging:jboss-logging:3.6.3.Final
+|    |    |    +--- org.jboss.logmanager:jboss-logmanager:3.2.1.Final
+|    |    |    |    +--- org.jboss.logging:jboss-logging:3.6.2.Final -> 3.6.3.Final
+|    |    |    |    +--- io.smallrye.common:smallrye-common-constraint:2.15.0 -> 2.17.0 (*)
+|    |    |    |    +--- io.smallrye.common:smallrye-common-cpu:2.15.0 -> 2.17.0
+|    |    |    |    +--- io.smallrye.common:smallrye-common-expression:2.15.0 -> 2.17.0 (*)
+|    |    |    |    +--- io.smallrye.common:smallrye-common-net:2.15.0 -> 2.17.0
+|    |    |    |    |    +--- io.smallrye.common:smallrye-common-constraint:2.17.0 (*)
+|    |    |    |    |    \--- org.jboss.logging:jboss-logging:3.6.0.Final -> 3.6.3.Final
+|    |    |    |    +--- io.smallrye.common:smallrye-common-os:2.15.0 -> 2.17.0
+|    |    |    |    +--- io.smallrye.common:smallrye-common-ref:2.15.0 -> 2.17.0
+|    |    |    |    |    \--- io.smallrye.common:smallrye-common-constraint:2.17.0 (*)
+|    |    |    |    +--- jakarta.json:jakarta.json-api:2.1.3
+|    |    |    |    \--- org.eclipse.parsson:parsson:1.1.7
+|    |    |    |         \--- jakarta.json:jakarta.json-api:2.1.3
+|    |    |    +--- org.jboss.threads:jboss-threads:3.9.2
+|    |    |    |    +--- org.jboss.logging:jboss-logging:3.6.1.Final -> 3.6.3.Final
+|    |    |    |    +--- org.wildfly.common:wildfly-common:2.0.1
+|    |    |    |    |    +--- io.smallrye.common:smallrye-common-cpu:2.4.0 -> 2.17.0
+|    |    |    |    |    +--- io.smallrye.common:smallrye-common-expression:2.4.0 -> 2.17.0 (*)
+|    |    |    |    |    +--- io.smallrye.common:smallrye-common-net:2.4.0 -> 2.17.0 (*)
+|    |    |    |    |    +--- io.smallrye.common:smallrye-common-os:2.4.0 -> 2.17.0
+|    |    |    |    |    \--- io.smallrye.common:smallrye-common-ref:2.4.0 -> 2.17.0 (*)
+|    |    |    |    +--- io.smallrye.common:smallrye-common-annotation:2.14.0 -> 2.17.0
+|    |    |    |    +--- io.smallrye.common:smallrye-common-constraint:2.14.0 -> 2.17.0 (*)
+|    |    |    |    +--- io.smallrye.common:smallrye-common-cpu:2.14.0 -> 2.17.0
+|    |    |    |    \--- io.smallrye.common:smallrye-common-function:2.14.0 -> 2.17.0 (*)
+|    |    |    +--- org.slf4j:slf4j-api:2.0.17
+|    |    |    +--- org.jboss.slf4j:slf4j-jboss-logmanager:2.0.2.Final
+|    |    |    +--- org.wildfly.common:wildfly-common:2.0.1 (*)
+|    |    |    +--- io.quarkus:quarkus-value-registry:3.34.3
+|    |    |    +--- io.quarkus:quarkus-bootstrap-runner:3.34.3
+|    |    |    |    +--- io.quarkus:quarkus-classloader-commons:3.34.3
+|    |    |    |    +--- io.smallrye.common:smallrye-common-io:2.17.0
+|    |    |    |    |    +--- io.smallrye.common:smallrye-common-constraint:2.17.0 (*)
+|    |    |    |    |    \--- org.jboss.logging:jboss-logging:3.6.0.Final -> 3.6.3.Final
+|    |    |    |    +--- org.jboss.logmanager:jboss-logmanager:3.2.1.Final (*)
+|    |    |    |    +--- org.jboss.logging:jboss-logging:3.6.3.Final
+|    |    |    |    \--- org.crac:crac:1.5.0
+|    |    |    \--- io.quarkus:quarkus-fs-util:1.3.0
+|    |    +--- io.quarkus:quarkus-arc:3.33.0 -> 3.34.3
+|    |    |    +--- io.quarkus.arc:arc:3.34.3
+|    |    |    |    +--- jakarta.enterprise:jakarta.enterprise.cdi-api:4.1.0 (*)
+|    |    |    |    +--- jakarta.annotation:jakarta.annotation-api:3.0.0
+|    |    |    |    +--- jakarta.transaction:jakarta.transaction-api:2.0.1
+|    |    |    |    +--- io.smallrye.reactive:mutiny:3.1.1
+|    |    |    |    |    +--- io.smallrye.common:smallrye-common-annotation:2.16.0 -> 2.17.0
+|    |    |    |    |    \--- org.jctools:jctools-core:4.0.5
+|    |    |    |    \--- org.jboss.logging:jboss-logging:3.6.3.Final
+|    |    |    +--- io.quarkus:quarkus-core:3.34.3 (*)
+|    |    |    \--- org.eclipse.microprofile.context-propagation:microprofile-context-propagation-api:1.3
+|    |    +--- org.apache.camel:camel-base:4.18.0
+|    |    |    +--- org.apache.camel:camel-api:4.18.0 -> 4.18.1
+|    |    |    |    +--- org.apache.camel:camel-util:4.18.1
+|    |    |    |    |    \--- org.slf4j:slf4j-api:2.0.17
+|    |    |    |    +--- org.slf4j:slf4j-api:2.0.17
+|    |    |    |    \--- jakarta.xml.bind:jakarta.xml.bind-api:4.0.5
+|    |    |    |         \--- jakarta.activation:jakarta.activation-api:2.1.4
+|    |    |    +--- org.apache.camel:camel-management-api:4.18.0 -> 4.18.1
+|    |    |    |    +--- org.apache.camel:camel-api:4.18.1 (*)
+|    |    |    |    +--- org.apache.camel:camel-util:4.18.1 (*)
+|    |    |    |    \--- org.slf4j:slf4j-api:2.0.17
+|    |    |    +--- org.apache.camel:camel-support:4.18.0 -> 4.18.1
+|    |    |    |    +--- org.apache.camel:camel-api:4.18.1 (*)
+|    |    |    |    +--- org.apache.camel:camel-management-api:4.18.1 (*)
+|    |    |    |    +--- org.apache.camel:camel-util:4.18.1 (*)
+|    |    |    |    +--- org.apache.camel:camel-util-json:4.18.1
+|    |    |    |    +--- org.apache.camel:camel-xml-jaxp-util:4.18.1
+|    |    |    |    \--- org.slf4j:slf4j-api:2.0.17
+|    |    |    +--- org.apache.camel:camel-util:4.18.0 -> 4.18.1 (*)
+|    |    |    \--- org.slf4j:slf4j-api:2.0.17
+|    |    +--- org.apache.camel:camel-componentdsl:4.18.0
+|    |    |    +--- org.apache.camel:camel-api:4.18.0 -> 4.18.1 (*)
+|    |    |    \--- org.apache.camel:camel-core-engine:4.18.0
+|    |    |         +--- org.apache.camel:camel-api:4.18.0 -> 4.18.1 (*)
+|    |    |         +--- org.apache.camel:camel-base-engine:4.18.0
+|    |    |         |    +--- org.apache.camel:camel-base:4.18.0 (*)
+|    |    |         |    \--- org.slf4j:slf4j-api:2.0.17
+|    |    |         +--- org.apache.camel:camel-core-reifier:4.18.0
+|    |    |         |    +--- org.apache.camel:camel-api:4.18.0 -> 4.18.1 (*)
+|    |    |         |    +--- org.apache.camel:camel-support:4.18.0 -> 4.18.1 (*)
+|    |    |         |    +--- org.apache.camel:camel-core-model:4.18.0
+|    |    |         |    |    +--- org.apache.camel:camel-api:4.18.0 -> 4.18.1 (*)
+|    |    |         |    |    +--- org.apache.camel:camel-core-processor:4.18.0
+|    |    |         |    |    |    +--- org.apache.camel:camel-api:4.18.0 -> 4.18.1 (*)
+|    |    |         |    |    |    +--- org.apache.camel:camel-base-engine:4.18.0 (*)
+|    |    |         |    |    |    +--- org.apache.camel:camel-support:4.18.0 -> 4.18.1 (*)
+|    |    |         |    |    |    \--- org.apache.camel:camel-util:4.18.0 -> 4.18.1 (*)
+|    |    |         |    |    +--- org.apache.camel:camel-support:4.18.0 -> 4.18.1 (*)
+|    |    |         |    |    \--- org.apache.camel:camel-util:4.18.0 -> 4.18.1 (*)
+|    |    |         |    +--- org.apache.camel:camel-core-processor:4.18.0 (*)
+|    |    |         |    \--- org.apache.camel:camel-util:4.18.0 -> 4.18.1 (*)
+|    |    |         +--- org.apache.camel:camel-management-api:4.18.0 -> 4.18.1 (*)
+|    |    |         +--- org.apache.camel:camel-support:4.18.0 -> 4.18.1 (*)
+|    |    |         \--- org.apache.camel:camel-util:4.18.0 -> 4.18.1 (*)
+|    |    +--- org.apache.camel:camel-core-catalog:4.18.0 -> 4.18.1
+|    |    |    +--- org.apache.camel:camel-api:4.18.1 (*)
+|    |    |    \--- org.apache.camel:camel-tooling-model:4.18.1
+|    |    |         \--- org.apache.camel:camel-util-json:4.18.1
+|    |    +--- org.apache.camel:camel-core-engine:4.18.0 (*)
+|    |    +--- org.apache.camel:camel-core-languages:4.18.0
+|    |    |    +--- org.apache.camel:camel-core-model:4.18.0 (*)
+|    |    |    +--- org.apache.camel:camel-support:4.18.0 -> 4.18.1 (*)
+|    |    |    +--- org.apache.camel:camel-xml-jaxp-util:4.18.0 -> 4.18.1
+|    |    |    \--- org.slf4j:slf4j-api:2.0.17
+|    |    +--- org.apache.camel:camel-core-processor:4.18.0 (*)
+|    |    +--- org.apache.camel:camel-endpointdsl:4.18.0
+|    |    |    +--- org.apache.camel:camel-core-engine:4.18.0 (*)
+|    |    |    \--- org.slf4j:slf4j-api:2.0.17
+|    |    +--- org.apache.camel:camel-main:4.18.0
+|    |    |    +--- org.apache.camel:camel-api:4.18.0 -> 4.18.1 (*)
+|    |    |    +--- org.apache.camel:camel-base:4.18.0 (*)
+|    |    |    +--- org.apache.camel:camel-core-engine:4.18.0 (*)
+|    |    |    +--- org.apache.camel:camel-management-api:4.18.0 -> 4.18.1 (*)
+|    |    |    +--- org.apache.camel:camel-support:4.18.0 -> 4.18.1 (*)
+|    |    |    +--- org.apache.camel:camel-util:4.18.0 -> 4.18.1 (*)
+|    |    |    \--- org.apache.camel:camel-core-languages:4.18.0 (*)
+|    |    +--- org.apache.camel:camel-microprofile-config:4.18.0
+|    |    |    +--- org.apache.camel:camel-support:4.18.0 -> 4.18.1 (*)
+|    |    |    +--- io.smallrye.config:smallrye-config:3.16.0 (*)
+|    |    |    \--- org.eclipse.microprofile.config:microprofile-config-api:3.1 -> 3.1.1-RC1
+|    |    \--- jakarta.xml.bind:jakarta.xml.bind-api:4.0.5 (*)
+|    +--- org.apache.camel:camel-api:4.18.1 (*)
+|    +--- org.apache.camel:camel-support:4.18.1 (*)
+|    +--- org.apache.camel.quarkus:camel-quarkus-microprofile-health -> 3.33.0
+|    |    +--- org.apache.camel.quarkus:camel-quarkus-core:3.33.0 (*)
+|    |    +--- io.quarkus:quarkus-smallrye-health:3.33.0 -> 3.34.0
+|    |    |    +--- io.smallrye:smallrye-health:4.3.0
+|    |    |    |    +--- org.eclipse.microprofile.health:microprofile-health-api:4.0.1
+|    |    |    |    +--- io.smallrye:smallrye-health-api:4.3.0
+|    |    |    |    |    +--- org.eclipse.microprofile.health:microprofile-health-api:4.0.1
+|    |    |    |    |    +--- io.smallrye.common:smallrye-common-annotation:2.13.9 -> 2.17.0
+|    |    |    |    |    +--- jakarta.json:jakarta.json-api:2.1.1 -> 2.1.3
+|    |    |    |    |    \--- io.smallrye.reactive:mutiny:3.0.1 -> 3.1.1 (*)
+|    |    |    |    +--- io.smallrye.config:smallrye-config:3.14.1 -> 3.16.0 (*)
+|    |    |    |    +--- org.jboss.logging:jboss-logging:3.6.1.Final -> 3.6.3.Final
+|    |    |    |    +--- jakarta.enterprise:jakarta.enterprise.cdi-api:4.0.1 -> 4.1.0 (*)
+|    |    |    |    +--- jakarta.json:jakarta.json-api:2.1.1 -> 2.1.3
+|    |    |    |    \--- org.eclipse.parsson:jakarta.json:1.1.7
+|    |    |    +--- io.smallrye:smallrye-health-provided-checks:4.3.0
+|    |    |    |    +--- io.smallrye:smallrye-health:4.3.0 (*)
+|    |    |    |    \--- org.jboss.logging:jboss-logging:3.6.1.Final -> 3.6.3.Final
+|    |    |    +--- io.quarkus:quarkus-core:3.34.0 -> 3.34.3 (*)
+|    |    |    +--- io.quarkus:quarkus-vertx-http:3.34.0
+|    |    |    |    +--- io.quarkus:quarkus-core:3.34.0 -> 3.34.3 (*)
+|    |    |    |    +--- io.quarkus:quarkus-security-runtime-spi:3.34.0 -> 3.34.3
+|    |    |    |    |    +--- io.quarkus:quarkus-core:3.34.3 (*)
+|    |    |    |    |    \--- io.quarkus.security:quarkus-security:2.3.2
+|    |    |    |    |         +--- jakarta.enterprise:jakarta.enterprise.cdi-api:4.0.1 -> 4.1.0 (*)
+|    |    |    |    |         +--- org.jboss.logging:jboss-logging:3.6.1.Final -> 3.6.3.Final
+|    |    |    |    |         \--- io.smallrye.reactive:mutiny:3.1.0 -> 3.1.1 (*)
+|    |    |    |    +--- io.quarkus:quarkus-tls-registry:3.34.0 -> 3.34.3
+|    |    |    |    |    +--- io.quarkus:quarkus-tls-registry-spi:3.34.3
+|    |    |    |    |    |    +--- io.quarkus:quarkus-core:3.34.3 (*)
+|    |    |    |    |    |    +--- io.quarkus.arc:arc:3.34.3 (*)
+|    |    |    |    |    |    \--- io.quarkus:quarkus-vertx:3.34.3
+|    |    |    |    |    |         +--- io.quarkus:quarkus-arc:3.34.3 (*)
+|    |    |    |    |    |         +--- io.quarkus:quarkus-netty:3.34.3
+|    |    |    |    |    |         |    +--- io.netty:netty-codec:4.1.132.Final
+|    |    |    |    |    |         |    |    +--- io.netty:netty-common:4.1.132.Final -> 4.2.8.Final
+|    |    |    |    |    |         |    |    +--- io.netty:netty-buffer:4.1.132.Final -> 4.2.8.Final
+|    |    |    |    |    |         |    |    |    \--- io.netty:netty-common:4.2.8.Final
+|    |    |    |    |    |         |    |    \--- io.netty:netty-transport:4.1.132.Final -> 4.2.8.Final
+|    |    |    |    |    |         |    |         +--- io.netty:netty-common:4.2.8.Final
+|    |    |    |    |    |         |    |         +--- io.netty:netty-buffer:4.2.8.Final (*)
+|    |    |    |    |    |         |    |         \--- io.netty:netty-resolver:4.2.8.Final
+|    |    |    |    |    |         |    |              \--- io.netty:netty-common:4.2.8.Final
+|    |    |    |    |    |         |    +--- io.netty:netty-codec-http:4.1.132.Final -> 4.2.8.Final
+|    |    |    |    |    |         |    |    +--- io.netty:netty-common:4.2.8.Final
+|    |    |    |    |    |         |    |    +--- io.netty:netty-buffer:4.2.8.Final (*)
+|    |    |    |    |    |         |    |    +--- io.netty:netty-transport:4.2.8.Final (*)
+|    |    |    |    |    |         |    |    +--- io.netty:netty-codec-base:4.2.8.Final
+|    |    |    |    |    |         |    |    |    +--- io.netty:netty-common:4.2.8.Final
+|    |    |    |    |    |         |    |    |    +--- io.netty:netty-buffer:4.2.8.Final (*)
+|    |    |    |    |    |         |    |    |    \--- io.netty:netty-transport:4.2.8.Final (*)
+|    |    |    |    |    |         |    |    +--- io.netty:netty-codec-compression:4.2.8.Final
+|    |    |    |    |    |         |    |    |    +--- io.netty:netty-common:4.2.8.Final
+|    |    |    |    |    |         |    |    |    +--- io.netty:netty-buffer:4.2.8.Final (*)
+|    |    |    |    |    |         |    |    |    +--- io.netty:netty-transport:4.2.8.Final (*)
+|    |    |    |    |    |         |    |    |    \--- io.netty:netty-codec-base:4.2.8.Final (*)
+|    |    |    |    |    |         |    |    \--- io.netty:netty-handler:4.2.8.Final
+|    |    |    |    |    |         |    |         +--- io.netty:netty-common:4.2.8.Final
+|    |    |    |    |    |         |    |         +--- io.netty:netty-resolver:4.2.8.Final (*)
+|    |    |    |    |    |         |    |         +--- io.netty:netty-buffer:4.2.8.Final (*)
+|    |    |    |    |    |         |    |         +--- io.netty:netty-transport:4.2.8.Final (*)
+|    |    |    |    |    |         |    |         +--- io.netty:netty-transport-native-unix-common:4.2.8.Final
+|    |    |    |    |    |         |    |         |    +--- io.netty:netty-common:4.2.8.Final
+|    |    |    |    |    |         |    |         |    +--- io.netty:netty-buffer:4.2.8.Final (*)
+|    |    |    |    |    |         |    |         |    \--- io.netty:netty-transport:4.2.8.Final (*)
+|    |    |    |    |    |         |    |         \--- io.netty:netty-codec-base:4.2.8.Final (*)
+|    |    |    |    |    |         |    +--- io.netty:netty-codec-http2:4.1.132.Final
+|    |    |    |    |    |         |    |    +--- io.netty:netty-common:4.1.132.Final -> 4.2.8.Final
+|    |    |    |    |    |         |    |    +--- io.netty:netty-buffer:4.1.132.Final -> 4.2.8.Final (*)
+|    |    |    |    |    |         |    |    +--- io.netty:netty-transport:4.1.132.Final -> 4.2.8.Final (*)
+|    |    |    |    |    |         |    |    +--- io.netty:netty-codec:4.1.132.Final (*)
+|    |    |    |    |    |         |    |    +--- io.netty:netty-handler:4.1.132.Final -> 4.2.8.Final (*)
+|    |    |    |    |    |         |    |    \--- io.netty:netty-codec-http:4.1.132.Final -> 4.2.8.Final (*)
+|    |    |    |    |    |         |    +--- io.quarkus:quarkus-arc:3.34.3 (*)
+|    |    |    |    |    |         |    +--- io.netty:netty-handler:4.1.132.Final -> 4.2.8.Final (*)
+|    |    |    |    |    |         |    \--- jakarta.enterprise:jakarta.enterprise.cdi-api:4.1.0 (*)
+|    |    |    |    |    |         +--- io.netty:netty-codec-haproxy:4.1.132.Final
+|    |    |    |    |    |         |    +--- io.netty:netty-buffer:4.1.132.Final -> 4.2.8.Final (*)
+|    |    |    |    |    |         |    +--- io.netty:netty-transport:4.1.132.Final -> 4.2.8.Final (*)
+|    |    |    |    |    |         |    \--- io.netty:netty-codec:4.1.132.Final (*)
+|    |    |    |    |    |         +--- io.smallrye.common:smallrye-common-annotation:2.17.0
+|    |    |    |    |    |         +--- io.smallrye.common:smallrye-common-vertx-context:2.17.0
+|    |    |    |    |    |         |    +--- io.vertx:vertx-core:4.5.25 -> 4.5.26
+|    |    |    |    |    |         |    |    +--- io.netty:netty-common:4.1.132.Final -> 4.2.8.Final
+|    |    |    |    |    |         |    |    +--- io.netty:netty-buffer:4.1.132.Final -> 4.2.8.Final (*)
+|    |    |    |    |    |         |    |    +--- io.netty:netty-transport:4.1.132.Final -> 4.2.8.Final (*)
+|    |    |    |    |    |         |    |    +--- io.netty:netty-handler:4.1.132.Final -> 4.2.8.Final (*)
+|    |    |    |    |    |         |    |    +--- io.netty:netty-handler-proxy:4.1.132.Final -> 4.2.8.Final
+|    |    |    |    |    |         |    |    |    +--- io.netty:netty-common:4.2.8.Final
+|    |    |    |    |    |         |    |    |    +--- io.netty:netty-buffer:4.2.8.Final (*)
+|    |    |    |    |    |         |    |    |    +--- io.netty:netty-transport:4.2.8.Final (*)
+|    |    |    |    |    |         |    |    |    +--- io.netty:netty-codec-base:4.2.8.Final (*)
+|    |    |    |    |    |         |    |    |    +--- io.netty:netty-codec-socks:4.2.8.Final
+|    |    |    |    |    |         |    |    |    |    +--- io.netty:netty-common:4.2.8.Final
+|    |    |    |    |    |         |    |    |    |    +--- io.netty:netty-buffer:4.2.8.Final (*)
+|    |    |    |    |    |         |    |    |    |    +--- io.netty:netty-transport:4.2.8.Final (*)
+|    |    |    |    |    |         |    |    |    |    \--- io.netty:netty-codec-base:4.2.8.Final (*)
+|    |    |    |    |    |         |    |    |    +--- io.netty:netty-codec-http:4.2.8.Final (*)
+|    |    |    |    |    |         |    |    |    \--- io.netty:netty-handler:4.2.8.Final (*)
+|    |    |    |    |    |         |    |    +--- io.netty:netty-codec-http:4.1.132.Final -> 4.2.8.Final (*)
+|    |    |    |    |    |         |    |    +--- io.netty:netty-codec-http2:4.1.132.Final (*)
+|    |    |    |    |    |         |    |    +--- io.netty:netty-resolver:4.1.132.Final -> 4.2.8.Final (*)
+|    |    |    |    |    |         |    |    +--- io.netty:netty-resolver-dns:4.1.132.Final
+|    |    |    |    |    |         |    |    |    +--- io.netty:netty-common:4.1.132.Final -> 4.2.8.Final
+|    |    |    |    |    |         |    |    |    +--- io.netty:netty-buffer:4.1.132.Final -> 4.2.8.Final (*)
+|    |    |    |    |    |         |    |    |    +--- io.netty:netty-resolver:4.1.132.Final -> 4.2.8.Final (*)
+|    |    |    |    |    |         |    |    |    +--- io.netty:netty-transport:4.1.132.Final -> 4.2.8.Final (*)
+|    |    |    |    |    |         |    |    |    +--- io.netty:netty-codec:4.1.132.Final (*)
+|    |    |    |    |    |         |    |    |    +--- io.netty:netty-codec-dns:4.1.132.Final
+|    |    |    |    |    |         |    |    |    |    +--- io.netty:netty-common:4.1.132.Final -> 4.2.8.Final
+|    |    |    |    |    |         |    |    |    |    +--- io.netty:netty-buffer:4.1.132.Final -> 4.2.8.Final (*)
+|    |    |    |    |    |         |    |    |    |    +--- io.netty:netty-transport:4.1.132.Final -> 4.2.8.Final (*)
+|    |    |    |    |    |         |    |    |    |    \--- io.netty:netty-codec:4.1.132.Final (*)
+|    |    |    |    |    |         |    |    |    \--- io.netty:netty-handler:4.1.132.Final -> 4.2.8.Final (*)
+|    |    |    |    |    |         |    |    \--- com.fasterxml.jackson.core:jackson-core:2.18.6 -> 2.21.1
+|    |    |    |    |    |         |    |         \--- com.fasterxml.jackson:jackson-bom:2.21.1
+|    |    |    |    |    |         |    |              +--- com.fasterxml.jackson.core:jackson-annotations:2.21 (c)
+|    |    |    |    |    |         |    |              +--- com.fasterxml.jackson.core:jackson-core:2.21.1 (c)
+|    |    |    |    |    |         |    |              +--- com.fasterxml.jackson.core:jackson-databind:2.21.1 (c)
+|    |    |    |    |    |         |    |              +--- com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.21.1 (c)
+|    |    |    |    |    |         |    |              +--- com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.21.1 (c)
+|    |    |    |    |    |         |    |              +--- com.fasterxml.jackson.module:jackson-module-jakarta-xmlbind-annotations:2.21.1 (c)
+|    |    |    |    |    |         |    |              +--- com.fasterxml.jackson.module:jackson-module-parameter-names:2.21.1 (c)
+|    |    |    |    |    |         |    |              +--- com.fasterxml.jackson.dataformat:jackson-dataformat-csv:2.21.1 (c)
+|    |    |    |    |    |         |    |              +--- com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.21.1 (c)
+|    |    |    |    |    |         |    |              \--- com.fasterxml.jackson.dataformat:jackson-dataformat-properties:2.21.1 (c)
+|    |    |    |    |    |         |    \--- io.smallrye.common:smallrye-common-constraint:2.17.0 (*)
+|    |    |    |    |    |         +--- io.quarkus:quarkus-mutiny:3.34.3
+|    |    |    |    |    |         |    +--- io.quarkus:quarkus-core:3.34.3 (*)
+|    |    |    |    |    |         |    +--- io.smallrye.reactive:mutiny:3.1.1 (*)
+|    |    |    |    |    |         |    +--- io.quarkus:quarkus-smallrye-context-propagation:3.34.3
+|    |    |    |    |    |         |    |    +--- io.smallrye:smallrye-context-propagation:2.3.0
+|    |    |    |    |    |         |    |    |    +--- org.eclipse.microprofile.context-propagation:microprofile-context-propagation-api:1.3
+|    |    |    |    |    |         |    |    |    +--- org.eclipse.microprofile.config:microprofile-config-api:3.0.2 -> 3.1.1-RC1
+|    |    |    |    |    |         |    |    |    +--- io.smallrye:smallrye-context-propagation-api:2.3.0
+|    |    |    |    |    |         |    |    |    |    \--- org.eclipse.microprofile.context-propagation:microprofile-context-propagation-api:1.3
+|    |    |    |    |    |         |    |    |    +--- io.smallrye:smallrye-context-propagation-storage:2.3.0
+|    |    |    |    |    |         |    |    |    \--- org.jboss.threads:jboss-threads:3.5.0.Final -> 3.9.2 (*)
+|    |    |    |    |    |         |    |    +--- jakarta.enterprise:jakarta.enterprise.cdi-api:4.1.0 (*)
+|    |    |    |    |    |         |    |    +--- io.quarkus:quarkus-core:3.34.3 (*)
+|    |    |    |    |    |         |    |    \--- io.quarkus:quarkus-arc:3.34.3 (*)
+|    |    |    |    |    |         |    \--- io.smallrye.reactive:mutiny-smallrye-context-propagation:3.1.1
+|    |    |    |    |    |         |         +--- org.eclipse.microprofile.context-propagation:microprofile-context-propagation-api:1.3
+|    |    |    |    |    |         |         +--- io.smallrye.reactive:mutiny:3.1.1 (*)
+|    |    |    |    |    |         |         \--- io.smallrye:smallrye-context-propagation:2.3.0 (*)
+|    |    |    |    |    |         +--- io.quarkus:quarkus-virtual-threads:3.34.3
+|    |    |    |    |    |         |    +--- io.quarkus:quarkus-core:3.34.3 (*)
+|    |    |    |    |    |         |    +--- io.quarkus:quarkus-arc:3.34.3 (*)
+|    |    |    |    |    |         |    \--- io.vertx:vertx-core:4.5.26 (*)
+|    |    |    |    |    |         +--- io.quarkus:quarkus-vertx-latebound-mdc-provider:3.34.3
+|    |    |    |    |    |         |    \--- org.jboss.logmanager:jboss-logmanager:3.2.1.Final (*)
+|    |    |    |    |    |         +--- io.smallrye.reactive:smallrye-mutiny-vertx-core:3.21.6
+|    |    |    |    |    |         |    +--- io.smallrye.reactive:mutiny:3.1.1 (*)
+|    |    |    |    |    |         |    +--- io.smallrye.reactive:smallrye-mutiny-vertx-runtime:3.21.6
+|    |    |    |    |    |         |    |    +--- io.smallrye.reactive:mutiny:3.1.1 (*)
+|    |    |    |    |    |         |    |    \--- io.vertx:vertx-core:4.5.26 (*)
+|    |    |    |    |    |         |    +--- io.vertx:vertx-core:4.5.26 (*)
+|    |    |    |    |    |         |    \--- io.smallrye.reactive:vertx-mutiny-generator:3.21.6
+|    |    |    |    |    |         |         +--- io.smallrye.reactive:smallrye-mutiny-vertx-runtime:3.21.6 (*)
+|    |    |    |    |    |         |         +--- io.vertx:vertx-codegen:4.5.26
+|    |    |    |    |    |         |         |    \--- com.fasterxml.jackson.core:jackson-core:2.18.6 -> 2.21.1 (*)
+|    |    |    |    |    |         |         \--- io.smallrye.common:smallrye-common-annotation:2.17.0
+|    |    |    |    |    |         +--- io.smallrye:smallrye-fault-tolerance-vertx:6.10.1
+|    |    |    |    |    |         \--- io.quarkus:quarkus-security-runtime-spi:3.34.3 (*)
+|    |    |    |    |    +--- io.quarkus:quarkus-arc:3.34.3 (*)
+|    |    |    |    |    +--- io.quarkus:quarkus-credentials:3.34.3
+|    |    |    |    |    |    \--- io.quarkus.arc:arc:3.34.3 (*)
+|    |    |    |    |    \--- io.smallrye.certs:smallrye-private-key-pem-parser:0.9.2
+|    |    |    |    |         +--- io.smallrye.common:smallrye-common-constraint:2.8.0 -> 2.17.0 (*)
+|    |    |    |    |         \--- io.vertx:vertx-core:4.5.11 -> 4.5.26 (*)
+|    |    |    |    +--- io.quarkus:quarkus-credentials:3.34.0 -> 3.34.3 (*)
+|    |    |    |    +--- io.quarkus:quarkus-mutiny:3.34.0 -> 3.34.3 (*)
+|    |    |    |    +--- io.smallrye.common:smallrye-common-vertx-context:2.17.0 (*)
+|    |    |    |    +--- io.quarkus.security:quarkus-security:2.3.2 (*)
+|    |    |    |    +--- io.quarkus:quarkus-vertx:3.34.0 -> 3.34.3 (*)
+|    |    |    |    +--- io.smallrye.reactive:smallrye-mutiny-vertx-web:3.21.5
+|    |    |    |    |    +--- io.vertx:vertx-web:4.5.25
+|    |    |    |    |    |    +--- io.vertx:vertx-web-common:4.5.25
+|    |    |    |    |    |    |    \--- io.vertx:vertx-core:4.5.25 -> 4.5.26 (*)
+|    |    |    |    |    |    +--- io.vertx:vertx-auth-common:4.5.25
+|    |    |    |    |    |    |    \--- io.vertx:vertx-core:4.5.25 -> 4.5.26 (*)
+|    |    |    |    |    |    +--- io.vertx:vertx-bridge-common:4.5.25
+|    |    |    |    |    |    |    \--- io.vertx:vertx-core:4.5.25 -> 4.5.26 (*)
+|    |    |    |    |    |    \--- io.vertx:vertx-core:4.5.25 -> 4.5.26 (*)
+|    |    |    |    |    +--- io.smallrye.reactive:smallrye-mutiny-vertx-core:3.21.5 -> 3.21.6 (*)
+|    |    |    |    |    +--- io.smallrye.reactive:smallrye-mutiny-vertx-web-common:3.21.5
+|    |    |    |    |    |    +--- io.vertx:vertx-web-common:4.5.25 (*)
+|    |    |    |    |    |    \--- io.smallrye.reactive:smallrye-mutiny-vertx-core:3.21.5 -> 3.21.6 (*)
+|    |    |    |    |    +--- io.smallrye.reactive:smallrye-mutiny-vertx-auth-common:3.21.5
+|    |    |    |    |    |    +--- io.vertx:vertx-auth-common:4.5.25 (*)
+|    |    |    |    |    |    \--- io.smallrye.reactive:smallrye-mutiny-vertx-core:3.21.5 -> 3.21.6 (*)
+|    |    |    |    |    +--- io.smallrye.reactive:smallrye-mutiny-vertx-bridge-common:3.21.5
+|    |    |    |    |    |    +--- io.vertx:vertx-bridge-common:4.5.25 (*)
+|    |    |    |    |    |    \--- io.smallrye.reactive:smallrye-mutiny-vertx-core:3.21.5 -> 3.21.6 (*)
+|    |    |    |    |    \--- io.smallrye.reactive:smallrye-mutiny-vertx-uri-template:3.21.5
+|    |    |    |    |         +--- io.vertx:vertx-uri-template:4.5.25
+|    |    |    |    |         |    \--- io.vertx:vertx-core:4.5.25 -> 4.5.26 (*)
+|    |    |    |    |         \--- io.smallrye.reactive:smallrye-mutiny-vertx-core:3.21.5 -> 3.21.6 (*)
+|    |    |    |    +--- io.vertx:vertx-web:4.5.25 (*)
+|    |    |    |    +--- org.crac:crac:1.5.0
+|    |    |    |    \--- com.aayushatharva.brotli4j:brotli4j:1.16.0
+|    |    |    |         \--- com.aayushatharva.brotli4j:service:1.16.0
+|    |    |    \--- io.quarkus:quarkus-jsonp:3.34.0
+|    |    |         +--- io.quarkus:quarkus-core:3.34.0 -> 3.34.3 (*)
+|    |    |         \--- org.eclipse.parsson:parsson:1.1.7 (*)
+|    |    \--- org.apache.camel:camel-microprofile-health:4.18.0
+|    |         +--- org.apache.camel:camel-health:4.18.0
+|    |         |    +--- org.apache.camel:camel-core-engine:4.18.0 (*)
+|    |         |    \--- org.slf4j:slf4j-api:2.0.17
+|    |         +--- org.jboss.logging:jboss-logging:3.6.2.Final -> 3.6.3.Final
+|    |         +--- io.smallrye:smallrye-health:4.3.0 (*)
+|    |         \--- io.smallrye.config:smallrye-config:3.16.0 (*)
+|    +--- org.springframework:spring-tx -> 6.1.13
+|    +--- org.springframework:spring-beans:6.1.12 -> 6.1.13
+|    |    \--- org.springframework:spring-core:6.1.13
+|    |         \--- org.springframework:spring-jcl:6.1.13
+|    +--- io.quarkus:quarkus-narayana-jta:3.34.3
+|    |    +--- io.quarkus:quarkus-core:3.34.3 (*)
+|    |    +--- io.quarkus:quarkus-arc:3.34.3 (*)
+|    |    +--- io.quarkus:quarkus-transaction-annotations:3.34.3
+|    |    +--- io.quarkus:quarkus-mutiny:3.34.3 (*)
+|    |    +--- io.quarkus:quarkus-datasource-common:3.34.3
+|    |    |    \--- io.quarkus:quarkus-core:3.34.3 (*)
+|    |    +--- io.smallrye:smallrye-context-propagation-jta:2.3.0
+|    |    |    \--- org.eclipse.microprofile.context-propagation:microprofile-context-propagation-api:1.3
+|    |    +--- jakarta.transaction:jakarta.transaction-api:2.0.1
+|    |    +--- io.smallrye.reactive:smallrye-reactive-converter-api:3.0.3
+|    |    |    \--- org.reactivestreams:reactive-streams:1.0.4
+|    |    +--- io.smallrye.reactive:smallrye-reactive-converter-mutiny:3.0.3
+|    |    |    +--- io.smallrye.reactive:mutiny:2.0.0 -> 3.1.1 (*)
+|    |    |    +--- io.smallrye.reactive:mutiny-zero-flow-adapters:1.0.0 -> 1.1.1
+|    |    |    |    \--- org.reactivestreams:reactive-streams:1.0.4
+|    |    |    \--- io.smallrye.reactive:smallrye-reactive-converter-api:3.0.3 (*)
+|    |    +--- io.smallrye.reactive:mutiny-zero-flow-adapters:1.1.1 (*)
+|    |    +--- org.jboss.narayana.jta:narayana-jta:7.3.3.Final
+|    |    |    +--- jakarta.enterprise:jakarta.enterprise.cdi-api:4.0.0 -> 4.1.0 (*)
+|    |    |    +--- jakarta.el:jakarta.el-api:5.0.0 -> 6.0.1
+|    |    |    +--- jakarta.interceptor:jakarta.interceptor-api:2.1.0 -> 2.2.0
+|    |    |    +--- jakarta.inject:jakarta.inject-api:2.0.1
+|    |    |    +--- org.jboss:jboss-transaction-spi:8.0.0.Final
+|    |    |    |    +--- jakarta.resource:jakarta.resource-api:2.0.0 -> 2.1.0
+|    |    |    |    |    +--- jakarta.transaction:jakarta.transaction-api:2.0.1
+|    |    |    |    |    \--- jakarta.annotation:jakarta.annotation-api:2.1.0 -> 3.0.0
+|    |    |    |    \--- jakarta.transaction:jakarta.transaction-api:2.0.1
+|    |    |    +--- jakarta.resource:jakarta.resource-api:2.0.0 -> 2.1.0 (*)
+|    |    |    +--- jakarta.transaction:jakarta.transaction-api:2.0.1
+|    |    |    +--- org.reactivestreams:reactive-streams:1.0.3 -> 1.0.4
+|    |    |    +--- org.jboss.invocation:jboss-invocation:2.0.0.Final
+|    |    |    \--- org.eclipse.microprofile.reactive-streams-operators:microprofile-reactive-streams-operators-api:3.0 -> 3.0.1
+|    |    |         \--- org.reactivestreams:reactive-streams:1.0.3 -> 1.0.4
+|    |    \--- org.jboss.narayana.jts:narayana-jts-integration:7.3.3.Final
+|    \--- io.quarkus:quarkus-liquibase -> 3.34.0
+|         +--- io.quarkus:quarkus-core:3.34.0 -> 3.34.3 (*)
+|         +--- io.quarkus:quarkus-liquibase-common:3.34.0
+|         |    +--- org.liquibase:liquibase-core:4.33.0
+|         |    |    +--- com.opencsv:opencsv:5.11.2
+|         |    |    |    +--- org.apache.commons:commons-lang3:3.17.0 -> 3.20.0
+|         |    |    |    +--- org.apache.commons:commons-text:1.13.1 -> 1.15.0
+|         |    |    |    |    \--- org.apache.commons:commons-lang3:3.20.0
+|         |    |    |    \--- org.apache.commons:commons-collections4:4.5.0
+|         |    |    +--- org.yaml:snakeyaml:2.4 -> 2.6
+|         |    |    +--- org.apache.commons:commons-collections4:4.5.0
+|         |    |    +--- org.apache.commons:commons-text:1.13.1 -> 1.15.0 (*)
+|         |    |    +--- org.apache.commons:commons-lang3:3.17.0 -> 3.20.0
+|         |    |    \--- commons-io:commons-io:2.19.0 -> 2.21.0
+|         |    \--- org.jboss.logging:jboss-logging:3.6.2.Final -> 3.6.3.Final
+|         +--- org.liquibase:liquibase-core:4.33.0 (*)
+|         +--- org.osgi:osgi.core:6.0.0
+|         +--- org.yaml:snakeyaml:2.6
+|         +--- io.quarkus:quarkus-jaxb:3.34.0
+|         |    +--- io.quarkus:quarkus-arc:3.34.0 -> 3.34.3 (*)
+|         |    +--- io.quarkus:quarkus-jaxp:3.34.0
+|         |    |    \--- io.quarkus:quarkus-core:3.34.0 -> 3.34.3 (*)
+|         |    +--- org.glassfish.jaxb:jaxb-runtime:4.0.6
+|         |    |    \--- org.glassfish.jaxb:jaxb-core:4.0.6
+|         |    |         +--- jakarta.activation:jakarta.activation-api:2.1.4
+|         |    |         +--- org.eclipse.angus:angus-activation:2.0.3
+|         |    |         |    \--- jakarta.activation:jakarta.activation-api:2.1.4
+|         |    |         +--- org.glassfish.jaxb:txw2:4.0.6
+|         |    |         \--- com.sun.istack:istack-commons-runtime:4.1.2
+|         |    \--- jakarta.xml.bind:jakarta.xml.bind-api:4.0.5 (*)
+|         +--- io.quarkus:quarkus-agroal:3.34.0
+|         |    +--- io.quarkus:quarkus-core:3.34.0 -> 3.34.3 (*)
+|         |    +--- io.quarkus:quarkus-arc:3.34.0 -> 3.34.3 (*)
+|         |    +--- io.quarkus:quarkus-datasource:3.34.0
+|         |    |    +--- io.quarkus:quarkus-core:3.34.0 -> 3.34.3 (*)
+|         |    |    +--- io.quarkus:quarkus-arc:3.34.0 -> 3.34.3 (*)
+|         |    |    +--- io.quarkus:quarkus-datasource-common:3.34.0 -> 3.34.3 (*)
+|         |    |    +--- io.quarkus:quarkus-devservices:3.34.0
+|         |    |    |    +--- io.quarkus:quarkus-core:3.34.0 -> 3.34.3 (*)
+|         |    |    |    \--- io.quarkus:quarkus-arc:3.34.0 -> 3.34.3 (*)
+|         |    |    \--- io.quarkus:quarkus-credentials:3.34.0 -> 3.34.3 (*)
+|         |    +--- io.quarkus:quarkus-narayana-jta:3.34.0 -> 3.34.3 (*)
+|         |    +--- io.agroal:agroal-api:3.0
+|         |    +--- io.agroal:agroal-narayana:3.0
+|         |    |    +--- io.agroal:agroal-api:3.0
+|         |    |    \--- org.jboss:jboss-transaction-spi:8.0.0.Final (*)
+|         |    +--- io.agroal:agroal-pool:3.0
+|         |    |    \--- io.agroal:agroal-api:3.0
+|         |    \--- io.quarkus:quarkus-credentials:3.34.0 -> 3.34.3 (*)
+|         +--- io.quarkus:quarkus-datasource-common:3.34.0 -> 3.34.3 (*)
+|         \--- io.quarkus:quarkus-narayana-jta:3.34.0 -> 3.34.3 (*)
++--- org.apache.camel.quarkus:camel-quarkus-yaml-dsl -> 3.33.0
+|    +--- org.apache.camel.quarkus:camel-quarkus-core:3.33.0 (*)
+|    \--- org.apache.camel:camel-yaml-dsl:4.18.0
+|         +--- org.apache.camel:camel-yaml-dsl-common:4.18.0
+|         |    +--- org.apache.camel:camel-core-engine:4.18.0 (*)
+|         |    \--- org.snakeyaml:snakeyaml-engine:3.0.1
+|         +--- org.apache.camel:camel-yaml-dsl-deserializers:4.18.0
+|         |    \--- org.apache.camel:camel-yaml-dsl-common:4.18.0 (*)
+|         \--- org.apache.camel:camel-dsl-support:4.18.0
+|              +--- org.apache.camel:camel-support:4.18.0 -> 4.18.1 (*)
+|              \--- org.apache.camel:camel-core-model:4.18.0 (*)
++--- org.apache.camel.quarkus:camel-quarkus-kafka -> 3.33.0
+|    +--- io.quarkus:quarkus-kafka-client:3.33.0 -> 3.34.0
+|    |    +--- io.quarkus:quarkus-arc:3.34.0 -> 3.34.3 (*)
+|    |    +--- io.quarkus:quarkus-jackson:3.34.0
+|    |    |    +--- com.fasterxml.jackson.core:jackson-databind:2.21.1
+|    |    |    |    +--- com.fasterxml.jackson.core:jackson-annotations:2.21
+|    |    |    |    +--- com.fasterxml.jackson.core:jackson-core:2.21.1 (*)
+|    |    |    |    \--- com.fasterxml.jackson:jackson-bom:2.21.1 (*)
+|    |    |    +--- com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.21.1
+|    |    |    |    +--- com.fasterxml.jackson.core:jackson-annotations:2.21
+|    |    |    |    +--- com.fasterxml.jackson.core:jackson-core:2.21.1 (*)
+|    |    |    |    +--- com.fasterxml.jackson.core:jackson-databind:2.21.1 (*)
+|    |    |    |    \--- com.fasterxml.jackson:jackson-bom:2.21.1 (*)
+|    |    |    +--- com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.21.1
+|    |    |    |    +--- com.fasterxml.jackson.core:jackson-core:2.21.1 (*)
+|    |    |    |    +--- com.fasterxml.jackson.core:jackson-databind:2.21.1 (*)
+|    |    |    |    \--- com.fasterxml.jackson:jackson-bom:2.21.1 (*)
+|    |    |    +--- com.fasterxml.jackson.module:jackson-module-parameter-names:2.21.1
+|    |    |    |    +--- com.fasterxml.jackson.core:jackson-core:2.21.1 (*)
+|    |    |    |    +--- com.fasterxml.jackson.core:jackson-databind:2.21.1 (*)
+|    |    |    |    \--- com.fasterxml.jackson:jackson-bom:2.21.1 (*)
+|    |    |    \--- io.quarkus:quarkus-arc:3.34.0 -> 3.34.3 (*)
+|    |    +--- io.quarkus:quarkus-devservices:3.34.0 (*)
+|    |    +--- io.quarkus:quarkus-tls-registry:3.34.0 -> 3.34.3 (*)
+|    |    +--- org.apache.kafka:kafka-clients:4.1.1
+|    |    |    +--- com.github.luben:zstd-jni:1.5.6-10
+|    |    |    +--- org.xerial.snappy:snappy-java:1.1.10.7 -> 1.1.10.8
+|    |    |    \--- org.slf4j:slf4j-api:1.7.36 -> 2.0.17
+|    |    \--- at.yawk.lz4:lz4-java:1.10.1 -> 1.10.3
+|    +--- org.apache.camel.quarkus:camel-quarkus-core:3.33.0 (*)
+|    +--- org.apache.camel:camel-kafka:4.18.0
+|    |    +--- org.apache.camel:camel-support:4.18.0 -> 4.18.1 (*)
+|    |    +--- org.apache.camel:camel-health:4.18.0 (*)
+|    |    +--- org.apache.kafka:kafka-clients:3.9.1 -> 4.1.1 (*)
+|    |    +--- at.yawk.lz4:lz4-java:1.10.3
+|    |    \--- com.fasterxml.jackson.core:jackson-databind:2.19.4 -> 2.21.1 (*)
+|    +--- at.yawk.lz4:lz4-java:1.10.1 -> 1.10.3
+|    \--- io.quarkus:quarkus-vertx:3.33.0 -> 3.34.3 (*)
++--- org.apache.camel.quarkus:camel-quarkus-ftp -> 3.33.0
+|    +--- org.apache.camel:camel-ftp:4.18.0
+|    |    +--- org.apache.camel:camel-file:4.18.0
+|    |    |    +--- org.apache.camel:camel-support:4.18.0 -> 4.18.1 (*)
+|    |    |    \--- org.apache.camel:camel-cluster:4.18.0
+|    |    |         +--- org.apache.camel:camel-base-engine:4.18.0 (*)
+|    |    |         +--- org.apache.camel:camel-core-model:4.18.0 (*)
+|    |    |         \--- org.slf4j:slf4j-api:2.0.17
+|    |    +--- org.apache.camel:camel-health:4.18.0 (*)
+|    |    +--- org.apache.camel:camel-core-catalog:4.18.0 -> 4.18.1 (*)
+|    |    +--- com.github.mwiede:jsch:2.27.7
+|    |    \--- commons-net:commons-net:3.12.0
+|    |         \--- commons-io:commons-io:2.20.0 -> 2.21.0
+|    +--- org.apache.camel.quarkus:camel-quarkus-core:3.33.0 (*)
+|    +--- io.quarkiverse.jsch:quarkus-jsch:3.1.2
+|    |    +--- io.quarkus:quarkus-arc:3.27.0 -> 3.34.3 (*)
+|    |    \--- com.github.mwiede:jsch:2.27.6 -> 2.27.7
+|    \--- org.apache.camel.quarkus:camel-quarkus-file:3.33.0
+|         +--- org.apache.camel.quarkus:camel-quarkus-core:3.33.0 (*)
+|         \--- org.apache.camel:camel-file:4.18.0 (*)
++--- org.apache.camel.quarkus:camel-quarkus-sql -> 3.33.0
+|    +--- org.apache.camel.quarkus:camel-quarkus-core:3.33.0 (*)
+|    +--- org.apache.camel.quarkus:camel-quarkus-support-jdbc:3.33.0
+|    |    +--- io.quarkus:quarkus-agroal:3.33.0 -> 3.34.0 (*)
+|    |    \--- org.apache.camel.quarkus:camel-quarkus-core:3.33.0 (*)
+|    +--- org.apache.camel.quarkus:camel-quarkus-support-spring:3.33.0
+|    |    +--- io.quarkus:quarkus-core:3.33.0 -> 3.34.3 (*)
+|    |    +--- org.apache.camel.quarkus:camel-quarkus-support-commons-logging:3.33.0
+|    |    |    +--- io.quarkus:quarkus-core:3.33.0 -> 3.34.3 (*)
+|    |    |    \--- org.jboss.logging:commons-logging-jboss-logging:2.0.0.Final
+|    |    |         \--- org.jboss.logging:jboss-logging:3.6.2.Final -> 3.6.3.Final
+|    |    +--- org.apache.camel.quarkus:camel-quarkus-support-spring-beans:3.33.0
+|    |    |    \--- org.apache.camel.quarkus:camel-quarkus-support-spring-core:3.33.0
+|    |    +--- org.apache.camel.quarkus:camel-quarkus-support-spring-context:3.33.0
+|    |    |    +--- org.apache.camel.quarkus:camel-quarkus-support-spring-beans:3.33.0 (*)
+|    |    |    \--- org.apache.camel.quarkus:camel-quarkus-support-spring-core:3.33.0
+|    |    \--- org.apache.camel.quarkus:camel-quarkus-support-spring-core:3.33.0
+|    +--- org.apache.camel:camel-sql:4.18.0
+|    |    +--- org.apache.camel:camel-support:4.18.0 -> 4.18.1 (*)
+|    |    \--- org.springframework:spring-jdbc:6.2.15 -> 6.1.13
+|    |         \--- org.springframework:spring-tx:6.1.13
+|    +--- io.quarkus:quarkus-agroal:3.33.0 -> 3.34.0 (*)
+|    \--- io.quarkus:quarkus-narayana-jta:3.33.0 -> 3.34.3 (*)
++--- org.apache.camel.quarkus:camel-quarkus-elasticsearch -> 3.33.0
+|    +--- org.apache.camel.quarkus:camel-quarkus-core:3.33.0 (*)
+|    +--- org.apache.camel:camel-elasticsearch:4.18.0
+|    |    +--- org.apache.camel:camel-support:4.18.0 -> 4.18.1 (*)
+|    |    +--- co.elastic.clients:elasticsearch-java:9.3.0
+|    |    |    +--- io.opentelemetry:opentelemetry-api:1.37.0 -> 1.57.0
+|    |    |    |    \--- io.opentelemetry:opentelemetry-context:1.57.0
+|    |    |    |         \--- io.opentelemetry:opentelemetry-common:1.57.0
+|    |    |    +--- io.opentelemetry.semconv:opentelemetry-semconv:1.37.0
+|    |    |    +--- com.fasterxml.jackson.core:jackson-core:2.18.3 -> 2.21.1 (*)
+|    |    |    +--- com.fasterxml.jackson.core:jackson-databind:2.18.3 -> 2.21.1 (*)
+|    |    |    +--- tools.jackson.core:jackson-databind:3.0.0
+|    |    |    |    +--- com.fasterxml.jackson.core:jackson-annotations:2.20 -> 2.21
+|    |    |    |    +--- tools.jackson.core:jackson-core:3.0.0
+|    |    |    |    |    \--- tools.jackson:jackson-bom:3.0.0
+|    |    |    |    |         +--- com.fasterxml.jackson.core:jackson-annotations:2.20 -> 2.21 (c)
+|    |    |    |    |         +--- tools.jackson.core:jackson-core:3.0.0 (c)
+|    |    |    |    |         \--- tools.jackson.core:jackson-databind:3.0.0 (c)
+|    |    |    |    \--- tools.jackson:jackson-bom:3.0.0 (*)
+|    |    |    +--- tools.jackson.core:jackson-core:3.0.0 (*)
+|    |    |    +--- co.elastic.clients:elasticsearch-rest5-client:9.3.0
+|    |    |    |    +--- org.eclipse.parsson:jakarta.json:1.1.7
+|    |    |    |    \--- org.apache.httpcomponents.client5:httpclient5:5.6
+|    |    |    |         +--- org.apache.httpcomponents.core5:httpcore5:5.4
+|    |    |    |         +--- org.apache.httpcomponents.core5:httpcore5-h2:5.4
+|    |    |    |         |    \--- org.apache.httpcomponents.core5:httpcore5:5.4
+|    |    |    |         \--- org.slf4j:slf4j-api:1.7.36 -> 2.0.17
+|    |    |    +--- jakarta.json:jakarta.json-api:2.1.3
+|    |    |    \--- org.eclipse.parsson:parsson:1.1.7 (*)
+|    |    +--- org.elasticsearch.client:elasticsearch-rest-client-sniffer:9.3.0
+|    |    |    +--- org.elasticsearch.client:elasticsearch-rest-client:9.3.0
+|    |    |    |    +--- org.apache.httpcomponents:httpclient:4.5.14
+|    |    |    |    |    +--- org.apache.httpcomponents:httpcore:4.4.16
+|    |    |    |    |    \--- commons-codec:commons-codec:1.11 -> 1.21.0
+|    |    |    |    +--- org.apache.httpcomponents:httpcore:4.4.16
+|    |    |    |    +--- org.apache.httpcomponents:httpasyncclient:4.1.5
+|    |    |    |    |    +--- org.apache.httpcomponents:httpcore:4.4.15 -> 4.4.16
+|    |    |    |    |    +--- org.apache.httpcomponents:httpcore-nio:4.4.15 -> 4.4.16
+|    |    |    |    |    |    \--- org.apache.httpcomponents:httpcore:4.4.16
+|    |    |    |    |    \--- org.apache.httpcomponents:httpclient:4.5.13 -> 4.5.14 (*)
+|    |    |    |    +--- org.apache.httpcomponents:httpcore-nio:4.4.16 (*)
+|    |    |    |    \--- commons-codec:commons-codec:1.15 -> 1.21.0
+|    |    |    +--- org.apache.httpcomponents:httpclient:4.5.14 (*)
+|    |    |    +--- org.apache.httpcomponents:httpcore:4.4.16
+|    |    |    +--- commons-codec:commons-codec:1.15 -> 1.21.0
+|    |    |    \--- com.fasterxml.jackson.core:jackson-core:2.15.0 -> 2.21.1 (*)
+|    |    \--- com.fasterxml.jackson.core:jackson-databind:2.19.4 -> 2.21.1 (*)
+|    \--- org.apache.camel.quarkus:camel-quarkus-support-commons-logging:3.33.0 (*)
++--- org.apache.camel.quarkus:camel-quarkus-cassandraql -> 3.33.0
+|    +--- io.quarkus:quarkus-vertx:3.33.0 -> 3.34.3 (*)
+|    +--- org.apache.camel.quarkus:camel-quarkus-core:3.33.0 (*)
+|    +--- org.apache.camel:camel-cassandraql:4.18.0
+|    |    \--- org.apache.camel:camel-support:4.18.0 -> 4.18.1 (*)
+|    +--- com.datastax.oss.quarkus:cassandra-quarkus-client:1.4.1
+|    |    +--- org.apache.cassandra:java-driver-core:4.19.2
+|    |    |    +--- com.datastax.oss:native-protocol:1.5.2
+|    |    |    +--- io.netty:netty-handler:4.1.119.Final -> 4.2.8.Final (*)
+|    |    |    +--- org.apache.cassandra:java-driver-guava-shaded:4.19.2
+|    |    |    +--- com.typesafe:config:1.4.1
+|    |    |    +--- com.github.jnr:jnr-posix:3.1.15
+|    |    |    |    +--- com.github.jnr:jnr-ffi:2.2.11 -> 2.2.13
+|    |    |    |    |    +--- com.github.jnr:jffi:1.3.10
+|    |    |    |    |    +--- org.ow2.asm:asm:9.2 -> 9.9.1
+|    |    |    |    |    +--- org.ow2.asm:asm-commons:9.2 -> 9.9.1
+|    |    |    |    |    |    +--- org.ow2.asm:asm:9.9.1
+|    |    |    |    |    |    \--- org.ow2.asm:asm-tree:9.9.1
+|    |    |    |    |    |         \--- org.ow2.asm:asm:9.9.1
+|    |    |    |    |    +--- org.ow2.asm:asm-analysis:9.2 -> 9.9.1
+|    |    |    |    |    |    \--- org.ow2.asm:asm-tree:9.9.1 (*)
+|    |    |    |    |    +--- org.ow2.asm:asm-tree:9.2 -> 9.9.1 (*)
+|    |    |    |    |    +--- org.ow2.asm:asm-util:9.2 -> 9.9.1
+|    |    |    |    |    |    +--- org.ow2.asm:asm:9.9.1
+|    |    |    |    |    |    +--- org.ow2.asm:asm-tree:9.9.1 (*)
+|    |    |    |    |    |    \--- org.ow2.asm:asm-analysis:9.9.1 (*)
+|    |    |    |    |    +--- com.github.jnr:jnr-a64asm:1.0.0
+|    |    |    |    |    \--- com.github.jnr:jnr-x86asm:1.0.2
+|    |    |    |    \--- com.github.jnr:jnr-constants:0.10.3
+|    |    |    +--- org.slf4j:slf4j-api:1.7.26 -> 2.0.17
+|    |    |    +--- com.fasterxml.jackson.core:jackson-core:2.13.5 -> 2.21.1 (*)
+|    |    |    +--- com.fasterxml.jackson.core:jackson-databind:2.13.5 -> 2.21.1 (*)
+|    |    |    \--- org.reactivestreams:reactive-streams:1.0.3 -> 1.0.4
+|    |    +--- io.quarkus:quarkus-core:3.31.0 -> 3.34.3 (*)
+|    |    +--- io.quarkus:quarkus-arc:3.31.0 -> 3.34.3 (*)
+|    |    +--- io.quarkus:quarkus-netty:3.31.0 -> 3.34.3 (*)
+|    |    +--- io.quarkus:quarkus-mutiny:3.31.0 -> 3.34.3 (*)
+|    |    +--- io.quarkus:quarkus-vertx:3.31.0 -> 3.34.3 (*)
+|    |    +--- io.quarkus:quarkus-smallrye-health:3.31.0 -> 3.34.0 (*)
+|    |    \--- io.smallrye.reactive:mutiny-zero-flow-adapters:1.1.1 (*)
+|    \--- org.apache.cassandra:java-driver-query-builder:4.19.2
+|         +--- org.apache.cassandra:java-driver-core:4.19.2 (*)
+|         \--- org.apache.cassandra:java-driver-guava-shaded:4.19.2
++--- io.quarkiverse.groovy:quarkus-groovy:3.34.3
+|    +--- io.quarkus:quarkus-core:3.34.3 (*)
+|    +--- org.apache.groovy:groovy:4.0.29 -> 4.0.30
+|    |    \--- org.apache.groovy:groovy-bom:4.0.30
+|    |         \--- org.apache.groovy:groovy:4.0.30 (c)
+|    \--- io.quarkus:quarkus-arc:3.34.3 (*)
++--- org.apache.camel.quarkus:camel-quarkus-joor -> 3.33.0
+|    +--- org.apache.camel.quarkus:camel-quarkus-core:3.33.0 (*)
+|    +--- org.apache.camel.quarkus:camel-quarkus-support-language:3.33.0
+|    |    \--- org.apache.camel.quarkus:camel-quarkus-core:3.33.0 (*)
+|    \--- org.apache.camel:camel-joor:4.18.0
+|         +--- org.apache.camel:camel-support:4.18.0 -> 4.18.1 (*)
+|         \--- org.jooq:joor:0.9.15
++--- org.apache.camel.quarkus:camel-quarkus-datasonnet -> 3.33.0
+|    +--- org.apache.camel.quarkus:camel-quarkus-core:3.33.0 (*)
+|    +--- org.apache.camel:camel-datasonnet:4.18.0
+|    |    +--- org.scala-lang:scala-library:2.13.18
+|    |    +--- org.apache.camel:camel-support:4.18.0 -> 4.18.1 (*)
+|    |    +--- org.apache.camel:camel-xml-jaxb:4.18.0
+|    |    |    +--- org.glassfish.jaxb:jaxb-runtime:4.0.6 (*)
+|    |    |    +--- org.apache.camel:camel-core-engine:4.18.0 (*)
+|    |    |    \--- org.apache.camel:camel-xml-jaxp:4.18.0
+|    |    |         +--- org.apache.camel:camel-core-model:4.18.0 (*)
+|    |    |         +--- org.apache.camel:camel-support:4.18.0 -> 4.18.1 (*)
+|    |    |         +--- org.apache.camel:camel-xml-jaxp-util:4.18.0 -> 4.18.1
+|    |    |         \--- org.apache.camel:camel-xml-io-util:4.18.0
+|    |    +--- com.datasonnet:datasonnet-mapper:3.0.1.3
+|    |    |    +--- org.awaitility:awaitility:4.2.0 -> 4.3.0
+|    |    |    |    \--- org.hamcrest:hamcrest:2.1 -> 2.2
+|    |    |    +--- org.scala-lang:scala-library:2.13.12 -> 2.13.18
+|    |    |    +--- com.typesafe.scala-logging:scala-logging_2.13:3.9.5
+|    |    |    |    +--- org.scala-lang:scala-library:2.13.8 -> 2.13.18
+|    |    |    |    +--- org.scala-lang:scala-reflect:2.13.8 -> 2.13.16
+|    |    |    |    |    \--- org.scala-lang:scala-library:2.13.16 -> 2.13.18
+|    |    |    |    \--- org.slf4j:slf4j-api:1.7.36 -> 2.0.17
+|    |    |    +--- com.lihaoyi:ujson_2.13:1.2.0
+|    |    |    |    \--- com.lihaoyi:upickle-core_2.13:1.2.0
+|    |    |    |         +--- org.scala-lang.modules:scala-collection-compat_2.13:2.1.4
+|    |    |    |         |    \--- org.scala-lang:scala-library:2.13.1 -> 2.13.18
+|    |    |    |         \--- com.lihaoyi:geny_2.13:0.6.2
+|    |    |    +--- com.lihaoyi:fastparse_2.13:2.3.0
+|    |    |    |    +--- com.lihaoyi:sourcecode_2.13:0.2.1
+|    |    |    |    \--- com.lihaoyi:geny_2.13:0.6.0 -> 0.6.2
+|    |    |    +--- com.lihaoyi:pprint_2.13:0.5.9
+|    |    |    |    +--- com.lihaoyi:fansi_2.13:0.2.9
+|    |    |    |    |    \--- com.lihaoyi:sourcecode_2.13:0.2.1
+|    |    |    |    \--- com.lihaoyi:sourcecode_2.13:0.2.1
+|    |    |    +--- com.lihaoyi:scalatags_2.13:0.9.1
+|    |    |    |    +--- com.lihaoyi:sourcecode_2.13:0.2.1
+|    |    |    |    \--- com.lihaoyi:geny_2.13:0.6.0 -> 0.6.2
+|    |    |    +--- org.jetbrains:annotations:24.0.1 -> 26.1.0
+|    |    |    +--- com.fasterxml.jackson.core:jackson-core:2.15.3 -> 2.21.1 (*)
+|    |    |    +--- com.fasterxml.jackson.core:jackson-databind:2.15.3 -> 2.21.1 (*)
+|    |    |    +--- com.fasterxml.jackson.dataformat:jackson-dataformat-csv:2.15.3 -> 2.21.1
+|    |    |    |    +--- com.fasterxml.jackson.core:jackson-databind:2.21.1 (*)
+|    |    |    |    +--- com.fasterxml.jackson.core:jackson-annotations:2.21
+|    |    |    |    +--- com.fasterxml.jackson.core:jackson-core:2.21.1 (*)
+|    |    |    |    \--- com.fasterxml.jackson:jackson-bom:2.21.1 (*)
+|    |    |    +--- com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.15.3 -> 2.21.1
+|    |    |    |    +--- com.fasterxml.jackson.core:jackson-databind:2.21.1 (*)
+|    |    |    |    +--- org.yaml:snakeyaml:2.5 -> 2.6
+|    |    |    |    +--- com.fasterxml.jackson.core:jackson-core:2.21.1 (*)
+|    |    |    |    \--- com.fasterxml.jackson:jackson-bom:2.21.1 (*)
+|    |    |    +--- com.fasterxml.jackson.dataformat:jackson-dataformat-properties:2.15.3 -> 2.21.1
+|    |    |    |    +--- com.fasterxml.jackson.core:jackson-databind:2.21.1 (*)
+|    |    |    |    +--- com.fasterxml.jackson.core:jackson-core:2.21.1 (*)
+|    |    |    |    \--- com.fasterxml.jackson:jackson-bom:2.21.1 (*)
+|    |    |    +--- jakarta.xml.bind:jakarta.xml.bind-api:4.0.0 -> 4.0.5 (*)
+|    |    |    +--- com.sun.xml.bind:jaxb-core:4.0.4
+|    |    |    |    +--- jakarta.xml.bind:jakarta.xml.bind-api:4.0.1 -> 4.0.5 (*)
+|    |    |    |    \--- org.eclipse.angus:angus-activation:2.0.1 -> 2.0.3 (*)
+|    |    |    +--- com.sun.xml.bind:jaxb-impl:4.0.4
+|    |    |    |    \--- com.sun.xml.bind:jaxb-core:4.0.4 (*)
+|    |    |    +--- jakarta.servlet:jakarta.servlet-api:6.0.0
+|    |    |    +--- org.apache.commons:commons-fileupload2-jakarta:2.0.0-M1
+|    |    |    |    +--- org.apache.commons:commons-fileupload2-core:2.0.0-M1
+|    |    |    |    |    \--- commons-io:commons-io:2.13.0 -> 2.21.0
+|    |    |    |    \--- commons-io:commons-io:2.13.0 -> 2.21.0
+|    |    |    +--- com.jayway.jsonpath:json-path:2.9.0 -> 2.10.0
+|    |    |    |    +--- net.minidev:json-smart:2.6.0
+|    |    |    |    |    \--- net.minidev:accessors-smart:2.6.0
+|    |    |    |    |         \--- org.ow2.asm:asm:9.7.1 -> 9.9.1
+|    |    |    |    \--- org.slf4j:slf4j-api:2.0.17
+|    |    |    +--- org.bouncycastle:bcpg-jdk18on:1.78.1 -> 1.83
+|    |    |    |    +--- org.bouncycastle:bcprov-jdk18on:1.83
+|    |    |    |    \--- org.bouncycastle:bcutil-jdk18on:1.83
+|    |    |    |         \--- org.bouncycastle:bcprov-jdk18on:1.83
+|    |    |    +--- org.bouncycastle:bcprov-ext-jdk18on:1.78.1
+|    |    |    |    \--- org.bouncycastle:bcprov-jdk18on:1.78.1 -> 1.83
+|    |    |    +--- org.bouncycastle:bcprov-jdk18on:1.78.1 -> 1.83
+|    |    |    +--- org.bouncycastle:bcpkix-jdk18on:1.78.1 -> 1.83
+|    |    |    |    \--- org.bouncycastle:bcutil-jdk18on:1.83 (*)
+|    |    |    +--- com.google.re2j:re2j:1.7
+|    |    |    +--- info.picocli:picocli:4.7.5 -> 4.7.7
+|    |    |    +--- org.slf4j:slf4j-api:2.0.9 -> 2.0.17
+|    |    |    \--- ch.qos.logback:logback-classic:1.5.6
+|    |    |         +--- ch.qos.logback:logback-core:1.5.6
+|    |    |         \--- org.slf4j:slf4j-api:2.0.13 -> 2.0.17
+|    |    +--- commons-io:commons-io:2.21.0
+|    |    \--- io.github.classgraph:classgraph:4.8.184
+|    \--- com.lihaoyi:geny_2.13:0.6.2
++--- com.solacesystems:sol-jms-jakarta:10.29.1
+|    +--- com.solace:solace-serdes:1.0.0
+|    +--- jakarta.jms:jakarta.jms-api:3.1.0
+|    +--- commons-logging:commons-logging:1.2 -> 1.3.0
+|    +--- org.osgi:org.osgi.annotation:6.0.0
+|    +--- org.apache.servicemix.bundles:org.apache.servicemix.bundles.jzlib:1.1.3_2
+|    +--- io.netty:netty-transport:4.2.8.Final (*)
+|    +--- io.netty:netty-handler:4.2.8.Final (*)
+|    +--- io.netty:netty-codec-http:4.2.8.Final (*)
+|    +--- io.netty:netty-transport-native-epoll:4.2.8.Final
+|    |    +--- io.netty:netty-common:4.2.8.Final
+|    |    +--- io.netty:netty-buffer:4.2.8.Final (*)
+|    |    +--- io.netty:netty-transport:4.2.8.Final (*)
+|    |    +--- io.netty:netty-transport-native-unix-common:4.2.8.Final (*)
+|    |    \--- io.netty:netty-transport-classes-epoll:4.2.8.Final
+|    |         +--- io.netty:netty-common:4.2.8.Final
+|    |         +--- io.netty:netty-buffer:4.2.8.Final (*)
+|    |         +--- io.netty:netty-transport:4.2.8.Final (*)
+|    |         \--- io.netty:netty-transport-native-unix-common:4.2.8.Final (*)
+|    \--- io.netty:netty-handler-proxy:4.2.8.Final (*)
++--- io.quarkus:quarkus-jdbc-postgresql -> 3.34.0
+|    +--- io.quarkus:quarkus-arc:3.34.0 -> 3.34.3 (*)
+|    +--- io.quarkus:quarkus-agroal:3.34.0 (*)
+|    \--- org.postgresql:postgresql:42.7.10
++--- io.quarkus:quarkus-jdbc-mysql -> 3.34.0
+|    +--- io.quarkus:quarkus-arc:3.34.0 -> 3.34.3 (*)
+|    +--- io.quarkus:quarkus-agroal:3.34.0 (*)
+|    \--- com.mysql:mysql-connector-j:9.6.0
++--- io.quarkus:quarkus-jdbc-mssql -> 3.34.0
+|    +--- io.quarkus:quarkus-arc:3.34.0 -> 3.34.3 (*)
+|    +--- io.quarkus:quarkus-agroal:3.34.0 (*)
+|    +--- com.microsoft.sqlserver:mssql-jdbc:13.2.1.jre11
+|    \--- org.antlr:antlr4-runtime:4.13.2
++--- io.quarkus:quarkus-jdbc-oracle -> 3.34.0
+|    +--- io.quarkus:quarkus-arc:3.34.0 -> 3.34.3 (*)
+|    +--- io.quarkus:quarkus-agroal:3.34.0 (*)
+|    +--- com.oracle.database.jdbc:ojdbc17:23.26.0.0.0
+|    \--- com.oracle.database.nls:orai18n:23.26.0.0.0
++--- io.quarkus:quarkus-tls-registry:3.34.3 (*)
++--- com.datasonnet:datasonnet-mapper:3.0.1.1 -> 3.0.1.3 (*)
++--- org.apache.camel.quarkus:camel-quarkus-file -> 3.33.0 (*)
++--- org.apache.activemq:artemis-jakarta-client:2.36.0
+|    +--- org.slf4j:slf4j-api:2.0.13 -> 2.0.17
+|    +--- org.apache.activemq:artemis-core-client:2.36.0
+|    |    +--- org.slf4j:slf4j-api:2.0.13 -> 2.0.17
+|    |    +--- org.jgroups:jgroups:5.3.9.Final
+|    |    +--- org.apache.activemq:artemis-commons:2.36.0
+|    |    |    +--- org.slf4j:slf4j-api:2.0.13 -> 2.0.17
+|    |    |    +--- io.netty:netty-buffer:4.1.112.Final -> 4.2.8.Final (*)
+|    |    |    +--- io.netty:netty-common:4.1.112.Final -> 4.2.8.Final
+|    |    |    \--- commons-beanutils:commons-beanutils:1.9.4 -> 1.11.0
+|    |    |         \--- commons-collections:commons-collections:3.2.2
+|    |    +--- io.netty:netty-transport-native-epoll:4.1.112.Final -> 4.2.8.Final (*)
+|    |    +--- io.netty:netty-transport-classes-epoll:4.1.112.Final -> 4.2.8.Final (*)
+|    |    +--- io.netty:netty-transport-native-kqueue:4.1.112.Final -> 4.1.130.Final
+|    |    |    +--- io.netty:netty-common:4.1.130.Final -> 4.2.8.Final
+|    |    |    +--- io.netty:netty-buffer:4.1.130.Final -> 4.2.8.Final (*)
+|    |    |    +--- io.netty:netty-transport:4.1.130.Final -> 4.2.8.Final (*)
+|    |    |    +--- io.netty:netty-transport-native-unix-common:4.1.130.Final -> 4.2.8.Final (*)
+|    |    |    \--- io.netty:netty-transport-classes-kqueue:4.1.130.Final
+|    |    |         +--- io.netty:netty-common:4.1.130.Final -> 4.2.8.Final
+|    |    |         +--- io.netty:netty-buffer:4.1.130.Final -> 4.2.8.Final (*)
+|    |    |         +--- io.netty:netty-transport:4.1.130.Final -> 4.2.8.Final (*)
+|    |    |         \--- io.netty:netty-transport-native-unix-common:4.1.130.Final -> 4.2.8.Final (*)
+|    |    +--- io.netty:netty-transport-classes-kqueue:4.1.112.Final -> 4.1.130.Final (*)
+|    |    +--- io.netty:netty-codec-http:4.1.112.Final -> 4.2.8.Final (*)
+|    |    +--- io.netty:netty-buffer:4.1.112.Final -> 4.2.8.Final (*)
+|    |    +--- io.netty:netty-transport:4.1.112.Final -> 4.2.8.Final (*)
+|    |    +--- io.netty:netty-handler:4.1.112.Final -> 4.2.8.Final (*)
+|    |    +--- io.netty:netty-handler-proxy:4.1.112.Final -> 4.2.8.Final (*)
+|    |    +--- io.netty:netty-codec:4.1.112.Final -> 4.1.132.Final (*)
+|    |    +--- io.netty:netty-codec-socks:4.1.112.Final -> 4.2.8.Final (*)
+|    |    +--- io.netty:netty-common:4.1.112.Final -> 4.2.8.Final
+|    |    +--- io.netty:netty-resolver:4.1.112.Final -> 4.2.8.Final (*)
+|    |    \--- de.dentrassi.crypto:pem-keystore:2.4.0
+|    |         +--- org.bouncycastle:bcprov-jdk18on:1.78 -> 1.83
+|    |         \--- org.bouncycastle:bcpkix-jdk18on:1.78 -> 1.83 (*)
+|    +--- org.apache.activemq:artemis-commons:2.36.0 (*)
+|    +--- org.apache.activemq:artemis-selector:2.36.0
+|    |    +--- org.apache.activemq:artemis-commons:2.36.0 (*)
+|    |    \--- org.slf4j:slf4j-api:2.0.13 -> 2.0.17
+|    \--- jakarta.jms:jakarta.jms-api:3.1.0
++--- org.apache.camel.quarkus:camel-quarkus-jms -> 3.33.0
+|    +--- org.apache.camel.quarkus:camel-quarkus-core:3.33.0 (*)
+|    +--- org.apache.camel.quarkus:camel-quarkus-support-spring:3.33.0 (*)
+|    +--- org.apache.camel:camel-jms:4.18.0
+|    |    +--- org.apache.camel:camel-support:4.18.0 -> 4.18.1 (*)
+|    |    +--- org.springframework:spring-jms:6.2.15 -> 6.1.13
+|    |    |    +--- org.springframework:spring-messaging:6.1.13
+|    |    |    +--- org.springframework:spring-tx:6.1.13
+|    |    |    \--- io.micrometer:micrometer-observation:1.12.10 -> 1.16.3
+|    |    |         +--- org.jspecify:jspecify:1.0.0
+|    |    |         \--- io.micrometer:micrometer-commons:1.16.3
+|    |    |              \--- org.jspecify:jspecify:1.0.0
+|    |    +--- org.springframework:spring-tx:6.2.15 -> 6.1.13
+|    |    \--- jakarta.jms:jakarta.jms-api:3.1.0
+|    +--- jakarta.jms:jakarta.jms-api:3.1.0
+|    +--- org.springframework:spring-jms:6.2.15 -> 6.1.13 (*)
+|    +--- org.springframework:spring-messaging:6.2.15 -> 6.1.13
+|    \--- org.springframework:spring-tx:6.2.15 -> 6.1.13
++--- org.apache.camel.quarkus:camel-quarkus-jta -> 3.33.0
+|    +--- org.apache.camel.quarkus:camel-quarkus-core:3.33.0 (*)
+|    +--- org.apache.camel:camel-jta:4.18.0
+|    |    +--- org.apache.camel:camel-support:4.18.0 -> 4.18.1 (*)
+|    |    +--- org.apache.camel:camel-core-engine:4.18.0 (*)
+|    |    \--- jakarta.transaction:jakarta.transaction-api:2.0.1
+|    \--- io.quarkus:quarkus-narayana-jta:3.33.0 -> 3.34.3 (*)
++--- org.apache.camel.quarkus:camel-quarkus-jackson -> 3.33.0
+|    +--- org.apache.camel.quarkus:camel-quarkus-core:3.33.0 (*)
+|    +--- io.quarkus:quarkus-jaxp:3.33.0 -> 3.34.0 (*)
+|    +--- io.quarkus:quarkus-jackson:3.33.0 -> 3.34.0 (*)
+|    +--- com.fasterxml.jackson.module:jackson-module-jakarta-xmlbind-annotations:2.21.1
+|    |    +--- com.fasterxml.jackson.core:jackson-annotations:2.21
+|    |    +--- com.fasterxml.jackson.core:jackson-core:2.21.1 (*)
+|    |    +--- com.fasterxml.jackson.core:jackson-databind:2.21.1 (*)
+|    |    +--- jakarta.xml.bind:jakarta.xml.bind-api:3.0.1 -> 4.0.5 (*)
+|    |    +--- jakarta.activation:jakarta.activation-api:2.1.0 -> 2.1.4
+|    |    \--- com.fasterxml.jackson:jackson-bom:2.21.1 (*)
+|    +--- org.apache.camel:camel-jackson:4.18.0
+|    |    +--- org.apache.camel:camel-core-engine:4.18.0 (*)
+|    |    \--- com.fasterxml.jackson.core:jackson-databind:2.19.4 -> 2.21.1 (*)
+|    +--- jakarta.xml.bind:jakarta.xml.bind-api:4.0.5 (*)
+|    \--- org.eclipse.angus:angus-activation:2.0.3 (*)
++--- org.apache.camel.quarkus:camel-quarkus-timer -> 3.33.0
+|    +--- org.apache.camel.quarkus:camel-quarkus-core:3.33.0 (*)
+|    \--- org.apache.camel:camel-timer:4.18.0
+|         \--- org.apache.camel:camel-support:4.18.0 -> 4.18.1 (*)
++--- org.apache.camel:camel-core-catalog:4.18.1 (*)
++--- org.apache.camel.quarkus:camel-quarkus-kamelet -> 3.33.0
+|    +--- org.apache.camel.quarkus:camel-quarkus-core:3.33.0 (*)
+|    \--- org.apache.camel:camel-kamelet:4.18.0
+|         +--- org.apache.camel:camel-core-reifier:4.18.0 (*)
+|         \--- org.apache.camel:camel-core-model:4.18.0 (*)
++--- org.apache.camel.kamelets:camel-kamelets -> 4.18.0
++--- org.apache.camel.quarkus:camel-quarkus-catalog -> 3.33.0
+|    \--- org.apache.camel:camel-catalog:4.18.0
+|         +--- org.apache.camel:camel-core-catalog:4.18.0 -> 4.18.1 (*)
+|         +--- org.apache.camel:camel-util-json:4.18.0 -> 4.18.1
+|         \--- org.apache.camel:camel-tooling-model:4.18.0 -> 4.18.1 (*)
++--- org.apache.camel.quarkus:camel-quarkus-direct -> 3.33.0
+|    +--- org.apache.camel.quarkus:camel-quarkus-core:3.33.0 (*)
+|    \--- org.apache.camel:camel-direct:4.18.0
+|         \--- org.apache.camel:camel-support:4.18.0 -> 4.18.1 (*)
++--- org.apache.camel.quarkus:camel-quarkus-seda -> 3.33.0
+|    +--- org.apache.camel.quarkus:camel-quarkus-core:3.33.0 (*)
+|    \--- org.apache.camel:camel-seda:4.18.0
+|         \--- org.apache.camel:camel-support:4.18.0 -> 4.18.1 (*)
++--- org.apache.camel.quarkus:camel-quarkus-microprofile-fault-tolerance -> 3.33.0
+|    +--- io.quarkus:quarkus-smallrye-fault-tolerance:3.33.0 -> 3.34.0
+|    |    +--- io.quarkus:quarkus-core:3.34.0 -> 3.34.3 (*)
+|    |    +--- io.quarkus:quarkus-mutiny:3.34.0 -> 3.34.3 (*)
+|    |    +--- io.smallrye:smallrye-fault-tolerance:6.10.0
+|    |    |    +--- org.eclipse.microprofile.fault-tolerance:microprofile-fault-tolerance-api:4.1.2
+|    |    |    +--- io.smallrye:smallrye-fault-tolerance-api:6.10.0
+|    |    |    |    +--- jakarta.enterprise:jakarta.enterprise.cdi-api:4.0.1 -> 4.1.0 (*)
+|    |    |    |    +--- org.eclipse.microprofile.fault-tolerance:microprofile-fault-tolerance-api:4.1.2
+|    |    |    |    \--- io.smallrye.common:smallrye-common-annotation:2.8.0 -> 2.17.0
+|    |    |    +--- io.smallrye:smallrye-fault-tolerance-core:6.10.0
+|    |    |    |    +--- org.eclipse.microprofile.fault-tolerance:microprofile-fault-tolerance-api:4.1.2
+|    |    |    |    +--- io.smallrye:smallrye-fault-tolerance-api:6.10.0 (*)
+|    |    |    |    \--- org.jboss.logging:jboss-logging:3.6.1.Final -> 3.6.3.Final
+|    |    |    +--- io.smallrye:smallrye-fault-tolerance-autoconfig-core:6.10.0
+|    |    |    |    +--- org.eclipse.microprofile.fault-tolerance:microprofile-fault-tolerance-api:4.1.2
+|    |    |    |    \--- io.smallrye:smallrye-fault-tolerance-api:6.10.0 (*)
+|    |    |    +--- io.smallrye:smallrye-fault-tolerance-apiimpl:6.10.0
+|    |    |    |    +--- org.eclipse.microprofile.fault-tolerance:microprofile-fault-tolerance-api:4.1.2
+|    |    |    |    +--- io.smallrye:smallrye-fault-tolerance-api:6.10.0 (*)
+|    |    |    |    +--- io.smallrye:smallrye-fault-tolerance-core:6.10.0 (*)
+|    |    |    |    \--- io.smallrye:smallrye-fault-tolerance-autoconfig-core:6.10.0 (*)
+|    |    |    +--- jakarta.enterprise:jakarta.enterprise.cdi-api:4.0.1 -> 4.1.0 (*)
+|    |    |    +--- org.jboss.logging:jboss-logging:3.6.1.Final -> 3.6.3.Final
+|    |    |    \--- org.eclipse.microprofile.config:microprofile-config-api:3.1 -> 3.1.1-RC1
+|    |    +--- jakarta.enterprise:jakarta.enterprise.cdi-api:4.1.0 (*)
+|    |    +--- jakarta.annotation:jakarta.annotation-api:3.0.0
+|    |    +--- org.jboss.logging:commons-logging-jboss-logging:2.0.0.Final (*)
+|    |    +--- io.quarkus:quarkus-smallrye-context-propagation:3.34.0 -> 3.34.3 (*)
+|    |    +--- io.smallrye:smallrye-fault-tolerance-context-propagation:6.10.0
+|    |    |    +--- io.smallrye:smallrye-fault-tolerance:6.10.0 (*)
+|    |    |    \--- org.eclipse.microprofile.context-propagation:microprofile-context-propagation-api:1.3
+|    |    \--- io.smallrye:smallrye-fault-tolerance-mutiny:6.10.0
+|    |         +--- io.smallrye:smallrye-fault-tolerance-api:6.10.0 (*)
+|    |         +--- io.smallrye:smallrye-fault-tolerance-core:6.10.0 (*)
+|    |         \--- io.smallrye.reactive:mutiny:2.7.0 -> 3.1.1 (*)
+|    +--- io.smallrye:smallrye-fault-tolerance-standalone:6.10.0
+|    |    +--- io.smallrye:smallrye-fault-tolerance-api:6.10.0 (*)
+|    |    +--- io.smallrye:smallrye-fault-tolerance-core:6.10.0 (*)
+|    |    \--- io.smallrye:smallrye-fault-tolerance-apiimpl:6.10.0 (*)
+|    +--- org.apache.camel.quarkus:camel-quarkus-core:3.33.0 (*)
+|    \--- org.apache.camel:camel-microprofile-fault-tolerance:4.18.0
+|         +--- org.apache.camel:camel-core-reifier:4.18.0 (*)
+|         +--- org.apache.camel:camel-support:4.18.0 -> 4.18.1 (*)
+|         \--- org.apache.camel:camel-util-json:4.18.0 -> 4.18.1
++--- org.apache.camel.quarkus:camel-quarkus-groovy -> 3.33.0
+|    +--- org.apache.camel.quarkus:camel-quarkus-core:3.33.0 (*)
+|    +--- org.apache.camel.quarkus:camel-quarkus-support-language:3.33.0 (*)
+|    +--- org.apache.camel:camel-groovy:4.18.0
+|    |    +--- org.apache.camel:camel-support:4.18.0 -> 4.18.1 (*)
+|    |    +--- org.apache.camel:camel-attachments:4.18.0
+|    |    |    +--- org.apache.camel:camel-support:4.18.0 -> 4.18.1 (*)
+|    |    |    +--- org.apache.camel:camel-core-languages:4.18.0 (*)
+|    |    |    \--- jakarta.activation:jakarta.activation-api:2.1.4
+|    |    \--- org.apache.groovy:groovy:4.0.30 (*)
+|    \--- io.quarkiverse.groovy:quarkus-groovy:3.32.3 -> 3.34.3 (*)
++--- com.ibm.mq:com.ibm.mq.jakarta.client:9.4.5.0
+|    +--- org.bouncycastle:bcprov-jdk18on:1.83
+|    +--- org.bouncycastle:bcpkix-jdk18on:1.83 (*)
+|    +--- org.bouncycastle:bcutil-jdk18on:1.83 (*)
+|    +--- jakarta.jms:jakarta.jms-api:3.0.0 -> 3.1.0
+|    \--- org.json:json:20251224
++--- org.apache.commons:commons-dbcp2:2.12.0
+|    +--- org.apache.commons:commons-pool2:2.12.0
+|    +--- commons-logging:commons-logging:1.3.0
+|    \--- jakarta.transaction:jakarta.transaction-api:1.3.3 -> 2.0.1
+\--- org.messaginghub:pooled-jms:3.1.2
+     +--- org.slf4j:slf4j-api:1.7.36 -> 2.0.17
+     +--- jakarta.jms:jakarta.jms-api:3.1.0
+     \--- org.apache.commons:commons-pool2:2.11.1 -> 2.12.0
+
+(c) - A dependency constraint, not a dependency. The dependency affected by the constraint occurs elsewhere in the tree.
+(*) - Indicates repeated occurrences of a transitive dependency subtree. Gradle expands transitive dependency subtrees only once per project; repeat occurrences only display the root of the subtree, followed by this annotation.
+
+A web-based, searchable dependency report is available by adding the --scan option.
+
+BUILD SUCCESSFUL in 1s
+1 actionable task: 1 executed
+Consider enabling configuration cache to speed up this build: https://docs.gradle.org/9.1.0/userguide/configuration_cache_enabling.html

@@ -1,0 +1,1 @@
+Indicates whether the resolution is active or withdrawn.

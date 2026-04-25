@@ -1,0 +1,2 @@
+Transaction is a credit transfer to be processed according to the SWIFTPay Service Level.
+

@@ -1,0 +1,3 @@
+If ReversalReason is equal to 'OTHR', then AddititionalReversalReasonInformation must be present.
+If ReversalReason is different from 'OTHR',  then AdditionalReversalReasonInformation is optional.
+

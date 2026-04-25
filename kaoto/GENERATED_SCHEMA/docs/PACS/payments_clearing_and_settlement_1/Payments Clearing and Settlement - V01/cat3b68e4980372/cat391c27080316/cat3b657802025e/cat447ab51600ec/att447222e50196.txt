@@ -1,0 +1,3 @@
+Further details on the cancellation request reason.
+
+Usage: Additional cancellation reason information can be used to further detail the cancellation request reason.

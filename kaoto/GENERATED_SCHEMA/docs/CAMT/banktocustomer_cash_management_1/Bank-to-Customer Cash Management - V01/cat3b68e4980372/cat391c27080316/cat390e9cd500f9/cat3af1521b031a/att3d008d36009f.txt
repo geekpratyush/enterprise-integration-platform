@@ -1,0 +1,1 @@
+Unique and unambiguous identifier of a clearing system member, as assigned by the system or system administrator.

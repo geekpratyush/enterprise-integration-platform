@@ -1,0 +1,1 @@
+Either AdditionalCashIn or ResultingCashOut may be present, but not both.

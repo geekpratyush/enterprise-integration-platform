@@ -1,0 +1,128 @@
+TracesOption
+../../../../webviewer/18.jpg
+dgm42cbe560024d.htm
+
+
+
+(
+)
+<<MessageComponent>> Option1
+../../../../webviewer/143.jpg
+class3c10a116000b.htm
+class3c10a116000b.txt
+
+
+(
+ContractMultiplier [0..1]
+../../../../webviewer/31.jpg
+att3c10a1220171.htm
+
+
+
+(
+)
+ExerciseDate [0..1]
+../../../../webviewer/31.jpg
+att3c10a1220199.htm
+
+
+
+(
+)
+ExercisePrice [0..1]
+../../../../webviewer/31.jpg
+att3c10a12201cb.htm
+
+
+
+(
+)
+ExpiryDate [0..1]
+../../../../webviewer/31.jpg
+att3c10a12201f3.htm
+
+
+
+(
+)
+MinimumExercisableMultipleQuantity [0..1]
+../../../../webviewer/31.jpg
+att3c10a122021b.htm
+
+
+
+(
+)
+MinimumExercisableQuantity [0..1]
+../../../../webviewer/31.jpg
+att3c10a1220243.htm
+
+
+
+(
+)
+OptionStartDate [0..1]
+../../../../webviewer/31.jpg
+att3c10a122026b.htm
+
+
+
+(
+)
+OptionStyle  [0..1]
+../../../../webviewer/31.jpg
+att3c10a1220293.htm
+
+
+
+(
+)
+OptionType [0..1]
+../../../../webviewer/31.jpg
+att3c10a12202bb.htm
+
+
+
+(
+)
+theOption ( Option )
+../../../../webviewer/82.jpg
+../../../../looseends/role3d90635803b6.htm
+
+
+
+theFinancialInstrumentPropertiesChoice ( FinancialInstrumentPropertiesChoice )
+../../../../webviewer/82.jpg
+../../../../looseends/role3cc417440141.htm
+
+
+
+)
+Associations
+../../../../webviewer/assoccat.gif
+
+
+
+
+(
+<<SWSTrace>> (theOption:Option) (theOption1:Option1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3d9063580276.htm
+
+
+
+(
+Option ( theOption )
+../../../../webviewer/82.jpg
+../../../../looseends/role3d9063580384.htm
+
+
+
+Option1 ( theOption1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3d90635803b6.htm
+
+
+
+)
+)

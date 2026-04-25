@@ -1,0 +1,1 @@
+Both the Opening and the Valuation details of an NDF trade have been matched with corresponding details of a counterparty's NDF trade.

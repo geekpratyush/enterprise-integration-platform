@@ -1,0 +1,1 @@
+Indicates whether an arrangement has to be overridden or not.

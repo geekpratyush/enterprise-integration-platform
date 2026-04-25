@@ -1,0 +1,2 @@
+Net amount of the cash flow, expressed as an amount of money.
+

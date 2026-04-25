@@ -1,0 +1,1 @@
+Quantity of financial instrument bought or sold which is less than the quantity of financial instrument ordered.

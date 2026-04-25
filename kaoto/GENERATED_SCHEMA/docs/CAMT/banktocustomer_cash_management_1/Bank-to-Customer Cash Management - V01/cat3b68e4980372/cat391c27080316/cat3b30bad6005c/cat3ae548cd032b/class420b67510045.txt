@@ -1,0 +1,1 @@
+Specifies the status requested to be assigned to the baseline.

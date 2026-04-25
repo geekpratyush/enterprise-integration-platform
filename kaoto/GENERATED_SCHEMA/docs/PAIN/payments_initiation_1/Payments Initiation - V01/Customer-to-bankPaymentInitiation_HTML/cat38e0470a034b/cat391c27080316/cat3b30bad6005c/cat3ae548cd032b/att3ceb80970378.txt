@@ -1,0 +1,1 @@
+Counterparty's instruction was too late for settlement, (ie, received too late, matching, or settlement problems were solved too late).

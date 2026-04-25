@@ -1,0 +1,1 @@
+The account servicer has an underlying agreement with the account owner to book cash movements to the account, as a result of account management fees/transaction charges/interest/etc.  

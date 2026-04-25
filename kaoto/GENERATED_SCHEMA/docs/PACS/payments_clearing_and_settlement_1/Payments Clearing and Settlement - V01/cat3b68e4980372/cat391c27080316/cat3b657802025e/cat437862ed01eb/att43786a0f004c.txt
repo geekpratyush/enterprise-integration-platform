@@ -1,0 +1,4 @@
+The relative urgency or order of importance that the sender would like the recipient of the instruction to apply to the processing of the instruction.
+
+Usage: This priority relates to queue processing and queue management.
+

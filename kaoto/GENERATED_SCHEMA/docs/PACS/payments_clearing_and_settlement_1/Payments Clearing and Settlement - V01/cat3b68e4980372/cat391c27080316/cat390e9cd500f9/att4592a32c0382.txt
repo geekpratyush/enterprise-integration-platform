@@ -1,0 +1,1 @@
+Indicates whether the valuation is an official valuation.

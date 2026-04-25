@@ -1,0 +1,1 @@
+Identifies the institution issuing a proprietary code.

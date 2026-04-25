@@ -1,0 +1,1 @@
+Security made up of multiple securities, known as legs.

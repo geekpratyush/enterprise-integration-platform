@@ -1,0 +1,1 @@
+Commission that combines soft dollar and step-in commission characteristics.

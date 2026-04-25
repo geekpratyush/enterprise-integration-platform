@@ -1,0 +1,2 @@
+Request to change definition:
+A specific purpose account used to debit and credit entries as a results of transaction.

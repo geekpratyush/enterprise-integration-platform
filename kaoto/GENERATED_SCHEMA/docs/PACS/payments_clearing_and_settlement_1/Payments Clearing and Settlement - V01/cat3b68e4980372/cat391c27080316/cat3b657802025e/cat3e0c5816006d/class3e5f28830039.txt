@@ -1,0 +1,2 @@
+Criterion by which the cash flow information is broken down.
+

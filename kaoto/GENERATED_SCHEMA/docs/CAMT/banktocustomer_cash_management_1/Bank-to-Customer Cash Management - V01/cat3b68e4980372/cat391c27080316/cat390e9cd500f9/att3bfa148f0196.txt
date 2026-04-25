@@ -1,0 +1,1 @@
+Indicates whether the accrued interest amount is/will be debited or credited.

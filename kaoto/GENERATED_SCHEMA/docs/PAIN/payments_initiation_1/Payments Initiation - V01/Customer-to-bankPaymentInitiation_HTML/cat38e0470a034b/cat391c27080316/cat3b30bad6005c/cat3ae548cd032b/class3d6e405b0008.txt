@@ -1,0 +1,1 @@
+Specifies an alphanumeric string with a maximum length of 4 characters.

@@ -1,0 +1,1 @@
+Exchange rate between two currencies. The rate is agreed by the trading parties during the negotiation process.

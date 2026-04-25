@@ -1,0 +1,1 @@
+CallDate must not be present if CallableIndicator is set to NO.

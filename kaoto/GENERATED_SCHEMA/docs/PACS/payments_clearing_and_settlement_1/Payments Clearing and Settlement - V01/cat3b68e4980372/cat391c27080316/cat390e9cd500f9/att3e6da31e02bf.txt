@@ -1,0 +1,1 @@
+Contains the weighted average coupon of the fixed income instrument (expressed as a percentage).

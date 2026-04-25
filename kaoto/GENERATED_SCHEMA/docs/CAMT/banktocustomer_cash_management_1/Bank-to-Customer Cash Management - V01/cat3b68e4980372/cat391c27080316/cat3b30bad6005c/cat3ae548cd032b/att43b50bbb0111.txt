@@ -1,0 +1,1 @@
+Option trade is netted off against another trade.

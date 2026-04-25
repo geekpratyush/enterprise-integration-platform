@@ -1,0 +1,1 @@
+Specifies the reason the transaction/instruction is suspended.

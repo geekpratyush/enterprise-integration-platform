@@ -1,0 +1,1 @@
+Transaction forbidden on this type of account (formerly NoAgreement).

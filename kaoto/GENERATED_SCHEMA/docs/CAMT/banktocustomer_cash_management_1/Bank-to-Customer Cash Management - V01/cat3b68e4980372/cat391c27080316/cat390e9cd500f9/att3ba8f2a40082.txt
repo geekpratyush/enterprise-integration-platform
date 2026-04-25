@@ -1,0 +1,1 @@
+Amount of money that the account servicer received from the previous party in the settlement chain.

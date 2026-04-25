@@ -1,0 +1,1 @@
+Indicates whether the interest is a debit or credit.

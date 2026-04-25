@@ -1,0 +1,1 @@
+Specifies the nature of the balance, eg, opening balance.

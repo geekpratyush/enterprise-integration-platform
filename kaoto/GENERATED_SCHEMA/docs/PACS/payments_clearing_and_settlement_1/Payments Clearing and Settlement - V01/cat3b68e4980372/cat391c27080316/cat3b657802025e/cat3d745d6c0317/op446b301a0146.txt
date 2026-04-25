@@ -1,0 +1,2 @@
+StatusReasonInformation/AdditionalStatusReasonInformation may only be present when GroupStatus is present and is equal to RJCTor PDNG.
+

@@ -1,0 +1,1 @@
+Amount of money to be moved between the debtor and the creditor, before deduction of charges, in the returned transaction.

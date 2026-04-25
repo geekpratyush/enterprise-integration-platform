@@ -1,0 +1,1 @@
+Total amount of the trade, net of all commissions and charges.

@@ -1,0 +1,1 @@
+Information provided when the message is a copy of a previous message.

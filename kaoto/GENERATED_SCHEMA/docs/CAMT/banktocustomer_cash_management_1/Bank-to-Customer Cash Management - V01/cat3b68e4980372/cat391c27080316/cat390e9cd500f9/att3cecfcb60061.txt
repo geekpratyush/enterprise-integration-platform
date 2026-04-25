@@ -1,0 +1,3 @@
+Agreement under which or agreed rules under which the transaction should be processed, eg, the Eurocred convention for credit transfer exchanged between European financial institutions.
+
+

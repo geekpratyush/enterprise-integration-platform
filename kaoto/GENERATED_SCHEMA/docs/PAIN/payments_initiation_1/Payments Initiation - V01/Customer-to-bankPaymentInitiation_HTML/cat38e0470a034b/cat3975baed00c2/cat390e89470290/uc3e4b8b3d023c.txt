@@ -1,0 +1,11 @@
+Definition : preparation of the payment information by the payment clearing agent for the next clearing agent in the interbank chain. 
+This process of preparing payment information can be divided into the sub-processes 'Sort payment' and 'prepare onward interbank payment' .
+
+
+Pre-condition : the payment is executable. 
+
+Trigger :  payment execution date is reached.
+
+Post-condition : the onward interbankpayment is prepared 
+
+

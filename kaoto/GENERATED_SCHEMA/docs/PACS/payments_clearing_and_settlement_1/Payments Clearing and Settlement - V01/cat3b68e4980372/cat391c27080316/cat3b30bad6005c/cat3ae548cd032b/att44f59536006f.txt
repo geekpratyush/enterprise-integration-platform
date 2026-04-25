@@ -1,0 +1,1 @@
+Balance representing the total of the payments with a processing date in the future.

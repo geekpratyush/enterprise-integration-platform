@@ -1,0 +1,6 @@
+The forwarding agent rebuilds the payment order by 
+
+-substracting the failed/invalid individual payment instructions from the payment orders he received 
+
+-bulking, if relevant, of several payment orders coming from different initiating parties or agents acting as forwarding agents. The merge criteria are defined by the bank
+

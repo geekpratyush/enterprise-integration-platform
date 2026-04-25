@@ -1,0 +1,1 @@
+If Type or ExtendedType is present, then either Amount or Rate must be present. If Amount or Rate is present, then either Type or Extended Type must be present.

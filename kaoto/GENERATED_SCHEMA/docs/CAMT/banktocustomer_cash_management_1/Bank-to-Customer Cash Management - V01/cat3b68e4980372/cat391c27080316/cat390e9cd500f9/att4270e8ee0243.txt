@@ -1,0 +1,1 @@
+Number of account owners or related parties required to authorise transactions on the account.

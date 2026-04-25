@@ -1,0 +1,1 @@
+Variance in percentage allowed below the agreed dimension. For example, minus 10 percent.

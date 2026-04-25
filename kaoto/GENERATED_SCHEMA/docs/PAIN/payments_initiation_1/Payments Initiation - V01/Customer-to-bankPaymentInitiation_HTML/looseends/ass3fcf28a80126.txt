@@ -1,0 +1,1 @@
+Specifies the type of payment that resulted in the payment entry.

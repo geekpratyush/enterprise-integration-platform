@@ -1,0 +1,1 @@
+Indicates whether the Interbank Value Date is requested.

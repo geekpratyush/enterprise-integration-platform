@@ -1,0 +1,1 @@
+Party that dentifies an executing / give-up broker.

@@ -1,0 +1,1 @@
+At least one occurrence of either CashAccountDetails or ChequeDetails or BankersDraftDetails must be present.

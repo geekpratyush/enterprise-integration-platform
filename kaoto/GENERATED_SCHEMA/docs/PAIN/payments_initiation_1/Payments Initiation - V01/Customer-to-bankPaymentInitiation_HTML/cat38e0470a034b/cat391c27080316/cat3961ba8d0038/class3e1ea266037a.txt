@@ -1,0 +1,1 @@
+A financial institution that executes cash transfers on behalf of its clients.

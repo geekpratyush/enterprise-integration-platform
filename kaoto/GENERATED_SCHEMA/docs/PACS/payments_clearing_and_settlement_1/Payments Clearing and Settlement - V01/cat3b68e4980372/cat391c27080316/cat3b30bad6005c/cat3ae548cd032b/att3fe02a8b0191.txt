@@ -1,0 +1,1 @@
+Transaction is for an unspecified reason. Miscellaneous is to be used only when no explicit code is available.

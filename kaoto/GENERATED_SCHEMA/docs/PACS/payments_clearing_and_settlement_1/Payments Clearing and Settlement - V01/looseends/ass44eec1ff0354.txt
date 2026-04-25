@@ -1,0 +1,1 @@
+Defines the criteria on which the information is extracted.

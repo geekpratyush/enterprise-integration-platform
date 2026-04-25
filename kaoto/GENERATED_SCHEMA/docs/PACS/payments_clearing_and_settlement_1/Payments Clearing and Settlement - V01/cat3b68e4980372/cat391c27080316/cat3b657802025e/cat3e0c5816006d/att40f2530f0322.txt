@@ -1,0 +1,1 @@
+Additional information about the reason for the unmatched status in textual form.

@@ -1,0 +1,1 @@
+Number of votes for which decision is left to the party that will exercise the voting right.

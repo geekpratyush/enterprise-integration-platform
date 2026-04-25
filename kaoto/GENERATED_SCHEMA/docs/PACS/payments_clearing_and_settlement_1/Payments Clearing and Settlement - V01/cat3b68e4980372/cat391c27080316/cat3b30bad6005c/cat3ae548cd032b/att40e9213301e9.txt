@@ -1,0 +1,1 @@
+Event is a dividend payment type where cash dividend is rolled over into additional shares in the issuing company.

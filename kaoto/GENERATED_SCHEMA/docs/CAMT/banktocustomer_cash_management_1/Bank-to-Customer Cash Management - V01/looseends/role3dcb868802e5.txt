@@ -1,0 +1,1 @@
+Indicates the offer spread to benchmark details.

@@ -1,0 +1,2 @@
+Amount of money used to derive the quantity of investment fund units to be sold.
+

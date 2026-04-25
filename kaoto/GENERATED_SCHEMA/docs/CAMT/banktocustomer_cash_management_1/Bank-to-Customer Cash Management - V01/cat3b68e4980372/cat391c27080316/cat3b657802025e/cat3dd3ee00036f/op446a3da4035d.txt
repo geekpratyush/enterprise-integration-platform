@@ -1,0 +1,3 @@
+If SettlementMethod is equal to INDA or INGA then:
+- SettlementAccount may be present;
+- ClearingSystem is not allowed.

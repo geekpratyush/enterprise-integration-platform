@@ -1,0 +1,1 @@
+Classifies the type of meeting.

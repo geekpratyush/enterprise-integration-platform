@@ -1,0 +1,1 @@
+Identifies that a single entry for each of the transactions in the message is requested. 

@@ -1,0 +1,3 @@
+Further details on the status reason in an uncoded form..
+
+Usage : Additional status reason information can be used for several purposes, eg to report repaired information, or to provide reject reasons not catered for in the coded form.

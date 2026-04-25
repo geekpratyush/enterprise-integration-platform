@@ -1,0 +1,1 @@
+Indicates, in the case of a multileg instrument,that the sides of the legs are the opposite of their definition at the creation of the multileg instrument. 

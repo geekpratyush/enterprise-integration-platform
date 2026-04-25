@@ -1,0 +1,1 @@
+Balance representing the sum of all credit entries booked to an account.

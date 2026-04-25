@@ -1,0 +1,1 @@
+Quantity of investment fund units redeemed.

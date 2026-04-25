@@ -1,0 +1,1 @@
+System needs to wait for completion of intermediate internal activities before going to a status Closed.

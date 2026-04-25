@@ -1,0 +1,1 @@
+Indicates whether the securities in the account are fungible, ie, interchangeable.

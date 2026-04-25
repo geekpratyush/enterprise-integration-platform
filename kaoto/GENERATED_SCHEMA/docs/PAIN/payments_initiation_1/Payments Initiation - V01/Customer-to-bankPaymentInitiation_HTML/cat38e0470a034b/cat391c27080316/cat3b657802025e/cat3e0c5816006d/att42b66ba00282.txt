@@ -1,0 +1,1 @@
+Type of reservation as set by default in the system. The default reservation is applicable by the system unless otherwise instructed.

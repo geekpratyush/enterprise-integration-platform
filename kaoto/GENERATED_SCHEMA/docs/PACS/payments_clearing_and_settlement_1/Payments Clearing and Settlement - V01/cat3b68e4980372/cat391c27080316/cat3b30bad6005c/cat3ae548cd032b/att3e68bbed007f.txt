@@ -1,0 +1,1 @@
+Closing Yield Most Recent Year - The yield of a bond based on the closing price as of the most recent year's end.

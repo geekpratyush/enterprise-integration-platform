@@ -1,0 +1,1 @@
+Indicates whether to execute parts of the order over the course of the day. Usually done with large block orders.

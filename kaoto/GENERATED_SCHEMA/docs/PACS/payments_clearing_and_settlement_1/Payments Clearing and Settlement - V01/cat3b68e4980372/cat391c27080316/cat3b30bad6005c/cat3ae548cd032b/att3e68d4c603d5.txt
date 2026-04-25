@@ -1,0 +1,1 @@
+A "Swap" order for Foreign Exchange (currency trading).

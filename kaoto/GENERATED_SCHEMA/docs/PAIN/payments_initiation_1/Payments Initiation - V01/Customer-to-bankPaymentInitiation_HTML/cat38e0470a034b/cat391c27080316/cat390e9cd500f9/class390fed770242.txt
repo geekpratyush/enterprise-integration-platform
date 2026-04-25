@@ -1,0 +1,1 @@
+Account to or from which a securities entry is made.

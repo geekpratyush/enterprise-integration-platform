@@ -1,0 +1,2 @@
+Criterion by which the cash movements are broken down.
+

@@ -1,0 +1,1 @@
+If GroupReversal is true, then NumberOfTransactions equals the number of transactions in the original message.

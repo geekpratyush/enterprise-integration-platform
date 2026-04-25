@@ -1,0 +1,1 @@
+Settlement transaction type does not match.

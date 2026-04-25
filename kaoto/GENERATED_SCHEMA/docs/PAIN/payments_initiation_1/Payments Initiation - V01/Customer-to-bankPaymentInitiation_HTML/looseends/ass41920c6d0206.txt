@@ -1,0 +1,2 @@
+Currency exchange related to the execution of an investment fund order.
+

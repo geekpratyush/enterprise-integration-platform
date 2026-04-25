@@ -1,0 +1,1 @@
+Date within a particular calendar year represented by YYYY-MM-DD (ISO 8601).

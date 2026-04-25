@@ -1,0 +1,1 @@
+Identification of the party to whom an invoice is issued, when different than the originator or debtor.

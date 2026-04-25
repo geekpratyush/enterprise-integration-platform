@@ -1,0 +1,107 @@
+apiVersion: camel.apache.org/v1alpha1
+kind: Kamelet
+metadata:
+  name: eip-mongodb-action
+  labels:
+    camel.apache.org/kamelet.type: "action"
+spec:
+  definition:
+    title: "EIP MongoDB Action"
+    description: "Executes mid-route queries, updates, or aggregations. Pass query
+      JSON as the message body."
+    required:
+      - database
+      - collection
+    properties:
+      connectionBean:
+        title: Connection Bean
+        description: "The registered database client (e.g., eip)."
+        type: string
+        default: "mongoClient"
+      database:
+        title: Database
+        description: "The target database name."
+        type: string
+      collection:
+        title: Collection
+        description: "The target collection name."
+        type: string
+      operation:
+        title: Operation
+        description: "The database action to perform. Note: 'findAll' is dynamic—it retrieves all records if the body is empty {}, or applies the body as a JSON filter if provided."
+        type: string
+        default: "findOneByQuery"
+        enum:
+          [
+            "findOneByQuery",
+            "findAll",
+            "update",
+            "remove",
+            "aggregate",
+            "bulkWrite",
+          ]
+  template:
+    from:
+      uri: "kamelet:source"
+      steps:
+        - choice:
+            when:
+              - simple: "${body} is 'java.lang.String' && ${body} != ''"
+                steps:
+                  - unmarshal:
+                      json:
+                        library: "Jackson"
+        - script:
+            groovy: |
+              import org.bson.Document
+              import java.time.Instant
+              import java.util.Date
+              def traverseAndDecode;
+              traverseAndDecode = { val ->
+                  if (val instanceof Map) {
+                      if (val.containsKey('$blob')) {
+                          try { return val.get('$blob').decodeBase64() } catch(e) {}
+                      }
+                      def doc = new Document()
+                      val.each { k, v -> doc.put(k, traverseAndDecode(v)) }
+                      return doc
+                  } else if (val instanceof List) {
+                      def list = []
+                      val.each { v -> list.add(traverseAndDecode(v)) }
+                      return list
+                  } else if (val instanceof String && val.matches("^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}.*Z\$")) {
+                      try { return Date.from(Instant.parse(val)) } catch(e) {}
+                  }
+                  return val
+              }
+              if (request.body != null) {
+                  request.body = traverseAndDecode(request.body)
+              }
+        - to: "mongodb:{{connectionBean}}?database={{database}}&collection={{collection}}\
+            &operation={{operation}}"
+        - script:
+            groovy: |
+              import java.time.ZoneOffset
+              import java.time.format.DateTimeFormatter
+              def traverseAndEncode;
+              traverseAndEncode = { val ->
+                  if (val instanceof byte[]) {
+                      return ['$blob': val.encodeBase64().toString()]
+                  } else if (val?.getClass()?.getName() == 'org.bson.types.Binary') {
+                      return ['$blob': val.getData().encodeBase64().toString()]
+                  } else if (val instanceof java.util.Date) {
+                      return val.toInstant().atOffset(ZoneOffset.UTC).format(DateTimeFormatter.ISO_INSTANT)
+                  } else if (val instanceof Map) {
+                      def newMap = [:]
+                      val.each { k, v -> newMap[k] = traverseAndEncode(v) }
+                      return newMap
+                  } else if (val instanceof Iterable) {
+                      def newList = []
+                      val.each { v -> newList.add(traverseAndEncode(v)) }
+                      return newList
+                  }
+                  return val
+              }
+              if (request.body != null) {
+                  request.body = traverseAndEncode(request.body)
+              }

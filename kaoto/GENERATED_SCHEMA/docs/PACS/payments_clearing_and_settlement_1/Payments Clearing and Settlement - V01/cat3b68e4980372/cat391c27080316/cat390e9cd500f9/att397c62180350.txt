@@ -1,0 +1,2 @@
+Quantity of a specific security allocated from a block trade, based upon the distribution of the trade to different accounts.
+

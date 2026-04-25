@@ -1,0 +1,1 @@
+Used when a transfer of funds has been initiated (a cover payment) to resolve a case.

@@ -1,0 +1,1 @@
+Fixed factor used for the conversion of an amount from one currency to another, eg, the twelve European currencies for which a fixed conversion rate to the EURO has been established. 

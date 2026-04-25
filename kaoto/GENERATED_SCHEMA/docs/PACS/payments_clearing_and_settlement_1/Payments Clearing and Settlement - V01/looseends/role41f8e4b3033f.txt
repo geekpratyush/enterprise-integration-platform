@@ -1,0 +1,1 @@
+Specifies the applicable Incoterm and associated location.

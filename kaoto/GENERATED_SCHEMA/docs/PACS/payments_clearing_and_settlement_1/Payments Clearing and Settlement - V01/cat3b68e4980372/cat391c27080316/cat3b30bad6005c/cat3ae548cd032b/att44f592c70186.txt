@@ -1,0 +1,2 @@
+Total daily payments limit for customer direct debits not to be exceeded by the total of all direct debit transactions initiated by customers.
+

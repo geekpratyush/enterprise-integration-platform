@@ -1,0 +1,3 @@
+If PaymentMethod is CHK and if CreditTransferTransactionInformation/ ChequeInstruction/DeliveryMethod is present and is equal to MLFA, CRFA, RGFA or PUFA, then CreditTransferTransactionInformation/CreditorAgent is mandatory. 
+
+If PaymentMethod is CHK and if CreditTransferTransactionInformation/ ChequeInstruction/DeliveryMethod is not present or is not equal to MLFA, CRFA, RGFA or PUFA, then CreditTransferTransactionInformation/CreditorAgent is not allowed.

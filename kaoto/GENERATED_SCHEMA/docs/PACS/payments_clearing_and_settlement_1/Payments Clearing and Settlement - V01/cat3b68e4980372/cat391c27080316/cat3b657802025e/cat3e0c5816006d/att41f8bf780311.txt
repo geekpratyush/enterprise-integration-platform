@@ -1,0 +1,1 @@
+Defines the reason why the Target2 SSP system has rejected the transaction.

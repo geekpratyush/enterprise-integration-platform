@@ -1,0 +1,2 @@
+Returned when a payment has been checked and was correctly executed.
+

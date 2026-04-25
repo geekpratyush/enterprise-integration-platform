@@ -1,0 +1,1 @@
+Identifies the security instrument by its name and typical characteristics.

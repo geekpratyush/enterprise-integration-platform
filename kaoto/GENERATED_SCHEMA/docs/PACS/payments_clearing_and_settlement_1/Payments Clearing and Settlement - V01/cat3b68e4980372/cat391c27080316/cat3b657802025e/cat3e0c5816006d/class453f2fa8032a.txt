@@ -1,0 +1,1 @@
+Set of elements identifying the price information related to the underlying transaction.

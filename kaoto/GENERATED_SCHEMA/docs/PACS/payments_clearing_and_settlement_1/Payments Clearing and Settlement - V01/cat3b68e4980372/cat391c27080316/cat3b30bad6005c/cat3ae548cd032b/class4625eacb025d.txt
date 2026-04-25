@@ -1,0 +1,1 @@
+Specifies where the attendance card should be delivered.

@@ -1,0 +1,3 @@
+A naming convention may be used to group messages in logical sets.
+
++++ For MULTI-USER: TO BE EXTERNALISED AS A .cat FILE in the model directory as 4_YourMessage1Name  ONLY IF IT DOES NOT CONTAIN SUB-PACKAGES +++

@@ -1,0 +1,1 @@
+If MessageName is not present, then ReferenceIssuer is mandatory. If MessageName is present, then ReferenceIssuer is optional.

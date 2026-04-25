@@ -1,0 +1,1 @@
+Used when the payment instruction has previously been cancelled or rejected.

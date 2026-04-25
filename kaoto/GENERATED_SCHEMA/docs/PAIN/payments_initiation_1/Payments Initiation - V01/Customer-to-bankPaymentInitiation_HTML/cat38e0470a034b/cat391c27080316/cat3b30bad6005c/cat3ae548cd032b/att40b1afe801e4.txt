@@ -1,0 +1,1 @@
+Balance of securities pending receipt that are unmatched. This is only applicable in a CSD to participant communication.

@@ -1,0 +1,2 @@
+Represents the basis price type in a bid order (list trading).
+

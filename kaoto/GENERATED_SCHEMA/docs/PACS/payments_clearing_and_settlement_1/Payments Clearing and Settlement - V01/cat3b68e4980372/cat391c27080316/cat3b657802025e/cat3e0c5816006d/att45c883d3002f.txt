@@ -1,0 +1,1 @@
+Specifies the result of the technical validation (e.g. Accepted, Reception error).

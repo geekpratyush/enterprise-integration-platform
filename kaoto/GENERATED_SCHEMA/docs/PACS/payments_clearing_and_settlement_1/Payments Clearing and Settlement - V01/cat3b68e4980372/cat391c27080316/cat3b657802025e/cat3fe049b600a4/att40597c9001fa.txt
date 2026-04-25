@@ -1,0 +1,3 @@
+Additional details that cater for specific domestic regulatory requirements.
+
+Usage: Information is used to provide details that are not catered for in the Code or/and Amount elements.

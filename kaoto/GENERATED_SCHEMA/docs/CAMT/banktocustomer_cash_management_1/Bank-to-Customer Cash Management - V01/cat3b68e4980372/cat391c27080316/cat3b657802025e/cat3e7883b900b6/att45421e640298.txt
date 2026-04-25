@@ -1,0 +1,3 @@
+Indicates whether the credit line is included or not.
+
+Usage : if not present, credit line is not included in the balance amount.

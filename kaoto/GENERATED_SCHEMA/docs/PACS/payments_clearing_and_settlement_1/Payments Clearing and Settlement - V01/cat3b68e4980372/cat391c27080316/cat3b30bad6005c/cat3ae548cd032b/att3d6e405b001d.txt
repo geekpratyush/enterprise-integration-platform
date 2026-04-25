@@ -1,0 +1,1 @@
+Specifies that the query requests that all matching items be returned.

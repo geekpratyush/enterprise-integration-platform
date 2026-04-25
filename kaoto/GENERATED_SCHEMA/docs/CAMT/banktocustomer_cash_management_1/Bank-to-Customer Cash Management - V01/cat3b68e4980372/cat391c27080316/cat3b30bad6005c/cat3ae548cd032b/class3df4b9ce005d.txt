@@ -1,0 +1,1 @@
+Month within a particular calendar year represented by YYYY-MM (ISO 8601).

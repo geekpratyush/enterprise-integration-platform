@@ -1,0 +1,2 @@
+Resulting amount of the netted amounts for all debit and credit entries. 
+

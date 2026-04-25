@@ -1,0 +1,1 @@
+Transaction is a credit transfer to be processed according to the Priority Service Level.

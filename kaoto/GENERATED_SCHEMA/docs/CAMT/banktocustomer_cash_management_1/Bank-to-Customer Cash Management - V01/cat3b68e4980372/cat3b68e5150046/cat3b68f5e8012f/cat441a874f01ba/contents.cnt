@@ -1,0 +1,76 @@
+BankToCustomerStatementV01Diagram
+../../../../webviewer/18.jpg
+dgm4536171401a8.htm
+dgm4536171401a8.txt
+
+
+(
+)
+<<Message>> BankToCustomerStatementV01
+../../../../webviewer/141.jpg
+class453616d80272.htm
+class453616d80272.txt
+
+
+(
+Statement ( AccountStatement1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role453946070003.htm
+
+
+
+GroupHeader ( GroupHeader23 )
+../../../../webviewer/82.jpg
+../../../../looseends/role453946070047.htm
+
+
+
+)
+Associations
+../../../../webviewer/assoccat.gif
+
+
+
+
+(
+Association (Statement:AccountStatement1) (theBankToCustomerStatementV01:BankToCustomerStatementV01)
+../../../../webviewer/81.jpg
+../../../../looseends/ass453946070000.htm
+../../../../looseends/ass453946070000.txt
+
+
+(
+AccountStatement1 ( Statement )
+../../../../webviewer/82.jpg
+../../../../looseends/role453946070001.htm
+
+
+
+BankToCustomerStatementV01 ( theBankToCustomerStatementV01 )
+../../../../webviewer/82.jpg
+../../../../looseends/role453946070003.htm
+
+
+
+)
+Association (GroupHeader:GroupHeader23) (theBankToCustomerStatementV01:BankToCustomerStatementV01)
+../../../../webviewer/81.jpg
+../../../../looseends/ass45394607003c.htm
+../../../../looseends/ass45394607003c.txt
+
+
+(
+GroupHeader23 ( GroupHeader )
+../../../../webviewer/82.jpg
+../../../../looseends/role45394607003d.htm
+
+
+
+BankToCustomerStatementV01 ( theBankToCustomerStatementV01 )
+../../../../webviewer/82.jpg
+../../../../looseends/role453946070047.htm
+
+
+
+)
+)

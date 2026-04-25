@@ -1,0 +1,1 @@
+Information about the periods of activity and non-activity of a system.

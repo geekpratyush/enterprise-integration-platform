@@ -1,0 +1,1 @@
+Specifies the minimal quantity of the financial instrument.

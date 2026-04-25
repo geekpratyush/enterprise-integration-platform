@@ -1,0 +1,1 @@
+Party through which the settlement will take place. It may contain the BIC of a central settlement system eg CLSBUS33.

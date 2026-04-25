@@ -1,0 +1,674 @@
+SwitchCancellation1
+../../../../webviewer/18.jpg
+dgm3e1567580193.htm
+
+
+
+(
+)
+SwitchOrder1
+../../../../webviewer/18.jpg
+dgm3e156b4e0192.htm
+
+
+
+(
+)
+SwitchOrder2
+../../../../webviewer/18.jpg
+dgm420235ee028c.htm
+
+
+
+(
+)
+SwitchOrder_ISA
+../../../../webviewer/18.jpg
+dgm420235da00a3.htm
+
+
+
+(
+)
+<<MessageComponent>> SwitchCancellation1
+../../../../webviewer/143.jpg
+class3e0b28fe06af.htm
+class3e0b28fe06af.txt
+
+
+(
+OrderReference
+../../../../webviewer/31.jpg
+att3e0b28fe06b0.htm
+
+
+
+(
+)
+OrderToBeCancelled ( SwitchOrder1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e0b28fe06ae.htm
+
+
+
+theInvestmentFundSwitchOrder ( InvestmentFundSwitchOrder )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e1567e70184.htm
+
+
+
+)
+<<MessageComponent>> SwitchOrder1
+../../../../webviewer/143.jpg
+class3e0b28fe0522.htm
+class3e0b28fe0522.txt
+
+
+(
+OrderReference
+../../../../webviewer/31.jpg
+att3e0b28fe0525.htm
+
+
+
+(
+)
+TotalRedemptionAmount[0..1]
+../../../../webviewer/31.jpg
+att3e0b28fe0526.htm
+
+
+
+(
+)
+TotalSubscriptionAmount[0..1]
+../../../../webviewer/31.jpg
+att3e0b28fe0527.htm
+att3e0b28fe0527.txt
+
+
+(
+)
+AdditionalCashIn
+../../../../webviewer/31.jpg
+att3e0b28fe0528.htm
+
+
+
+(
+)
+ResultingCashOut
+../../../../webviewer/31.jpg
+att3e0b28fe0529.htm
+
+
+
+(
+)
+RequestedSettlementCurrency[0..1]
+../../../../webviewer/31.jpg
+att3e0b28fe052a.htm
+
+
+
+(
+)
+RequestedNAVCurrency[0..1]
+../../../../webviewer/31.jpg
+att3e0b28fe052b.htm
+
+
+
+(
+)
+CancellationRight[0..1]
+../../../../webviewer/31.jpg
+att3e0b28fe052c.htm
+
+
+
+(
+)
+theSwitchCancellation1 ( SwitchCancellation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e0b28fe06ac.htm
+
+
+
+SubscriptionLegDetails ( SwitchSubscriptionLegOrder1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e0b28fe05bd.htm
+
+
+
+RedemptionLegDetails ( SwitchRedemptionLegOrder1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e0b28fe055c.htm
+
+
+
+theInvestmentFundSwitchOrder ( InvestmentFundSwitchOrder )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e156cac00c3.htm
+
+
+
+InvestmentAccountDetails ( InvestmentAccount3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e257f8a01b7.htm
+
+
+
+CashSettlementDetails ( PaymentTransaction11 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3fb20c1c0224.htm
+
+
+
+theSwitchOrder2 ( SwitchOrder2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41920a7a02d6.htm
+
+
+
+<<XOR>> CashInOrCashOutRule
+../../../../webviewer/34.jpg
+op3e0b28fe0523.htm
+op3e0b28fe0523.txt
+
+
+(
+)
+<<Textual>> TotalSubscriptionAmountRule
+../../../../webviewer/36.jpg
+op3e28091a01c5.htm
+op3e28091a01c5.txt
+
+
+(
+)
+<<Textual>> TotalRedemptionAmountRule
+../../../../webviewer/36.jpg
+op3e28098101b5.htm
+op3e28098101b5.txt
+
+
+(
+)
+<<Textual>> FinancialInstrumentQuantity1Rule
+../../../../webviewer/36.jpg
+op3f9fdf3a00ab.htm
+op3f9fdf3a00ab.txt
+
+
+(
+)
+<<Textual>> FinancialInstrumentQuantity2Rule
+../../../../webviewer/36.jpg
+op3f9fe11e037a.htm
+op3f9fe11e037a.txt
+
+
+(
+)
+)
+<<MessageComponent>> SwitchOrder2
+../../../../webviewer/143.jpg
+class419209c30010.htm
+class419209c30010.txt
+
+
+(
+OrderDateTime [0..1]
+../../../../webviewer/31.jpg
+att41b866e603e3.htm
+
+
+
+(
+)
+OrderReference
+../../../../webviewer/31.jpg
+att419209c3001b.htm
+
+
+
+(
+)
+TotalRedemptionAmount[0..1]
+../../../../webviewer/31.jpg
+att419209c30024.htm
+
+
+
+(
+)
+TotalSubscriptionAmount[0..1]
+../../../../webviewer/31.jpg
+att419209c3002e.htm
+att419209c3002e.txt
+
+
+(
+)
+ExpiryDateTime [0..1]
+../../../../webviewer/31.jpg
+att420763470172.htm
+
+
+
+(
+)
+AdditionalCashIn [0..1]
+../../../../webviewer/31.jpg
+att419209c30038.htm
+
+
+
+(
+)
+ResultingCashOut [0..1]
+../../../../webviewer/31.jpg
+att419209c3007e.htm
+
+
+
+(
+)
+CancellationRight[0..1]
+../../../../webviewer/31.jpg
+att419209c300c4.htm
+
+
+
+(
+)
+theSwitchOrderInstruction1 ( SwitchOrderInstruction1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41f13a5f016b.htm
+
+
+
+theInvestmentFundSwitchOrder ( InvestmentFundSwitchOrder )
+../../../../webviewer/82.jpg
+../../../../looseends/role419209c300db.htm
+
+
+
+CashSettlementDetails ( PaymentTransaction20 )
+../../../../webviewer/82.jpg
+../../../../looseends/role419209c30117.htm
+
+
+
+ForeignExchangeDetails ( ForeignExchangeTerms5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41b4967201d4.htm
+
+
+
+RedemptionLegDetails ( SwitchRedemptionLegOrder2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role419209c300f9.htm
+
+
+
+SubscriptionLegDetails ( SwitchSubscriptionLegOrder2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role419209c30103.htm
+
+
+
+InvestmentAccountDetails ( InvestmentAccount13 )
+../../../../webviewer/82.jpg
+../../../../looseends/role419209c300e6.htm
+
+
+
+theSwitchOrder1 ( SwitchOrder1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41920a7a02f4.htm
+
+
+
+<<XOR>> CashInOrCashOutRule
+../../../../webviewer/34.jpg
+op419209c3011e.htm
+op419209c3011e.txt
+
+
+(
+)
+<<Textual>> TotalSubscriptionAmountRule
+../../../../webviewer/36.jpg
+op419209c30129.htm
+op419209c30129.txt
+
+
+(
+)
+<<Textual>> TotalRedemptionAmountRule
+../../../../webviewer/36.jpg
+op419209c30132.htm
+op419209c30132.txt
+
+
+(
+)
+<<Textual>> FinancialInstrumentQuantity1Rule
+../../../../webviewer/36.jpg
+op419209c30134.htm
+op419209c30134.txt
+
+
+(
+)
+)
+Associations
+../../../../webviewer/assoccat.gif
+
+
+
+
+(
+Association (OrderToBeCancelled:SwitchOrder1) (theSwitchCancellation1:SwitchCancellation1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3e0b28fe06ab.htm
+../../../../looseends/ass3e0b28fe06ab.txt
+
+
+(
+SwitchOrder1 ( OrderToBeCancelled )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e0b28fe06ac.htm
+
+
+
+SwitchCancellation1 ( theSwitchCancellation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e0b28fe06ae.htm
+
+
+
+)
+<<SWSTrace>> (theInvestmentFundSwitchOrder:InvestmentFundSwitchOrder) (theSwitchCancellation1:SwitchCancellation1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3e1567e603e6.htm
+
+
+
+(
+InvestmentFundSwitchOrder ( theInvestmentFundSwitchOrder )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e1567e70148.htm
+
+
+
+SwitchCancellation1 ( theSwitchCancellation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e1567e70184.htm
+
+
+
+)
+Association (SubscriptionLegDetails:SwitchSubscriptionLegOrder1) (theSwitchOrder1:SwitchOrder1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3e0b28fe05ba.htm
+../../../../looseends/ass3e0b28fe05ba.txt
+
+
+(
+SwitchSubscriptionLegOrder1 ( SubscriptionLegDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e0b28fe05bb.htm
+
+
+
+SwitchOrder1 ( theSwitchOrder1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e0b28fe05bd.htm
+
+
+
+)
+Association (RedemptionLegDetails:SwitchRedemptionLegOrder1) (theSwitchOrder1:SwitchOrder1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3e0b28fe0550.htm
+../../../../looseends/ass3e0b28fe0550.txt
+
+
+(
+SwitchRedemptionLegOrder1 ( RedemptionLegDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e0b28fe0551.htm
+
+
+
+SwitchOrder1 ( theSwitchOrder1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e0b28fe055c.htm
+
+
+
+)
+<<SWSTrace>> (theInvestmentFundSwitchOrder:InvestmentFundSwitchOrder) (theSwitchOrder1:SwitchOrder1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3e156cab034d.htm
+
+
+
+(
+InvestmentFundSwitchOrder ( theInvestmentFundSwitchOrder )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e156cac00a5.htm
+
+
+
+SwitchOrder1 ( theSwitchOrder1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e156cac00c3.htm
+
+
+
+)
+Association (InvestmentAccountDetails:InvestmentAccount3) (theSwitchOrder1:SwitchOrder1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3e257f8a01b5.htm
+../../../../looseends/ass3e257f8a01b5.txt
+
+
+(
+InvestmentAccount3 ( InvestmentAccountDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e257f8a01b6.htm
+
+
+
+SwitchOrder1 ( theSwitchOrder1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e257f8a01b7.htm
+
+
+
+)
+Association (FinancialInstrumentQuantityChoice:FinancialInstrumentQuantity1Choice) (theSwitchRedemptionLegOrder1:SwitchRedemptionLegOrder1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3f9fe37602de.htm
+../../../../looseends/ass3f9fe37602de.txt
+
+
+(
+FinancialInstrumentQuantity1Choice ( FinancialInstrumentQuantityChoice )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f9fe377031c.htm
+
+
+
+SwitchRedemptionLegOrder1 ( theSwitchRedemptionLegOrder1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f9fe377033c.htm
+
+
+
+)
+Association (FinancialInstrumentQuantityChoice:FinancialInstrumentQuantity2Choice) (theSwitchSubscriptionLegOrder1:SwitchSubscriptionLegOrder1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3f9fe55202ce.htm
+../../../../looseends/ass3f9fe55202ce.txt
+
+
+(
+FinancialInstrumentQuantity2Choice ( FinancialInstrumentQuantityChoice )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f9fe55303d8.htm
+
+
+
+SwitchSubscriptionLegOrder1 ( theSwitchSubscriptionLegOrder1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f9fe554000f.htm
+
+
+
+)
+Association (CashSettlementDetails:PaymentTransaction11) (theSwitchOrder1:SwitchOrder1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3fb20c1c0222.htm
+../../../../looseends/ass3fb20c1c0222.txt
+
+
+(
+PaymentTransaction11 ( CashSettlementDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role3fb20c1c0223.htm
+
+
+
+SwitchOrder1 ( theSwitchOrder1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3fb20c1c0224.htm
+
+
+
+)
+<<SWSTrace>> (theInvestmentFundSwitchOrder:InvestmentFundSwitchOrder) (theSwitchOrder2:SwitchOrder2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass419209c300d8.htm
+
+
+
+(
+InvestmentFundSwitchOrder ( theInvestmentFundSwitchOrder )
+../../../../webviewer/82.jpg
+../../../../looseends/role419209c300d9.htm
+
+
+
+SwitchOrder2 ( theSwitchOrder2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role419209c300db.htm
+
+
+
+)
+Association (CashSettlementDetails:PaymentTransaction20) (theSwitchOrder2:SwitchOrder2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass419209c30114.htm
+../../../../looseends/ass419209c30114.txt
+
+
+(
+PaymentTransaction20 ( CashSettlementDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role419209c30115.htm
+
+
+
+SwitchOrder2 ( theSwitchOrder2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role419209c30117.htm
+
+
+
+)
+Association (ForeignExchangeDetails:ForeignExchangeTerms5) (theSwitchOrder2:SwitchOrder2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass41b496710363.htm
+../../../../looseends/ass41b496710363.txt
+
+
+(
+ForeignExchangeTerms5 ( ForeignExchangeDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role41b4967201ab.htm
+
+
+
+SwitchOrder2 ( theSwitchOrder2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41b4967201d4.htm
+
+
+
+)
+Association (RedemptionLegDetails:SwitchRedemptionLegOrder2) (theSwitchOrder2:SwitchOrder2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass419209c300f6.htm
+../../../../looseends/ass419209c300f6.txt
+
+
+(
+SwitchRedemptionLegOrder2 ( RedemptionLegDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role419209c300f7.htm
+
+
+
+SwitchOrder2 ( theSwitchOrder2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role419209c300f9.htm
+
+
+
+)
+Association (SubscriptionLegDetails:SwitchSubscriptionLegOrder2) (theSwitchOrder2:SwitchOrder2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass419209c30100.htm
+../../../../looseends/ass419209c30100.txt
+
+
+(
+SwitchSubscriptionLegOrder2 ( SubscriptionLegDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role419209c30101.htm
+
+
+
+SwitchOrder2 ( theSwitchOrder2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role419209c30103.htm
+
+
+
+)
+Association (InvestmentAccountDetails:InvestmentAccount13) (theSwitchOrder2:SwitchOrder2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass419209c300e3.htm
+../../../../looseends/ass419209c300e3.txt
+
+
+(
+InvestmentAccount13 ( InvestmentAccountDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role419209c300e4.htm
+
+
+
+SwitchOrder2 ( theSwitchOrder2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role419209c300e6.htm
+
+
+
+)
+)

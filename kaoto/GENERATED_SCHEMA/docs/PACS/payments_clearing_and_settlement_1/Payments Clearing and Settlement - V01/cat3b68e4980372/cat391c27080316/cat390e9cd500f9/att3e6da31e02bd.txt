@@ -1,0 +1,1 @@
+Indicates whether an issue is a tax-exempt issue other than private activity bonds, but including any bonds issued by 501(c)(3) organizations or is designated by the issuer as 'bank qualified', and the issuer or its subordinate entities reasonably do not intend to issue more than 10 million dollars of such bonds.

@@ -1,0 +1,2 @@
+Payment must be executed with same day value to the creditor.
+

@@ -1,0 +1,1 @@
+A code to identify a nation with its own government (ISO 3166).

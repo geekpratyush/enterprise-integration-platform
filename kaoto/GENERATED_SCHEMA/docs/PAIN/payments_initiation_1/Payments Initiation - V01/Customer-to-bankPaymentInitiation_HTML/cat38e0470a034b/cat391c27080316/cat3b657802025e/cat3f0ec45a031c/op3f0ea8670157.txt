@@ -1,0 +1,1 @@
+If present, Currency in HighestPriceValue12Months, LowestPriceValue12Months, OneYearPriceChange, ThreeYearPriceChange and FiveYearPriceChange must be the same.

@@ -1,0 +1,1 @@
+Specifies that the meeting is the result of a request or an action of a voting right holder(s), e.g. contested meeting.

@@ -1,0 +1,1 @@
+Date till which the instructing party can revoke, change or withdraw its voting instruction. This deadline is specified by an intermediary.

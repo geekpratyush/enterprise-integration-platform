@@ -1,0 +1,1 @@
+Specifies the coded status of invoice financing request.

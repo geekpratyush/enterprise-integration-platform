@@ -1,0 +1,1 @@
+Instructed agent's branch where the amount of money will be made available when different from the instructed reimbursement agent.

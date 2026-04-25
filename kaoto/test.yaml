@@ -1,0 +1,66 @@
+## DEP: mvn:com.prowidesoftware:pw-swift-core:SRU2023-9.5
+## DEP: mvn:org.apache.camel:camel-swift:4.14.0
+## DEP: mvn:org.apache.camel:camel-joor:4.14.0
+# DEP: mvn:org.apache.camel.quarkus:camel-quarkus-java-joor-dsl:3.33.0
+# DEP: org.apache.camel.quarkus:camel-quarkus-swift:3.33.0
+
+- route:
+      id: main-integration-route
+      from:
+          uri: "file:input?noop=true"
+          steps:
+              - log: "Started processing file: ${file:name}"
+              - to: "direct:detect-type"
+              - to: "direct:convert-to-xml"
+              - to:
+                    uri: "xslt:file:/home/pratyush/software/eip-core-integration/kaoto/xslt/forward/mt103-pacs008/2024-v08-base.xslt"
+              - to:
+                    uri: "xslt:file:/home/pratyush/software/eip-core-integration/kaoto/xslt/forward/mt103-pacs008/sru2025-business-rules.xslt"
+              - to:
+                    uri: "xslt:file:/home/pratyush/software/eip-core-integration/kaoto/xslt/forward/mt103-pacs008/upgrade-v08-to-v10.xslt"
+              - log:
+                    id: log-final
+                    message: "Headers: ${headers} | Result: ${body}"
+
+- route:
+      id: detect-type-route
+      from:
+          uri: "direct:detect-type"
+          steps:
+              - setHeader:
+                    name: "SWIFT_MSG_TYPE"
+                    joor: "var b = bodyAs(byte[].class); var sm = new com.prowidesoftware.swift.model.SwiftMessage().parse(new String(b)); return sm.getType();"
+              - setHeader:
+                    name: "SWIFT_VARIANT"
+                    joor: |
+                        var b = bodyAs(byte[].class);
+                        var sm = com.prowidesoftware.swift.model.SwiftMessage.parse(new String(b));
+                        var b3 = sm.getBlock3();
+                        if (b3 != null && "STP".equals(b3.getTagValue("119"))) return "STP";
+                        if (b3 != null && "COV".equals(b3.getTagValue("119"))) return "COV";
+                        var b4 = sm.getBlock4();
+                        if (b4 != null && b4.getTagValue("77T") != null) return "REMIT";
+                        return "NORMAL";
+              - log: "Detected Type: ${header.SWIFT_MSG_TYPE} | Variant: ${header.SWIFT_VARIANT}"
+
+- route:
+      id: convert-to-xml-route
+      from:
+          uri: "direct:convert-to-xml"
+          steps:
+              - choice:
+                    when:
+                        - simple: "${header.SWIFT_MSG_TYPE} =~ '10[0-9]'"
+                          steps:
+                              - setBody:
+                                    joor: |
+                                        var b = bodyAs(byte[].class);
+                                        var mt = com.prowidesoftware.swift.model.mt.AbstractMT.parse(b);
+                                        try {
+                                            java.lang.reflect.Method m = mt.getClass().getMethod("xml");
+                                            return (String) m.invoke(mt);
+                                        } catch (Exception e) {
+                                            return mt.message().toXml();
+                                        }
+                    otherwise:
+                        - log: "Non-MT message or unsupported type for XML conversion"

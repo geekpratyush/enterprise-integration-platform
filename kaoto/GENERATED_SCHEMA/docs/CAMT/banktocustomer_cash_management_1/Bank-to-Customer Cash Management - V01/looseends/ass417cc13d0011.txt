@@ -1,0 +1,1 @@
+Specifies the type of product identifier not present in the code list.

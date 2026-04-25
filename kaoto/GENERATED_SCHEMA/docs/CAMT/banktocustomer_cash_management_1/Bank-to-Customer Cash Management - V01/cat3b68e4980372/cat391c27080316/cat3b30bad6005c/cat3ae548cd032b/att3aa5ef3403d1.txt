@@ -1,0 +1,4 @@
+Indicates that the order is to be executed by a trading party other than the trading party to which the 
+order is sent. In this case, the instructing party has traded with another broker which will 
+subsequently send an advice of execution to the executing party who received the order 
+and which is acting as clearing broker.

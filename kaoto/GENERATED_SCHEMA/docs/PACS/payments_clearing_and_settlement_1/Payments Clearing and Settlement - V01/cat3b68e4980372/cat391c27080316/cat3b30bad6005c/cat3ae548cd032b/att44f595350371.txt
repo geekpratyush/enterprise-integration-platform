@@ -1,0 +1,3 @@
+Balance representing the fictive forecast of automated direct debits or payment based on standing arrangements between the CSD and the user.
+
+Usage: Pay-Ins and Pay-Outs can be different based on individual payment instructions or available funds.

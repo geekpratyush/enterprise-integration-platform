@@ -1,0 +1,1 @@
+Specifies the payment terms by means of a code and a limit in time.

@@ -1,0 +1,1 @@
+Indicates whether the limit status is requested.

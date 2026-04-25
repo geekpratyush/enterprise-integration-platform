@@ -1,0 +1,30 @@
+- route:
+    id: mq-to-log-demo
+    from:
+      id: froma353
+      uri: kamelet:ibmmq-source
+      parameters:
+        queueName: DEV.QUEUE.1
+        mqHost: local-mq-server
+        mqPort: 1415
+      steps:
+        - log:
+            id: log084b
+            message: "Received message from IBM MQ: ${body}"
+        - to:
+            id: to7c05
+            uri: log
+            parameters:
+              loggerName: info?showAll=true
+- route:
+    id: route-3036
+    from:
+      id: from-7646
+      uri: timer
+      parameters:
+        period: "1000"
+        timerName: template
+      steps:
+        - log:
+            id: log-3758
+            message: ${body}

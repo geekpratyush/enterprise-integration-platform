@@ -1,0 +1,1 @@
+Upper boundary of a range of amount values.

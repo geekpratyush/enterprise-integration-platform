@@ -1,0 +1,2 @@
+Risk-free transaction consisting of purchasing an asset at one price and simultaneously selling that same asset at a higher
+price, generating a profit on the difference. 

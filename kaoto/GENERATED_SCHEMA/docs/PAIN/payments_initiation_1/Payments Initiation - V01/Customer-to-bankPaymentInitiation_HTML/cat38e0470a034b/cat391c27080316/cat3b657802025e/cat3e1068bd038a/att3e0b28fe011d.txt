@@ -1,0 +1,2 @@
+Unique and unambiguous identifier of a party, assigned by an organisation.
+

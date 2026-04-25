@@ -1,0 +1,1 @@
+Transaction is a payment(s) resulting from a lock box service.

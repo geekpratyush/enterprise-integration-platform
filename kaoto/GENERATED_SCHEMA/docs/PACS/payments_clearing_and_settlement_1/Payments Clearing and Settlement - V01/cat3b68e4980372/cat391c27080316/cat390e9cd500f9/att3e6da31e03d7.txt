@@ -1,0 +1,1 @@
+For partially good till orders, the specification of whether to book each execution, or to accumulate the executions.

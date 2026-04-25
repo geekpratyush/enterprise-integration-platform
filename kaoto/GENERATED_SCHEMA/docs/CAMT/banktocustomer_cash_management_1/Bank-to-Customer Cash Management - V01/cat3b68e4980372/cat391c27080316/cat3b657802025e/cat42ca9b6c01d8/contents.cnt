@@ -1,0 +1,384 @@
+<<MessageComponent>> Security4
+../../../../webviewer/142.jpg
+class3c298172026b.htm
+
+
+
+(
+Name [0..1]
+../../../../webviewer/31.jpg
+att3c2988c00314.htm
+
+
+
+(
+)
+CertificateNumber [0..1]
+../../../../webviewer/31.jpg
+att3c2988c00346.htm
+
+
+
+(
+)
+Rating [0..1]
+../../../../webviewer/31.jpg
+att3c2988c0036e.htm
+
+
+
+(
+)
+ClassificationType [0..1]
+../../../../webviewer/31.jpg
+att3c2988c00396.htm
+
+
+
+(
+)
+DenominationCurrency [0..1]
+../../../../webviewer/31.jpg
+att3c2988c003be.htm
+
+
+
+(
+)
+DematerialisedIndicator [0..1]
+../../../../webviewer/31.jpg
+att3cee3ad1008b.htm
+
+
+
+(
+)
+ImmobilisedIndicator [0..1]
+../../../../webviewer/31.jpg
+att3cee3b3000cd.htm
+
+
+
+(
+)
+Form [0..1]
+../../../../webviewer/31.jpg
+att3c2988c10031.htm
+
+
+
+(
+)
+LegalRestrictions [0..1]
+../../../../webviewer/31.jpg
+att3c2988c10059.htm
+
+
+
+(
+)
+IssueDate [0..1]
+../../../../webviewer/31.jpg
+att3c2988c10081.htm
+
+
+
+(
+)
+MinimumTradedNominalQuantity [0..1]
+../../../../webviewer/31.jpg
+att3c2988c100a9.htm
+
+
+
+(
+)
+CountryOfIssue [0..1]
+../../../../webviewer/31.jpg
+att3c2988c10103.htm
+
+
+
+(
+)
+PlaceOfIssue [0..1]
+../../../../webviewer/31.jpg
+att3c2988c10135.htm
+att3c2988c10135.txt
+
+
+(
+)
+PlaceOfRegistry [0..1]
+../../../../webviewer/31.jpg
+att3c2988c1015d.htm
+att3c2988c1015d.txt
+
+
+(
+)
+PrimaryPlaceOfListing [0..1]
+../../../../webviewer/31.jpg
+att3c2988c1018f.htm
+
+
+
+(
+)
+SecondaryPlaceOfListing [0..5]
+../../../../webviewer/31.jpg
+att3c3d72d20249.htm
+
+
+
+(
+)
+Purpose[0..1]
+../../../../webviewer/31.jpg
+att3de4e9a301c0.htm
+
+
+
+(
+)
+ProductType [0..1]
+../../../../webviewer/31.jpg
+att3de5d4660073.htm
+
+
+
+(
+)
+CertificatedIndicator [0..1]
+../../../../webviewer/31.jpg
+att3e92e55803c2.htm
+
+
+
+(
+)
+ContractVersionNumber[0..1]
+../../../../webviewer/33.jpg
+att3e92e56602f0.htm
+att3e92e56602f0.txt
+
+
+(
+)
+CouponAttachedNumber[0..1]
+../../../../webviewer/31.jpg
+att3e92e57802f6.htm
+
+
+
+(
+)
+CoveredIndicator[0..1]
+../../../../webviewer/31.jpg
+att3e92e58e0185.htm
+
+
+
+(
+)
+TaxLotNumber[0..1]
+../../../../webviewer/31.jpg
+att3e92e5ab0213.htm
+
+
+
+(
+)
+LotSize[0..1]
+../../../../webviewer/33.jpg
+att3e92e5bd0128.htm
+att3e92e5bd0128.txt
+
+
+(
+)
+PoolNumber[0..1]
+../../../../webviewer/31.jpg
+att3e92e5dd00de.htm
+
+
+
+(
+)
+theSecurity ( Security )
+../../../../webviewer/82.jpg
+../../../../looseends/role422c64e50258.htm
+
+
+
+theGeneralFinancialInstrument ( GeneralFinancialInstrument )
+../../../../webviewer/82.jpg
+../../../../looseends/role3c2981b20119.htm
+
+
+
+)
+<<MessageComponent>> MultilegSecurity1
+../../../../webviewer/142.jpg
+class428c576a03c0.htm
+class428c576a03c0.txt
+
+
+(
+Identification
+../../../../webviewer/31.jpg
+att428c57d7005f.htm
+
+
+
+(
+)
+theSecurity ( Security )
+../../../../webviewer/82.jpg
+../../../../looseends/role42aef0910399.htm
+
+
+
+LegDetails ( SecurityLeg )
+../../../../webviewer/82.jpg
+../../../../looseends/role428c5c1a01a9.htm
+
+
+
+)
+<<MessageComponent>> MultilegSecurity2
+../../../../webviewer/142.jpg
+class429722ea030c.htm
+
+
+
+(
+Identification
+../../../../webviewer/31.jpg
+att42972308007b.htm
+
+
+
+(
+)
+theSecurity ( Security )
+../../../../webviewer/82.jpg
+../../../../looseends/role42b0116801ff.htm
+
+
+
+LegDetails ( SecurityLeg2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4297234b02bd.htm
+
+
+
+)
+Associations
+../../../../webviewer/assoccat.gif
+
+
+
+
+(
+<<SWSTrace>> (theSecurity:Security) (theMultilegSecurity1:MultilegSecurity1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass42aef0900243.htm
+
+
+
+(
+Security ( theSecurity )
+../../../../webviewer/82.jpg
+../../../../looseends/role42aef0910334.htm
+
+
+
+MultilegSecurity1 ( theMultilegSecurity1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role42aef0910399.htm
+
+
+
+)
+<<SWSTrace>> (theSecurity:Security) (theMultilegSecurity2:MultilegSecurity2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass42b011650331.htm
+
+
+
+(
+Security ( theSecurity )
+../../../../webviewer/82.jpg
+../../../../looseends/role42b011670366.htm
+
+
+
+MultilegSecurity2 ( theMultilegSecurity2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role42b0116801ff.htm
+
+
+
+)
+<<SWSTrace>> (theSecurity:Security) (theSecurity4:Security4)
+../../../../webviewer/81.jpg
+../../../../looseends/ass422c64e4009e.htm
+
+
+
+(
+Security ( theSecurity )
+../../../../webviewer/82.jpg
+../../../../looseends/role422c64e4018e.htm
+
+
+
+Security4 ( theSecurity4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role422c64e50258.htm
+
+
+
+)
+Association (LegDetails:SecurityLeg) (theMultilegSecurity1:MultilegSecurity1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass428c5c19036a.htm
+
+
+
+(
+SecurityLeg ( LegDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role428c5c1a019f.htm
+
+
+
+MultilegSecurity1 ( theMultilegSecurity1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role428c5c1a01a9.htm
+
+
+
+)
+Association (LegDetails:SecurityLeg2) (theMultilegSecurity2:MultilegSecurity2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4297234b0122.htm
+
+
+
+(
+SecurityLeg2 ( LegDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role4297234b02b3.htm
+
+
+
+MultilegSecurity2 ( theMultilegSecurity2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4297234b02bd.htm
+
+
+
+)
+)

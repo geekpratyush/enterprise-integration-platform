@@ -1,0 +1,1 @@
+Specifies the date and time at which the indication of interest expires and is no longer valid.

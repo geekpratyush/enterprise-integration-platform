@@ -1,0 +1,1 @@
+Type of ISA that offers a cash component only (no stock).

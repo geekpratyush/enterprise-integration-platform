@@ -1,0 +1,2 @@
+This party is responsible for making meeting information available to the market, collecting the votes and publishing the meeting results.
+This pary can delegate to a registrar, transfer agent or a bank.

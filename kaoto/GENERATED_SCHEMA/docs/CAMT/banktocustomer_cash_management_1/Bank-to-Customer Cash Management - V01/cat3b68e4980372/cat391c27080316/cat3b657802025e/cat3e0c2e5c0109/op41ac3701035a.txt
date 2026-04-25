@@ -1,0 +1,1 @@
+If ReceiversIntermediaryDetails is present, then ReceiversCustodianDetails must be present. If ReceiversIntermediaryDetails is not present, then ReceiversCustodianDetails is optional.

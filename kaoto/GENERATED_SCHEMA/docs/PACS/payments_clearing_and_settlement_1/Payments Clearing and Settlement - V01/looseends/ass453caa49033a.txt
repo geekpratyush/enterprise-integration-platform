@@ -1,0 +1,1 @@
+Party that takes the transaction charges or to which the transaction charges are due.

@@ -1,0 +1,1 @@
+Set of elements used to indicate when the booked amount of money will become available, ie can be accessed and start generating interest. 

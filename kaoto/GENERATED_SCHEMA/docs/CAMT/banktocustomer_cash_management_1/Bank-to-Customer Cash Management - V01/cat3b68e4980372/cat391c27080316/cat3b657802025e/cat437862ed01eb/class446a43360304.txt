@@ -1,0 +1,2 @@
+Set of elements that further identifies the type of local instruments being requested by the initiating party.
+

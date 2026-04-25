@@ -1,0 +1,1 @@
+Specifies that the confirmation is an intention to execute a transfer instruction for the listed assets.

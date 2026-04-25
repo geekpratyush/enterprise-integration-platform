@@ -1,0 +1,3 @@
+Party that the case is assigned to. This is also the receiver of the message.
+
+

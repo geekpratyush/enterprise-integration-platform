@@ -1,0 +1,2 @@
+Indicates whether the statement frequency assigned to an investment account should be deleted.
+

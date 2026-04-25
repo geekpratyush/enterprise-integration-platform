@@ -1,0 +1,3 @@
+SettlementDate: new.
+Amount: renamed to NetAmount and has become optional.
+NetUnitsNumber: new.

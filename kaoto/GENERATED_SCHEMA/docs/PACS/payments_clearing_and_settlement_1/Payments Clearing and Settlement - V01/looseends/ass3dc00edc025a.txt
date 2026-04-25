@@ -1,0 +1,1 @@
+Party to which a cheque is made payable.

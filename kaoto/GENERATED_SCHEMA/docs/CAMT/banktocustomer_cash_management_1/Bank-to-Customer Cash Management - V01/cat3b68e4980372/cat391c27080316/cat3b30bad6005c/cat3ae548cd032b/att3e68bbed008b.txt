@@ -1,0 +1,1 @@
+Yield to Shortest Average (Sinking Fund Bonds) - The yield assuming that all sinks (mandatory and voluntary) are taken.  This results in a faster paydown of debt; the yield is then calculated to the final payment date.

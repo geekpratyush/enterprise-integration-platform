@@ -1,0 +1,2 @@
+Maximum quantity of financial instrument 
+to be shown on the floor at a time.

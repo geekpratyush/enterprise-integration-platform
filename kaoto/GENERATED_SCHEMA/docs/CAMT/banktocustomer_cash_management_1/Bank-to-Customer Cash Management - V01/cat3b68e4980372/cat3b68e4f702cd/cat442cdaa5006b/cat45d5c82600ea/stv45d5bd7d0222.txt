@@ -1,0 +1,1 @@
+if intraday reporting occurs, additional information on transactions posted to the account is received from the account servicing bank during the day. Note : intraday balances may be provided, even though intraday balance reconciliation is usually not done.

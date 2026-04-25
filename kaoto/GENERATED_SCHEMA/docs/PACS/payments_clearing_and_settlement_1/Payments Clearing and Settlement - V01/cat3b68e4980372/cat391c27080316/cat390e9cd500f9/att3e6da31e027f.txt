@@ -1,0 +1,1 @@
+Type of liquidity measure, of a financial instrument, on a market.

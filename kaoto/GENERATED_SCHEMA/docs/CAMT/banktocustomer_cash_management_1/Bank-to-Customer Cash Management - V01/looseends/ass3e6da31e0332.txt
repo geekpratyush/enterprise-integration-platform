@@ -1,0 +1,1 @@
+Security used as a reference to express the value of another security.

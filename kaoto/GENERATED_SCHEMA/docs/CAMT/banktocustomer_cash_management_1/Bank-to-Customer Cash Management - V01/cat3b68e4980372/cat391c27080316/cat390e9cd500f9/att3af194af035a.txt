@@ -1,0 +1,1 @@
+Indicates that the rate reset will occur at the end of the payment period (True case)

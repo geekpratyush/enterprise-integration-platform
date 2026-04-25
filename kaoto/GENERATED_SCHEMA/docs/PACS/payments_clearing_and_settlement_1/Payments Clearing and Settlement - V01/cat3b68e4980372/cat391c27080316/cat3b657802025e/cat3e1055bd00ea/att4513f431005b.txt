@@ -1,0 +1,1 @@
+Unique technical identifier for an instance of a leg within a switch.

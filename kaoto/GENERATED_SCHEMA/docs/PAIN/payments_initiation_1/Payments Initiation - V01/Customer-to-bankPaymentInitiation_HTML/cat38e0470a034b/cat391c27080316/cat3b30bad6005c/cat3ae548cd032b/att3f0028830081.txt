@@ -1,0 +1,2 @@
+Specification of creditor is not consistent with associated account number.
+

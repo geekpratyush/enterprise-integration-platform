@@ -1,0 +1,1 @@
+Cash account debited from a standing order mechanism.

@@ -1,0 +1,1 @@
+Participating entity linked but not registered on an exchange. 

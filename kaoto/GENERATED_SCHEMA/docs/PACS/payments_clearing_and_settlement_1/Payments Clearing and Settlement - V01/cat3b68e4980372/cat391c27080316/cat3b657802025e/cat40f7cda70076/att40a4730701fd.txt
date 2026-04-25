@@ -1,0 +1,1 @@
+Quantity expressed as an amount representing the face amount, ie, the principal, of a debt instrument.

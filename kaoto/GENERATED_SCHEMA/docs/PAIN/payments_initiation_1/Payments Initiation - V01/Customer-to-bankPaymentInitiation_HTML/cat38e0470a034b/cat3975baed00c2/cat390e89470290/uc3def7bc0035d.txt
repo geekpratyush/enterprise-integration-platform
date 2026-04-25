@@ -1,0 +1,33 @@
+Definition : the clearing agent applies the payment amount to the debit party and credit party's clearing positions. For multiple payments, it is equivalent to calculate the sub-settlement positions. The calculation may be done continuously or at certain times through a bilateral netting. The settlement may be delegated to a third party.
+
+Logically the process is not connected with the preparation of onward payment. 
+
+Arguments :
+
+The information below is valid for any payment.
+
+Nevertheless, in case of a bulk payment, some information might be meaningful for the bulk payment (for example, total payment) or for each individual payment or both to realise the process.
+
+Information for individual payment : 
+
+-debit party 'account, credit party's account
+-Individual  payment amounts for the debit (credit) parties and currency, execution date and/or value date 
+-direction indicator (debit or credit) 
+
+Information for the bulk payment : 
+
+-debit parties 'account, credit parties' account (1 debit party and many credit parties for credit transfer, many debit parties and 1 credit party for direct debit) 
+-total payment amount for each debit (credit) party and currency, execution date and/or value date 
+-direction indicator (debit or credit) 
+
+
+Pre-condition : payment is executable
+
+Trigger : payment has been accepted
+
+Post-condition : payment amount is applied to the debit and credit party
+
+The above information is valid for a payment in general. In case of bulk payment, the business entities needed to calculate the settlement positions may be information related to the bulk payment or specific to each individual payment. 
+
+
+

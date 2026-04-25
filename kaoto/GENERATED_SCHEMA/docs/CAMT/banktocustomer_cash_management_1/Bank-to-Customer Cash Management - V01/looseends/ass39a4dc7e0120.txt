@@ -1,0 +1,1 @@
+Conditions under which a securities order must be executed.

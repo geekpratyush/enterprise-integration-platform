@@ -1,0 +1,1 @@
+Used when the result of an investigation is, or will be, the initiation of a payment instruction.

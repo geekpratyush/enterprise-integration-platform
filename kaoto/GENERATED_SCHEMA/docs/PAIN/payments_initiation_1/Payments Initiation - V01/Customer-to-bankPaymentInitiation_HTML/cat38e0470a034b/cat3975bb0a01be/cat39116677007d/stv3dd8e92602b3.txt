@@ -1,0 +1,4 @@
+The initiating party receives a notification from the first agent, (possibly through the forwarding agent - if any), that the debit entry has been passed on the account of the debtor (which may or may not be equal to the initiating party).
+
+This debit advice will be further used for the reconciliation of entries vis-à-vis payment orders received/remitted. 
+

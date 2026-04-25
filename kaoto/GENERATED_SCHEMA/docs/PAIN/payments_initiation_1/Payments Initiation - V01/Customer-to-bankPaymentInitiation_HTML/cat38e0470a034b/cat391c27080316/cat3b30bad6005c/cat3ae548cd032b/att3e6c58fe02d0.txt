@@ -1,0 +1,1 @@
+Broker is acting as an agent for an entity other than the customer.

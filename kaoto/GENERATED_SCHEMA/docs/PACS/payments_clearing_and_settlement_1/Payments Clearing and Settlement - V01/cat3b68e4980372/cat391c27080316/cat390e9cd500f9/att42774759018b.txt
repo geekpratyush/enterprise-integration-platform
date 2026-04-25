@@ -1,0 +1,1 @@
+Indicates whether a resolution is ordinary, extraordinary or special.

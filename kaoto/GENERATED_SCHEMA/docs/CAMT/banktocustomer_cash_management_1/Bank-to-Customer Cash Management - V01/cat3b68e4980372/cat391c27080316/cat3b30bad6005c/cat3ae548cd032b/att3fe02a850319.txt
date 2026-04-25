@@ -1,0 +1,2 @@
+Payment is made in a third currency to the origin and destination countries. The origin and destination countries may be the same country.
+

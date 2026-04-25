@@ -1,0 +1,1 @@
+In any occurence of one or more of the message elements in the list (Administrator, PrimaryOwner, Trustee, CustodianForMinor,Nominee, SecondaryOwner, Beneficiary, PowerOfAttorney, LegalGuardian, SuccessorOnDeath), the ExtendedPartyRole may not be present.

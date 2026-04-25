@@ -1,0 +1,1 @@
+Account used for the payment of cash.

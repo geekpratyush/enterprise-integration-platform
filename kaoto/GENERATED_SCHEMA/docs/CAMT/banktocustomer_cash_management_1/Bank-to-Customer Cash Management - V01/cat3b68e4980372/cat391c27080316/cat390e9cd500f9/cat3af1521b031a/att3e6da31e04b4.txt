@@ -1,0 +1,1 @@
+Specifies the type of prepayment speed of the fixed income instrument in coded form.

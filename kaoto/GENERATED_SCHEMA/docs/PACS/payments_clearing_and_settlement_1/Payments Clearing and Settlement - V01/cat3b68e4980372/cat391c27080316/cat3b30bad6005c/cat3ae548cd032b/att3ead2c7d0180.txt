@@ -1,0 +1,1 @@
+Trade is the final closing of another trade, ie, in the opposite direction, for the same pair of currencies and for the same value date. This trade agreement contains the net settlement amount that has to be paid by one of the parties as a result of netting of several agreements.

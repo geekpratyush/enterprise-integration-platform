@@ -1,0 +1,1 @@
+Unique and unambiguous identifier of the original group of transactions as assigned by the original sending party.

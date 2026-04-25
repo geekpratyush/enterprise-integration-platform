@@ -1,0 +1,3 @@
+Agent through which the instructing agent will reimburse the instructed agent.
+
+Usage: If InstructingAgent and InstructedAgent have the same reimbursement agent, then only InstructingReimbursementAgent must be used. 

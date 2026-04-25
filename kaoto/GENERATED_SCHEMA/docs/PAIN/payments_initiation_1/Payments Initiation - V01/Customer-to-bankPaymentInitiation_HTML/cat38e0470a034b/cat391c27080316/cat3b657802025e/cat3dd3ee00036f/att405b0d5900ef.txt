@@ -1,0 +1,1 @@
+Specifies the channel through which the payment instruction is to be processed in coded form. 

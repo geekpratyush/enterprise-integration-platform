@@ -1,0 +1,1 @@
+Agent instructed by a previous clearing agent about the (set of) instruction(s).

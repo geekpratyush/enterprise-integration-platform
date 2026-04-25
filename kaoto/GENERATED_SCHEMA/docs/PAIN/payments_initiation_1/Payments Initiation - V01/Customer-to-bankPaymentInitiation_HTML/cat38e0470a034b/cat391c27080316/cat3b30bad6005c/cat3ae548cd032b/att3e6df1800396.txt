@@ -1,0 +1,1 @@
+Identifies that the initiating party requests a batch entry for the sum of the amounts of all transactions in the initiation. 

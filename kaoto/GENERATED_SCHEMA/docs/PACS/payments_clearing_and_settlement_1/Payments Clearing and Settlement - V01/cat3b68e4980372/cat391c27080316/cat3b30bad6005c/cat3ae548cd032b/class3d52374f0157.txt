@@ -1,0 +1,2 @@
+Specifies if the confirmation message applies to an account opening request or an account details modification.
+

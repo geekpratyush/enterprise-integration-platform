@@ -1,0 +1,1 @@
+Specifies the ownership characteristics of an account.

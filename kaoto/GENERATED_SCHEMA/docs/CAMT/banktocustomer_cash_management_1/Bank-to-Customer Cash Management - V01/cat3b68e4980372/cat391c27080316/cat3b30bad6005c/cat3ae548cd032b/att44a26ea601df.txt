@@ -1,0 +1,2 @@
+Number assigned to an article by the supplier of that article. 
+

@@ -1,0 +1,1 @@
+If ExerciseStyle is AMER, then EarliestExerciseDate must be present.

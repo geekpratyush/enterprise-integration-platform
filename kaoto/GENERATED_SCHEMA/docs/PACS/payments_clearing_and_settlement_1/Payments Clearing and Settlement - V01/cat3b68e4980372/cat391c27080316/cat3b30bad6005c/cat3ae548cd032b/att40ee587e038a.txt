@@ -1,0 +1,1 @@
+Cancellation instruction / request is pending. It is not known at this time whether cancellation can be effected.

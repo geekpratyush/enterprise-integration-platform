@@ -1,0 +1,2 @@
+Statistical data related to the price change of a security.
+

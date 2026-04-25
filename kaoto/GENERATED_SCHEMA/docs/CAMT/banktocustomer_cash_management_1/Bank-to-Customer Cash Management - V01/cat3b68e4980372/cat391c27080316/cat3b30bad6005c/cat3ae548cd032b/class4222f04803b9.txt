@@ -1,0 +1,1 @@
+Specifies which type of action a user should take.

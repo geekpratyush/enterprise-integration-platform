@@ -1,0 +1,1 @@
+Indicates a request for a foreign exchange accommodation trade to be executed along with security transaction.

@@ -1,0 +1,1 @@
+Multiplier for the variable rate.

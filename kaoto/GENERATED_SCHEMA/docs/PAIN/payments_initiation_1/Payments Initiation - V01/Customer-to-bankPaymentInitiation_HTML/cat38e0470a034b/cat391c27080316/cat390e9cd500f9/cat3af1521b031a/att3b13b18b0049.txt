@@ -1,0 +1,1 @@
+Identification of a building, within a group of buildings, that have the same street number identifier.

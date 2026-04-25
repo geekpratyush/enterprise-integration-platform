@@ -1,0 +1,54 @@
+Scenario : reject of group by first agent.
+
+Initiating party sends payment initiation to forwarding agent with following information : 
+
+Step1
+
+Group ID : ABC
+Requested ex.date: 20030410
+Payment type : Credit transfers
+
+Single level :
+Payment instruction ID : 123
+Instructed amount : USD1000
+
+Payment instruction ID : 456
+Instructed amount:US4000
+
+Forwarding agent sends back a status message, - accepted : 'validated' and refers to original group reference information.
+
+Step 2 
+
+Forwarding agent forwards payment initiation to first agent with following - unchanged- information : 
+
+Group ID
+
+Requested ex.date: 20030410
+Payment type : Credit transfers
+
+Single level :
+Payment instruction ID : 123
+Instructed amount : USD1000
+
+Payment instruction ID : 456
+Instructed amount:US4000
+
+Upon receipt, and after doing necessary checks, the first  agent sends back a status message to forwarding agent,  - rejecting the group.
+Information needed by the forwarding agent to reconcile the reject of the group sent :
+Group ID ABC , requested execution date, possibly payment type identification details and name of message type sent, initiating party, debtor's account details and debtor identification.
+
+Step 3
+
+Forwarding agent needs to forward the rejected group status to the initiating party. 
+
+Information needed by the initiating party to reconcile the reject of the group :
+original group ID ABC, requested execution date, possibly payment type identification details and name of message type sent, debtor's account details and debtor identification.
+
+
+Usage guideline : In order to allow reconcilation by the initiating party of the status info with the original payment initiation, the forwarding agent should not change the content of the elements of  the original payment initiation message. Therefore the Group ID of the payment initiation sent to the forwarding agent by the initiating party (in step 2) will be forwarded unchanged to the first agent by the forwarding agent.
+As the forwarding agent only plays the technical role of 'forwarder', it is not up to this agent to assign a new reference in the 'body of the message'. It is the responsibility of the forwarding agent to keep track of the messages it forwards
+
+Regardless of the route chosen, (ie 'same route through forwarding agent' - or 'direct route' from the first agent to the initiating party), the same information and guidelines would apply. 
+
+
+

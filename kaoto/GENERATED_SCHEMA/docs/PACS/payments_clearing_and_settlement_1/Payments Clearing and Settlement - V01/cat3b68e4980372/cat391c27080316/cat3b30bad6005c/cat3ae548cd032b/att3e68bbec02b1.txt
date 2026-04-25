@@ -1,0 +1,2 @@
+Indicates the type of quote is a restricted tradeable quote. 
+A restricted tradeable quote is submitted to a market and within a certain restriction (possibly based upon price or quantity) will automatically trade against orders. Order that do not comply with restrictions are sent to the quote issuer who can choose to accept or decline the order.

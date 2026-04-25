@@ -1,0 +1,2 @@
+Code for payment at end of period after end of month of delivery
+

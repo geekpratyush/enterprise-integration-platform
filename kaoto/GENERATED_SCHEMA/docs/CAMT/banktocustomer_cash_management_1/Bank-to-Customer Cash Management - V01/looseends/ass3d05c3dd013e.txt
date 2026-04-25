@@ -1,0 +1,1 @@
+Account to be credited as a result of an instruction.

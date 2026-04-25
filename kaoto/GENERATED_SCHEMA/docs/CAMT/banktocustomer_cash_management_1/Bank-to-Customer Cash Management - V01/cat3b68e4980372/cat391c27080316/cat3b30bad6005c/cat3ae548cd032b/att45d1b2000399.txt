@@ -1,0 +1,3 @@
+Disbursement book balance of the account at the beginning of the account reporting period.  It always equals the closing book balance from the previous report.    
+
+

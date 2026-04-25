@@ -1,0 +1,1 @@
+Specifies the type of transaction that resulted in a payment initiation.

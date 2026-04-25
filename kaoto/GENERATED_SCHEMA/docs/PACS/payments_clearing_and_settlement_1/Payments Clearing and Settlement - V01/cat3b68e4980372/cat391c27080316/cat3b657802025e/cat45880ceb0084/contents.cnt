@@ -1,0 +1,80 @@
+<<MessageComponent>> Portfolio1
+../../../../webviewer/142.jpg
+class44605f820373.htm
+class44605f820373.txt
+
+
+(
+PortfolioInformation [0..5]
+../../../../webviewer/31.jpg
+att44605fb9021f.htm
+att44605fb9021f.txt
+
+
+(
+)
+thePEPISATransfer3 ( PEPISATransfer3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role44605fe10318.htm
+
+
+
+thePEPISATransfer4 ( PEPISATransfer4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role44649616008f.htm
+
+
+
+thePEPISATransfer5 ( PEPISATransfer5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role446b0d320269.htm
+
+
+
+thePEPISATransfer6 ( PEPISATransfer6 )
+../../../../webviewer/82.jpg
+../../../../looseends/role446b17ca03b4.htm
+
+
+
+thePEPISATransfer8 ( PEPISATransfer8 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4571952b0167.htm
+
+
+
+thePortfolio ( Portfolio )
+../../../../webviewer/82.jpg
+../../../../looseends/role4587b56601fb.htm
+
+
+
+)
+Associations
+../../../../webviewer/assoccat.gif
+
+
+
+
+(
+<<SWSTrace>> (thePortfolio:Portfolio) (thePortfolio1:Portfolio1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4587b56501d0.htm
+
+
+
+(
+Portfolio ( thePortfolio )
+../../../../webviewer/82.jpg
+../../../../looseends/role4587b56601f0.htm
+
+
+
+Portfolio1 ( thePortfolio1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4587b56601fb.htm
+
+
+
+)
+)

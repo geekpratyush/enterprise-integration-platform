@@ -1,0 +1,1 @@
+Date and time by which the attendance to the meeting should be confirmed. This deadline is set by the issuer.

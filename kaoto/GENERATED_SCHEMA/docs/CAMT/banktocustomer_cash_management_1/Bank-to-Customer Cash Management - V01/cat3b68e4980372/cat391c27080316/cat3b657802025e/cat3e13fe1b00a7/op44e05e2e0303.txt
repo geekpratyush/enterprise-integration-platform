@@ -1,0 +1,1 @@
+Either CancellationRight or ExtendedCancellationRight may be present but not both.

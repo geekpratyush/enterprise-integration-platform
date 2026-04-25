@@ -1,0 +1,1 @@
+If Type is present, then OtherTaxType is not allowed. If Type is not present, then OtherTaxType is mandatory.

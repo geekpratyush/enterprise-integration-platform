@@ -1,0 +1,2660 @@
+CashAccount
+../../../../webviewer/18.jpg
+dgm3e76f81e01ef.htm
+
+
+
+(
+)
+AccountReport
+../../../../webviewer/18.jpg
+dgm3e78423703c3.htm
+
+
+
+(
+)
+AccountIdentification
+../../../../webviewer/18.jpg
+dgm3e7eda7302fe.htm
+
+
+
+(
+)
+CashAccount_4_5_6
+../../../../webviewer/18.jpg
+dgm4281bf6a0369.htm
+
+
+
+(
+)
+<<MessageComponent>> CashAccount2
+../../../../webviewer/143.jpg
+class3e76e29a025c.htm
+
+
+
+(
+Identification
+../../../../webviewer/31.jpg
+att3e76e29a025d.htm
+
+
+
+(
+)
+Name[0..1]
+../../../../webviewer/31.jpg
+att3e76e29a025e.htm
+att3e76e29a025e.txt
+
+
+(
+)
+Currency
+../../../../webviewer/31.jpg
+att3e76e29a025f.htm
+
+
+
+(
+)
+Type[0..1]
+../../../../webviewer/31.jpg
+att3e76e29a0260.htm
+
+
+
+(
+)
+thePartyDetails ( PartyDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f963ae30316.htm
+
+
+
+theCashAccount ( CashAccount )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e76f83b0143.htm
+
+
+
+theAccountReport5 ( AccountReport5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3fdf18880177.htm
+
+
+
+theAccountReport6 ( AccountReport6 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3fdf209d033f.htm
+
+
+
+)
+<<MessageComponent>> CashAccountSearchCriteria
+../../../../webviewer/143.jpg
+class3e76e29b0049.htm
+class3e76e29b0049.txt
+
+
+(
+Type[0..n]
+../../../../webviewer/31.jpg
+att3e76e29b004b.htm
+
+
+
+(
+)
+Currency[0..n]
+../../../../webviewer/31.jpg
+att3e76e29b004c.htm
+
+
+
+(
+)
+theAccountCriteria ( AccountCriteria )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e78686a000a.htm
+
+
+
+theCashAccount ( CashAccount )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e786532029a.htm
+
+
+
+AccountIdentification ( AccountIdentificationSearchCriteriaChoice )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e78653e02e9.htm
+
+
+
+Balance ( BalanceDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e7865420087.htm
+
+
+
+theCashAccountSearchCriteria2 ( CashAccountSearchCriteria2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role420c8287028b.htm
+
+
+
+<<Textual>> CashAccountIdentificationGuideline
+../../../../webviewer/36.jpg
+op3e76e29b004a.htm
+op3e76e29b004a.txt
+
+
+(
+)
+)
+<<MessageComponent>> AccountIdentificationDetails
+../../../../webviewer/143.jpg
+class3e76e29b00d5.htm
+
+
+
+(
+Identification
+../../../../webviewer/31.jpg
+att3e76e29b00d6.htm
+
+
+
+(
+)
+Type[0..1]
+../../../../webviewer/31.jpg
+att3e76e29b00d7.htm
+
+
+
+(
+)
+theCashAccount ( CashAccount )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e79c3d703b4.htm
+
+
+
+theAccountDetails2 ( AccountDetails2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e79c4bb021d.htm
+
+
+
+theAccountDetails2 ( AccountDetails2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e79c4c002f8.htm
+
+
+
+theAccountDetails3 ( AccountDetails3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role421db108008e.htm
+
+
+
+theAccountDetails3 ( AccountDetails3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role421db10800a1.htm
+
+
+
+theStandingOrderDetails ( StandingOrderDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e79e5bb0114.htm
+
+
+
+theStandingOrderDetails ( StandingOrderDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e79e5f0025c.htm
+
+
+
+theStandingOrderDetails1 ( StandingOrderDetails1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role421c74d80341.htm
+
+
+
+theStandingOrderDetails1 ( StandingOrderDetails1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role421c74d80310.htm
+
+
+
+)
+<<MessageComponent>> AccountDetails2
+../../../../webviewer/143.jpg
+class3e76e29b0039.htm
+
+
+
+(
+theCashAccount ( CashAccount )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e79c486021d.htm
+
+
+
+DebitAccount ( AccountIdentificationDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e79c4bb023d.htm
+
+
+
+CreditAccount ( AccountIdentificationDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e79c4c00317.htm
+
+
+
+theAccountDetails3 ( AccountDetails3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role421db12f006a.htm
+
+
+
+)
+<<MessageComponent>> AccountDetails1
+../../../../webviewer/143.jpg
+class3e76e29b002d.htm
+
+
+
+(
+Type
+../../../../webviewer/31.jpg
+att3e76e29b002e.htm
+
+
+
+(
+)
+theCashAccount ( CashAccount )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e79c48a0375.htm
+
+
+
+)
+<<MessageComponent>> CashAccountDetails
+../../../../webviewer/143.jpg
+class3e76e29b00ec.htm
+
+
+
+(
+Name[0..1]
+../../../../webviewer/31.jpg
+att3e76e29b00ed.htm
+att3e76e29b00ed.txt
+
+
+(
+)
+Currency[0..1]
+../../../../webviewer/31.jpg
+att3e76e29b00ee.htm
+
+
+
+(
+)
+Type[0..1]
+../../../../webviewer/31.jpg
+att3e76e29b00f5.htm
+
+
+
+(
+)
+theCashAccount ( CashAccount )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e7aed80023d.htm
+
+
+
+MultilateralBalance ( CashBalanceDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e7aee8b0308.htm
+
+
+
+StandingOrder ( StandingOrderDetails2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e7aee8f022d.htm
+
+
+
+CurrentBilateralLimit ( BilateralLimitDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e7aee930394.htm
+
+
+
+CurrentMultilateralLimit ( LimitDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e7aee9a00c6.htm
+
+
+
+theAccountReport1 ( AccountReport1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e7b191c01fe.htm
+
+
+
+theCashAccountDetails1 ( CashAccountDetails1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role420c88e8031b.htm
+
+
+
+<<Textual>> BilateralBalanceRule
+../../../../webviewer/36.jpg
+op3fe1b2b8010e.htm
+op3fe1b2b8010e.txt
+
+
+(
+)
+)
+<<MessageComponent>> AccountReport1
+../../../../webviewer/143.jpg
+class3e76e29b022d.htm
+class3e76e29b022d.txt
+
+
+(
+AccountIdentification
+../../../../webviewer/31.jpg
+att40040b1a02c1.htm
+
+
+
+(
+)
+theAccounts1 ( Accounts1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e7b1a8e023d.htm
+
+
+
+theCashAccount ( CashAccount )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e7b184701df.htm
+
+
+
+BusinessError ( ErrorHandling2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e7b191303d3.htm
+
+
+
+Account ( CashAccountDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e7b191c021d.htm
+
+
+
+theAccountReport7 ( AccountReport7 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4210ac0f020e.htm
+
+
+
+<<XOR>> AccountOrBusinessErrorRule
+../../../../webviewer/34.jpg
+op3e76e29b022e.htm
+op3e76e29b022e.txt
+
+
+(
+)
+)
+<<MessageComponent>> AccountIdentificationAndName
+../../../../webviewer/143.jpg
+class3e76e29b009c.htm
+
+
+
+(
+AccountIdentification
+../../../../webviewer/31.jpg
+att3e76e29b009d.htm
+
+
+
+(
+)
+AccountName[0..1]
+../../../../webviewer/31.jpg
+att3e76e29b009e.htm
+
+
+
+(
+)
+theTradePartyIdentificationAndAccount ( TradePartyIdentificationAndAccount )
+../../../../webviewer/82.jpg
+../../../../looseends/role3edf5433009a.htm
+
+
+
+theCashAccount ( CashAccount )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e7eda9f01c6.htm
+
+
+
+theMemberDetails ( MemberDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e7edd4802d0.htm
+
+
+
+)
+<<MessageComponent>> CashAccountSearchCriteria1
+../../../../webviewer/143.jpg
+class3e8c04120362.htm
+class3e8c04120362.txt
+
+
+(
+AccountIdentification[1..n]
+../../../../webviewer/31.jpg
+att3e8c04120364.htm
+
+
+
+(
+)
+Type[0..n]
+../../../../webviewer/31.jpg
+att3e8c04120365.htm
+
+
+
+(
+)
+Currency[0..n]
+../../../../webviewer/31.jpg
+att3e8c04120366.htm
+
+
+
+(
+)
+theAccountCriteria1 ( AccountCriteria1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e8c0412036c.htm
+
+
+
+theCashAccount ( CashAccount )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e8c3a9a02ed.htm
+
+
+
+Balance ( BalanceDetails1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e8c04120361.htm
+
+
+
+<<Textual>> CashAccountIdentificationGuideline
+../../../../webviewer/36.jpg
+op3e8c04120363.htm
+op3e8c04120363.txt
+
+
+(
+)
+)
+<<MessageComponent>> CashAccountDetails2
+../../../../webviewer/143.jpg
+class3e8d4f6203f1.htm
+
+
+
+(
+Currency[0..1]
+../../../../webviewer/31.jpg
+att3e8d4f6203f2.htm
+
+
+
+(
+)
+Type[0..1]
+../../../../webviewer/31.jpg
+att3e8d4f6203f3.htm
+
+
+
+(
+)
+theCashAccount ( CashAccount )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e8d50c4000f.htm
+
+
+
+MultilateralBalance ( CashBalanceDetails1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e8d4f6203f0.htm
+
+
+
+theAccountReport4 ( AccountReport4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e8d4f63000f.htm
+
+
+
+CurrentMultilateralLimit ( LimitDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role42ad3caf00a3.htm
+
+
+
+)
+<<MessageComponent>> AccountReport4
+../../../../webviewer/143.jpg
+class3e8d4f630012.htm
+class3e8d4f630012.txt
+
+
+(
+AccountIdentification
+../../../../webviewer/31.jpg
+att3e8d4f630014.htm
+
+
+
+(
+)
+theAccounts ( Accounts )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e8d4f63001a.htm
+
+
+
+theCashAccount ( CashAccount )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e8d52d9033b.htm
+
+
+
+BusinessError ( ErrorHandling2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e8d53100157.htm
+
+
+
+Account ( CashAccountDetails2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e8d4f630011.htm
+
+
+
+<<XOR>> AccountOrBusinessErrorRule
+../../../../webviewer/34.jpg
+op3e8d4f630013.htm
+op3e8d4f630013.txt
+
+
+(
+)
+)
+<<MessageComponent>> CashAccount1
+../../../../webviewer/143.jpg
+class3e0b28fe0257.htm
+class3e0b28fe0257.txt
+
+
+(
+Identification
+../../../../webviewer/30.jpg
+att3e0b28fe0258.htm
+att3e0b28fe0258.txt
+
+
+(
+)
+Status
+../../../../webviewer/30.jpg
+att3e0b28fe0259.htm
+att3e0b28fe0259.txt
+
+
+(
+)
+Name
+../../../../webviewer/30.jpg
+att3e0b28fe025a.htm
+att3e0b28fe025a.txt
+
+
+(
+)
+Currency
+../../../../webviewer/31.jpg
+att3e0b28fe025b.htm
+att3e0b28fe025b.txt
+
+
+(
+)
+Type[0..1]
+../../../../webviewer/31.jpg
+att3e0b28fe025c.htm
+att3e0b28fe025c.txt
+
+
+(
+)
+theCashAccount ( CashAccount )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e0c0343035b.htm
+
+
+
+theCashAccount5 ( CashAccount5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4281c00d01b6.htm
+
+
+
+)
+<<MessageComponent>> AccountReport5
+../../../../webviewer/143.jpg
+class3fdf18880130.htm
+class3fdf18880130.txt
+
+
+(
+ReportIdentification
+../../../../webviewer/33.jpg
+att3fdf1bad0322.htm
+att3fdf1bad0322.txt
+
+
+(
+)
+CreationDateTime
+../../../../webviewer/33.jpg
+att3fdf1bad0340.htm
+att3fdf1bad0340.txt
+
+
+(
+)
+AccountOwner ( GenericParty1Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role3fdf37f50249.htm
+
+
+
+Entry ( Entry3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3fdf18880147.htm
+
+
+
+theCashAccount ( CashAccount )
+../../../../webviewer/82.jpg
+../../../../looseends/role3fdf18880159.htm
+
+
+
+AccountServicer ( FinancialInstitutionIdentification1Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role3fdf18880165.htm
+
+
+
+Account ( CashAccount2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3fdf18880179.htm
+
+
+
+Recipient ( GenericParty1Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role3fe1990d0055.htm
+
+
+
+)
+<<MessageComponent>> AccountReport6
+../../../../webviewer/143.jpg
+class3fdf209d02da.htm
+class3fdf209d02da.txt
+
+
+(
+ReportIdentification[0..1]
+../../../../webviewer/33.jpg
+att3fdf20ee0178.htm
+att3fdf20ee0178.txt
+
+
+(
+)
+CreationDateTime
+../../../../webviewer/33.jpg
+att3fdf20ee0196.htm
+att3fdf20ee0196.txt
+
+
+(
+)
+ReportNumberType[0..1]
+../../../../webviewer/33.jpg
+att3fdf20ee01b4.htm
+att3fdf20ee01b4.txt
+
+
+(
+)
+ReportNumber
+../../../../webviewer/33.jpg
+att3fdf20ee01dc.htm
+att3fdf20ee01dc.txt
+
+
+(
+)
+AccountOwner ( GenericParty1Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role3fdf381d035e.htm
+
+
+
+Entry ( Entry4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3fdf209d02fa.htm
+
+
+
+theCashAccount ( CashAccount )
+../../../../webviewer/82.jpg
+../../../../looseends/role3fdf209d0305.htm
+
+
+
+Account ( CashAccount2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3fdf209d0341.htm
+
+
+
+AccountServicer ( FinancialInstitutionIdentification1Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role3fdf209d0355.htm
+
+
+
+AccountInterest ( AccountInterest )
+../../../../webviewer/82.jpg
+../../../../looseends/role3fe065fb0262.htm
+
+
+
+Balance ( Balance1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3fe06744011b.htm
+
+
+
+Recipient ( GenericParty1Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role3fe19914009b.htm
+
+
+
+)
+<<MessageComponent>> CashAccount3
+../../../../webviewer/143.jpg
+class405b12890008.htm
+class405b12890008.txt
+
+
+(
+Currency [0..1]
+../../../../webviewer/31.jpg
+att405b12ab027e.htm
+att405b12ab027e.txt
+
+
+(
+)
+Name [0..1]
+../../../../webviewer/31.jpg
+att405b12ab02c4.htm
+att405b12ab02c4.txt
+
+
+(
+)
+Identification
+../../../../webviewer/31.jpg
+att405b12ab02ec.htm
+att405b12ab02ec.txt
+
+
+(
+)
+Type [0 ..1]
+../../../../webviewer/31.jpg
+att405b12ab0332.htm
+att405b12ab0332.txt
+
+
+(
+)
+thePaymentInformation7 ( PaymentInformation7 )
+../../../../webviewer/82.jpg
+../../../../looseends/role405191170287.htm
+
+
+
+thePaymentInformation6 ( PaymentInformation6 )
+../../../../webviewer/82.jpg
+../../../../looseends/role405b13b40120.htm
+
+
+
+thePaymentInformation10 ( PaymentInformation10 )
+../../../../webviewer/82.jpg
+../../../../looseends/role40642b6502e7.htm
+
+
+
+thePaymentInformation11 ( PaymentInformation11 )
+../../../../webviewer/82.jpg
+../../../../looseends/role407bf8cc033f.htm
+
+
+
+thePaymentInformation9 ( PaymentInformation9 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4083821d0097.htm
+
+
+
+thePaymentInformation12 ( PaymentInformation12 )
+../../../../webviewer/82.jpg
+../../../../looseends/role408d2c14030e.htm
+
+
+
+thePaymentInformation7 ( PaymentInformation7 )
+../../../../webviewer/82.jpg
+../../../../looseends/role409b5095005d.htm
+
+
+
+thePaymentInformation8 ( PaymentInformation8 )
+../../../../webviewer/82.jpg
+../../../../looseends/role409b50b60335.htm
+
+
+
+thePaymentInformation6 ( PaymentInformation6 )
+../../../../webviewer/82.jpg
+../../../../looseends/role409b50d203b8.htm
+
+
+
+thePaymentInformation11 ( PaymentInformation11 )
+../../../../webviewer/82.jpg
+../../../../looseends/role409b50f30212.htm
+
+
+
+theRequestedModification ( RequestedModification )
+../../../../webviewer/82.jpg
+../../../../looseends/role41c6cf1002fb.htm
+
+
+
+theRequestedModification ( RequestedModification )
+../../../../webviewer/82.jpg
+../../../../looseends/role41c6cd5603bd.htm
+
+
+
+theRequestedModification ( RequestedModification )
+../../../../webviewer/82.jpg
+../../../../looseends/role41c6ca54008b.htm
+
+
+
+thePaymentComplementaryInformation ( PaymentComplementaryInformation )
+../../../../webviewer/82.jpg
+../../../../looseends/role41c6c1b2019b.htm
+
+
+
+thePaymentComplementaryInformation ( PaymentComplementaryInformation )
+../../../../webviewer/82.jpg
+../../../../looseends/role41c6c5a50127.htm
+
+
+
+thePaymentComplementaryInformation ( PaymentComplementaryInformation )
+../../../../webviewer/82.jpg
+../../../../looseends/role41c6be8201f2.htm
+
+
+
+theOriginalTransactionInformation1 ( OriginalTransactionInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role408381be02df.htm
+
+
+
+thePaymentInformation8 ( PaymentInformation8 )
+../../../../webviewer/82.jpg
+../../../../looseends/role40698fbb0167.htm
+../../../../looseends/role40698fbb0167.txt
+
+
+theGenericPaymentTransaction3 ( GenericPaymentTransaction3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role408381860071.htm
+
+
+
+theCashAccount ( CashAccount )
+../../../../webviewer/82.jpg
+../../../../looseends/role405b12bf015a.htm
+
+
+
+)
+<<MessageComponent>> AccountDetails3
+../../../../webviewer/143.jpg
+class421db1080078.htm
+
+
+
+(
+CreditAccountOwner[0..1]
+../../../../webviewer/31.jpg
+att424027c7024c.htm
+
+
+
+(
+)
+DebitAccountOwner[0..1]
+../../../../webviewer/31.jpg
+att424027fc0144.htm
+
+
+
+(
+)
+theCashAccount ( CashAccount )
+../../../../webviewer/82.jpg
+../../../../looseends/role421db1080086.htm
+
+
+
+DebitAccount ( AccountIdentificationDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role421db1080090.htm
+
+
+
+CreditAccount ( AccountIdentificationDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role421db10800a3.htm
+
+
+
+theAccountDetails2 ( AccountDetails2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role421db12f006c.htm
+
+
+
+)
+<<MessageComponent>> AccountReport7
+../../../../webviewer/143.jpg
+class4210abe602af.htm
+class4210abe602af.txt
+
+
+(
+AccountIdentification
+../../../../webviewer/31.jpg
+att4210abe602c4.htm
+
+
+
+(
+)
+BusinessError ( ErrorHandling2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4210abe6031f.htm
+
+
+
+theAccounts2 ( Accounts2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4225cbb2002f.htm
+
+
+
+theCashAccount ( CashAccount )
+../../../../webviewer/82.jpg
+../../../../looseends/role42a9565f01d4.htm
+
+
+
+Account ( CashAccountDetails1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4210abe602ef.htm
+
+
+
+theAccountReport1 ( AccountReport1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4210ac0f022c.htm
+
+
+
+<<XOR>> AccountOrBusinessErrorRule
+../../../../webviewer/34.jpg
+op4210abe60364.htm
+op4210abe60364.txt
+
+
+(
+)
+)
+<<MessageComponent>> CashAccountDetails1
+../../../../webviewer/143.jpg
+class420c88c0025f.htm
+
+
+
+(
+Name[0..1]
+../../../../webviewer/31.jpg
+att420c88c00269.htm
+att420c88c00269.txt
+
+
+(
+)
+Type[0..1]
+../../../../webviewer/31.jpg
+att420c88c0027d.htm
+
+
+
+(
+)
+Currency[0..1]
+../../../../webviewer/31.jpg
+att420c88c00273.htm
+
+
+
+(
+)
+AccountOwner[0..1]
+../../../../webviewer/31.jpg
+att420c897500ef.htm
+att420c897500ef.txt
+
+
+(
+)
+AccountServicer[0..1]
+../../../../webviewer/31.jpg
+att42b6bc0d013d.htm
+att42b6bc0d013d.txt
+
+
+(
+)
+theCashAccount ( CashAccount )
+../../../../webviewer/82.jpg
+../../../../looseends/role420c88c00309.htm
+
+
+
+CurrentMultilateralLimit ( LimitDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role420c88c002ee.htm
+
+
+
+theAccountReport7 ( AccountReport7 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4210abe602ed.htm
+
+
+
+StandingOrder ( StandingOrderDetails3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role420c88c002a7.htm
+
+
+
+MultilateralBalance ( CashBalanceDetails2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role42401bb00026.htm
+
+
+
+CurrentBilateralLimit ( BilateralLimitDetails1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role42ad8a71004a.htm
+
+
+
+theCashAccountDetails ( CashAccountDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role420c88e8032f.htm
+
+
+
+<<Textual>> BilateralBalanceRule
+../../../../webviewer/36.jpg
+op420c88c00313.htm
+op420c88c00313.txt
+
+
+(
+)
+)
+<<MessageComponent>> CashAccountSearchCriteria2
+../../../../webviewer/143.jpg
+class420c81f502d9.htm
+class420c81f502d9.txt
+
+
+(
+Type[0..n]
+../../../../webviewer/31.jpg
+att420c81f502db.htm
+
+
+
+(
+)
+Currency[0..n]
+../../../../webviewer/31.jpg
+att420c81f502ed.htm
+
+
+
+(
+)
+AccountOwner[0..1]
+../../../../webviewer/31.jpg
+att420c8261029a.htm
+att420c8261029a.txt
+
+
+(
+)
+AccountServicer[0..1]
+../../../../webviewer/31.jpg
+att42b6baec0246.htm
+att42b6baec0246.txt
+
+
+(
+)
+AccountIdentification ( AccountIdentificationSearchCriteriaChoice )
+../../../../webviewer/82.jpg
+../../../../looseends/role420c81f6000b.htm
+
+
+
+theAccountCriteria2 ( AccountCriteria2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4210a71f0316.htm
+
+
+
+theCashAccount ( CashAccount )
+../../../../webviewer/82.jpg
+../../../../looseends/role420c81f600aa.htm
+
+
+
+Balance ( BalanceDetails2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role420c81f6007b.htm
+
+
+
+theCashAccountSearchCriteria ( CashAccountSearchCriteria )
+../../../../webviewer/82.jpg
+../../../../looseends/role420c828702b3.htm
+
+
+
+<<Textual>> CashAccountIdentificationGuideline
+../../../../webviewer/36.jpg
+op420c81f60154.htm
+op420c81f60154.txt
+
+
+(
+)
+)
+<<MessageComponent>> CashAccountType1
+../../../../webviewer/143.jpg
+class421467470325.htm
+class421467470325.txt
+
+
+(
+Structured
+../../../../webviewer/30.jpg
+att42146771009c.htm
+att42146771009c.txt
+
+
+(
+)
+AdditionalInformation [0..1]
+../../../../webviewer/30.jpg
+att4214677d0099.htm
+att4214677d0099.txt
+
+
+(
+)
+theCashAccountType ( CashAccountType )
+../../../../webviewer/82.jpg
+../../../../looseends/role4236a77a00ba.htm
+
+
+
+<<Textual>> OtherCodeRule
+../../../../webviewer/36.jpg
+op421467810398.htm
+op421467810398.txt
+
+
+(
+)
+)
+<<MessageComponent>> CashAccount4
+../../../../webviewer/143.jpg
+class429c7ede00a7.htm
+
+
+
+(
+Identification
+../../../../webviewer/31.jpg
+att429c8060011e.htm
+
+
+
+(
+)
+AccountServicerBranch[0..1]
+../../../../webviewer/31.jpg
+att42cd5f6603aa.htm
+att42cd5f6603aa.txt
+
+
+(
+)
+InvestmentAccountType[0..1]
+../../../../webviewer/31.jpg
+att42d659340204.htm
+
+
+
+(
+)
+ExtendedInvestmentAccountType[0..1]
+../../../../webviewer/31.jpg
+att42d65bba024d.htm
+
+
+
+(
+)
+thePaymentInstrument6 ( PaymentInstrument6 )
+../../../../webviewer/82.jpg
+../../../../looseends/role428083780324.htm
+
+
+
+thePaymentInstrument7 ( PaymentInstrument7 )
+../../../../webviewer/82.jpg
+../../../../looseends/role42809cd702b0.htm
+
+
+
+theCashAccount ( CashAccount )
+../../../../webviewer/82.jpg
+../../../../looseends/role429c7f0a03cc.htm
+
+
+
+AccountServicer ( PartyIdentification2Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role429c83400264.htm
+
+
+
+AccountOwner ( PartyIdentification2Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role429c83430395.htm
+
+
+
+<<XOR>> InvestmentAccountTypeOrExtendedInvestmentAccountTypeRule
+../../../../webviewer/34.jpg
+op42d65ca001ab.htm
+op42d65ca001ab.txt
+
+
+(
+)
+)
+<<MessageComponent>> CashAccount5
+../../../../webviewer/143.jpg
+class4281bfd70172.htm
+
+
+
+(
+Identification
+../../../../webviewer/31.jpg
+att4281bfd701ae.htm
+
+
+
+(
+)
+Status
+../../../../webviewer/31.jpg
+att4281bfd701ea.htm
+
+
+
+(
+)
+Name
+../../../../webviewer/31.jpg
+att4281bfd70230.htm
+
+
+
+(
+)
+Currency
+../../../../webviewer/31.jpg
+att4281bfd70262.htm
+
+
+
+(
+)
+Type[0..1]
+../../../../webviewer/31.jpg
+att4281bfd70294.htm
+
+
+
+(
+)
+theInvestmentAccount17 ( InvestmentAccount17 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4281c61601ef.htm
+
+
+
+theCashAccount ( CashAccount )
+../../../../webviewer/82.jpg
+../../../../looseends/role4281bfd70367.htm
+
+
+
+theCashAccount1 ( CashAccount1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4281c00d01ca.htm
+
+
+
+)
+<<MessageComponent>> CashAccount6
+../../../../webviewer/143.jpg
+class42d375bc006e.htm
+
+
+
+(
+Identification
+../../../../webviewer/31.jpg
+att42d37612039e.htm
+
+
+
+(
+)
+GBBankSortCode
+../../../../webviewer/31.jpg
+att42d376140210.htm
+
+
+
+(
+)
+theTransferOut4 ( TransferOut4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role42d3c02202f3.htm
+
+
+
+theCashAccount ( CashAccount )
+../../../../webviewer/82.jpg
+../../../../looseends/role42e60aef01b3.htm
+
+
+
+Servicer ( PartyIdentification2Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role42d3762f03dc.htm
+
+
+
+)
+Associations
+../../../../webviewer/assoccat.gif
+
+
+
+
+(
+<<SWSTrace>> (theCashAccount:CashAccount) (theCashAccount2:CashAccount2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3e76f83a026c.htm
+../../../../looseends/ass3e76f83a026c.txt
+
+
+(
+CashAccount ( theCashAccount )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e76f83b00f5.htm
+
+
+
+CashAccount2 ( theCashAccount2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e76f83b0143.htm
+
+
+
+)
+<<SWSTrace>> (theCashAccount:CashAccount) (theCashAccountSearchCriteria:CashAccountSearchCriteria)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3e7865310375.htm
+
+
+
+(
+CashAccount ( theCashAccount )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e786532025c.htm
+
+
+
+CashAccountSearchCriteria ( theCashAccountSearchCriteria )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e786532029a.htm
+
+
+
+)
+Association (AccountIdentification:AccountIdentificationSearchCriteriaChoice) (theCashAccountSearchCriteria:CashAccountSearchCriteria)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3e78653e00c6.htm
+
+
+
+(
+AccountIdentificationSearchCriteriaChoice ( AccountIdentification )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e78653e02ba.htm
+
+
+
+CashAccountSearchCriteria ( theCashAccountSearchCriteria )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e78653e02e9.htm
+
+
+
+)
+Association (Balance:BalanceDetails) (theCashAccountSearchCriteria:CashAccountSearchCriteria)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3e7865410087.htm
+
+
+
+(
+BalanceDetails ( Balance )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e7865420058.htm
+
+
+
+CashAccountSearchCriteria ( theCashAccountSearchCriteria )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e7865420087.htm
+
+
+
+)
+<<SWSTrace>> (theCashAccount:CashAccount) (theAccountIdentificationDetails:AccountIdentificationDetails)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3e79c3d7000a.htm
+
+
+
+(
+CashAccount ( theCashAccount )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e79c3d70385.htm
+
+
+
+AccountIdentificationDetails ( theAccountIdentificationDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e79c3d703b4.htm
+
+
+
+)
+<<SWSTrace>> (theCashAccount:CashAccount) (theAccountDetails2:AccountDetails2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3e79c485023d.htm
+
+
+
+(
+CashAccount ( theCashAccount )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e79c48601ef.htm
+
+
+
+AccountDetails2 ( theAccountDetails2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e79c486021d.htm
+
+
+
+)
+<<SWSTrace>> (theCashAccount:CashAccount) (theAccountDetails1:AccountDetails1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3e79c48a0039.htm
+
+
+
+(
+CashAccount ( theCashAccount )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e79c48a0346.htm
+
+
+
+AccountDetails1 ( theAccountDetails1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e79c48a0375.htm
+
+
+
+)
+Association (DebitAccount:AccountIdentificationDetails) (theAccountDetails2:AccountDetails2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3e79c4ba0375.htm
+
+
+
+(
+AccountIdentificationDetails ( DebitAccount )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e79c4bb021d.htm
+
+
+
+AccountDetails2 ( theAccountDetails2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e79c4bb023d.htm
+
+
+
+)
+Association (CreditAccount:AccountIdentificationDetails) (theAccountDetails2:AccountDetails2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3e79c4bf0114.htm
+
+
+
+(
+AccountIdentificationDetails ( CreditAccount )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e79c4c002f8.htm
+
+
+
+AccountDetails2 ( theAccountDetails2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e79c4c00317.htm
+
+
+
+)
+<<SWSTrace>> (theCashAccount:CashAccount) (theCashAccountDetails:CashAccountDetails)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3e7aed7d02e9.htm
+
+
+
+(
+CashAccount ( theCashAccount )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e7aed80020e.htm
+
+
+
+CashAccountDetails ( theCashAccountDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e7aed80023d.htm
+
+
+
+)
+Association (MultilateralBalance:CashBalanceDetails) (theCashAccountDetails:CashAccountDetails)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3e7aee8a0346.htm
+../../../../looseends/ass3e7aee8a0346.txt
+
+
+(
+CashBalanceDetails ( MultilateralBalance )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e7aee8b02e9.htm
+
+
+
+CashAccountDetails ( theCashAccountDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e7aee8b0308.htm
+
+
+
+)
+Association (StandingOrder:StandingOrderDetails2) (theCashAccountDetails:CashAccountDetails)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3e7aee8e0172.htm
+
+
+
+(
+StandingOrderDetails2 ( StandingOrder )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e7aee8f020e.htm
+
+
+
+CashAccountDetails ( theCashAccountDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e7aee8f022d.htm
+
+
+
+)
+Association (CurrentBilateralLimit:BilateralLimitDetails) (theCashAccountDetails:CashAccountDetails)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3e7aee93000a.htm
+../../../../looseends/ass3e7aee93000a.txt
+
+
+(
+BilateralLimitDetails ( CurrentBilateralLimit )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e7aee930385.htm
+
+
+
+CashAccountDetails ( theCashAccountDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e7aee930394.htm
+
+
+
+)
+Association (CurrentMultilateralLimit:LimitDetails) (theCashAccountDetails:CashAccountDetails)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3e7aee9701b0.htm
+../../../../looseends/ass3e7aee9701b0.txt
+
+
+(
+LimitDetails ( CurrentMultilateralLimit )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e7aee9a00b6.htm
+
+
+
+CashAccountDetails ( theCashAccountDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e7aee9a00c6.htm
+
+
+
+)
+<<SWSTrace>> (theCashAccount:CashAccount) (theAccountReport1:AccountReport1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3e7b1846027b.htm
+
+
+
+(
+CashAccount ( theCashAccount )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e7b184701b0.htm
+
+
+
+AccountReport1 ( theAccountReport1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e7b184701df.htm
+
+
+
+)
+Association (BusinessError:ErrorHandling2) (theAccountReport1:AccountReport1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3e7b1912023d.htm
+../../../../looseends/ass3e7b1912023d.txt
+
+
+(
+ErrorHandling2 ( BusinessError )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e7b191303c3.htm
+
+
+
+AccountReport1 ( theAccountReport1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e7b191303d3.htm
+
+
+
+)
+Association (Account:CashAccountDetails) (theAccountReport1:AccountReport1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3e7b191b0078.htm
+../../../../looseends/ass3e7b191b0078.txt
+
+
+(
+CashAccountDetails ( Account )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e7b191c01fe.htm
+
+
+
+AccountReport1 ( theAccountReport1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e7b191c021d.htm
+
+
+
+)
+<<SWSTrace>> (theCashAccount:CashAccount) (theAccountIdentificationAndName:AccountIdentificationAndName)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3e7eda9e02ef.htm
+
+
+
+(
+CashAccount ( theCashAccount )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e7eda9f0187.htm
+
+
+
+AccountIdentificationAndName ( theAccountIdentificationAndName )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e7eda9f01c6.htm
+
+
+
+)
+<<SWSTrace>> (theCashAccount:CashAccount) (theCashAccountSearchCriteria1:CashAccountSearchCriteria1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3e8c3a98029f.htm
+
+
+
+(
+CashAccount ( theCashAccount )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e8c3a9a003d.htm
+
+
+
+CashAccountSearchCriteria1 ( theCashAccountSearchCriteria1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e8c3a9a02ed.htm
+
+
+
+)
+Association (Balance:BalanceDetails1) (theCashAccountSearchCriteria1:CashAccountSearchCriteria1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3e8c0412035e.htm
+
+
+
+(
+BalanceDetails1 ( Balance )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e8c0412035f.htm
+
+
+
+CashAccountSearchCriteria1 ( theCashAccountSearchCriteria1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e8c04120361.htm
+
+
+
+)
+<<SWSTrace>> (theCashAccount:CashAccount) (theCashAccountDetails2:CashAccountDetails2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3e8d50c201a5.htm
+
+
+
+(
+CashAccount ( theCashAccount )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e8d50c303b8.htm
+
+
+
+CashAccountDetails2 ( theCashAccountDetails2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e8d50c4000f.htm
+
+
+
+)
+Association (MultilateralBalance:CashBalanceDetails1) (theCashAccountDetails2:CashAccountDetails2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3e8d4f6203ed.htm
+../../../../looseends/ass3e8d4f6203ed.txt
+
+
+(
+CashBalanceDetails1 ( MultilateralBalance )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e8d4f6203ee.htm
+
+
+
+CashAccountDetails2 ( theCashAccountDetails2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e8d4f6203f0.htm
+
+
+
+)
+<<SWSTrace>> (theCashAccount:CashAccount) (theAccountReport4:AccountReport4)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3e8d52d802fd.htm
+
+
+
+(
+CashAccount ( theCashAccount )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e8d52d902fd.htm
+
+
+
+AccountReport4 ( theAccountReport4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e8d52d9033b.htm
+
+
+
+)
+Association (BusinessError:ErrorHandling2) (theAccountReport4:AccountReport4)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3e8d530f004d.htm
+../../../../looseends/ass3e8d530f004d.txt
+
+
+(
+ErrorHandling2 ( BusinessError )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e8d53100128.htm
+
+
+
+AccountReport4 ( theAccountReport4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e8d53100157.htm
+
+
+
+)
+Association (Account:CashAccountDetails2) (theAccountReport4:AccountReport4)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3e8d4f6203f8.htm
+../../../../looseends/ass3e8d4f6203f8.txt
+
+
+(
+CashAccountDetails2 ( Account )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e8d4f63000f.htm
+
+
+
+AccountReport4 ( theAccountReport4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e8d4f630011.htm
+
+
+
+)
+<<SWSTrace>> (theCashAccount:CashAccount) (theCashAccount1:CashAccount1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3e0c034203a9.htm
+../../../../looseends/ass3e0c034203a9.txt
+
+
+(
+CashAccount ( theCashAccount )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e0c0343033c.htm
+
+
+
+CashAccount1 ( theCashAccount1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e0c0343035b.htm
+
+
+
+)
+Association (Entry:Entry3) (theAccountReport5:AccountReport5)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3fdf18880144.htm
+
+
+
+(
+Entry3 ( Entry )
+../../../../webviewer/82.jpg
+../../../../looseends/role3fdf18880145.htm
+
+
+
+AccountReport5 ( theAccountReport5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3fdf18880147.htm
+
+
+
+)
+<<SWSTrace>> (theCashAccount:CashAccount) (theAccountReport5:AccountReport5)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3fdf1888014e.htm
+
+
+
+(
+CashAccount ( theCashAccount )
+../../../../webviewer/82.jpg
+../../../../looseends/role3fdf1888014f.htm
+
+
+
+AccountReport5 ( theAccountReport5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3fdf18880159.htm
+
+
+
+)
+Association (AccountServicer:FinancialInstitutionIdentification1Choice) (theAccountReport5:AccountReport5)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3fdf18880162.htm
+
+
+
+(
+FinancialInstitutionIdentification1Choice ( AccountServicer )
+../../../../webviewer/82.jpg
+../../../../looseends/role3fdf18880163.htm
+
+
+
+AccountReport5 ( theAccountReport5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3fdf18880165.htm
+
+
+
+)
+Association (Account:CashAccount2) (theAccountReport5:AccountReport5)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3fdf18880176.htm
+
+
+
+(
+CashAccount2 ( Account )
+../../../../webviewer/82.jpg
+../../../../looseends/role3fdf18880177.htm
+
+
+
+AccountReport5 ( theAccountReport5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3fdf18880179.htm
+
+
+
+)
+Association (Entry:Entry4) (theAccountReport6:AccountReport6)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3fdf209d02f0.htm
+
+
+
+(
+Entry4 ( Entry )
+../../../../webviewer/82.jpg
+../../../../looseends/role3fdf209d02f8.htm
+
+
+
+AccountReport6 ( theAccountReport6 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3fdf209d02fa.htm
+
+
+
+)
+<<SWSTrace>> (theCashAccount:CashAccount) (theAccountReport6:AccountReport6)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3fdf209d0302.htm
+
+
+
+(
+CashAccount ( theCashAccount )
+../../../../webviewer/82.jpg
+../../../../looseends/role3fdf209d0303.htm
+
+
+
+AccountReport6 ( theAccountReport6 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3fdf209d0305.htm
+
+
+
+)
+Association (Account:CashAccount2) (theAccountReport6:AccountReport6)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3fdf209d033e.htm
+
+
+
+(
+CashAccount2 ( Account )
+../../../../webviewer/82.jpg
+../../../../looseends/role3fdf209d033f.htm
+
+
+
+AccountReport6 ( theAccountReport6 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3fdf209d0341.htm
+
+
+
+)
+Association (AccountServicer:FinancialInstitutionIdentification1Choice) (theAccountReport6:AccountReport6)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3fdf209d0352.htm
+
+
+
+(
+FinancialInstitutionIdentification1Choice ( AccountServicer )
+../../../../webviewer/82.jpg
+../../../../looseends/role3fdf209d0353.htm
+
+
+
+AccountReport6 ( theAccountReport6 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3fdf209d0355.htm
+
+
+
+)
+Association (AccountInterest:AccountInterest) (theAccountReport6:AccountReport6)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3fe065fa0379.htm
+
+
+
+(
+AccountInterest ( AccountInterest )
+../../../../webviewer/82.jpg
+../../../../looseends/role3fe065fb0244.htm
+
+
+
+AccountReport6 ( theAccountReport6 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3fe065fb0262.htm
+
+
+
+)
+Association (Balance:Balance1) (theAccountReport6:AccountReport6)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3fe0674301b0.htm
+
+
+
+(
+Balance1 ( Balance )
+../../../../webviewer/82.jpg
+../../../../looseends/role3fe067440111.htm
+
+
+
+AccountReport6 ( theAccountReport6 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3fe06744011b.htm
+
+
+
+)
+Association (Recipient:GenericParty1Choice) (theAccountReport5:AccountReport5)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3fe199080379.htm
+
+
+
+(
+GenericParty1Choice ( Recipient )
+../../../../webviewer/82.jpg
+../../../../looseends/role3fe1990d0041.htm
+
+
+
+AccountReport5 ( theAccountReport5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3fe1990d0055.htm
+
+
+
+)
+Association (Recipient:GenericParty1Choice) (theAccountReport6:AccountReport6)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3fe199110368.htm
+
+
+
+(
+GenericParty1Choice ( Recipient )
+../../../../webviewer/82.jpg
+../../../../looseends/role3fe19914004b.htm
+
+
+
+AccountReport6 ( theAccountReport6 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3fe19914009b.htm
+
+
+
+)
+<<SWSTrace>> (theCashAccount:CashAccount) (theCashAccount3:CashAccount3)
+../../../../webviewer/81.jpg
+../../../../looseends/ass405b12be0177.htm
+
+
+
+(
+CashAccount ( theCashAccount )
+../../../../webviewer/82.jpg
+../../../../looseends/role405b12be0393.htm
+
+
+
+CashAccount3 ( theCashAccount3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role405b12bf015a.htm
+
+
+
+)
+<<SWSTrace>> (theCashAccount:CashAccount) (theAccountDetails3:AccountDetails3)
+../../../../webviewer/81.jpg
+../../../../looseends/ass421db1080083.htm
+
+
+
+(
+CashAccount ( theCashAccount )
+../../../../webviewer/82.jpg
+../../../../looseends/role421db1080084.htm
+
+
+
+AccountDetails3 ( theAccountDetails3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role421db1080086.htm
+
+
+
+)
+Association (DebitAccount:AccountIdentificationDetails) (theAccountDetails3:AccountDetails3)
+../../../../webviewer/81.jpg
+../../../../looseends/ass421db108008d.htm
+
+
+
+(
+AccountIdentificationDetails ( DebitAccount )
+../../../../webviewer/82.jpg
+../../../../looseends/role421db108008e.htm
+
+
+
+AccountDetails3 ( theAccountDetails3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role421db1080090.htm
+
+
+
+)
+Association (CreditAccount:AccountIdentificationDetails) (theAccountDetails3:AccountDetails3)
+../../../../webviewer/81.jpg
+../../../../looseends/ass421db10800a0.htm
+
+
+
+(
+AccountIdentificationDetails ( CreditAccount )
+../../../../webviewer/82.jpg
+../../../../looseends/role421db10800a1.htm
+
+
+
+AccountDetails3 ( theAccountDetails3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role421db10800a3.htm
+
+
+
+)
+<<SWSTrace>> (theCashAccount:CashAccount) (theAccountReport7:AccountReport7)
+../../../../webviewer/81.jpg
+../../../../looseends/ass42a9565e02cd.htm
+
+
+
+(
+CashAccount ( theCashAccount )
+../../../../webviewer/82.jpg
+../../../../looseends/role42a9565f00b2.htm
+
+
+
+AccountReport7 ( theAccountReport7 )
+../../../../webviewer/82.jpg
+../../../../looseends/role42a9565f01d4.htm
+
+
+
+)
+<<SWSTrace>> (theCashAccount:CashAccount) (theCashAccountDetails1:CashAccountDetails1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass420c88c002ff.htm
+
+
+
+(
+CashAccount ( theCashAccount )
+../../../../webviewer/82.jpg
+../../../../looseends/role420c88c00300.htm
+
+
+
+CashAccountDetails1 ( theCashAccountDetails1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role420c88c00309.htm
+
+
+
+)
+Association (CurrentMultilateralLimit:LimitDetails) (theCashAccountDetails1:CashAccountDetails1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass420c88c002eb.htm
+../../../../looseends/ass420c88c002eb.txt
+
+
+(
+LimitDetails ( CurrentMultilateralLimit )
+../../../../webviewer/82.jpg
+../../../../looseends/role420c88c002ec.htm
+
+
+
+CashAccountDetails1 ( theCashAccountDetails1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role420c88c002ee.htm
+
+
+
+)
+<<SWSTrace>> (theCashAccount:CashAccount) (theCashAccountSearchCriteria2:CashAccountSearchCriteria2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass420c81f6008c.htm
+
+
+
+(
+CashAccount ( theCashAccount )
+../../../../webviewer/82.jpg
+../../../../looseends/role420c81f6008d.htm
+
+
+
+CashAccountSearchCriteria2 ( theCashAccountSearchCriteria2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role420c81f600aa.htm
+
+
+
+)
+Association (Account:CashAccountDetails1) (theAccountReport7:AccountReport7)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4210abe602ec.htm
+../../../../looseends/ass4210abe602ec.txt
+
+
+(
+CashAccountDetails1 ( Account )
+../../../../webviewer/82.jpg
+../../../../looseends/role4210abe602ed.htm
+
+
+
+AccountReport7 ( theAccountReport7 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4210abe602ef.htm
+
+
+
+)
+Association (StandingOrder:StandingOrderDetails3) (theCashAccountDetails1:CashAccountDetails1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass420c88c0029b.htm
+
+
+
+(
+StandingOrderDetails3 ( StandingOrder )
+../../../../webviewer/82.jpg
+../../../../looseends/role420c88c002a5.htm
+
+
+
+CashAccountDetails1 ( theCashAccountDetails1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role420c88c002a7.htm
+
+
+
+)
+Association (MultilateralBalance:CashBalanceDetails2) (theCashAccountDetails1:CashAccountDetails1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass42401bb00024.htm
+../../../../looseends/ass42401bb00024.txt
+
+
+(
+CashBalanceDetails2 ( MultilateralBalance )
+../../../../webviewer/82.jpg
+../../../../looseends/role42401bb00025.htm
+
+
+
+CashAccountDetails1 ( theCashAccountDetails1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role42401bb00026.htm
+
+
+
+)
+Association (Balance:BalanceDetails2) (theCashAccountSearchCriteria2:CashAccountSearchCriteria2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass420c81f60078.htm
+
+
+
+(
+BalanceDetails2 ( Balance )
+../../../../webviewer/82.jpg
+../../../../looseends/role420c81f60079.htm
+
+
+
+CashAccountSearchCriteria2 ( theCashAccountSearchCriteria2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role420c81f6007b.htm
+
+
+
+)
+Association (CurrentMultilateralLimit:LimitDetails) (theCashAccountDetails2:CashAccountDetails2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass42ad3caf0053.htm
+../../../../looseends/ass42ad3caf0053.txt
+
+
+(
+LimitDetails ( CurrentMultilateralLimit )
+../../../../webviewer/82.jpg
+../../../../looseends/role42ad3caf005d.htm
+
+
+
+CashAccountDetails2 ( theCashAccountDetails2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role42ad3caf00a3.htm
+
+
+
+)
+Association (CurrentBilateralLimit:BilateralLimitDetails1) (theCashAccountDetails1:CashAccountDetails1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass42ad8a710004.htm
+../../../../looseends/ass42ad8a710004.txt
+
+
+(
+BilateralLimitDetails1 ( CurrentBilateralLimit )
+../../../../webviewer/82.jpg
+../../../../looseends/role42ad8a710022.htm
+
+
+
+CashAccountDetails1 ( theCashAccountDetails1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role42ad8a71004a.htm
+
+
+
+)
+<<SWSTrace>> (theCashAccount:CashAccount) (theCashAccount4:CashAccount4)
+../../../../webviewer/81.jpg
+../../../../looseends/ass429c7f09023a.htm
+
+
+
+(
+CashAccount ( theCashAccount )
+../../../../webviewer/82.jpg
+../../../../looseends/role429c7f0a02a0.htm
+
+
+
+CashAccount4 ( theCashAccount4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role429c7f0a03cc.htm
+
+
+
+)
+<<SWSTrace>> (theCashAccount:CashAccount) (theCashAccount5:CashAccount5)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4281bfd702d1.htm
+../../../../looseends/ass4281bfd702d1.txt
+
+
+(
+CashAccount ( theCashAccount )
+../../../../webviewer/82.jpg
+../../../../looseends/role4281bfd702db.htm
+
+
+
+CashAccount5 ( theCashAccount5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4281bfd70367.htm
+
+
+
+)
+Association (AccountServicer:PartyIdentification2Choice) (theCashAccount4:CashAccount4)
+../../../../webviewer/81.jpg
+../../../../looseends/ass429c833f01af.htm
+
+
+
+(
+PartyIdentification2Choice ( AccountServicer )
+../../../../webviewer/82.jpg
+../../../../looseends/role429c834001ce.htm
+
+
+
+CashAccount4 ( theCashAccount4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role429c83400264.htm
+
+
+
+)
+Association (AccountOwner:PartyIdentification2Choice) (theCashAccount4:CashAccount4)
+../../../../webviewer/81.jpg
+../../../../looseends/ass429c834202df.htm
+
+
+
+(
+PartyIdentification2Choice ( AccountOwner )
+../../../../webviewer/82.jpg
+../../../../looseends/role429c83430345.htm
+
+
+
+CashAccount4 ( theCashAccount4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role429c83430395.htm
+
+
+
+)
+<<SWSTrace>> (theCashAccount:CashAccount) (theCashAccount6:CashAccount6)
+../../../../webviewer/81.jpg
+../../../../looseends/ass42e60aef000e.htm
+
+
+
+(
+CashAccount ( theCashAccount )
+../../../../webviewer/82.jpg
+../../../../looseends/role42e60aef018b.htm
+
+
+
+CashAccount6 ( theCashAccount6 )
+../../../../webviewer/82.jpg
+../../../../looseends/role42e60aef01b3.htm
+
+
+
+)
+Association (Servicer:PartyIdentification2Choice) (theCashAccount6:CashAccount6)
+../../../../webviewer/81.jpg
+../../../../looseends/ass42d3762f0088.htm
+
+
+
+(
+PartyIdentification2Choice ( Servicer )
+../../../../webviewer/82.jpg
+../../../../looseends/role42d3762f03c8.htm
+
+
+
+CashAccount6 ( theCashAccount6 )
+../../../../webviewer/82.jpg
+../../../../looseends/role42d3762f03dc.htm
+
+
+
+)
+)

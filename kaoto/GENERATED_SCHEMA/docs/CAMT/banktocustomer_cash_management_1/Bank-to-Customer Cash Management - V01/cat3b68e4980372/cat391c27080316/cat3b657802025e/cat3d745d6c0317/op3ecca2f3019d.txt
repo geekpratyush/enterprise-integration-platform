@@ -1,0 +1,5 @@
+If PaymentMethodByFirstAgent is TRF, then CreditTransferTypeIdentification is optional.
+If PaymentMethodByFirstAgent is different from TRF, then CreditTransferTypeIdentification is not allowed.
+
+Rule rationale: CreditTransferTypeIdentification details may be present if the payment method is Credit Transfer. It must not be present if the payment method is Cheque.
+

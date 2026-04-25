@@ -1,0 +1,1 @@
+Date/time on which the order was received by the trading party.

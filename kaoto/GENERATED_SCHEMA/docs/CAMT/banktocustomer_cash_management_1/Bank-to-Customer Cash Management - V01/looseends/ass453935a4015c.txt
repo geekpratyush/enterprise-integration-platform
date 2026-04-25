@@ -1,0 +1,1 @@
+Indicates the total number and sum of credit entries.

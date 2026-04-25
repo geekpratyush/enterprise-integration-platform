@@ -1,0 +1,32 @@
+The following information must be in the payment order : 
+
+For a corporate prospective : 
+
+-debtor/creditor's account/bank, debtor/creditor's name (individual payment) - debtor id : customer ID (may be several ID) 
+- contact details 
+-(total) payment amount,requested execution date and/or required due date (for beneficiary's.bank)
+-remittance information and/or agreement parties references related to the agreement and/or creditor's references related to the payment, and/or debtor' s references related to the payment (individual payment) : unique ID for payment order, (batch reference for va bulk payment), 
+-direction indicator (debit or credit)
+-charges bearer (creditor, debtor or shared) 
+-exchange currency (individual payment)
+-FX contract reference and/or pre-agreed rate 
+- payment method (how should the beneficiary be paid) (eg electronic transfer, cheque, specific service of a specific 
+- payment instrument (sub)category of method)
+--> payment system is sub-category of payment instrument (only certain combinations will make sense)
+- cheque back to originator indicator  (info for first agent - issuing cheque)
+-priority flag : values normal/urgent (boolean value : urgent or not)
+- requested execution date/time
+- payment reason/purpose :(for central bank reporting/for statement purposes - for information for beneficiary.customer) 
+- country of residence of ordinating.customer/beneficiary  customer 
+- Information on agents
+- Indicator : single or batch debit entry
+
+For a consumer prospective, the following information is not needed :
+
+-Customer ID (to be clarified => shopping list)
+-Contacts details
+-Required due date for beneficiary 's bank
+-Batch ID
+- Indicator : single or batch debit entry
+
+

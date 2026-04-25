@@ -1,0 +1,2 @@
+Upper liquidity indicator, represented as a percentage of the average trade daily volume.
+

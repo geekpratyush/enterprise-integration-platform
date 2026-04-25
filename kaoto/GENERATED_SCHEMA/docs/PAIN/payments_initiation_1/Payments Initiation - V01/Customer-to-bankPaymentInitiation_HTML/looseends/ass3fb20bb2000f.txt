@@ -1,0 +1,2 @@
+Payment transaction related to the execution of an investment fund transaction.
+

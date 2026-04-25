@@ -1,0 +1,1 @@
+A trade from a broker to another broker.

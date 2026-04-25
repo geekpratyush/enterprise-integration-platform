@@ -1,0 +1,1 @@
+The settlement standing instruction database to be used is the database of the vendor.

@@ -1,0 +1,1 @@
+1 unit Base Currency = ExchangeRate * QuotedCurrency

@@ -1,0 +1,1 @@
+Specifies the reason for a suspended status.

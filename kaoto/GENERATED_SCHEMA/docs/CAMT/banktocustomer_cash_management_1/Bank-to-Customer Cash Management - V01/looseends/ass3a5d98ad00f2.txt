@@ -1,0 +1,1 @@
+Record in a securities account resulting from the transfer of a security.

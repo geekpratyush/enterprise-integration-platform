@@ -1,0 +1,1 @@
+Part, but not all, of a Trade's value has settled, and no further elements of the Trade's value are expected to be settled.

@@ -1,0 +1,1 @@
+Amount above which funds will be destined for investment.

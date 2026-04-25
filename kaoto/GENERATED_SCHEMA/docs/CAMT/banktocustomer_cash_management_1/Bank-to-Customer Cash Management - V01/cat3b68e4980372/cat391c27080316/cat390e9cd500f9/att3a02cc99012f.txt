@@ -1,0 +1,1 @@
+Specifies the date and time at which the balance is calculated.

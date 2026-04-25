@@ -1,0 +1,1 @@
+Specifies underlying information about the settlement transaction.

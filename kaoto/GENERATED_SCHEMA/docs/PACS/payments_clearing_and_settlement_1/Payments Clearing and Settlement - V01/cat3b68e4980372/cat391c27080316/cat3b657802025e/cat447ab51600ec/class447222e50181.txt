@@ -1,0 +1,1 @@
+Further information on the cancellation reason of the transaction.

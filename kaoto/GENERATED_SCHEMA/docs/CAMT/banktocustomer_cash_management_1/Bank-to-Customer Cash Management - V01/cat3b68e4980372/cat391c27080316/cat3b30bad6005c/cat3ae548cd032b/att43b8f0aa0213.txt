@@ -1,0 +1,3 @@
+Instruction is accepted but a change will be made, i.e., date, remittance not sent.
+
+

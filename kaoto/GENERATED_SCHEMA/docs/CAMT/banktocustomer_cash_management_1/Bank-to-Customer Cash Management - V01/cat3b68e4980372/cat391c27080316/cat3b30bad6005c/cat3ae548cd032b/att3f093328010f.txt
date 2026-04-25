@@ -1,0 +1,1 @@
+Cheque that may only be cashed at the bank of origin.

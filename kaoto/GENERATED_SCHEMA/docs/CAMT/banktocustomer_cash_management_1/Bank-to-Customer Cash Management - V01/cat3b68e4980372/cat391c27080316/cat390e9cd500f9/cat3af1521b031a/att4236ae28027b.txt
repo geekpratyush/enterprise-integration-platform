@@ -1,0 +1,1 @@
+Amount expressed as a price.

@@ -1,0 +1,1 @@
+Party (buyer or seller) that positively affirms the details of a previously agreed security trade confirmation.

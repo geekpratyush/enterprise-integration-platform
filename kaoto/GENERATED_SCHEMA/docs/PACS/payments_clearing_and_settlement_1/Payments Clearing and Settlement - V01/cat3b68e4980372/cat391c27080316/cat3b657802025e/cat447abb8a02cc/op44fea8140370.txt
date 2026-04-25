@@ -1,0 +1,1 @@
+If DebtorAgent is not present, then DebtorAgentAccount is not allowed.

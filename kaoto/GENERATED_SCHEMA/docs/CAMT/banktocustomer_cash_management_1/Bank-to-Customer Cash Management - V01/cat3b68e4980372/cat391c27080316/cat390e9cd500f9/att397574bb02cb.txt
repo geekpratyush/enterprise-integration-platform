@@ -1,0 +1,1 @@
+Fixed amount which has to be paid (instead of interest) in the case of a recall.

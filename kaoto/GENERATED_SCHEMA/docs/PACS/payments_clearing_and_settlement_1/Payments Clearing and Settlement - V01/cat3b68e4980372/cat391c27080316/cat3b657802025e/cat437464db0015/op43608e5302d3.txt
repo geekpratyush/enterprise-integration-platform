@@ -1,0 +1,1 @@
+Either PerSecurity or PerVote or PerAttendee must be present.

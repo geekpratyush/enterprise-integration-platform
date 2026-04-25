@@ -1,0 +1,2 @@
+Specifies declaration details narrative (e.g. beneficial ownership) relative 
+to the financial instrument. 

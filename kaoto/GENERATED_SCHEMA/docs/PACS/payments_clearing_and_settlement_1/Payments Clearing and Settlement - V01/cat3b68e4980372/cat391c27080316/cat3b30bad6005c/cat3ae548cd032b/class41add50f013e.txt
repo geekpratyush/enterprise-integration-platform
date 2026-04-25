@@ -1,0 +1,1 @@
+Specifies how the order is placed, eg by quantity of units or by amount of money.

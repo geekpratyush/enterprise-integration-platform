@@ -1,0 +1,1 @@
+InstrumentDescription may be present if either Identification/ISIN or Identification/OtherIdentification or UnderlyingInstrumentIdentification/ISIN or UnderlyingInstrumentIdentification/OtherIdentification is present. InstrumentDescription may not be present if Identification/InstrumentDescription or UnderlyingInstrumentIdentification/InstrumentDescription is present.

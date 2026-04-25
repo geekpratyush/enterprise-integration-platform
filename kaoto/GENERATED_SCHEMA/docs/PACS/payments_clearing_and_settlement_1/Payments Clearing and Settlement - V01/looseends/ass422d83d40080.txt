@@ -1,0 +1,1 @@
+Specifies a list of entities for which the TSU must generate a report.

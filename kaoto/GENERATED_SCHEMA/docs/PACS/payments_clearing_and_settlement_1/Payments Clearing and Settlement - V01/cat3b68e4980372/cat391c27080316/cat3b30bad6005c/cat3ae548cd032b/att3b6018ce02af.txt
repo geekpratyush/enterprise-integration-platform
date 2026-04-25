@@ -1,0 +1,2 @@
+Clearing House Automatic Payment System. British electronic interbank system for sending guaranteed, unconditional, sterling payments for same day settlement from one settlement bank on behalf of itself or its customers, to another settlement bank.
+

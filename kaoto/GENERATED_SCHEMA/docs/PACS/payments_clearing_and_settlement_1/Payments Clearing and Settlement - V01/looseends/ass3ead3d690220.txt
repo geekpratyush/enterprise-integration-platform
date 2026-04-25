@@ -1,0 +1,1 @@
+Party that receives an amount of money as a result of a treasury trade.

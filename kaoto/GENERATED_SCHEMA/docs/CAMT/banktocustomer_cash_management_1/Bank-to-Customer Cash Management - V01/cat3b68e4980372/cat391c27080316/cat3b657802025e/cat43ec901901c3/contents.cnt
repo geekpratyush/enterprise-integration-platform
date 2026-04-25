@@ -1,0 +1,212 @@
+<<MessageComponent>> InstructionForCreditorAgent1
+../../../../webviewer/142.jpg
+class43e7470c01ca.htm
+class43e7470c01ca.txt
+
+
+(
+Code[0..1]
+../../../../webviewer/31.jpg
+att43e7480f01fe.htm
+att43e7480f01fe.txt
+
+
+(
+)
+InstructionInformation[0..1]
+../../../../webviewer/31.jpg
+att43e7480f021c.htm
+att43e7480f021c.txt
+
+
+(
+)
+theCreditTransferTransactionInformation2 ( CreditTransferTransactionInformation2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role43e74918023c.htm
+
+
+
+theCreditTransferTransactionInformation1 ( CreditTransferTransactionInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role446c791401b0.htm
+
+
+
+theCreditTransferTransactionInformation5 ( CreditTransferTransactionInformation5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role45092cac035a.htm
+
+
+
+theCreditTransferTransactionInformation7 ( CreditTransferTransactionInformation7 )
+../../../../webviewer/82.jpg
+../../../../looseends/role457f93bb02ab.htm
+
+
+
+theInstructionForAgent ( InstructionForAgent )
+../../../../webviewer/82.jpg
+../../../../looseends/role43ec906f0040.htm
+
+
+
+)
+<<MessageComponent>> InstructionForNextAgent1
+../../../../webviewer/142.jpg
+class43e7422e004c.htm
+class43e7422e004c.txt
+
+
+(
+Code[0..1]
+../../../../webviewer/31.jpg
+att446a363c02fd.htm
+att446a363c02fd.txt
+
+
+(
+)
+InstructionInformation[0..1]
+../../../../webviewer/31.jpg
+att446a363c0343.htm
+att446a363c0343.txt
+
+
+(
+)
+theCreditTransferTransactionInformation2 ( CreditTransferTransactionInformation2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role43e7468e00c4.htm
+
+
+
+theCreditTransferTransactionInformation5 ( CreditTransferTransactionInformation5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role45092cac038c.htm
+
+
+
+theCreditTransferTransactionInformation7 ( CreditTransferTransactionInformation7 )
+../../../../webviewer/82.jpg
+../../../../looseends/role457f93bc0311.htm
+
+
+
+theCreditTransferTransactionInformation3 ( CreditTransferTransactionInformation3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4416bfa7021c.htm
+
+
+
+theInstructionForAgent ( InstructionForAgent )
+../../../../webviewer/82.jpg
+../../../../looseends/role43ec907301eb.htm
+
+
+
+)
+<<MessageComponent>> InstructionForCreditorAgent2
+../../../../webviewer/142.jpg
+class441abf68012d.htm
+class441abf68012d.txt
+
+
+(
+Code[0..1]
+../../../../webviewer/31.jpg
+att441abf6801cd.htm
+att441abf6801cd.txt
+
+
+(
+)
+InstructionInformation[0..1]
+../../../../webviewer/31.jpg
+att441abf6801e1.htm
+att441abf6801e1.txt
+
+
+(
+)
+theCreditTransferTransactionInformation3 ( CreditTransferTransactionInformation3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role441abfa10326.htm
+
+
+
+theInstructionForAgent ( InstructionForAgent )
+../../../../webviewer/82.jpg
+../../../../looseends/role441abf68020a.htm
+
+
+
+)
+Associations
+../../../../webviewer/assoccat.gif
+
+
+
+
+(
+<<SWSTrace>> (theInstructionForAgent:InstructionForAgent) (theInstructionForCreditorAgent1:InstructionForCreditorAgent1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass43ec906e005d.htm
+
+
+
+(
+InstructionForAgent ( theInstructionForAgent )
+../../../../webviewer/82.jpg
+../../../../looseends/role43ec906e034c.htm
+
+
+
+InstructionForCreditorAgent1 ( theInstructionForCreditorAgent1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role43ec906f0040.htm
+
+
+
+)
+<<SWSTrace>> (theInstructionForAgent:InstructionForAgent) (theInstructionForNextAgent1:InstructionForNextAgent1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass43ec9072022f.htm
+
+
+
+(
+InstructionForAgent ( theInstructionForAgent )
+../../../../webviewer/82.jpg
+../../../../looseends/role43ec90730118.htm
+
+
+
+InstructionForNextAgent1 ( theInstructionForNextAgent1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role43ec907301eb.htm
+
+
+
+)
+<<SWSTrace>> (theInstructionForAgent:InstructionForAgent) (theInstructionForCreditorAgent2:InstructionForCreditorAgent2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass441abf6801ff.htm
+
+
+
+(
+InstructionForAgent ( theInstructionForAgent )
+../../../../webviewer/82.jpg
+../../../../looseends/role441abf680200.htm
+
+
+
+InstructionForCreditorAgent2 ( theInstructionForCreditorAgent2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role441abf68020a.htm
+
+
+
+)
+)

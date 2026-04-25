@@ -1,0 +1,3 @@
+Instruction to the first agent that is specific to a user community and is required for use within that user community.
+
+Usage : the proprietary element should only be used when the coded element does not provide sufficient codes. 

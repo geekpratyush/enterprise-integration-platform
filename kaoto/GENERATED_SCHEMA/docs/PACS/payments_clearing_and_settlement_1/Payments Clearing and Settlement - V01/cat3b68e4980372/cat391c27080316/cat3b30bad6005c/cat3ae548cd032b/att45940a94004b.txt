@@ -1,0 +1,1 @@
+Counterparty has not sent an instruction to deliver or delivered the shares. Check with counterparty.

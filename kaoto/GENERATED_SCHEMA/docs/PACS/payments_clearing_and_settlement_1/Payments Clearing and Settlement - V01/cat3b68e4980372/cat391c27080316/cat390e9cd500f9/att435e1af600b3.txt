@@ -1,0 +1,1 @@
+Specifies who can be assigned as a proxy.

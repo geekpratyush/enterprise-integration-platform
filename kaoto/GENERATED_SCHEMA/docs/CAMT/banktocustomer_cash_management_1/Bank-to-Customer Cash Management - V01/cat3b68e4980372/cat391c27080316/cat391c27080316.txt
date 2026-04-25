@@ -1,0 +1,5 @@
+SWS 6.0.1 compliant dictionary
+Dico generation : 439
+Recommended: 992
+Warnings: 132
+

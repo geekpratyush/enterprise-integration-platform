@@ -1,0 +1,1 @@
+Specifies the current status of an order confirmation or of an order confirmation amendment.

@@ -1,0 +1,1 @@
+Coded reasons for the status of the payment transaction/instruction.

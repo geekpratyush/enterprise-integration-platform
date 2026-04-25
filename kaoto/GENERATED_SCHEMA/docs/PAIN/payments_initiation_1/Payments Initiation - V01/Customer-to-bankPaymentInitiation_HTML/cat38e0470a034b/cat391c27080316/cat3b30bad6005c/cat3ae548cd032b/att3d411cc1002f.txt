@@ -1,0 +1,1 @@
+Plan through which an investment fund investor's holdings are depleted through regular withdrawals at specified intervals.

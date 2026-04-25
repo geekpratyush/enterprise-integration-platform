@@ -1,0 +1,1 @@
+Loan that accrues interest for a pre-set time, eg, a bank savings account or Certificate of Deposit (CD).  Money is invested for a fixed period and earns an attractive return. A time deposit is usually offered with a range of investment amounts, maturities, and interest payment dates.

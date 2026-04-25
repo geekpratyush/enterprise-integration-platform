@@ -1,0 +1,1 @@
+If StatusReason/Code is equal to 'NARR', then at least one occurrence of AddititionalStatusReasonInformation must be present.

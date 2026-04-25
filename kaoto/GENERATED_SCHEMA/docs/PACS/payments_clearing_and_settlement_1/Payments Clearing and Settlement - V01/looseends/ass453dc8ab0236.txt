@@ -1,0 +1,2 @@
+Party that delivers securities to the receiving agent at the place of settlement, eg, central securities depository.
+Can also be used in the context of treasury operations.

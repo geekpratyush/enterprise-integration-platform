@@ -1,0 +1,1 @@
+Indicates the result of an investigation.

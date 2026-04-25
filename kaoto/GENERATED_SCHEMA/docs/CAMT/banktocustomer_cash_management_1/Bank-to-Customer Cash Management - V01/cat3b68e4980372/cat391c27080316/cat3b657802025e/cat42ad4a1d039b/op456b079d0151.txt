@@ -1,0 +1,1 @@
+Either CurrentYearType or ExtendedCurrentYearType may be present, but not both.

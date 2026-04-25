@@ -1,0 +1,594 @@
+Product
+../../../../webviewer/18.jpg
+dgm424d146500bc.htm
+
+
+
+(
+)
+<<MessageComponent>> ProductCategory1
+../../../../webviewer/143.jpg
+class417cc5b40248.htm
+class417cc5b40248.txt
+
+
+(
+Type
+../../../../webviewer/31.jpg
+att417cc63c0373.htm
+att417cc63c0373.txt
+
+
+(
+)
+Category
+../../../../webviewer/31.jpg
+att417cc64b0375.htm
+att417cc64b0375.txt
+
+
+(
+)
+theProductCategory1Choice ( ProductCategory1Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role417cf46e01f7.htm
+
+
+
+theProductCategory ( ProductCategory )
+../../../../webviewer/82.jpg
+../../../../looseends/role424d15f90233.htm
+
+
+
+)
+<<ChoiceComponent>> ProductCharacteristics1Choice
+../../../../webviewer/144.jpg
+class416fc2740270.htm
+class416fc2740270.txt
+
+
+(
+StructuredProductCharacteristics ( ProductCharacteristics1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role417cc506015e.htm
+
+
+
+OtherProductCharacteristics ( GenericIdentification4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role417cc43101b8.htm
+
+
+
+theLineItemDetails1 ( LineItemDetails1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role424d1c4f014c.htm
+
+
+
+theLineItemDetails2 ( LineItemDetails2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role424d1d0f011b.htm
+
+
+
+theLineItemDetails3 ( LineItemDetails3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41e4fc1702df.htm
+
+
+
+)
+<<MessageComponent>> ProductIdentifier1
+../../../../webviewer/143.jpg
+class417cc0e60191.htm
+class417cc0e60191.txt
+
+
+(
+Type
+../../../../webviewer/31.jpg
+att417cc104031b.htm
+att417cc104031b.txt
+
+
+(
+)
+Identifier
+../../../../webviewer/31.jpg
+att417cc18c02dd.htm
+att417cc18c02dd.txt
+
+
+(
+)
+theProductIdentifier1Choice ( ProductIdentifier1Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role417cc142022b.htm
+
+
+
+theProductIdentification ( ProductIdentification )
+../../../../webviewer/82.jpg
+../../../../looseends/role424d15ff0142.htm
+
+
+
+)
+<<ChoiceComponent>> ProductCategory1Choice
+../../../../webviewer/144.jpg
+class416fc272014b.htm
+class416fc272014b.txt
+
+
+(
+StructuredProductCategory ( ProductCategory1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role417cf46e020b.htm
+
+
+
+OtherProductCategory ( GenericIdentification4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role417cc572006b.htm
+
+
+
+theLineItemDetails1 ( LineItemDetails1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role424d1c24001c.htm
+
+
+
+theLineItemDetails2 ( LineItemDetails2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role424d1ce30199.htm
+
+
+
+theLineItemDetails3 ( LineItemDetails3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41e4fc1f031d.htm
+
+
+
+)
+<<MessageComponent>> ProductCharacteristics1
+../../../../webviewer/143.jpg
+class417cc4a3000f.htm
+class417cc4a3000f.txt
+
+
+(
+Type
+../../../../webviewer/31.jpg
+att417cc4c600b0.htm
+att417cc4c600b0.txt
+
+
+(
+)
+Characteristics
+../../../../webviewer/31.jpg
+att417cc4db0346.htm
+att417cc4db0346.txt
+
+
+(
+)
+theProductCharacteristics1Choice ( ProductCharacteristics1Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role417cc506014a.htm
+
+
+
+theProductCharacteristics ( ProductCharacteristics )
+../../../../webviewer/82.jpg
+../../../../looseends/role424d15f100d3.htm
+
+
+
+)
+<<ChoiceComponent>> ProductIdentifier1Choice
+../../../../webviewer/144.jpg
+class417cba9e0074.htm
+class417cba9e0074.txt
+
+
+(
+StructuredProductIdentifier ( ProductIdentifier1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role417cc142023f.htm
+
+
+
+OtherProductIdentifier ( GenericIdentification4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role417cc13d0332.htm
+
+
+
+theLineItemDetails1 ( LineItemDetails1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role424d1bed02e2.htm
+
+
+
+theLineItemDetails2 ( LineItemDetails2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role424d1ca40205.htm
+
+
+
+theLineItemDetails3 ( LineItemDetails3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41e4fc110038.htm
+
+
+
+)
+<<MessageComponent>> LineItemDetails3
+../../../../webviewer/143.jpg
+class41e4f211013e.htm
+class41e4f211013e.txt
+
+
+(
+LineItemNumber
+../../../../webviewer/33.jpg
+att41e4f2690129.htm
+att41e4f2690129.txt
+
+
+(
+)
+ProductName[ 0..1 ]
+../../../../webviewer/31.jpg
+att41e4f2690133.htm
+att41e4f2690133.txt
+
+
+(
+)
+OrderedAmount
+../../../../webviewer/31.jpg
+att4201f5090186.htm
+att4201f5090186.txt
+
+
+(
+)
+AcceptedAmount
+../../../../webviewer/33.jpg
+att4201f5240207.htm
+att4201f5240207.txt
+
+
+(
+)
+PendingAmount
+../../../../webviewer/33.jpg
+att4201f524036f.htm
+att4201f524036f.txt
+
+
+(
+)
+OutstandingAmount
+../../../../webviewer/33.jpg
+att4201f5260083.htm
+att4201f5260083.txt
+
+
+(
+)
+theLineItem3 ( LineItem3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4215b7490179.htm
+
+
+
+ProductCharacteristics ( ProductCharacteristics1Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role41e4fc1702e9.htm
+
+
+
+ProductCategory ( ProductCategory1Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role41e4fc1f0327.htm
+
+
+
+ProductIdentifier ( ProductIdentifier1Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role41e4fc110042.htm
+
+
+
+PriceTolerance ( PercentageTolerance1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4201f56a01b9.htm
+
+
+
+QuantityTolerance ( PercentageTolerance1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41fa159e00ab.htm
+
+
+
+OutstandingQuantity ( Quantity1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41e517c70289.htm
+
+
+
+AcceptedQuantity ( Quantity1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41e517ce02d2.htm
+
+
+
+PendingQuantity ( Quantity1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41e517cb009c.htm
+
+
+
+OrderedQuantity ( Quantity1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41e5052e0140.htm
+
+
+
+)
+Associations
+../../../../webviewer/assoccat.gif
+
+
+
+
+(
+<<SWSTrace>> (theProductCharacteristics:ProductCharacteristics) (theProductCharacteristics1:ProductCharacteristics1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass424d15f001a2.htm
+
+
+
+(
+ProductCharacteristics ( theProductCharacteristics )
+../../../../webviewer/82.jpg
+../../../../looseends/role424d15f100d1.htm
+
+
+
+ProductCharacteristics1 ( theProductCharacteristics1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role424d15f100d3.htm
+
+
+
+)
+<<SWSTrace>> (theProductCategory:ProductCategory) (theProductCategory1:ProductCategory1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass424d15f90064.htm
+
+
+
+(
+ProductCategory ( theProductCategory )
+../../../../webviewer/82.jpg
+../../../../looseends/role424d15f90231.htm
+
+
+
+ProductCategory1 ( theProductCategory1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role424d15f90233.htm
+
+
+
+)
+<<SWSTrace>> (theProductIdentification:ProductIdentification) (theProductIdentifier1:ProductIdentifier1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass424d15fe03ab.htm
+
+
+
+(
+ProductIdentification ( theProductIdentification )
+../../../../webviewer/82.jpg
+../../../../looseends/role424d15ff0140.htm
+
+
+
+ProductIdentifier1 ( theProductIdentifier1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role424d15ff0142.htm
+
+
+
+)
+Association (ProductCharacteristics:ProductCharacteristics1Choice) (theLineItemDetails3:LineItemDetails3)
+../../../../webviewer/81.jpg
+../../../../looseends/ass41e4fc150052.htm
+../../../../looseends/ass41e4fc150052.txt
+
+
+(
+ProductCharacteristics1Choice ( ProductCharacteristics )
+../../../../webviewer/82.jpg
+../../../../looseends/role41e4fc1702df.htm
+
+
+
+LineItemDetails3 ( theLineItemDetails3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41e4fc1702e9.htm
+
+
+
+)
+Association (ProductCategory:ProductCategory1Choice) (theLineItemDetails3:LineItemDetails3)
+../../../../webviewer/81.jpg
+../../../../looseends/ass41e4fc1e01db.htm
+../../../../looseends/ass41e4fc1e01db.txt
+
+
+(
+ProductCategory1Choice ( ProductCategory )
+../../../../webviewer/82.jpg
+../../../../looseends/role41e4fc1f031d.htm
+
+
+
+LineItemDetails3 ( theLineItemDetails3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41e4fc1f0327.htm
+
+
+
+)
+Association (ProductIdentifier:ProductIdentifier1Choice) (theLineItemDetails3:LineItemDetails3)
+../../../../webviewer/81.jpg
+../../../../looseends/ass41e4fc10013b.htm
+../../../../looseends/ass41e4fc10013b.txt
+
+
+(
+ProductIdentifier1Choice ( ProductIdentifier )
+../../../../webviewer/82.jpg
+../../../../looseends/role41e4fc110038.htm
+
+
+
+LineItemDetails3 ( theLineItemDetails3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41e4fc110042.htm
+
+
+
+)
+Association (PriceTolerance:PercentageTolerance1) (theLineItemDetails3:LineItemDetails3)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4201f569024c.htm
+../../../../looseends/ass4201f569024c.txt
+
+
+(
+PercentageTolerance1 ( PriceTolerance )
+../../../../webviewer/82.jpg
+../../../../looseends/role4201f56a01b7.htm
+
+
+
+LineItemDetails3 ( theLineItemDetails3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4201f56a01b9.htm
+
+
+
+)
+Association (QuantityTolerance:PercentageTolerance1) (theLineItemDetails3:LineItemDetails3)
+../../../../webviewer/81.jpg
+../../../../looseends/ass41fa159d004d.htm
+../../../../looseends/ass41fa159d004d.txt
+
+
+(
+PercentageTolerance1 ( QuantityTolerance )
+../../../../webviewer/82.jpg
+../../../../looseends/role41fa159e00a9.htm
+
+
+
+LineItemDetails3 ( theLineItemDetails3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41fa159e00ab.htm
+
+
+
+)
+Association (OutstandingQuantity:Quantity1) (theLineItemDetails3:LineItemDetails3)
+../../../../webviewer/81.jpg
+../../../../looseends/ass41e517c603be.htm
+../../../../looseends/ass41e517c603be.txt
+
+
+(
+Quantity1 ( OutstandingQuantity )
+../../../../webviewer/82.jpg
+../../../../looseends/role41e517c7027f.htm
+
+
+
+LineItemDetails3 ( theLineItemDetails3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41e517c70289.htm
+
+
+
+)
+Association (AcceptedQuantity:Quantity1) (theLineItemDetails3:LineItemDetails3)
+../../../../webviewer/81.jpg
+../../../../looseends/ass41e517cd03b5.htm
+../../../../looseends/ass41e517cd03b5.txt
+
+
+(
+Quantity1 ( AcceptedQuantity )
+../../../../webviewer/82.jpg
+../../../../looseends/role41e517ce02d0.htm
+
+
+
+LineItemDetails3 ( theLineItemDetails3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41e517ce02d2.htm
+
+
+
+)
+Association (PendingQuantity:Quantity1) (theLineItemDetails3:LineItemDetails3)
+../../../../webviewer/81.jpg
+../../../../looseends/ass41e517ca01cf.htm
+../../../../looseends/ass41e517ca01cf.txt
+
+
+(
+Quantity1 ( PendingQuantity )
+../../../../webviewer/82.jpg
+../../../../looseends/role41e517cb0090.htm
+
+
+
+LineItemDetails3 ( theLineItemDetails3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41e517cb009c.htm
+
+
+
+)
+Association (OrderedQuantity:Quantity1) (theLineItemDetails3:LineItemDetails3)
+../../../../webviewer/81.jpg
+../../../../looseends/ass41e5052d0117.htm
+../../../../looseends/ass41e5052d0117.txt
+
+
+(
+Quantity1 ( OrderedQuantity )
+../../../../webviewer/82.jpg
+../../../../looseends/role41e5052e0136.htm
+
+
+
+LineItemDetails3 ( theLineItemDetails3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41e5052e0140.htm
+
+
+
+)
+)

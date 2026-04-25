@@ -1,0 +1,3 @@
+Reference assigned by a sending party to unambiguously identify the group of individual transactions being sent.
+
+Usage: this reference is used between the initiating party and the forwarding or sending agent to refer to the group of transactions sent.

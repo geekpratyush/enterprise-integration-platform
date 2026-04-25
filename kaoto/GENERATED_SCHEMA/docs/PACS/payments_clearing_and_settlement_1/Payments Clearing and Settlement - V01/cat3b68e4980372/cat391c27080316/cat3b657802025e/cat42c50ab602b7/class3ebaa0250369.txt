@@ -1,0 +1,1 @@
+Indicates in which direction the intention is to transfer the ownership of a financial instrument.

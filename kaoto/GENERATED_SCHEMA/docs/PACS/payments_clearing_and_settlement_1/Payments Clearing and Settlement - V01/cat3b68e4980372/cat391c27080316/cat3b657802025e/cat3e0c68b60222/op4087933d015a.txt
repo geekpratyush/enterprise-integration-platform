@@ -1,0 +1,3 @@
+If CertificateIdentification is not present, then TaxType is mandatory.
+If CertificateIdentification is present, then TaxType is optional.
+

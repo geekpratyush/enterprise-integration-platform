@@ -1,0 +1,3 @@
+Set of elements providing details on the interest amount included in the entry amount.
+
+Usage : This component (on transaction level) can be used in case the booking is for a single transaction, and interest amount is included in the entry amount.  It can also be used in case individual interest amounts are applied to individual transactions in case of a batch or aggregate amount booking.   

@@ -1,0 +1,1 @@
+Fund is calculating the taxable interest per share with the NAV.

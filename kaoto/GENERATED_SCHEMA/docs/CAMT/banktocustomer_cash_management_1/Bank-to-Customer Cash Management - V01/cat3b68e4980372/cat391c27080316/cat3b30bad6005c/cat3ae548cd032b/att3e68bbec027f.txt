@@ -1,0 +1,1 @@
+Indicates the Quote Request has been generated automatically, by market activity or securities achieving a treshold.

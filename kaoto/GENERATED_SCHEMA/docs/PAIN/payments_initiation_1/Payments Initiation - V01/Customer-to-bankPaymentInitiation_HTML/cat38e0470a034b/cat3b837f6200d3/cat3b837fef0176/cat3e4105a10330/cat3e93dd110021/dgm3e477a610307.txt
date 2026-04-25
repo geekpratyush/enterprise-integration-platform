@@ -1,0 +1,10 @@
+In this scenario, there is an originating party (ie, the party that receives the invoice) which is different from the debtor. The debtor is for example a subsidiary of the originating party and has an account at the first agent. The originating party is entitled to use this subsidary's account. The originating party is also the initiating party, sending the payment initiation to the forwarding agent.The forwarding agent in its turn, will forward the payment initiation to the first agent of the debtor.
+
+Notes : 
+1) agreements need to be in place between all parties involved to execute this scenario.
+
+2) Assumption is that Payment Initiation Status is in all instances positive and can be sent at different stages (and by different roles) in the lifecycle. The sending of and the content of a Payment Initiation Status message depends on bilateral service agreed between first agent, forwarding agent and initiating party. Assumption is made that the Payment Initiation status information follows the same route as the payment initiation.
+2)  At requested execution date, the first agent will debit the account of the debtor. Once the first agent debits the account of the debtor (at requested execution date), it may  need to generate customer debit advice and/or statement - depending on service agreed between debtor/initiating party and the first agent and depending on legal requirements. The advice and/or statement info will normally be sent to the debtor by the first agent, unless otherwise agreed between debtor, originating part, forwarding and first agent. 
+
+3) There is no indication of chronological order in the status/debit advice/statement information sent in the scenario above, as this will also depend on agreements between debtor/initiating party and the first agent, but banks implementing and offering these services will define a logical, chronological sequence for sending these messages.
+4) Furthermore, there may also be interbank advices/statements exchanged, but these are not included in the diagram as this will depend on the settlement method chosen between first and final agent. 

@@ -1,0 +1,3 @@
+SettlementPlace: type changed from PartyIdentification1Choice to PartyIdentification2Choice.
+SafekeepingPlace: type changed from PartyIdentification1Choice to PartyIdentification2Choice.
+SecuritiesSettlementSystem: name changed to SecuritiesSettlementSystemIdentification

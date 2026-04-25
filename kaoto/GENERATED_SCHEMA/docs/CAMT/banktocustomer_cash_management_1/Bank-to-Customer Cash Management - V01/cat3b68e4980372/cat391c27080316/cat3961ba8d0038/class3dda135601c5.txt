@@ -1,0 +1,1 @@
+Party that receives the payment instruction from the originator and forwards it to the first agent in the payment chain.

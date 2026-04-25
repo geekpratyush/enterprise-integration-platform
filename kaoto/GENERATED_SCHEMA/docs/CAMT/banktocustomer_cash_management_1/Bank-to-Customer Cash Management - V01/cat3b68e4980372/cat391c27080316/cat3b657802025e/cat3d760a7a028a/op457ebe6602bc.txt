@@ -1,0 +1,1 @@
+If ChargesInformation/ChargesAmount is present, then ReversedInstructedAmount must be present.

@@ -1,0 +1,1 @@
+Choice for specifying how the trade was executed off-market.

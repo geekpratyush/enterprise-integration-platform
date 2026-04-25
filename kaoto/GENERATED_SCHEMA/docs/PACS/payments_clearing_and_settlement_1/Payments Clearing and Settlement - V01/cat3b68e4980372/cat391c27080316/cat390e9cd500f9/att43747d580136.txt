@@ -1,0 +1,1 @@
+Indicates whether the resolution has been submitted by the security holder. 

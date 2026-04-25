@@ -1,0 +1,1 @@
+Choice between a report on the RiskManagementCurrentLimit, RiskManagementDefaultLimit, LiquidityManagementCurrentLimit or LiquidityManagementDefaultLimit. 

@@ -1,0 +1,1 @@
+Date on which the fiscal year is closed.

@@ -1,0 +1,3 @@
+CancellationRight: type changed from CancellationRight1Code to CancellationRight1 (code alignment).
+SettlementCurrency4Rule: modified.
+BeneficiaryDetails: new.

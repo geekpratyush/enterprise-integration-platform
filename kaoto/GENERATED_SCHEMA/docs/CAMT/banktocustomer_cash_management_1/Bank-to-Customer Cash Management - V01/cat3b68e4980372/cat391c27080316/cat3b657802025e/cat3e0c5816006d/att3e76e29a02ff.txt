@@ -1,0 +1,1 @@
+Expresses an amount range without currency.

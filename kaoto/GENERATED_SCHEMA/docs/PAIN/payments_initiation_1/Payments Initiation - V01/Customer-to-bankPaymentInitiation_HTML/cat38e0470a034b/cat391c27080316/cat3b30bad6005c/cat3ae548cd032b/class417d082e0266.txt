@@ -1,0 +1,4 @@
+Specifies the charateristics of a product.
+
+
+

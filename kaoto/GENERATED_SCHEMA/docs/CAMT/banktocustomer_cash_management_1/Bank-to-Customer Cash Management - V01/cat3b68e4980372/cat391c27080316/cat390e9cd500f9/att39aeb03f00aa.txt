@@ -1,0 +1,1 @@
+Date on which an interest bearing instrument begins to accrue interest.

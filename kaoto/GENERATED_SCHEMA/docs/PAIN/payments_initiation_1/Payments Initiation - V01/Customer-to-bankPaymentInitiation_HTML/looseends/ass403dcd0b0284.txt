@@ -1,0 +1,1 @@
+Priority with which or the system through which the agents in the payment chain will clear and settle the payment transaction. 

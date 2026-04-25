@@ -1,0 +1,2 @@
+Cash amount to be used to derive the appropriate 
+quantity of financial instrument to be bought or sold.

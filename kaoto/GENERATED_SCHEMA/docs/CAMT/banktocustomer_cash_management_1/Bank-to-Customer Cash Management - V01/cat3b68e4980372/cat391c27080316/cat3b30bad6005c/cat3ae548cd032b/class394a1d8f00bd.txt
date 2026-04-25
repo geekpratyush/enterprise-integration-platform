@@ -1,0 +1,2 @@
+Specifies the role of the broker in the transaction.
+

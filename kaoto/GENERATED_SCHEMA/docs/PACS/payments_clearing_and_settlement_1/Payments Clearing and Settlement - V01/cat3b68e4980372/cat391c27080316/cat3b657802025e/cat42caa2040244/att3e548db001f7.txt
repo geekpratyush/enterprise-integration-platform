@@ -1,0 +1,1 @@
+Date/time of the trade with the contra broker.

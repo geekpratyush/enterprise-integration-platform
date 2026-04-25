@@ -1,0 +1,39 @@
+services:
+  solace:
+    container_name: solace-mtls
+    image: solace/solace-pubsub-standard:latest
+    shm_size: 1g
+    ulimits:
+      core: 1
+      nofile:
+        soft: 1048576
+        hard: 1048576
+    deploy:
+      resources:
+        limits:
+          memory: 4096M
+    restart: always
+    environment:
+      - username_admin_globalaccesslevel=admin
+      - username_admin_password=admin
+      - service_smf_tls_port=55443
+      - service_smf_tls_enabled=true
+    ports:
+      # SMF
+      - "55555:55555"
+      # SMF SSL
+      - "55443:55443"
+      # Web Transport
+      - "8008:8008"
+      # Web Transport SSL
+      - "1443:1443"
+      # SEMP
+      - "8085:8080"
+      # SEMP SSL
+      - "1943:1943"
+      # AMQP
+      - "5672:5672"
+      # MQTT
+      - "1883:1883"
+      # REST
+      - "9000:9000"

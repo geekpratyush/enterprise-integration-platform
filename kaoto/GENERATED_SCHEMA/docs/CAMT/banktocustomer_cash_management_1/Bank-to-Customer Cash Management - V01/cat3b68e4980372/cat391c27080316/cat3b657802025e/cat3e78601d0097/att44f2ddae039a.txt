@@ -1,0 +1,1 @@
+Number of payments taken into account for the calculation of the cash balance value.

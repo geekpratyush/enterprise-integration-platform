@@ -1,0 +1,1 @@
+Period during which the securities are blocked.

@@ -1,0 +1,1 @@
+Specifies the type of criterion used to sort a report.

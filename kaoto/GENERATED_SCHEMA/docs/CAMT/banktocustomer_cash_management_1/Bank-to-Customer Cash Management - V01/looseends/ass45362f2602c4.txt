@@ -1,0 +1,2 @@
+Range of time between the start date and the end date for which the account report is issued.
+

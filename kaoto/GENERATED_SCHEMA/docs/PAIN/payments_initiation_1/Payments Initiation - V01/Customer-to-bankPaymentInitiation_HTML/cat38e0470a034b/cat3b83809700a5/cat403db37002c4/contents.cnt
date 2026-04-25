@@ -1,0 +1,92 @@
+CoreCreditTransferInitiation
+../../../webviewer/18.jpg
+dgm403db3620379.htm
+
+
+
+(
+)
+<<Message>> CoreCreditTransferInitiation
+../../../webviewer/141.jpg
+class403db45401e6.htm
+
+
+
+(
+GroupHeader ( GroupInformation1 )
+../../../webviewer/82.jpg
+../../../looseends/role403db47101ad.htm
+
+
+
+PaymentInformation ( PaymentInformation6 )
+../../../webviewer/82.jpg
+../../../looseends/role404724c901ad.htm
+
+
+
+<<Textual>> Grouping1Rule
+../../../webviewer/36.jpg
+op40862f88029f.htm
+op40862f88029f.txt
+
+
+(
+)
+<<Textual>> Grouping2Rule
+../../../webviewer/36.jpg
+op40b30bf40040.htm
+op40b30bf40040.txt
+
+
+(
+)
+)
+Associations
+../../../webviewer/assoccat.gif
+
+
+
+
+(
+Association (theCoreCreditTransferInitiation:CoreCreditTransferInitiation) (GroupHeader:GroupInformation1)
+../../../webviewer/81.jpg
+../../../looseends/ass403db47101ac.htm
+../../../looseends/ass403db47101ac.txt
+
+
+(
+CoreCreditTransferInitiation ( theCoreCreditTransferInitiation )
+../../../webviewer/82.jpg
+../../../looseends/role403db47101ad.htm
+
+
+
+GroupInformation1 ( GroupHeader )
+../../../webviewer/82.jpg
+../../../looseends/role403db47101ae.htm
+
+
+
+)
+Association (theCoreCreditTransferInitiation:CoreCreditTransferInitiation) (PaymentInformation:PaymentInformation6)
+../../../webviewer/81.jpg
+../../../looseends/ass404724c90185.htm
+../../../looseends/ass404724c90185.txt
+
+
+(
+CoreCreditTransferInitiation ( theCoreCreditTransferInitiation )
+../../../webviewer/82.jpg
+../../../looseends/role404724c901ad.htm
+
+
+
+PaymentInformation6 ( PaymentInformation )
+../../../webviewer/82.jpg
+../../../looseends/role404724c901cb.htm
+
+
+
+)
+)

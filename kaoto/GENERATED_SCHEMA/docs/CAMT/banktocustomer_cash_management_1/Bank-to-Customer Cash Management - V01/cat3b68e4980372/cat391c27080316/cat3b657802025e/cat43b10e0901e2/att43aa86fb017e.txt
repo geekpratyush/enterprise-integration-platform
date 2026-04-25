@@ -1,0 +1,1 @@
+Date at which the trading parties have agreed on a valuation rate for a non deliverable trade.

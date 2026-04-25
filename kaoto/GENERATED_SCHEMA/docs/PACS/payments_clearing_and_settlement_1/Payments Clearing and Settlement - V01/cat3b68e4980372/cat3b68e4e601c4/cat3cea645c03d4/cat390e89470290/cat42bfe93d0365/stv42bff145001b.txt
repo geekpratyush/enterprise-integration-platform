@@ -1,0 +1,1 @@
+The PaymentClearingAgent rejects the payment order to the preceding PaymentClearingAgent and appends a relevant reject reason code explaining the reason for the reject.

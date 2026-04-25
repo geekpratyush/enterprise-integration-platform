@@ -1,0 +1,1 @@
+Specifies the amount of a premium on a currency option together with its calculation method.

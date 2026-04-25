@@ -1,0 +1,1 @@
+Amount set aside by a participant to reserve liquidity from its own account, exclusively for executing cash withdrawals.

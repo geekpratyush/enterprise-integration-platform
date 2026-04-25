@@ -1,0 +1,1 @@
+Identifies a place by a code or a text. eg LHR for London Heathrow airport.

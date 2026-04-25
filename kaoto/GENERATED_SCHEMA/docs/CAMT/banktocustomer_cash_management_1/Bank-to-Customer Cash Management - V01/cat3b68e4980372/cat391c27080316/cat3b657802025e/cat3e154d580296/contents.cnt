@@ -1,0 +1,410 @@
+<<MessageComponent>> SwitchRedemptionLegExecution3
+../../../../webviewer/142.jpg
+class43e206890287.htm
+class43e206890287.txt
+
+
+(
+LegIdentification [0..1]
+../../../../webviewer/33.jpg
+att43e206890292.htm
+att43e206890292.txt
+
+
+(
+)
+LegExecutionIdentification[0..1]
+../../../../webviewer/33.jpg
+att43e2068902af.htm
+att43e2068902af.txt
+
+
+(
+)
+UnitsNumber
+../../../../webviewer/31.jpg
+att43e2068902c3.htm
+
+
+
+(
+)
+HoldingsRedemptionRate[0..1]
+../../../../webviewer/31.jpg
+att43e2068902cd.htm
+
+
+
+(
+)
+NetAmount [0..1]
+../../../../webviewer/31.jpg
+att43e2068902d7.htm
+att43e2068902d7.txt
+
+
+(
+)
+GrossAmount [0..1]
+../../../../webviewer/31.jpg
+att43e2068902eb.htm
+att43e2068902eb.txt
+
+
+(
+)
+TradeDateTime
+../../../../webviewer/31.jpg
+att43e2068902f5.htm
+
+
+
+(
+)
+CumDividendIndicator
+../../../../webviewer/31.jpg
+att43e2068902ff.htm
+
+
+
+(
+)
+InterimProfitAmount[0..1]
+../../../../webviewer/31.jpg
+att43e206890309.htm
+
+
+
+(
+)
+IncomePreference[0..1]
+../../../../webviewer/31.jpg
+att43e206890327.htm
+
+
+
+(
+)
+Group1Or2Units[0..1]
+../../../../webviewer/31.jpg
+att43e206890331.htm
+
+
+
+(
+)
+RequestedSettlementCurrency[0..1]
+../../../../webviewer/31.jpg
+att43e20689033b.htm
+
+
+
+(
+)
+RequestedNAVCurrency[0..1]
+../../../../webviewer/31.jpg
+att43e206890345.htm
+
+
+
+(
+)
+PhysicalDeliveryIndicator
+../../../../webviewer/31.jpg
+att43e206890359.htm
+att43e206890359.txt
+
+
+(
+)
+NonStandardSettlementInformation [0..1]
+../../../../webviewer/31.jpg
+att444cbd450163.htm
+
+
+
+(
+)
+theRedemptionExecution ( RedemptionExecution )
+../../../../webviewer/82.jpg
+../../../../looseends/role43e206890370.htm
+
+
+
+ChargeGeneralDetails ( TotalCharges3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role44eb04e70325.htm
+
+
+
+CommissionGeneralDetails ( TotalCommissions3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role445a16640369.htm
+
+
+
+FinancialInstrumentDetails ( FinancialInstrument10 )
+../../../../webviewer/82.jpg
+../../../../looseends/role43e206890395.htm
+
+
+
+InvestmentAccountDetails ( InvestmentAccount21 )
+../../../../webviewer/82.jpg
+../../../../looseends/role44e42987039d.htm
+
+
+
+PhysicalDeliveryDetails ( DeliveryParameters3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role43e2068a00d3.htm
+
+
+
+PriceDetails ( UnitPrice10 )
+../../../../webviewer/82.jpg
+../../../../looseends/role43e2068a00bd.htm
+
+
+
+SettlementAndCustodyDetails ( FundSettlementParameters4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role43e2068a0046.htm
+
+
+
+TaxGeneralDetails ( TotalTaxes3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role43e2068a0032.htm
+
+
+
+Equalisation ( Equalisation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role459a373303e2.htm
+
+
+
+theSwitchExecution4 ( SwitchExecution4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role43e2050c03d4.htm
+
+
+
+<<Textual>> PhysicalDeliveryDetailsRule
+../../../../webviewer/36.jpg
+op43e2068a00e4.htm
+op43e2068a00e4.txt
+
+
+(
+)
+)
+Associations
+../../../../webviewer/assoccat.gif
+
+
+
+
+(
+<<SWSTrace>> (theRedemptionExecution:RedemptionExecution) (theSwitchRedemptionLegExecution3:SwitchRedemptionLegExecution3)
+../../../../webviewer/81.jpg
+../../../../looseends/ass43e20689036d.htm
+
+
+
+(
+RedemptionExecution ( theRedemptionExecution )
+../../../../webviewer/82.jpg
+../../../../looseends/role43e20689036e.htm
+
+
+
+SwitchRedemptionLegExecution3 ( theSwitchRedemptionLegExecution3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role43e206890370.htm
+
+
+
+)
+Association (ChargeGeneralDetails:TotalCharges3) (theSwitchRedemptionLegExecution3:SwitchRedemptionLegExecution3)
+../../../../webviewer/81.jpg
+../../../../looseends/ass44eb04e702f2.htm
+
+
+
+(
+TotalCharges3 ( ChargeGeneralDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role44eb04e70311.htm
+
+
+
+SwitchRedemptionLegExecution3 ( theSwitchRedemptionLegExecution3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role44eb04e70325.htm
+
+
+
+)
+Association (CommissionGeneralDetails:TotalCommissions3) (theSwitchRedemptionLegExecution3:SwitchRedemptionLegExecution3)
+../../../../webviewer/81.jpg
+../../../../looseends/ass445a16640367.htm
+../../../../looseends/ass445a16640367.txt
+
+
+(
+TotalCommissions3 ( CommissionGeneralDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role445a16640368.htm
+
+
+
+SwitchRedemptionLegExecution3 ( theSwitchRedemptionLegExecution3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role445a16640369.htm
+
+
+
+)
+Association (FinancialInstrumentDetails:FinancialInstrument10) (theSwitchRedemptionLegExecution3:SwitchRedemptionLegExecution3)
+../../../../webviewer/81.jpg
+../../../../looseends/ass43e206890377.htm
+../../../../looseends/ass43e206890377.txt
+
+
+(
+FinancialInstrument10 ( FinancialInstrumentDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role43e206890378.htm
+
+
+
+SwitchRedemptionLegExecution3 ( theSwitchRedemptionLegExecution3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role43e206890395.htm
+
+
+
+)
+Association (InvestmentAccountDetails:InvestmentAccount21) (theSwitchRedemptionLegExecution3:SwitchRedemptionLegExecution3)
+../../../../webviewer/81.jpg
+../../../../looseends/ass44e42987039b.htm
+../../../../looseends/ass44e42987039b.txt
+
+
+(
+InvestmentAccount21 ( InvestmentAccountDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role44e42987039c.htm
+
+
+
+SwitchRedemptionLegExecution3 ( theSwitchRedemptionLegExecution3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role44e42987039d.htm
+
+
+
+)
+Association (PhysicalDeliveryDetails:DeliveryParameters3) (theSwitchRedemptionLegExecution3:SwitchRedemptionLegExecution3)
+../../../../webviewer/81.jpg
+../../../../looseends/ass43e2068a00d0.htm
+
+
+
+(
+DeliveryParameters3 ( PhysicalDeliveryDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role43e2068a00d1.htm
+
+
+
+SwitchRedemptionLegExecution3 ( theSwitchRedemptionLegExecution3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role43e2068a00d3.htm
+
+
+
+)
+Association (PriceDetails:UnitPrice10) (theSwitchRedemptionLegExecution3:SwitchRedemptionLegExecution3)
+../../../../webviewer/81.jpg
+../../../../looseends/ass43e2068a0080.htm
+../../../../looseends/ass43e2068a0080.txt
+
+
+(
+UnitPrice10 ( PriceDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role43e2068a00b2.htm
+
+
+
+SwitchRedemptionLegExecution3 ( theSwitchRedemptionLegExecution3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role43e2068a00bd.htm
+
+
+
+)
+Association (SettlementAndCustodyDetails:FundSettlementParameters4) (theSwitchRedemptionLegExecution3:SwitchRedemptionLegExecution3)
+../../../../webviewer/81.jpg
+../../../../looseends/ass43e2068a0043.htm
+../../../../looseends/ass43e2068a0043.txt
+
+
+(
+FundSettlementParameters4 ( SettlementAndCustodyDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role43e2068a0044.htm
+
+
+
+SwitchRedemptionLegExecution3 ( theSwitchRedemptionLegExecution3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role43e2068a0046.htm
+
+
+
+)
+Association (TaxGeneralDetails:TotalTaxes3) (theSwitchRedemptionLegExecution3:SwitchRedemptionLegExecution3)
+../../../../webviewer/81.jpg
+../../../../looseends/ass43e2068a002f.htm
+../../../../looseends/ass43e2068a002f.txt
+
+
+(
+TotalTaxes3 ( TaxGeneralDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role43e2068a0030.htm
+
+
+
+SwitchRedemptionLegExecution3 ( theSwitchRedemptionLegExecution3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role43e2068a0032.htm
+
+
+
+)
+Association (Equalisation:Equalisation1) (theSwitchRedemptionLegExecution3:SwitchRedemptionLegExecution3)
+../../../../webviewer/81.jpg
+../../../../looseends/ass459a37330266.htm
+
+
+
+(
+Equalisation1 ( Equalisation )
+../../../../webviewer/82.jpg
+../../../../looseends/role459a3733039c.htm
+
+
+
+SwitchRedemptionLegExecution3 ( theSwitchRedemptionLegExecution3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role459a373303e2.htm
+
+
+
+)
+)

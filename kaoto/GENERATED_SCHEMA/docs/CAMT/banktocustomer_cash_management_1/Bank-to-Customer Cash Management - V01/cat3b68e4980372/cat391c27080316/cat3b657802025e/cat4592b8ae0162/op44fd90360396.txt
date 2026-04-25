@@ -1,0 +1,1 @@
+Either CertificateType or ExtendedCertificateType must be present, but not both.

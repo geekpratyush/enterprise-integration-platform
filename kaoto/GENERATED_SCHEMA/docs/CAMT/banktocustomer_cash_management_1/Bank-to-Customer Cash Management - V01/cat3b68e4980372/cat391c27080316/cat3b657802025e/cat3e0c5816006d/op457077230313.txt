@@ -1,0 +1,3 @@
+If ProductTransfer\ISA or ProductTransfer\PEP is present, then SecondaryIndividualInvestor and/or OtherIndividualInvestor is not allowed.
+
+If ProductTransfer\ISA or ProductTransfer\PEP is present then the message elements in the list (PrimaryCorporateInvestor, SecondaryCorporateInvestor, OtherCorporateInvestor) are not allowed. 

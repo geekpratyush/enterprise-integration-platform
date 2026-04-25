@@ -1,0 +1,1 @@
+Description of the status of the settlement of a trade when no coded form is available.

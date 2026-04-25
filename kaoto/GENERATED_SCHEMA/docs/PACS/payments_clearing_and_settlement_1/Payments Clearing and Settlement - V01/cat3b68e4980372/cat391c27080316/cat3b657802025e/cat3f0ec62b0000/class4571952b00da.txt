@@ -1,0 +1,1 @@
+Describes the type of product and the assets to be transferred.

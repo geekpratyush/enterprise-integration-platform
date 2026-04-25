@@ -1,0 +1,1 @@
+Indicates whether the address for the physical delivery is the registered address.

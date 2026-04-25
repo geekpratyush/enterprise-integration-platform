@@ -1,0 +1,1 @@
+Unique and unambiguous identification of a specific microfilm in a payment system that uses microfilms to complement the information exchanged in the settlement chain.

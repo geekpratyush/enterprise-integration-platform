@@ -1,0 +1,2 @@
+Transaction is cancelled by a party other than the instructing party, eg, a market infrastructure such as a stock exchange.
+

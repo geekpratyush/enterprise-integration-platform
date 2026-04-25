@@ -1,0 +1,1 @@
+Status of a system and the period of time during which the status is valid.

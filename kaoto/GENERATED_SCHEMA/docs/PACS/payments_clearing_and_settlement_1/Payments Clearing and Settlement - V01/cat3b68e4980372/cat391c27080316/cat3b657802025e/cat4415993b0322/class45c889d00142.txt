@@ -1,0 +1,1 @@
+Specifies information details about invoice financing result.

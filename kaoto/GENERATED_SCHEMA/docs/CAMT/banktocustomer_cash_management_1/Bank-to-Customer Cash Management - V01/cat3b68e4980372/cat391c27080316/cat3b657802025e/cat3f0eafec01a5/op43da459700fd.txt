@@ -1,0 +1,3 @@
+If SuspendedIndicator is "true" or "1" (Yes), then PriceDetails is optional.
+If SuspendedIndicator is "false" or "0" (No), and if FinancialInstrumentDetails /DualFundIndicator is "false" or "0" (No), then PriceDetails must be present at least once.
+If SuspendedIndicator is "false" or "0" (No) , and if FinancialInstrumentDetails /DualFundIndicator is "true" or "1" (Yes), then PriceDetails must be present two or more times and PriceDetails/Type must be present with the values "BIDE" and "OFFR".

@@ -1,0 +1,1 @@
+Cancellation instruction has been received and has been acknowledged / accepted for further processing.

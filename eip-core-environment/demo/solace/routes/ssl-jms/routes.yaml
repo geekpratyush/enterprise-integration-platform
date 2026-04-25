@@ -1,0 +1,14 @@
+- from:
+    uri: "kamelet:solace-source"
+    parameters:
+      queuename: "Q.DEMO.SSL"
+    steps:
+      - log: ">>> [SSL] Received Message from Solace: ${body}"
+
+- from:
+    uri: "timer:solace-ssl-seed?period=1000"
+    steps:
+      - setBody:
+          simple: "SSL Test Message #${header.CamelTimerCounter}"
+      - to: "kamelet:solace-sink?queuename=Q.DEMO.SSL"
+      - log: ">>> [SSL] Seeded Solace with: ${body}"

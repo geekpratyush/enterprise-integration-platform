@@ -1,0 +1,21 @@
+# postgres-isolated.yaml
+services:
+  postgres-ssl:
+    image: postgres:15-alpine
+    container_name: postgres-ssl
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_DB: eip_db
+      POSTGRES_USER: eip_user
+      POSTGRES_PASSWORD: eip_password
+    volumes:
+      - ../certs/server.crt:/etc/postgresql/server.crt:ro
+      - ../certs/server.key:/etc/postgresql/server.key:ro
+      - ../certs/root.crt:/etc/postgresql/root.crt:ro
+    command: >
+      postgres
+      -c ssl=on
+      -c ssl_cert_file=/etc/postgresql/server.crt
+      -c ssl_key_file=/etc/postgresql/server.key
+      -c ssl_ca_file=/etc/postgresql/root.crt

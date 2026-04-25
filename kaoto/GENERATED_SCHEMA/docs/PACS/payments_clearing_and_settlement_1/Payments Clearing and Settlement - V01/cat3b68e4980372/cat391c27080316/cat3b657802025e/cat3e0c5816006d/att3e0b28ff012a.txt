@@ -1,0 +1,2 @@
+Indicates whether the tax exemption reason assigned to an investment account should be deleted.
+

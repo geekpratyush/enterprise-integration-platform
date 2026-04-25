@@ -1,0 +1,1 @@
+Code for payment at end of period after end of month of receipt of invoice.

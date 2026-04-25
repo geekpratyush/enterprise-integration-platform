@@ -1,0 +1,1 @@
+Unique and unambiguous identification of the remittance information, e.g. a remittance advice, which is sent separately from the payment instruction.

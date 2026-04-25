@@ -1,0 +1,1 @@
+Price of the instrument, applicable to the bid.

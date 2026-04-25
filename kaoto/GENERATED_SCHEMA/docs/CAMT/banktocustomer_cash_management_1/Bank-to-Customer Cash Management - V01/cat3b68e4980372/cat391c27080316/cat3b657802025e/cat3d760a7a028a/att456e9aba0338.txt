@@ -1,0 +1,1 @@
+Total returned amount of money transferred between the instructing agent and the instructed agent in the return message.

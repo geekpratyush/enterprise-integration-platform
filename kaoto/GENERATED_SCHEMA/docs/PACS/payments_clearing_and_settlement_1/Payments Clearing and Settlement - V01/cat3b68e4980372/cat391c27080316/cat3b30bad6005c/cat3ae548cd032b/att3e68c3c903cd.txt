@@ -1,0 +1,1 @@
+A round lot order to be executed at the opening of the market.

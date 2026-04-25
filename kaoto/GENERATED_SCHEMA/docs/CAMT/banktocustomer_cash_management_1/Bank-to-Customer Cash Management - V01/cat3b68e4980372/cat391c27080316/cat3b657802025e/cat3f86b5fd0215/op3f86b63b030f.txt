@@ -1,0 +1,1 @@
+Either DomesticIdentificationSource or ProprietaryIdentificationSource must be present, but not both.

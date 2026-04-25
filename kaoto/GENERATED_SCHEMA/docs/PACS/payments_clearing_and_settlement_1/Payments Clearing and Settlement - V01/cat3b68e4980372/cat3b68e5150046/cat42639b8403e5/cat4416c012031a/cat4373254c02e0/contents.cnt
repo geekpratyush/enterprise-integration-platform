@@ -1,0 +1,182 @@
+PaymentReturnV01
+../../../../../webviewer/18.jpg
+dgm4373256a01b8.htm
+
+
+
+(
+)
+<<Message>> PaymentReturnV01
+../../../../../webviewer/141.jpg
+class4373257b0361.htm
+class4373257b0361.txt
+
+
+(
+GroupHeader ( GroupHeader6 )
+../../../../../webviewer/82.jpg
+../../../../../looseends/role438477260210.htm
+
+
+
+TransactionInformation ( PaymentTransactionInformation2 )
+../../../../../webviewer/82.jpg
+../../../../../looseends/role438b0e45002e.htm
+
+
+
+OriginalGroupInformation ( OriginalGroupInformation2 )
+../../../../../webviewer/82.jpg
+../../../../../looseends/role446b30810198.htm
+
+
+
+<<Textual>> GroupReturnAndTransactionInformationRule
+../../../../../webviewer/36.jpg
+op4497c2cb015b.htm
+op4497c2cb015b.txt
+
+
+(
+)
+<<Textual>> InstructedAgentRule
+../../../../../webviewer/36.jpg
+op4497c4fe03c9.htm
+op4497c4fe03c9.txt
+
+
+(
+)
+<<Textual>> InstructingAgentRule
+../../../../../webviewer/36.jpg
+op4497c4ff0013.htm
+op4497c4ff0013.txt
+
+
+(
+)
+<<Textual>> InterbankSettlementDateRule
+../../../../../webviewer/36.jpg
+op4497c575028c.htm
+op4497c575028c.txt
+
+
+(
+)
+<<Textual>> GroupReturnAndNumberOfTransactionsRule
+../../../../../webviewer/36.jpg
+op449c0c3b027e.htm
+op449c0c3b027e.txt
+
+
+(
+)
+<<Textual>> GroupReturnAndReturnReasonRule
+../../../../../webviewer/36.jpg
+op449c0cc2004a.htm
+op449c0cc2004a.txt
+
+
+(
+)
+<<Textual>> TotalReturnedInterbankSettlementAmount1Rule
+../../../../../webviewer/36.jpg
+op449c0eb30117.htm
+op449c0eb30117.txt
+
+
+(
+)
+<<Textual>> TotalReturnedInterbankSettlementAmount2Rule
+../../../../../webviewer/36.jpg
+op44fea051002a.htm
+op44fea051002a.txt
+
+
+(
+)
+<<Textual>> OriginalGroupInformationRule
+../../../../../webviewer/36.jpg
+op44a24340034e.htm
+op44a24340034e.txt
+
+
+(
+)
+<<Textual>> SettlementMethodRule
+../../../../../webviewer/36.jpg
+op44fe9e4900f4.htm
+op44fe9e4900f4.txt
+
+
+(
+)
+)
+Associations
+../../../../../webviewer/assoccat.gif
+
+
+
+
+(
+Association (GroupHeader:GroupHeader6) (thePaymentReturnV01:PaymentReturnV01)
+../../../../../webviewer/81.jpg
+../../../../../looseends/ass4384772502e1.htm
+../../../../../looseends/ass4384772502e1.txt
+
+
+(
+GroupHeader6 ( GroupHeader )
+../../../../../webviewer/82.jpg
+../../../../../looseends/role438477260206.htm
+
+
+
+PaymentReturnV01 ( thePaymentReturnV01 )
+../../../../../webviewer/82.jpg
+../../../../../looseends/role438477260210.htm
+
+
+
+)
+Association (TransactionInformation:PaymentTransactionInformation2) (thePaymentReturnV01:PaymentReturnV01)
+../../../../../webviewer/81.jpg
+../../../../../looseends/ass438b0e4400d7.htm
+../../../../../looseends/ass438b0e4400d7.txt
+
+
+(
+PaymentTransactionInformation2 ( TransactionInformation )
+../../../../../webviewer/82.jpg
+../../../../../looseends/role438b0e450024.htm
+
+
+
+PaymentReturnV01 ( thePaymentReturnV01 )
+../../../../../webviewer/82.jpg
+../../../../../looseends/role438b0e45002e.htm
+
+
+
+)
+Association (OriginalGroupInformation:OriginalGroupInformation2) (thePaymentReturnV01:PaymentReturnV01)
+../../../../../webviewer/81.jpg
+../../../../../looseends/ass446b3080007c.htm
+../../../../../looseends/ass446b3080007c.txt
+
+
+(
+OriginalGroupInformation2 ( OriginalGroupInformation )
+../../../../../webviewer/82.jpg
+../../../../../looseends/role446b30810196.htm
+
+
+
+PaymentReturnV01 ( thePaymentReturnV01 )
+../../../../../webviewer/82.jpg
+../../../../../looseends/role446b30810198.htm
+
+
+
+)
+)

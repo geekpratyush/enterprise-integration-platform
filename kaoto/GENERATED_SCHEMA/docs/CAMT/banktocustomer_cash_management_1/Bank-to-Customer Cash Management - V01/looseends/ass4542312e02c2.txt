@@ -1,0 +1,1 @@
+Set of elements providing information on the underlying transaction (s).

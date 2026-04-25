@@ -1,0 +1,1 @@
+Identifies whether an order is a non-margin, an opening margin or a closing margin order.

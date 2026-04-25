@@ -1,0 +1,1 @@
+Order contains physical delivery details but the fund can not be physically delivered.

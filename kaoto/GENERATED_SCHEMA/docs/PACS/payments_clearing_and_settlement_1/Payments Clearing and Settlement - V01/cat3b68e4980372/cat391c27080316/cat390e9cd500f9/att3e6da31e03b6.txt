@@ -1,0 +1,1 @@
+Difference between the value of a future and the value of the underlying equities after allowing for the discounted cash flows associated with the underlying stocks.

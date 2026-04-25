@@ -1,0 +1,1 @@
+Specifies whether the baseline has to be pushed to the other party or simply lodged.

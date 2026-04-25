@@ -1,0 +1,1 @@
+Measure of prepayment as a monthly percentage of the original loan balance.

@@ -1,0 +1,1 @@
+Details of the forward leg of a swap that has been bought and is being returned, ie, sold back.

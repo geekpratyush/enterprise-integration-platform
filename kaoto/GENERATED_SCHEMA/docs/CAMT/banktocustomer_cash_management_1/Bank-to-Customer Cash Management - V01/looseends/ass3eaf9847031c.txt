@@ -1,0 +1,1 @@
+Information related to the account into which the financial instrument was received.

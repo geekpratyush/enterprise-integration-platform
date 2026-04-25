@@ -1,0 +1,1 @@
+The payment order (either the entire order or some of the individual transactions contained in the order) is rejected because of business reasons as defined by the business rules which are applied to validate the payment orders.  

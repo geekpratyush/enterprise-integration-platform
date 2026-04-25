@@ -1,0 +1,2 @@
+Indicates from/until when an order must be executed. 
+

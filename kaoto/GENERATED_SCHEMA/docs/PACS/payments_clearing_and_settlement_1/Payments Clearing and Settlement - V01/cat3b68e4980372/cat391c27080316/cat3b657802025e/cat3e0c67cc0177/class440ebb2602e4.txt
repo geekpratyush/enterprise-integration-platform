@@ -1,0 +1,1 @@
+Information on the charges related to the payment transaction.

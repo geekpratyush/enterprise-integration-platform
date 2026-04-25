@@ -1,0 +1,1 @@
+Specifies if an instruction is for a market side or a client side transaction.

@@ -1,0 +1,19 @@
+The initiating party can receive from the forwarding and/or first agents different status reports for the payment order. 
+
+The payment status report can be produced at different stages of the processing and may have a different business value (depending on the checks performed : payment authentication, syntax validation,  risk assessment, etc). 
+In the case of a relay scenario, there may be a duplication of payment status reports when e.g. a first risk analysis report is produced by the agent acting as a forwarding agent and a second risk analysis report be produced by the first agent (acting as the executing agent in that case). 
+Payment status report can only concern the rejected items for a given payment order group or encompass both positive and negative (i.e. rejections) acknowledgement for the items in the payment order group.  It may optionally report on pre-agreed repair action taken by the bank (be it first agent or instructed agent).
+
+ 
+At any stage, the payment status report expresses whether the payment order is accepted for further processing (i.e. valid from a syntax, business content, risk analysis point of view) or rejected and the reason for rejection or whether the payment has been repaired and how.  
+
+Depending on agreement between the initiating party and the first agent (or forwarding agent in relay scenario), the payment orders may be rejected as a whole or partially.  The rejection criteria can be fixed as a percentage or an absolute number of individual rejected orders or other agreed criteria. 
+
+Consequently, in case of reject of all the payment orders, a global status can be returned with the global reason. 
+
+Note : in case of a relay scenario, where the first agent generates the status report, it will first be the forwarding agent who receives the status report. The forwarding agent will then forward the status report to the initiating party.
+
+Note : 'send negative status report' and 'send positive status reports' are subsets of 'send status report'. A negative status report will only include rejected items, a positive status report will include accepted items and repaired items. A 'generic' status report can include a combination of negative and positive status reports.
+
+When the initiating party receives a negative status report (containing rejected items),  based on the negative status message (reject) from the first or forwarding agent, the initiating party analyses the reason for rejection, corrects the information causing this reject and reverses the payment: he removes the payment from remittance in transit and resets the underlying invoices to payable again.
+

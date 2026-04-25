@@ -1,0 +1,1 @@
+Indicates whether the bilateral limit is requested.

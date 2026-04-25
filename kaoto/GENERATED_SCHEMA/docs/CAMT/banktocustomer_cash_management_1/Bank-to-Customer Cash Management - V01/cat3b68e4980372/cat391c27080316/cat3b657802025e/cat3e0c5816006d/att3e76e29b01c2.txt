@@ -1,0 +1,1 @@
+Indicates whether the subject details are requested.

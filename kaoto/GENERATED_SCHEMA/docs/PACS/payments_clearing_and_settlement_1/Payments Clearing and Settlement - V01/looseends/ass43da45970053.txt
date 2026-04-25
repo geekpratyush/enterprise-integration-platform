@@ -1,0 +1,2 @@
+Information related to the price variations of an investment fund class.
+

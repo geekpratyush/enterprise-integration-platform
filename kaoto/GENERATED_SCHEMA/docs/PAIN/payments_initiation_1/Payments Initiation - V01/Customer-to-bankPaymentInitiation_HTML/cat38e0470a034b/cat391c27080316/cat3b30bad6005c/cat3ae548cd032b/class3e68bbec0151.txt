@@ -1,0 +1,1 @@
+Indicates the side of the quote for a multileg, seen from the sell-side perspective.

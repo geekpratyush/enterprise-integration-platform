@@ -1,0 +1,1 @@
+Either InvestmentFundTransactionOutType or ExtendedInvestmentFundTransactionOutType must be present, but not both.

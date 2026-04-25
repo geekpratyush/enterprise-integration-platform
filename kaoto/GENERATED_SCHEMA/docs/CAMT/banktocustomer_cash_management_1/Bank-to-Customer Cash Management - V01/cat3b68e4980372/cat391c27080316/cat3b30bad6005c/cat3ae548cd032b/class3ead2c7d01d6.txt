@@ -1,0 +1,1 @@
+Specifies the method to be used to settle a foreign exchange trade.

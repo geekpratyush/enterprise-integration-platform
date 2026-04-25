@@ -1,0 +1,1 @@
+Transaction is a collection of funds initiated via a credit transfer or direct debit.

@@ -1,0 +1,2 @@
+Order has been placed in suspended state at the request of the client.
+

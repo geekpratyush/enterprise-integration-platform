@@ -1,0 +1,12 @@
+# ==============================================================
+# Oracle TCPS Security Override for Java 21+
+# ==============================================================
+# Java 21 disables TLS_RSA_* cipher suites by default.
+# Oracle's TCPS listener ONLY supports RSA key exchange.
+# This file re-enables them by defining the disabled list
+# WITHOUT the TLS_RSA_* entry.
+#
+# MUST be loaded with: -Djava.security.properties==<path>
+# (double equals forces COMPLETE override of this property)
+# ==============================================================
+jdk.tls.disabledAlgorithms=SSLv3, TLSv1, TLSv1.1, DTLSv1.0, RC4, DES, MD5withRSA, DH keySize < 1024, EC keySize < 224, 3DES_EDE_CBC, anon, NULL

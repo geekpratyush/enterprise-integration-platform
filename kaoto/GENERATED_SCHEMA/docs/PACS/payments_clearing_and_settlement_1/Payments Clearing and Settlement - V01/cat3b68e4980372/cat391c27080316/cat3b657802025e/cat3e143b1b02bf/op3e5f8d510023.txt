@@ -1,0 +1,1 @@
+If BulkCashSettlementDetails is present, then Currency in OrderToBeCancelled/Amount and/or OrderToBeCancelled/RequestedSettlementCurrency must be the same in all occurrences of OrderToBeCancelled.

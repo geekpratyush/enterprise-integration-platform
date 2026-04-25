@@ -1,0 +1,84 @@
+RoundingParameters
+../../../../webviewer/18.jpg
+dgm3e0c2554009c.htm
+
+
+
+(
+)
+<<MessageComponent>> RoundingParameters1
+../../../../webviewer/143.jpg
+class3e0b28fe0233.htm
+
+
+
+(
+RoundingModulus[0..1]
+../../../../webviewer/31.jpg
+att3e0b28fe0235.htm
+
+
+
+(
+)
+RoundingDirection
+../../../../webviewer/31.jpg
+att3e0b28fe0236.htm
+
+
+
+(
+)
+theRoundingParameters ( RoundingParameters )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e0c25780271.htm
+
+
+
+theInvestmentAccount16 ( InvestmentAccount16 )
+../../../../webviewer/82.jpg
+../../../../looseends/role426e572701cf.htm
+
+
+
+theInvestmentAccount17 ( InvestmentAccount17 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4280de03023f.htm
+
+
+
+theInvestmentAccount18 ( InvestmentAccount18 )
+../../../../webviewer/82.jpg
+../../../../looseends/role428225400167.htm
+
+
+
+)
+Associations
+../../../../webviewer/assoccat.gif
+
+
+
+
+(
+<<SWSTrace>> (theRoundingParameters:RoundingParameters) (theRoundingParameters1:RoundingParameters1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3e0c257703d8.htm
+
+
+
+(
+RoundingParameters ( theRoundingParameters )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e0c25780261.htm
+
+
+
+RoundingParameters1 ( theRoundingParameters1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e0c25780271.htm
+
+
+
+)
+)

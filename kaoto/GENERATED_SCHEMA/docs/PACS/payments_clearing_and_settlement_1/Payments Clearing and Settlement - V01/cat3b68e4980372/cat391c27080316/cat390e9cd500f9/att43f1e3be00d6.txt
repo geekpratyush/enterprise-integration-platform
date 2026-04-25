@@ -1,0 +1,1 @@
+Specifies the type of the document for example commercial invoice, purchase order.

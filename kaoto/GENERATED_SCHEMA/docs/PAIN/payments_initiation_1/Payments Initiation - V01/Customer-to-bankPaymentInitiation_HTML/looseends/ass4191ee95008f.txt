@@ -1,0 +1,10 @@
+OrderType: type changed from FundOrderType1Code to FundOrderType1 which uses FundOrderType2Code: new codes have been added, eg,  STAF, OTHR and the element AdditionalInformation has been added for use with OTHR.
+OrderType: multiplicity changed to repetitive.
+Amount:renamed to NetAmount. 
+Rounding: new.
+Gross Amount: new.
+GrossAmountIndicator: deleted.
+ForeignExchangeDetails: new.
+UnitsNumberOrAmountOrRateRule: renamed to UnitsNumberOrNetAmountOrRateRule and modified.
+GrossAmountIndicatorRule: deleted.
+NetAmountGrossAmountRule: new.

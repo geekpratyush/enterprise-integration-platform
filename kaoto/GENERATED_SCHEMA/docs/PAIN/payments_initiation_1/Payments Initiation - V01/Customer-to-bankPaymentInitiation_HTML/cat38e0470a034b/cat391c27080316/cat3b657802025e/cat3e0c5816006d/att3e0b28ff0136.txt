@@ -1,0 +1,2 @@
+Indicates whether there is activity reported in the statement.
+

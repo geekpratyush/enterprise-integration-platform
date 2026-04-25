@@ -1,0 +1,1 @@
+Specifies the type of assets in which the fund invests.

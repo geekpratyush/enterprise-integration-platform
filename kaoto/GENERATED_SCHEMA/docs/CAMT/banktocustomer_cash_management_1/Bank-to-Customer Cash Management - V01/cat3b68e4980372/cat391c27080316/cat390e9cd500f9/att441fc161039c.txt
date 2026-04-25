@@ -1,0 +1,1 @@
+Date and time by which the vote instructions should be submitted to the intermediary to take advantage of the premium (STP mode).

@@ -1,0 +1,1 @@
+Price of the financial instrument in one or more currencies.

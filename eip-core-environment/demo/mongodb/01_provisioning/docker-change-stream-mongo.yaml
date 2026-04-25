@@ -1,0 +1,25 @@
+# docker-change-stream-mongo.yaml
+# MISSION: Change Stream / CDC Verification (Port 27030)
+# STATUS: Highly Isolated (Different Container Name & Port)
+
+services:
+  mongo-change-stream:
+    image: mongo:latest
+    container_name: mongo-change-stream
+    hostname: mongo-change-stream
+    ports:
+      - "${EIP_MONGO_PORT:-27017}:27017" # Dynamic port mapping from profile
+    environment:
+      # Administrative Credentials mapping for secure/replica scenarios
+      MONGO_INITDB_ROOT_USERNAME: ${EIP_MONGO_ROOT_USER:-}
+      MONGO_INITDB_ROOT_PASSWORD: ${EIP_MONGO_ROOT_PASS:-}
+    volumes:
+      - ../02_initialization/certs/${SCENARIO}:/etc/mongodb/certs:ro
+    command: >
+      bash -c "if [ -f /etc/mongodb/certs/replica.key ]; then cp /etc/mongodb/certs/replica.key /tmp/replica.key && chown 999:999 /tmp/replica.key && chmod 400 /tmp/replica.key; fi; exec docker-entrypoint.sh mongod ${EIP_MONGO_CMD_ARGS:-}"
+    healthcheck:
+      # We disable the internal healthcheck for CDC because the Orchestrator handles SSL-aware health logic externally
+      test: ["CMD", "true"]
+      interval: 10s
+      timeout: 5s
+      retries: 5

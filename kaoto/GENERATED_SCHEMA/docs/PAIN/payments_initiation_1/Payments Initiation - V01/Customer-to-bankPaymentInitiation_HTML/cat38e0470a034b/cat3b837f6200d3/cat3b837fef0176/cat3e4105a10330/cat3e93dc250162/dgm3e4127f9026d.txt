@@ -1,0 +1,9 @@
+In this scenario,  the debtor (ie the account owner) is the one initiating the payment on behalf of another party, ie the originating party that receives the invoice.  This is for example the case if a Head Office is initiating the payments on behalf of all its subsidiaries.  The debtor's (ie the Head Office's) account is held by the first agent.  On the credit side, the final party which needs to be paid is a subsidiary as well.  However, it's the Head Office as well that is identified as creditor as they hold the account to which the payment needs to be made.
+
+Notes: 
+
+1) Assumption is that Payment Initiation Status is positive. The sending of and the content of a Payment Initiation Status message depends on bilateral service agreed between first agent and initiating party.
+2)  At requested execution date, the first agent will debit the account of the debtor. Once the first agent debits the account of the debtor (at requested execution date), it may  need to generate customer debit advice and/or statement - depending on service agreed between debtor/initiating party and the first agent and depending on legal requirements. The advice and/or statement info will normally be sent to the debtor, unless otherwise agreed between debtor and first agent.
+3) There is no indication of chronological order in the status/debit advice/statement information sent in the scenario above, as this will also depend on agreements between debtor/initiating party and the first agent, but banks implementing and offering these services will define a logical, chronological sequence for sending these messages.
+4) Furthermore, there may also be interbank advices/statements exchanged, but these are not included in the diagram as this will depend on the settlement method chosen between first and final agent.
+

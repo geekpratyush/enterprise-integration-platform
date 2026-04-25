@@ -1,0 +1,1 @@
+If PhysicalTransferIndicator is "true" or "1" (Yes), then PhysicalTransferDetails must be present. If PhysicalTransferIndicator is "false" or "0" (No),  then PhysicalTransferDetails is not allowed.

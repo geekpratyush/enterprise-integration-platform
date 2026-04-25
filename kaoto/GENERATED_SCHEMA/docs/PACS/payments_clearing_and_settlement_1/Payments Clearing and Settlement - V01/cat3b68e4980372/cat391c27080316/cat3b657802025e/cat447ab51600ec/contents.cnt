@@ -1,0 +1,2864 @@
+<<ChoiceComponent>> CancellationReason1Choice
+../../../../webviewer/143.jpg
+class447227590036.htm
+class447227590036.txt
+
+
+(
+Code
+../../../../webviewer/31.jpg
+att447227590041.htm
+att447227590041.txt
+
+
+(
+)
+Proprietary
+../../../../webviewer/33.jpg
+att447227590054.htm
+att447227590054.txt
+
+
+(
+)
+theTransactionReason ( TransactionReason )
+../../../../webviewer/82.jpg
+../../../../looseends/role447d93b20004.htm
+
+
+
+theCancellationReasonInformation1 ( CancellationReasonInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role447222e501aa.htm
+
+
+
+)
+<<MessageComponent>> CancellationReasonInformation1
+../../../../webviewer/142.jpg
+class447222e50181.htm
+class447222e50181.txt
+
+
+(
+AdditionalCancellationReasonInformation[0..n]
+../../../../webviewer/31.jpg
+att447222e50196.htm
+att447222e50196.txt
+
+
+(
+)
+theOriginalGroupInformation4 ( OriginalGroupInformation4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role447226c403a3.htm
+
+
+
+thePaymentTransactionInformation3 ( PaymentTransactionInformation3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role44722a010049.htm
+
+
+
+theTransactionReason ( TransactionReason )
+../../../../webviewer/82.jpg
+../../../../looseends/role447c0b550219.htm
+
+
+
+CancellationReason ( CancellationReason1Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role447222e501b3.htm
+
+
+
+CancellationOriginator ( PartyIdentification8 )
+../../../../webviewer/82.jpg
+../../../../looseends/role447222e501ca.htm
+
+
+
+)
+<<MessageComponent>> StatusReasonInformation1
+../../../../webviewer/142.jpg
+class4472302a0370.htm
+class4472302a0370.txt
+
+
+(
+AdditionalStatusReasonInformation[0..n]
+../../../../webviewer/31.jpg
+att4472313f01c0.htm
+att4472313f01c0.txt
+
+
+(
+)
+theOriginalGroupInformation1 ( OriginalGroupInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4472324c00eb.htm
+
+
+
+thePaymentTransactionInformation1 ( PaymentTransactionInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role447235600210.htm
+
+
+
+theTransactionReason ( TransactionReason )
+../../../../webviewer/82.jpg
+../../../../looseends/role447d6e920349.htm
+
+
+
+StatusReason ( StatusReason1Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role4472302a039a.htm
+
+
+
+StatusOriginator ( PartyIdentification8 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4472302a03b0.htm
+
+
+
+theStatusReasonInformation2 ( StatusReasonInformation2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role451839e90129.htm
+
+
+
+theStatusReasonInformation3 ( StatusReasonInformation3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4535d6d40253.htm
+
+
+
+theStatusReasonInformation4 ( StatusReasonInformation4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456df64e0300.htm
+
+
+
+theStatusReasonInformation5 ( StatusReasonInformation5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4581b39900b3.htm
+
+
+
+<<Textual>> StatusReasonRule
+../../../../webviewer/36.jpg
+op449901d202bf.htm
+op449901d202bf.txt
+
+
+(
+)
+)
+<<ChoiceComponent>> StatusReason1Choice
+../../../../webviewer/143.jpg
+class4472301a020f.htm
+class4472301a020f.txt
+
+
+(
+Code
+../../../../webviewer/31.jpg
+att4472301a0223.htm
+att4472301a0223.txt
+
+
+(
+)
+Proprietary
+../../../../webviewer/33.jpg
+att4472301a0237.htm
+att4472301a0237.txt
+
+
+(
+)
+theTransactionReason ( TransactionReason )
+../../../../webviewer/82.jpg
+../../../../looseends/role447d6e9803d4.htm
+
+
+
+theStatusReasonInformation1 ( StatusReasonInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4472302a038f.htm
+
+
+
+theStatusReason2Choice ( StatusReason2Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role451b2b82013e.htm
+
+
+
+theStatusReasonInformation3 ( StatusReasonInformation3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4535d6c901fd.htm
+
+
+
+theStatusReason3Choice ( StatusReason3Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role456df6a400c8.htm
+
+
+
+theStatusReasonInformation5 ( StatusReasonInformation5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4581b3620124.htm
+
+
+
+)
+<<MessageComponent>> ReversalReasonInformation1
+../../../../webviewer/142.jpg
+class4472f7cb0207.htm
+class4472f7cb0207.txt
+
+
+(
+AdditionalReversalReasonInformation[0..n]
+../../../../webviewer/31.jpg
+att4472f7cb021b.htm
+att4472f7cb021b.txt
+
+
+(
+)
+theOriginalGroupInformation5 ( OriginalGroupInformation5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4472f72a0171.htm
+
+
+
+thePaymentTransactionInformation4 ( PaymentTransactionInformation4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role44732f4c006f.htm
+
+
+
+thePaymentTransactionInformation5 ( PaymentTransactionInformation5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4472fa4c01f6.htm
+
+
+
+theTransactionReason ( TransactionReason )
+../../../../webviewer/82.jpg
+../../../../looseends/role447d7bf10207.htm
+
+
+
+ReversalReason ( ReversalReason1Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role4472f7cb0232.htm
+
+
+
+ReversalOriginator ( PartyIdentification8 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4472f7cb0262.htm
+
+
+
+theReversalReasonInformation2 ( ReversalReasonInformation2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4517d3ea024c.htm
+
+
+
+theReversalReasonInformation3 ( ReversalReasonInformation3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role45179083032f.htm
+
+
+
+theReversalReasonInformation4 ( ReversalReasonInformation4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456de844026b.htm
+
+
+
+theReversalReasonInformation5 ( ReversalReasonInformation5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role457ecf31016f.htm
+
+
+
+)
+<<MessageComponent>> ReturnReasonInformation1
+../../../../webviewer/142.jpg
+class446b2e0f039c.htm
+class446b2e0f039c.txt
+
+
+(
+AdditionalReturnReasonInformation[0..n]
+../../../../webviewer/31.jpg
+att446b2e3a0312.htm
+att446b2e3a0312.txt
+
+
+(
+)
+theOriginalGroupInformation2 ( OriginalGroupInformation2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role446b2f0a0211.htm
+
+
+
+thePaymentTransactionInformation2 ( PaymentTransactionInformation2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role446c5678037f.htm
+
+
+
+theTransactionReason ( TransactionReason )
+../../../../webviewer/82.jpg
+../../../../looseends/role447d7c740081.htm
+
+
+
+ReturnOriginator ( PartyIdentification8 )
+../../../../webviewer/82.jpg
+../../../../looseends/role446b2f4d033b.htm
+
+
+
+ReturnReason ( ReturnReason1Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role446b2ebc0039.htm
+
+
+
+theReturnReasonInformation2 ( ReturnReasonInformation2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role451b2d1d01a3.htm
+
+
+
+theReturnReasonInformation3 ( ReturnReasonInformation3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4535d64b0235.htm
+
+
+
+theReturnReasonInformation4 ( ReturnReasonInformation4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456e9d730163.htm
+
+
+
+<<Textual>> ReturnReasonRule
+../../../../webviewer/36.jpg
+op44fe898c01c7.htm
+op44fe898c01c7.txt
+
+
+(
+)
+)
+<<ChoiceComponent>> ReversalReason1Choice
+../../../../webviewer/143.jpg
+class4472f86b037a.htm
+class4472f86b037a.txt
+
+
+(
+Code
+../../../../webviewer/31.jpg
+att4472f914025a.htm
+att4472f914025a.txt
+
+
+(
+)
+Proprietary
+../../../../webviewer/33.jpg
+att4472f86c001e.htm
+att4472f86c001e.txt
+
+
+(
+)
+theTransactionReason ( TransactionReason )
+../../../../webviewer/82.jpg
+../../../../looseends/role447d7c4a0379.htm
+
+
+
+theReversalReasonInformation1 ( ReversalReasonInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4472f7cb0230.htm
+
+
+
+theReversalReason2Choice ( ReversalReason2Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role4517d3e402ed.htm
+
+
+
+theReversalReasonInformation3 ( ReversalReasonInformation3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role45178ff703d0.htm
+
+
+
+theReversalReason3Choice ( ReversalReason3Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role456de8b2027e.htm
+
+
+
+theReversalReasonInformation5 ( ReversalReasonInformation5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role457ebec6015f.htm
+
+
+
+)
+<<ChoiceComponent>> ReturnReason1Choice
+../../../../webviewer/143.jpg
+class446b2e7903c9.htm
+class446b2e7903c9.txt
+
+
+(
+Code
+../../../../webviewer/31.jpg
+att446b2e7903d4.htm
+att446b2e7903d4.txt
+
+
+(
+)
+Proprietary
+../../../../webviewer/33.jpg
+att446b2e7903e7.htm
+att446b2e7903e7.txt
+
+
+(
+)
+theTransactionReason ( TransactionReason )
+../../../../webviewer/82.jpg
+../../../../looseends/role447d7c78002e.htm
+
+
+
+theReturnReasonInformation1 ( ReturnReasonInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role446b2ebc0037.htm
+
+
+
+theReturnReason2Choice ( ReturnReason2Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role451b2d540379.htm
+
+
+
+theReturnReasonInformation3 ( ReturnReasonInformation3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4535d5f7031a.htm
+
+
+
+theReturnReason3Choice ( ReturnReason3Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role456ea1d00386.htm
+
+
+
+theReturnReasonInformation5 ( ReturnReasonInformation5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role453dd6020057.htm
+
+
+
+)
+<<MessageComponent>> StatusReasonInformation2
+../../../../webviewer/142.jpg
+class4518399c03d1.htm
+class4518399c03d1.txt
+
+
+(
+theOriginalGroupInformation6 ( OriginalGroupInformation6 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4518386003c3.htm
+
+
+
+thePaymentTransactionInformation6 ( PaymentTransactionInformation6 )
+../../../../webviewer/82.jpg
+../../../../looseends/role45183a0a036c.htm
+
+
+
+theTransactionReason ( TransactionReason )
+../../../../webviewer/82.jpg
+../../../../looseends/role4518399d003c.htm
+
+
+
+StatusReason ( StatusReason2Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role4518399d005a.htm
+
+
+
+theStatusReasonInformation1 ( StatusReasonInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role451839e90151.htm
+
+
+
+StatusOriginator ( PartyIdentification14 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4518399d0094.htm
+
+
+
+)
+<<ChoiceComponent>> StatusReason2Choice
+../../../../webviewer/143.jpg
+class451b2b7100c1.htm
+class451b2b7100c1.txt
+
+
+(
+Code
+../../../../webviewer/31.jpg
+att451b2b7100cc.htm
+att451b2b7100cc.txt
+
+
+(
+)
+Proprietary
+../../../../webviewer/33.jpg
+att451b2b7100e9.htm
+att451b2b7100e9.txt
+
+
+(
+)
+theStatusReasonInformation2 ( StatusReasonInformation2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4518399d0058.htm
+
+
+
+theTransactionReason ( TransactionReason )
+../../../../webviewer/82.jpg
+../../../../looseends/role451b2b710100.htm
+
+
+
+theStatusReason1Choice ( StatusReason1Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role451b2b820148.htm
+
+
+
+)
+<<MessageComponent>> ReversalReasonInformation2
+../../../../webviewer/142.jpg
+class45179dd9003f.htm
+class45179dd9003f.txt
+
+
+(
+theOriginalGroupInformation9 ( OriginalGroupInformation9 )
+../../../../webviewer/82.jpg
+../../../../looseends/role45179d040059.htm
+
+
+
+thePaymentTransactionInformation8 ( PaymentTransactionInformation8 )
+../../../../webviewer/82.jpg
+../../../../looseends/role45179d3602da.htm
+
+
+
+theTransactionReason ( TransactionReason )
+../../../../webviewer/82.jpg
+../../../../looseends/role45179dd9006a.htm
+
+
+
+theReversalReasonInformation1 ( ReversalReasonInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4517d3ea0256.htm
+
+
+
+ReversalOriginator ( PartyIdentification14 )
+../../../../webviewer/82.jpg
+../../../../looseends/role45179dd900a4.htm
+
+
+
+ReversalReason ( ReversalReason2Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role45179dd9007f.htm
+
+
+
+)
+<<ChoiceComponent>> ReversalReason2Choice
+../../../../webviewer/143.jpg
+class45179eb1039d.htm
+class45179eb1039d.txt
+
+
+(
+Code
+../../../../webviewer/31.jpg
+att45179eb103b2.htm
+att45179eb103b2.txt
+
+
+(
+)
+Proprietary
+../../../../webviewer/33.jpg
+att451aef4a029f.htm
+att451aef4a029f.txt
+
+
+(
+)
+theReversalReasonInformation2 ( ReversalReasonInformation2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role45179dd9007d.htm
+
+
+
+theTransactionReason ( TransactionReason )
+../../../../webviewer/82.jpg
+../../../../looseends/role45179eb20007.htm
+
+
+
+theReversalReason1Choice ( ReversalReason1Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role4517d3e402f7.htm
+
+
+
+)
+<<MessageComponent>> ReturnReasonInformation2
+../../../../webviewer/142.jpg
+class451b2c980274.htm
+class451b2c980274.txt
+
+
+(
+thePaymentTransactionInformation7 ( PaymentTransactionInformation7 )
+../../../../webviewer/82.jpg
+../../../../looseends/role451852d600d5.htm
+
+
+
+ReturnReason ( ReturnReason2Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role451b2c9802db.htm
+
+
+
+theTransactionReason ( TransactionReason )
+../../../../webviewer/82.jpg
+../../../../looseends/role451b2c9802a9.htm
+
+
+
+theReturnReasonInformation1 ( ReturnReasonInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role451b2d1d01b7.htm
+
+
+
+ReturnOriginator ( PartyIdentification14 )
+../../../../webviewer/82.jpg
+../../../../looseends/role451b2c9802bd.htm
+
+
+
+)
+<<ChoiceComponent>> ReturnReason2Choice
+../../../../webviewer/143.jpg
+class451b2d3403b9.htm
+class451b2d3403b9.txt
+
+
+(
+Code
+../../../../webviewer/31.jpg
+att451b2d3403ce.htm
+att451b2d3403ce.txt
+
+
+(
+)
+Proprietary
+../../../../webviewer/33.jpg
+att451b2d3403e1.htm
+att451b2d3403e1.txt
+
+
+(
+)
+theTransactionReason ( TransactionReason )
+../../../../webviewer/82.jpg
+../../../../looseends/role451b2d35001a.htm
+
+
+
+theReturnReason1Choice ( ReturnReason1Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role451b2d540383.htm
+
+
+
+theReturnReasonInformation2 ( ReturnReasonInformation2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role451b2c9802d9.htm
+
+
+
+)
+<<MessageComponent>> StatusReasonInformation3
+../../../../webviewer/142.jpg
+class4535d6c9018e.htm
+class4535d6c9018e.txt
+
+
+(
+AdditionalStatusReasonInformation[0..n]
+../../../../webviewer/31.jpg
+att4535d6c901a3.htm
+att4535d6c901a3.txt
+
+
+(
+)
+theOriginalGroupInformation10 ( OriginalGroupInformation10 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4517d5670216.htm
+
+
+
+thePaymentTransactionInformation9 ( PaymentTransactionInformation9 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4517d5880052.htm
+
+
+
+theStatusReasonInformation1 ( StatusReasonInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4535d6d4027b.htm
+
+
+
+theTransactionReason ( TransactionReason )
+../../../../webviewer/82.jpg
+../../../../looseends/role4535d6c901e2.htm
+
+
+
+StatusReason ( StatusReason1Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role4535d6c901ff.htm
+
+
+
+StatusOriginator ( PartyIdentification14 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4535d6c9023a.htm
+
+
+
+<<Textual>> StatusReasonRule
+../../../../webviewer/36.jpg
+op4535d6c90275.htm
+op4535d6c90275.txt
+
+
+(
+)
+)
+<<MessageComponent>> ReversalReasonInformation3
+../../../../webviewer/142.jpg
+class45178ff7036a.htm
+class45178ff7036a.txt
+
+
+(
+AdditionalReversalReasonInformation[0..n]
+../../../../webviewer/31.jpg
+att45178ff70388.htm
+att45178ff70388.txt
+
+
+(
+)
+theOriginalGroupInformation12 ( OriginalGroupInformation12 )
+../../../../webviewer/82.jpg
+../../../../looseends/role45178f9b00e8.htm
+
+
+
+thePaymentTransactionInformation11 ( PaymentTransactionInformation11 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4517920100c2.htm
+
+
+
+theTransactionReason ( TransactionReason )
+../../../../webviewer/82.jpg
+../../../../looseends/role45178ff703bd.htm
+
+
+
+ReversalReason ( ReversalReason1Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role45178ff703d9.htm
+
+
+
+ReversalOriginator ( PartyIdentification14 )
+../../../../webviewer/82.jpg
+../../../../looseends/role45178ff8001b.htm
+
+
+
+theReversalReasonInformation1 ( ReversalReasonInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role451790830339.htm
+
+
+
+)
+<<MessageComponent>> ReturnReasonInformation3
+../../../../webviewer/142.jpg
+class4535d5f70279.htm
+class4535d5f70279.txt
+
+
+(
+AdditionalReturnReasonInformation[0..n]
+../../../../webviewer/31.jpg
+att4535d5f7028d.htm
+att4535d5f7028d.txt
+
+
+(
+)
+theOriginalGroupInformation11 ( OriginalGroupInformation11 )
+../../../../webviewer/82.jpg
+../../../../looseends/role451850420285.htm
+
+
+
+thePaymentTransactionInformation10 ( PaymentTransactionInformation10 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4518508100cc.htm
+
+
+
+thePaymentTransactionInformation16 ( PaymentTransactionInformation16 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4580138902f7.htm
+
+
+
+theTransactionReason ( TransactionReason )
+../../../../webviewer/82.jpg
+../../../../looseends/role4535d5f702c9.htm
+
+
+
+theReturnReasonInformation1 ( ReturnReasonInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4535d64b0267.htm
+
+
+
+ReturnReason ( ReturnReason1Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role4535d5f70323.htm
+
+
+
+ReturnOriginator ( PartyIdentification14 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4535d5f702e8.htm
+
+
+
+<<Textual>> ReturnReasonRule
+../../../../webviewer/36.jpg
+op4535d5f70355.htm
+op4535d5f70355.txt
+
+
+(
+)
+)
+<<MessageComponent>> StatusReasonInformation5
+../../../../webviewer/142.jpg
+class4581b36200be.htm
+class4581b36200be.txt
+
+
+(
+AdditionalStatusReasonInformation[0..n]
+../../../../webviewer/31.jpg
+att4581b36200d3.htm
+att4581b36200d3.txt
+
+
+(
+)
+theOriginalGroupInformation15 ( OriginalGroupInformation15 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4581b2c30341.htm
+
+
+
+thePaymentTransactionInformation15 ( PaymentTransactionInformation15 )
+../../../../webviewer/82.jpg
+../../../../looseends/role457fc86c02c0.htm
+
+
+
+theTransactionReason ( TransactionReason )
+../../../../webviewer/82.jpg
+../../../../looseends/role4581b362010e.htm
+
+
+
+theStatusReasonInformation1 ( StatusReasonInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4581b39900c7.htm
+
+
+
+StatusOriginator ( PartyIdentification14 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4581b3620161.htm
+
+
+
+StatusReason ( StatusReason1Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role4581b362012c.htm
+
+
+
+<<Textual>> StatusReasonRule
+../../../../webviewer/36.jpg
+op4581b362019a.htm
+op4581b362019a.txt
+
+
+(
+)
+)
+<<MessageComponent>> StatusReasonInformation4
+../../../../webviewer/142.jpg
+class456df5d903a2.htm
+class456df5d903a2.txt
+
+
+(
+theOriginalGroupInformation13 ( OriginalGroupInformation13 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456df4d7032a.htm
+
+
+
+thePaymentTransactionInformation12 ( PaymentTransactionInformation12 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456dfa9d036b.htm
+
+
+
+theStatusReasonInformation1 ( StatusReasonInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456df64e0328.htm
+
+
+
+theTransactionReason ( TransactionReason )
+../../../../webviewer/82.jpg
+../../../../looseends/role456df5d903cd.htm
+
+
+
+StatusReason ( StatusReason3Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role456df5da000b.htm
+
+
+
+StatusOriginator ( PartyIdentification14 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456df5da0049.htm
+
+
+
+)
+<<ChoiceComponent>> StatusReason3Choice
+../../../../webviewer/143.jpg
+class456df675000d.htm
+class456df675000d.txt
+
+
+(
+Code
+../../../../webviewer/31.jpg
+att456df6750022.htm
+att456df6750022.txt
+
+
+(
+)
+Proprietary
+../../../../webviewer/33.jpg
+att456df675005d.htm
+att456df675005d.txt
+
+
+(
+)
+theStatusReasonInformation4 ( StatusReasonInformation4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456df5da0002.htm
+
+
+
+theStatusReason1Choice ( StatusReason1Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role456df6a400e7.htm
+
+
+
+theTransactionReason ( TransactionReason )
+../../../../webviewer/82.jpg
+../../../../looseends/role456df6750092.htm
+
+
+
+)
+<<MessageComponent>> ReversalReasonInformation5
+../../../../webviewer/142.jpg
+class457ebec6012b.htm
+class457ebec6012b.txt
+
+
+(
+AdditionalReversalReasonInformation[0..n]
+../../../../webviewer/31.jpg
+att457ebec60136.htm
+att457ebec60136.txt
+
+
+(
+)
+theOriginalGroupInformation16 ( OriginalGroupInformation16 )
+../../../../webviewer/82.jpg
+../../../../looseends/role457ebef50230.htm
+
+
+
+thePaymentTransactionInformation17 ( PaymentTransactionInformation17 )
+../../../../webviewer/82.jpg
+../../../../looseends/role457ebe660244.htm
+
+
+
+theTransactionReason ( TransactionReason )
+../../../../webviewer/82.jpg
+../../../../looseends/role457ebec60155.htm
+
+
+
+theReversalReasonInformation1 ( ReversalReasonInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role457ecf310183.htm
+
+
+
+ReversalOriginator ( PartyIdentification14 )
+../../../../webviewer/82.jpg
+../../../../looseends/role457ebec6017e.htm
+
+
+
+ReversalReason ( ReversalReason1Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role457ebec60167.htm
+
+
+
+)
+<<MessageComponent>> ReversalReasonInformation4
+../../../../webviewer/142.jpg
+class456de83c0378.htm
+class456de83c0378.txt
+
+
+(
+theOriginalGroupInformation14 ( OriginalGroupInformation14 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456de78102c7.htm
+
+
+
+thePaymentTransactionInformation14 ( PaymentTransactionInformation14 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456debb50010.htm
+
+
+
+theTransactionReason ( TransactionReason )
+../../../../webviewer/82.jpg
+../../../../looseends/role456de83c03a3.htm
+
+
+
+theReversalReasonInformation1 ( ReversalReasonInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456de8440280.htm
+
+
+
+ReversalOriginator ( PartyIdentification14 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456de83c03cb.htm
+
+
+
+ReversalReason ( ReversalReason3Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role456de83d0020.htm
+
+
+
+)
+<<ChoiceComponent>> ReversalReason3Choice
+../../../../webviewer/143.jpg
+class456de8830320.htm
+class456de8830320.txt
+
+
+(
+Code
+../../../../webviewer/31.jpg
+att456de883033e.htm
+att456de883033e.txt
+
+
+(
+)
+Proprietary
+../../../../webviewer/33.jpg
+att456de8830370.htm
+att456de8830370.txt
+
+
+(
+)
+theReversalReasonInformation4 ( ReversalReasonInformation4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456de83d001e.htm
+
+
+
+theTransactionReason ( TransactionReason )
+../../../../webviewer/82.jpg
+../../../../looseends/role456de884000e.htm
+
+
+
+theReversalReason1Choice ( ReversalReason1Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role456de8b20288.htm
+
+
+
+)
+<<MessageComponent>> ReturnReasonInformation4
+../../../../webviewer/142.jpg
+class456e9d51027d.htm
+class456e9d51027d.txt
+
+
+(
+thePaymentTransactionInformation13 ( PaymentTransactionInformation13 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456e9b1b01b2.htm
+
+
+
+theTransactionReason ( TransactionReason )
+../../../../webviewer/82.jpg
+../../../../looseends/role456e9d5102d0.htm
+
+
+
+theReturnReasonInformation1 ( ReturnReasonInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456e9d730181.htm
+
+
+
+ReturnOriginator ( PartyIdentification14 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456e9d5102f6.htm
+
+
+
+ReturnReason ( ReturnReason3Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role456e9d51029e.htm
+
+
+
+)
+<<ChoiceComponent>> ReturnReason3Choice
+../../../../webviewer/143.jpg
+class456ea15a007a.htm
+class456ea15a007a.txt
+
+
+(
+Code
+../../../../webviewer/31.jpg
+att456ea15a008f.htm
+att456ea15a008f.txt
+
+
+(
+)
+Proprietary
+../../../../webviewer/33.jpg
+att456ea15a00c0.htm
+att456ea15a00c0.txt
+
+
+(
+)
+theReturnReasonInformation4 ( ReturnReasonInformation4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456e9d51029c.htm
+
+
+
+theReturnReason1Choice ( ReturnReason1Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role456ea1d0039a.htm
+
+
+
+theTransactionReason ( TransactionReason )
+../../../../webviewer/82.jpg
+../../../../looseends/role456ea15a00f4.htm
+
+
+
+)
+<<MessageComponent>> ReturnReasonInformation5
+../../../../webviewer/142.jpg
+class453dd6020006.htm
+class453dd6020006.txt
+
+
+(
+AdditionalReturnReasonInformation[0..n]
+../../../../webviewer/31.jpg
+att453dd6020011.htm
+att453dd6020011.txt
+
+
+(
+)
+theEntryTransaction1 ( EntryTransaction1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role453f6dbc0122.htm
+
+
+
+theTransactionReason ( TransactionReason )
+../../../../webviewer/82.jpg
+../../../../looseends/role453dd6020031.htm
+
+
+
+ReturnReason ( ReturnReason1Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role453dd6020061.htm
+
+
+
+OriginalBankTransactionCode ( BankTransactionCodeStructure1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role454628000188.htm
+
+
+
+ReturnOriginator ( PartyIdentification8 )
+../../../../webviewer/82.jpg
+../../../../looseends/role453dd6020042.htm
+
+
+
+<<Textual>> ReturnReasonRule
+../../../../webviewer/36.jpg
+op453dd6020074.htm
+op453dd6020074.txt
+
+
+(
+)
+)
+Associations
+../../../../webviewer/assoccat.gif
+
+
+
+
+(
+<<SWSTrace>> (theTransactionReason:TransactionReason) (theCancellationReasonInformation1:CancellationReasonInformation1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass447c0b540374.htm
+
+
+
+(
+TransactionReason ( theTransactionReason )
+../../../../webviewer/82.jpg
+../../../../looseends/role447c0b550217.htm
+
+
+
+CancellationReasonInformation1 ( theCancellationReasonInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role447c0b550219.htm
+
+
+
+)
+<<SWSTrace>> (theTransactionReason:TransactionReason) (theCancellationReason1Choice:CancellationReason1Choice)
+../../../../webviewer/81.jpg
+../../../../looseends/ass447d93b10066.htm
+
+
+
+(
+TransactionReason ( theTransactionReason )
+../../../../webviewer/82.jpg
+../../../../looseends/role447d93b1037d.htm
+
+
+
+CancellationReason1Choice ( theCancellationReason1Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role447d93b20004.htm
+
+
+
+)
+<<SWSTrace>> (theTransactionReason:TransactionReason) (theStatusReasonInformation1:StatusReasonInformation1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass447d6e910328.htm
+
+
+
+(
+TransactionReason ( theTransactionReason )
+../../../../webviewer/82.jpg
+../../../../looseends/role447d6e920347.htm
+
+
+
+StatusReasonInformation1 ( theStatusReasonInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role447d6e920349.htm
+
+
+
+)
+<<SWSTrace>> (theTransactionReason:TransactionReason) (theStatusReason1Choice:StatusReason1Choice)
+../../../../webviewer/81.jpg
+../../../../looseends/ass447d6e9703e5.htm
+
+
+
+(
+TransactionReason ( theTransactionReason )
+../../../../webviewer/82.jpg
+../../../../looseends/role447d6e9803d2.htm
+
+
+
+StatusReason1Choice ( theStatusReason1Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role447d6e9803d4.htm
+
+
+
+)
+<<SWSTrace>> (theTransactionReason:TransactionReason) (theReversalReasonInformation1:ReversalReasonInformation1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass447d7bf0036e.htm
+
+
+
+(
+TransactionReason ( theTransactionReason )
+../../../../webviewer/82.jpg
+../../../../looseends/role447d7bf101fd.htm
+
+
+
+ReversalReasonInformation1 ( theReversalReasonInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role447d7bf10207.htm
+
+
+
+)
+<<SWSTrace>> (theTransactionReason:TransactionReason) (theReversalReason1Choice:ReversalReason1Choice)
+../../../../webviewer/81.jpg
+../../../../looseends/ass447d7c4a0058.htm
+
+
+
+(
+TransactionReason ( theTransactionReason )
+../../../../webviewer/82.jpg
+../../../../looseends/role447d7c4a036f.htm
+
+
+
+ReversalReason1Choice ( theReversalReason1Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role447d7c4a0379.htm
+
+
+
+)
+<<SWSTrace>> (theTransactionReason:TransactionReason) (theReturnReasonInformation1:ReturnReasonInformation1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass447d7c730301.htm
+
+
+
+(
+TransactionReason ( theTransactionReason )
+../../../../webviewer/82.jpg
+../../../../looseends/role447d7c740077.htm
+
+
+
+ReturnReasonInformation1 ( theReturnReasonInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role447d7c740081.htm
+
+
+
+)
+<<SWSTrace>> (theTransactionReason:TransactionReason) (theReturnReason1Choice:ReturnReason1Choice)
+../../../../webviewer/81.jpg
+../../../../looseends/ass447d7c77014e.htm
+
+
+
+(
+TransactionReason ( theTransactionReason )
+../../../../webviewer/82.jpg
+../../../../looseends/role447d7c78000f.htm
+
+
+
+ReturnReason1Choice ( theReturnReason1Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role447d7c78002e.htm
+
+
+
+)
+Association (ReturnOriginator:PartyIdentification8) (theReturnReasonInformation1:ReturnReasonInformation1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass446b2f4c02d6.htm
+../../../../looseends/ass446b2f4c02d6.txt
+
+
+(
+PartyIdentification8 ( ReturnOriginator )
+../../../../webviewer/82.jpg
+../../../../looseends/role446b2f4d0313.htm
+
+
+
+ReturnReasonInformation1 ( theReturnReasonInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role446b2f4d033b.htm
+
+
+
+)
+Association (ReturnReason:ReturnReason1Choice) (theReturnReasonInformation1:ReturnReasonInformation1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass446b2eba0369.htm
+../../../../looseends/ass446b2eba0369.txt
+
+
+(
+ReturnReason1Choice ( ReturnReason )
+../../../../webviewer/82.jpg
+../../../../looseends/role446b2ebc0037.htm
+
+
+
+ReturnReasonInformation1 ( theReturnReasonInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role446b2ebc0039.htm
+
+
+
+)
+Association (StatusReason:StatusReason1Choice) (theStatusReasonInformation1:StatusReasonInformation1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4472302a038e.htm
+../../../../looseends/ass4472302a038e.txt
+
+
+(
+StatusReason1Choice ( StatusReason )
+../../../../webviewer/82.jpg
+../../../../looseends/role4472302a038f.htm
+
+
+
+StatusReasonInformation1 ( theStatusReasonInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4472302a039a.htm
+
+
+
+)
+Association (StatusOriginator:PartyIdentification8) (theStatusReasonInformation1:StatusReasonInformation1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4472302a03ad.htm
+../../../../looseends/ass4472302a03ad.txt
+
+
+(
+PartyIdentification8 ( StatusOriginator )
+../../../../webviewer/82.jpg
+../../../../looseends/role4472302a03ae.htm
+
+
+
+StatusReasonInformation1 ( theStatusReasonInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4472302a03b0.htm
+
+
+
+)
+Association (ReversalReason:ReversalReason1Choice) (theReversalReasonInformation1:ReversalReasonInformation1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4472f7cb022f.htm
+../../../../looseends/ass4472f7cb022f.txt
+
+
+(
+ReversalReason1Choice ( ReversalReason )
+../../../../webviewer/82.jpg
+../../../../looseends/role4472f7cb0230.htm
+
+
+
+ReversalReasonInformation1 ( theReversalReasonInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4472f7cb0232.htm
+
+
+
+)
+Association (ReversalOriginator:PartyIdentification8) (theReversalReasonInformation1:ReversalReasonInformation1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4472f7cb024d.htm
+../../../../looseends/ass4472f7cb024d.txt
+
+
+(
+PartyIdentification8 ( ReversalOriginator )
+../../../../webviewer/82.jpg
+../../../../looseends/role4472f7cb024e.htm
+
+
+
+ReversalReasonInformation1 ( theReversalReasonInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4472f7cb0262.htm
+
+
+
+)
+Association (CancellationReason:CancellationReason1Choice) (theCancellationReasonInformation1:CancellationReasonInformation1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass447222e501a9.htm
+../../../../looseends/ass447222e501a9.txt
+
+
+(
+CancellationReason1Choice ( CancellationReason )
+../../../../webviewer/82.jpg
+../../../../looseends/role447222e501aa.htm
+
+
+
+CancellationReasonInformation1 ( theCancellationReasonInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role447222e501b3.htm
+
+
+
+)
+Association (CancellationOriginator:PartyIdentification8) (theCancellationReasonInformation1:CancellationReasonInformation1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass447222e501c7.htm
+../../../../looseends/ass447222e501c7.txt
+
+
+(
+PartyIdentification8 ( CancellationOriginator )
+../../../../webviewer/82.jpg
+../../../../looseends/role447222e501c8.htm
+
+
+
+CancellationReasonInformation1 ( theCancellationReasonInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role447222e501ca.htm
+
+
+
+)
+<<SWSTrace>> (theTransactionReason:TransactionReason) (theReversalReasonInformation2:ReversalReasonInformation2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass45179dd90067.htm
+
+
+
+(
+TransactionReason ( theTransactionReason )
+../../../../webviewer/82.jpg
+../../../../looseends/role45179dd90068.htm
+
+
+
+ReversalReasonInformation2 ( theReversalReasonInformation2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role45179dd9006a.htm
+
+
+
+)
+<<IsDerivedFrom>> (theReversalReasonInformation1:ReversalReasonInformation1) (theReversalReasonInformation2:ReversalReasonInformation2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4517d3e9024a.htm
+../../../../looseends/ass4517d3e9024a.txt
+
+
+(
+ReversalReasonInformation1 ( theReversalReasonInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4517d3ea024c.htm
+
+
+
+ReversalReasonInformation2 ( theReversalReasonInformation2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4517d3ea0256.htm
+
+
+
+)
+Association (ReversalOriginator:PartyIdentification14) (theReversalReasonInformation2:ReversalReasonInformation2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass45179dd90099.htm
+../../../../looseends/ass45179dd90099.txt
+
+
+(
+PartyIdentification14 ( ReversalOriginator )
+../../../../webviewer/82.jpg
+../../../../looseends/role45179dd9009a.htm
+
+
+
+ReversalReasonInformation2 ( theReversalReasonInformation2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role45179dd900a4.htm
+
+
+
+)
+Association (ReversalReason:ReversalReason2Choice) (theReversalReasonInformation2:ReversalReasonInformation2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass45179dd9007c.htm
+../../../../looseends/ass45179dd9007c.txt
+
+
+(
+ReversalReason2Choice ( ReversalReason )
+../../../../webviewer/82.jpg
+../../../../looseends/role45179dd9007d.htm
+
+
+
+ReversalReasonInformation2 ( theReversalReasonInformation2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role45179dd9007f.htm
+
+
+
+)
+<<SWSTrace>> (theTransactionReason:TransactionReason) (theReversalReason2Choice:ReversalReason2Choice)
+../../../../webviewer/81.jpg
+../../../../looseends/ass45179eb103e3.htm
+
+
+
+(
+TransactionReason ( theTransactionReason )
+../../../../webviewer/82.jpg
+../../../../looseends/role45179eb20005.htm
+
+
+
+ReversalReason2Choice ( theReversalReason2Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role45179eb20007.htm
+
+
+
+)
+<<IsDerivedFrom>> (theReversalReason1Choice:ReversalReason1Choice) (theReversalReason2Choice:ReversalReason2Choice)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4517d3e3038c.htm
+../../../../looseends/ass4517d3e3038c.txt
+
+
+(
+ReversalReason1Choice ( theReversalReason1Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role4517d3e402ed.htm
+
+
+
+ReversalReason2Choice ( theReversalReason2Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role4517d3e402f7.htm
+
+
+
+)
+<<SWSTrace>> (theTransactionReason:TransactionReason) (theStatusReasonInformation2:StatusReasonInformation2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4518399d0039.htm
+
+
+
+(
+TransactionReason ( theTransactionReason )
+../../../../webviewer/82.jpg
+../../../../looseends/role4518399d003a.htm
+
+
+
+StatusReasonInformation2 ( theStatusReasonInformation2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4518399d003c.htm
+
+
+
+)
+Association (StatusReason:StatusReason2Choice) (theStatusReasonInformation2:StatusReasonInformation2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4518399d0057.htm
+../../../../looseends/ass4518399d0057.txt
+
+
+(
+StatusReason2Choice ( StatusReason )
+../../../../webviewer/82.jpg
+../../../../looseends/role4518399d0058.htm
+
+
+
+StatusReasonInformation2 ( theStatusReasonInformation2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4518399d005a.htm
+
+
+
+)
+<<IsDerivedFrom>> (theStatusReasonInformation1:StatusReasonInformation1) (theStatusReasonInformation2:StatusReasonInformation2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass451839e80195.htm
+../../../../looseends/ass451839e80195.txt
+
+
+(
+StatusReasonInformation1 ( theStatusReasonInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role451839e90129.htm
+
+
+
+StatusReasonInformation2 ( theStatusReasonInformation2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role451839e90151.htm
+
+
+
+)
+Association (StatusOriginator:PartyIdentification14) (theStatusReasonInformation2:StatusReasonInformation2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4518399d0089.htm
+../../../../looseends/ass4518399d0089.txt
+
+
+(
+PartyIdentification14 ( StatusOriginator )
+../../../../webviewer/82.jpg
+../../../../looseends/role4518399d008a.htm
+
+
+
+StatusReasonInformation2 ( theStatusReasonInformation2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4518399d0094.htm
+
+
+
+)
+<<SWSTrace>> (theTransactionReason:TransactionReason) (theStatusReason2Choice:StatusReason2Choice)
+../../../../webviewer/81.jpg
+../../../../looseends/ass451b2b7100fd.htm
+
+
+
+(
+TransactionReason ( theTransactionReason )
+../../../../webviewer/82.jpg
+../../../../looseends/role451b2b7100fe.htm
+
+
+
+StatusReason2Choice ( theStatusReason2Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role451b2b710100.htm
+
+
+
+)
+<<IsDerivedFrom>> (theStatusReason1Choice:StatusReason1Choice) (theStatusReason2Choice:StatusReason2Choice)
+../../../../webviewer/81.jpg
+../../../../looseends/ass451b2b810024.htm
+../../../../looseends/ass451b2b810024.txt
+
+
+(
+StatusReason1Choice ( theStatusReason1Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role451b2b82013e.htm
+
+
+
+StatusReason2Choice ( theStatusReason2Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role451b2b820148.htm
+
+
+
+)
+<<SWSTrace>> (theTransactionReason:TransactionReason) (theReturnReason2Choice:ReturnReason2Choice)
+../../../../webviewer/81.jpg
+../../../../looseends/ass451b2d350017.htm
+
+
+
+(
+TransactionReason ( theTransactionReason )
+../../../../webviewer/82.jpg
+../../../../looseends/role451b2d350018.htm
+
+
+
+ReturnReason2Choice ( theReturnReason2Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role451b2d35001a.htm
+
+
+
+)
+<<IsDerivedFrom>> (theReturnReason1Choice:ReturnReason1Choice) (theReturnReason2Choice:ReturnReason2Choice)
+../../../../webviewer/81.jpg
+../../../../looseends/ass451b2d5202d5.htm
+../../../../looseends/ass451b2d5202d5.txt
+
+
+(
+ReturnReason1Choice ( theReturnReason1Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role451b2d540379.htm
+
+
+
+ReturnReason2Choice ( theReturnReason2Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role451b2d540383.htm
+
+
+
+)
+Association (ReturnReason:ReturnReason2Choice) (theReturnReasonInformation2:ReturnReasonInformation2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass451b2c9802d8.htm
+../../../../looseends/ass451b2c9802d8.txt
+
+
+(
+ReturnReason2Choice ( ReturnReason )
+../../../../webviewer/82.jpg
+../../../../looseends/role451b2c9802d9.htm
+
+
+
+ReturnReasonInformation2 ( theReturnReasonInformation2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role451b2c9802db.htm
+
+
+
+)
+<<SWSTrace>> (theTransactionReason:TransactionReason) (theReturnReasonInformation2:ReturnReasonInformation2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass451b2c9802a6.htm
+
+
+
+(
+TransactionReason ( theTransactionReason )
+../../../../webviewer/82.jpg
+../../../../looseends/role451b2c9802a7.htm
+
+
+
+ReturnReasonInformation2 ( theReturnReasonInformation2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role451b2c9802a9.htm
+
+
+
+)
+<<IsDerivedFrom>> (theReturnReasonInformation1:ReturnReasonInformation1) (theReturnReasonInformation2:ReturnReasonInformation2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass451b2d1c0043.htm
+../../../../looseends/ass451b2d1c0043.txt
+
+
+(
+ReturnReasonInformation1 ( theReturnReasonInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role451b2d1d01a3.htm
+
+
+
+ReturnReasonInformation2 ( theReturnReasonInformation2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role451b2d1d01b7.htm
+
+
+
+)
+Association (ReturnOriginator:PartyIdentification14) (theReturnReasonInformation2:ReturnReasonInformation2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass451b2c9802ba.htm
+../../../../looseends/ass451b2c9802ba.txt
+
+
+(
+PartyIdentification14 ( ReturnOriginator )
+../../../../webviewer/82.jpg
+../../../../looseends/role451b2c9802bb.htm
+
+
+
+ReturnReasonInformation2 ( theReturnReasonInformation2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role451b2c9802bd.htm
+
+
+
+)
+<<SWSTrace>> (theTransactionReason:TransactionReason) (theReturnReasonInformation3:ReturnReasonInformation3)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4535d5f702bf.htm
+
+
+
+(
+TransactionReason ( theTransactionReason )
+../../../../webviewer/82.jpg
+../../../../looseends/role4535d5f702c0.htm
+
+
+
+ReturnReasonInformation3 ( theReturnReasonInformation3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4535d5f702c9.htm
+
+
+
+)
+<<IsDerivedFrom>> (theReturnReasonInformation1:ReturnReasonInformation1) (theReturnReasonInformation3:ReturnReasonInformation3)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4535d64a01d9.htm
+../../../../looseends/ass4535d64a01d9.txt
+
+
+(
+ReturnReasonInformation1 ( theReturnReasonInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4535d64b0235.htm
+
+
+
+ReturnReasonInformation3 ( theReturnReasonInformation3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4535d64b0267.htm
+
+
+
+)
+Association (ReturnReason:ReturnReason1Choice) (theReturnReasonInformation3:ReturnReasonInformation3)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4535d5f70319.htm
+../../../../looseends/ass4535d5f70319.txt
+
+
+(
+ReturnReason1Choice ( ReturnReason )
+../../../../webviewer/82.jpg
+../../../../looseends/role4535d5f7031a.htm
+
+
+
+ReturnReasonInformation3 ( theReturnReasonInformation3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4535d5f70323.htm
+
+
+
+)
+Association (ReturnOriginator:PartyIdentification14) (theReturnReasonInformation3:ReturnReasonInformation3)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4535d5f702de.htm
+../../../../looseends/ass4535d5f702de.txt
+
+
+(
+PartyIdentification14 ( ReturnOriginator )
+../../../../webviewer/82.jpg
+../../../../looseends/role4535d5f702df.htm
+
+
+
+ReturnReasonInformation3 ( theReturnReasonInformation3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4535d5f702e8.htm
+
+
+
+)
+<<SWSTrace>> (theTransactionReason:TransactionReason) (theReversalReasonInformation3:ReversalReasonInformation3)
+../../../../webviewer/81.jpg
+../../../../looseends/ass45178ff703ba.htm
+
+
+
+(
+TransactionReason ( theTransactionReason )
+../../../../webviewer/82.jpg
+../../../../looseends/role45178ff703bb.htm
+
+
+
+ReversalReasonInformation3 ( theReversalReasonInformation3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role45178ff703bd.htm
+
+
+
+)
+Association (ReversalReason:ReversalReason1Choice) (theReversalReasonInformation3:ReversalReasonInformation3)
+../../../../webviewer/81.jpg
+../../../../looseends/ass45178ff703cf.htm
+../../../../looseends/ass45178ff703cf.txt
+
+
+(
+ReversalReason1Choice ( ReversalReason )
+../../../../webviewer/82.jpg
+../../../../looseends/role45178ff703d0.htm
+
+
+
+ReversalReasonInformation3 ( theReversalReasonInformation3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role45178ff703d9.htm
+
+
+
+)
+Association (ReversalOriginator:PartyIdentification14) (theReversalReasonInformation3:ReversalReasonInformation3)
+../../../../webviewer/81.jpg
+../../../../looseends/ass45178ff80018.htm
+../../../../looseends/ass45178ff80018.txt
+
+
+(
+PartyIdentification14 ( ReversalOriginator )
+../../../../webviewer/82.jpg
+../../../../looseends/role45178ff80019.htm
+
+
+
+ReversalReasonInformation3 ( theReversalReasonInformation3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role45178ff8001b.htm
+
+
+
+)
+<<IsDerivedFrom>> (theReversalReasonInformation1:ReversalReasonInformation1) (theReversalReasonInformation3:ReversalReasonInformation3)
+../../../../webviewer/81.jpg
+../../../../looseends/ass45179083005e.htm
+../../../../looseends/ass45179083005e.txt
+
+
+(
+ReversalReasonInformation1 ( theReversalReasonInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role45179083032f.htm
+
+
+
+ReversalReasonInformation3 ( theReversalReasonInformation3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role451790830339.htm
+
+
+
+)
+<<IsDerivedFrom>> (theStatusReasonInformation1:StatusReasonInformation1) (theStatusReasonInformation3:StatusReasonInformation3)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4535d6d301c5.htm
+../../../../looseends/ass4535d6d301c5.txt
+
+
+(
+StatusReasonInformation1 ( theStatusReasonInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4535d6d40253.htm
+
+
+
+StatusReasonInformation3 ( theStatusReasonInformation3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4535d6d4027b.htm
+
+
+
+)
+<<SWSTrace>> (theTransactionReason:TransactionReason) (theStatusReasonInformation3:StatusReasonInformation3)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4535d6c901df.htm
+
+
+
+(
+TransactionReason ( theTransactionReason )
+../../../../webviewer/82.jpg
+../../../../looseends/role4535d6c901e0.htm
+
+
+
+StatusReasonInformation3 ( theStatusReasonInformation3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4535d6c901e2.htm
+
+
+
+)
+Association (StatusReason:StatusReason1Choice) (theStatusReasonInformation3:StatusReasonInformation3)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4535d6c901f4.htm
+../../../../looseends/ass4535d6c901f4.txt
+
+
+(
+StatusReason1Choice ( StatusReason )
+../../../../webviewer/82.jpg
+../../../../looseends/role4535d6c901fd.htm
+
+
+
+StatusReasonInformation3 ( theStatusReasonInformation3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4535d6c901ff.htm
+
+
+
+)
+Association (StatusOriginator:PartyIdentification14) (theStatusReasonInformation3:StatusReasonInformation3)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4535d6c9022f.htm
+../../../../looseends/ass4535d6c9022f.txt
+
+
+(
+PartyIdentification14 ( StatusOriginator )
+../../../../webviewer/82.jpg
+../../../../looseends/role4535d6c90230.htm
+
+
+
+StatusReasonInformation3 ( theStatusReasonInformation3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4535d6c9023a.htm
+
+
+
+)
+<<SWSTrace>> (theTransactionReason:TransactionReason) (theReturnReasonInformation4:ReturnReasonInformation4)
+../../../../webviewer/81.jpg
+../../../../looseends/ass456e9d5102cd.htm
+
+
+
+(
+TransactionReason ( theTransactionReason )
+../../../../webviewer/82.jpg
+../../../../looseends/role456e9d5102ce.htm
+
+
+
+ReturnReasonInformation4 ( theReturnReasonInformation4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456e9d5102d0.htm
+
+
+
+)
+<<IsDerivedFrom>> (theReturnReasonInformation1:ReturnReasonInformation1) (theReturnReasonInformation4:ReturnReasonInformation4)
+../../../../webviewer/81.jpg
+../../../../looseends/ass456e9d7201c6.htm
+../../../../looseends/ass456e9d7201c6.txt
+
+
+(
+ReturnReasonInformation1 ( theReturnReasonInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456e9d730163.htm
+
+
+
+ReturnReasonInformation4 ( theReturnReasonInformation4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456e9d730181.htm
+
+
+
+)
+Association (ReturnOriginator:PartyIdentification14) (theReturnReasonInformation4:ReturnReasonInformation4)
+../../../../webviewer/81.jpg
+../../../../looseends/ass456e9d5102eb.htm
+../../../../looseends/ass456e9d5102eb.txt
+
+
+(
+PartyIdentification14 ( ReturnOriginator )
+../../../../webviewer/82.jpg
+../../../../looseends/role456e9d5102ec.htm
+
+
+
+ReturnReasonInformation4 ( theReturnReasonInformation4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456e9d5102f6.htm
+
+
+
+)
+Association (ReturnReason:ReturnReason3Choice) (theReturnReasonInformation4:ReturnReasonInformation4)
+../../../../webviewer/81.jpg
+../../../../looseends/ass456e9d51029b.htm
+../../../../looseends/ass456e9d51029b.txt
+
+
+(
+ReturnReason3Choice ( ReturnReason )
+../../../../webviewer/82.jpg
+../../../../looseends/role456e9d51029c.htm
+
+
+
+ReturnReasonInformation4 ( theReturnReasonInformation4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456e9d51029e.htm
+
+
+
+)
+<<SWSTrace>> (theTransactionReason:TransactionReason) (theReversalReasonInformation4:ReversalReasonInformation4)
+../../../../webviewer/81.jpg
+../../../../looseends/ass456de83c03a0.htm
+
+
+
+(
+TransactionReason ( theTransactionReason )
+../../../../webviewer/82.jpg
+../../../../looseends/role456de83c03a1.htm
+
+
+
+ReversalReasonInformation4 ( theReversalReasonInformation4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456de83c03a3.htm
+
+
+
+)
+<<IsDerivedFrom>> (theReversalReasonInformation1:ReversalReasonInformation1) (theReversalReasonInformation4:ReversalReasonInformation4)
+../../../../webviewer/81.jpg
+../../../../looseends/ass456de84301e8.htm
+../../../../looseends/ass456de84301e8.txt
+
+
+(
+ReversalReasonInformation1 ( theReversalReasonInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456de844026b.htm
+
+
+
+ReversalReasonInformation4 ( theReversalReasonInformation4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456de8440280.htm
+
+
+
+)
+Association (ReversalOriginator:PartyIdentification14) (theReversalReasonInformation4:ReversalReasonInformation4)
+../../../../webviewer/81.jpg
+../../../../looseends/ass456de83c03c8.htm
+../../../../looseends/ass456de83c03c8.txt
+
+
+(
+PartyIdentification14 ( ReversalOriginator )
+../../../../webviewer/82.jpg
+../../../../looseends/role456de83c03c9.htm
+
+
+
+ReversalReasonInformation4 ( theReversalReasonInformation4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456de83c03cb.htm
+
+
+
+)
+Association (ReversalReason:ReversalReason3Choice) (theReversalReasonInformation4:ReversalReasonInformation4)
+../../../../webviewer/81.jpg
+../../../../looseends/ass456de83d001d.htm
+../../../../looseends/ass456de83d001d.txt
+
+
+(
+ReversalReason3Choice ( ReversalReason )
+../../../../webviewer/82.jpg
+../../../../looseends/role456de83d001e.htm
+
+
+
+ReversalReasonInformation4 ( theReversalReasonInformation4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456de83d0020.htm
+
+
+
+)
+<<SWSTrace>> (theTransactionReason:TransactionReason) (theReversalReason3Choice:ReversalReason3Choice)
+../../../../webviewer/81.jpg
+../../../../looseends/ass456de884000b.htm
+
+
+
+(
+TransactionReason ( theTransactionReason )
+../../../../webviewer/82.jpg
+../../../../looseends/role456de884000c.htm
+
+
+
+ReversalReason3Choice ( theReversalReason3Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role456de884000e.htm
+
+
+
+)
+<<IsDerivedFrom>> (theReversalReason1Choice:ReversalReason1Choice) (theReversalReason3Choice:ReversalReason3Choice)
+../../../../webviewer/81.jpg
+../../../../looseends/ass456de8b101c8.htm
+../../../../looseends/ass456de8b101c8.txt
+
+
+(
+ReversalReason1Choice ( theReversalReason1Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role456de8b2027e.htm
+
+
+
+ReversalReason3Choice ( theReversalReason3Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role456de8b20288.htm
+
+
+
+)
+<<SWSTrace>> (theTransactionReason:TransactionReason) (theReversalReasonInformation5:ReversalReasonInformation5)
+../../../../webviewer/81.jpg
+../../../../looseends/ass457ebec60149.htm
+
+
+
+(
+TransactionReason ( theTransactionReason )
+../../../../webviewer/82.jpg
+../../../../looseends/role457ebec60153.htm
+
+
+
+ReversalReasonInformation5 ( theReversalReasonInformation5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role457ebec60155.htm
+
+
+
+)
+<<IsDerivedFrom>> (theReversalReasonInformation1:ReversalReasonInformation1) (theReversalReasonInformation5:ReversalReasonInformation5)
+../../../../webviewer/81.jpg
+../../../../looseends/ass457ecf300005.htm
+../../../../looseends/ass457ecf300005.txt
+
+
+(
+ReversalReasonInformation1 ( theReversalReasonInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role457ecf31016f.htm
+
+
+
+ReversalReasonInformation5 ( theReversalReasonInformation5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role457ecf310183.htm
+
+
+
+)
+Association (ReversalOriginator:PartyIdentification14) (theReversalReasonInformation5:ReversalReasonInformation5)
+../../../../webviewer/81.jpg
+../../../../looseends/ass457ebec6017b.htm
+../../../../looseends/ass457ebec6017b.txt
+
+
+(
+PartyIdentification14 ( ReversalOriginator )
+../../../../webviewer/82.jpg
+../../../../looseends/role457ebec6017c.htm
+
+
+
+ReversalReasonInformation5 ( theReversalReasonInformation5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role457ebec6017e.htm
+
+
+
+)
+Association (ReversalReason:ReversalReason1Choice) (theReversalReasonInformation5:ReversalReasonInformation5)
+../../../../webviewer/81.jpg
+../../../../looseends/ass457ebec6015e.htm
+../../../../looseends/ass457ebec6015e.txt
+
+
+(
+ReversalReason1Choice ( ReversalReason )
+../../../../webviewer/82.jpg
+../../../../looseends/role457ebec6015f.htm
+
+
+
+ReversalReasonInformation5 ( theReversalReasonInformation5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role457ebec60167.htm
+
+
+
+)
+<<IsDerivedFrom>> (theStatusReasonInformation1:StatusReasonInformation1) (theStatusReasonInformation4:StatusReasonInformation4)
+../../../../webviewer/81.jpg
+../../../../looseends/ass456df64d0308.htm
+../../../../looseends/ass456df64d0308.txt
+
+
+(
+StatusReasonInformation1 ( theStatusReasonInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456df64e0300.htm
+
+
+
+StatusReasonInformation4 ( theStatusReasonInformation4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456df64e0328.htm
+
+
+
+)
+<<SWSTrace>> (theTransactionReason:TransactionReason) (theStatusReasonInformation4:StatusReasonInformation4)
+../../../../webviewer/81.jpg
+../../../../looseends/ass456df5d903ca.htm
+
+
+
+(
+TransactionReason ( theTransactionReason )
+../../../../webviewer/82.jpg
+../../../../looseends/role456df5d903cb.htm
+
+
+
+StatusReasonInformation4 ( theStatusReasonInformation4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456df5d903cd.htm
+
+
+
+)
+Association (StatusReason:StatusReason3Choice) (theStatusReasonInformation4:StatusReasonInformation4)
+../../../../webviewer/81.jpg
+../../../../looseends/ass456df5da0001.htm
+../../../../looseends/ass456df5da0001.txt
+
+
+(
+StatusReason3Choice ( StatusReason )
+../../../../webviewer/82.jpg
+../../../../looseends/role456df5da0002.htm
+
+
+
+StatusReasonInformation4 ( theStatusReasonInformation4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456df5da000b.htm
+
+
+
+)
+Association (StatusOriginator:PartyIdentification14) (theStatusReasonInformation4:StatusReasonInformation4)
+../../../../webviewer/81.jpg
+../../../../looseends/ass456df5da0046.htm
+../../../../looseends/ass456df5da0046.txt
+
+
+(
+PartyIdentification14 ( StatusOriginator )
+../../../../webviewer/82.jpg
+../../../../looseends/role456df5da0047.htm
+
+
+
+StatusReasonInformation4 ( theStatusReasonInformation4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456df5da0049.htm
+
+
+
+)
+<<IsDerivedFrom>> (theStatusReason1Choice:StatusReason1Choice) (theStatusReason3Choice:StatusReason3Choice)
+../../../../webviewer/81.jpg
+../../../../looseends/ass456df6a20292.htm
+../../../../looseends/ass456df6a20292.txt
+
+
+(
+StatusReason1Choice ( theStatusReason1Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role456df6a400c8.htm
+
+
+
+StatusReason3Choice ( theStatusReason3Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role456df6a400e7.htm
+
+
+
+)
+<<SWSTrace>> (theTransactionReason:TransactionReason) (theStatusReason3Choice:StatusReason3Choice)
+../../../../webviewer/81.jpg
+../../../../looseends/ass456df675008f.htm
+
+
+
+(
+TransactionReason ( theTransactionReason )
+../../../../webviewer/82.jpg
+../../../../looseends/role456df6750090.htm
+
+
+
+StatusReason3Choice ( theStatusReason3Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role456df6750092.htm
+
+
+
+)
+<<SWSTrace>> (theTransactionReason:TransactionReason) (theStatusReasonInformation5:StatusReasonInformation5)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4581b3620104.htm
+
+
+
+(
+TransactionReason ( theTransactionReason )
+../../../../webviewer/82.jpg
+../../../../looseends/role4581b3620105.htm
+
+
+
+StatusReasonInformation5 ( theStatusReasonInformation5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4581b362010e.htm
+
+
+
+)
+<<IsDerivedFrom>> (theStatusReasonInformation1:StatusReasonInformation1) (theStatusReasonInformation5:StatusReasonInformation5)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4581b398013e.htm
+../../../../looseends/ass4581b398013e.txt
+
+
+(
+StatusReasonInformation1 ( theStatusReasonInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4581b39900b3.htm
+
+
+
+StatusReasonInformation5 ( theStatusReasonInformation5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4581b39900c7.htm
+
+
+
+)
+Association (StatusOriginator:PartyIdentification14) (theStatusReasonInformation5:StatusReasonInformation5)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4581b362015e.htm
+../../../../looseends/ass4581b362015e.txt
+
+
+(
+PartyIdentification14 ( StatusOriginator )
+../../../../webviewer/82.jpg
+../../../../looseends/role4581b362015f.htm
+
+
+
+StatusReasonInformation5 ( theStatusReasonInformation5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4581b3620161.htm
+
+
+
+)
+Association (StatusReason:StatusReason1Choice) (theStatusReasonInformation5:StatusReasonInformation5)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4581b3620123.htm
+../../../../looseends/ass4581b3620123.txt
+
+
+(
+StatusReason1Choice ( StatusReason )
+../../../../webviewer/82.jpg
+../../../../looseends/role4581b3620124.htm
+
+
+
+StatusReasonInformation5 ( theStatusReasonInformation5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4581b362012c.htm
+
+
+
+)
+<<IsDerivedFrom>> (theReturnReason1Choice:ReturnReason1Choice) (theReturnReason3Choice:ReturnReason3Choice)
+../../../../webviewer/81.jpg
+../../../../looseends/ass456ea1cf0208.htm
+../../../../looseends/ass456ea1cf0208.txt
+
+
+(
+ReturnReason1Choice ( theReturnReason1Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role456ea1d00386.htm
+
+
+
+ReturnReason3Choice ( theReturnReason3Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role456ea1d0039a.htm
+
+
+
+)
+<<SWSTrace>> (theTransactionReason:TransactionReason) (theReturnReason3Choice:ReturnReason3Choice)
+../../../../webviewer/81.jpg
+../../../../looseends/ass456ea15a00e8.htm
+
+
+
+(
+TransactionReason ( theTransactionReason )
+../../../../webviewer/82.jpg
+../../../../looseends/role456ea15a00f2.htm
+
+
+
+ReturnReason3Choice ( theReturnReason3Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role456ea15a00f4.htm
+
+
+
+)
+<<SWSTrace>> (theTransactionReason:TransactionReason) (theReturnReasonInformation5:ReturnReasonInformation5)
+../../../../webviewer/81.jpg
+../../../../looseends/ass453dd602002e.htm
+
+
+
+(
+TransactionReason ( theTransactionReason )
+../../../../webviewer/82.jpg
+../../../../looseends/role453dd602002f.htm
+
+
+
+ReturnReasonInformation5 ( theReturnReasonInformation5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role453dd6020031.htm
+
+
+
+)
+Association (ReturnReason:ReturnReason1Choice) (theReturnReasonInformation5:ReturnReasonInformation5)
+../../../../webviewer/81.jpg
+../../../../looseends/ass453dd6020056.htm
+../../../../looseends/ass453dd6020056.txt
+
+
+(
+ReturnReason1Choice ( ReturnReason )
+../../../../webviewer/82.jpg
+../../../../looseends/role453dd6020057.htm
+
+
+
+ReturnReasonInformation5 ( theReturnReasonInformation5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role453dd6020061.htm
+
+
+
+)
+Association (OriginalBankTransactionCode:BankTransactionCodeStructure1) (theReturnReasonInformation5:ReturnReasonInformation5)
+../../../../webviewer/81.jpg
+../../../../looseends/ass454628000173.htm
+../../../../looseends/ass454628000173.txt
+
+
+(
+BankTransactionCodeStructure1 ( OriginalBankTransactionCode )
+../../../../webviewer/82.jpg
+../../../../looseends/role454628000187.htm
+
+
+
+ReturnReasonInformation5 ( theReturnReasonInformation5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role454628000188.htm
+
+
+
+)
+Association (ReturnOriginator:PartyIdentification8) (theReturnReasonInformation5:ReturnReasonInformation5)
+../../../../webviewer/81.jpg
+../../../../looseends/ass453dd6020039.htm
+../../../../looseends/ass453dd6020039.txt
+
+
+(
+PartyIdentification8 ( ReturnOriginator )
+../../../../webviewer/82.jpg
+../../../../looseends/role453dd602003a.htm
+
+
+
+ReturnReasonInformation5 ( theReturnReasonInformation5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role453dd6020042.htm
+
+
+
+)
+)

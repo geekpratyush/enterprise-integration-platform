@@ -1,0 +1,1 @@
+Returned when the result of an investigation is the initiation of payment instruction. 

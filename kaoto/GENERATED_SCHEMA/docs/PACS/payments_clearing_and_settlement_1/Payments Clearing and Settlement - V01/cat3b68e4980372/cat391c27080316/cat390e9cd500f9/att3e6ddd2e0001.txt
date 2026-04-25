@@ -1,0 +1,1 @@
+Indicates the stop price in case of a stop order or a stop limit order.

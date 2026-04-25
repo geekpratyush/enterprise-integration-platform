@@ -1,0 +1,1 @@
+If IntermediaryAgent1 is not present, then IntermediaryAgent2 is not allowed.  If IntermediaryAgent1 is present, then IntermediaryAgent2 is optional. 

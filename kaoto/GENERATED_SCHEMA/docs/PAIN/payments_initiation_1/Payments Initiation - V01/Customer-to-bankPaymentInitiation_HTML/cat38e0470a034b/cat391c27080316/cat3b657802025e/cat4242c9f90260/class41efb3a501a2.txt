@@ -1,0 +1,1 @@
+Identifies an airport by its code or by its name and the town where it is located.

@@ -1,0 +1,1 @@
+Either AllocatedAveragePrice or AllocatedPrice must be present but not both.

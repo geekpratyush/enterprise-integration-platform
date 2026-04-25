@@ -1,0 +1,2 @@
+Specification of creditor's address, which is required for payment, is missing/not correct.
+

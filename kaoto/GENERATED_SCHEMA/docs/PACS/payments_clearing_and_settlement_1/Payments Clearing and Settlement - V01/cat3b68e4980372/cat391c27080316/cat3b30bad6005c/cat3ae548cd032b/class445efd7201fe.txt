@@ -1,0 +1,1 @@
+Specifies whether the financial instrument is transferred as an asset or as cash.

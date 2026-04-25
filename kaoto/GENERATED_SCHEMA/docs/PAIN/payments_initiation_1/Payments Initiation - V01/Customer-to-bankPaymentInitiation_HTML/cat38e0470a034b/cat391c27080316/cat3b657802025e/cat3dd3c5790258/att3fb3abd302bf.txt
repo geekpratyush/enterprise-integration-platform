@@ -1,0 +1,1 @@
+Identifies the name and (long) postal address of a financial institution. 

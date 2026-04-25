@@ -1,0 +1,442 @@
+NetAssetValueValuation
+../../../../webviewer/18.jpg
+dgm3f0eaff600ab.htm
+
+
+
+(
+)
+<<MessageComponent>> PriceValuation1
+../../../../webviewer/143.jpg
+class3da56c620218.htm
+
+
+
+(
+ValuationDateTime [0..1]
+../../../../webviewer/31.jpg
+att3da56d570120.htm
+att3da56d570120.txt
+
+
+(
+)
+TradeDateTime
+../../../../webviewer/31.jpg
+att3eba085f0102.htm
+
+
+
+(
+)
+TotalNAV [0..n]
+../../../../webviewer/31.jpg
+att3dabdb720372.htm
+att3dabdb720372.txt
+
+
+(
+)
+TotalUnitsNumber [0..1]
+../../../../webviewer/31.jpg
+att3dabe2d20100.htm
+att3dabe2d20100.txt
+
+
+(
+)
+NextValuationDateTime [0..1]
+../../../../webviewer/31.jpg
+att3dac078a000c.htm
+
+
+
+(
+)
+PreviousValuationDateTime [0..1]
+../../../../webviewer/31.jpg
+att3dac07b203c1.htm
+att3dac07b203c1.txt
+
+
+(
+)
+ValuationCycle
+../../../../webviewer/31.jpg
+att3dad5e2002ec.htm
+att3dad5e2002ec.txt
+
+
+(
+)
+SuspendedIndicator
+../../../../webviewer/31.jpg
+att3eba1f8e016a.htm
+
+
+
+(
+)
+Identification
+../../../../webviewer/33.jpg
+att3f9d367900fa.htm
+att3f9d367900fa.txt
+
+
+(
+)
+thePriceCorrection1 ( PriceCorrection1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3eba2a0101b7.htm
+
+
+
+thePriceCorrection1 ( PriceCorrection1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3eba2a05032f.htm
+
+
+
+theNetAssetValueValuation ( NetAssetValueValuation )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f0eb0170119.htm
+
+
+
+PriceDetails ( UnitPrice2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e19a62e025b.htm
+
+
+
+ValuationStatistics ( ValuationStatistics1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3dafc3f203ca.htm
+
+
+
+FinancialInstrumentDetails ( FinancialInstrument3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3dad5bae0184.htm
+
+
+
+thePriceValuation2 ( PriceValuation2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role419219a402d4.htm
+
+
+
+<<Textual>> PriceDetailsRule
+../../../../webviewer/36.jpg
+op3ebb8cc20111.htm
+op3ebb8cc20111.txt
+
+
+(
+)
+)
+<<MessageComponent>> PriceValuation2
+../../../../webviewer/143.jpg
+class4192143802e0.htm
+
+
+
+(
+ValuationDateTime [0..1]
+../../../../webviewer/31.jpg
+att4192143802e2.htm
+att4192143802e2.txt
+
+
+(
+)
+TradeDateTime
+../../../../webviewer/31.jpg
+att4192143802ea.htm
+
+
+
+(
+)
+TotalNAV [0..n]
+../../../../webviewer/31.jpg
+att4192143802ff.htm
+att4192143802ff.txt
+
+
+(
+)
+TotalUnitsNumber [0..1]
+../../../../webviewer/31.jpg
+att419214380309.htm
+att419214380309.txt
+
+
+(
+)
+NextValuationDateTime [0..1]
+../../../../webviewer/31.jpg
+att419214380313.htm
+att419214380313.txt
+
+
+(
+)
+PreviousValuationDateTime [0..1]
+../../../../webviewer/31.jpg
+att41921438031d.htm
+att41921438031d.txt
+
+
+(
+)
+ValuationCycle
+../../../../webviewer/31.jpg
+att419214380327.htm
+att419214380327.txt
+
+
+(
+)
+SuspendedIndicator
+../../../../webviewer/31.jpg
+att419214380331.htm
+
+
+
+(
+)
+Identification
+../../../../webviewer/33.jpg
+att41921438033b.htm
+att41921438033b.txt
+
+
+(
+)
+thePriceCorrection2 ( PriceCorrection2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41921c4900ee.htm
+
+
+
+thePriceCorrection2 ( PriceCorrection2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41921c4900db.htm
+
+
+
+thePriceReport1 ( PriceReport1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41c15d5403d9.htm
+
+
+
+ValuationStatistics ( ValuationStatistics2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41c1662a01f0.htm
+
+
+
+FinancialInstrumentDetails ( FinancialInstrument5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role42171b6c026a.htm
+
+
+
+PriceDetails ( UnitPrice6 )
+../../../../webviewer/82.jpg
+../../../../looseends/role419214380352.htm
+
+
+
+theNetAssetValueValuation ( NetAssetValueValuation )
+../../../../webviewer/82.jpg
+../../../../looseends/role419214380348.htm
+
+
+
+thePriceValuation1 ( PriceValuation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role419219a402e8.htm
+
+
+
+<<Textual>> PriceDetailsRule
+../../../../webviewer/36.jpg
+op419214380377.htm
+op419214380377.txt
+
+
+(
+)
+)
+Associations
+../../../../webviewer/assoccat.gif
+
+
+
+
+(
+<<SWSTrace>> (theNetAssetValueValuation:NetAssetValueValuation) (thePriceValuation1:PriceValuation1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3f0eb0160280.htm
+
+
+
+(
+NetAssetValueValuation ( theNetAssetValueValuation )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f0eb01700fa.htm
+
+
+
+PriceValuation1 ( thePriceValuation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f0eb0170119.htm
+
+
+
+)
+Association (PriceDetails:UnitPrice2) (thePriceValuation1:PriceValuation1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3e19a62d0188.htm
+../../../../looseends/ass3e19a62d0188.txt
+
+
+(
+UnitPrice2 ( PriceDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e19a62e0247.htm
+
+
+
+PriceValuation1 ( thePriceValuation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e19a62e025b.htm
+
+
+
+)
+Association (ValuationStatistics:ValuationStatistics1) (thePriceValuation1:PriceValuation1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3dafc3f20009.htm
+../../../../looseends/ass3dafc3f20009.txt
+
+
+(
+ValuationStatistics1 ( ValuationStatistics )
+../../../../webviewer/82.jpg
+../../../../looseends/role3dafc3f203c0.htm
+
+
+
+PriceValuation1 ( thePriceValuation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3dafc3f203ca.htm
+
+
+
+)
+Association (FinancialInstrumentDetails:FinancialInstrument3) (thePriceValuation1:PriceValuation1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3dad5bad027d.htm
+../../../../looseends/ass3dad5bad027d.txt
+
+
+(
+FinancialInstrument3 ( FinancialInstrumentDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role3dad5bae017a.htm
+
+
+
+PriceValuation1 ( thePriceValuation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3dad5bae0184.htm
+
+
+
+)
+Association (ValuationStatistics:ValuationStatistics2) (thePriceValuation2:PriceValuation2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass41c1662a018c.htm
+../../../../looseends/ass41c1662a018c.txt
+
+
+(
+ValuationStatistics2 ( ValuationStatistics )
+../../../../webviewer/82.jpg
+../../../../looseends/role41c1662a01dc.htm
+
+
+
+PriceValuation2 ( thePriceValuation2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41c1662a01f0.htm
+
+
+
+)
+Association (FinancialInstrumentDetails:FinancialInstrument5) (thePriceValuation2:PriceValuation2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass42171b6c0268.htm
+../../../../looseends/ass42171b6c0268.txt
+
+
+(
+FinancialInstrument5 ( FinancialInstrumentDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role42171b6c0269.htm
+
+
+
+PriceValuation2 ( thePriceValuation2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role42171b6c026a.htm
+
+
+
+)
+Association (PriceDetails:UnitPrice6) (thePriceValuation2:PriceValuation2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass41921438034f.htm
+../../../../looseends/ass41921438034f.txt
+
+
+(
+UnitPrice6 ( PriceDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role419214380350.htm
+
+
+
+PriceValuation2 ( thePriceValuation2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role419214380352.htm
+
+
+
+)
+<<SWSTrace>> (theNetAssetValueValuation:NetAssetValueValuation) (thePriceValuation2:PriceValuation2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass419214380345.htm
+
+
+
+(
+NetAssetValueValuation ( theNetAssetValueValuation )
+../../../../webviewer/82.jpg
+../../../../looseends/role419214380346.htm
+
+
+
+PriceValuation2 ( thePriceValuation2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role419214380348.htm
+
+
+
+)
+)

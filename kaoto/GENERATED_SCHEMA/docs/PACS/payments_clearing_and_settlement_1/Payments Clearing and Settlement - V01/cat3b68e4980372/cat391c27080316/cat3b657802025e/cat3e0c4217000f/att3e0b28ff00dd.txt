@@ -1,0 +1,2 @@
+Specifies the type of phone number, eg, home or business.
+

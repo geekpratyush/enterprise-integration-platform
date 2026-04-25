@@ -1,0 +1,1 @@
+Credit or debit postings used to calculate a balance.

@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "POST",
+    "urlPathPattern": "/api/dynamic.*"
+  },
+  "response": {
+    "status": 200,
+    "body": "{\"echo\": \"{{jsonPath request.body '$.message'}}\", \"timestamp\": \"{{now}}\"}",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

@@ -1,0 +1,1 @@
+Further information on the reversal reason of the transaction.

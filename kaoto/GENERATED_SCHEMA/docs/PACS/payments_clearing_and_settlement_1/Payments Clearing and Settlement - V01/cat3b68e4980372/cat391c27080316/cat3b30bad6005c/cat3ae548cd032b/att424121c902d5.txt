@@ -1,0 +1,1 @@
+Balance representing the amount that will be destined for investment. Difference between available balance and threshold for investment limit.

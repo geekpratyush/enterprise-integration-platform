@@ -1,0 +1,4 @@
+PreviousTotalNAV: new.
+PreviousTotalUnitsNumber: new.
+ExceptionalCashFlowIndicator rule: new.
+NetCashForecastDetails: new.

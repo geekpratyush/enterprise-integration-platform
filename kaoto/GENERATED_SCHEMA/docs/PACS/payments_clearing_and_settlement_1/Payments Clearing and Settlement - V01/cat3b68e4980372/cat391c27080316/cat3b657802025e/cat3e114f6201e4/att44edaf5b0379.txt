@@ -1,0 +1,1 @@
+Indicates whether the payment is done via cheque.

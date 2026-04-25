@@ -1,0 +1,1 @@
+Indicates whether the cash payment with respect to the executed order is settled.

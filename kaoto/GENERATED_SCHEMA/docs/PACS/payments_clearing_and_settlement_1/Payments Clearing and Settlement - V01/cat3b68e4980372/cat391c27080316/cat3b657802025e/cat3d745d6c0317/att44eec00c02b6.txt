@@ -1,0 +1,1 @@
+The Currency in which the instructed amount is expressed.

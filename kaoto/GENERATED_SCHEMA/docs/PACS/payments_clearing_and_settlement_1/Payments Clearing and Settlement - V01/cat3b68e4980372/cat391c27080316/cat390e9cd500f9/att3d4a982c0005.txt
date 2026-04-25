@@ -1,0 +1,1 @@
+Year and month the card is available for use.

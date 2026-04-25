@@ -1,0 +1,1 @@
+Party initiating the payment to an agent. This can be either the debtor (in a credit transfer) or the creditor (in a direct debit), or a party that initiates the payment on behalf of the debtor or creditor.

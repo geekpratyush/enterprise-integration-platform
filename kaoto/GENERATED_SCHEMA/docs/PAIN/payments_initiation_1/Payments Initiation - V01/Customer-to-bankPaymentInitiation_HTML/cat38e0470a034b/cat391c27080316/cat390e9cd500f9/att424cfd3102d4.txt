@@ -1,0 +1,1 @@
+Specifies the type of product category by means of a code.

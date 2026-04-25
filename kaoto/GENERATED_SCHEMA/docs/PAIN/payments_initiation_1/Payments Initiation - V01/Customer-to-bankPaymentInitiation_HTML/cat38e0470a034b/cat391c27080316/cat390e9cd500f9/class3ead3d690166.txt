@@ -1,0 +1,1 @@
+Request to buy or sell a specific amount of one currency against another currency.

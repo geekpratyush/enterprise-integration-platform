@@ -1,0 +1,4 @@
+An all or none market order that is to be executed at the closing price of the security on the exchange.  If the execution cannot be made under this condition, the order is to be treated as cancelled.
+
+Note that this attribute does not apply to trading of fixed income securities.
+

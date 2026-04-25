@@ -1,0 +1,1 @@
+Specifies the party which originated a treasury trade. This party may be the same as the submitting party.

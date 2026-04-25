@@ -1,0 +1,2 @@
+Amount of money to be invested in a specific financial instrument by an investor before deduction of charges, commissions and taxes and used to determine the quantity of investment fund units to be subscribed.
+[(Quantity * Price) + (Charges + Commissions +Taxes)]

@@ -1,0 +1,1206 @@
+Transport1
+../../../../webviewer/18.jpg
+dgm423b07770313.htm
+
+
+
+(
+)
+Transport2
+../../../../webviewer/18.jpg
+dgm4242e6a600ad.htm
+
+
+
+(
+)
+<<MessageComponent>> MultimodalTransport1
+../../../../webviewer/143.jpg
+class41dbc5a6002c.htm
+class41dbc5a6002c.txt
+
+
+(
+PortOfDischarge[ 0..n ]
+../../../../webviewer/31.jpg
+att41dbe24b01fc.htm
+att41dbe24b01fc.txt
+
+
+(
+)
+PortOfLoading[ 0..n ]
+../../../../webviewer/31.jpg
+att41dbe24b0210.htm
+att41dbe24b0210.txt
+
+
+(
+)
+PlaceOfDelivery[ 0..n ]
+../../../../webviewer/31.jpg
+att41dbe2db0186.htm
+att41dbe2db0186.txt
+
+
+(
+)
+PlaceOfReceipt[ 0..n ]
+../../../../webviewer/31.jpg
+att41dbe2db0190.htm
+att41dbe2db0190.txt
+
+
+(
+)
+PlaceOfFinalDestination[ 0..n ]
+../../../../webviewer/31.jpg
+att41dbe311003a.htm
+att41dbe311003a.txt
+
+
+(
+)
+TakingInCharge[ 0..n ]
+../../../../webviewer/31.jpg
+att41dbe311004e.htm
+att41dbe311004e.txt
+
+
+(
+)
+theTransport ( Transport )
+../../../../webviewer/82.jpg
+../../../../looseends/role4235afa20053.htm
+
+
+
+DepartureAirport ( AirportName1Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role422737110252.htm
+
+
+
+DestinationAirport ( AirportName1Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role4227370e0334.htm
+
+
+
+theTransportMeans1Choice ( TransportMeans1Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role422ec5210277.htm
+
+
+
+)
+<<MessageComponent>> MultimodalTransport2
+../../../../webviewer/143.jpg
+class41ee41df0237.htm
+class41ee41df0237.txt
+
+
+(
+PlaceOfDelivery[ 0..n ]
+../../../../webviewer/31.jpg
+att41ee41fa0091.htm
+att41ee41fa0091.txt
+
+
+(
+)
+PlaceOfFinalDestination[ 0..n ]
+../../../../webviewer/31.jpg
+att41ee41fa009b.htm
+att41ee41fa009b.txt
+
+
+(
+)
+PlaceOfReceipt[ 0..n ]
+../../../../webviewer/31.jpg
+att41ee41fa00af.htm
+att41ee41fa00af.txt
+
+
+(
+)
+PortOfDischarge[ 0..n ]
+../../../../webviewer/31.jpg
+att41ee41fa00b9.htm
+att41ee41fa00b9.txt
+
+
+(
+)
+PortOfLoading[ 0..n ]
+../../../../webviewer/31.jpg
+att41ee41fa00c3.htm
+att41ee41fa00c3.txt
+
+
+(
+)
+TakingInCharge[ 0..n ]
+../../../../webviewer/31.jpg
+att41ee41fa00cd.htm
+att41ee41fa00cd.txt
+
+
+(
+)
+TransitLocation[ 0..n ]
+../../../../webviewer/31.jpg
+att41ee42ed034e.htm
+
+
+
+(
+)
+AirCarrierName[ 0..n ]
+../../../../webviewer/31.jpg
+att41ee57920307.htm
+
+
+
+(
+)
+VesselName[ 0..n ]
+../../../../webviewer/31.jpg
+att41ee57a10196.htm
+
+
+
+(
+)
+RoadCarrierName[ 0..n ]
+../../../../webviewer/31.jpg
+att41f8eee60099.htm
+
+
+
+(
+)
+RailCarrierName[ 0..n ]
+../../../../webviewer/31.jpg
+att41f8eee703c6.htm
+
+
+
+(
+)
+DepartureAirport ( AirportName1Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role422736af03d4.htm
+
+
+
+DestinationAirport ( AirportName1Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role422736bc0061.htm
+
+
+
+theTransport ( Transport )
+../../../../webviewer/82.jpg
+../../../../looseends/role4235b179026d.htm
+
+
+
+theTransportMeans2Choice ( TransportMeans2Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role41ee465100a3.htm
+../../../../looseends/role41ee465100a3.txt
+
+
+)
+<<MessageComponent>> SingleTransport1
+../../../../webviewer/143.jpg
+class422ec547015a.htm
+class422ec547015a.txt
+
+
+(
+theTransportMeans1Choice ( TransportMeans1Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role422ec56401f3.htm
+../../../../looseends/role422ec56401f3.txt
+
+
+theTransport ( Transport )
+../../../../webviewer/82.jpg
+../../../../looseends/role4235afb20129.htm
+
+
+
+TransportByRoad ( TransportByRoad1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role422ec5c001bd.htm
+
+
+
+TransportByAir ( TransportByAir1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role422ec5bc00a7.htm
+
+
+
+TransportBySea ( TransportBySea1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role422ec5c401df.htm
+
+
+
+TransportByRail ( TransportByRail1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role422ec5c9002d.htm
+
+
+
+)
+<<MessageComponent>> SingleTransport2
+../../../../webviewer/143.jpg
+class422d653c0229.htm
+class422d653c0229.txt
+
+
+(
+theTransportMeans2Choice ( TransportMeans2Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role422d65760256.htm
+../../../../looseends/role422d65760256.txt
+
+
+theTransport ( Transport )
+../../../../webviewer/82.jpg
+../../../../looseends/role4235b1600248.htm
+
+
+
+TransportByRoad ( TransportByRoad2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role422d65aa0090.htm
+
+
+
+TransportBySea ( TransportBySea2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role422d65af020a.htm
+
+
+
+TransportByRail ( TransportByRail2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role422d65cf0334.htm
+
+
+
+TransportByAir ( TransportByAir2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role422d65b300d0.htm
+
+
+
+)
+<<ChoiceComponent>> TransportMeans2Choice
+../../../../webviewer/144.jpg
+class41ee40770275.htm
+class41ee40770275.txt
+
+
+(
+MultimodalTransport ( MultimodalTransport2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41ee465100a5.htm
+
+
+
+IndividualTransport ( SingleTransport2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role422d65760258.htm
+
+
+
+theTransport ( Transport )
+../../../../webviewer/82.jpg
+../../../../looseends/role42380191036e.htm
+
+
+
+theTransportDetails1 ( TransportDetails1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role422c71600153.htm
+../../../../looseends/role422c71600153.txt
+
+
+)
+<<ChoiceComponent>> TransportMeans1Choice
+../../../../webviewer/144.jpg
+class422ec4b20384.htm
+class422ec4b20384.txt
+
+
+(
+theLineItemDetails1 ( LineItemDetails1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role422ebbc100fd.htm
+../../../../looseends/role422ebbc100fd.txt
+
+
+theLineItem1 ( LineItem1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role422ebbaa0370.htm
+../../../../looseends/role422ebbaa0370.txt
+
+
+IndividualTransport ( SingleTransport1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role422ec56401f5.htm
+
+
+
+theTransport ( Transport )
+../../../../webviewer/82.jpg
+../../../../looseends/role423801aa01a8.htm
+
+
+
+MultimodalTransport ( MultimodalTransport1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role422ec5210281.htm
+
+
+
+)
+<<MessageComponent>> TransportDataSet1
+../../../../webviewer/143.jpg
+class4190d6fe01f2.htm
+class4190d6fe01f2.txt
+
+
+(
+theTransport ( Transport )
+../../../../webviewer/82.jpg
+../../../../looseends/role4239a2fb0396.htm
+
+
+
+TransportInformation ( TransportDetails1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role422c70da00ea.htm
+
+
+
+ShipTo ( PartyIdentification4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4225a0a600ee.htm
+
+
+
+Buyer ( PartyIdentification4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role42247a230333.htm
+
+
+
+Consignee ( PartyIdentification4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4225a0c10133.htm
+
+
+
+Seller ( PartyIdentification4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4225a0ce00b0.htm
+
+
+
+DataSetIdentification ( DocumentIdentification1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role424d42b8000e.htm
+
+
+
+)
+<<MessageComponent>> TransportDetails1
+../../../../webviewer/143.jpg
+class422c709c0035.htm
+class422c709c0035.txt
+
+
+(
+ProposedShipmentDate
+../../../../webviewer/31.jpg
+att422c71a90362.htm
+att422c71a90362.txt
+
+
+(
+)
+ActualShipmentDate
+../../../../webviewer/31.jpg
+att422c71a903db.htm
+att422c71a903db.txt
+
+
+(
+)
+theTransport ( Transport )
+../../../../webviewer/82.jpg
+../../../../looseends/role4235b0c80265.htm
+
+
+
+theTransportDataSet1 ( TransportDataSet1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role422c70da00ae.htm
+
+
+
+TransportDocumentReference ( DocumentIdentification7 )
+../../../../webviewer/82.jpg
+../../../../looseends/role424d430a0023.htm
+
+
+
+RoutingSummary ( TransportMeans2Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role422c71600135.htm
+
+
+
+Incoterms ( Incoterms2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role422c71cd00a8.htm
+
+
+
+FreightCharges ( Charge13 )
+../../../../webviewer/82.jpg
+../../../../looseends/role422c71d102c2.htm
+
+
+
+TransportedGoods ( TransportedGoods1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role422c72c500bd.htm
+
+
+
+<<XOR>> ProposedShipmentOrActualShipmentDateRule
+../../../../webviewer/34.jpg
+op422c71940312.htm
+op422c71940312.txt
+
+
+(
+)
+)
+Associations
+../../../../webviewer/assoccat.gif
+
+
+
+
+(
+<<SWSTrace>> (theTransport:Transport) (theMultimodalTransport1:MultimodalTransport1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4235afa100a2.htm
+
+
+
+(
+Transport ( theTransport )
+../../../../webviewer/82.jpg
+../../../../looseends/role4235afa20035.htm
+
+
+
+MultimodalTransport1 ( theMultimodalTransport1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4235afa20053.htm
+
+
+
+)
+Association (DepartureAirport:AirportName1Choice) (theMultimodalTransport1:MultimodalTransport1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass422737100385.htm
+
+
+
+(
+AirportName1Choice ( DepartureAirport )
+../../../../webviewer/82.jpg
+../../../../looseends/role422737110250.htm
+
+
+
+MultimodalTransport1 ( theMultimodalTransport1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role422737110252.htm
+
+
+
+)
+Association (DestinationAirport:AirportName1Choice) (theMultimodalTransport1:MultimodalTransport1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4227370e0011.htm
+
+
+
+(
+AirportName1Choice ( DestinationAirport )
+../../../../webviewer/82.jpg
+../../../../looseends/role4227370e0332.htm
+
+
+
+MultimodalTransport1 ( theMultimodalTransport1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4227370e0334.htm
+
+
+
+)
+Association (DepartureAirport:AirportName1Choice) (theMultimodalTransport2:MultimodalTransport2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass422736af00d8.htm
+
+
+
+(
+AirportName1Choice ( DepartureAirport )
+../../../../webviewer/82.jpg
+../../../../looseends/role422736af03d2.htm
+
+
+
+MultimodalTransport2 ( theMultimodalTransport2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role422736af03d4.htm
+
+
+
+)
+Association (DestinationAirport:AirportName1Choice) (theMultimodalTransport2:MultimodalTransport2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass422736ba037e.htm
+
+
+
+(
+AirportName1Choice ( DestinationAirport )
+../../../../webviewer/82.jpg
+../../../../looseends/role422736bc005f.htm
+
+
+
+MultimodalTransport2 ( theMultimodalTransport2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role422736bc0061.htm
+
+
+
+)
+<<SWSTrace>> (theTransport:Transport) (theMultimodalTransport2:MultimodalTransport2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4235b1750343.htm
+
+
+
+(
+Transport ( theTransport )
+../../../../webviewer/82.jpg
+../../../../looseends/role4235b1790259.htm
+
+
+
+MultimodalTransport2 ( theMultimodalTransport2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4235b179026d.htm
+
+
+
+)
+<<SWSTrace>> (theTransport:Transport) (theTransportDataSet1:TransportDataSet1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4239a2fa034e.htm
+
+
+
+(
+Transport ( theTransport )
+../../../../webviewer/82.jpg
+../../../../looseends/role4239a2fb0291.htm
+
+
+
+TransportDataSet1 ( theTransportDataSet1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4239a2fb0396.htm
+
+
+
+)
+<<SWSTrace>> (theTransport:Transport) (theTransportDetails1:TransportDetails1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4235b0c70231.htm
+
+
+
+(
+Transport ( theTransport )
+../../../../webviewer/82.jpg
+../../../../looseends/role4235b0c80233.htm
+
+
+
+TransportDetails1 ( theTransportDetails1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4235b0c80265.htm
+
+
+
+)
+Association (TransportInformation:TransportDetails1) (theTransportDataSet1:TransportDataSet1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass422c70d80372.htm
+../../../../looseends/ass422c70d80372.txt
+
+
+(
+TransportDetails1 ( TransportInformation )
+../../../../webviewer/82.jpg
+../../../../looseends/role422c70da00ae.htm
+
+
+
+TransportDataSet1 ( theTransportDataSet1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role422c70da00ea.htm
+
+
+
+)
+Association (ShipTo:PartyIdentification4) (theTransportDataSet1:TransportDataSet1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4225a0a600ec.htm
+
+
+
+(
+PartyIdentification4 ( ShipTo )
+../../../../webviewer/82.jpg
+../../../../looseends/role4225a0a600ed.htm
+
+
+
+TransportDataSet1 ( theTransportDataSet1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4225a0a600ee.htm
+
+
+
+)
+Association (theTransportDataSet1:TransportDataSet1) (Buyer:PartyIdentification4)
+../../../../webviewer/81.jpg
+../../../../looseends/ass42247a2302ed.htm
+
+
+
+(
+TransportDataSet1 ( theTransportDataSet1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role42247a230333.htm
+
+
+
+PartyIdentification4 ( Buyer )
+../../../../webviewer/82.jpg
+../../../../looseends/role42247a23035b.htm
+
+
+
+)
+Association (Consignee:PartyIdentification4) (theTransportDataSet1:TransportDataSet1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4225a0c10131.htm
+
+
+
+(
+PartyIdentification4 ( Consignee )
+../../../../webviewer/82.jpg
+../../../../looseends/role4225a0c10132.htm
+
+
+
+TransportDataSet1 ( theTransportDataSet1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4225a0c10133.htm
+
+
+
+)
+Association (Seller:PartyIdentification4) (theTransportDataSet1:TransportDataSet1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4225a0ce00ae.htm
+
+
+
+(
+PartyIdentification4 ( Seller )
+../../../../webviewer/82.jpg
+../../../../looseends/role4225a0ce00af.htm
+
+
+
+TransportDataSet1 ( theTransportDataSet1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4225a0ce00b0.htm
+
+
+
+)
+Association (MultimodalTransport:MultimodalTransport2) (theTransportMeans2Choice:TransportMeans2Choice)
+../../../../webviewer/81.jpg
+../../../../looseends/ass41ee464f0353.htm
+../../../../looseends/ass41ee464f0353.txt
+
+
+(
+MultimodalTransport2 ( MultimodalTransport )
+../../../../webviewer/82.jpg
+../../../../looseends/role41ee465100a3.htm
+../../../../looseends/role41ee465100a3.txt
+
+
+TransportMeans2Choice ( theTransportMeans2Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role41ee465100a5.htm
+
+
+
+)
+Association (IndividualTransport:SingleTransport1) (theTransportMeans1Choice:TransportMeans1Choice)
+../../../../webviewer/81.jpg
+../../../../looseends/ass422ec5630291.htm
+
+
+
+(
+SingleTransport1 ( IndividualTransport )
+../../../../webviewer/82.jpg
+../../../../looseends/role422ec56401f3.htm
+../../../../looseends/role422ec56401f3.txt
+
+
+TransportMeans1Choice ( theTransportMeans1Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role422ec56401f5.htm
+
+
+
+)
+Association (IndividualTransport:SingleTransport2) (theTransportMeans2Choice:TransportMeans2Choice)
+../../../../webviewer/81.jpg
+../../../../looseends/ass422d65750327.htm
+
+
+
+(
+SingleTransport2 ( IndividualTransport )
+../../../../webviewer/82.jpg
+../../../../looseends/role422d65760256.htm
+../../../../looseends/role422d65760256.txt
+
+
+TransportMeans2Choice ( theTransportMeans2Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role422d65760258.htm
+
+
+
+)
+<<SWSTrace>> (theTransport:Transport) (theSingleTransport2:SingleTransport2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4235b1590392.htm
+
+
+
+(
+Transport ( theTransport )
+../../../../webviewer/82.jpg
+../../../../looseends/role4235b1600234.htm
+
+
+
+SingleTransport2 ( theSingleTransport2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4235b1600248.htm
+
+
+
+)
+<<SWSTrace>> (theTransport:Transport) (theSingleTransport1:SingleTransport1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4235afb003bb.htm
+
+
+
+(
+Transport ( theTransport )
+../../../../webviewer/82.jpg
+../../../../looseends/role4235afb20101.htm
+
+
+
+SingleTransport1 ( theSingleTransport1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4235afb20129.htm
+
+
+
+)
+<<SWSTrace>> (theTransport:Transport) (theTransportMeans1Choice:TransportMeans1Choice)
+../../../../webviewer/81.jpg
+../../../../looseends/ass423801a802d1.htm
+
+
+
+(
+Transport ( theTransport )
+../../../../webviewer/82.jpg
+../../../../looseends/role423801aa014d.htm
+
+
+
+TransportMeans1Choice ( theTransportMeans1Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role423801aa01a8.htm
+
+
+
+)
+<<SWSTrace>> (theTransport:Transport) (theTransportMeans2Choice:TransportMeans2Choice)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4238018e01b1.htm
+
+
+
+(
+Transport ( theTransport )
+../../../../webviewer/82.jpg
+../../../../looseends/role423801910287.htm
+
+
+
+TransportMeans2Choice ( theTransportMeans2Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role42380191036e.htm
+
+
+
+)
+Association (DataSetIdentification:DocumentIdentification1) (theTransportDataSet1:TransportDataSet1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass424d42b700df.htm
+../../../../looseends/ass424d42b700df.txt
+
+
+(
+DocumentIdentification1 ( DataSetIdentification )
+../../../../webviewer/82.jpg
+../../../../looseends/role424d42b7032e.htm
+
+
+
+TransportDataSet1 ( theTransportDataSet1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role424d42b8000e.htm
+
+
+
+)
+Association (TransportDocumentReference:DocumentIdentification7) (theTransportDetails1:TransportDetails1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass424d430803d7.htm
+../../../../looseends/ass424d430803d7.txt
+
+
+(
+DocumentIdentification7 ( TransportDocumentReference )
+../../../../webviewer/82.jpg
+../../../../looseends/role424d430903cf.htm
+
+
+
+TransportDetails1 ( theTransportDetails1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role424d430a0023.htm
+
+
+
+)
+Association (theTransportDetails1:TransportDetails1) (RoutingSummary:TransportMeans2Choice)
+../../../../webviewer/81.jpg
+../../../../looseends/ass422c71600117.htm
+
+
+
+(
+TransportDetails1 ( theTransportDetails1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role422c71600135.htm
+
+
+
+TransportMeans2Choice ( RoutingSummary )
+../../../../webviewer/82.jpg
+../../../../looseends/role422c71600153.htm
+../../../../looseends/role422c71600153.txt
+
+
+)
+Association (theTransportDetails1:TransportDetails1) (Incoterms:Incoterms2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass422c71cd009e.htm
+
+
+
+(
+TransportDetails1 ( theTransportDetails1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role422c71cd00a8.htm
+
+
+
+Incoterms2 ( Incoterms )
+../../../../webviewer/82.jpg
+../../../../looseends/role422c71cd00b2.htm
+
+
+
+)
+Association (theTransportDetails1:TransportDetails1) (FreightCharges:Charge13)
+../../../../webviewer/81.jpg
+../../../../looseends/ass422c71d102c1.htm
+
+
+
+(
+TransportDetails1 ( theTransportDetails1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role422c71d102c2.htm
+
+
+
+Charge13 ( FreightCharges )
+../../../../webviewer/82.jpg
+../../../../looseends/role422c71d102c3.htm
+
+
+
+)
+Association (TransportedGoods:TransportedGoods1) (theTransportDetails1:TransportDetails1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass422c72c400da.htm
+
+
+
+(
+TransportedGoods1 ( TransportedGoods )
+../../../../webviewer/82.jpg
+../../../../looseends/role422c72c50081.htm
+
+
+
+TransportDetails1 ( theTransportDetails1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role422c72c500bd.htm
+
+
+
+)
+Association (theSingleTransport2:SingleTransport2) (TransportByRoad:TransportByRoad2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass422d65aa008f.htm
+
+
+
+(
+SingleTransport2 ( theSingleTransport2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role422d65aa0090.htm
+
+
+
+TransportByRoad2 ( TransportByRoad )
+../../../../webviewer/82.jpg
+../../../../looseends/role422d65aa0091.htm
+../../../../looseends/role422d65aa0091.txt
+
+
+)
+Association (theSingleTransport2:SingleTransport2) (TransportBySea:TransportBySea2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass422d65af0209.htm
+
+
+
+(
+SingleTransport2 ( theSingleTransport2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role422d65af020a.htm
+
+
+
+TransportBySea2 ( TransportBySea )
+../../../../webviewer/82.jpg
+../../../../looseends/role422d65af0227.htm
+../../../../looseends/role422d65af0227.txt
+
+
+)
+Association (theSingleTransport2:SingleTransport2) (TransportByRail:TransportByRail2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass422d65cf0333.htm
+
+
+
+(
+SingleTransport2 ( theSingleTransport2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role422d65cf0334.htm
+
+
+
+TransportByRail2 ( TransportByRail )
+../../../../webviewer/82.jpg
+../../../../looseends/role422d65cf0335.htm
+../../../../looseends/role422d65cf0335.txt
+
+
+)
+Association (theSingleTransport2:SingleTransport2) (TransportByAir:TransportByAir2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass422d65b300cf.htm
+
+
+
+(
+SingleTransport2 ( theSingleTransport2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role422d65b300d0.htm
+
+
+
+TransportByAir2 ( TransportByAir )
+../../../../webviewer/82.jpg
+../../../../looseends/role422d65b300d1.htm
+../../../../looseends/role422d65b300d1.txt
+
+
+)
+Association (MultimodalTransport:MultimodalTransport1) (theTransportMeans1Choice:TransportMeans1Choice)
+../../../../webviewer/81.jpg
+../../../../looseends/ass422ec520023a.htm
+../../../../looseends/ass422ec520023a.txt
+
+
+(
+MultimodalTransport1 ( MultimodalTransport )
+../../../../webviewer/82.jpg
+../../../../looseends/role422ec5210277.htm
+
+
+
+TransportMeans1Choice ( theTransportMeans1Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role422ec5210281.htm
+
+
+
+)
+Association (TransportByRoad:TransportByRoad1) (theSingleTransport1:SingleTransport1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass422ec5bf02dc.htm
+
+
+
+(
+TransportByRoad1 ( TransportByRoad )
+../../../../webviewer/82.jpg
+../../../../looseends/role422ec5c001bb.htm
+
+
+
+SingleTransport1 ( theSingleTransport1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role422ec5c001bd.htm
+
+
+
+)
+Association (TransportByAir:TransportByAir1) (theSingleTransport1:SingleTransport1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass422ec5bb0222.htm
+
+
+
+(
+TransportByAir1 ( TransportByAir )
+../../../../webviewer/82.jpg
+../../../../looseends/role422ec5bc009d.htm
+
+
+
+SingleTransport1 ( theSingleTransport1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role422ec5bc00a7.htm
+
+
+
+)
+Association (TransportBySea:TransportBySea1) (theSingleTransport1:SingleTransport1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass422ec5c303b4.htm
+
+
+
+(
+TransportBySea1 ( TransportBySea )
+../../../../webviewer/82.jpg
+../../../../looseends/role422ec5c401d5.htm
+
+
+
+SingleTransport1 ( theSingleTransport1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role422ec5c401df.htm
+
+
+
+)
+Association (TransportByRail:TransportByRail1) (theSingleTransport1:SingleTransport1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass422ec5c7019d.htm
+
+
+
+(
+TransportByRail1 ( TransportByRail )
+../../../../webviewer/82.jpg
+../../../../looseends/role422ec5c90023.htm
+
+
+
+SingleTransport1 ( theSingleTransport1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role422ec5c9002d.htm
+
+
+
+)
+)

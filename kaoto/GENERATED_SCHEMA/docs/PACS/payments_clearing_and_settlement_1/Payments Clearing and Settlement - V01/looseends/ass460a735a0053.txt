@@ -1,0 +1,1 @@
+Specifies the amounts traded at the valuation of a non-deliverable trade.

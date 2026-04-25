@@ -1,0 +1,1 @@
+Indicates whether the member return address is requested.

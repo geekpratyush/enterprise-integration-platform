@@ -1,0 +1,1 @@
+Remittance advice information must be sent through Electronic Data Interchange (EDI).

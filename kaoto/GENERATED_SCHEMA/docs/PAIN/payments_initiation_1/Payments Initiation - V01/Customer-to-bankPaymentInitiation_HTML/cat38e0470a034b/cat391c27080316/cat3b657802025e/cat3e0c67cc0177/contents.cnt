@@ -1,0 +1,1882 @@
+Charge
+../../../../webviewer/18.jpg
+dgm3e0c67de0271.htm
+
+
+
+(
+)
+TradeCharges
+../../../../webviewer/18.jpg
+dgm4242cb3b01ab.htm
+
+
+
+(
+)
+ChargeType
+../../../../webviewer/18.jpg
+dgm42d3c947035b.htm
+
+
+
+(
+)
+<<MessageComponent>> Charge1
+../../../../webviewer/143.jpg
+class3e0b28fe03f0.htm
+
+
+
+(
+Type
+../../../../webviewer/31.jpg
+att3e0b28fe03f1.htm
+
+
+
+(
+)
+Rate
+../../../../webviewer/31.jpg
+att3e0b28fe03f2.htm
+
+
+
+(
+)
+Amount
+../../../../webviewer/31.jpg
+att3e0b28fe03f3.htm
+
+
+
+(
+)
+ChargeBasis[0..1]
+../../../../webviewer/31.jpg
+att3fbced0301a8.htm
+
+
+
+(
+)
+RecipientIdentification[0..1]
+../../../../webviewer/31.jpg
+att3fcca414002d.htm
+
+
+
+(
+)
+theCharge ( Charge )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e0c68430177.htm
+
+
+
+theRedemptionOrder1 ( RedemptionOrder1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e0b28fe03fb.htm
+
+
+
+theRedemptionOrder2 ( RedemptionOrder2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e0b28fe0403.htm
+
+
+
+theSubscriptionOrder1 ( SubscriptionOrder1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e0b28fe03ef.htm
+
+
+
+theSubscriptionOrder2 ( SubscriptionOrder2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e0b28fe040b.htm
+
+
+
+theSwitchRedemptionLegOrder1 ( SwitchRedemptionLegOrder1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e0b28fe0564.htm
+
+
+
+theSwitchSubscriptionLegOrder1 ( SwitchSubscriptionLegOrder1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e0b28fe05c3.htm
+
+
+
+theCharge8 ( Charge8 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41ab63cc0327.htm
+
+
+
+<<XOR>> AmountOrRateRule
+../../../../webviewer/34.jpg
+op3f9d25e5003e.htm
+op3f9d25e5003e.txt
+
+
+(
+)
+)
+<<MessageComponent>> TotalCharges1
+../../../../webviewer/143.jpg
+class3e0b28fe04cf.htm
+class3e0b28fe04cf.txt
+
+
+(
+TotalAmountOfCharges[0..1]
+../../../../webviewer/33.jpg
+att3e0b28fe04d0.htm
+att3e0b28fe04d0.txt
+
+
+(
+)
+ChargeDetails ( Charge5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f9d25b6010b.htm
+
+
+
+theRedemptionExecution2 ( RedemptionExecution2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e0b28fe04e0.htm
+
+
+
+theRedemptionExecution1 ( RedemptionExecution1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e0b28fe04d8.htm
+
+
+
+theSubscriptionExecution2 ( SubscriptionExecution2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e0b28fe04ce.htm
+
+
+
+theSubscriptionExecution1 ( SubscriptionExecution1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e0b28fe04e8.htm
+
+
+
+theSwitchSubscriptionLegExecution1 ( SwitchSubscriptionLegExecution1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e0b28fe04f0.htm
+
+
+
+theSwitchRedemptionLegExecution1 ( SwitchRedemptionLegExecution1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e0b28fe0629.htm
+
+
+
+theTotalCharges2 ( TotalCharges2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41ac9cfd0056.htm
+
+
+
+)
+<<MessageComponent>> Charge2
+../../../../webviewer/143.jpg
+class3e76e29a028b.htm
+
+
+
+(
+Type[0..1]
+../../../../webviewer/31.jpg
+att3e76e29a028d.htm
+
+
+
+(
+)
+ChargeBearer[0..1]
+../../../../webviewer/31.jpg
+att3e76e29a028e.htm
+
+
+
+(
+)
+ChargeIncluded
+../../../../webviewer/31.jpg
+att3e76e29a028f.htm
+
+
+
+(
+)
+ChargeDebitAccountIdentification[0..1]
+../../../../webviewer/31.jpg
+att3e76e29a0290.htm
+att3e76e29a0290.txt
+
+
+(
+)
+Rate[0..1]
+../../../../webviewer/31.jpg
+att3e76e29a0291.htm
+
+
+
+(
+)
+ChargeAmount[0..1]
+../../../../webviewer/31.jpg
+att3e76e29a0292.htm
+
+
+
+(
+)
+theCharge ( Charge )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e76f8ed020e.htm
+
+
+
+Tax ( Tax2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e771ed602c9.htm
+
+
+
+CurrencyExchange ( CurrencyExchange1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e771ed902ba.htm
+
+
+
+ChargesAccountAgent ( FinancialInstitutionIdentification1Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role3fe0681101c0.htm
+
+
+
+thePaymentTransfer2 ( PaymentTransfer2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3fdef3c4028c.htm
+
+
+
+)
+<<MessageComponent>> Charge3
+../../../../webviewer/143.jpg
+class3eae866e028b.htm
+
+
+
+(
+Amount
+../../../../webviewer/31.jpg
+att3eae871f031b.htm
+
+
+
+(
+)
+Type
+../../../../webviewer/31.jpg
+att3eae8733017f.htm
+
+
+
+(
+)
+theUnitPrice2 ( UnitPrice2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3eb9fcc402fe.htm
+
+
+
+theCharge ( Charge )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f0ec3f9033c.htm
+
+
+
+theCharge9 ( Charge9 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41b86f3e0371.htm
+
+
+
+)
+<<MessageComponent>> Charge4
+../../../../webviewer/143.jpg
+class3ebfc31a0335.htm
+
+
+
+(
+Amount
+../../../../webviewer/31.jpg
+att3ebfc37303dd.htm
+
+
+
+(
+)
+Type
+../../../../webviewer/31.jpg
+att3ebfc3740009.htm
+
+
+
+(
+)
+ChargeBasis[0..1]
+../../../../webviewer/31.jpg
+att40dffd69036d.htm
+
+
+
+(
+)
+RecipientIdentification[0..1]
+../../../../webviewer/31.jpg
+att40dffd69038b.htm
+
+
+
+(
+)
+ChargeBearer[0..1]
+../../../../webviewer/31.jpg
+att40dffd6903b3.htm
+att40dffd6903b3.txt
+
+
+(
+)
+theCharge ( Charge )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f13a7580109.htm
+
+
+
+theReceiveInformation2 ( ReceiveInformation2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3ebfc366012b.htm
+../../../../looseends/role3ebfc366012b.txt
+
+
+theDeliverInformation2 ( DeliverInformation2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3ebfc3fa008e.htm
+
+
+
+)
+<<MessageComponent>> Charge5
+../../../../webviewer/143.jpg
+class3f8bbc2a03d5.htm
+
+
+
+(
+Type
+../../../../webviewer/31.jpg
+att3f8bbc4d0168.htm
+
+
+
+(
+)
+Rate[0..1]
+../../../../webviewer/31.jpg
+att3f8bbc4d0172.htm
+
+
+
+(
+)
+Amount
+../../../../webviewer/31.jpg
+att3f8bbc4d017c.htm
+
+
+
+(
+)
+ChargeBasis[0..1]
+../../../../webviewer/31.jpg
+att3fbcedf80235.htm
+
+
+
+(
+)
+RecipientIdentification[0..1]
+../../../../webviewer/31.jpg
+att3fcca47903d7.htm
+
+
+
+(
+)
+theCharge ( Charge )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f8bbc6d0088.htm
+
+
+
+theTotalCharges1 ( TotalCharges1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f9d25b6010a.htm
+
+
+
+theCharge10 ( Charge10 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41ac9d870258.htm
+
+
+
+)
+<<MessageComponent>> Charge6
+../../../../webviewer/143.jpg
+class3f9526bd0198.htm
+class3f9526bd0198.txt
+
+
+(
+Type[0..1]
+../../../../webviewer/31.jpg
+att3f9526bd0199.htm
+att3f9526bd0199.txt
+
+
+(
+)
+ChargeBearer[0..1]
+../../../../webviewer/31.jpg
+att3f9526bd019a.htm
+att3f9526bd019a.txt
+
+
+(
+)
+Rate[0..1]
+../../../../webviewer/31.jpg
+att3f9526bd019b.htm
+
+
+
+(
+)
+ChargeAmount[0..1]
+../../../../webviewer/31.jpg
+att3f9526bd019c.htm
+att3f9526bd019c.txt
+
+
+(
+)
+theChargeEntries1 ( ChargeEntries1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3fa8fb4601eb.htm
+
+
+
+theCharge ( Charge )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f97ec56035a.htm
+
+
+
+Tax ( Tax2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3fe06a830333.htm
+
+
+
+)
+<<MessageComponent>> Charge7
+../../../../webviewer/143.jpg
+class3fe6cbb702bd.htm
+
+
+
+(
+Type
+../../../../webviewer/31.jpg
+att3fe6cbcb01d5.htm
+
+
+
+(
+)
+Rate
+../../../../webviewer/31.jpg
+att3fe6cbcb0334.htm
+
+
+
+(
+)
+Amount
+../../../../webviewer/31.jpg
+att3fe6cbcb0348.htm
+
+
+
+(
+)
+theRepairedConditions ( RepairedConditions )
+../../../../webviewer/82.jpg
+../../../../looseends/role3fe6cc7902b2.htm
+
+
+
+theCharge ( Charge )
+../../../../webviewer/82.jpg
+../../../../looseends/role3ff942ff0358.htm
+
+
+
+theCharge11 ( Charge11 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41de645103a6.htm
+
+
+
+<<XOR>> AmountOrRateRule
+../../../../webviewer/34.jpg
+op3ff97d8102e3.htm
+op3ff97d8102e3.txt
+
+
+(
+)
+)
+<<ChoiceComponent>> ChargeTypeFormat2Choice
+../../../../webviewer/144.jpg
+class40c03889002d.htm
+class40c03889002d.txt
+
+
+(
+Unstructured
+../../../../webviewer/33.jpg
+att40c038c0037f.htm
+att40c038c0037f.txt
+
+
+(
+)
+Structured
+../../../../webviewer/33.jpg
+att40c038c00393.htm
+att40c038c00393.txt
+
+
+(
+)
+)
+<<MessageComponent>> Charge8
+../../../../webviewer/143.jpg
+class41ab39600203.htm
+
+
+
+(
+Type
+../../../../webviewer/31.jpg
+att41ab39600205.htm
+
+
+
+(
+)
+Rate
+../../../../webviewer/31.jpg
+att41ab39600217.htm
+
+
+
+(
+)
+Amount
+../../../../webviewer/31.jpg
+att41ab39600221.htm
+
+
+
+(
+)
+ChargeBasis[0..1]
+../../../../webviewer/31.jpg
+att41ab3960022b.htm
+
+
+
+(
+)
+RecipientIdentification[0..1]
+../../../../webviewer/31.jpg
+att41ab39600240.htm
+
+
+
+(
+)
+theCharge ( Charge )
+../../../../webviewer/82.jpg
+../../../../looseends/role41ab3960024d.htm
+
+
+
+theRedemptionOrder3 ( RedemptionOrder3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role419205660329.htm
+
+
+
+theRedemptionOrder4 ( RedemptionOrder4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4191ee6100f8.htm
+
+
+
+theSubscriptionOrder3 ( SubscriptionOrder3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4191ffc50201.htm
+
+
+
+theSubscriptionOrder4 ( SubscriptionOrder4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role418fa32502c1.htm
+
+
+
+theSwitchRedemptionLegOrder2 ( SwitchRedemptionLegOrder2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41920a1b00c4.htm
+
+
+
+theSwitchSubscriptionLegOrder2 ( SwitchSubscriptionLegOrder2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41920b0b02c5.htm
+
+
+
+theCharge1 ( Charge1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41ab63cc034f.htm
+
+
+
+<<XOR>> AmountOrRateRule
+../../../../webviewer/34.jpg
+op41ab3960025e.htm
+op41ab3960025e.txt
+
+
+(
+)
+)
+<<MessageComponent>> Charge9
+../../../../webviewer/143.jpg
+class41b86f2b0098.htm
+
+
+
+(
+Amount
+../../../../webviewer/31.jpg
+att41b86f2b00df.htm
+
+
+
+(
+)
+Type
+../../../../webviewer/31.jpg
+att41b86f2b0110.htm
+
+
+
+(
+)
+CalculationBasis [0..1]
+../../../../webviewer/31.jpg
+att41b874900348.htm
+
+
+
+(
+)
+theUnitPrice6 ( UnitPrice6 )
+../../../../webviewer/82.jpg
+../../../../looseends/role419214950139.htm
+
+
+
+theCharge ( Charge )
+../../../../webviewer/82.jpg
+../../../../looseends/role41b86f2b0250.htm
+
+
+
+theCharge3 ( Charge3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41b86f3e03df.htm
+
+
+
+)
+<<MessageComponent>> Charge10
+../../../../webviewer/143.jpg
+class41ac9d700286.htm
+
+
+
+(
+Type
+../../../../webviewer/31.jpg
+att41ac9d700291.htm
+
+
+
+(
+)
+Rate[0..1]
+../../../../webviewer/31.jpg
+att41ac9d7002a4.htm
+
+
+
+(
+)
+Amount
+../../../../webviewer/31.jpg
+att41ac9d7002ae.htm
+
+
+
+(
+)
+ChargeBasis[0..1]
+../../../../webviewer/31.jpg
+att41ac9d7002b8.htm
+
+
+
+(
+)
+RecipientIdentification[0..1]
+../../../../webviewer/31.jpg
+att41ac9d7002c2.htm
+
+
+
+(
+)
+theCharge ( Charge )
+../../../../webviewer/82.jpg
+../../../../looseends/role41ac9d7002cf.htm
+
+
+
+theTotalCharges2 ( TotalCharges2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41ac9cde034b.htm
+
+
+
+theCharge5 ( Charge5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41ac9d87026c.htm
+
+
+
+)
+<<MessageComponent>> TotalCharges2
+../../../../webviewer/143.jpg
+class41ac9cde0322.htm
+class41ac9cde0322.txt
+
+
+(
+TotalAmountOfCharges[0..1]
+../../../../webviewer/31.jpg
+att41ac9cde0337.htm
+att41ac9cde0337.txt
+
+
+(
+)
+ChargeDetails ( Charge10 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41ac9cde034d.htm
+
+
+
+theCharge ( Charge )
+../../../../webviewer/82.jpg
+../../../../looseends/role4236b8e502b2.htm
+
+
+
+theRedemptionExecution4 ( RedemptionExecution4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4191f0df0022.htm
+
+
+
+theRedemptionExecution3 ( RedemptionExecution3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4192078a039b.htm
+
+
+
+theSubscriptionExecution3 ( SubscriptionExecution3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role419201c101e9.htm
+
+
+
+theSubscriptionExecution4 ( SubscriptionExecution4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4191e76e02cc.htm
+
+
+
+theSwitchSubscriptionLegExecution2 ( SwitchSubscriptionLegExecution2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41920d9901c1.htm
+
+
+
+theSwitchRedemptionLegExecution2 ( SwitchRedemptionLegExecution2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41920d02001b.htm
+
+
+
+theTotalCharges1 ( TotalCharges1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41ac9cfd006a.htm
+
+
+
+)
+<<MessageComponent>> Charge11
+../../../../webviewer/143.jpg
+class41de64430215.htm
+
+
+
+(
+Type
+../../../../webviewer/31.jpg
+att41de6443025c.htm
+
+
+
+(
+)
+Rate
+../../../../webviewer/31.jpg
+att41de64430270.htm
+
+
+
+(
+)
+Amount
+../../../../webviewer/31.jpg
+att41de6443027a.htm
+
+
+
+(
+)
+theRepairedConditions2 ( RepairedConditions2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41de7fe00154.htm
+
+
+
+theCharge ( Charge )
+../../../../webviewer/82.jpg
+../../../../looseends/role420740f9013a.htm
+
+
+
+theCharge7 ( Charge7 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41de645103b0.htm
+
+
+
+<<XOR>> AmountOrRateRule
+../../../../webviewer/34.jpg
+op41de644302a2.htm
+op41de644302a2.txt
+
+
+(
+)
+)
+<<MessageComponent>> Charge12
+../../../../webviewer/143.jpg
+class4199d9120229.htm
+class4199d9120229.txt
+
+
+(
+Type
+../../../../webviewer/31.jpg
+att4199dda50045.htm
+
+
+
+(
+)
+theCharge ( Charge )
+../../../../webviewer/82.jpg
+../../../../looseends/role42358ba80389.htm
+
+
+
+Charges ( ChargesDetails1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41a344ee0079.htm
+
+
+
+theLineItem1 ( LineItem1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41b713a8008e.htm
+../../../../looseends/role41b713a8008e.txt
+
+
+)
+<<MessageComponent>> Charge13
+../../../../webviewer/143.jpg
+class420883d2009a.htm
+class420883d2009a.txt
+
+
+(
+Type
+../../../../webviewer/31.jpg
+att4208840c0063.htm
+
+
+
+(
+)
+Charges ( ChargesDetails2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role42088b6f031b.htm
+
+
+
+theCharge ( Charge )
+../../../../webviewer/82.jpg
+../../../../looseends/role42358bab02ed.htm
+
+
+
+theLineItem2 ( LineItem2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role42088b600283.htm
+../../../../looseends/role42088b600283.txt
+
+
+theTransportDetails1 ( TransportDetails1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role422c71d102c3.htm
+
+
+
+)
+<<MessageComponent>> ChargesDetails1
+../../../../webviewer/143.jpg
+class41a1c7340040.htm
+
+
+
+(
+Amount
+../../../../webviewer/31.jpg
+att41a1e1600156.htm
+
+
+
+(
+)
+Type
+../../../../webviewer/31.jpg
+att41a1c75103dc.htm
+
+
+
+(
+)
+OtherChargesType
+../../../../webviewer/33.jpg
+att41de6cb200e6.htm
+att41de6cb200e6.txt
+
+
+(
+)
+Rate
+../../../../webviewer/31.jpg
+att41ece30c030f.htm
+
+
+
+(
+)
+theCharge ( Charge )
+../../../../webviewer/82.jpg
+../../../../looseends/role42358c1a017d.htm
+
+
+
+theCharge12 ( Charge12 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41a344ee0065.htm
+
+
+
+<<XOR>> TypeOrOtherChargesTypeRule
+../../../../webviewer/34.jpg
+op41de6cee03ca.htm
+op41de6cee03ca.txt
+
+
+(
+)
+<<XOR>> AmountOrRateRule
+../../../../webviewer/34.jpg
+op41ece320010f.htm
+op41ece320010f.txt
+
+
+(
+)
+)
+<<MessageComponent>> ChargesDetails2
+../../../../webviewer/143.jpg
+class420882a80363.htm
+
+
+
+(
+Amount
+../../../../webviewer/31.jpg
+att420882c802e8.htm
+
+
+
+(
+)
+Type
+../../../../webviewer/31.jpg
+att420882c90037.htm
+
+
+
+(
+)
+OtherChargesType
+../../../../webviewer/33.jpg
+att420882c90087.htm
+att420882c90087.txt
+
+
+(
+)
+theCharge ( Charge )
+../../../../webviewer/82.jpg
+../../../../looseends/role42358c1d03b2.htm
+
+
+
+theCharge13 ( Charge13 )
+../../../../webviewer/82.jpg
+../../../../looseends/role42088b6f02d5.htm
+
+
+
+<<XOR>> TypeOrOtherChargesTypeRule
+../../../../webviewer/34.jpg
+op4209e867026e.htm
+op4209e867026e.txt
+
+
+(
+)
+)
+<<MessageComponent>> ChargeType2
+../../../../webviewer/143.jpg
+class41b86f830029.htm
+class41b86f830029.txt
+
+
+(
+Structured
+../../../../webviewer/30.jpg
+att41b86fc9022a.htm
+att41b86fc9022a.txt
+
+
+(
+)
+AdditionalInformation [0..1]
+../../../../webviewer/30.jpg
+att41b86fc90234.htm
+att41b86fc90234.txt
+
+
+(
+)
+theChargeType ( ChargeType )
+../../../../webviewer/82.jpg
+../../../../looseends/role4235cd26039d.htm
+
+
+
+<<Textual>> OtherCodeRule
+../../../../webviewer/36.jpg
+op41b86fd300f8.htm
+op41b86fd300f8.txt
+
+
+(
+)
+)
+<<MessageComponent>> ChargeType1
+../../../../webviewer/143.jpg
+class41b439760006.htm
+class41b439760006.txt
+
+
+(
+Structured
+../../../../webviewer/30.jpg
+att41b439ba006a.htm
+att41b439ba006a.txt
+
+
+(
+)
+AdditionalInformation [0..1]
+../../../../webviewer/30.jpg
+att41b439ba006b.htm
+att41b439ba006b.txt
+
+
+(
+)
+theChargeType ( ChargeType )
+../../../../webviewer/82.jpg
+../../../../looseends/role4235cd250086.htm
+
+
+
+<<Textual>> OtherCodeRule
+../../../../webviewer/36.jpg
+op41b439c402d2.htm
+op41b439c402d2.txt
+
+
+(
+)
+)
+<<MessageComponent>> Charge14
+../../../../webviewer/143.jpg
+class3ee88ee5010e.htm
+
+
+
+(
+Type
+../../../../webviewer/31.jpg
+att3ee88efe02a5.htm
+
+
+
+(
+)
+Amount
+../../../../webviewer/31.jpg
+att3ee88efe0287.htm
+
+
+
+(
+)
+Rate[0..1]
+../../../../webviewer/31.jpg
+att3ee88efe0291.htm
+
+
+
+(
+)
+ValueDate[0..1]
+../../../../webviewer/31.jpg
+att3ee88efe02af.htm
+
+
+
+(
+)
+OriginalAmount[0..1]
+../../../../webviewer/33.jpg
+att3ee88efe02b9.htm
+att3ee88efe02b9.txt
+
+
+(
+)
+theCharge ( Charge )
+../../../../webviewer/82.jpg
+../../../../looseends/role3ee88f360332.htm
+
+
+
+theAllocation2 ( Allocation2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3ee99e330231.htm
+
+
+
+theAllocation1 ( Allocation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3ee99ec90196.htm
+
+
+
+)
+<<MessageComponent>> MatchingFee
+../../../../webviewer/143.jpg
+class3ee88fd1028a.htm
+class3ee88fd1028a.txt
+
+
+(
+Amount
+../../../../webviewer/31.jpg
+att3ee88fe502d9.htm
+
+
+
+(
+)
+ValueDate[0..1]
+../../../../webviewer/31.jpg
+att3ee88fe502f7.htm
+
+
+
+(
+)
+OriginalAmount[0..1]
+../../../../webviewer/33.jpg
+att3ee88fe50301.htm
+att3ee88fe50301.txt
+
+
+(
+)
+theCharge ( Charge )
+../../../../webviewer/82.jpg
+../../../../looseends/role3ee88ff40046.htm
+
+
+
+)
+Associations
+../../../../webviewer/assoccat.gif
+
+
+
+
+(
+<<SWSTrace>> (theCharge:Charge) (theCharge1:Charge1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3e0c684202fd.htm
+
+
+
+(
+Charge ( theCharge )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e0c68430148.htm
+
+
+
+Charge1 ( theCharge1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e0c68430177.htm
+
+
+
+)
+<<SWSTrace>> (theCharge:Charge) (theCharge2:Charge2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3e76f8ec028b.htm
+
+
+
+(
+Charge ( theCharge )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e76f8ed01b0.htm
+
+
+
+Charge2 ( theCharge2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e76f8ed020e.htm
+
+
+
+)
+Association (Tax:Tax2) (theCharge2:Charge2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3e771ed6001a.htm
+
+
+
+(
+Tax2 ( Tax )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e771ed602ba.htm
+
+
+
+Charge2 ( theCharge2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e771ed602c9.htm
+
+
+
+)
+Association (CurrencyExchange:CurrencyExchange1) (theCharge2:Charge2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3e771ed80394.htm
+
+
+
+(
+CurrencyExchange1 ( CurrencyExchange )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e771ed902aa.htm
+
+
+
+Charge2 ( theCharge2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e771ed902ba.htm
+
+
+
+)
+<<SWSTrace>> (theCharge:Charge) (theCharge3:Charge3)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3f0ec3f90000.htm
+
+
+
+(
+Charge ( theCharge )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f0ec3f902de.htm
+
+
+
+Charge3 ( theCharge3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f0ec3f9033c.htm
+
+
+
+)
+<<SWSTrace>> (theCharge:Charge) (theCharge4:Charge4)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3f13a7570222.htm
+
+
+
+(
+Charge ( theCharge )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f13a75800bb.htm
+
+
+
+Charge4 ( theCharge4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f13a7580109.htm
+
+
+
+)
+<<SWSTrace>> (theCharge:Charge) (theCharge5:Charge5)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3f8bbc6c0235.htm
+
+
+
+(
+Charge ( theCharge )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f8bbc6d0056.htm
+
+
+
+Charge5 ( theCharge5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f8bbc6d0088.htm
+
+
+
+)
+Association (ChargeDetails:Charge5) (theTotalCharges1:TotalCharges1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3f9d25b60109.htm
+../../../../looseends/ass3f9d25b60109.txt
+
+
+(
+Charge5 ( ChargeDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f9d25b6010a.htm
+
+
+
+TotalCharges1 ( theTotalCharges1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f9d25b6010b.htm
+
+
+
+)
+<<SWSTrace>> (theCharge:Charge) (theCharge6:Charge6)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3f97ec550010.htm
+
+
+
+(
+Charge ( theCharge )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f97ec56018e.htm
+
+
+
+Charge6 ( theCharge6 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f97ec56035a.htm
+
+
+
+)
+Association (ChargesAccountAgent:FinancialInstitutionIdentification1Choice) (theCharge2:Charge2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3fe0681001c9.htm
+../../../../looseends/ass3fe0681001c9.txt
+
+
+(
+FinancialInstitutionIdentification1Choice ( ChargesAccountAgent )
+../../../../webviewer/82.jpg
+../../../../looseends/role3fe0681101a2.htm
+
+
+
+Charge2 ( theCharge2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3fe0681101c0.htm
+
+
+
+)
+Association (Tax:Tax2) (theCharge6:Charge6)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3fe06a8202d7.htm
+
+
+
+(
+Tax2 ( Tax )
+../../../../webviewer/82.jpg
+../../../../looseends/role3fe06a83031f.htm
+
+
+
+Charge6 ( theCharge6 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3fe06a830333.htm
+
+
+
+)
+<<SWSTrace>> (theCharge:Charge) (theCharge7:Charge7)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3ff942fd0070.htm
+
+
+
+(
+Charge ( theCharge )
+../../../../webviewer/82.jpg
+../../../../looseends/role3ff942fd037d.htm
+
+
+
+Charge7 ( theCharge7 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3ff942ff0358.htm
+
+
+
+)
+<<SWSTrace>> (theCharge:Charge) (theCharge8:Charge8)
+../../../../webviewer/81.jpg
+../../../../looseends/ass41ab3960024a.htm
+
+
+
+(
+Charge ( theCharge )
+../../../../webviewer/82.jpg
+../../../../looseends/role41ab3960024b.htm
+
+
+
+Charge8 ( theCharge8 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41ab3960024d.htm
+
+
+
+)
+<<SWSTrace>> (theCharge:Charge) (theCharge9:Charge9)
+../../../../webviewer/81.jpg
+../../../../looseends/ass41b86f2b0142.htm
+
+
+
+(
+Charge ( theCharge )
+../../../../webviewer/82.jpg
+../../../../looseends/role41b86f2b014c.htm
+
+
+
+Charge9 ( theCharge9 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41b86f2b0250.htm
+
+
+
+)
+<<SWSTrace>> (theCharge:Charge) (theCharge10:Charge10)
+../../../../webviewer/81.jpg
+../../../../looseends/ass41ac9d7002cc.htm
+
+
+
+(
+Charge ( theCharge )
+../../../../webviewer/82.jpg
+../../../../looseends/role41ac9d7002cd.htm
+
+
+
+Charge10 ( theCharge10 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41ac9d7002cf.htm
+
+
+
+)
+Association (ChargeDetails:Charge10) (theTotalCharges2:TotalCharges2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass41ac9cde034a.htm
+../../../../looseends/ass41ac9cde034a.txt
+
+
+(
+Charge10 ( ChargeDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role41ac9cde034b.htm
+
+
+
+TotalCharges2 ( theTotalCharges2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41ac9cde034d.htm
+
+
+
+)
+<<SWSTrace>> (theCharge:Charge) (theCharge11:Charge11)
+../../../../webviewer/81.jpg
+../../../../looseends/ass420740f80071.htm
+
+
+
+(
+Charge ( theCharge )
+../../../../webviewer/82.jpg
+../../../../looseends/role420740f90112.htm
+
+
+
+Charge11 ( theCharge11 )
+../../../../webviewer/82.jpg
+../../../../looseends/role420740f9013a.htm
+
+
+
+)
+<<SWSTrace>> (theCharge:Charge) (theTotalCharges2:TotalCharges2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4236b8e20159.htm
+
+
+
+(
+Charge ( theCharge )
+../../../../webviewer/82.jpg
+../../../../looseends/role4236b8e50212.htm
+
+
+
+TotalCharges2 ( theTotalCharges2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4236b8e502b2.htm
+
+
+
+)
+<<SWSTrace>> (theCharge:Charge) (theChargesDetails1:ChargesDetails1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass42358c1901e9.htm
+
+
+
+(
+Charge ( theCharge )
+../../../../webviewer/82.jpg
+../../../../looseends/role42358c1a014b.htm
+
+
+
+ChargesDetails1 ( theChargesDetails1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role42358c1a017d.htm
+
+
+
+)
+<<SWSTrace>> (theCharge:Charge) (theChargesDetails2:ChargesDetails2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass42358c1d0091.htm
+
+
+
+(
+Charge ( theCharge )
+../../../../webviewer/82.jpg
+../../../../looseends/role42358c1d0358.htm
+
+
+
+ChargesDetails2 ( theChargesDetails2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role42358c1d03b2.htm
+
+
+
+)
+Association (Charges:ChargesDetails2) (theCharge13:Charge13)
+../../../../webviewer/81.jpg
+../../../../looseends/ass42088b6e00b7.htm
+
+
+
+(
+ChargesDetails2 ( Charges )
+../../../../webviewer/82.jpg
+../../../../looseends/role42088b6f02d5.htm
+
+
+
+Charge13 ( theCharge13 )
+../../../../webviewer/82.jpg
+../../../../looseends/role42088b6f031b.htm
+
+
+
+)
+<<SWSTrace>> (theCharge:Charge) (theCharge13:Charge13)
+../../../../webviewer/81.jpg
+../../../../looseends/ass42358bab0044.htm
+
+
+
+(
+Charge ( theCharge )
+../../../../webviewer/82.jpg
+../../../../looseends/role42358bab026b.htm
+
+
+
+Charge13 ( theCharge13 )
+../../../../webviewer/82.jpg
+../../../../looseends/role42358bab02ed.htm
+
+
+
+)
+<<SWSTrace>> (theCharge:Charge) (theCharge12:Charge12)
+../../../../webviewer/81.jpg
+../../../../looseends/ass42358ba80086.htm
+
+
+
+(
+Charge ( theCharge )
+../../../../webviewer/82.jpg
+../../../../looseends/role42358ba802cb.htm
+
+
+
+Charge12 ( theCharge12 )
+../../../../webviewer/82.jpg
+../../../../looseends/role42358ba80389.htm
+
+
+
+)
+Association (GoodsCharges:Charge) (theGoods:Goods)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4226e13a0269.htm
+../../../../looseends/ass4226e13a0269.txt
+
+
+(
+Charge ( GoodsCharges )
+../../../../webviewer/82.jpg
+../../../../looseends/role4226e13b0012.htm
+
+
+
+Goods ( theGoods )
+../../../../webviewer/82.jpg
+../../../../looseends/role4226e13b0044.htm
+
+
+
+)
+Association (TransportCharges:Charge) (theTransport:Transport)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4226e7b5021b.htm
+../../../../looseends/ass4226e7b5021b.txt
+
+
+(
+Charge ( TransportCharges )
+../../../../webviewer/82.jpg
+../../../../looseends/role4226e7b50370.htm
+
+
+
+Transport ( theTransport )
+../../../../webviewer/82.jpg
+../../../../looseends/role4226e7b503a2.htm
+
+
+
+)
+Association (Charges:ChargesDetails1) (theCharge12:Charge12)
+../../../../webviewer/81.jpg
+../../../../looseends/ass41a344ed009f.htm
+
+
+
+(
+ChargesDetails1 ( Charges )
+../../../../webviewer/82.jpg
+../../../../looseends/role41a344ee0065.htm
+
+
+
+Charge12 ( theCharge12 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41a344ee0079.htm
+
+
+
+)
+<<SWSTrace>> (theCharge:Charge) (theCharge14:Charge14)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3ee88f36013d.htm
+
+
+
+(
+Charge ( theCharge )
+../../../../webviewer/82.jpg
+../../../../looseends/role3ee88f3602ff.htm
+
+
+
+Charge14 ( theCharge14 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3ee88f360332.htm
+
+
+
+)
+<<SWSTrace>> (theCharge:Charge) (theMatchingFee:MatchingFee)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3ee88ff3026b.htm
+
+
+
+(
+Charge ( theCharge )
+../../../../webviewer/82.jpg
+../../../../looseends/role3ee88ff4001e.htm
+
+
+
+MatchingFee ( theMatchingFee )
+../../../../webviewer/82.jpg
+../../../../looseends/role3ee88ff40046.htm
+
+
+
+)
+)

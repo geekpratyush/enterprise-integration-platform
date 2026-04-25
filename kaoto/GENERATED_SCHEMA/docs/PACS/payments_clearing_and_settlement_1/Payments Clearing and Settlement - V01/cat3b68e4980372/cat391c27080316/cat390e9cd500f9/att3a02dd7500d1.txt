@@ -1,0 +1,1 @@
+Specifies the rating, which has been assigned to a security by a rating agency.

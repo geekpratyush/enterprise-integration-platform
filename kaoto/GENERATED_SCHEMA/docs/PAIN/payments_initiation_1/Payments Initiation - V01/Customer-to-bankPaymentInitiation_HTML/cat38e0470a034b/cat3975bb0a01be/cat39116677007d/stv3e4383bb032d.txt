@@ -1,0 +1,6 @@
+The final party will reconcile events coming from its information system (e.g. account receivables) with external information feeds (e.g. credit advices, account statement).
+
+This process aims at matching both internal and external views and identify items for which further attention is required.
+
+The reconciliation either ends the financial leg of a transaction (from payment inception to payment completion confirmation) when positive or leads to investigations or claims when negative. 
+

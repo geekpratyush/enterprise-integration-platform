@@ -1,0 +1,1 @@
+Process of allocating a trade into several securities settlement transactions.

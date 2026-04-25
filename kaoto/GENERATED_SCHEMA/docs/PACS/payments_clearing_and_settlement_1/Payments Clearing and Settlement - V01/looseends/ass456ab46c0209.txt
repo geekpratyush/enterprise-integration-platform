@@ -1,0 +1,1 @@
+Party that initiates the status of the individual order cancellation.

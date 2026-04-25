@@ -1,0 +1,2 @@
+Transfer method to be used for the transfer.
+

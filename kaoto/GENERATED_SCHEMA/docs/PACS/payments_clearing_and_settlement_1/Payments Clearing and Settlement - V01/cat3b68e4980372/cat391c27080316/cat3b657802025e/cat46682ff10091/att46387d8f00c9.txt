@@ -1,0 +1,1 @@
+Total amount of the global request (sum of the amounts of all single requests).

@@ -1,0 +1,1 @@
+Type of limit applied by the system at the present time.

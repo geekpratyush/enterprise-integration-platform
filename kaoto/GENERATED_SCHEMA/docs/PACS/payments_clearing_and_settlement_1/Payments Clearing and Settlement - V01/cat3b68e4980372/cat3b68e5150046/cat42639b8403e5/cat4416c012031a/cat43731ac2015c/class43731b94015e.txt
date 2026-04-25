@@ -1,0 +1,1 @@
+The PaymentCancellationRequestV01 message is sent by the initiating party, or any agent, to the next party in the payment chain. It is used to request the cancellation of an instruction previously sent. 

@@ -1,0 +1,1 @@
+Specifies a type of order based on the Financial Information Exchange Protocol.

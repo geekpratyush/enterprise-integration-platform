@@ -1,0 +1,1 @@
+Indicates whether the offset is before or after 00:00 hour UTC.

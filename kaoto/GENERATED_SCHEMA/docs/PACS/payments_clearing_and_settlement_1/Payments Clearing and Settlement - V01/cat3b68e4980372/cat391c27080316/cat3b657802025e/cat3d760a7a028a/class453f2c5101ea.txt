@@ -1,0 +1,1 @@
+Set of elements that identify the underlying transaction.

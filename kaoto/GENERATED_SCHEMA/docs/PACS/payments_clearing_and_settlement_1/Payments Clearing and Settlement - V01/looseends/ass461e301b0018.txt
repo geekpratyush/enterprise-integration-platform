@@ -1,0 +1,1 @@
+Provides the ability to describe the instrument through a description and main characteristics. 

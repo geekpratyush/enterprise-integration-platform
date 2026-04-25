@@ -1,0 +1,468 @@
+<<MessageComponent>> PreviousYear1
+../../../../webviewer/142.jpg
+class456af5d5002d.htm
+class456af5d5002d.txt
+
+
+(
+AllPreviousYears
+../../../../webviewer/33.jpg
+att456af5d50055.htm
+att456af5d50055.txt
+
+
+(
+)
+SpecificPreviousYears [1..n]
+../../../../webviewer/31.jpg
+att456af5d50087.htm
+att456af5d50087.txt
+
+
+(
+)
+CashComponentIndicator
+../../../../webviewer/31.jpg
+att456af68a0278.htm
+att456af68a0278.txt
+
+
+(
+)
+theISAYearsOfIssue1 ( ISAYearsOfIssue1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456af82502e9.htm
+
+
+
+theISAYearsOfIssue3 ( ISAYearsOfIssue3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456b0fa703ab.htm
+
+
+
+thePEPISAInvestmentPlan ( PEPISAInvestmentPlan )
+../../../../webviewer/82.jpg
+../../../../looseends/role45880f5600ca.htm
+
+
+
+<<Textual>> SpecificPreviousYearsGuideline
+../../../../webviewer/36.jpg
+op456af5d500f5.htm
+op456af5d500f5.txt
+
+
+(
+)
+<<XOR>> AllPreviousYearsOrSpecificPreviousYearsRule
+../../../../webviewer/34.jpg
+op458900120270.htm
+op458900120270.txt
+
+
+(
+)
+)
+<<MessageComponent>> ISAYearsOfIssue3
+../../../../webviewer/142.jpg
+class456b06d8004e.htm
+class456b06d8004e.txt
+
+
+(
+CurrentYearType [0..1]
+../../../../webviewer/31.jpg
+att456b06d80062.htm
+att456b06d80062.txt
+
+
+(
+)
+ExtendedCurrentYearType [0..1]
+../../../../webviewer/31.jpg
+att456b07240398.htm
+
+
+
+(
+)
+CashComponentIndicator
+../../../../webviewer/31.jpg
+att456b072403b7.htm
+att456b072403b7.txt
+
+
+(
+)
+thePEPISATransfer4 ( PEPISATransfer4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456b07e3030d.htm
+
+
+
+thePEPISAInvestmentPlan ( PEPISAInvestmentPlan )
+../../../../webviewer/82.jpg
+../../../../looseends/role456b06d800db.htm
+
+
+
+PreviousYears ( PreviousYear1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456b0fa703b5.htm
+
+
+
+CurrentYearSubscriptionDetails ( SubscriptionInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456b0a520112.htm
+
+
+
+<<Textual>> CurrentYearTypeRule
+../../../../webviewer/36.jpg
+op456b06d800ef.htm
+op456b06d800ef.txt
+
+
+(
+)
+<<XOR>> CurrentYearTypeOrExtendedCurrentYearTypeRule
+../../../../webviewer/34.jpg
+op456b079d0151.htm
+op456b079d0151.txt
+
+
+(
+)
+)
+<<MessageComponent>> ISAYearsOfIssue2
+../../../../webviewer/142.jpg
+class4464478901c4.htm
+class4464478901c4.txt
+
+
+(
+CurrentYearType [0..1]
+../../../../webviewer/31.jpg
+att4464478901d9.htm
+att4464478901d9.txt
+
+
+(
+)
+ExtendedCurrentYearType [0..1]
+../../../../webviewer/31.jpg
+att44644789020a.htm
+
+
+
+(
+)
+thePEPISATransfer5 ( PEPISATransfer5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role446af3090350.htm
+
+
+
+thePEPISAInvestmentPlan ( PEPISAInvestmentPlan )
+../../../../webviewer/82.jpg
+../../../../looseends/role44644789027b.htm
+
+
+
+PreviousYears ( PreviousYearChoice )
+../../../../webviewer/82.jpg
+../../../../looseends/role456eacd102cb.htm
+
+
+
+<<Textual>> CurrentYearTypeRule
+../../../../webviewer/36.jpg
+op446447890304.htm
+op446447890304.txt
+
+
+(
+)
+<<XOR>> CurrentYearTypeOrExtendedCurrentYearTypeRule
+../../../../webviewer/34.jpg
+op446447890354.htm
+op446447890354.txt
+
+
+(
+)
+)
+<<MessageComponent>> ISAYearsOfIssue1
+../../../../webviewer/142.jpg
+class446057c4012f.htm
+class446057c4012f.txt
+
+
+(
+CurrentYearType [0..1]
+../../../../webviewer/31.jpg
+att446057c4030f.htm
+
+
+
+(
+)
+ExtendedCurrentYearType [0..1]
+../../../../webviewer/31.jpg
+att44605874035e.htm
+
+
+
+(
+)
+CashComponentIndicator
+../../../../webviewer/31.jpg
+att456abda300d1.htm
+att456abda300d1.txt
+
+
+(
+)
+thePEPISATransfer3 ( PEPISATransfer3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role445ef313009a.htm
+
+
+
+thePEPISATransfer6 ( PEPISATransfer6 )
+../../../../webviewer/82.jpg
+../../../../looseends/role446b164000c7.htm
+
+
+
+thePEPISATransfer8 ( PEPISATransfer8 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4571952b012c.htm
+
+
+
+thePEPISAInvestmentPlan ( PEPISAInvestmentPlan )
+../../../../webviewer/82.jpg
+../../../../looseends/role446057c60330.htm
+
+
+
+CurrentYearSubscriptionDetails ( SubscriptionInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456eb8f4003e.htm
+
+
+
+PreviousYears ( PreviousYear1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456af82502fd.htm
+
+
+
+<<Textual>> CurrentYearRule
+../../../../webviewer/36.jpg
+op446057c701a1.htm
+op446057c701a1.txt
+
+
+(
+)
+<<XOR>> CurrentYearTypeOrExtendedCurrentYearTypeRule
+../../../../webviewer/34.jpg
+op4460597401d3.htm
+op4460597401d3.txt
+
+
+(
+)
+)
+Associations
+../../../../webviewer/assoccat.gif
+
+
+
+
+(
+<<SWSTrace>> (thePEPISAInvestmentPlan:PEPISAInvestmentPlan) (theISAYearsOfIssue1:ISAYearsOfIssue1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass446057c600d8.htm
+
+
+
+(
+PEPISAInvestmentPlan ( thePEPISAInvestmentPlan )
+../../../../webviewer/82.jpg
+../../../../looseends/role446057c6016e.htm
+
+
+
+ISAYearsOfIssue1 ( theISAYearsOfIssue1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role446057c60330.htm
+
+
+
+)
+Association (CurrentYearSubscriptionDetails:SubscriptionInformation1) (theISAYearsOfIssue1:ISAYearsOfIssue1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass456eb8f30295.htm
+../../../../looseends/ass456eb8f30295.txt
+
+
+(
+SubscriptionInformation1 ( CurrentYearSubscriptionDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role456eb8f40020.htm
+
+
+
+ISAYearsOfIssue1 ( theISAYearsOfIssue1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456eb8f4003e.htm
+
+
+
+)
+Association (PreviousYears:PreviousYear1) (theISAYearsOfIssue1:ISAYearsOfIssue1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass456af824032e.htm
+../../../../looseends/ass456af824032e.txt
+
+
+(
+PreviousYear1 ( PreviousYears )
+../../../../webviewer/82.jpg
+../../../../looseends/role456af82502e9.htm
+
+
+
+ISAYearsOfIssue1 ( theISAYearsOfIssue1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456af82502fd.htm
+
+
+
+)
+<<SWSTrace>> (thePEPISAInvestmentPlan:PEPISAInvestmentPlan) (theISAYearsOfIssue2:ISAYearsOfIssue2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass446447890278.htm
+
+
+
+(
+PEPISAInvestmentPlan ( thePEPISAInvestmentPlan )
+../../../../webviewer/82.jpg
+../../../../looseends/role446447890279.htm
+
+
+
+ISAYearsOfIssue2 ( theISAYearsOfIssue2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role44644789027b.htm
+
+
+
+)
+Association (PreviousYears:PreviousYearChoice) (theISAYearsOfIssue2:ISAYearsOfIssue2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass456eacd00297.htm
+../../../../looseends/ass456eacd00297.txt
+
+
+(
+PreviousYearChoice ( PreviousYears )
+../../../../webviewer/82.jpg
+../../../../looseends/role456eacd102ad.htm
+
+
+
+ISAYearsOfIssue2 ( theISAYearsOfIssue2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456eacd102cb.htm
+
+
+
+)
+<<SWSTrace>> (thePEPISAInvestmentPlan:PEPISAInvestmentPlan) (theISAYearsOfIssue3:ISAYearsOfIssue3)
+../../../../webviewer/81.jpg
+../../../../looseends/ass456b06d800d0.htm
+
+
+
+(
+PEPISAInvestmentPlan ( thePEPISAInvestmentPlan )
+../../../../webviewer/82.jpg
+../../../../looseends/role456b06d800d1.htm
+
+
+
+ISAYearsOfIssue3 ( theISAYearsOfIssue3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456b06d800db.htm
+
+
+
+)
+Association (PreviousYears:PreviousYear1) (theISAYearsOfIssue3:ISAYearsOfIssue3)
+../../../../webviewer/81.jpg
+../../../../looseends/ass456b0fa6029b.htm
+../../../../looseends/ass456b0fa6029b.txt
+
+
+(
+PreviousYear1 ( PreviousYears )
+../../../../webviewer/82.jpg
+../../../../looseends/role456b0fa703ab.htm
+
+
+
+ISAYearsOfIssue3 ( theISAYearsOfIssue3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456b0fa703b5.htm
+
+
+
+)
+Association (CurrentYearSubscriptionDetails:SubscriptionInformation1) (theISAYearsOfIssue3:ISAYearsOfIssue3)
+../../../../webviewer/81.jpg
+../../../../looseends/ass456b0a51017f.htm
+../../../../looseends/ass456b0a51017f.txt
+
+
+(
+SubscriptionInformation1 ( CurrentYearSubscriptionDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role456b0a5200ea.htm
+
+
+
+ISAYearsOfIssue3 ( theISAYearsOfIssue3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456b0a520112.htm
+
+
+
+)
+<<SWSTrace>> (thePEPISAInvestmentPlan:PEPISAInvestmentPlan) (thePreviousYear1:PreviousYear1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass45880f5501af.htm
+
+
+
+(
+PEPISAInvestmentPlan ( thePEPISAInvestmentPlan )
+../../../../webviewer/82.jpg
+../../../../looseends/role45880f5600b6.htm
+
+
+
+PreviousYear1 ( thePreviousYear1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role45880f5600ca.htm
+
+
+
+)
+)

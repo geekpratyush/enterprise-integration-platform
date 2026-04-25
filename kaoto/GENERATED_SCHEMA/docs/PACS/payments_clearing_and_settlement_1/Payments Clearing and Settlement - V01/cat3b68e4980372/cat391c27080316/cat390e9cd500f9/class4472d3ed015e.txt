@@ -1,0 +1,2 @@
+Payment processes required to transfer an amount of money from the debtor to the creditor, where both are financial institutions.
+

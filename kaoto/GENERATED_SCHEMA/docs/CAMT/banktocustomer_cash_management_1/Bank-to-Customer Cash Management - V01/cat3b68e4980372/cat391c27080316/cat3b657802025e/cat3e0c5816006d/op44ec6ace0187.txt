@@ -1,0 +1,1 @@
+Either RelatedPartiesDetails or BulkOrderDetails/IndividualOrderDetails/RelatedPartiesDetails may be present, but not both.

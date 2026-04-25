@@ -1,0 +1,24 @@
+Definition:the process includes the financial impact reporting, the reporting on the payment transaction status and the reconciliation process. Further descriptions of these sub-processes are included below.
+
+Note : 
+· Reporting applies both to interbank reporting (eg nostro account reporting), and bank-to-customer reporting. The definitions below apply to the bank-to-customer reporting.
+· Regulatory reporting is described as a separate process. 
+
+
+
+
+Pre-condition:an agreement exists between the reporting party and the reported party to do a specific type of reporting, in order to meet legal requirements and business requirements agreed between the reporting and reported party.
+
+
+Trigger:payment process is completed
+
+
+Pre-condition:the payment transaction is reported on.
+
+
+Post-condition:
+
+
+
+
+

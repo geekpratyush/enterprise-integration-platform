@@ -1,0 +1,11 @@
+services:
+  wiremock:
+    image: wiremock/wiremock:3.5.2
+    container_name: wiremock-eip
+    user: root
+    ports:
+      - "8081:8080"
+    volumes:
+      - ${EIP_ROOT_DIR}/02_initialization/mappings:/home/wiremock/mappings:ro
+    command:
+      - --global-response-templating

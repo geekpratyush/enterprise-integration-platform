@@ -1,0 +1,1 @@
+Reports either on currency exchange information or on a business error.

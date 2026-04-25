@@ -1,0 +1,1 @@
+Specifies the role of a party with respect to an account.

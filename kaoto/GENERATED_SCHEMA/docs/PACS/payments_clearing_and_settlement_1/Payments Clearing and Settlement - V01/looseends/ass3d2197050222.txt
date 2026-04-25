@@ -1,0 +1,1 @@
+Party taking charges from the inter bank settled amount of a payment instruction.

@@ -1,0 +1,1 @@
+Acting as an agent for some executions and principal for others in the same transaction.

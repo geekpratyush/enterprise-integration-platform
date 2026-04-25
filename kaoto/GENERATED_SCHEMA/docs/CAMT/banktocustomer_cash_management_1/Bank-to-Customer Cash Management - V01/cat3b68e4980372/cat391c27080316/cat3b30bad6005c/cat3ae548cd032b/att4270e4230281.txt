@@ -1,0 +1,1 @@
+Indicates that a tax certificate is provided by the beneficiary from his tax authorithy in his country of residence. Therefore, the obligation of withholding tax is waived and tax infrmation will be reported to the tax authorithies. 

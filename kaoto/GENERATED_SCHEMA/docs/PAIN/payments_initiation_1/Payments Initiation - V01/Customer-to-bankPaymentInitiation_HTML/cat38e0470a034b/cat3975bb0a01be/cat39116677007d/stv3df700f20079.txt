@@ -1,0 +1,3 @@
+For a description of the 'payment status report', please see the activity 'receive payment status report'.
+
+The status report may be sent electronically or by other means of communication. 

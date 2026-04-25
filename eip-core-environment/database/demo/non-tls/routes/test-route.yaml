@@ -1,0 +1,17 @@
+- from:
+    uri: "timer:db-agnostic-test?period=5000"
+    steps:
+      - setBody:
+          constant: |
+            {
+              "order_id": "12345",
+              "item": "Modular Integration Component",
+              "status": "SCALED"
+            }
+      - log: "Step 1: Sending Order to MongoDB (Tenant A)"
+      - to: "kamelet:universal-db-sink?tenantId=tenant-a&entityName=orders&operation=CREATE"
+      
+      - log: "Step 2: Mirroring Order to PostgreSQL (Tenant B)"
+      - to: "kamelet:universal-db-sink?tenantId=tenant-b&entityName=orders&operation=CREATE"
+      
+      - log: "Multi-tenant sync complete for Order 12345."

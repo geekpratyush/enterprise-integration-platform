@@ -1,0 +1,1 @@
+Status of the transfer is accepted, sent to next party, matched, already executed, or settled.

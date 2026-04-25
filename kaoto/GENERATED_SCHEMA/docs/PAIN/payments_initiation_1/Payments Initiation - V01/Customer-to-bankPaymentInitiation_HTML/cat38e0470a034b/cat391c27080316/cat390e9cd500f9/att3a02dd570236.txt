@@ -1,0 +1,1 @@
+Specifies the name of an agency, which provides rating services , eg, Moody's and S&P. 

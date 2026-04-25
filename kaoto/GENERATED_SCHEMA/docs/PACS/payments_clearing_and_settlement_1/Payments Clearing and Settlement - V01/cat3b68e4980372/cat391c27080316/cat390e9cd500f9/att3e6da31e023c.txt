@@ -1,0 +1,1 @@
+Contains the offset in basis points against a benchmark for a buy or sell leg of a swap for the spot or the forward.

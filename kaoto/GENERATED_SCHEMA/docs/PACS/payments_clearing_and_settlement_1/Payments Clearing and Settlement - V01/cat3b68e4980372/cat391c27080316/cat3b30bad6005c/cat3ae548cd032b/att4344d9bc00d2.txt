@@ -1,0 +1,1 @@
+Balance of securities that is unclassified, ie, is  not identified with one of the existing sub-balance types. 

@@ -1,0 +1,1 @@
+Specifies that the order is accepted for further processing pending the extension of the trading limit.

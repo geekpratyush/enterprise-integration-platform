@@ -1,0 +1,1 @@
+Amount of money asked or paid in compensation between the sending party and the receiving party. 

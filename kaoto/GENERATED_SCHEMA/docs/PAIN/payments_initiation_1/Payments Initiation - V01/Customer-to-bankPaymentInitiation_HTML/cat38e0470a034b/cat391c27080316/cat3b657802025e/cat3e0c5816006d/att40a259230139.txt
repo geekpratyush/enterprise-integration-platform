@@ -1,0 +1,1 @@
+Type of balance on which the statement is prepared.

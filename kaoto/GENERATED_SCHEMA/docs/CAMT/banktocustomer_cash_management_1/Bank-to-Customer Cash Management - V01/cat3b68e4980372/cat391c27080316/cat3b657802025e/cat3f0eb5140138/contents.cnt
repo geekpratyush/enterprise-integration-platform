@@ -1,0 +1,1844 @@
+<<MessageComponent>> FinancialInstrument3
+../../../../webviewer/142.jpg
+class3dad5b0201f5.htm
+
+
+
+(
+Identification
+../../../../webviewer/31.jpg
+att3dad5b760332.htm
+
+
+
+(
+)
+Name [0..1]
+../../../../webviewer/31.jpg
+att3dad5b760346.htm
+
+
+
+(
+)
+SupplementaryIdentification [0..1]
+../../../../webviewer/31.jpg
+att3eba7b110333.htm
+
+
+
+(
+)
+RequestedNAVCurrency [0..1]
+../../../../webviewer/31.jpg
+att3eba054801e1.htm
+
+
+
+(
+)
+ClassType [0..1]
+../../../../webviewer/31.jpg
+att3dad5d630128.htm
+
+
+
+(
+)
+SecuritiesForm [0..1]
+../../../../webviewer/31.jpg
+att3eba7b1103b5.htm
+
+
+
+(
+)
+DistributionPolicy [0..1]
+../../../../webviewer/31.jpg
+att3dad5d690285.htm
+
+
+
+(
+)
+theTransferOut1 ( TransferOut1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41590e7903af.htm
+
+
+
+theTransferOut2 ( TransferOut2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41590ef10285.htm
+
+
+
+theTransferIn2 ( TransferIn2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41591105024b.htm
+
+
+
+theTransferIn1 ( TransferIn1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4159165a0297.htm
+
+
+
+theInvestmentFundClass ( InvestmentFundClass )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f0eb5510280.htm
+
+
+
+theFinancialInstrument13 ( FinancialInstrument13 )
+../../../../webviewer/82.jpg
+../../../../looseends/role44fd9ab002a9.htm
+
+
+
+<<Textual>> FinancialInstrumentIdentificationGuideline
+../../../../webviewer/36.jpg
+op3ec08db60256.htm
+op3ec08db60256.txt
+
+
+(
+)
+)
+<<MessageComponent>> FinancialInstrument4
+../../../../webviewer/142.jpg
+class40b4612800ea.htm
+class40b4612800ea.txt
+
+
+(
+Identification
+../../../../webviewer/31.jpg
+att40b4613f0383.htm
+
+
+
+(
+)
+Name [0..1]
+../../../../webviewer/31.jpg
+att40b4613f03b5.htm
+
+
+
+(
+)
+SupplementaryIdentification[0..1]
+../../../../webviewer/31.jpg
+att40a4fb0e010d.htm
+
+
+
+(
+)
+SecuritiesForm[0..1]
+../../../../webviewer/31.jpg
+att40a4fb0e0149.htm
+
+
+
+(
+)
+ClassType[0..1]
+../../../../webviewer/31.jpg
+att40a4fb0e0185.htm
+
+
+
+(
+)
+DistributionPolicy[0..1]
+../../../../webviewer/31.jpg
+att40a4fb0e01b7.htm
+
+
+
+(
+)
+theAggregateBalanceInformation1 ( AggregateBalanceInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role40bc665c005f.htm
+
+
+
+theAggregateBalanceInformation2 ( AggregateBalanceInformation2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role40bc68ed00b0.htm
+
+
+
+theInvestmentFundClass ( InvestmentFundClass )
+../../../../webviewer/82.jpg
+../../../../looseends/role40b465b303c8.htm
+
+
+
+<<Textual>> FinancialInstrumentdentificationGuideline
+../../../../webviewer/36.jpg
+op40b4614b01e5.htm
+op40b4614b01e5.txt
+
+
+(
+)
+)
+<<MessageComponent>> InvestmentFundTransactionsByFund1
+../../../../webviewer/142.jpg
+class4178bfbd01b4.htm
+class4178bfbd01b4.txt
+
+
+(
+Identification
+../../../../webviewer/31.jpg
+att4178c00001b3.htm
+
+
+
+(
+)
+Name [0..1]
+../../../../webviewer/31.jpg
+att4178c00001d1.htm
+
+
+
+(
+)
+SupplementaryIdentification[0..1]
+../../../../webviewer/31.jpg
+att4178c00001ef.htm
+
+
+
+(
+)
+Form[0..1]
+../../../../webviewer/31.jpg
+att4178c0000203.htm
+
+
+
+(
+)
+ClassType[0..1]
+../../../../webviewer/31.jpg
+att4178c0000249.htm
+
+
+
+(
+)
+DistributionPolicy[0..1]
+../../../../webviewer/31.jpg
+att4178c0000271.htm
+
+
+
+(
+)
+theSubAccountIdentification4 ( SubAccountIdentification4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4180a633010c.htm
+
+
+
+theStatementOfInvestmentFundTransactions1 ( StatementOfInvestmentFundTransactions1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role40e95bf20068.htm
+
+
+
+BalanceByPage ( PaginationBalance1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4178c0d200d7.htm
+
+
+
+TransactionDetails ( InvestmentFundTransaction2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4178c0400063.htm
+
+
+
+theInvestmentFundClass ( InvestmentFundClass )
+../../../../webviewer/82.jpg
+../../../../looseends/role417fc5010357.htm
+
+
+
+theInvestmentFundTransactionsByFund2 ( InvestmentFundTransactionsByFund2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4513f8240326.htm
+
+
+
+)
+<<MessageComponent>> FinancialInstrument1
+../../../../webviewer/142.jpg
+class3e0b28fe020b.htm
+
+
+
+(
+Identification
+../../../../webviewer/31.jpg
+att3e0b28fe020d.htm
+
+
+
+(
+)
+Name[0..1]
+../../../../webviewer/31.jpg
+att3e0b28fe020e.htm
+
+
+
+(
+)
+SupplementaryIdentification[0..1]
+../../../../webviewer/31.jpg
+att3e0b28fe020f.htm
+
+
+
+(
+)
+SecuritiesForm[0..1]
+../../../../webviewer/31.jpg
+att3e0b28fe0210.htm
+
+
+
+(
+)
+ClassType[0..1]
+../../../../webviewer/31.jpg
+att3f97d8ce000f.htm
+
+
+
+(
+)
+DistributionPolicy[0..1]
+../../../../webviewer/31.jpg
+att3f97d93400da.htm
+
+
+
+(
+)
+theInvestmentPlan1 ( InvestmentPlan1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e1aa4ba003f.htm
+
+
+
+theInvestmentAccountOrFinancialInstrumentChoice ( InvestmentAccountOrFinancialInstrumentChoice )
+../../../../webviewer/82.jpg
+../../../../looseends/role401129230373.htm
+
+
+
+theExecution1 ( Execution1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e1aaa08018c.htm
+
+
+
+theHoldingBalance1 ( HoldingBalance1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e1afdbb0269.htm
+
+
+
+theRedemptionBulkCancellation1 ( RedemptionBulkCancellation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e0b28fe028d.htm
+
+
+
+theSubscriptionBulkCancellation1 ( SubscriptionBulkCancellation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e0b28fe07f1.htm
+
+
+
+theInvestmentFundClass ( InvestmentFundClass )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e1aa9df03de.htm
+
+
+
+<<Textual>> FinancialInstrumentIdentificationGuideline
+../../../../webviewer/36.jpg
+op3e0b28fe020c.htm
+op3e0b28fe020c.txt
+
+
+(
+)
+)
+<<MessageComponent>> FinancialInstrument5
+../../../../webviewer/142.jpg
+class41f7cc0b00d3.htm
+
+
+
+(
+Identification
+../../../../webviewer/31.jpg
+att41f7cc0b0155.htm
+
+
+
+(
+)
+Name [0..1]
+../../../../webviewer/31.jpg
+att41f7cc0b017d.htm
+
+
+
+(
+)
+SupplementaryIdentification [0..1]
+../../../../webviewer/31.jpg
+att41f7cc0b01d8.htm
+
+
+
+(
+)
+RequestedNAVCurrency [0..1]
+../../../../webviewer/31.jpg
+att41f7cc0b032c.htm
+
+
+
+(
+)
+ClassType [0..1]
+../../../../webviewer/31.jpg
+att41f7cc0b035e.htm
+
+
+
+(
+)
+SecuritiesForm [0..1]
+../../../../webviewer/31.jpg
+att41f7cc0b0386.htm
+
+
+
+(
+)
+DistributionPolicy [0..1]
+../../../../webviewer/31.jpg
+att41f7cc0b03cc.htm
+
+
+
+(
+)
+DualFundIndicator
+../../../../webviewer/31.jpg
+att42171ade01f2.htm
+
+
+
+(
+)
+theInvestmentFundClass ( InvestmentFundClass )
+../../../../webviewer/82.jpg
+../../../../looseends/role41f7cc0c03ce.htm
+
+
+
+theFinancialInstrument9 ( FinancialInstrument9 )
+../../../../webviewer/82.jpg
+../../../../looseends/role43e0b57b038c.htm
+
+
+
+theFinancialInstrument8 ( FinancialInstrument8 )
+../../../../webviewer/82.jpg
+../../../../looseends/role43da46c901d9.htm
+
+
+
+<<Textual>> FinancialInstrumentIdentificationGuideline
+../../../../webviewer/36.jpg
+op41f7cc0d0072.htm
+op41f7cc0d0072.txt
+
+
+(
+)
+)
+<<MessageComponent>> FinancialInstrument6
+../../../../webviewer/142.jpg
+class4192369e0097.htm
+
+
+
+(
+Identification
+../../../../webviewer/31.jpg
+att4192369e0099.htm
+
+
+
+(
+)
+Name[0..1]
+../../../../webviewer/31.jpg
+att4192369e00a1.htm
+
+
+
+(
+)
+SupplementaryIdentification[0..1]
+../../../../webviewer/31.jpg
+att4192369e00ab.htm
+
+
+
+(
+)
+SecuritiesForm[0..1]
+../../../../webviewer/31.jpg
+att4192369e00bf.htm
+
+
+
+(
+)
+ClassType[0..1]
+../../../../webviewer/31.jpg
+att4192369e00c9.htm
+
+
+
+(
+)
+DistributionPolicy[0..1]
+../../../../webviewer/31.jpg
+att4192369e00d4.htm
+
+
+
+(
+)
+ProductGroup [0..1]
+../../../../webviewer/31.jpg
+att41b8163d0190.htm
+
+
+
+(
+)
+theInvestmentPlan2 ( InvestmentPlan2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role426fb5c40180.htm
+
+
+
+theInvestmentPlan3 ( InvestmentPlan3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role429af02d0062.htm
+
+
+
+theInvestmentAccountOrFinancialInstrument1Choice ( InvestmentAccountOrFinancialInstrument1Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role41bdbb0f0244.htm
+
+
+
+theInvestmentAccount16 ( InvestmentAccount16 )
+../../../../webviewer/82.jpg
+../../../../looseends/role42e0e3d20102.htm
+
+
+
+theInvestmentAccount17 ( InvestmentAccount17 )
+../../../../webviewer/82.jpg
+../../../../looseends/role42e0e478011d.htm
+
+
+
+theInvestmentAccount18 ( InvestmentAccount18 )
+../../../../webviewer/82.jpg
+../../../../looseends/role42e0e57b00af.htm
+
+
+
+theInvestmentAccount19 ( InvestmentAccount19 )
+../../../../webviewer/82.jpg
+../../../../looseends/role42e0e6070330.htm
+
+
+
+theInvestmentFundClass ( InvestmentFundClass )
+../../../../webviewer/82.jpg
+../../../../looseends/role4192369e00e1.htm
+
+
+
+theFinancialInstrument10 ( FinancialInstrument10 )
+../../../../webviewer/82.jpg
+../../../../looseends/role43e0ee1a003c.htm
+
+
+
+<<Textual>> FinancialInstrumentIdentificationGuideline
+../../../../webviewer/36.jpg
+op4192369e00fc.htm
+op4192369e00fc.txt
+
+
+(
+)
+)
+<<MessageComponent>> InvestmentFundTransactionsByFund2
+../../../../webviewer/142.jpg
+class4513f81502d4.htm
+class4513f81502d4.txt
+
+
+(
+Identification
+../../../../webviewer/31.jpg
+att4513f81502de.htm
+
+
+
+(
+)
+Name [0..1]
+../../../../webviewer/31.jpg
+att4513f81502e8.htm
+
+
+
+(
+)
+SupplementaryIdentification[0..1]
+../../../../webviewer/31.jpg
+att4513f81502f2.htm
+
+
+
+(
+)
+SecuritiesForm[0..1]
+../../../../webviewer/31.jpg
+att4513f81502fc.htm
+
+
+
+(
+)
+ClassType[0..1]
+../../../../webviewer/31.jpg
+att4513f8150306.htm
+
+
+
+(
+)
+DistributionPolicy[0..1]
+../../../../webviewer/31.jpg
+att4513f8150310.htm
+
+
+
+(
+)
+theSubAccountIdentification6 ( SubAccountIdentification6 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4513faff00b7.htm
+
+
+
+theStatementOfInvestmentFundTransactions2 ( StatementOfInvestmentFundTransactions2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4522803f003c.htm
+
+
+
+theInvestmentFundClass ( InvestmentFundClass )
+../../../../webviewer/82.jpg
+../../../../looseends/role4513f815033b.htm
+
+
+
+theInvestmentFundTransactionsByFund1 ( InvestmentFundTransactionsByFund1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4513f824033a.htm
+
+
+
+BalanceByPage ( PaginationBalance1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4513f815031d.htm
+
+
+
+TransactionDetails ( InvestmentFundTransaction3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4513f8150331.htm
+
+
+
+)
+<<MessageComponent>> FinancialInstrument9
+../../../../webviewer/142.jpg
+class43e0b5770051.htm
+
+
+
+(
+Identification
+../../../../webviewer/31.jpg
+att43e0b5770067.htm
+
+
+
+(
+)
+Name [0..1]
+../../../../webviewer/31.jpg
+att43e0b5770070.htm
+
+
+
+(
+)
+SupplementaryIdentification [0..1]
+../../../../webviewer/31.jpg
+att43e0b577007a.htm
+
+
+
+(
+)
+RequestedNAVCurrency [0..1]
+../../../../webviewer/31.jpg
+att43e0b5770098.htm
+
+
+
+(
+)
+ClassType [0..1]
+../../../../webviewer/31.jpg
+att43e0b57700a2.htm
+
+
+
+(
+)
+SecuritiesForm [0..1]
+../../../../webviewer/31.jpg
+att43e0b57700ac.htm
+
+
+
+(
+)
+DistributionPolicy [0..1]
+../../../../webviewer/31.jpg
+att43e0b57700c0.htm
+
+
+
+(
+)
+DualFundIndicator
+../../../../webviewer/31.jpg
+att43e0b57700e8.htm
+
+
+
+(
+)
+theInvestmentFundClass ( InvestmentFundClass )
+../../../../webviewer/82.jpg
+../../../../looseends/role43e0b5770106.htm
+
+
+
+theFinancialInstrument5 ( FinancialInstrument5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role43e0b57b03c9.htm
+
+
+
+theFundCashForecast3 ( FundCashForecast3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role43e0b4fd0115.htm
+
+
+
+theEstimatedFundCashForecast3 ( EstimatedFundCashForecast3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role43e0da120241.htm
+
+
+
+theFundCashForecast4 ( FundCashForecast4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role43e0dfd70015.htm
+
+
+
+theEstimatedFundCashForecast4 ( EstimatedFundCashForecast4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role44086d6801b4.htm
+
+
+
+<<Textual>> FinancialInstrumentIdentificationGuideline
+../../../../webviewer/36.jpg
+op43e0b5770111.htm
+op43e0b5770111.txt
+
+
+(
+)
+)
+<<MessageComponent>> FinancialInstrument8
+../../../../webviewer/142.jpg
+class43da46690221.htm
+
+
+
+(
+Identification [1..10]
+../../../../webviewer/31.jpg
+att43da46690236.htm
+
+
+
+(
+)
+Name [0..1]
+../../../../webviewer/31.jpg
+att43da46690254.htm
+
+
+
+(
+)
+SupplementaryIdentification [0..1]
+../../../../webviewer/31.jpg
+att43da4669027c.htm
+
+
+
+(
+)
+DenominationCurrency [0..1]
+../../../../webviewer/31.jpg
+att43da4669029a.htm
+
+
+
+(
+)
+ClassType [0..1]
+../../../../webviewer/31.jpg
+att43da466902c2.htm
+
+
+
+(
+)
+SecuritiesForm [0..1]
+../../../../webviewer/31.jpg
+att43da466902e0.htm
+
+
+
+(
+)
+DistributionPolicy [0..1]
+../../../../webviewer/31.jpg
+att43da46690308.htm
+
+
+
+(
+)
+DualFundIndicator
+../../../../webviewer/31.jpg
+att43da46690326.htm
+
+
+
+(
+)
+thePriceValuation3 ( PriceValuation3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role43da45970086.htm
+
+
+
+theInvestmentFundClass ( InvestmentFundClass )
+../../../../webviewer/82.jpg
+../../../../looseends/role43da46690351.htm
+
+
+
+theFinancialInstrument5 ( FinancialInstrument5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role43da46c9023e.htm
+
+
+
+<<Textual>> FinancialInstrumentIdentificationGuideline
+../../../../webviewer/36.jpg
+op43da4669036c.htm
+op43da4669036c.txt
+
+
+(
+)
+)
+<<MessageComponent>> FinancialInstrument13
+../../../../webviewer/142.jpg
+class44fd9a7d0060.htm
+
+
+
+(
+Identification
+../../../../webviewer/31.jpg
+att44fd9a7d006b.htm
+
+
+
+(
+)
+Name [0..1]
+../../../../webviewer/31.jpg
+att44fd9a7d0074.htm
+
+
+
+(
+)
+SupplementaryIdentification [0..1]
+../../../../webviewer/31.jpg
+att44fd9a7d0088.htm
+
+
+
+(
+)
+ClassType [0..1]
+../../../../webviewer/31.jpg
+att44fd9a7d009c.htm
+
+
+
+(
+)
+SecuritiesForm [0..1]
+../../../../webviewer/31.jpg
+att44fd9a7d00b0.htm
+
+
+
+(
+)
+DistributionPolicy [0..1]
+../../../../webviewer/31.jpg
+att44fd9a7d00ba.htm
+
+
+
+(
+)
+theTransferIn3 ( TransferIn3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role44e041d203de.htm
+
+
+
+theTransferOut6 ( TransferOut6 )
+../../../../webviewer/82.jpg
+../../../../looseends/role44e0842e001a.htm
+
+
+
+theTransferOut5 ( TransferOut5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role44e07e5203e3.htm
+
+
+
+theTransferIn4 ( TransferIn4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role44e082810308.htm
+
+
+
+theAggregateBalanceInformation4 ( AggregateBalanceInformation4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4513aa2f032b.htm
+
+
+
+theAggregateBalanceInformation3 ( AggregateBalanceInformation3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4512490a0220.htm
+
+
+
+theFinancialInstrument3 ( FinancialInstrument3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role44fd9ab0037b.htm
+
+
+
+theInvestmentFundClass ( InvestmentFundClass )
+../../../../webviewer/82.jpg
+../../../../looseends/role44fd9a7d00da.htm
+
+
+
+<<Textual>> FinancialInstrumentIdentificationGuideline
+../../../../webviewer/36.jpg
+op44fd9a7d00f6.htm
+op44fd9a7d00f6.txt
+
+
+(
+)
+)
+<<MessageComponent>> FinancialInstrument10
+../../../../webviewer/142.jpg
+class43e0ee150338.htm
+
+
+
+(
+Identification
+../../../../webviewer/31.jpg
+att43e0ee150343.htm
+
+
+
+(
+)
+Name[0..1]
+../../../../webviewer/31.jpg
+att43e0ee150360.htm
+
+
+
+(
+)
+SupplementaryIdentification[0..1]
+../../../../webviewer/31.jpg
+att43e0ee15036a.htm
+
+
+
+(
+)
+ClassType[0..1]
+../../../../webviewer/31.jpg
+att43e0ee15039c.htm
+
+
+
+(
+)
+SecuritiesForm[0..1]
+../../../../webviewer/31.jpg
+att43e0ee150374.htm
+
+
+
+(
+)
+DistributionPolicy[0..1]
+../../../../webviewer/31.jpg
+att43e0ee1503a6.htm
+
+
+
+(
+)
+ProductGroup [0..1]
+../../../../webviewer/31.jpg
+att43e0ee1503b0.htm
+
+
+
+(
+)
+theMessageAndBusinessReference3 ( MessageAndBusinessReference3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role453f6981021b.htm
+
+
+
+theSwitchLegReferences1 ( SwitchLegReferences1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role447416800177.htm
+
+
+
+theIndividualOrderStatusAndReason4 ( IndividualOrderStatusAndReason4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456abbd10299.htm
+
+
+
+theIndividualOrderConfirmationStatusAndReason1 ( IndividualOrderConfirmationStatusAndReason1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4565db230187.htm
+
+
+
+theRepartition1 ( Repartition1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role44f4544f0185.htm
+
+
+
+theModificationScope12 ( ModificationScope12 )
+../../../../webviewer/82.jpg
+../../../../looseends/role457584d40059.htm
+
+
+
+theInvestmentAccount26 ( InvestmentAccount26 )
+../../../../webviewer/82.jpg
+../../../../looseends/role44ec5c7a034a.htm
+
+
+
+theInvestmentAccount27 ( InvestmentAccount27 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456c94e902ce.htm
+
+
+
+theInvestmentAccount29 ( InvestmentAccount29 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4505699c0129.htm
+
+
+
+theRedemptionBulkExecution3 ( RedemptionBulkExecution3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role43e1f5fe0332.htm
+
+
+
+theRedemptionExecution6 ( RedemptionExecution6 )
+../../../../webviewer/82.jpg
+../../../../looseends/role43e1d8250385.htm
+
+
+
+theSubscriptionExecution6 ( SubscriptionExecution6 )
+../../../../webviewer/82.jpg
+../../../../looseends/role43e1cb34010a.htm
+
+
+
+theSubscriptionBulkExecution3 ( SubscriptionBulkExecution3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role43e1e66600b0.htm
+
+
+
+theRedemptionBulkOrder3 ( RedemptionBulkOrder3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role43e1f3910221.htm
+
+
+
+theRedemptionBulkOrder4 ( RedemptionBulkOrder4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role44e05c230252.htm
+
+
+
+theRedemptionOrder6 ( RedemptionOrder6 )
+../../../../webviewer/82.jpg
+../../../../looseends/role43e1d0cd0242.htm
+
+
+
+theRedemptionOrder8 ( RedemptionOrder8 )
+../../../../webviewer/82.jpg
+../../../../looseends/role44e05da2008b.htm
+
+
+
+theSubscriptionOrder6 ( SubscriptionOrder6 )
+../../../../webviewer/82.jpg
+../../../../looseends/role43e0ed7a01af.htm
+
+
+
+theSubscriptionBulkOrder3 ( SubscriptionBulkOrder3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role43e1e39f005e.htm
+
+
+
+theSubscriptionOrder8 ( SubscriptionOrder8 )
+../../../../webviewer/82.jpg
+../../../../looseends/role44e0625201c8.htm
+
+
+
+theSubscriptionBulkOrder4 ( SubscriptionBulkOrder4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role44e060aa005b.htm
+
+
+
+theSwitchSubscriptionLegExecution3 ( SwitchSubscriptionLegExecution3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role43e2078003a5.htm
+
+
+
+theSwitchRedemptionLegExecution3 ( SwitchRedemptionLegExecution3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role43e206890378.htm
+
+
+
+theSwitchRedemptionLegOrder3 ( SwitchRedemptionLegOrder3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role43e1fc2d0298.htm
+
+
+
+theSwitchSubscriptionLegOrder3 ( SwitchSubscriptionLegOrder3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role43e1fd6b03c3.htm
+
+
+
+theInvestmentFundClass ( InvestmentFundClass )
+../../../../webviewer/82.jpg
+../../../../looseends/role43e0ee1503db.htm
+
+
+
+theFinancialInstrument6 ( FinancialInstrument6 )
+../../../../webviewer/82.jpg
+../../../../looseends/role43e0ee1a0096.htm
+
+
+
+theFundOrderData1 ( FundOrderData1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4566beb30355.htm
+
+
+
+theInvestmentFundOrder2 ( InvestmentFundOrder2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4565ca1f03b4.htm
+
+
+
+theInvestmentFundOrder3 ( InvestmentFundOrder3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4565d0eb018e.htm
+
+
+
+<<Textual>> FinancialInstrumentIdentificationGuideline
+../../../../webviewer/36.jpg
+op43e0ee1503e3.htm
+op43e0ee1503e3.txt
+
+
+(
+)
+)
+<<MessageComponent>> FinancialInstrument12
+../../../../webviewer/142.jpg
+class4464480a0209.htm
+
+
+
+(
+Identification
+../../../../webviewer/31.jpg
+att4464480a0245.htm
+
+
+
+(
+)
+Name [0..1]
+../../../../webviewer/31.jpg
+att4464480a026d.htm
+
+
+
+(
+)
+theInvestmentFundClass ( InvestmentFundClass )
+../../../../webviewer/82.jpg
+../../../../looseends/role4464480a02cb.htm
+
+
+
+thePEPISATransfer5 ( PEPISATransfer5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role446af3090273.htm
+
+
+
+thePEPISATransfer6 ( PEPISATransfer6 )
+../../../../webviewer/82.jpg
+../../../../looseends/role446b163f01a1.htm
+
+
+
+<<Textual>> FinancialInstrumentIdentificationGuideline
+../../../../webviewer/36.jpg
+op4464480a02e6.htm
+op4464480a02e6.txt
+
+
+(
+)
+)
+<<MessageComponent>> FinancialInstrument11
+../../../../webviewer/142.jpg
+class445ef3dd0063.htm
+
+
+
+(
+Identification
+../../../../webviewer/31.jpg
+att445ef3dd006e.htm
+
+
+
+(
+)
+Name [0..1]
+../../../../webviewer/31.jpg
+att445ef3dd0081.htm
+
+
+
+(
+)
+TransferType
+../../../../webviewer/33.jpg
+att445efc0401ed.htm
+att445efc0401ed.txt
+
+
+(
+)
+theInvestmentFundClass ( InvestmentFundClass )
+../../../../webviewer/82.jpg
+../../../../looseends/role445ef3dd009f.htm
+
+
+
+thePEPISATransfer3 ( PEPISATransfer3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role445ef3e4000a.htm
+
+
+
+thePEPISATransfer4 ( PEPISATransfer4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role446495c101df.htm
+
+
+
+thePEPISATransfer8 ( PEPISATransfer8 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4571952b0149.htm
+
+
+
+<<Textual>> FinancialInstrumentIdentificationGuideline
+../../../../webviewer/36.jpg
+op445ef3dd00aa.htm
+op445ef3dd00aa.txt
+
+
+(
+)
+)
+Associations
+../../../../webviewer/assoccat.gif
+
+
+
+
+(
+<<SWSTrace>> (theInvestmentFundClass:InvestmentFundClass) (theFinancialInstrument3:FinancialInstrument3)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3f0eb550035b.htm
+
+
+
+(
+InvestmentFundClass ( theInvestmentFundClass )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f0eb5510213.htm
+
+
+
+FinancialInstrument3 ( theFinancialInstrument3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f0eb5510280.htm
+
+
+
+)
+<<SWSTrace>> (theInvestmentFundClass:InvestmentFundClass) (theFinancialInstrument4:FinancialInstrument4)
+../../../../webviewer/81.jpg
+../../../../looseends/ass40b465b30039.htm
+
+
+
+(
+InvestmentFundClass ( theInvestmentFundClass )
+../../../../webviewer/82.jpg
+../../../../looseends/role40b465b302b9.htm
+
+
+
+FinancialInstrument4 ( theFinancialInstrument4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role40b465b303c8.htm
+
+
+
+)
+Association (BalanceByPage:PaginationBalance1) (theInvestmentFundTransactionsByFund1:InvestmentFundTransactionsByFund1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4178c0d10189.htm
+../../../../looseends/ass4178c0d10189.txt
+
+
+(
+PaginationBalance1 ( BalanceByPage )
+../../../../webviewer/82.jpg
+../../../../looseends/role4178c0d200cd.htm
+
+
+
+InvestmentFundTransactionsByFund1 ( theInvestmentFundTransactionsByFund1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4178c0d200d7.htm
+
+
+
+)
+Association (TransactionDetails:InvestmentFundTransaction2) (theInvestmentFundTransactionsByFund1:InvestmentFundTransactionsByFund1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4178c03e00d8.htm
+
+
+
+(
+InvestmentFundTransaction2 ( TransactionDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role4178c0400027.htm
+
+
+
+InvestmentFundTransactionsByFund1 ( theInvestmentFundTransactionsByFund1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4178c0400063.htm
+
+
+
+)
+<<SWSTrace>> (theInvestmentFundClass:InvestmentFundClass) (theInvestmentFundTransactionsByFund1:InvestmentFundTransactionsByFund1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass417fc500036a.htm
+
+
+
+(
+InvestmentFundClass ( theInvestmentFundClass )
+../../../../webviewer/82.jpg
+../../../../looseends/role417fc50102f3.htm
+
+
+
+InvestmentFundTransactionsByFund1 ( theInvestmentFundTransactionsByFund1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role417fc5010357.htm
+
+
+
+)
+<<SWSTrace>> (theInvestmentFundClass:InvestmentFundClass) (theFinancialInstrument1:FinancialInstrument1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3e1aa9df03dc.htm
+
+
+
+(
+InvestmentFundClass ( theInvestmentFundClass )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e1aa9df03dd.htm
+
+
+
+FinancialInstrument1 ( theFinancialInstrument1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e1aa9df03de.htm
+
+
+
+)
+<<SWSTrace>> (theInvestmentFundClass:InvestmentFundClass) (theFinancialInstrument5:FinancialInstrument5)
+../../../../webviewer/81.jpg
+../../../../looseends/ass41f7cc0c01f7.htm
+
+
+
+(
+InvestmentFundClass ( theInvestmentFundClass )
+../../../../webviewer/82.jpg
+../../../../looseends/role41f7cc0c01f8.htm
+
+
+
+FinancialInstrument5 ( theFinancialInstrument5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41f7cc0c03ce.htm
+
+
+
+)
+<<SWSTrace>> (theInvestmentFundClass:InvestmentFundClass) (theFinancialInstrument6:FinancialInstrument6)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4192369e00de.htm
+
+
+
+(
+InvestmentFundClass ( theInvestmentFundClass )
+../../../../webviewer/82.jpg
+../../../../looseends/role4192369e00df.htm
+
+
+
+FinancialInstrument6 ( theFinancialInstrument6 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4192369e00e1.htm
+
+
+
+)
+<<SWSTrace>> (theInvestmentFundClass:InvestmentFundClass) (theInvestmentFundTransactionsByFund2:InvestmentFundTransactionsByFund2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4513f8150338.htm
+
+
+
+(
+InvestmentFundClass ( theInvestmentFundClass )
+../../../../webviewer/82.jpg
+../../../../looseends/role4513f8150339.htm
+
+
+
+InvestmentFundTransactionsByFund2 ( theInvestmentFundTransactionsByFund2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4513f815033b.htm
+
+
+
+)
+<<IsAnAlternativeFor>> (theInvestmentFundTransactionsByFund1:InvestmentFundTransactionsByFund1) (theInvestmentFundTransactionsByFund2:InvestmentFundTransactionsByFund2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4513f82401a9.htm
+
+
+
+(
+InvestmentFundTransactionsByFund1 ( theInvestmentFundTransactionsByFund1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4513f8240326.htm
+
+
+
+InvestmentFundTransactionsByFund2 ( theInvestmentFundTransactionsByFund2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4513f824033a.htm
+
+
+
+)
+Association (BalanceByPage:PaginationBalance1) (theInvestmentFundTransactionsByFund2:InvestmentFundTransactionsByFund2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4513f815031a.htm
+../../../../looseends/ass4513f815031a.txt
+
+
+(
+PaginationBalance1 ( BalanceByPage )
+../../../../webviewer/82.jpg
+../../../../looseends/role4513f815031b.htm
+
+
+
+InvestmentFundTransactionsByFund2 ( theInvestmentFundTransactionsByFund2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4513f815031d.htm
+
+
+
+)
+Association (TransactionDetails:InvestmentFundTransaction3) (theInvestmentFundTransactionsByFund2:InvestmentFundTransactionsByFund2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4513f815032e.htm
+
+
+
+(
+InvestmentFundTransaction3 ( TransactionDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role4513f815032f.htm
+
+
+
+InvestmentFundTransactionsByFund2 ( theInvestmentFundTransactionsByFund2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4513f8150331.htm
+
+
+
+)
+<<IsAnAlternativeFor>> (theFinancialInstrument3:FinancialInstrument3) (theFinancialInstrument13:FinancialInstrument13)
+../../../../webviewer/81.jpg
+../../../../looseends/ass44fd9ab00190.htm
+
+
+
+(
+FinancialInstrument3 ( theFinancialInstrument3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role44fd9ab002a9.htm
+
+
+
+FinancialInstrument13 ( theFinancialInstrument13 )
+../../../../webviewer/82.jpg
+../../../../looseends/role44fd9ab0037b.htm
+
+
+
+)
+<<SWSTrace>> (theInvestmentFundClass:InvestmentFundClass) (theFinancialInstrument13:FinancialInstrument13)
+../../../../webviewer/81.jpg
+../../../../looseends/ass44fd9a7d00ce.htm
+
+
+
+(
+InvestmentFundClass ( theInvestmentFundClass )
+../../../../webviewer/82.jpg
+../../../../looseends/role44fd9a7d00d8.htm
+
+
+
+FinancialInstrument13 ( theFinancialInstrument13 )
+../../../../webviewer/82.jpg
+../../../../looseends/role44fd9a7d00da.htm
+
+
+
+)
+<<SWSTrace>> (theInvestmentFundClass:InvestmentFundClass) (theFinancialInstrument9:FinancialInstrument9)
+../../../../webviewer/81.jpg
+../../../../looseends/ass43e0b57700fc.htm
+
+
+
+(
+InvestmentFundClass ( theInvestmentFundClass )
+../../../../webviewer/82.jpg
+../../../../looseends/role43e0b57700fd.htm
+
+
+
+FinancialInstrument9 ( theFinancialInstrument9 )
+../../../../webviewer/82.jpg
+../../../../looseends/role43e0b5770106.htm
+
+
+
+)
+<<SWSTrace>> (theInvestmentFundClass:InvestmentFundClass) (theFinancialInstrument8:FinancialInstrument8)
+../../../../webviewer/81.jpg
+../../../../looseends/ass43da4669034e.htm
+
+
+
+(
+InvestmentFundClass ( theInvestmentFundClass )
+../../../../webviewer/82.jpg
+../../../../looseends/role43da4669034f.htm
+
+
+
+FinancialInstrument8 ( theFinancialInstrument8 )
+../../../../webviewer/82.jpg
+../../../../looseends/role43da46690351.htm
+
+
+
+)
+<<SWSTrace>> (theInvestmentFundClass:InvestmentFundClass) (theFinancialInstrument10:FinancialInstrument10)
+../../../../webviewer/81.jpg
+../../../../looseends/ass43e0ee1503d8.htm
+
+
+
+(
+InvestmentFundClass ( theInvestmentFundClass )
+../../../../webviewer/82.jpg
+../../../../looseends/role43e0ee1503d9.htm
+
+
+
+FinancialInstrument10 ( theFinancialInstrument10 )
+../../../../webviewer/82.jpg
+../../../../looseends/role43e0ee1503db.htm
+
+
+
+)
+<<IsAnAlternativeFor>> (theFinancialInstrument6:FinancialInstrument6) (theFinancialInstrument10:FinancialInstrument10)
+../../../../webviewer/81.jpg
+../../../../looseends/ass43e0ee1902cf.htm
+
+
+
+(
+FinancialInstrument6 ( theFinancialInstrument6 )
+../../../../webviewer/82.jpg
+../../../../looseends/role43e0ee1a003c.htm
+
+
+
+FinancialInstrument10 ( theFinancialInstrument10 )
+../../../../webviewer/82.jpg
+../../../../looseends/role43e0ee1a0096.htm
+
+
+
+)
+<<IsAnAlternativeFor>> (theFinancialInstrument5:FinancialInstrument5) (theFinancialInstrument9:FinancialInstrument9)
+../../../../webviewer/81.jpg
+../../../../looseends/ass43e0b57a02ff.htm
+
+
+
+(
+FinancialInstrument5 ( theFinancialInstrument5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role43e0b57b038c.htm
+
+
+
+FinancialInstrument9 ( theFinancialInstrument9 )
+../../../../webviewer/82.jpg
+../../../../looseends/role43e0b57b03c9.htm
+
+
+
+)
+<<IsAnAlternativeFor>> (theFinancialInstrument5:FinancialInstrument5) (theFinancialInstrument8:FinancialInstrument8)
+../../../../webviewer/81.jpg
+../../../../looseends/ass43da46c900ad.htm
+
+
+
+(
+FinancialInstrument5 ( theFinancialInstrument5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role43da46c901d9.htm
+
+
+
+FinancialInstrument8 ( theFinancialInstrument8 )
+../../../../webviewer/82.jpg
+../../../../looseends/role43da46c9023e.htm
+
+
+
+)
+<<SWSTrace>> (theInvestmentFundClass:InvestmentFundClass) (theFinancialInstrument11:FinancialInstrument11)
+../../../../webviewer/81.jpg
+../../../../looseends/ass445ef3dd0095.htm
+
+
+
+(
+InvestmentFundClass ( theInvestmentFundClass )
+../../../../webviewer/82.jpg
+../../../../looseends/role445ef3dd0096.htm
+
+
+
+FinancialInstrument11 ( theFinancialInstrument11 )
+../../../../webviewer/82.jpg
+../../../../looseends/role445ef3dd009f.htm
+
+
+
+)
+<<SWSTrace>> (theInvestmentFundClass:InvestmentFundClass) (theFinancialInstrument12:FinancialInstrument12)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4464480a02c8.htm
+
+
+
+(
+InvestmentFundClass ( theInvestmentFundClass )
+../../../../webviewer/82.jpg
+../../../../looseends/role4464480a02c9.htm
+
+
+
+FinancialInstrument12 ( theFinancialInstrument12 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4464480a02cb.htm
+
+
+
+)
+)

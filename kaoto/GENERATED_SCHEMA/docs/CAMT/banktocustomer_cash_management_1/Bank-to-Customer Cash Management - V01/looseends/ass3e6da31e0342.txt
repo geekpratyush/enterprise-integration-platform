@@ -1,0 +1,1 @@
+Specifies the swap spread details of a quote.

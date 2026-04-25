@@ -1,0 +1,1 @@
+Either Frequency or ExtendedFrequency must be present, but not both.

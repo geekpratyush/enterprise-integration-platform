@@ -1,0 +1,1 @@
+Returned when additional information has been sent to the beneficiary of a payment.

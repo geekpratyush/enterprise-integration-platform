@@ -1,0 +1,1 @@
+Total amount of money paid or received in exchange for the securities.

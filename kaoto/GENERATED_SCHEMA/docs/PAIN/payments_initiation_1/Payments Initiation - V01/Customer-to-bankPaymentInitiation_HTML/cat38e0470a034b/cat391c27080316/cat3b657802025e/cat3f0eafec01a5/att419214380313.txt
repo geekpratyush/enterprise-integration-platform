@@ -1,0 +1,1 @@
+Date and time of the next price valuation for the investment fund/fund class.

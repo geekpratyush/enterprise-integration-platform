@@ -1,0 +1,1 @@
+Unique reference agreed upon by the two trade counterparties to identify the trade.

@@ -1,0 +1,1 @@
+If Issuer contains the value DepositoryTrustCompany, then Scheme must be present and may only contain the value FINS (DepositoryTrustCompanyFINS) or IDID (DepositoryTrustCompanyID).

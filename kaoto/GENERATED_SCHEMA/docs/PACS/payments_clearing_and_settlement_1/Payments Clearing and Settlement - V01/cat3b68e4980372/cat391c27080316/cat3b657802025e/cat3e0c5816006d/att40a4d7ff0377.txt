@@ -1,0 +1,1 @@
+Statement basis expressed as a data source scheme and a code used within the data source scheme.

@@ -1,0 +1,45 @@
+services:
+  redis-master:
+    image: redis:7.2-alpine
+    container_name: redis-master
+    command: redis-server --protected-mode no
+    networks:
+      - redis-sentinel-network
+    volumes:
+      - ../02_initialization/certs/${MODE}:/certs
+    ports:
+      - "6379:6379"
+
+  redis-replica:
+    image: redis:7.2-alpine
+    container_name: redis-replica
+    command: redis-server --replicaof redis-master 6379 --protected-mode no
+    depends_on:
+      - redis-master
+    networks:
+      - redis-sentinel-network
+    volumes:
+      - ../02_initialization/certs/${MODE}:/certs
+
+  redis-sentinel:
+    image: redis:7.2-alpine
+    container_name: redis-sentinel
+    command: >
+      sh -c "sleep 10 && MASTER_IP=$$(getent hosts redis-master | awk '{ print $$1 }') &&
+      echo 'Master IP found: '$$MASTER_IP &&
+      sed \"s/redis-master/$$MASTER_IP/g\" /usr/local/etc/redis/sentinel.conf > /tmp/sentinel.conf &&
+      redis-server /tmp/sentinel.conf --sentinel"
+    ports:
+      - "26379:26379"
+    depends_on:
+      - redis-master
+      - redis-replica
+    networks:
+      - redis-sentinel-network
+    volumes:
+      - ./sentinel.conf:/usr/local/etc/redis/sentinel.conf
+      - ../02_initialization/certs/${MODE}:/certs
+
+networks:
+  redis-sentinel-network:
+    name: redis-sentinel-network

@@ -1,0 +1,1 @@
+Securities domain provides the bank transaction codes for cash movements related to transactions on equities, fixed income and other securities industry related financial instruments.

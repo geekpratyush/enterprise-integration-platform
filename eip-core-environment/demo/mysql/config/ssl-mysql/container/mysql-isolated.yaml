@@ -1,0 +1,21 @@
+# mysql-isolated.yaml
+services:
+  mysql-ssl:
+    image: mysql:8.0
+    container_name: mysql-ssl
+    ports:
+      - "3306:3306"
+    environment:
+      MYSQL_DATABASE: eip_db
+      MYSQL_USER: eip_user
+      MYSQL_PASSWORD: eip_password
+      MYSQL_ROOT_PASSWORD: eip_root_password
+    volumes:
+      - ../certs/ca-cert.pem:/etc/mysql/ca-cert.pem:ro
+      - ../certs/server-cert.pem:/etc/mysql/server-cert.pem:ro
+      - ../certs/server-key.pem:/etc/mysql/server-key.pem:ro
+    command: >
+      --ssl-ca=/etc/mysql/ca-cert.pem
+      --ssl-cert=/etc/mysql/server-cert.pem
+      --ssl-key=/etc/mysql/server-key.pem
+      --require-secure-transport=ON

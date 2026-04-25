@@ -1,0 +1,1 @@
+Set of parameters used to calculate the fixing rate to be applied to a non-deliverable agreement.

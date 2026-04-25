@@ -1,0 +1,1 @@
+Measure of prepayment as a yield of the current outstanding loan balance.

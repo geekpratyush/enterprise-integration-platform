@@ -1,0 +1,1 @@
+Indicates that there is the same number of occurrences of the PaymentInformation block and of the PaymentTransaction block.

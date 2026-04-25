@@ -1,0 +1,29 @@
+{
+  "mappings": [
+    {
+      "scenarioName": "Order Process",
+      "requiredScenarioState": "Started",
+      "newScenarioState": "Order Placed",
+      "request": {
+        "method": "POST",
+        "urlPathPattern": "/api/order.*"
+      },
+      "response": {
+        "status": 201,
+        "body": "{\"status\": \"CREATED\", \"orderId\": \"ORD-101\"}"
+      }
+    },
+    {
+      "scenarioName": "Order Process",
+      "requiredScenarioState": "Order Placed",
+      "request": {
+        "method": "POST",
+        "urlPathPattern": "/api/order.*"
+      },
+      "response": {
+        "status": 409,
+        "body": "{\"status\": \"ERROR\", \"message\": \"Order already exists\"}"
+      }
+    }
+  ]
+}

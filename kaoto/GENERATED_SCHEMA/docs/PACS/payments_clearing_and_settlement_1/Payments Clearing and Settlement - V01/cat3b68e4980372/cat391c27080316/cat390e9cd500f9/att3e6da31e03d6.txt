@@ -1,0 +1,1 @@
+Indicates what constitutes a bookable unit, ie, a partial execution, or an aggregated execution.

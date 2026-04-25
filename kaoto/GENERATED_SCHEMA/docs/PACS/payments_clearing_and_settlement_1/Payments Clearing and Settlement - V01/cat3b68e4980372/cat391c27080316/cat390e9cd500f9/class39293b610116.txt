@@ -1,0 +1,2 @@
+Parameters which explicitly state the conditions that must be fulfilled before a particular  transaction of a financial instrument can be settled.  These parameters are defined by the investor or its intermediary to the settlement agent.
+

@@ -1,0 +1,1 @@
+Set of elements identifying the clearing system through which the settlement of the transaction is completed.

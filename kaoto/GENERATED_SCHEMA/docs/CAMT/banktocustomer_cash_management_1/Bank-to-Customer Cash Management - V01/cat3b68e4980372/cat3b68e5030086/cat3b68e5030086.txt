@@ -1,0 +1,1 @@
+Package containing the description of the system, organised in 2 sub-packages, containing the scenarios and the subsystems.

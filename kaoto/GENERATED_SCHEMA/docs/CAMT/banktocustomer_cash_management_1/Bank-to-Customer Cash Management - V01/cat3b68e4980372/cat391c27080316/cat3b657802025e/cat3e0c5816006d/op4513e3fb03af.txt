@@ -1,0 +1,1 @@
+If StatementGeneralDetails/ActivityIndicator is "true" or "1" (Yes), then either BalanceForAccount or SubAccountDetails is mandatory. If StatementGeneralDetails/ActivityIndicator is "false" or "0" (No), then BalanceForAccount and SubAccountDetails may be present.

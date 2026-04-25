@@ -1,0 +1,1 @@
+Specifies a place in a country.

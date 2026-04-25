@@ -1,0 +1,1 @@
+Either MethodOfTransmission or ExtendedMethodOfTransmission must be present, but not both.

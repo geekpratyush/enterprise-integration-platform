@@ -1,0 +1,45 @@
+# - route:
+#     id: mongo-insert-route
+#     from:
+#       uri: "timer:mongo-inserter"
+#       parameters:
+#         period: "15000"
+#         repeatCount: "3"
+#       steps:
+#         - setBody:
+#             simple: >
+#               {"source": "eip-platform", "status": "ok", "ts":
+#               "${date:now:yyyy-MM-dd'T'HH:mm:ss}"}
+#         - convertBodyTo:
+#             type: "org.bson.Document"
+#         - to:
+#             uri: "mongodb:eip1"
+#             parameters:
+#               database: "eip_test"
+#               collection: "events"
+#               operation: "insert"
+#         - log:
+#             message: ">>> INSERTED: ${body}"
+#             loggingLevel: "WARN"
+
+# - route:
+#     id: mongo-test-route
+#     from:
+#       uri: "timer:mongo-poller"
+#       parameters:
+#         period: "10000"
+#         repeatCount: "3"
+#       steps:
+#         - setBody:
+#             constant: "{}"
+#         - to:
+#             uri: "mongodb:eip2"
+#             parameters:
+#               database: "eip_test"
+#               collection: "events"
+#               operation: "findAll"
+#         - log:
+#             message: ">>> FOUND: ${body}"
+#             loggingLevel: "WARN"
+
+null

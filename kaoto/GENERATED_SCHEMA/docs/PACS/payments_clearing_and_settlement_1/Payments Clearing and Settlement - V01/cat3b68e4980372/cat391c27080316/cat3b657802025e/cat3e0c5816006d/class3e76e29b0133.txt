@@ -1,0 +1,3 @@
+
+Payment system operational information, eg, opening, closure, session period or events. given per currency.
+

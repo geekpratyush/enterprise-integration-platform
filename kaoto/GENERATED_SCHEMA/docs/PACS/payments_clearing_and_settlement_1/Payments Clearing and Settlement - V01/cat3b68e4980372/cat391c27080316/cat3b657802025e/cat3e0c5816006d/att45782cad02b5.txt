@@ -1,0 +1,1 @@
+Indicates if the Service Level Agreement information must be selected.

@@ -1,0 +1,10 @@
+The processing of customer-to-bank payment initiation consists of ordering the payment initation, accepting the payment initiation and clearing and settling the customer-to-bank payment.
+
+Pre-condition : 
+1) The first or forwarding agent is willing to accept payment orders from the initiating party.
+2) the required (identifying) information is available to make a payment
+
+Trigger :  decision has been made to make a payment (either by a person or a system)
+
+Post-condition : received and acknowledged positively or negatively by the first or forwarding agent
+

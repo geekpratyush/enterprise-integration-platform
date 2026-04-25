@@ -1,0 +1,1 @@
+Indicates whether the resolution is listed for information or for voting.

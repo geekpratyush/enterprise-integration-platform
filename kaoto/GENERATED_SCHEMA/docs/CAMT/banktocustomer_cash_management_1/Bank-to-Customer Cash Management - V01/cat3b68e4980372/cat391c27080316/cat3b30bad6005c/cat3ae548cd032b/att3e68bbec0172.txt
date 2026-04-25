@@ -1,0 +1,1 @@
+Indicates that only when both variables are given, the operation is valid.

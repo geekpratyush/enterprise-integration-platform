@@ -1,0 +1,1 @@
+Specifies the party which submits a treasury trade to a matching system or to a settlement system or to a counterparty.

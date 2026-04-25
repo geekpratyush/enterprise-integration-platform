@@ -1,0 +1,1 @@
+Transaction is related to a payment of a recurring installment made at regular intervals.

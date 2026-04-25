@@ -1,0 +1,2 @@
+Indicates that the trade is executed dirty, ie government tax must be paid on the accrued interest on the bond. 
+

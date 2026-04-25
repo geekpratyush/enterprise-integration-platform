@@ -1,0 +1,3 @@
+Transaction charges to be paid by the charge bearer.
+
+Usage: The ChargeAmount is applying to the PaymentReversal message, not to the original instruction. 

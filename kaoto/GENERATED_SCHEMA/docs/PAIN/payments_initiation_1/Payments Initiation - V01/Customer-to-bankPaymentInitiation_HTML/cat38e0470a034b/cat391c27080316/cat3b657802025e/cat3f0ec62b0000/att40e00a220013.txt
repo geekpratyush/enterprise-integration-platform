@@ -1,0 +1,1 @@
+Date when the transfer was received and processed.

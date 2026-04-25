@@ -1,0 +1,1 @@
+Transaction/instruction is cancelled following your former cancellation instruction/request.

@@ -1,0 +1,1 @@
+Date on which the first agent expects the cash to be available to the final agent.

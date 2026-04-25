@@ -1,0 +1,1024 @@
+InvestmentFundTax
+../../../../webviewer/18.jpg
+dgm3f9cf8060167.htm
+
+
+
+(
+)
+<<MessageComponent>> Tax5
+../../../../webviewer/143.jpg
+class3f8bbb6f00b5.htm
+class3f8bbb6f00b5.txt
+
+
+(
+Type
+../../../../webviewer/31.jpg
+att3f8bbb8e039e.htm
+
+
+
+(
+)
+Basis[0..1]
+../../../../webviewer/31.jpg
+att3f8bbb8e03bd.htm
+
+
+
+(
+)
+Amount
+../../../../webviewer/31.jpg
+att3f8bbb8e03c7.htm
+
+
+
+(
+)
+Rate[0..1]
+../../../../webviewer/31.jpg
+att3f8bbb8e03d1.htm
+
+
+
+(
+)
+RecipientIdentification[0..1]
+../../../../webviewer/31.jpg
+att3f8bbb8e03db.htm
+att3f8bbb8e03db.txt
+
+
+(
+)
+ExemptionIndicator
+../../../../webviewer/31.jpg
+att3f8bbb8f0007.htm
+
+
+
+(
+)
+ExemptionReason[0..1]
+../../../../webviewer/31.jpg
+att3f8bbb8f0025.htm
+
+
+
+(
+)
+theInvestmentFundTax ( InvestmentFundTax )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f8bbbfa00b5.htm
+
+
+
+theTotalTaxes1 ( TotalTaxes1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f9d223203aa.htm
+
+
+
+theTax7 ( Tax7 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4191ea1902cf.htm
+
+
+
+)
+<<MessageComponent>> Tax1
+../../../../webviewer/143.jpg
+class3e0b28fe057b.htm
+class3e0b28fe057b.txt
+
+
+(
+Type
+../../../../webviewer/31.jpg
+att3e0b28fe057d.htm
+
+
+
+(
+)
+Basis[0..1]
+../../../../webviewer/31.jpg
+att3e0b28fe057f.htm
+
+
+
+(
+)
+Amount
+../../../../webviewer/31.jpg
+att3e0b28fe0580.htm
+
+
+
+(
+)
+Rate
+../../../../webviewer/31.jpg
+att3e0b28fe0581.htm
+
+
+
+(
+)
+RecipientIdentification[0..1]
+../../../../webviewer/31.jpg
+att3e0b28fe0582.htm
+att3e0b28fe0582.txt
+
+
+(
+)
+ExemptionIndicator
+../../../../webviewer/31.jpg
+att3e0b28fe0583.htm
+
+
+
+(
+)
+ExemptionReason[0..1]
+../../../../webviewer/31.jpg
+att3e0b28fe0585.htm
+
+
+
+(
+)
+theRedemptionOrder1 ( RedemptionOrder1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e0b28fe058d.htm
+
+
+
+theRedemptionOrder2 ( RedemptionOrder2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e0b28fe0595.htm
+
+
+
+theSubscriptionOrder1 ( SubscriptionOrder1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e0b28fe059d.htm
+
+
+
+theSubscriptionOrder2 ( SubscriptionOrder2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e0b28fe05a5.htm
+
+
+
+theSwitchRedemptionLegOrder1 ( SwitchRedemptionLegOrder1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e0b28fe057a.htm
+
+
+
+theSwitchSubscriptionLegOrder1 ( SwitchSubscriptionLegOrder1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e0b28fe05ad.htm
+
+
+
+theInvestmentFundTax ( InvestmentFundTax )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e1a9256009b.htm
+
+
+
+theTax6 ( Tax6 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4191e14702f2.htm
+
+
+
+<<XOR>> AmountOrRateRule
+../../../../webviewer/34.jpg
+op3f9d22ba02bf.htm
+op3f9d22ba02bf.txt
+
+
+(
+)
+)
+<<MessageComponent>> TotalTaxes1
+../../../../webviewer/143.jpg
+class3e0b28fe05df.htm
+class3e0b28fe05df.txt
+
+
+(
+TotalAmountOfTaxes[0..1]
+../../../../webviewer/33.jpg
+att3e0b28fe05e0.htm
+att3e0b28fe05e0.txt
+
+
+(
+)
+theRedemptionExecution2 ( RedemptionExecution2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e0b28fe05ee.htm
+
+
+
+theRedemptionExecution1 ( RedemptionExecution1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e0b28fe05e6.htm
+
+
+
+theSubscriptionExecution2 ( SubscriptionExecution2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e0b28fe05fe.htm
+
+
+
+theSubscriptionExecution1 ( SubscriptionExecution1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e0b28fe05f6.htm
+
+
+
+theSwitchSubscriptionLegExecution1 ( SwitchSubscriptionLegExecution1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e0b28fe06a1.htm
+
+
+
+theSwitchRedemptionLegExecution1 ( SwitchRedemptionLegExecution1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e0b28fe0606.htm
+
+
+
+TaxDetails ( Tax5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f9d223203ab.htm
+
+
+
+theTotalTaxes2 ( TotalTaxes2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4191ea17025e.htm
+
+
+
+)
+<<MessageComponent>> Tax6
+../../../../webviewer/143.jpg
+class4191e04902c7.htm
+class4191e04902c7.txt
+
+
+(
+Type
+../../../../webviewer/31.jpg
+att4191e04a02bf.htm
+
+
+
+(
+)
+Amount
+../../../../webviewer/31.jpg
+att4191e04a034b.htm
+
+
+
+(
+)
+Rate
+../../../../webviewer/31.jpg
+att4191e04a0355.htm
+
+
+
+(
+)
+RecipientIdentification[0..1]
+../../../../webviewer/31.jpg
+att4191e04a035f.htm
+
+
+
+(
+)
+ExemptionIndicator
+../../../../webviewer/31.jpg
+att4191e04a0373.htm
+
+
+
+(
+)
+ExemptionReason[0..1]
+../../../../webviewer/31.jpg
+att4191e04a037d.htm
+
+
+
+(
+)
+theRedemptionOrder3 ( RedemptionOrder3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4192056602cf.htm
+
+
+
+theRedemptionOrder4 ( RedemptionOrder4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4191ee6100bc.htm
+
+
+
+theSubscriptionOrder3 ( SubscriptionOrder3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4191ffc501f7.htm
+
+
+
+theSubscriptionOrder4 ( SubscriptionOrder4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role418fa32502ad.htm
+
+
+
+theSwitchRedemptionLegOrder2 ( SwitchRedemptionLegOrder2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41920a1b00ba.htm
+
+
+
+theSwitchSubscriptionLegOrder2 ( SwitchSubscriptionLegOrder2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41920b0b02e4.htm
+
+
+
+theInvestmentFundTax ( InvestmentFundTax )
+../../../../webviewer/82.jpg
+../../../../looseends/role41bd692d038e.htm
+
+
+
+TaxCalculationDetails ( TaxCalculationInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41b428e80214.htm
+
+
+
+theTax1 ( Tax1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4191e1470361.htm
+
+
+
+<<XOR>> AmountOrRateRule
+../../../../webviewer/34.jpg
+op4191e04b0072.htm
+op4191e04b0072.txt
+
+
+(
+)
+)
+<<MessageComponent>> TaxCalculationInformation1
+../../../../webviewer/143.jpg
+class41b41e770165.htm
+class41b41e770165.txt
+
+
+(
+Basis[0..1]
+../../../../webviewer/31.jpg
+att4191e04a0341.htm
+
+
+
+(
+)
+theInvestmentFundTax ( InvestmentFundTax )
+../../../../webviewer/82.jpg
+../../../../looseends/role41bd6929031a.htm
+
+
+
+theTax6 ( Tax6 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41b428e80212.htm
+
+
+
+)
+<<MessageComponent>> TaxCalculationInformation3
+../../../../webviewer/143.jpg
+class41b4217d017f.htm
+class41b4217d017f.txt
+
+
+(
+Basis[ 0..1]
+../../../../webviewer/31.jpg
+att4191e99b0360.htm
+
+
+
+(
+)
+EUCapitalGain [0..1]
+../../../../webviewer/31.jpg
+att419229e800c3.htm
+
+
+
+(
+)
+TaxableAmount [0..1]
+../../../../webviewer/31.jpg
+att41b431b50057.htm
+
+
+
+(
+)
+theTax7 ( Tax7 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41b428eb0018.htm
+
+
+
+theInvestmentFundTax ( InvestmentFundTax )
+../../../../webviewer/82.jpg
+../../../../looseends/role41bd697200da.htm
+
+
+
+)
+<<MessageComponent>> Tax7
+../../../../webviewer/143.jpg
+class4191e99b02f2.htm
+class4191e99b02f2.txt
+
+
+(
+Type
+../../../../webviewer/31.jpg
+att4191e99b032e.htm
+
+
+
+(
+)
+Amount
+../../../../webviewer/31.jpg
+att4191e99c0040.htm
+
+
+
+(
+)
+Rate[0..1]
+../../../../webviewer/31.jpg
+att4191e99c0086.htm
+
+
+
+(
+)
+RecipientIdentification[0..1]
+../../../../webviewer/31.jpg
+att4191e99c009a.htm
+att4191e99c009a.txt
+
+
+(
+)
+ExemptionIndicator
+../../../../webviewer/31.jpg
+att4191e99c00f5.htm
+
+
+
+(
+)
+ExemptionReason[0..1]
+../../../../webviewer/31.jpg
+att4191e99c0113.htm
+
+
+
+(
+)
+theInvestmentFundTax ( InvestmentFundTax )
+../../../../webviewer/82.jpg
+../../../../looseends/role4191e99c01b3.htm
+
+
+
+TaxCalculationDetails ( TaxCalculationInformation3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41b428eb001a.htm
+
+
+
+theTotalTaxes2 ( TotalTaxes2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4191e8d30321.htm
+
+
+
+theTax5 ( Tax5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4191ea190351.htm
+
+
+
+)
+<<MessageComponent>> TotalTaxes2
+../../../../webviewer/143.jpg
+class4191e8d3023a.htm
+class4191e8d3023a.txt
+
+
+(
+TotalAmountOfTaxes[0..1]
+../../../../webviewer/31.jpg
+att4191e8d3029e.htm
+att4191e8d3029e.txt
+
+
+(
+)
+theRedemptionExecution4 ( RedemptionExecution4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4191f0df004a.htm
+
+
+
+theRedemptionExecution3 ( RedemptionExecution3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4192078a034b.htm
+
+
+
+theSubscriptionExecution3 ( SubscriptionExecution3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role419201c101ad.htm
+
+
+
+theSubscriptionExecution4 ( SubscriptionExecution4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4191e76e0073.htm
+
+
+
+theSwitchSubscriptionLegExecution2 ( SwitchSubscriptionLegExecution2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41920d9901ad.htm
+
+
+
+theSwitchRedemptionLegExecution2 ( SwitchRedemptionLegExecution2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41920d020011.htm
+
+
+
+TaxDetails ( Tax7 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4191e8d303cb.htm
+
+
+
+theTax ( Tax )
+../../../../webviewer/82.jpg
+../../../../looseends/role4236b89b0119.htm
+
+
+
+theTotalTaxes1 ( TotalTaxes1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4191ea170380.htm
+
+
+
+)
+<<MessageComponent>> Tax8
+../../../../webviewer/143.jpg
+class419215130210.htm
+class419215130210.txt
+
+
+(
+Type
+../../../../webviewer/31.jpg
+att41921513021a.htm
+
+
+
+(
+)
+Amount [0..1]
+../../../../webviewer/31.jpg
+att419215130224.htm
+
+
+
+(
+)
+Rate [0..1]
+../../../../webviewer/31.jpg
+att41921513022e.htm
+
+
+
+(
+)
+Country
+../../../../webviewer/31.jpg
+att419215130238.htm
+
+
+
+(
+)
+theUnitPrice6 ( UnitPrice6 )
+../../../../webviewer/82.jpg
+../../../../looseends/role419214950143.htm
+
+
+
+theUnitPrice6 ( UnitPrice6 )
+../../../../webviewer/82.jpg
+../../../../looseends/role421617660269.htm
+
+
+
+theInvestmentFundTax ( InvestmentFundTax )
+../../../../webviewer/82.jpg
+../../../../looseends/role4207618b0179.htm
+
+
+
+TaxCalculationDetails ( TaxCalculationInformation2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4222e54a00bf.htm
+
+
+
+theTax4 ( Tax4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role420761c80362.htm
+
+
+
+<<Textual>> AmountAndOrRateRule
+../../../../webviewer/36.jpg
+op419215130248.htm
+op419215130248.txt
+
+
+(
+)
+)
+<<MessageComponent>> TaxCalculationInformation2
+../../../../webviewer/143.jpg
+class41b434ba0070.htm
+class41b434ba0070.txt
+
+
+(
+EUCapitalGain [0..1]
+../../../../webviewer/31.jpg
+att41b434d700d6.htm
+
+
+
+(
+)
+PercentageOfDebtClaim [0..1]
+../../../../webviewer/31.jpg
+att41b435660267.htm
+
+
+
+(
+)
+PercentageGrandfatheredDebt [0..1]
+../../../../webviewer/31.jpg
+att41b43513037d.htm
+
+
+
+(
+)
+theTax8 ( Tax8 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4222e54a00a1.htm
+
+
+
+theInvestmentFundTax ( InvestmentFundTax )
+../../../../webviewer/82.jpg
+../../../../looseends/role42075b1d016c.htm
+
+
+
+)
+Associations
+../../../../webviewer/assoccat.gif
+
+
+
+
+(
+<<SWSTrace>> (theInvestmentFundTax:InvestmentFundTax) (theTax5:Tax5)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3f8bbbf80379.htm
+
+
+
+(
+InvestmentFundTax ( theInvestmentFundTax )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f8bbbfa008d.htm
+
+
+
+Tax5 ( theTax5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f8bbbfa00b5.htm
+
+
+
+)
+<<SWSTrace>> (theInvestmentFundTax:InvestmentFundTax) (theTax1:Tax1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3e1a92560099.htm
+
+
+
+(
+InvestmentFundTax ( theInvestmentFundTax )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e1a9256009a.htm
+
+
+
+Tax1 ( theTax1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e1a9256009b.htm
+
+
+
+)
+Association (TaxDetails:Tax5) (theTotalTaxes1:TotalTaxes1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3f9d223203a9.htm
+../../../../looseends/ass3f9d223203a9.txt
+
+
+(
+Tax5 ( TaxDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f9d223203aa.htm
+
+
+
+TotalTaxes1 ( theTotalTaxes1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f9d223203ab.htm
+
+
+
+)
+<<SWSTrace>> (theInvestmentFundTax:InvestmentFundTax) (theTax6:Tax6)
+../../../../webviewer/81.jpg
+../../../../looseends/ass41bd692d038c.htm
+
+
+
+(
+InvestmentFundTax ( theInvestmentFundTax )
+../../../../webviewer/82.jpg
+../../../../looseends/role41bd692d038d.htm
+
+
+
+Tax6 ( theTax6 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41bd692d038e.htm
+
+
+
+)
+<<SWSTrace>> (theInvestmentFundTax:InvestmentFundTax) (theTaxCalculationInformation1:TaxCalculationInformation1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass41bd69290318.htm
+
+
+
+(
+InvestmentFundTax ( theInvestmentFundTax )
+../../../../webviewer/82.jpg
+../../../../looseends/role41bd69290319.htm
+
+
+
+TaxCalculationInformation1 ( theTaxCalculationInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41bd6929031a.htm
+
+
+
+)
+Association (TaxCalculationDetails:TaxCalculationInformation1) (theTax6:Tax6)
+../../../../webviewer/81.jpg
+../../../../looseends/ass41b428e8008c.htm
+../../../../looseends/ass41b428e8008c.txt
+
+
+(
+TaxCalculationInformation1 ( TaxCalculationDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role41b428e80212.htm
+
+
+
+Tax6 ( theTax6 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41b428e80214.htm
+
+
+
+)
+<<SWSTrace>> (theInvestmentFundTax:InvestmentFundTax) (theTax7:Tax7)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4191e99c013b.htm
+
+
+
+(
+InvestmentFundTax ( theInvestmentFundTax )
+../../../../webviewer/82.jpg
+../../../../looseends/role4191e99c013c.htm
+
+
+
+Tax7 ( theTax7 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4191e99c01b3.htm
+
+
+
+)
+Association (TaxCalculationDetails:TaxCalculationInformation3) (theTax7:Tax7)
+../../../../webviewer/81.jpg
+../../../../looseends/ass41b428ea021f.htm
+../../../../looseends/ass41b428ea021f.txt
+
+
+(
+TaxCalculationInformation3 ( TaxCalculationDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role41b428eb0018.htm
+
+
+
+Tax7 ( theTax7 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41b428eb001a.htm
+
+
+
+)
+<<SWSTrace>> (theInvestmentFundTax:InvestmentFundTax) (theTaxCalculationInformation3:TaxCalculationInformation3)
+../../../../webviewer/81.jpg
+../../../../looseends/ass41bd6970039e.htm
+
+
+
+(
+InvestmentFundTax ( theInvestmentFundTax )
+../../../../webviewer/82.jpg
+../../../../looseends/role41bd697200d0.htm
+
+
+
+TaxCalculationInformation3 ( theTaxCalculationInformation3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41bd697200da.htm
+
+
+
+)
+Association (TaxDetails:Tax7) (theTotalTaxes2:TotalTaxes2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4191e8d30320.htm
+../../../../looseends/ass4191e8d30320.txt
+
+
+(
+Tax7 ( TaxDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role4191e8d30321.htm
+
+
+
+TotalTaxes2 ( theTotalTaxes2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4191e8d303cb.htm
+
+
+
+)
+<<SWSTrace>> (theInvestmentFundTax:InvestmentFundTax) (theTax8:Tax8)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4207618a0164.htm
+
+
+
+(
+InvestmentFundTax ( theInvestmentFundTax )
+../../../../webviewer/82.jpg
+../../../../looseends/role4207618b0165.htm
+
+
+
+Tax8 ( theTax8 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4207618b0179.htm
+
+
+
+)
+Association (TaxCalculationDetails:TaxCalculationInformation2) (theTax8:Tax8)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4222e54801b7.htm
+../../../../looseends/ass4222e54801b7.txt
+
+
+(
+TaxCalculationInformation2 ( TaxCalculationDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role4222e54a00a1.htm
+
+
+
+Tax8 ( theTax8 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4222e54a00bf.htm
+
+
+
+)
+<<SWSTrace>> (theInvestmentFundTax:InvestmentFundTax) (theTaxCalculationInformation2:TaxCalculationInformation2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass42075b1900ee.htm
+
+
+
+(
+InvestmentFundTax ( theInvestmentFundTax )
+../../../../webviewer/82.jpg
+../../../../looseends/role42075b1d00fe.htm
+
+
+
+TaxCalculationInformation2 ( theTaxCalculationInformation2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role42075b1d016c.htm
+
+
+
+)
+<<SWSTrace>> (theTax:Tax) (theTotalTaxes2:TotalTaxes2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4236b89801d3.htm
+
+
+
+(
+Tax ( theTax )
+../../../../webviewer/82.jpg
+../../../../looseends/role4236b89b003c.htm
+
+
+
+TotalTaxes2 ( theTotalTaxes2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4236b89b0119.htm
+
+
+
+)
+)

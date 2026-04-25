@@ -1,0 +1,1 @@
+Transfer cancellation status is accepted or sent to next party.

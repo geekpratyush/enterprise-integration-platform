@@ -1,0 +1,2 @@
+If AmendmentIndicator is false, then AmendmentInformationDetails is not allowed.
+

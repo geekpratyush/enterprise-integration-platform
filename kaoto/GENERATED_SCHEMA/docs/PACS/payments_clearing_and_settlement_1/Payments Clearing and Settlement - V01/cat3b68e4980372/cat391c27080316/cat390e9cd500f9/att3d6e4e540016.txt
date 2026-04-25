@@ -1,0 +1,3 @@
+Detailed information about the status of a transfer.
+
+

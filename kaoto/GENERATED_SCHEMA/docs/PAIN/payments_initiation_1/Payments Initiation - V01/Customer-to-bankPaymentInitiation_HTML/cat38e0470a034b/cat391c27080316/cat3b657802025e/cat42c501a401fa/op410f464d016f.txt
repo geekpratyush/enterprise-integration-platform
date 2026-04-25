@@ -1,0 +1,1 @@
+If OtherReference is not present, then PreviousReference is mandatory. If OtherReference is present, then PreviousReference is not allowed. 

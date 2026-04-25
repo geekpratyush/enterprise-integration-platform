@@ -1,0 +1,2 @@
+Choice between the formats to express a date.
+

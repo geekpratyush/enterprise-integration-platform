@@ -1,0 +1,1 @@
+Currency of the amount to be converted in a currency conversion. 

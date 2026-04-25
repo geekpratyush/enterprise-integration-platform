@@ -1,0 +1,1 @@
+Specifies the different instructions which can be used to vote.

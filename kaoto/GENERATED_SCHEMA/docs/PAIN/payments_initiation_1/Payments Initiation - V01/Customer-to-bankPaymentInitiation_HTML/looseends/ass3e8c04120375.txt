@@ -1,0 +1,1 @@
+Defines explicitly the query criteria.

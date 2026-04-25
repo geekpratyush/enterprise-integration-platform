@@ -1,0 +1,1 @@
+Indicates the status of a meeting date.

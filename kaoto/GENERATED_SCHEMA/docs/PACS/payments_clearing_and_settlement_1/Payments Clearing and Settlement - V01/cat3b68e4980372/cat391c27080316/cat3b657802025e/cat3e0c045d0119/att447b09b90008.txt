@@ -1,0 +1,1 @@
+The factor used for conversion of an amount from one currency to another. This reflects the price at which one currency was bought with another currency.

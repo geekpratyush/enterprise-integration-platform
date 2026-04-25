@@ -1,0 +1,1 @@
+Specifies payment terms and conditions related to a single invoice to be financed, including identifier of possible account used for payment.

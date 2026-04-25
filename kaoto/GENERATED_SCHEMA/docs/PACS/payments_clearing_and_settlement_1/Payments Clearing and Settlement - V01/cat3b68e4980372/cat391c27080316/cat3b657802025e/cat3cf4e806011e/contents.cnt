@@ -1,0 +1,7988 @@
+<<MessageComponent>> PartyIdentification
+../../../../webviewer/142.jpg
+class3cf4efd30184.htm
+
+
+
+(
+Name
+../../../../webviewer/31.jpg
+att3cf4f2a90123.htm
+
+
+
+(
+)
+theParty ( Party )
+../../../../webviewer/82.jpg
+../../../../looseends/role3cf4f33602d5.htm
+
+
+
+)
+<<ChoiceComponent>> GenericParty1Choice
+../../../../webviewer/143.jpg
+class3fdf35aa0044.htm
+class3fdf35aa0044.txt
+
+
+(
+FinancialInstitution ( FinancialInstitutionIdentification1Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role3fdf36ce0379.htm
+
+
+
+theAccountReport5 ( AccountReport5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3fdf37f50248.htm
+
+
+
+theAccountReport6 ( AccountReport6 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3fdf381d035d.htm
+
+
+
+NonFinancialInstitution ( NonFinancialInstitutionIdentificationOrName3Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role3fdf437c0358.htm
+
+
+
+Person ( PersonAndLongAddress2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3fdf46140172.htm
+
+
+
+thePartyDetails ( PartyDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f95561e00e3.htm
+
+
+
+thePaymentTransaction12 ( PaymentTransaction12 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3fe080ce01f9.htm
+
+
+
+thePaymentTransaction12 ( PaymentTransaction12 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3fe0816e0194.htm
+
+
+
+theStructuredRemittanceInformation4 ( StructuredRemittanceInformation4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3ff29f3500ff.htm
+
+
+
+theStructuredRemittanceInformation4 ( StructuredRemittanceInformation4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3ff29f390318.htm
+
+
+
+theAccountReport5 ( AccountReport5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3fe1990d0041.htm
+
+
+
+theAccountReport6 ( AccountReport6 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3fe19914004b.htm
+
+
+
+)
+<<MessageComponent>> PartyDetails
+../../../../webviewer/142.jpg
+class3f95534f0215.htm
+class3f95534f0215.txt
+
+
+(
+CountryOfResidence[0..1]
+../../../../webviewer/31.jpg
+att3f95534f0216.htm
+att3f95534f0216.txt
+
+
+(
+)
+theParty ( Party )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f97ecec002b.htm
+
+
+
+Account ( CashAccount2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f963ae3035c.htm
+
+
+
+Identification ( GenericParty1Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f95561e010b.htm
+
+
+
+thePaymentTransaction12 ( PaymentTransaction12 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3fe07f490381.htm
+
+
+
+thePaymentTransaction12 ( PaymentTransaction12 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3fe0802502c9.htm
+
+
+
+<<Textual>> CountryOfResidenceRule
+../../../../webviewer/36.jpg
+op3fe2d8d70129.htm
+op3fe2d8d70129.txt
+
+
+(
+)
+)
+<<MessageComponent>> NameAndAddress3
+../../../../webviewer/142.jpg
+class404467c80380.htm
+class404467c80380.txt
+
+
+(
+Name
+../../../../webviewer/31.jpg
+att404467e2014c.htm
+att404467e2014c.txt
+
+
+(
+)
+Address
+../../../../webviewer/31.jpg
+att407e7fee0207.htm
+
+
+
+(
+)
+theParty ( Party )
+../../../../webviewer/82.jpg
+../../../../looseends/role407e7fc503ca.htm
+
+
+
+theInstructionForFirstAgent ( InstructionForFirstAgent )
+../../../../webviewer/82.jpg
+../../../../looseends/role4048697b014c.htm
+
+
+
+theRemittanceLocation ( RemittanceLocation )
+../../../../webviewer/82.jpg
+../../../../looseends/role4378bd320224.htm
+
+
+
+theRemittanceLocation1 ( RemittanceLocation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role44883eaf0282.htm
+
+
+
+)
+<<MessageComponent>> PartyIdentification1
+../../../../webviewer/142.jpg
+class4048a56e00a0.htm
+
+
+
+(
+Name[0..1]
+../../../../webviewer/31.jpg
+att4048a5ad02d1.htm
+
+
+
+(
+)
+theParty ( Party )
+../../../../webviewer/82.jpg
+../../../../looseends/role4061b0f10021.htm
+
+
+
+PostalAddress ( PostalAddress1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role40571110023c.htm
+
+
+
+Identification ( Party1Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role4051b9cf01e6.htm
+
+
+
+thePaymentInformation9 ( PaymentInformation9 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4045ef7501b1.htm
+
+
+
+thePaymentInformation7 ( PaymentInformation7 )
+../../../../webviewer/82.jpg
+../../../../looseends/role40518eca0316.htm
+
+
+
+thePaymentInformation6 ( PaymentInformation6 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4048a8510193.htm
+
+
+
+thePaymentInformation10 ( PaymentInformation10 )
+../../../../webviewer/82.jpg
+../../../../looseends/role40642b700190.htm
+
+
+
+thePaymentInformation11 ( PaymentInformation11 )
+../../../../webviewer/82.jpg
+../../../../looseends/role407bf8c400c7.htm
+
+
+
+thePaymentInformation8 ( PaymentInformation8 )
+../../../../webviewer/82.jpg
+../../../../looseends/role407ffe3a02c2.htm
+
+
+
+thePaymentInformation12 ( PaymentInformation12 )
+../../../../webviewer/82.jpg
+../../../../looseends/role408d2c1d00cc.htm
+
+
+
+theRequestedModification ( RequestedModification )
+../../../../webviewer/82.jpg
+../../../../looseends/role41c6ca1902a3.htm
+
+
+
+theRequestedModification ( RequestedModification )
+../../../../webviewer/82.jpg
+../../../../looseends/role41c6ce7e0110.htm
+
+
+
+thePaymentComplementaryInformation ( PaymentComplementaryInformation )
+../../../../webviewer/82.jpg
+../../../../looseends/role41c6be3f02f0.htm
+
+
+
+thePaymentComplementaryInformation ( PaymentComplementaryInformation )
+../../../../webviewer/82.jpg
+../../../../looseends/role41c6c56b02a0.htm
+
+
+
+theOriginalTransactionInformation1 ( OriginalTransactionInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4045ef7100e3.htm
+
+
+
+theGenericPaymentTransaction1 ( GenericPaymentTransaction1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4051822f0349.htm
+
+
+
+theGenericPaymentTransaction2 ( GenericPaymentTransaction2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role40518b250329.htm
+
+
+
+theGenericPaymentTransaction3 ( GenericPaymentTransaction3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4048a7640304.htm
+
+
+
+theGenericPaymentTransaction3 ( GenericPaymentTransaction3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role40449f21029e.htm
+
+
+
+theGenericPaymentTransaction3 ( GenericPaymentTransaction3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role40449f26025f.htm
+
+
+
+theStructuredRemittanceInformation2 ( StructuredRemittanceInformation2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role40449f130103.htm
+
+
+
+theStructuredRemittanceInformation2 ( StructuredRemittanceInformation2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role40449ef40130.htm
+
+
+
+theGroupInformation2 ( GroupInformation2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role405085530262.htm
+
+
+
+theGroupInformation3 ( GroupInformation3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role404f431401ee.htm
+
+
+
+theGroupInformation1 ( GroupInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4048a8750222.htm
+
+
+
+theGeneralInformation1 ( GeneralInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role406050f603bd.htm
+
+
+
+theGeneralInformation2 ( GeneralInformation2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role408662cb03bb.htm
+
+
+
+theGeneralInformation3 ( GeneralInformation3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role408e26ea029b.htm
+
+
+
+)
+<<ChoiceComponent>> Party1Choice
+../../../../webviewer/143.jpg
+class3e662705031f.htm
+class3e662705031f.txt
+
+
+(
+OrganisationIdentification
+../../../../webviewer/31.jpg
+att407e4eda00bb.htm
+att407e4eda00bb.txt
+
+
+(
+)
+thePartyIdentification1 ( PartyIdentification1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4051b9cf01a0.htm
+
+
+
+PrivateIdentification ( PersonIdentification2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4048a643024b.htm
+
+
+
+thePartyIdentification2 ( PartyIdentification2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role43786dd80200.htm
+
+
+
+thePartyIdentification6 ( PartyIdentification6 )
+../../../../webviewer/82.jpg
+../../../../looseends/role43786f6401c2.htm
+
+
+
+)
+<<MessageComponent>> PartyIdentification4
+../../../../webviewer/142.jpg
+class41a313d102e6.htm
+
+
+
+(
+Name
+../../../../webviewer/31.jpg
+att41a313f400b6.htm
+
+
+
+(
+)
+BEI
+../../../../webviewer/31.jpg
+att421debac03c1.htm
+
+
+
+(
+)
+theParty ( Party )
+../../../../webviewer/82.jpg
+../../../../looseends/role4242dec4018a.htm
+
+
+
+PostalAddress ( PostalAddress2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41c81b2302d0.htm
+
+
+
+theCommercialDataSet1 ( CommercialDataSet1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role42247a850341.htm
+
+
+
+theCommercialDataSet1 ( CommercialDataSet1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4225a13402dc.htm
+
+
+
+theCommercialDataSet1 ( CommercialDataSet1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4225a146027e.htm
+
+
+
+theBaseline1 ( Baseline1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41ecf477032f.htm
+
+
+
+theBaseline1 ( Baseline1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41ecf46f0143.htm
+
+
+
+theBaseline1 ( Baseline1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41b71a700250.htm
+
+
+
+theBaseline1 ( Baseline1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41ecf480009d.htm
+
+
+
+theBaseline1 ( Baseline1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41b71a740255.htm
+
+
+
+theTransportDataSet1 ( TransportDataSet1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4225a0a600ed.htm
+
+
+
+theTransportDataSet1 ( TransportDataSet1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role42247a23035b.htm
+
+
+
+theTransportDataSet1 ( TransportDataSet1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4225a0c10132.htm
+
+
+
+theTransportDataSet1 ( TransportDataSet1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4225a0ce00af.htm
+
+
+
+<<XOR>> NameOrBEIRule
+../../../../webviewer/34.jpg
+op421debf7032a.htm
+op421debf7032a.txt
+
+
+(
+)
+)
+<<MessageComponent>> PartyIdentification5
+../../../../webviewer/142.jpg
+class422c4b5a0203.htm
+
+
+
+(
+Name
+../../../../webviewer/31.jpg
+att422c4b760204.htm
+
+
+
+(
+)
+BEI
+../../../../webviewer/31.jpg
+att422c4b7602c2.htm
+
+
+
+(
+)
+theParty ( Party )
+../../../../webviewer/82.jpg
+../../../../looseends/role4242dec901af.htm
+
+
+
+PostalAddress ( PostalAddress2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role422c4ba80058.htm
+
+
+
+theReportSpecification2 ( ReportSpecification2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role422c4bdb0201.htm
+
+
+
+theReportSpecification2 ( ReportSpecification2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role422c4bf00251.htm
+
+
+
+theTransactionReportItems1 ( TransactionReportItems1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role422f024300f6.htm
+
+
+
+theTransactionReportItems1 ( TransactionReportItems1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role422f024b00ee.htm
+
+
+
+<<XOR>> NameOrBEIRule
+../../../../webviewer/34.jpg
+op422c4b8e00f0.htm
+op422c4b8e00f0.txt
+
+
+(
+)
+)
+<<MessageComponent>> ReportSpecification2
+../../../../webviewer/142.jpg
+class4209da120037.htm
+class4209da120037.txt
+
+
+(
+TransactionIdentification[ 0..n ]
+../../../../webviewer/33.jpg
+att4209da2b01f7.htm
+att4209da2b01f7.txt
+
+
+(
+)
+BuyerCountry[ 0..n ]
+../../../../webviewer/30.jpg
+att4209db990031.htm
+att4209db990031.txt
+
+
+(
+)
+SellerCountry[ 0..n ]
+../../../../webviewer/30.jpg
+att4209dbb10362.htm
+att4209dbb10362.txt
+
+
+(
+)
+CorrespondentCountry[ 0..n ]
+../../../../webviewer/30.jpg
+att4209dbb30093.htm
+att4209dbb30093.txt
+
+
+(
+)
+SubmitterTransactionReference[ 0..n ]
+../../../../webviewer/33.jpg
+att420b789a00b8.htm
+att420b789a00b8.txt
+
+
+(
+)
+Seller ( PartyIdentification5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role422c4bdb0202.htm
+
+
+
+Buyer ( PartyIdentification5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role422c4bf002a2.htm
+
+
+
+EntitiesToBeReported ( BICIdentification1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role422d83d40095.htm
+
+
+
+TransactionStatus ( TransactionStatus1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4239b95e02b5.htm
+
+
+
+PendingRequestForAction ( PendingActivity1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4222f67c03b0.htm
+
+
+
+Correspondent ( BICIdentification1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4209db200337.htm
+
+
+
+)
+<<MessageComponent>> TransactionReportItems1
+../../../../webviewer/142.jpg
+class4209dc8d0292.htm
+class4209dc8d0292.txt
+
+
+(
+TransactionIdentification
+../../../../webviewer/33.jpg
+att4209dcd1038c.htm
+att4209dcd1038c.txt
+
+
+(
+)
+OutstandingAmount
+../../../../webviewer/33.jpg
+att4209ddf103cb.htm
+att4209ddf103cb.txt
+
+
+(
+)
+BuyerBankCountry
+../../../../webviewer/30.jpg
+att420b7d5803db.htm
+att420b7d5803db.txt
+
+
+(
+)
+SellerBankCountry
+../../../../webviewer/30.jpg
+att420b7d690304.htm
+att420b7d690304.txt
+
+
+(
+)
+Buyer ( PartyIdentification5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role422f0243010a.htm
+
+
+
+Seller ( PartyIdentification5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role422f024b0120.htm
+
+
+
+PendingRequestForAction ( PendingActivity1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role422c1f890354.htm
+
+
+
+TransactionStatus ( TransactionStatus1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4239b9a701f3.htm
+
+
+
+SellerBank ( BICIdentification1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4209dd510236.htm
+
+
+
+UserTransactionReference ( DocumentIdentification5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role420a240101ea.htm
+
+
+
+PurchaseOrderReference ( DocumentIdentification7 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4209ddcc0286.htm
+
+
+
+TSUBaselineIdentification ( DocumentIdentification3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role422d624300a5.htm
+
+
+
+BuyerBank ( BICIdentification1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4209dd5500bf.htm
+
+
+
+)
+<<MessageComponent>> NameAndAddress6
+../../../../webviewer/142.jpg
+class41f111b1022f.htm
+class41f111b1022f.txt
+
+
+(
+Name
+../../../../webviewer/31.jpg
+att41f111c80084.htm
+
+
+
+(
+)
+theParty ( Party )
+../../../../webviewer/82.jpg
+../../../../looseends/role423e8c3f01fc.htm
+
+
+
+Address ( PostalAddress2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role422580a102b7.htm
+
+
+
+theFinancialInstitutionIdentification4Choice ( FinancialInstitutionIdentification4Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role41f112030258.htm
+
+
+
+)
+<<MessageComponent>> Debtor3
+../../../../webviewer/142.jpg
+class4280a368001f.htm
+class4280a368001f.txt
+
+
+(
+Debtor [0..1]
+../../../../webviewer/31.jpg
+att4280a368002a.htm
+
+
+
+(
+)
+AccountIdentification
+../../../../webviewer/31.jpg
+att4280a3680191.htm
+
+
+
+(
+)
+FirstAgent
+../../../../webviewer/31.jpg
+att4280a3680173.htm
+
+
+
+(
+)
+FirstAgentBranch[0..1]
+../../../../webviewer/31.jpg
+att4280b296001b.htm
+att4280b296001b.txt
+
+
+(
+)
+theParty ( Party )
+../../../../webviewer/82.jpg
+../../../../looseends/role4280a36802d2.htm
+
+
+
+theCreditTransfer5 ( CreditTransfer5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role42809696033f.htm
+
+
+
+)
+<<MessageComponent>> Creditor3
+../../../../webviewer/142.jpg
+class4280a3a40315.htm
+class4280a3a40315.txt
+
+
+(
+Creditor[0..1]
+../../../../webviewer/31.jpg
+att4280a3a40329.htm
+att4280a3a40329.txt
+
+
+(
+)
+AccountIdentification
+../../../../webviewer/31.jpg
+att4280a3a4038d.htm
+
+
+
+(
+)
+FinalAgent
+../../../../webviewer/31.jpg
+att4280a3a40351.htm
+
+
+
+(
+)
+FinalAgentBranch[0..1]
+../../../../webviewer/31.jpg
+att4280b1e203d2.htm
+att4280b1e203d2.txt
+
+
+(
+)
+theParty ( Party )
+../../../../webviewer/82.jpg
+../../../../looseends/role4280a3a403b8.htm
+
+
+
+theCreditTransfer5 ( CreditTransfer5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role428096960367.htm
+
+
+
+)
+<<MessageComponent>> Creditor1
+../../../../webviewer/142.jpg
+class3f8bf49700ab.htm
+class3f8bf49700ab.txt
+
+
+(
+Creditor[0..1]
+../../../../webviewer/31.jpg
+att3f8bf4ac015f.htm
+att3f8bf4ac015f.txt
+
+
+(
+)
+FinalAgent
+../../../../webviewer/31.jpg
+att3f8bf4b900dc.htm
+
+
+
+(
+)
+AccountIdentification
+../../../../webviewer/31.jpg
+att3f8bf4c500ed.htm
+
+
+
+(
+)
+theParty ( Party )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f978ac10088.htm
+
+
+
+theCreditTransfer1 ( CreditTransfer1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f8bf5c00206.htm
+
+
+
+theCreditTransfer2 ( CreditTransfer2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f8bf58b0188.htm
+
+
+
+)
+<<MessageComponent>> Creditor2
+../../../../webviewer/142.jpg
+class41ac42a70180.htm
+class41ac42a70180.txt
+
+
+(
+Creditor[0..1]
+../../../../webviewer/31.jpg
+att41ac42a70182.htm
+att41ac42a70182.txt
+
+
+(
+)
+FinalAgent
+../../../../webviewer/31.jpg
+att41ac42a7018a.htm
+
+
+
+(
+)
+AccountIdentification
+../../../../webviewer/31.jpg
+att41ac42a7019e.htm
+
+
+
+(
+)
+theParty ( Party )
+../../../../webviewer/82.jpg
+../../../../looseends/role41ac42a701ab.htm
+
+
+
+theCreditTransfer3 ( CreditTransfer3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41acaa250169.htm
+
+
+
+theCreditTransfer4 ( CreditTransfer4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41ac421902cd.htm
+
+
+
+)
+<<MessageComponent>> Debtor1
+../../../../webviewer/142.jpg
+class3f8bf4090092.htm
+class3f8bf4090092.txt
+
+
+(
+Debtor[0..1]
+../../../../webviewer/31.jpg
+att3f8bf4a70234.htm
+
+
+
+(
+)
+FirstAgent
+../../../../webviewer/31.jpg
+att3f8bf4b3035e.htm
+
+
+
+(
+)
+AccountIdentification
+../../../../webviewer/31.jpg
+att3f8bf4c000fa.htm
+
+
+
+(
+)
+theParty ( Party )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f978ab8028e.htm
+
+
+
+theCreditTransfer1 ( CreditTransfer1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f8bf5aa00e2.htm
+
+
+
+theCreditTransfer2 ( CreditTransfer2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f8bf5830186.htm
+
+
+
+)
+<<MessageComponent>> Debtor2
+../../../../webviewer/142.jpg
+class41ac4399009f.htm
+class41ac4399009f.txt
+
+
+(
+Debtor [0..1]
+../../../../webviewer/31.jpg
+att41ac439900a1.htm
+
+
+
+(
+)
+FirstAgent
+../../../../webviewer/31.jpg
+att41ac439900a9.htm
+
+
+
+(
+)
+AccountIdentification
+../../../../webviewer/31.jpg
+att41ac439900bd.htm
+
+
+
+(
+)
+theParty ( Party )
+../../../../webviewer/82.jpg
+../../../../looseends/role41ac439900ca.htm
+
+
+
+theCreditTransfer3 ( CreditTransfer3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41acaa250160.htm
+
+
+
+theCreditTransfer4 ( CreditTransfer4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41ac421902b9.htm
+
+
+
+)
+<<MessageComponent>> NameAndAddress1
+../../../../webviewer/142.jpg
+class3e0b28fe0177.htm
+
+
+
+(
+Name[0..1]
+../../../../webviewer/31.jpg
+att3e0b28fe0178.htm
+
+
+
+(
+)
+Address
+../../../../webviewer/31.jpg
+att3e0b28fe0179.htm
+
+
+
+(
+)
+thePostalAddress ( PostalAddress )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e0c2bee03d8.htm
+
+
+
+)
+<<MessageComponent>> NameAndAddress2
+../../../../webviewer/142.jpg
+class3fb3a9490232.htm
+
+
+
+(
+Name
+../../../../webviewer/31.jpg
+att3fb3a97b030d.htm
+
+
+
+(
+)
+theParty ( Party )
+../../../../webviewer/82.jpg
+../../../../looseends/role3fb3a9650196.htm
+
+
+
+Address ( LongPostalAddress1Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role3fb3a9ac006d.htm
+
+
+
+)
+<<MessageComponent>> NameAndAddress4
+../../../../webviewer/142.jpg
+class41ac33eb02c4.htm
+class41ac33eb02c4.txt
+
+
+(
+Name[0..1]
+../../../../webviewer/31.jpg
+att41ac33eb02ce.htm
+
+
+
+(
+)
+theParty ( Party )
+../../../../webviewer/82.jpg
+../../../../looseends/role41ac33eb02e5.htm
+
+
+
+Address ( PostalAddress1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41ed123602e0.htm
+
+
+
+thePostalAddress3 ( PostalAddress3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4278ecf403db.htm
+
+
+
+theIntermediary5 ( Intermediary5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role427f7b91000d.htm
+
+
+
+theIntermediary6 ( Intermediary6 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4283263a0381.htm
+
+
+
+theIntermediary13 ( Intermediary13 )
+../../../../webviewer/82.jpg
+../../../../looseends/role44ed9f0e03a9.htm
+
+
+
+theIntermediary12 ( Intermediary12 )
+../../../../webviewer/82.jpg
+../../../../looseends/role44ed9ccf03a7.htm
+
+
+
+theSubscriptionOrder6 ( SubscriptionOrder6 )
+../../../../webviewer/82.jpg
+../../../../looseends/role43e0ed7a0191.htm
+
+
+
+theSubscriptionOrder5 ( SubscriptionOrder5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role43f1db0703e5.htm
+
+
+
+theSubscriptionOrder7 ( SubscriptionOrder7 )
+../../../../webviewer/82.jpg
+../../../../looseends/role44e0600c0201.htm
+
+
+
+theSubscriptionOrder8 ( SubscriptionOrder8 )
+../../../../webviewer/82.jpg
+../../../../looseends/role44e0625201b5.htm
+
+
+
+theSwitchSubscriptionLegOrder3 ( SwitchSubscriptionLegOrder3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role43e1fd6c00b6.htm
+
+
+
+)
+<<MessageComponent>> NameAndAddress5
+../../../../webviewer/142.jpg
+class41aaed83017c.htm
+class41aaed83017c.txt
+
+
+(
+Name
+../../../../webviewer/31.jpg
+att41aaed830187.htm
+
+
+
+(
+)
+theParty ( Party )
+../../../../webviewer/82.jpg
+../../../../looseends/role41aaed840110.htm
+
+
+
+Address ( PostalAddress1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41e7ce9b017b.htm
+
+
+
+theNameAndAddress8 ( NameAndAddress8 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4600fd3e00f2.htm
+
+
+
+thePartyIdentification7Choice ( PartyIdentification7Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role439eed93034f.htm
+
+
+
+theMeetingNotice1 ( MeetingNotice1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role441e79630159.htm
+
+
+
+theMeetingNotice1 ( MeetingNotice1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role43de40970215.htm
+
+
+
+theVoteInstructionForMeetingResolution ( VoteInstructionForMeetingResolution )
+../../../../webviewer/82.jpg
+../../../../looseends/role443a7f310173.htm
+
+
+
+)
+<<ChoiceComponent>> PartyIdentification2Choice
+../../../../webviewer/143.jpg
+class41aaecd30214.htm
+class41aaecd30214.txt
+
+
+(
+BICOrBEI
+../../../../webviewer/31.jpg
+att41aaecd3023c.htm
+
+
+
+(
+)
+ProprietaryIdentification
+../../../../webviewer/31.jpg
+att41aaecd30282.htm
+
+
+
+(
+)
+NameAndAddress
+../../../../webviewer/31.jpg
+att41aaecd30297.htm
+
+
+
+(
+)
+theAccount6 ( Account6 )
+../../../../webviewer/82.jpg
+../../../../looseends/role445f57530186.htm
+
+
+
+theAccount5 ( Account5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role445f4aa602c2.htm
+
+
+
+theOrganisationIdentification ( OrganisationIdentification )
+../../../../webviewer/82.jpg
+../../../../looseends/role41aaecd30319.htm
+
+
+
+theOrderStatusAndReason4 ( OrderStatusAndReason4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41fe31be0015.htm
+
+
+
+theIndividualOrderStatusAndReason1 ( IndividualOrderStatusAndReason1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41fe37e803a9.htm
+
+
+
+theTransferOut3 ( TransferOut3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role42aecde900e1.htm
+
+
+
+theAccount4 ( Account4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role42b14e0803a4.htm
+
+
+
+theAccount3 ( Account3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role42aff1bd01cd.htm
+
+
+
+theTransferOut4 ( TransferOut4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role42e77fce0159.htm
+
+
+
+theOrderStatusAndReason7 ( OrderStatusAndReason7 )
+../../../../webviewer/82.jpg
+../../../../looseends/role441068cf00a9.htm
+
+
+
+theIndividualOrderConfirmationStatusAndReason1 ( IndividualOrderConfirmationStatusAndReason1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4563250d0104.htm
+
+
+
+theIndividualOrderStatusAndReason4 ( IndividualOrderStatusAndReason4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456ab46d0098.htm
+
+
+
+theOrderStatusAndReason8 ( OrderStatusAndReason8 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456ab47d0112.htm
+
+
+
+thePEPISATransfer7 ( PEPISATransfer7 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456ecc1b00a0.htm
+
+
+
+theReferredAgent1 ( ReferredAgent1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role44f6f5b80088.htm
+
+
+
+theInvestmentAccount14 ( InvestmentAccount14 )
+../../../../webviewer/82.jpg
+../../../../looseends/role42c408b60088.htm
+
+
+
+theInvestmentAccount14 ( InvestmentAccount14 )
+../../../../webviewer/82.jpg
+../../../../looseends/role42c4054901c6.htm
+
+
+
+theInvestmentAccount16 ( InvestmentAccount16 )
+../../../../webviewer/82.jpg
+../../../../looseends/role426fbd350156.htm
+
+
+
+theInvestmentAccount17 ( InvestmentAccount17 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4280de030308.htm
+
+
+
+theInvestmentAccount18 ( InvestmentAccount18 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4282254002d9.htm
+
+
+
+theInvestmentAccount19 ( InvestmentAccount19 )
+../../../../webviewer/82.jpg
+../../../../looseends/role42820bc90303.htm
+
+
+
+theInvestmentAccount26 ( InvestmentAccount26 )
+../../../../webviewer/82.jpg
+../../../../looseends/role44ec5c7a0368.htm
+
+
+
+theInvestmentAccount27 ( InvestmentAccount27 )
+../../../../webviewer/82.jpg
+../../../../looseends/role44ec5e080198.htm
+
+
+
+theInvestmentAccount29 ( InvestmentAccount29 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4505699c013c.htm
+
+
+
+theInvestmentAccount28 ( InvestmentAccount28 )
+../../../../webviewer/82.jpg
+../../../../looseends/role44ec5d880106.htm
+
+
+
+theCashAccount4 ( CashAccount4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role429c834001ce.htm
+
+
+
+theCashAccount4 ( CashAccount4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role429c83430345.htm
+
+
+
+thePriceValuation3 ( PriceValuation3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role443bbf10004e.htm
+
+
+
+theCancellationStatusAndReason2 ( CancellationStatusAndReason2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456dbd3b033d.htm
+
+
+
+theTransferStatusAndReason2 ( TransferStatusAndReason2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role455452b50029.htm
+
+
+
+theTransactionDetails1 ( TransactionDetails1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role45c9ea6503e5.htm
+
+
+
+theIndividualOrderStatusAndReason2 ( IndividualOrderStatusAndReason2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4471afe0018f.htm
+
+
+
+theSwitchOrderStatusAndReason1 ( SwitchOrderStatusAndReason1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4472bc550126.htm
+
+
+
+)
+<<MessageComponent>> PartyIdentificationAndAccount1
+../../../../webviewer/142.jpg
+class3e3a9f5600e6.htm
+
+
+
+(
+PartyIdentification
+../../../../webviewer/31.jpg
+att3e3a9f900194.htm
+
+
+
+(
+)
+AccountIdentification[0..1]
+../../../../webviewer/31.jpg
+att3e3a9fad02cc.htm
+att3e3a9fad02cc.txt
+
+
+(
+)
+theParty ( Party )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f12b62d01c5.htm
+
+
+
+theDeliveringPartiesAndAccount2 ( DeliveringPartiesAndAccount2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f8abcdb01bf.htm
+
+
+
+theReceivingPartiesAndAccount2 ( ReceivingPartiesAndAccount2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f8abc850265.htm
+
+
+
+theReceivingPartiesAndAccount2 ( ReceivingPartiesAndAccount2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f8abc7803c5.htm
+
+
+
+theDeliveringPartiesAndAccount2 ( DeliveringPartiesAndAccount2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f8abce00216.htm
+
+
+
+theReceivingPartiesAndAccount2 ( ReceivingPartiesAndAccount2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f8abc64025e.htm
+
+
+
+theDeliveringPartiesAndAccount2 ( DeliveringPartiesAndAccount2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f8abcde005b.htm
+
+
+
+)
+<<MessageComponent>> PartyIdentificationAndAccount2
+../../../../webviewer/142.jpg
+class409b7e77030e.htm
+class409b7e77030e.txt
+
+
+(
+PartyIdentification
+../../../../webviewer/31.jpg
+att409b7e99020a.htm
+
+
+
+(
+)
+AccountIdentification[0..1]
+../../../../webviewer/31.jpg
+att409b7e990229.htm
+att409b7e990229.txt
+
+
+(
+)
+ProcessingReference[0..1]
+../../../../webviewer/33.jpg
+att409b84870141.htm
+att409b84870141.txt
+
+
+(
+)
+ProcessingDate[0..1]
+../../../../webviewer/33.jpg
+att409b84a20390.htm
+att409b84a20390.txt
+
+
+(
+)
+theParty ( Party )
+../../../../webviewer/82.jpg
+../../../../looseends/role40bd9ec90141.htm
+
+
+
+thePartyIdentification21 ( PartyIdentification21 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4500386c02f3.htm
+
+
+
+thePartyIdentificationAndAccount5 ( PartyIdentificationAndAccount5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4500378b035e.htm
+
+
+
+theSecuritiesSettlementDetails1 ( SecuritiesSettlementDetails1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4250edc20107.htm
+
+
+
+theSecuritiesSettlementDetails1 ( SecuritiesSettlementDetails1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role424c05e6027c.htm
+
+
+
+theSecuritiesSettlementDetails1 ( SecuritiesSettlementDetails1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role424c05dd02c9.htm
+
+
+
+theSecuritiesSettlementDetails1 ( SecuritiesSettlementDetails1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role424c05ee025f.htm
+
+
+
+theSecuritiesSettlementDetails1 ( SecuritiesSettlementDetails1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4250eda10109.htm
+
+
+
+theSecuritiesSettlementDetails1 ( SecuritiesSettlementDetails1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4250edab0027.htm
+
+
+
+theSecuritiesSettlementDetails1 ( SecuritiesSettlementDetails1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role424c05d70126.htm
+
+
+
+theDeliveringPartiesAndAccount1 ( DeliveringPartiesAndAccount1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role409b7f2e02f4.htm
+
+
+
+theDeliveringPartiesAndAccount1 ( DeliveringPartiesAndAccount1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role40a0940c0325.htm
+
+
+
+theDeliveringPartiesAndAccount1 ( DeliveringPartiesAndAccount1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role409b7f20022a.htm
+
+
+
+theDeliveringPartiesAndAccount1 ( DeliveringPartiesAndAccount1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role409b7f36024b.htm
+
+
+
+theReceivingPartiesAndAccount1 ( ReceivingPartiesAndAccount1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role409b80fb0263.htm
+
+
+
+theReceivingPartiesAndAccount1 ( ReceivingPartiesAndAccount1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role409b80e70047.htm
+
+
+
+theReceivingPartiesAndAccount1 ( ReceivingPartiesAndAccount1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role409b80f80219.htm
+
+
+
+theReceivingPartiesAndAccount1 ( ReceivingPartiesAndAccount1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role40a0945501df.htm
+
+
+
+)
+<<MessageComponent>> PartyIdentificationAndAccount3
+../../../../webviewer/142.jpg
+class41ac3645023b.htm
+class41ac3645023b.txt
+
+
+(
+PartyIdentification
+../../../../webviewer/31.jpg
+att41ac3645023d.htm
+
+
+
+(
+)
+AccountIdentification[0..1]
+../../../../webviewer/31.jpg
+att41ac3645024f.htm
+att41ac3645024f.txt
+
+
+(
+)
+theParty ( Party )
+../../../../webviewer/82.jpg
+../../../../looseends/role41ac3645025c.htm
+
+
+
+theDeliveringPartiesAndAccount3 ( DeliveringPartiesAndAccount3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41ac38570244.htm
+
+
+
+theDeliveringPartiesAndAccount3 ( DeliveringPartiesAndAccount3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41ac3857023b.htm
+
+
+
+theDeliveringPartiesAndAccount3 ( DeliveringPartiesAndAccount3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41ac38570258.htm
+
+
+
+theReceivingPartiesAndAccount3 ( ReceivingPartiesAndAccount3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41ac37010347.htm
+
+
+
+theReceivingPartiesAndAccount3 ( ReceivingPartiesAndAccount3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41ac3701033d.htm
+
+
+
+theReceivingPartiesAndAccount3 ( ReceivingPartiesAndAccount3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41ac3701032a.htm
+
+
+
+)
+<<ChoiceComponent>> Party2Choice
+../../../../webviewer/143.jpg
+class43787e020022.htm
+class43787e020022.txt
+
+
+(
+OrganisationIdentification
+../../../../webviewer/31.jpg
+att43787e02002c.htm
+att43787e02002c.txt
+
+
+(
+)
+thePartyIdentification7 ( PartyIdentification7 )
+../../../../webviewer/82.jpg
+../../../../looseends/role43787e3901f9.htm
+
+
+
+PrivateIdentification ( PersonIdentification3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role437884a90061.htm
+
+
+
+thePartyIdentification8 ( PartyIdentification8 )
+../../../../webviewer/82.jpg
+../../../../looseends/role446890cc0378.htm
+
+
+
+thePartyPrivate1 ( PartyPrivate1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role451b2b0a00b9.htm
+
+
+
+theParty3Choice ( Party3Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role4514032b0165.htm
+
+
+
+thePartyOrganisation1Choice ( PartyOrganisation1Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role451d0fef036e.htm
+
+
+
+theParty4Choice ( Party4Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role450925ce031f.htm
+
+
+
+theParty5Choice ( Party5Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role456d77030011.htm
+
+
+
+)
+<<MessageComponent>> PartyIdentification7
+../../../../webviewer/142.jpg
+class43787db002c2.htm
+class43787db002c2.txt
+
+
+(
+Name[0..1]
+../../../../webviewer/31.jpg
+att43787db002cd.htm
+
+
+
+(
+)
+PostalAddress ( PostalAddress1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role43787db00313.htm
+
+
+
+Identification ( Party2Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role43787e390221.htm
+
+
+
+theParty ( Party )
+../../../../webviewer/82.jpg
+../../../../looseends/role43787db002ea.htm
+
+
+
+thePaymentInformation14 ( PaymentInformation14 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4384dfcb039b.htm
+
+
+
+thePaymentInformation14 ( PaymentInformation14 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4384dfd600ed.htm
+
+
+
+thePaymentInformation14 ( PaymentInformation14 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4384dfa902f1.htm
+
+
+
+thePaymentInformation14 ( PaymentInformation14 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4385cbe8034d.htm
+
+
+
+thePaymentInformation13 ( PaymentInformation13 )
+../../../../webviewer/82.jpg
+../../../../looseends/role43832f6e0176.htm
+
+
+
+thePaymentInformation14 ( PaymentInformation14 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4384df39030d.htm
+
+
+
+theGroupInformation9 ( GroupInformation9 )
+../../../../webviewer/82.jpg
+../../../../looseends/role43847b540398.htm
+
+
+
+theGroupInformation4 ( GroupInformation4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role43787ee40090.htm
+
+
+
+theGroupInformation8 ( GroupInformation8 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4384862a0034.htm
+
+
+
+theGenericPaymentTransaction4 ( GenericPaymentTransaction4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4384348201c7.htm
+
+
+
+theGenericPaymentTransaction4 ( GenericPaymentTransaction4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role438434b60096.htm
+
+
+
+theGenericPaymentTransaction4 ( GenericPaymentTransaction4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role438434a700b2.htm
+
+
+
+theStructuredRemittanceInformation5 ( StructuredRemittanceInformation5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role437df89f002d.htm
+
+
+
+theStructuredRemittanceInformation5 ( StructuredRemittanceInformation5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role437df8a0006b.htm
+
+
+
+theDirectDebitTransaction ( DirectDebitTransaction )
+../../../../webviewer/82.jpg
+../../../../looseends/role4383406f035c.htm
+
+
+
+theAmendmentInformationDetails ( AmendmentInformationDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role439045e901f4.htm
+
+
+
+theAmendmentInformationDetails ( AmendmentInformationDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role439050fb02a9.htm
+
+
+
+)
+<<MessageComponent>> RegulatoryAuthority
+../../../../webviewer/142.jpg
+class437dccc80022.htm
+class437dccc80022.txt
+
+
+(
+AuthorityName[0..1]
+../../../../webviewer/31.jpg
+att437dcd4f00c9.htm
+att437dcd4f00c9.txt
+
+
+(
+)
+AuthorityCountry [0..1]
+../../../../webviewer/31.jpg
+att437dcd5d0214.htm
+att437dcd5d0214.txt
+
+
+(
+)
+theParty ( Party )
+../../../../webviewer/82.jpg
+../../../../looseends/role437dcd210162.htm
+
+
+
+theRegulatoryReporting2 ( RegulatoryReporting2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role437dd1e700f5.htm
+
+
+
+)
+<<MessageComponent>> TradePartyIdentification1
+../../../../webviewer/142.jpg
+class439ed58900bf.htm
+class439ed58900bf.txt
+
+
+(
+SubmittingParty
+../../../../webviewer/31.jpg
+att43a6801f01da.htm
+att43a6801f01da.txt
+
+
+(
+)
+TradeParty ( PartyIdentification7Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role439ed5890140.htm
+
+
+
+FundInformation ( FundIdentification1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role439ed58900bb.htm
+
+
+
+theParty ( Party )
+../../../../webviewer/82.jpg
+../../../../looseends/role43aac3580363.htm
+
+
+
+)
+<<MessageComponent>> TradePartyIdentification2
+../../../../webviewer/142.jpg
+class443bacb902b7.htm
+
+
+
+(
+SubmittingParty
+../../../../webviewer/31.jpg
+att443bad3602fc.htm
+
+
+
+(
+)
+Role
+../../../../webviewer/31.jpg
+att443bad820071.htm
+
+
+
+(
+)
+theParty ( Party )
+../../../../webviewer/82.jpg
+../../../../looseends/role443bb13d01c8.htm
+
+
+
+TradeParty ( PartyIdentification7Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role443bb0940004.htm
+
+
+
+FundInformation ( FundIdentification1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role443bb08903c9.htm
+
+
+
+theTradePartyIdentification3 ( TradePartyIdentification3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role46013b1c01bb.htm
+
+
+
+theTradePartyIdentification4 ( TradePartyIdentification4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role46013b18033c.htm
+
+
+
+)
+<<MessageComponent>> NameAndAddress7
+../../../../webviewer/142.jpg
+class4477095500bc.htm
+class4477095500bc.txt
+
+
+(
+Name
+../../../../webviewer/31.jpg
+att4477095500e5.htm
+
+
+
+(
+)
+theParty ( Party )
+../../../../webviewer/82.jpg
+../../../../looseends/role44770955027e.htm
+
+
+
+PostalAddress ( PostalAddress1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role44770956001e.htm
+
+
+
+theFinancialInstitutionIdentification5Choice ( FinancialInstitutionIdentification5Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role4477082e0067.htm
+
+
+
+)
+<<MessageComponent>> PartyIdentification8
+../../../../webviewer/142.jpg
+class446890cc025f.htm
+class446890cc025f.txt
+
+
+(
+Name[0..1]
+../../../../webviewer/31.jpg
+att446890cc0274.htm
+
+
+
+(
+)
+CountryOfResidence [0..1]
+../../../../webviewer/31.jpg
+att446892d101ea.htm
+
+
+
+(
+)
+PostalAddress ( PostalAddress1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role446890cc034f.htm
+
+
+
+Identification ( Party2Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role446890cc038b.htm
+
+
+
+thePartyIdentification11 ( PartyIdentification11 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4513e375005c.htm
+
+
+
+thePartyIdentification10 ( PartyIdentification10 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4513e3660001.htm
+
+
+
+thePartyIdentification12 ( PartyIdentification12 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4513e38203d6.htm
+
+
+
+thePartyIdentification13 ( PartyIdentification13 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4513e38f0294.htm
+
+
+
+thePartyIdentification14 ( PartyIdentification14 )
+../../../../webviewer/82.jpg
+../../../../looseends/role451d102f01a4.htm
+
+
+
+thePartyIdentification15 ( PartyIdentification15 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4513e344003e.htm
+
+
+
+thePartyIdentification16 ( PartyIdentification16 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4513e3a903aa.htm
+
+
+
+thePartyIdentification17 ( PartyIdentification17 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456da8fb022d.htm
+
+
+
+thePartyIdentification18 ( PartyIdentification18 )
+../../../../webviewer/82.jpg
+../../../../looseends/role457f9a70014a.htm
+
+
+
+thePartyIdentification19 ( PartyIdentification19 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456d76d2033b.htm
+
+
+
+thePartyIdentification20 ( PartyIdentification20 )
+../../../../webviewer/82.jpg
+../../../../looseends/role457eccdd00f7.htm
+
+
+
+thePaymentInstructionInformation2 ( PaymentInstructionInformation2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role446dba2d0230.htm
+
+
+
+thePaymentInstructionInformation2 ( PaymentInstructionInformation2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role446dba2e02aa.htm
+
+
+
+thePaymentInstructionInformation1 ( PaymentInstructionInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role446c78390084.htm
+
+
+
+thePaymentInstructionInformation1 ( PaymentInstructionInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role446c92540339.htm
+
+
+
+theOriginalTransactionReference1 ( OriginalTransactionReference1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role446c2e52013b.htm
+
+
+
+theOriginalTransactionReference1 ( OriginalTransactionReference1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role446c2e52011d.htm
+
+
+
+theOriginalTransactionReference1 ( OriginalTransactionReference1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role446c2e5200c2.htm
+
+
+
+theOriginalTransactionReference1 ( OriginalTransactionReference1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role446c2e5200e0.htm
+
+
+
+theOriginalTransactionReference1 ( OriginalTransactionReference1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role447b02d10278.htm
+
+
+
+theGroupHeader8 ( GroupHeader8 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4472f64102b6.htm
+
+
+
+theGroupHeader7 ( GroupHeader7 )
+../../../../webviewer/82.jpg
+../../../../looseends/role44721f6d006e.htm
+
+
+
+theGroupHeader5 ( GroupHeader5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role44722ef203cd.htm
+
+
+
+theGroupHeader1 ( GroupHeader1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role446c782b0279.htm
+
+
+
+theDirectDebitTransactionInformation2 ( DirectDebitTransactionInformation2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role446a4fd801c5.htm
+
+
+
+theDirectDebitTransactionInformation2 ( DirectDebitTransactionInformation2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role446a4fd801a6.htm
+
+
+
+theDirectDebitTransactionInformation2 ( DirectDebitTransactionInformation2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role446a4fd8017e.htm
+
+
+
+theDirectDebitTransactionInformation2 ( DirectDebitTransactionInformation2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role446a4fd80160.htm
+
+
+
+theDirectDebitTransactionInformation2 ( DirectDebitTransactionInformation2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role446a4fd801ed.htm
+
+
+
+theDirectDebitTransactionInformation1 ( DirectDebitTransactionInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role446dba2f0143.htm
+
+
+
+theDirectDebitTransactionInformation1 ( DirectDebitTransactionInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role446dba1a028e.htm
+
+
+
+theDirectDebitTransactionInformation1 ( DirectDebitTransactionInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role447168a9037b.htm
+
+
+
+theCreditTransferTransactionInformation2 ( CreditTransferTransactionInformation2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role44689106020a.htm
+
+
+
+theCreditTransferTransactionInformation2 ( CreditTransferTransactionInformation2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4468910e00c1.htm
+
+
+
+theCreditTransferTransactionInformation2 ( CreditTransferTransactionInformation2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4468910a01c0.htm
+
+
+
+theCreditTransferTransactionInformation2 ( CreditTransferTransactionInformation2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role446890f9003e.htm
+
+
+
+theCreditTransferTransactionInformation2 ( CreditTransferTransactionInformation2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role446891010072.htm
+
+
+
+theCreditTransferTransactionInformation1 ( CreditTransferTransactionInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role446c925302fd.htm
+
+
+
+theCreditTransferTransactionInformation1 ( CreditTransferTransactionInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role446c92540022.htm
+
+
+
+theCreditTransferTransactionInformation1 ( CreditTransferTransactionInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role446c9254022b.htm
+
+
+
+theGroupHeader23 ( GroupHeader23 )
+../../../../webviewer/82.jpg
+../../../../looseends/role453626cb0012.htm
+
+
+
+theTransactionParty1 ( TransactionParty1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role453dc8430256.htm
+
+
+
+theTransactionParty1 ( TransactionParty1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role454234b50085.htm
+
+
+
+theTransactionParty1 ( TransactionParty1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role454234750321.htm
+
+
+
+theTransactionParty1 ( TransactionParty1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role453dc843004d.htm
+
+
+
+theTransactionParty1 ( TransactionParty1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role453dc8430238.htm
+
+
+
+theTransactionParty1 ( TransactionParty1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role453dc99800f7.htm
+
+
+
+theStructuredRemittanceInformation6 ( StructuredRemittanceInformation6 )
+../../../../webviewer/82.jpg
+../../../../looseends/role446c5a05015d.htm
+
+
+
+theStructuredRemittanceInformation6 ( StructuredRemittanceInformation6 )
+../../../../webviewer/82.jpg
+../../../../looseends/role446c5a0501af.htm
+
+
+
+theParty ( Party )
+../../../../webviewer/82.jpg
+../../../../looseends/role446890cd00b2.htm
+
+
+
+theProprietaryParty1 ( ProprietaryParty1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role453de0c90126.htm
+
+
+
+theCashAccount13 ( CashAccount13 )
+../../../../webviewer/82.jpg
+../../../../looseends/role453932900109.htm
+
+
+
+theDirectDebitTransaction1 ( DirectDebitTransaction1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role446dd9030167.htm
+
+
+
+theAmendmentInformationDetails1 ( AmendmentInformationDetails1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role446dd8ed01c9.htm
+
+
+
+theAmendmentInformationDetails1 ( AmendmentInformationDetails1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role446dd8ee029c.htm
+
+
+
+theReturnReasonInformation1 ( ReturnReasonInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role446b2f4d0313.htm
+
+
+
+theStatusReasonInformation1 ( StatusReasonInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4472302a03ae.htm
+
+
+
+theReversalReasonInformation1 ( ReversalReasonInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4472f7cb024e.htm
+
+
+
+theCancellationReasonInformation1 ( CancellationReasonInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role447222e501c8.htm
+
+
+
+theReturnReasonInformation5 ( ReturnReasonInformation5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role453dd602003a.htm
+
+
+
+)
+<<MessageComponent>> TransactionReportItems2
+../../../../webviewer/142.jpg
+class4497f9b6011d.htm
+class4497f9b6011d.txt
+
+
+(
+TransactionIdentification
+../../../../webviewer/33.jpg
+att4497f9b60128.htm
+att4497f9b60128.txt
+
+
+(
+)
+OutstandingAmount
+../../../../webviewer/33.jpg
+att4497f9b6013b.htm
+att4497f9b6013b.txt
+
+
+(
+)
+BuyerBankCountry
+../../../../webviewer/30.jpg
+att4497f9b60159.htm
+att4497f9b60159.txt
+
+
+(
+)
+SellerBankCountry
+../../../../webviewer/30.jpg
+att4497f9b60177.htm
+att4497f9b60177.txt
+
+
+(
+)
+theParty ( Party )
+../../../../webviewer/82.jpg
+../../../../looseends/role449817540323.htm
+
+
+
+PendingRequestForAction ( PendingActivity1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4497f9b601ac.htm
+
+
+
+UserTransactionReference ( DocumentIdentification5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4497f9b601e8.htm
+
+
+
+PurchaseOrderReference ( DocumentIdentification7 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4497f9b601fc.htm
+
+
+
+TransactionStatus ( TransactionStatus1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4497f9b601c0.htm
+
+
+
+BuyerBank ( BICIdentification1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4497f9b60223.htm
+
+
+
+Seller ( PartyIdentification9 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4497f9b60198.htm
+
+
+
+Buyer ( PartyIdentification9 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4497f9b6018d.htm
+
+
+
+TSUBaselineIdentification ( DocumentIdentification3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4497f9b60210.htm
+
+
+
+SellerBank ( BICIdentification1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4497f9b601d4.htm
+
+
+
+)
+<<MessageComponent>> ReportSpecification3
+../../../../webviewer/142.jpg
+class4497fa6703cc.htm
+class4497fa6703cc.txt
+
+
+(
+TransactionIdentification[ 0..n ]
+../../../../webviewer/33.jpg
+att4497fa6703d6.htm
+att4497fa6703d6.txt
+
+
+(
+)
+BuyerCountry[ 0..n ]
+../../../../webviewer/30.jpg
+att4497fa6703e0.htm
+att4497fa6703e0.txt
+
+
+(
+)
+SellerCountry[ 0..n ]
+../../../../webviewer/30.jpg
+att4497fa680002.htm
+att4497fa680002.txt
+
+
+(
+)
+CorrespondentCountry[ 0..n ]
+../../../../webviewer/30.jpg
+att4497fa68000c.htm
+att4497fa68000c.txt
+
+
+(
+)
+SubmitterTransactionReference[ 0..n ]
+../../../../webviewer/33.jpg
+att4497fa680020.htm
+att4497fa680020.txt
+
+
+(
+)
+theParty ( Party )
+../../../../webviewer/82.jpg
+../../../../looseends/role449815520211.htm
+
+
+
+Correspondent ( BICIdentification1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4497fa680091.htm
+
+
+
+EntitiesToBeReported ( BICIdentification1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4497fa680055.htm
+
+
+
+TransactionStatus ( TransactionStatus1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4497fa680069.htm
+
+
+
+PendingRequestForAction ( PendingActivity1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4497fa68007d.htm
+
+
+
+Seller ( PartyIdentification9 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4497fa68002d.htm
+
+
+
+Buyer ( PartyIdentification9 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4497fa680041.htm
+
+
+
+)
+<<MessageComponent>> PartyIdentification9
+../../../../webviewer/142.jpg
+class446de2b1004f.htm
+
+
+
+(
+Name
+../../../../webviewer/31.jpg
+att446de2b1005a.htm
+
+
+
+(
+)
+BEI
+../../../../webviewer/31.jpg
+att446de2b10077.htm
+
+
+
+(
+)
+OtherScheme
+../../../../webviewer/33.jpg
+att446de3530099.htm
+att446de3530099.txt
+
+
+(
+)
+theTransactionReportItems2 ( TransactionReportItems2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4497f9b60196.htm
+
+
+
+theTransactionReportItems2 ( TransactionReportItems2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4497f9b6018b.htm
+
+
+
+theReportSpecification3 ( ReportSpecification3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4497fa68002b.htm
+
+
+
+theReportSpecification3 ( ReportSpecification3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4497fa68003f.htm
+
+
+
+theParty ( Party )
+../../../../webviewer/82.jpg
+../../../../looseends/role446de2b100e5.htm
+
+
+
+PostalAddress ( PostalAddress2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role446de2b100f3.htm
+
+
+
+theCommercialDataSet2 ( CommercialDataSet2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role446d966703a6.htm
+
+
+
+theCommercialDataSet2 ( CommercialDataSet2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role446d966703ba.htm
+
+
+
+theCommercialDataSet2 ( CommercialDataSet2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role446d96670392.htm
+
+
+
+theBaseline2 ( Baseline2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role446db3d90378.htm
+
+
+
+theBaseline2 ( Baseline2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role446db3d90364.htm
+
+
+
+theBaseline2 ( Baseline2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role446db3d90350.htm
+
+
+
+theBaseline2 ( Baseline2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role446db3d9038c.htm
+
+
+
+theBaseline2 ( Baseline2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role446db3d9033c.htm
+
+
+
+theTransportDataSet2 ( TransportDataSet2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role446d8ca202c2.htm
+
+
+
+theTransportDataSet2 ( TransportDataSet2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role446d8ca202a4.htm
+
+
+
+theTransportDataSet2 ( TransportDataSet2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role446d8ca202b8.htm
+
+
+
+theTransportDataSet2 ( TransportDataSet2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role446d8ca202d6.htm
+
+
+
+<<XOR>> NameOrBEIOrOtherSchemeRule
+../../../../webviewer/34.jpg
+op446de2b10121.htm
+op446de2b10121.txt
+
+
+(
+)
+)
+<<ChoiceComponent>> Party3Choice
+../../../../webviewer/143.jpg
+class451011c303cf.htm
+class451011c303cf.txt
+
+
+(
+thePartyIdentification10 ( PartyIdentification10 )
+../../../../webviewer/82.jpg
+../../../../looseends/role450ff5a00086.htm
+
+
+
+OrganisationIdentification ( OrganisationIdentification3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4510121a0232.htm
+
+
+
+theParty2Choice ( Party2Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role4514032b016f.htm
+
+
+
+PrivateIdentification ( PersonIdentification4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role451011c4000f.htm
+
+
+
+)
+<<MessageComponent>> PartyIdentification10
+../../../../webviewer/142.jpg
+class450ff5a0003f.htm
+class450ff5a0003f.txt
+
+
+(
+Name
+../../../../webviewer/31.jpg
+att450ff5a00049.htm
+
+
+
+(
+)
+theParty ( Party )
+../../../../webviewer/82.jpg
+../../../../looseends/role450ff5a000a3.htm
+
+
+
+thePartyIdentification8 ( PartyIdentification8 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4513e3660033.htm
+
+
+
+PostalAddress ( PostalAddress4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role450ff5a00074.htm
+
+
+
+Identification ( Party3Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role450ff5a00088.htm
+
+
+
+theOriginalTransactionReference3 ( OriginalTransactionReference3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role45183bab014f.htm
+
+
+
+theOriginalTransactionReference3 ( OriginalTransactionReference3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role45183bab01c7.htm
+
+
+
+theOriginalTransactionReference4 ( OriginalTransactionReference4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role451b245c02e2.htm
+
+
+
+theOriginalTransactionReference2 ( OriginalTransactionReference2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role45179fc20210.htm
+
+
+
+theOriginalTransactionReference2 ( OriginalTransactionReference2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role45179fc2026a.htm
+
+
+
+theCreditTransferTransactionInformation4 ( CreditTransferTransactionInformation4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role450ff1aa00d8.htm
+
+
+
+theCreditTransferTransactionInformation4 ( CreditTransferTransactionInformation4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role450ff1aa007e.htm
+
+
+
+theDirectDebitTransactionInformation3 ( DirectDebitTransactionInformation3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role451052c302b6.htm
+
+
+
+theOriginalTransactionReference4 ( OriginalTransactionReference4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role451b245d012a.htm
+
+
+
+<<XOR>> IdentificationOrPostalAddressRule
+../../../../webviewer/34.jpg
+op450ff5a000ae.htm
+op450ff5a000ae.txt
+
+
+(
+)
+)
+<<MessageComponent>> PartyIdentification11
+../../../../webviewer/142.jpg
+class4511043d0360.htm
+class4511043d0360.txt
+
+
+(
+Identification ( PartyPrivate1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4511043d03c7.htm
+
+
+
+theParty ( Party )
+../../../../webviewer/82.jpg
+../../../../looseends/role4511043e0007.htm
+
+
+
+thePartyIdentification8 ( PartyIdentification8 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4513e375008e.htm
+
+
+
+theOriginalTransactionReference3 ( OriginalTransactionReference3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role45183bab0203.htm
+
+
+
+theOriginalTransactionReference4 ( OriginalTransactionReference4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role451b245d0149.htm
+
+
+
+theOriginalTransactionReference2 ( OriginalTransactionReference2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role45179fc2029c.htm
+
+
+
+theOriginalTransactionReference7 ( OriginalTransactionReference7 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456ded50031f.htm
+
+
+
+theOriginalTransactionReference8 ( OriginalTransactionReference8 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456dfc2f03af.htm
+
+
+
+theDirectDebitTransaction2 ( DirectDebitTransaction2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role451103f8028f.htm
+
+
+
+theAmendmentInformationDetails2 ( AmendmentInformationDetails2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role451105ce00f8.htm
+
+
+
+theDirectDebitTransaction4 ( DirectDebitTransaction4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456da34c02eb.htm
+
+
+
+)
+<<MessageComponent>> PartyIdentification12
+../../../../webviewer/142.jpg
+class451054e0010e.htm
+class451054e0010e.txt
+
+
+(
+Name
+../../../../webviewer/31.jpg
+att451054e00123.htm
+
+
+
+(
+)
+theParty ( Party )
+../../../../webviewer/82.jpg
+../../../../looseends/role451054e001a7.htm
+
+
+
+thePartyIdentification8 ( PartyIdentification8 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4513e3830020.htm
+
+
+
+theOriginalTransactionReference4 ( OriginalTransactionReference4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role451b245c02c4.htm
+
+
+
+theOriginalTransactionReference2 ( OriginalTransactionReference2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role451b1747008d.htm
+
+
+
+theOriginalTransactionReference2 ( OriginalTransactionReference2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role45179fc201de.htm
+
+
+
+theDirectDebitTransactionInformation3 ( DirectDebitTransactionInformation3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role451b11070173.htm
+
+
+
+theDirectDebitTransactionInformation3 ( DirectDebitTransactionInformation3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4510552b006c.htm
+
+
+
+theOriginalTransactionReference4 ( OriginalTransactionReference4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role451b245d003a.htm
+
+
+
+theOriginalTransactionReference3 ( OriginalTransactionReference3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role451cff7c0044.htm
+
+
+
+theOriginalTransactionReference3 ( OriginalTransactionReference3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role451cff7c0080.htm
+
+
+
+theCreditTransferTransactionInformation5 ( CreditTransferTransactionInformation5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role45092cac01fb.htm
+
+
+
+theDirectDebitTransactionInformation4 ( DirectDebitTransactionInformation4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role45104ea603ac.htm
+
+
+
+theDirectDebitTransactionInformation4 ( DirectDebitTransactionInformation4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role45104ea60370.htm
+
+
+
+theOriginalTransactionReference5 ( OriginalTransactionReference5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role451836760274.htm
+
+
+
+theOriginalTransactionReference5 ( OriginalTransactionReference5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role45183676031f.htm
+
+
+
+theOriginalTransactionReference6 ( OriginalTransactionReference6 )
+../../../../webviewer/82.jpg
+../../../../looseends/role451794800360.htm
+
+
+
+theOriginalTransactionReference6 ( OriginalTransactionReference6 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4517948002f2.htm
+
+
+
+theCreditTransferTransactionInformation5 ( CreditTransferTransactionInformation5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role45092cac0223.htm
+
+
+
+theDirectDebitTransactionInformation5 ( DirectDebitTransactionInformation5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456da22f02be.htm
+
+
+
+theOriginalTransactionReference7 ( OriginalTransactionReference7 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456ded50026a.htm
+
+
+
+theOriginalTransactionReference8 ( OriginalTransactionReference8 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456dfc300099.htm
+
+
+
+)
+<<MessageComponent>> PartyIdentification13
+../../../../webviewer/142.jpg
+class451139c402ef.htm
+class451139c402ef.txt
+
+
+(
+Name
+../../../../webviewer/31.jpg
+att451139c40303.htm
+
+
+
+(
+)
+thePartyIdentification8 ( PartyIdentification8 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4513e38f02c7.htm
+
+
+
+theParty ( Party )
+../../../../webviewer/82.jpg
+../../../../looseends/role451139c4035d.htm
+
+
+
+PostalAddress ( PostalAddress4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role451139c4031a.htm
+
+
+
+theDirectDebitTransactionInformation3 ( DirectDebitTransactionInformation3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role451052c30342.htm
+
+
+
+theDirectDebitTransactionInformation5 ( DirectDebitTransactionInformation5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456da22f014b.htm
+
+
+
+)
+<<ChoiceComponent>> PartyPrivate1
+../../../../webviewer/143.jpg
+class451b0f2a02cb.htm
+class451b0f2a02cb.txt
+
+
+(
+thePartyIdentification11 ( PartyIdentification11 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4511043d03c5.htm
+
+
+
+theParty2Choice ( Party2Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role451b2b0a00cd.htm
+
+
+
+PrivateIdentification ( PersonIdentification4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role451b0f2a02e2.htm
+
+
+
+thePartyIdentification16 ( PartyIdentification16 )
+../../../../webviewer/82.jpg
+../../../../looseends/role452ccd8d003f.htm
+
+
+
+thePartyIdentification17 ( PartyIdentification17 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456da48e01a0.htm
+
+
+
+thePartyIdentification18 ( PartyIdentification18 )
+../../../../webviewer/82.jpg
+../../../../looseends/role457f99e702b7.htm
+
+
+
+)
+<<ChoiceComponent>> PartyOrganisation1Choice
+../../../../webviewer/143.jpg
+class451d0f8402f9.htm
+class451d0f8402f9.txt
+
+
+(
+OrganisationIdentification ( OrganisationIdentification3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role451d0f840317.htm
+
+
+
+theParty2Choice ( Party2Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role451d0fef0378.htm
+
+
+
+thePartyIdentification14 ( PartyIdentification14 )
+../../../../webviewer/82.jpg
+../../../../looseends/role451d10120315.htm
+
+
+
+)
+<<MessageComponent>> PartyIdentification14
+../../../../webviewer/142.jpg
+class451d101202ba.htm
+class451d101202ba.txt
+
+
+(
+Name
+../../../../webviewer/31.jpg
+att451d101202c5.htm
+
+
+
+(
+)
+theParty ( Party )
+../../../../webviewer/82.jpg
+../../../../looseends/role451d101202e4.htm
+
+
+
+Identification ( PartyOrganisation1Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role451d10120317.htm
+
+
+
+thePartyIdentification8 ( PartyIdentification8 )
+../../../../webviewer/82.jpg
+../../../../looseends/role451d102f01cc.htm
+
+
+
+theReversalReasonInformation2 ( ReversalReasonInformation2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role45179dd9009a.htm
+
+
+
+theStatusReasonInformation2 ( StatusReasonInformation2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4518399d008a.htm
+
+
+
+theReturnReasonInformation2 ( ReturnReasonInformation2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role451b2c9802bb.htm
+
+
+
+theReturnReasonInformation3 ( ReturnReasonInformation3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4535d5f702df.htm
+
+
+
+theReversalReasonInformation3 ( ReversalReasonInformation3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role45178ff80019.htm
+
+
+
+theStatusReasonInformation3 ( StatusReasonInformation3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4535d6c90230.htm
+
+
+
+theReturnReasonInformation4 ( ReturnReasonInformation4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456e9d5102ec.htm
+
+
+
+theReversalReasonInformation4 ( ReversalReasonInformation4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456de83c03c9.htm
+
+
+
+theReversalReasonInformation5 ( ReversalReasonInformation5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role457ebec6017c.htm
+
+
+
+theStatusReasonInformation4 ( StatusReasonInformation4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456df5da0047.htm
+
+
+
+theStatusReasonInformation5 ( StatusReasonInformation5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4581b362015f.htm
+
+
+
+<<XOR>> IdentificationOrNameRule
+../../../../webviewer/34.jpg
+op451d10120346.htm
+op451d10120346.txt
+
+
+(
+)
+)
+<<ChoiceComponent>> Party4Choice
+../../../../webviewer/143.jpg
+class45081ad50090.htm
+class45081ad50090.txt
+
+
+(
+OrganisationIdentification
+../../../../webviewer/31.jpg
+att45081ad5009b.htm
+att45081ad5009b.txt
+
+
+(
+)
+PrivateIdentification ( PersonIdentification5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role45081ad500b1.htm
+
+
+
+theParty2Choice ( Party2Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role450925ce0329.htm
+
+
+
+thePartyIdentification15 ( PartyIdentification15 )
+../../../../webviewer/82.jpg
+../../../../looseends/role452ccd4f02d4.htm
+
+
+
+)
+<<MessageComponent>> PartyIdentification15
+../../../../webviewer/142.jpg
+class45081ab700fb.htm
+class45081ab700fb.txt
+
+
+(
+Name
+../../../../webviewer/31.jpg
+att45081ab70106.htm
+
+
+
+(
+)
+CountryOfResidence [0..1]
+../../../../webviewer/31.jpg
+att45081ab7010f.htm
+
+
+
+(
+)
+theParty ( Party )
+../../../../webviewer/82.jpg
+../../../../looseends/role45081ab7017e.htm
+
+
+
+PostalAddress ( PostalAddress4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role45081ab70126.htm
+
+
+
+thePartyIdentification8 ( PartyIdentification8 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4513e344007a.htm
+
+
+
+Identification ( Party4Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role452ccd4f02de.htm
+
+
+
+theCreditTransferTransactionInformation5 ( CreditTransferTransactionInformation5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role45092cac020f.htm
+
+
+
+theCreditTransferTransactionInformation5 ( CreditTransferTransactionInformation5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role45092cac0237.htm
+
+
+
+theDirectDebitTransactionInformation4 ( DirectDebitTransactionInformation4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role45104ea6033e.htm
+
+
+
+theDirectDebitTransactionInformation4 ( DirectDebitTransactionInformation4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role45104ea60294.htm
+
+
+
+theDirectDebitTransactionInformation4 ( DirectDebitTransactionInformation4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role45104ea602cf.htm
+
+
+
+theOriginalTransactionReference5 ( OriginalTransactionReference5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role45183676035b.htm
+
+
+
+theOriginalTransactionReference5 ( OriginalTransactionReference5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4518367602b0.htm
+
+
+
+theOriginalTransactionReference6 ( OriginalTransactionReference6 )
+../../../../webviewer/82.jpg
+../../../../looseends/role451794800324.htm
+
+
+
+theCreditTransferTransactionInformation5 ( CreditTransferTransactionInformation5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role45092cac01de.htm
+
+
+
+theOriginalTransactionReference6 ( OriginalTransactionReference6 )
+../../../../webviewer/82.jpg
+../../../../looseends/role451794800388.htm
+
+
+
+theAmendmentInformationDetails3 ( AmendmentInformationDetails3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4510f8730085.htm
+
+
+
+<<XOR>> IdentificationOrPostalAddressRule
+../../../../webviewer/34.jpg
+op4509231f03c1.htm
+op4509231f03c1.txt
+
+
+(
+)
+)
+<<MessageComponent>> PartyIdentification16
+../../../../webviewer/142.jpg
+class4511008d0147.htm
+class4511008d0147.txt
+
+
+(
+Name
+../../../../webviewer/31.jpg
+att4511008d015b.htm
+
+
+
+(
+)
+CountryOfResidence [0..1]
+../../../../webviewer/31.jpg
+att4511008d016f.htm
+
+
+
+(
+)
+theParty ( Party )
+../../../../webviewer/82.jpg
+../../../../looseends/role4511008d01fe.htm
+
+
+
+thePartyIdentification8 ( PartyIdentification8 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4513e3a903e6.htm
+
+
+
+Identification ( PartyPrivate1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role452ccd8d0041.htm
+
+
+
+PostalAddress ( PostalAddress4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4511008d0190.htm
+
+
+
+theOriginalTransactionReference5 ( OriginalTransactionReference5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role451836760397.htm
+
+
+
+theOriginalTransactionReference6 ( OriginalTransactionReference6 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4517948003ba.htm
+
+
+
+theAmendmentInformationDetails3 ( AmendmentInformationDetails3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4510f8730067.htm
+
+
+
+theDirectDebitTransaction3 ( DirectDebitTransaction3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4510506c01ba.htm
+
+
+
+)
+<<MessageComponent>> PartyIdentification20
+../../../../webviewer/142.jpg
+class457ec22b004c.htm
+class457ec22b004c.txt
+
+
+(
+Name
+../../../../webviewer/31.jpg
+att457ec22b0057.htm
+
+
+
+(
+)
+CountryOfResidence [0..1]
+../../../../webviewer/31.jpg
+att457ec22b006a.htm
+
+
+
+(
+)
+theParty ( Party )
+../../../../webviewer/82.jpg
+../../../../looseends/role457ec22b010d.htm
+
+
+
+thePartyIdentification8 ( PartyIdentification8 )
+../../../../webviewer/82.jpg
+../../../../looseends/role457eccdd0120.htm
+
+
+
+PostalAddress ( PostalAddress4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role457ec30703ae.htm
+
+
+
+Identification ( Party5Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role457ec30703d3.htm
+
+
+
+theCreditTransferTransactionInformation7 ( CreditTransferTransactionInformation7 )
+../../../../webviewer/82.jpg
+../../../../looseends/role457f93bb0373.htm
+
+
+
+theCreditTransferTransactionInformation7 ( CreditTransferTransactionInformation7 )
+../../../../webviewer/82.jpg
+../../../../looseends/role457f93bb0305.htm
+
+
+
+theDirectDebitTransactionInformation6 ( DirectDebitTransactionInformation6 )
+../../../../webviewer/82.jpg
+../../../../looseends/role457f971d01ca.htm
+
+
+
+theDirectDebitTransactionInformation6 ( DirectDebitTransactionInformation6 )
+../../../../webviewer/82.jpg
+../../../../looseends/role457f971d009e.htm
+
+
+
+theDirectDebitTransactionInformation6 ( DirectDebitTransactionInformation6 )
+../../../../webviewer/82.jpg
+../../../../looseends/role457f971d00da.htm
+
+
+
+theOriginalTransactionReference9 ( OriginalTransactionReference9 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456ea693004b.htm
+
+
+
+theOriginalTransactionReference9 ( OriginalTransactionReference9 )
+../../../../webviewer/82.jpg
+../../../../looseends/role457d26ea0232.htm
+
+
+
+theOriginalTransactionReference9 ( OriginalTransactionReference9 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456ea69203bb.htm
+
+
+
+theOriginalTransactionReference9 ( OriginalTransactionReference9 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456ea6930108.htm
+
+
+
+theCreditTransferTransactionInformation7 ( CreditTransferTransactionInformation7 )
+../../../../webviewer/82.jpg
+../../../../looseends/role457f93bd0109.htm
+
+
+
+theCreditTransferTransactionInformation7 ( CreditTransferTransactionInformation7 )
+../../../../webviewer/82.jpg
+../../../../looseends/role457f93bb0337.htm
+
+
+
+theCreditTransferTransactionInformation7 ( CreditTransferTransactionInformation7 )
+../../../../webviewer/82.jpg
+../../../../looseends/role457f93bd014f.htm
+
+
+
+theDirectDebitTransactionInformation6 ( DirectDebitTransactionInformation6 )
+../../../../webviewer/82.jpg
+../../../../looseends/role457f971d018e.htm
+
+
+
+theDirectDebitTransactionInformation6 ( DirectDebitTransactionInformation6 )
+../../../../webviewer/82.jpg
+../../../../looseends/role457f971d015c.htm
+
+
+
+theAmendmentInformationDetails5 ( AmendmentInformationDetails5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role457fcc83027f.htm
+
+
+
+)
+<<MessageComponent>> PartyIdentification19
+../../../../webviewer/142.jpg
+class456d76b10365.htm
+class456d76b10365.txt
+
+
+(
+Name
+../../../../webviewer/31.jpg
+att456d76b10370.htm
+
+
+
+(
+)
+theParty ( Party )
+../../../../webviewer/82.jpg
+../../../../looseends/role456d76b10390.htm
+
+
+
+thePartyIdentification8 ( PartyIdentification8 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456d76d20363.htm
+
+
+
+Identification ( Party5Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role456d76b103c2.htm
+
+
+
+PostalAddress ( PostalAddress4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456d76b103a3.htm
+
+
+
+theCreditTransferTransactionInformation6 ( CreditTransferTransactionInformation6 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456d75ab02af.htm
+
+
+
+theCreditTransferTransactionInformation6 ( CreditTransferTransactionInformation6 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456d75ab0350.htm
+
+
+
+theDirectDebitTransactionInformation5 ( DirectDebitTransactionInformation5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456da22f0169.htm
+
+
+
+theOriginalTransactionReference7 ( OriginalTransactionReference7 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456ded5002d8.htm
+
+
+
+theOriginalTransactionReference7 ( OriginalTransactionReference7 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456ded5002a5.htm
+
+
+
+theOriginalTransactionReference8 ( OriginalTransactionReference8 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456dfc30000d.htm
+
+
+
+theOriginalTransactionReference8 ( OriginalTransactionReference8 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456dfc300053.htm
+
+
+
+)
+<<MessageComponent>> PartyIdentification18
+../../../../webviewer/142.jpg
+class457f99e70216.htm
+class457f99e70216.txt
+
+
+(
+Name[0..1]
+../../../../webviewer/31.jpg
+att457f99e7022b.htm
+
+
+
+(
+)
+CountryOfResidence [0..1]
+../../../../webviewer/31.jpg
+att457f99e70252.htm
+
+
+
+(
+)
+theParty ( Party )
+../../../../webviewer/82.jpg
+../../../../looseends/role457f99e70359.htm
+
+
+
+thePartyIdentification8 ( PartyIdentification8 )
+../../../../webviewer/82.jpg
+../../../../looseends/role457f9a7001a5.htm
+
+
+
+Identification ( PartyPrivate1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role457f99e702c1.htm
+
+
+
+PostalAddress ( PostalAddress4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role457f99e7028e.htm
+
+
+
+theOriginalTransactionReference9 ( OriginalTransactionReference9 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456ea6930087.htm
+
+
+
+theDirectDebitTransaction5 ( DirectDebitTransaction5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role457f98e3035d.htm
+
+
+
+theAmendmentInformationDetails5 ( AmendmentInformationDetails5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role457fcc83029d.htm
+
+
+
+)
+<<MessageComponent>> PartyIdentification17
+../../../../webviewer/142.jpg
+class456da48e018b.htm
+class456da48e018b.txt
+
+
+(
+Name[0..1]
+../../../../webviewer/31.jpg
+att456da6db00e0.htm
+
+
+
+(
+)
+theParty ( Party )
+../../../../webviewer/82.jpg
+../../../../looseends/role456da48e01c0.htm
+
+
+
+thePartyIdentification8 ( PartyIdentification8 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456da8fb0255.htm
+
+
+
+Identification ( PartyPrivate1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456da48e01a2.htm
+
+
+
+theAmendmentInformationDetails4 ( AmendmentInformationDetails4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456da466010c.htm
+
+
+
+)
+<<ChoiceComponent>> Party5Choice
+../../../../webviewer/143.jpg
+class456d76ec0267.htm
+class456d76ec0267.txt
+
+
+(
+thePartyIdentification19 ( PartyIdentification19 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456d76b103c0.htm
+
+
+
+theParty2Choice ( Party2Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role456d77030026.htm
+
+
+
+PrivateIdentification ( PersonIdentification3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456d76ec029b.htm
+
+
+
+OrganisationIdentification ( OrganisationIdentification2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456d76ec027c.htm
+
+
+
+thePartyIdentification20 ( PartyIdentification20 )
+../../../../webviewer/82.jpg
+../../../../looseends/role457ec30703c9.htm
+
+
+
+)
+<<MessageComponent>> PartyIdentificationAndAccount5
+../../../../webviewer/142.jpg
+class45003779007d.htm
+class45003779007d.txt
+
+
+(
+PartyIdentification
+../../../../webviewer/31.jpg
+att4500377901a9.htm
+
+
+
+(
+)
+AccountIdentification[0..1]
+../../../../webviewer/31.jpg
+att4500377901b3.htm
+att4500377901b3.txt
+
+
+(
+)
+ProcessingReference[0..1]
+../../../../webviewer/33.jpg
+att4500377901c7.htm
+att4500377901c7.txt
+
+
+(
+)
+ProcessingDate[0..1]
+../../../../webviewer/33.jpg
+att4500377901d1.htm
+att4500377901d1.txt
+
+
+(
+)
+theParty ( Party )
+../../../../webviewer/82.jpg
+../../../../looseends/role45003779039e.htm
+
+
+
+thePartyIdentificationAndAccount2 ( PartyIdentificationAndAccount2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4500378c0111.htm
+
+
+
+theReceivingPartiesAndAccount4 ( ReceivingPartiesAndAccount4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role44fd4a6d0394.htm
+
+
+
+theReceivingPartiesAndAccount4 ( ReceivingPartiesAndAccount4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role44fd4a6d0362.htm
+
+
+
+theDeliveringPartiesAndAccount4 ( DeliveringPartiesAndAccount4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role44fd4a2501ce.htm
+
+
+
+theDeliveringPartiesAndAccount4 ( DeliveringPartiesAndAccount4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role44fd4a250214.htm
+
+
+
+)
+<<MessageComponent>> PartyIdentificationAndAccount4
+../../../../webviewer/142.jpg
+class44feddbc01c9.htm
+class44feddbc01c9.txt
+
+
+(
+PartyIdentification
+../../../../webviewer/31.jpg
+att44feddbc01d4.htm
+
+
+
+(
+)
+AccountIdentification[0..1]
+../../../../webviewer/31.jpg
+att44feddbc01e7.htm
+att44feddbc01e7.txt
+
+
+(
+)
+ProcessingReference[0..1]
+../../../../webviewer/33.jpg
+att44feddbc01f1.htm
+att44feddbc01f1.txt
+
+
+(
+)
+ProcessingDate[0..1]
+../../../../webviewer/33.jpg
+att44feddbc0205.htm
+att44feddbc0205.txt
+
+
+(
+)
+theParty ( Party )
+../../../../webviewer/82.jpg
+../../../../looseends/role44feddbc0212.htm
+
+
+
+ContactPerson ( ContactIdentification2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role450033cb005a.htm
+
+
+
+SubAccountDetails ( SubAccount1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role44fede040318.htm
+
+
+
+theReceivingPartiesAndAccount4 ( ReceivingPartiesAndAccount4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role44fd4a6d0376.htm
+
+
+
+theDeliveringPartiesAndAccount4 ( DeliveringPartiesAndAccount4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role44fd4a2501f6.htm
+
+
+
+)
+<<MessageComponent>> PartyIdentification21
+../../../../webviewer/142.jpg
+class450038360314.htm
+class450038360314.txt
+
+
+(
+PartyIdentification
+../../../../webviewer/31.jpg
+att45003836031e.htm
+
+
+
+(
+)
+ProcessingReference[0..1]
+../../../../webviewer/33.jpg
+att450038370062.htm
+att450038370062.txt
+
+
+(
+)
+ProcessingDate[0..1]
+../../../../webviewer/33.jpg
+att450038370076.htm
+att450038370076.txt
+
+
+(
+)
+thePartyIdentificationAndAccount2 ( PartyIdentificationAndAccount2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4500386d0060.htm
+
+
+
+theParty ( Party )
+../../../../webviewer/82.jpg
+../../../../looseends/role4500383700a8.htm
+
+
+
+ContactPerson ( ContactIdentification2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4500388d0034.htm
+
+
+
+theReceivingPartiesAndAccount4 ( ReceivingPartiesAndAccount4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role44fd4a6d03a8.htm
+
+
+
+theDeliveringPartiesAndAccount4 ( DeliveringPartiesAndAccount4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role44fd4a2501e2.htm
+
+
+
+)
+<<MessageComponent>> NameAndAddress8
+../../../../webviewer/142.jpg
+class4600fcf00227.htm
+class4600fcf00227.txt
+
+
+(
+Name
+../../../../webviewer/31.jpg
+att4600fcf00229.htm
+
+
+
+(
+)
+AlternativeIdentifier[0..10]
+../../../../webviewer/31.jpg
+att4600fd8d01d2.htm
+
+
+
+(
+)
+theNameAndAddress5 ( NameAndAddress5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4600fd3e0106.htm
+
+
+
+theParty ( Party )
+../../../../webviewer/82.jpg
+../../../../looseends/role4600fcf00234.htm
+
+
+
+Address ( PostalAddress1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4600fcf0023f.htm
+
+
+
+thePartyIdentification8Choice ( PartyIdentification8Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role4600fa3001b7.htm
+
+
+
+)
+<<MessageComponent>> TradePartyIdentification3
+../../../../webviewer/142.jpg
+class460139af01fc.htm
+
+
+
+(
+theParty ( Party )
+../../../../webviewer/82.jpg
+../../../../looseends/role460139af0213.htm
+
+
+
+theTradePartyIdentification2 ( TradePartyIdentification2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role46013b1c01c6.htm
+
+
+
+FundInformation ( FundIdentification2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role46026caf0088.htm
+
+
+
+TradeParty ( PartyIdentification8Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role460139af0242.htm
+
+
+
+SubmittingParty ( PartyIdentification8Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role460139af024f.htm
+
+
+
+)
+<<MessageComponent>> TradePartyIdentification4
+../../../../webviewer/142.jpg
+class4600f2e10152.htm
+
+
+
+(
+BuyerOrSellerIndicator
+../../../../webviewer/31.jpg
+att4600f2e1017a.htm
+
+
+
+(
+)
+theParty ( Party )
+../../../../webviewer/82.jpg
+../../../../looseends/role4600f2e1018e.htm
+
+
+
+theTradePartyIdentification2 ( TradePartyIdentification2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role46013b180346.htm
+
+
+
+FundInformation ( FundIdentification2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role46026ca603c4.htm
+
+
+
+TradeParty ( PartyIdentification8Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role46010427023f.htm
+
+
+
+SubmittingParty ( PartyIdentification8Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role460104040323.htm
+
+
+
+)
+<<MessageComponent>> PartyIdentificationAndAccount6
+../../../../webviewer/142.jpg
+class460e868700b3.htm
+class460e868700b3.txt
+
+
+(
+PartyIdentification
+../../../../webviewer/31.jpg
+att460e86c00119.htm
+
+
+
+(
+)
+CreditAccount[0..1]
+../../../../webviewer/31.jpg
+att460e86ef0243.htm
+att460e86ef0243.txt
+
+
+(
+)
+FinancingAccount[0..1]
+../../../../webviewer/31.jpg
+att460e876c0366.htm
+att460e876c0366.txt
+
+
+(
+)
+theParty ( Party )
+../../../../webviewer/82.jpg
+../../../../looseends/role460e86a301a4.htm
+
+
+
+theRequestGroupInformation1 ( RequestGroupInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role463ae17100af.htm
+
+
+
+)
+<<MessageComponent>> PartyIdentificationAndAccount7
+../../../../webviewer/142.jpg
+class460e87f402e9.htm
+class460e87f402e9.txt
+
+
+(
+PartyIdentification
+../../../../webviewer/31.jpg
+att460e881a0171.htm
+att460e881a0171.txt
+
+
+(
+)
+AccountIdentification[0..1]
+../../../../webviewer/31.jpg
+att460e882d03db.htm
+att460e882d03db.txt
+
+
+(
+)
+theParty ( Party )
+../../../../webviewer/82.jpg
+../../../../looseends/role460e880a027c.htm
+
+
+
+theInvoiceRequestInformation1 ( InvoiceRequestInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role45d034660078.htm
+
+
+
+)
+<<MessageComponent>> PartyIdentification26
+../../../../webviewer/142.jpg
+class45cb39da02cb.htm
+class45cb39da02cb.txt
+
+
+(
+Name
+../../../../webviewer/31.jpg
+att45cb3a1e00b6.htm
+
+
+
+(
+)
+theParty ( Party )
+../../../../webviewer/82.jpg
+../../../../looseends/role45cb45b40061.htm
+
+
+
+TaxIdentification ( TaxIdentification1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role460e851f03c3.htm
+
+
+
+PostalAddress ( PostalAddress1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role461cd840002e.htm
+
+
+
+ContactInformation ( ContactIdentification1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role460e84d4027b.htm
+
+
+
+ProprietaryIdentification ( GenericIdentification4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role45cb3b2a0148.htm
+
+
+
+theInvoiceRequestInformation1 ( InvoiceRequestInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role45d0348803de.htm
+
+
+
+)
+<<MessageComponent>> PartyIdentification24
+../../../../webviewer/142.jpg
+class45cb2d4a0172.htm
+class45cb2d4a0172.txt
+
+
+(
+Name
+../../../../webviewer/31.jpg
+att45cb2de40200.htm
+
+
+
+(
+)
+TaxIdentification ( TaxIdentification1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role460e858f0111.htm
+
+
+
+PostalAddress ( PostalAddress1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role460e85b1019c.htm
+
+
+
+theParty ( Party )
+../../../../webviewer/82.jpg
+../../../../looseends/role45cb45fb03ca.htm
+
+
+
+)
+<<MessageComponent>> PartyIdentification25
+../../../../webviewer/142.jpg
+class4652a68e02aa.htm
+class4652a68e02aa.txt
+
+
+(
+Name
+../../../../webviewer/31.jpg
+att4652a68e02ac.htm
+
+
+
+(
+)
+ProprietaryIdentification ( GenericIdentification4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4652a68e02cc.htm
+
+
+
+theParty ( Party )
+../../../../webviewer/82.jpg
+../../../../looseends/role4652a68e02ec.htm
+
+
+
+theOriginalRequestInformation1 ( OriginalRequestInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4652a81c0349.htm
+
+
+
+)
+Associations
+../../../../webviewer/assoccat.gif
+
+
+
+
+(
+<<SWSTrace>> (theParty:Party) (thePartyIdentification:PartyIdentification)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3cf4f33600c2.htm
+
+
+
+(
+Party ( theParty )
+../../../../webviewer/82.jpg
+../../../../looseends/role3cf4f336023f.htm
+
+
+
+PartyIdentification ( thePartyIdentification )
+../../../../webviewer/82.jpg
+../../../../looseends/role3cf4f33602d5.htm
+
+
+
+)
+<<SWSTrace>> (theParty:Party) (thePartyIdentificationAndAccount1:PartyIdentificationAndAccount1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3f12b62c032c.htm
+
+
+
+(
+Party ( theParty )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f12b62d00da.htm
+
+
+
+PartyIdentificationAndAccount1 ( thePartyIdentificationAndAccount1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f12b62d01c5.htm
+
+
+
+)
+<<SWSTrace>> (theParty:Party) (theDebtor1:Debtor1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3f978ab7020a.htm
+
+
+
+(
+Party ( theParty )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f978ab8017f.htm
+
+
+
+Debtor1 ( theDebtor1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f978ab8028e.htm
+
+
+
+)
+<<SWSTrace>> (theParty:Party) (theCreditor1:Creditor1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3f978ac00159.htm
+
+
+
+(
+Party ( theParty )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f978ac00362.htm
+
+
+
+Creditor1 ( theCreditor1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f978ac10088.htm
+
+
+
+)
+<<SWSTrace>> (theParty:Party) (theNameAndAddress2:NameAndAddress2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3fb3a9640242.htm
+
+
+
+(
+Party ( theParty )
+../../../../webviewer/82.jpg
+../../../../looseends/role3fb3a96500da.htm
+
+
+
+NameAndAddress2 ( theNameAndAddress2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3fb3a9650196.htm
+
+
+
+)
+Association (Address:LongPostalAddress1Choice) (theNameAndAddress2:NameAndAddress2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3fb3a9ab0177.htm
+
+
+
+(
+LongPostalAddress1Choice ( Address )
+../../../../webviewer/82.jpg
+../../../../looseends/role3fb3a9ac005d.htm
+
+
+
+NameAndAddress2 ( theNameAndAddress2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3fb3a9ac006d.htm
+
+
+
+)
+Association (FinancialInstitution:FinancialInstitutionIdentification1Choice) (theGenericParty1Choice:GenericParty1Choice)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3fdf36cd03c8.htm
+
+
+
+(
+FinancialInstitutionIdentification1Choice ( FinancialInstitution )
+../../../../webviewer/82.jpg
+../../../../looseends/role3fdf36ce0351.htm
+
+
+
+GenericParty1Choice ( theGenericParty1Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role3fdf36ce0379.htm
+
+
+
+)
+Association (AccountOwner:GenericParty1Choice) (theAccountReport5:AccountReport5)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3fdf37f50247.htm
+
+
+
+(
+GenericParty1Choice ( AccountOwner )
+../../../../webviewer/82.jpg
+../../../../looseends/role3fdf37f50248.htm
+
+
+
+AccountReport5 ( theAccountReport5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3fdf37f50249.htm
+
+
+
+)
+Association (AccountOwner:GenericParty1Choice) (theAccountReport6:AccountReport6)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3fdf381d035c.htm
+
+
+
+(
+GenericParty1Choice ( AccountOwner )
+../../../../webviewer/82.jpg
+../../../../looseends/role3fdf381d035d.htm
+
+
+
+AccountReport6 ( theAccountReport6 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3fdf381d035e.htm
+
+
+
+)
+Association (NonFinancialInstitution:NonFinancialInstitutionIdentificationOrName3Choice) (theGenericParty1Choice:GenericParty1Choice)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3fdf437b02d5.htm
+
+
+
+(
+NonFinancialInstitutionIdentificationOrName3Choice ( NonFinancialInstitution )
+../../../../webviewer/82.jpg
+../../../../looseends/role3fdf437c0344.htm
+
+
+
+GenericParty1Choice ( theGenericParty1Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role3fdf437c0358.htm
+
+
+
+)
+Association (Person:PersonAndLongAddress2) (theGenericParty1Choice:GenericParty1Choice)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3fdf461300bd.htm
+
+
+
+(
+PersonAndLongAddress2 ( Person )
+../../../../webviewer/82.jpg
+../../../../looseends/role3fdf4614015e.htm
+
+
+
+GenericParty1Choice ( theGenericParty1Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role3fdf46140172.htm
+
+
+
+)
+<<SWSTrace>> (theParty:Party) (thePartyDetails:PartyDetails)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3f97ece9037a.htm
+
+
+
+(
+Party ( theParty )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f97eceb02dc.htm
+
+
+
+PartyDetails ( thePartyDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f97ecec002b.htm
+
+
+
+)
+Association (Account:CashAccount2) (thePartyDetails:PartyDetails)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3f963add0263.htm
+../../../../looseends/ass3f963add0263.txt
+
+
+(
+CashAccount2 ( Account )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f963ae30316.htm
+
+
+
+PartyDetails ( thePartyDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f963ae3035c.htm
+
+
+
+)
+Association (Identification:GenericParty1Choice) (thePartyDetails:PartyDetails)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3f95561d002d.htm
+../../../../looseends/ass3f95561d002d.txt
+
+
+(
+GenericParty1Choice ( Identification )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f95561e00e3.htm
+
+
+
+PartyDetails ( thePartyDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f95561e010b.htm
+
+
+
+)
+<<SWSTrace>> (thePostalAddress:PostalAddress) (theNameAndAddress1:NameAndAddress1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3e0c2bee008c.htm
+
+
+
+(
+PostalAddress ( thePostalAddress )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e0c2bee03a9.htm
+
+
+
+NameAndAddress1 ( theNameAndAddress1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e0c2bee03d8.htm
+
+
+
+)
+<<SWSTrace>> (theParty:Party) (theNameAndAddress3:NameAndAddress3)
+../../../../webviewer/81.jpg
+../../../../looseends/ass407e7fc20022.htm
+
+
+
+(
+Party ( theParty )
+../../../../webviewer/82.jpg
+../../../../looseends/role407e7fc50167.htm
+
+
+
+NameAndAddress3 ( theNameAndAddress3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role407e7fc503ca.htm
+
+
+
+)
+<<SWSTrace>> (theParty:Party) (thePartyIdentification1:PartyIdentification1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4061b0ef03df.htm
+
+
+
+(
+Party ( theParty )
+../../../../webviewer/82.jpg
+../../../../looseends/role4061b0f00296.htm
+
+
+
+PartyIdentification1 ( thePartyIdentification1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4061b0f10021.htm
+
+
+
+)
+Association (PostalAddress:PostalAddress1) (thePartyIdentification1:PartyIdentification1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4057110f01e1.htm
+
+
+
+(
+PostalAddress1 ( PostalAddress )
+../../../../webviewer/82.jpg
+../../../../looseends/role4057111001f6.htm
+
+
+
+PartyIdentification1 ( thePartyIdentification1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role40571110023c.htm
+
+
+
+)
+Association (Identification:Party1Choice) (thePartyIdentification1:PartyIdentification1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4051b9cd03a5.htm
+../../../../looseends/ass4051b9cd03a5.txt
+
+
+(
+Party1Choice ( Identification )
+../../../../webviewer/82.jpg
+../../../../looseends/role4051b9cf01a0.htm
+
+
+
+PartyIdentification1 ( thePartyIdentification1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4051b9cf01e6.htm
+
+
+
+)
+Association (PrivateIdentification:PersonIdentification2) (theParty1Choice:Party1Choice)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4048a6420091.htm
+
+
+
+(
+PersonIdentification2 ( PrivateIdentification )
+../../../../webviewer/82.jpg
+../../../../looseends/role4048a6430132.htm
+
+
+
+Party1Choice ( theParty1Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role4048a643024b.htm
+
+
+
+)
+<<SWSTrace>> (theParty:Party) (thePartyIdentificationAndAccount2:PartyIdentificationAndAccount2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass40bd9ec80171.htm
+
+
+
+(
+Party ( theParty )
+../../../../webviewer/82.jpg
+../../../../looseends/role40bd9ec90078.htm
+
+
+
+PartyIdentificationAndAccount2 ( thePartyIdentificationAndAccount2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role40bd9ec90141.htm
+
+
+
+)
+<<SWSTrace>> (theParty:Party) (theDebtor2:Debtor2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass41ac439900c7.htm
+
+
+
+(
+Party ( theParty )
+../../../../webviewer/82.jpg
+../../../../looseends/role41ac439900c8.htm
+
+
+
+Debtor2 ( theDebtor2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41ac439900ca.htm
+
+
+
+)
+<<SWSTrace>> (theParty:Party) (theCreditor2:Creditor2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass41ac42a701a8.htm
+
+
+
+(
+Party ( theParty )
+../../../../webviewer/82.jpg
+../../../../looseends/role41ac42a701a9.htm
+
+
+
+Creditor2 ( theCreditor2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41ac42a701ab.htm
+
+
+
+)
+<<SWSTrace>> (theParty:Party) (theNameAndAddress4:NameAndAddress4)
+../../../../webviewer/81.jpg
+../../../../looseends/ass41ac33eb02e2.htm
+
+
+
+(
+Party ( theParty )
+../../../../webviewer/82.jpg
+../../../../looseends/role41ac33eb02e3.htm
+
+
+
+NameAndAddress4 ( theNameAndAddress4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41ac33eb02e5.htm
+
+
+
+)
+<<SWSTrace>> (theParty:Party) (theNameAndAddress5:NameAndAddress5)
+../../../../webviewer/81.jpg
+../../../../looseends/ass41aaed83032b.htm
+
+
+
+(
+Party ( theParty )
+../../../../webviewer/82.jpg
+../../../../looseends/role41aaed83032c.htm
+
+
+
+NameAndAddress5 ( theNameAndAddress5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41aaed840110.htm
+
+
+
+)
+Association (Address:PostalAddress1) (theNameAndAddress4:NameAndAddress4)
+../../../../webviewer/81.jpg
+../../../../looseends/ass41ed12340297.htm
+
+
+
+(
+PostalAddress1 ( Address )
+../../../../webviewer/82.jpg
+../../../../looseends/role41ed1236013b.htm
+
+
+
+NameAndAddress4 ( theNameAndAddress4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41ed123602e0.htm
+
+
+
+)
+Association (Address:PostalAddress1) (theNameAndAddress5:NameAndAddress5)
+../../../../webviewer/81.jpg
+../../../../looseends/ass41e7ce9b0179.htm
+
+
+
+(
+PostalAddress1 ( Address )
+../../../../webviewer/82.jpg
+../../../../looseends/role41e7ce9b017a.htm
+
+
+
+NameAndAddress5 ( theNameAndAddress5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41e7ce9b017b.htm
+
+
+
+)
+<<SWSTrace>> (theParty:Party) (thePartyIdentificationAndAccount3:PartyIdentificationAndAccount3)
+../../../../webviewer/81.jpg
+../../../../looseends/ass41ac36450259.htm
+
+
+
+(
+Party ( theParty )
+../../../../webviewer/82.jpg
+../../../../looseends/role41ac3645025a.htm
+
+
+
+PartyIdentificationAndAccount3 ( thePartyIdentificationAndAccount3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41ac3645025c.htm
+
+
+
+)
+<<SWSTrace>> (theParty:Party) (thePartyIdentification4:PartyIdentification4)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4242dec40188.htm
+
+
+
+(
+Party ( theParty )
+../../../../webviewer/82.jpg
+../../../../looseends/role4242dec40189.htm
+
+
+
+PartyIdentification4 ( thePartyIdentification4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4242dec4018a.htm
+
+
+
+)
+Association (PostalAddress:PostalAddress2) (thePartyIdentification4:PartyIdentification4)
+../../../../webviewer/81.jpg
+../../../../looseends/ass41c81b2302bc.htm
+
+
+
+(
+PostalAddress2 ( PostalAddress )
+../../../../webviewer/82.jpg
+../../../../looseends/role41c81b2302c6.htm
+../../../../looseends/role41c81b2302c6.txt
+
+
+PartyIdentification4 ( thePartyIdentification4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41c81b2302d0.htm
+
+
+
+)
+<<SWSTrace>> (theParty:Party) (thePartyIdentification5:PartyIdentification5)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4242dec901ad.htm
+
+
+
+(
+Party ( theParty )
+../../../../webviewer/82.jpg
+../../../../looseends/role4242dec901ae.htm
+
+
+
+PartyIdentification5 ( thePartyIdentification5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4242dec901af.htm
+
+
+
+)
+Association (PostalAddress:PostalAddress2) (thePartyIdentification5:PartyIdentification5)
+../../../../webviewer/81.jpg
+../../../../looseends/ass422c4ba60290.htm
+
+
+
+(
+PostalAddress2 ( PostalAddress )
+../../../../webviewer/82.jpg
+../../../../looseends/role422c4ba8003a.htm
+
+
+
+PartyIdentification5 ( thePartyIdentification5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role422c4ba80058.htm
+
+
+
+)
+Association (Seller:PartyIdentification5) (theReportSpecification2:ReportSpecification2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass422c4bdb01e3.htm
+../../../../looseends/ass422c4bdb01e3.txt
+
+
+(
+PartyIdentification5 ( Seller )
+../../../../webviewer/82.jpg
+../../../../looseends/role422c4bdb0201.htm
+
+
+
+ReportSpecification2 ( theReportSpecification2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role422c4bdb0202.htm
+
+
+
+)
+Association (Buyer:PartyIdentification5) (theReportSpecification2:ReportSpecification2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass422c4bf0021f.htm
+../../../../looseends/ass422c4bf0021f.txt
+
+
+(
+PartyIdentification5 ( Buyer )
+../../../../webviewer/82.jpg
+../../../../looseends/role422c4bf00251.htm
+
+
+
+ReportSpecification2 ( theReportSpecification2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role422c4bf002a2.htm
+
+
+
+)
+Association (EntitiesToBeReported:BICIdentification1) (theReportSpecification2:ReportSpecification2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass422d83d40080.htm
+../../../../looseends/ass422d83d40080.txt
+
+
+(
+BICIdentification1 ( EntitiesToBeReported )
+../../../../webviewer/82.jpg
+../../../../looseends/role422d83d40094.htm
+
+
+
+ReportSpecification2 ( theReportSpecification2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role422d83d40095.htm
+
+
+
+)
+Association (TransactionStatus:TransactionStatus1) (theReportSpecification2:ReportSpecification2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4239b95e0228.htm
+../../../../looseends/ass4239b95e0228.txt
+
+
+(
+TransactionStatus1 ( TransactionStatus )
+../../../../webviewer/82.jpg
+../../../../looseends/role4239b95e026e.htm
+
+
+
+ReportSpecification2 ( theReportSpecification2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4239b95e02b5.htm
+
+
+
+)
+Association (PendingRequestForAction:PendingActivity1) (theReportSpecification2:ReportSpecification2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4222f6790153.htm
+../../../../looseends/ass4222f6790153.txt
+
+
+(
+PendingActivity1 ( PendingRequestForAction )
+../../../../webviewer/82.jpg
+../../../../looseends/role4222f67c0360.htm
+
+
+
+ReportSpecification2 ( theReportSpecification2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4222f67c03b0.htm
+
+
+
+)
+Association (Correspondent:BICIdentification1) (theReportSpecification2:ReportSpecification2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4209db1f0349.htm
+../../../../looseends/ass4209db1f0349.txt
+
+
+(
+BICIdentification1 ( Correspondent )
+../../../../webviewer/82.jpg
+../../../../looseends/role4209db200319.htm
+
+
+
+ReportSpecification2 ( theReportSpecification2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4209db200337.htm
+
+
+
+)
+Association (Buyer:PartyIdentification5) (theTransactionReportItems1:TransactionReportItems1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass422f024300c4.htm
+
+
+
+(
+PartyIdentification5 ( Buyer )
+../../../../webviewer/82.jpg
+../../../../looseends/role422f024300f6.htm
+
+
+
+TransactionReportItems1 ( theTransactionReportItems1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role422f0243010a.htm
+
+
+
+)
+Association (Seller:PartyIdentification5) (theTransactionReportItems1:TransactionReportItems1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass422f024b00a8.htm
+
+
+
+(
+PartyIdentification5 ( Seller )
+../../../../webviewer/82.jpg
+../../../../looseends/role422f024b00ee.htm
+
+
+
+TransactionReportItems1 ( theTransactionReportItems1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role422f024b0120.htm
+
+
+
+)
+Association (PendingRequestForAction:PendingActivity1) (theTransactionReportItems1:TransactionReportItems1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass422c1f88029f.htm
+../../../../looseends/ass422c1f88029f.txt
+
+
+(
+PendingActivity1 ( PendingRequestForAction )
+../../../../webviewer/82.jpg
+../../../../looseends/role422c1f8901e2.htm
+
+
+
+TransactionReportItems1 ( theTransactionReportItems1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role422c1f890354.htm
+
+
+
+)
+Association (TransactionStatus:TransactionStatus1) (theTransactionReportItems1:TransactionReportItems1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4239b9a7017a.htm
+../../../../looseends/ass4239b9a7017a.txt
+
+
+(
+TransactionStatus1 ( TransactionStatus )
+../../../../webviewer/82.jpg
+../../../../looseends/role4239b9a701c1.htm
+
+
+
+TransactionReportItems1 ( theTransactionReportItems1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4239b9a701f3.htm
+
+
+
+)
+Association (SellerBank:BICIdentification1) (theTransactionReportItems1:TransactionReportItems1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4209dd5000fe.htm
+
+
+
+(
+BICIdentification1 ( SellerBank )
+../../../../webviewer/82.jpg
+../../../../looseends/role4209dd510218.htm
+
+
+
+TransactionReportItems1 ( theTransactionReportItems1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4209dd510236.htm
+
+
+
+)
+Association (UserTransactionReference:DocumentIdentification5) (theTransactionReportItems1:TransactionReportItems1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass420a23fd03d8.htm
+../../../../looseends/ass420a23fd03d8.txt
+
+
+(
+DocumentIdentification5 ( UserTransactionReference )
+../../../../webviewer/82.jpg
+../../../../looseends/role420a240101d6.htm
+
+
+
+TransactionReportItems1 ( theTransactionReportItems1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role420a240101ea.htm
+
+
+
+)
+Association (PurchaseOrderReference:DocumentIdentification7) (theTransactionReportItems1:TransactionReportItems1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4209ddca034c.htm
+../../../../looseends/ass4209ddca034c.txt
+
+
+(
+DocumentIdentification7 ( PurchaseOrderReference )
+../../../../webviewer/82.jpg
+../../../../looseends/role4209ddcc027c.htm
+
+
+
+TransactionReportItems1 ( theTransactionReportItems1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4209ddcc0286.htm
+
+
+
+)
+Association (TSUBaselineIdentification:DocumentIdentification3) (theTransactionReportItems1:TransactionReportItems1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass422d624103af.htm
+../../../../looseends/ass422d624103af.txt
+
+
+(
+DocumentIdentification3 ( TSUBaselineIdentification )
+../../../../webviewer/82.jpg
+../../../../looseends/role422d6243005f.htm
+
+
+
+TransactionReportItems1 ( theTransactionReportItems1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role422d624300a5.htm
+
+
+
+)
+<<SWSTrace>> (theParty:Party) (theNameAndAddress6:NameAndAddress6)
+../../../../webviewer/81.jpg
+../../../../looseends/ass423e8c3a02db.htm
+
+
+
+(
+Party ( theParty )
+../../../../webviewer/82.jpg
+../../../../looseends/role423e8c3b00ab.htm
+
+
+
+NameAndAddress6 ( theNameAndAddress6 )
+../../../../webviewer/82.jpg
+../../../../looseends/role423e8c3f01fc.htm
+
+
+
+)
+Association (Address:PostalAddress2) (theNameAndAddress6:NameAndAddress6)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4225809b0236.htm
+../../../../looseends/ass4225809b0236.txt
+
+
+(
+PostalAddress2 ( Address )
+../../../../webviewer/82.jpg
+../../../../looseends/role422580a102ad.htm
+
+
+
+NameAndAddress6 ( theNameAndAddress6 )
+../../../../webviewer/82.jpg
+../../../../looseends/role422580a102b7.htm
+
+
+
+)
+<<SWSTrace>> (theParty:Party) (theDebtor3:Debtor3)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4280a36801af.htm
+
+
+
+(
+Party ( theParty )
+../../../../webviewer/82.jpg
+../../../../looseends/role4280a36801b0.htm
+
+
+
+Debtor3 ( theDebtor3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4280a36802d2.htm
+
+
+
+)
+<<SWSTrace>> (theParty:Party) (theCreditor3:Creditor3)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4280a3a403b5.htm
+
+
+
+(
+Party ( theParty )
+../../../../webviewer/82.jpg
+../../../../looseends/role4280a3a403b6.htm
+
+
+
+Creditor3 ( theCreditor3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4280a3a403b8.htm
+
+
+
+)
+<<SWSTrace>> (theParty:Party) (theRegulatoryAuthority:RegulatoryAuthority)
+../../../../webviewer/81.jpg
+../../../../looseends/ass437dcd1b0159.htm
+
+
+
+(
+Party ( theParty )
+../../../../webviewer/82.jpg
+../../../../looseends/role437dcd1c0042.htm
+
+
+
+RegulatoryAuthority ( theRegulatoryAuthority )
+../../../../webviewer/82.jpg
+../../../../looseends/role437dcd210162.htm
+
+
+
+)
+Association (PostalAddress:PostalAddress1) (thePartyIdentification7:PartyIdentification7)
+../../../../webviewer/81.jpg
+../../../../looseends/ass43787db002ff.htm
+../../../../looseends/ass43787db002ff.txt
+
+
+(
+PostalAddress1 ( PostalAddress )
+../../../../webviewer/82.jpg
+../../../../looseends/role43787db00300.htm
+
+
+
+PartyIdentification7 ( thePartyIdentification7 )
+../../../../webviewer/82.jpg
+../../../../looseends/role43787db00313.htm
+
+
+
+)
+Association (Identification:Party2Choice) (thePartyIdentification7:PartyIdentification7)
+../../../../webviewer/81.jpg
+../../../../looseends/ass43787e3701a6.htm
+../../../../looseends/ass43787e3701a6.txt
+
+
+(
+Party2Choice ( Identification )
+../../../../webviewer/82.jpg
+../../../../looseends/role43787e3901f9.htm
+
+
+
+PartyIdentification7 ( thePartyIdentification7 )
+../../../../webviewer/82.jpg
+../../../../looseends/role43787e390221.htm
+
+
+
+)
+Association (PrivateIdentification:PersonIdentification3) (theParty2Choice:Party2Choice)
+../../../../webviewer/81.jpg
+../../../../looseends/ass437884a70389.htm
+../../../../looseends/ass437884a70389.txt
+
+
+(
+PersonIdentification3 ( PrivateIdentification )
+../../../../webviewer/82.jpg
+../../../../looseends/role437884a90057.htm
+
+
+
+Party2Choice ( theParty2Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role437884a90061.htm
+
+
+
+)
+<<SWSTrace>> (theParty:Party) (thePartyIdentification7:PartyIdentification7)
+../../../../webviewer/81.jpg
+../../../../looseends/ass43787db002e0.htm
+
+
+
+(
+Party ( theParty )
+../../../../webviewer/82.jpg
+../../../../looseends/role43787db002e1.htm
+
+
+
+PartyIdentification7 ( thePartyIdentification7 )
+../../../../webviewer/82.jpg
+../../../../looseends/role43787db002ea.htm
+
+
+
+)
+Association (TradeParty:PartyIdentification7Choice) (theTradePartyIdentification1:TradePartyIdentification1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass439ed589013e.htm
+../../../../looseends/ass439ed589013e.txt
+
+
+(
+PartyIdentification7Choice ( TradeParty )
+../../../../webviewer/82.jpg
+../../../../looseends/role439ed589013f.htm
+
+
+
+TradePartyIdentification1 ( theTradePartyIdentification1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role439ed5890140.htm
+
+
+
+)
+Association (FundInformation:FundIdentification1) (theTradePartyIdentification1:TradePartyIdentification1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass439ed58900b9.htm
+../../../../looseends/ass439ed58900b9.txt
+
+
+(
+FundIdentification1 ( FundInformation )
+../../../../webviewer/82.jpg
+../../../../looseends/role439ed58900ba.htm
+
+
+
+TradePartyIdentification1 ( theTradePartyIdentification1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role439ed58900bb.htm
+
+
+
+)
+<<SWSTrace>> (theParty:Party) (theTradePartyIdentification1:TradePartyIdentification1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass43aac35701ef.htm
+
+
+
+(
+Party ( theParty )
+../../../../webviewer/82.jpg
+../../../../looseends/role43aac3580010.htm
+
+
+
+TradePartyIdentification1 ( theTradePartyIdentification1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role43aac3580363.htm
+
+
+
+)
+<<SWSTrace>> (theParty:Party) (theTradePartyIdentification2:TradePartyIdentification2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass443bb13c0325.htm
+
+
+
+(
+Party ( theParty )
+../../../../webviewer/82.jpg
+../../../../looseends/role443bb13d0150.htm
+
+
+
+TradePartyIdentification2 ( theTradePartyIdentification2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role443bb13d01c8.htm
+
+
+
+)
+Association (theTradePartyIdentification2:TradePartyIdentification2) (TradeParty:PartyIdentification7Choice)
+../../../../webviewer/81.jpg
+../../../../looseends/ass443bb0940003.htm
+../../../../looseends/ass443bb0940003.txt
+
+
+(
+TradePartyIdentification2 ( theTradePartyIdentification2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role443bb0940004.htm
+
+
+
+PartyIdentification7Choice ( TradeParty )
+../../../../webviewer/82.jpg
+../../../../looseends/role443bb0940005.htm
+
+
+
+)
+Association (theTradePartyIdentification2:TradePartyIdentification2) (FundInformation:FundIdentification1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass443bb08903c8.htm
+../../../../looseends/ass443bb08903c8.txt
+
+
+(
+TradePartyIdentification2 ( theTradePartyIdentification2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role443bb08903c9.htm
+
+
+
+FundIdentification1 ( FundInformation )
+../../../../webviewer/82.jpg
+../../../../looseends/role443bb08903ca.htm
+
+
+
+)
+Association (PostalAddress:PostalAddress1) (thePartyIdentification8:PartyIdentification8)
+../../../../webviewer/81.jpg
+../../../../looseends/ass446890cc0291.htm
+../../../../looseends/ass446890cc0291.txt
+
+
+(
+PostalAddress1 ( PostalAddress )
+../../../../webviewer/82.jpg
+../../../../looseends/role446890cc0292.htm
+
+
+
+PartyIdentification8 ( thePartyIdentification8 )
+../../../../webviewer/82.jpg
+../../../../looseends/role446890cc034f.htm
+
+
+
+)
+Association (Identification:Party2Choice) (thePartyIdentification8:PartyIdentification8)
+../../../../webviewer/81.jpg
+../../../../looseends/ass446890cc0377.htm
+../../../../looseends/ass446890cc0377.txt
+
+
+(
+Party2Choice ( Identification )
+../../../../webviewer/82.jpg
+../../../../looseends/role446890cc0378.htm
+
+
+
+PartyIdentification8 ( thePartyIdentification8 )
+../../../../webviewer/82.jpg
+../../../../looseends/role446890cc038b.htm
+
+
+
+)
+<<SWSTrace>> (theParty:Party) (theNameAndAddress7:NameAndAddress7)
+../../../../webviewer/81.jpg
+../../../../looseends/ass44770955010c.htm
+
+
+
+(
+Party ( theParty )
+../../../../webviewer/82.jpg
+../../../../looseends/role447709550134.htm
+
+
+
+NameAndAddress7 ( theNameAndAddress7 )
+../../../../webviewer/82.jpg
+../../../../looseends/role44770955027e.htm
+
+
+
+)
+Association (PostalAddress:PostalAddress1) (theNameAndAddress7:NameAndAddress7)
+../../../../webviewer/81.jpg
+../../../../looseends/ass44770955029d.htm
+../../../../looseends/ass44770955029d.txt
+
+
+(
+PostalAddress1 ( PostalAddress )
+../../../../webviewer/82.jpg
+../../../../looseends/role4477095502a6.htm
+
+
+
+NameAndAddress7 ( theNameAndAddress7 )
+../../../../webviewer/82.jpg
+../../../../looseends/role44770956001e.htm
+
+
+
+)
+<<SWSTrace>> (theParty:Party) (theTransactionReportItems2:TransactionReportItems2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4498175400ad.htm
+
+
+
+(
+Party ( theParty )
+../../../../webviewer/82.jpg
+../../../../looseends/role449817540279.htm
+
+
+
+TransactionReportItems2 ( theTransactionReportItems2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role449817540323.htm
+
+
+
+)
+Association (PendingRequestForAction:PendingActivity1) (theTransactionReportItems2:TransactionReportItems2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4497f9b601a9.htm
+../../../../looseends/ass4497f9b601a9.txt
+
+
+(
+PendingActivity1 ( PendingRequestForAction )
+../../../../webviewer/82.jpg
+../../../../looseends/role4497f9b601aa.htm
+
+
+
+TransactionReportItems2 ( theTransactionReportItems2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4497f9b601ac.htm
+
+
+
+)
+Association (UserTransactionReference:DocumentIdentification5) (theTransactionReportItems2:TransactionReportItems2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4497f9b601e5.htm
+../../../../looseends/ass4497f9b601e5.txt
+
+
+(
+DocumentIdentification5 ( UserTransactionReference )
+../../../../webviewer/82.jpg
+../../../../looseends/role4497f9b601e6.htm
+
+
+
+TransactionReportItems2 ( theTransactionReportItems2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4497f9b601e8.htm
+
+
+
+)
+Association (PurchaseOrderReference:DocumentIdentification7) (theTransactionReportItems2:TransactionReportItems2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4497f9b601f9.htm
+../../../../looseends/ass4497f9b601f9.txt
+
+
+(
+DocumentIdentification7 ( PurchaseOrderReference )
+../../../../webviewer/82.jpg
+../../../../looseends/role4497f9b601fa.htm
+
+
+
+TransactionReportItems2 ( theTransactionReportItems2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4497f9b601fc.htm
+
+
+
+)
+Association (TransactionStatus:TransactionStatus1) (theTransactionReportItems2:TransactionReportItems2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4497f9b601bd.htm
+../../../../looseends/ass4497f9b601bd.txt
+
+
+(
+TransactionStatus1 ( TransactionStatus )
+../../../../webviewer/82.jpg
+../../../../looseends/role4497f9b601be.htm
+
+
+
+TransactionReportItems2 ( theTransactionReportItems2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4497f9b601c0.htm
+
+
+
+)
+Association (BuyerBank:BICIdentification1) (theTransactionReportItems2:TransactionReportItems2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4497f9b60217.htm
+
+
+
+(
+BICIdentification1 ( BuyerBank )
+../../../../webviewer/82.jpg
+../../../../looseends/role4497f9b60221.htm
+
+
+
+TransactionReportItems2 ( theTransactionReportItems2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4497f9b60223.htm
+
+
+
+)
+Association (Seller:PartyIdentification9) (theTransactionReportItems2:TransactionReportItems2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4497f9b60195.htm
+
+
+
+(
+PartyIdentification9 ( Seller )
+../../../../webviewer/82.jpg
+../../../../looseends/role4497f9b60196.htm
+
+
+
+TransactionReportItems2 ( theTransactionReportItems2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4497f9b60198.htm
+
+
+
+)
+Association (Buyer:PartyIdentification9) (theTransactionReportItems2:TransactionReportItems2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4497f9b60181.htm
+
+
+
+(
+PartyIdentification9 ( Buyer )
+../../../../webviewer/82.jpg
+../../../../looseends/role4497f9b6018b.htm
+
+
+
+TransactionReportItems2 ( theTransactionReportItems2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4497f9b6018d.htm
+
+
+
+)
+Association (TSUBaselineIdentification:DocumentIdentification3) (theTransactionReportItems2:TransactionReportItems2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4497f9b6020d.htm
+../../../../looseends/ass4497f9b6020d.txt
+
+
+(
+DocumentIdentification3 ( TSUBaselineIdentification )
+../../../../webviewer/82.jpg
+../../../../looseends/role4497f9b6020e.htm
+
+
+
+TransactionReportItems2 ( theTransactionReportItems2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4497f9b60210.htm
+
+
+
+)
+<<SWSTrace>> (theParty:Party) (theReportSpecification3:ReportSpecification3)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4498155102c4.htm
+
+
+
+(
+Party ( theParty )
+../../../../webviewer/82.jpg
+../../../../looseends/role449815520135.htm
+
+
+
+ReportSpecification3 ( theReportSpecification3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role449815520211.htm
+
+
+
+)
+Association (Correspondent:BICIdentification1) (theReportSpecification3:ReportSpecification3)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4497fa68008e.htm
+../../../../looseends/ass4497fa68008e.txt
+
+
+(
+BICIdentification1 ( Correspondent )
+../../../../webviewer/82.jpg
+../../../../looseends/role4497fa68008f.htm
+
+
+
+ReportSpecification3 ( theReportSpecification3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4497fa680091.htm
+
+
+
+)
+Association (EntitiesToBeReported:BICIdentification1) (theReportSpecification3:ReportSpecification3)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4497fa680052.htm
+../../../../looseends/ass4497fa680052.txt
+
+
+(
+BICIdentification1 ( EntitiesToBeReported )
+../../../../webviewer/82.jpg
+../../../../looseends/role4497fa680053.htm
+
+
+
+ReportSpecification3 ( theReportSpecification3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4497fa680055.htm
+
+
+
+)
+Association (TransactionStatus:TransactionStatus1) (theReportSpecification3:ReportSpecification3)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4497fa680066.htm
+../../../../looseends/ass4497fa680066.txt
+
+
+(
+TransactionStatus1 ( TransactionStatus )
+../../../../webviewer/82.jpg
+../../../../looseends/role4497fa680067.htm
+
+
+
+ReportSpecification3 ( theReportSpecification3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4497fa680069.htm
+
+
+
+)
+Association (PendingRequestForAction:PendingActivity1) (theReportSpecification3:ReportSpecification3)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4497fa68007a.htm
+../../../../looseends/ass4497fa68007a.txt
+
+
+(
+PendingActivity1 ( PendingRequestForAction )
+../../../../webviewer/82.jpg
+../../../../looseends/role4497fa68007b.htm
+
+
+
+ReportSpecification3 ( theReportSpecification3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4497fa68007d.htm
+
+
+
+)
+Association (Seller:PartyIdentification9) (theReportSpecification3:ReportSpecification3)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4497fa68002a.htm
+../../../../looseends/ass4497fa68002a.txt
+
+
+(
+PartyIdentification9 ( Seller )
+../../../../webviewer/82.jpg
+../../../../looseends/role4497fa68002b.htm
+
+
+
+ReportSpecification3 ( theReportSpecification3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4497fa68002d.htm
+
+
+
+)
+Association (Buyer:PartyIdentification9) (theReportSpecification3:ReportSpecification3)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4497fa68003e.htm
+../../../../looseends/ass4497fa68003e.txt
+
+
+(
+PartyIdentification9 ( Buyer )
+../../../../webviewer/82.jpg
+../../../../looseends/role4497fa68003f.htm
+
+
+
+ReportSpecification3 ( theReportSpecification3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4497fa680041.htm
+
+
+
+)
+<<SWSTrace>> (theParty:Party) (thePartyIdentification9:PartyIdentification9)
+../../../../webviewer/81.jpg
+../../../../looseends/ass446de2b1008b.htm
+
+
+
+(
+Party ( theParty )
+../../../../webviewer/82.jpg
+../../../../looseends/role446de2b1008c.htm
+
+
+
+PartyIdentification9 ( thePartyIdentification9 )
+../../../../webviewer/82.jpg
+../../../../looseends/role446de2b100e5.htm
+
+
+
+)
+Association (PostalAddress:PostalAddress2) (thePartyIdentification9:PartyIdentification9)
+../../../../webviewer/81.jpg
+../../../../looseends/ass446de2b100f0.htm
+
+
+
+(
+PostalAddress2 ( PostalAddress )
+../../../../webviewer/82.jpg
+../../../../looseends/role446de2b100f1.htm
+
+
+
+PartyIdentification9 ( thePartyIdentification9 )
+../../../../webviewer/82.jpg
+../../../../looseends/role446de2b100f3.htm
+
+
+
+)
+Association (SellerBank:BICIdentification1) (theTransactionReportItems2:TransactionReportItems2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4497f9b601d1.htm
+
+
+
+(
+BICIdentification1 ( SellerBank )
+../../../../webviewer/82.jpg
+../../../../looseends/role4497f9b601d2.htm
+
+
+
+TransactionReportItems2 ( theTransactionReportItems2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4497f9b601d4.htm
+
+
+
+)
+Association (Identification:PartyPrivate1) (thePartyIdentification11:PartyIdentification11)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4511043d03c4.htm
+../../../../looseends/ass4511043d03c4.txt
+
+
+(
+PartyPrivate1 ( Identification )
+../../../../webviewer/82.jpg
+../../../../looseends/role4511043d03c5.htm
+
+
+
+PartyIdentification11 ( thePartyIdentification11 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4511043d03c7.htm
+
+
+
+)
+<<IsDerivedFrom>> (theParty2Choice:Party2Choice) (thePartyPrivate1:PartyPrivate1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass451b2b080355.htm
+../../../../looseends/ass451b2b080355.txt
+
+
+(
+Party2Choice ( theParty2Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role451b2b0a00b9.htm
+
+
+
+PartyPrivate1 ( thePartyPrivate1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role451b2b0a00cd.htm
+
+
+
+)
+Association (PrivateIdentification:PersonIdentification4) (thePartyPrivate1:PartyPrivate1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass451b0f2a02df.htm
+../../../../looseends/ass451b0f2a02df.txt
+
+
+(
+PersonIdentification4 ( PrivateIdentification )
+../../../../webviewer/82.jpg
+../../../../looseends/role451b0f2a02e0.htm
+
+
+
+PartyPrivate1 ( thePartyPrivate1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role451b0f2a02e2.htm
+
+
+
+)
+<<SWSTrace>> (theParty:Party) (thePartyIdentification11:PartyIdentification11)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4511043e0004.htm
+
+
+
+(
+Party ( theParty )
+../../../../webviewer/82.jpg
+../../../../looseends/role4511043e0005.htm
+
+
+
+PartyIdentification11 ( thePartyIdentification11 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4511043e0007.htm
+
+
+
+)
+<<IsDerivedFrom>> (thePartyIdentification8:PartyIdentification8) (thePartyIdentification11:PartyIdentification11)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4513e37400d3.htm
+../../../../looseends/ass4513e37400d3.txt
+
+
+(
+PartyIdentification8 ( thePartyIdentification8 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4513e375005c.htm
+
+
+
+PartyIdentification11 ( thePartyIdentification11 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4513e375008e.htm
+
+
+
+)
+<<SWSTrace>> (theParty:Party) (thePartyIdentification10:PartyIdentification10)
+../../../../webviewer/81.jpg
+../../../../looseends/ass450ff5a00099.htm
+
+
+
+(
+Party ( theParty )
+../../../../webviewer/82.jpg
+../../../../looseends/role450ff5a0009a.htm
+
+
+
+PartyIdentification10 ( thePartyIdentification10 )
+../../../../webviewer/82.jpg
+../../../../looseends/role450ff5a000a3.htm
+
+
+
+)
+<<IsDerivedFrom>> (thePartyIdentification8:PartyIdentification8) (thePartyIdentification10:PartyIdentification10)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4513e36301a1.htm
+../../../../looseends/ass4513e36301a1.txt
+
+
+(
+PartyIdentification8 ( thePartyIdentification8 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4513e3660001.htm
+
+
+
+PartyIdentification10 ( thePartyIdentification10 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4513e3660033.htm
+
+
+
+)
+Association (PostalAddress:PostalAddress4) (thePartyIdentification10:PartyIdentification10)
+../../../../webviewer/81.jpg
+../../../../looseends/ass450ff5a00071.htm
+../../../../looseends/ass450ff5a00071.txt
+
+
+(
+PostalAddress4 ( PostalAddress )
+../../../../webviewer/82.jpg
+../../../../looseends/role450ff5a00072.htm
+
+
+
+PartyIdentification10 ( thePartyIdentification10 )
+../../../../webviewer/82.jpg
+../../../../looseends/role450ff5a00074.htm
+
+
+
+)
+Association (Identification:Party3Choice) (thePartyIdentification10:PartyIdentification10)
+../../../../webviewer/81.jpg
+../../../../looseends/ass450ff5a00085.htm
+../../../../looseends/ass450ff5a00085.txt
+
+
+(
+Party3Choice ( Identification )
+../../../../webviewer/82.jpg
+../../../../looseends/role450ff5a00086.htm
+
+
+
+PartyIdentification10 ( thePartyIdentification10 )
+../../../../webviewer/82.jpg
+../../../../looseends/role450ff5a00088.htm
+
+
+
+)
+<<SWSTrace>> (theParty:Party) (thePartyIdentification12:PartyIdentification12)
+../../../../webviewer/81.jpg
+../../../../looseends/ass451054e0019b.htm
+
+
+
+(
+Party ( theParty )
+../../../../webviewer/82.jpg
+../../../../looseends/role451054e001a5.htm
+
+
+
+PartyIdentification12 ( thePartyIdentification12 )
+../../../../webviewer/82.jpg
+../../../../looseends/role451054e001a7.htm
+
+
+
+)
+<<IsDerivedFrom>> (thePartyIdentification8:PartyIdentification8) (thePartyIdentification12:PartyIdentification12)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4513e38200bf.htm
+../../../../looseends/ass4513e38200bf.txt
+
+
+(
+PartyIdentification8 ( thePartyIdentification8 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4513e38203d6.htm
+
+
+
+PartyIdentification12 ( thePartyIdentification12 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4513e3830020.htm
+
+
+
+)
+<<IsDerivedFrom>> (thePartyIdentification8:PartyIdentification8) (thePartyIdentification13:PartyIdentification13)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4513e38e02f7.htm
+../../../../looseends/ass4513e38e02f7.txt
+
+
+(
+PartyIdentification8 ( thePartyIdentification8 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4513e38f0294.htm
+
+
+
+PartyIdentification13 ( thePartyIdentification13 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4513e38f02c7.htm
+
+
+
+)
+<<SWSTrace>> (theParty:Party) (thePartyIdentification13:PartyIdentification13)
+../../../../webviewer/81.jpg
+../../../../looseends/ass451139c40353.htm
+
+
+
+(
+Party ( theParty )
+../../../../webviewer/82.jpg
+../../../../looseends/role451139c40354.htm
+
+
+
+PartyIdentification13 ( thePartyIdentification13 )
+../../../../webviewer/82.jpg
+../../../../looseends/role451139c4035d.htm
+
+
+
+)
+Association (PostalAddress:PostalAddress4) (thePartyIdentification13:PartyIdentification13)
+../../../../webviewer/81.jpg
+../../../../looseends/ass451139c40317.htm
+../../../../looseends/ass451139c40317.txt
+
+
+(
+PostalAddress4 ( PostalAddress )
+../../../../webviewer/82.jpg
+../../../../looseends/role451139c40318.htm
+
+
+
+PartyIdentification13 ( thePartyIdentification13 )
+../../../../webviewer/82.jpg
+../../../../looseends/role451139c4031a.htm
+
+
+
+)
+Association (OrganisationIdentification:OrganisationIdentification3) (theParty3Choice:Party3Choice)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4510121901a4.htm
+../../../../looseends/ass4510121901a4.txt
+
+
+(
+OrganisationIdentification3 ( OrganisationIdentification )
+../../../../webviewer/82.jpg
+../../../../looseends/role4510121a0227.htm
+
+
+
+Party3Choice ( theParty3Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role4510121a0232.htm
+
+
+
+)
+<<IsDerivedFrom>> (theParty2Choice:Party2Choice) (theParty3Choice:Party3Choice)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4514032a014f.htm
+../../../../looseends/ass4514032a014f.txt
+
+
+(
+Party2Choice ( theParty2Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role4514032b0165.htm
+
+
+
+Party3Choice ( theParty3Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role4514032b016f.htm
+
+
+
+)
+Association (PrivateIdentification:PersonIdentification4) (theParty3Choice:Party3Choice)
+../../../../webviewer/81.jpg
+../../../../looseends/ass451011c40005.htm
+../../../../looseends/ass451011c40005.txt
+
+
+(
+PersonIdentification4 ( PrivateIdentification )
+../../../../webviewer/82.jpg
+../../../../looseends/role451011c40006.htm
+
+
+
+Party3Choice ( theParty3Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role451011c4000f.htm
+
+
+
+)
+Association (OrganisationIdentification:OrganisationIdentification3) (thePartyOrganisation1Choice:PartyOrganisation1Choice)
+../../../../webviewer/81.jpg
+../../../../looseends/ass451d0f84030d.htm
+../../../../looseends/ass451d0f84030d.txt
+
+
+(
+OrganisationIdentification3 ( OrganisationIdentification )
+../../../../webviewer/82.jpg
+../../../../looseends/role451d0f84030e.htm
+
+
+
+PartyOrganisation1Choice ( thePartyOrganisation1Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role451d0f840317.htm
+
+
+
+)
+<<IsDerivedFrom>> (theParty2Choice:Party2Choice) (thePartyOrganisation1Choice:PartyOrganisation1Choice)
+../../../../webviewer/81.jpg
+../../../../looseends/ass451d0fee0218.htm
+../../../../looseends/ass451d0fee0218.txt
+
+
+(
+Party2Choice ( theParty2Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role451d0fef036e.htm
+
+
+
+PartyOrganisation1Choice ( thePartyOrganisation1Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role451d0fef0378.htm
+
+
+
+)
+<<SWSTrace>> (theParty:Party) (thePartyIdentification14:PartyIdentification14)
+../../../../webviewer/81.jpg
+../../../../looseends/ass451d101202d8.htm
+
+
+
+(
+Party ( theParty )
+../../../../webviewer/82.jpg
+../../../../looseends/role451d101202e2.htm
+
+
+
+PartyIdentification14 ( thePartyIdentification14 )
+../../../../webviewer/82.jpg
+../../../../looseends/role451d101202e4.htm
+
+
+
+)
+Association (Identification:PartyOrganisation1Choice) (thePartyIdentification14:PartyIdentification14)
+../../../../webviewer/81.jpg
+../../../../looseends/ass451d10120314.htm
+../../../../looseends/ass451d10120314.txt
+
+
+(
+PartyOrganisation1Choice ( Identification )
+../../../../webviewer/82.jpg
+../../../../looseends/role451d10120315.htm
+
+
+
+PartyIdentification14 ( thePartyIdentification14 )
+../../../../webviewer/82.jpg
+../../../../looseends/role451d10120317.htm
+
+
+
+)
+<<IsDerivedFrom>> (thePartyIdentification8:PartyIdentification8) (thePartyIdentification14:PartyIdentification14)
+../../../../webviewer/81.jpg
+../../../../looseends/ass451d102d01d3.htm
+../../../../looseends/ass451d102d01d3.txt
+
+
+(
+PartyIdentification8 ( thePartyIdentification8 )
+../../../../webviewer/82.jpg
+../../../../looseends/role451d102f01a4.htm
+
+
+
+PartyIdentification14 ( thePartyIdentification14 )
+../../../../webviewer/82.jpg
+../../../../looseends/role451d102f01cc.htm
+
+
+
+)
+Association (PrivateIdentification:PersonIdentification5) (theParty4Choice:Party4Choice)
+../../../../webviewer/81.jpg
+../../../../looseends/ass45081ad500ae.htm
+../../../../looseends/ass45081ad500ae.txt
+
+
+(
+PersonIdentification5 ( PrivateIdentification )
+../../../../webviewer/82.jpg
+../../../../looseends/role45081ad500af.htm
+
+
+
+Party4Choice ( theParty4Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role45081ad500b1.htm
+
+
+
+)
+<<IsDerivedFrom>> (theParty2Choice:Party2Choice) (theParty4Choice:Party4Choice)
+../../../../webviewer/81.jpg
+../../../../looseends/ass450925cb02c0.htm
+../../../../looseends/ass450925cb02c0.txt
+
+
+(
+Party2Choice ( theParty2Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role450925ce031f.htm
+
+
+
+Party4Choice ( theParty4Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role450925ce0329.htm
+
+
+
+)
+<<SWSTrace>> (theParty:Party) (thePartyIdentification15:PartyIdentification15)
+../../../../webviewer/81.jpg
+../../../../looseends/ass45081ab70173.htm
+
+
+
+(
+Party ( theParty )
+../../../../webviewer/82.jpg
+../../../../looseends/role45081ab70174.htm
+
+
+
+PartyIdentification15 ( thePartyIdentification15 )
+../../../../webviewer/82.jpg
+../../../../looseends/role45081ab7017e.htm
+
+
+
+)
+Association (PostalAddress:PostalAddress4) (thePartyIdentification15:PartyIdentification15)
+../../../../webviewer/81.jpg
+../../../../looseends/ass45081ab70123.htm
+../../../../looseends/ass45081ab70123.txt
+
+
+(
+PostalAddress4 ( PostalAddress )
+../../../../webviewer/82.jpg
+../../../../looseends/role45081ab70124.htm
+
+
+
+PartyIdentification15 ( thePartyIdentification15 )
+../../../../webviewer/82.jpg
+../../../../looseends/role45081ab70126.htm
+
+
+
+)
+<<IsDerivedFrom>> (thePartyIdentification8:PartyIdentification8) (thePartyIdentification15:PartyIdentification15)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4513e342037a.htm
+../../../../looseends/ass4513e342037a.txt
+
+
+(
+PartyIdentification8 ( thePartyIdentification8 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4513e344003e.htm
+
+
+
+PartyIdentification15 ( thePartyIdentification15 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4513e344007a.htm
+
+
+
+)
+Association (Identification:Party4Choice) (thePartyIdentification15:PartyIdentification15)
+../../../../webviewer/81.jpg
+../../../../looseends/ass452ccd4f02d3.htm
+../../../../looseends/ass452ccd4f02d3.txt
+
+
+(
+Party4Choice ( Identification )
+../../../../webviewer/82.jpg
+../../../../looseends/role452ccd4f02d4.htm
+
+
+
+PartyIdentification15 ( thePartyIdentification15 )
+../../../../webviewer/82.jpg
+../../../../looseends/role452ccd4f02de.htm
+
+
+
+)
+<<SWSTrace>> (theParty:Party) (thePartyIdentification16:PartyIdentification16)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4511008d01fb.htm
+
+
+
+(
+Party ( theParty )
+../../../../webviewer/82.jpg
+../../../../looseends/role4511008d01fc.htm
+
+
+
+PartyIdentification16 ( thePartyIdentification16 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4511008d01fe.htm
+
+
+
+)
+<<IsDerivedFrom>> (thePartyIdentification8:PartyIdentification8) (thePartyIdentification16:PartyIdentification16)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4513e3a90025.htm
+../../../../looseends/ass4513e3a90025.txt
+
+
+(
+PartyIdentification8 ( thePartyIdentification8 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4513e3a903aa.htm
+
+
+
+PartyIdentification16 ( thePartyIdentification16 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4513e3a903e6.htm
+
+
+
+)
+Association (Identification:PartyPrivate1) (thePartyIdentification16:PartyIdentification16)
+../../../../webviewer/81.jpg
+../../../../looseends/ass452ccd8d003e.htm
+../../../../looseends/ass452ccd8d003e.txt
+
+
+(
+PartyPrivate1 ( Identification )
+../../../../webviewer/82.jpg
+../../../../looseends/role452ccd8d003f.htm
+
+
+
+PartyIdentification16 ( thePartyIdentification16 )
+../../../../webviewer/82.jpg
+../../../../looseends/role452ccd8d0041.htm
+
+
+
+)
+Association (PostalAddress:PostalAddress4) (thePartyIdentification16:PartyIdentification16)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4511008d018d.htm
+../../../../looseends/ass4511008d018d.txt
+
+
+(
+PostalAddress4 ( PostalAddress )
+../../../../webviewer/82.jpg
+../../../../looseends/role4511008d018e.htm
+
+
+
+PartyIdentification16 ( thePartyIdentification16 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4511008d0190.htm
+
+
+
+)
+<<SWSTrace>> (theParty:Party) (thePartyIdentification17:PartyIdentification17)
+../../../../webviewer/81.jpg
+../../../../looseends/ass456da48e01bd.htm
+
+
+
+(
+Party ( theParty )
+../../../../webviewer/82.jpg
+../../../../looseends/role456da48e01be.htm
+
+
+
+PartyIdentification17 ( thePartyIdentification17 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456da48e01c0.htm
+
+
+
+)
+<<IsDerivedFrom>> (thePartyIdentification8:PartyIdentification8) (thePartyIdentification17:PartyIdentification17)
+../../../../webviewer/81.jpg
+../../../../looseends/ass456da8fa0326.htm
+../../../../looseends/ass456da8fa0326.txt
+
+
+(
+PartyIdentification8 ( thePartyIdentification8 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456da8fb022d.htm
+
+
+
+PartyIdentification17 ( thePartyIdentification17 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456da8fb0255.htm
+
+
+
+)
+Association (Identification:PartyPrivate1) (thePartyIdentification17:PartyIdentification17)
+../../../../webviewer/81.jpg
+../../../../looseends/ass456da48e019f.htm
+../../../../looseends/ass456da48e019f.txt
+
+
+(
+PartyPrivate1 ( Identification )
+../../../../webviewer/82.jpg
+../../../../looseends/role456da48e01a0.htm
+
+
+
+PartyIdentification17 ( thePartyIdentification17 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456da48e01a2.htm
+
+
+
+)
+<<SWSTrace>> (theParty:Party) (thePartyIdentification18:PartyIdentification18)
+../../../../webviewer/81.jpg
+../../../../looseends/ass457f99e70356.htm
+
+
+
+(
+Party ( theParty )
+../../../../webviewer/82.jpg
+../../../../looseends/role457f99e70357.htm
+
+
+
+PartyIdentification18 ( thePartyIdentification18 )
+../../../../webviewer/82.jpg
+../../../../looseends/role457f99e70359.htm
+
+
+
+)
+<<IsDerivedFrom>> (thePartyIdentification8:PartyIdentification8) (thePartyIdentification18:PartyIdentification18)
+../../../../webviewer/81.jpg
+../../../../looseends/ass457f9a6f01c1.htm
+../../../../looseends/ass457f9a6f01c1.txt
+
+
+(
+PartyIdentification8 ( thePartyIdentification8 )
+../../../../webviewer/82.jpg
+../../../../looseends/role457f9a70014a.htm
+
+
+
+PartyIdentification18 ( thePartyIdentification18 )
+../../../../webviewer/82.jpg
+../../../../looseends/role457f9a7001a5.htm
+
+
+
+)
+Association (Identification:PartyPrivate1) (thePartyIdentification18:PartyIdentification18)
+../../../../webviewer/81.jpg
+../../../../looseends/ass457f99e702b6.htm
+../../../../looseends/ass457f99e702b6.txt
+
+
+(
+PartyPrivate1 ( Identification )
+../../../../webviewer/82.jpg
+../../../../looseends/role457f99e702b7.htm
+
+
+
+PartyIdentification18 ( thePartyIdentification18 )
+../../../../webviewer/82.jpg
+../../../../looseends/role457f99e702c1.htm
+
+
+
+)
+Association (PostalAddress:PostalAddress4) (thePartyIdentification18:PartyIdentification18)
+../../../../webviewer/81.jpg
+../../../../looseends/ass457f99e70284.htm
+../../../../looseends/ass457f99e70284.txt
+
+
+(
+PostalAddress4 ( PostalAddress )
+../../../../webviewer/82.jpg
+../../../../looseends/role457f99e70285.htm
+
+
+
+PartyIdentification18 ( thePartyIdentification18 )
+../../../../webviewer/82.jpg
+../../../../looseends/role457f99e7028e.htm
+
+
+
+)
+<<SWSTrace>> (theParty:Party) (thePartyIdentification19:PartyIdentification19)
+../../../../webviewer/81.jpg
+../../../../looseends/ass456d76b1038d.htm
+
+
+
+(
+Party ( theParty )
+../../../../webviewer/82.jpg
+../../../../looseends/role456d76b1038e.htm
+
+
+
+PartyIdentification19 ( thePartyIdentification19 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456d76b10390.htm
+
+
+
+)
+<<IsDerivedFrom>> (thePartyIdentification8:PartyIdentification8) (thePartyIdentification19:PartyIdentification19)
+../../../../webviewer/81.jpg
+../../../../looseends/ass456d76d00017.htm
+../../../../looseends/ass456d76d00017.txt
+
+
+(
+PartyIdentification8 ( thePartyIdentification8 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456d76d2033b.htm
+
+
+
+PartyIdentification19 ( thePartyIdentification19 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456d76d20363.htm
+
+
+
+)
+Association (Identification:Party5Choice) (thePartyIdentification19:PartyIdentification19)
+../../../../webviewer/81.jpg
+../../../../looseends/ass456d76b103bf.htm
+../../../../looseends/ass456d76b103bf.txt
+
+
+(
+Party5Choice ( Identification )
+../../../../webviewer/82.jpg
+../../../../looseends/role456d76b103c0.htm
+
+
+
+PartyIdentification19 ( thePartyIdentification19 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456d76b103c2.htm
+
+
+
+)
+Association (PostalAddress:PostalAddress4) (thePartyIdentification19:PartyIdentification19)
+../../../../webviewer/81.jpg
+../../../../looseends/ass456d76b10398.htm
+../../../../looseends/ass456d76b10398.txt
+
+
+(
+PostalAddress4 ( PostalAddress )
+../../../../webviewer/82.jpg
+../../../../looseends/role456d76b103a1.htm
+
+
+
+PartyIdentification19 ( thePartyIdentification19 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456d76b103a3.htm
+
+
+
+)
+<<IsDerivedFrom>> (theParty2Choice:Party2Choice) (theParty5Choice:Party5Choice)
+../../../../webviewer/81.jpg
+../../../../looseends/ass456d77010249.htm
+../../../../looseends/ass456d77010249.txt
+
+
+(
+Party2Choice ( theParty2Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role456d77030011.htm
+
+
+
+Party5Choice ( theParty5Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role456d77030026.htm
+
+
+
+)
+Association (PrivateIdentification:PersonIdentification3) (theParty5Choice:Party5Choice)
+../../../../webviewer/81.jpg
+../../../../looseends/ass456d76ec028f.htm
+../../../../looseends/ass456d76ec028f.txt
+
+
+(
+PersonIdentification3 ( PrivateIdentification )
+../../../../webviewer/82.jpg
+../../../../looseends/role456d76ec0299.htm
+
+
+
+Party5Choice ( theParty5Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role456d76ec029b.htm
+
+
+
+)
+Association (OrganisationIdentification:OrganisationIdentification2) (theParty5Choice:Party5Choice)
+../../../../webviewer/81.jpg
+../../../../looseends/ass456d76ec0272.htm
+../../../../looseends/ass456d76ec0272.txt
+
+
+(
+OrganisationIdentification2 ( OrganisationIdentification )
+../../../../webviewer/82.jpg
+../../../../looseends/role456d76ec0273.htm
+
+
+
+Party5Choice ( theParty5Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role456d76ec027c.htm
+
+
+
+)
+<<SWSTrace>> (theParty:Party) (thePartyIdentification20:PartyIdentification20)
+../../../../webviewer/81.jpg
+../../../../looseends/ass457ec22b010a.htm
+
+
+
+(
+Party ( theParty )
+../../../../webviewer/82.jpg
+../../../../looseends/role457ec22b010b.htm
+
+
+
+PartyIdentification20 ( thePartyIdentification20 )
+../../../../webviewer/82.jpg
+../../../../looseends/role457ec22b010d.htm
+
+
+
+)
+<<IsDerivedFrom>> (thePartyIdentification8:PartyIdentification8) (thePartyIdentification20:PartyIdentification20)
+../../../../webviewer/81.jpg
+../../../../looseends/ass457eccdc0178.htm
+../../../../looseends/ass457eccdc0178.txt
+
+
+(
+PartyIdentification8 ( thePartyIdentification8 )
+../../../../webviewer/82.jpg
+../../../../looseends/role457eccdd00f7.htm
+
+
+
+PartyIdentification20 ( thePartyIdentification20 )
+../../../../webviewer/82.jpg
+../../../../looseends/role457eccdd0120.htm
+
+
+
+)
+Association (PostalAddress:PostalAddress4) (thePartyIdentification20:PartyIdentification20)
+../../../../webviewer/81.jpg
+../../../../looseends/ass457ec30703ab.htm
+../../../../looseends/ass457ec30703ab.txt
+
+
+(
+PostalAddress4 ( PostalAddress )
+../../../../webviewer/82.jpg
+../../../../looseends/role457ec30703ac.htm
+
+
+
+PartyIdentification20 ( thePartyIdentification20 )
+../../../../webviewer/82.jpg
+../../../../looseends/role457ec30703ae.htm
+
+
+
+)
+Association (Identification:Party5Choice) (thePartyIdentification20:PartyIdentification20)
+../../../../webviewer/81.jpg
+../../../../looseends/ass457ec30703c8.htm
+../../../../looseends/ass457ec30703c8.txt
+
+
+(
+Party5Choice ( Identification )
+../../../../webviewer/82.jpg
+../../../../looseends/role457ec30703c9.htm
+
+
+
+PartyIdentification20 ( thePartyIdentification20 )
+../../../../webviewer/82.jpg
+../../../../looseends/role457ec30703d3.htm
+
+
+
+)
+<<IsAnAlternativeFor>> (thePartyIdentificationAndAccount2:PartyIdentificationAndAccount2) (thePartyIdentification21:PartyIdentification21)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4500386c01a9.htm
+
+
+
+(
+PartyIdentificationAndAccount2 ( thePartyIdentificationAndAccount2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4500386c02f3.htm
+
+
+
+PartyIdentification21 ( thePartyIdentification21 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4500386d0060.htm
+
+
+
+)
+<<SWSTrace>> (theParty:Party) (thePartyIdentification21:PartyIdentification21)
+../../../../webviewer/81.jpg
+../../../../looseends/ass45003837008a.htm
+
+
+
+(
+Party ( theParty )
+../../../../webviewer/82.jpg
+../../../../looseends/role45003837009e.htm
+
+
+
+PartyIdentification21 ( thePartyIdentification21 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4500383700a8.htm
+
+
+
+)
+Association (ContactPerson:ContactIdentification2) (thePartyIdentification21:PartyIdentification21)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4500388c02d1.htm
+../../../../looseends/ass4500388c02d1.txt
+
+
+(
+ContactIdentification2 ( ContactPerson )
+../../../../webviewer/82.jpg
+../../../../looseends/role4500388d0020.htm
+
+
+
+PartyIdentification21 ( thePartyIdentification21 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4500388d0034.htm
+
+
+
+)
+<<SWSTrace>> (theParty:Party) (thePartyIdentificationAndAccount4:PartyIdentificationAndAccount4)
+../../../../webviewer/81.jpg
+../../../../looseends/ass44feddbc020f.htm
+
+
+
+(
+Party ( theParty )
+../../../../webviewer/82.jpg
+../../../../looseends/role44feddbc0210.htm
+
+
+
+PartyIdentificationAndAccount4 ( thePartyIdentificationAndAccount4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role44feddbc0212.htm
+
+
+
+)
+Association (ContactPerson:ContactIdentification2) (thePartyIdentificationAndAccount4:PartyIdentificationAndAccount4)
+../../../../webviewer/81.jpg
+../../../../looseends/ass450033ca0207.htm
+../../../../looseends/ass450033ca0207.txt
+
+
+(
+ContactIdentification2 ( ContactPerson )
+../../../../webviewer/82.jpg
+../../../../looseends/role450033cb0009.htm
+
+
+
+PartyIdentificationAndAccount4 ( thePartyIdentificationAndAccount4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role450033cb005a.htm
+
+
+
+)
+Association (SubAccountDetails:SubAccount1) (thePartyIdentificationAndAccount4:PartyIdentificationAndAccount4)
+../../../../webviewer/81.jpg
+../../../../looseends/ass44fede0303ca.htm
+
+
+
+(
+SubAccount1 ( SubAccountDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role44fede0402b3.htm
+
+
+
+PartyIdentificationAndAccount4 ( thePartyIdentificationAndAccount4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role44fede040318.htm
+
+
+
+)
+<<SWSTrace>> (theParty:Party) (thePartyIdentificationAndAccount5:PartyIdentificationAndAccount5)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4500377901e6.htm
+
+
+
+(
+Party ( theParty )
+../../../../webviewer/82.jpg
+../../../../looseends/role4500377901e7.htm
+
+
+
+PartyIdentificationAndAccount5 ( thePartyIdentificationAndAccount5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role45003779039e.htm
+
+
+
+)
+<<IsAnAlternativeFor>> (thePartyIdentificationAndAccount2:PartyIdentificationAndAccount2) (thePartyIdentificationAndAccount5:PartyIdentificationAndAccount5)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4500378b02c8.htm
+
+
+
+(
+PartyIdentificationAndAccount2 ( thePartyIdentificationAndAccount2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4500378b035e.htm
+
+
+
+PartyIdentificationAndAccount5 ( thePartyIdentificationAndAccount5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4500378c0111.htm
+
+
+
+)
+<<IsAnAlternativeFor>> (theNameAndAddress5:NameAndAddress5) (theNameAndAddress8:NameAndAddress8)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4600fd3d0119.htm
+
+
+
+(
+NameAndAddress5 ( theNameAndAddress5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4600fd3e00f2.htm
+
+
+
+NameAndAddress8 ( theNameAndAddress8 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4600fd3e0106.htm
+
+
+
+)
+<<SWSTrace>> (theParty:Party) (theNameAndAddress8:NameAndAddress8)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4600fcf00231.htm
+
+
+
+(
+Party ( theParty )
+../../../../webviewer/82.jpg
+../../../../looseends/role4600fcf00232.htm
+
+
+
+NameAndAddress8 ( theNameAndAddress8 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4600fcf00234.htm
+
+
+
+)
+Association (Address:PostalAddress1) (theNameAndAddress8:NameAndAddress8)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4600fcf0023c.htm
+
+
+
+(
+PostalAddress1 ( Address )
+../../../../webviewer/82.jpg
+../../../../looseends/role4600fcf0023d.htm
+
+
+
+NameAndAddress8 ( theNameAndAddress8 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4600fcf0023f.htm
+
+
+
+)
+<<SWSTrace>> (theParty:Party) (theTradePartyIdentification3:TradePartyIdentification3)
+../../../../webviewer/81.jpg
+../../../../looseends/ass460139af0210.htm
+
+
+
+(
+Party ( theParty )
+../../../../webviewer/82.jpg
+../../../../looseends/role460139af0211.htm
+
+
+
+TradePartyIdentification3 ( theTradePartyIdentification3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role460139af0213.htm
+
+
+
+)
+<<IsAnAlternativeFor>> (theTradePartyIdentification2:TradePartyIdentification2) (theTradePartyIdentification3:TradePartyIdentification3)
+../../../../webviewer/81.jpg
+../../../../looseends/ass46013b1b0336.htm
+
+
+
+(
+TradePartyIdentification2 ( theTradePartyIdentification2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role46013b1c01bb.htm
+
+
+
+TradePartyIdentification3 ( theTradePartyIdentification3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role46013b1c01c6.htm
+
+
+
+)
+Association (FundInformation:FundIdentification2) (theTradePartyIdentification3:TradePartyIdentification3)
+../../../../webviewer/81.jpg
+../../../../looseends/ass46026caf0086.htm
+../../../../looseends/ass46026caf0086.txt
+
+
+(
+FundIdentification2 ( FundInformation )
+../../../../webviewer/82.jpg
+../../../../looseends/role46026caf0087.htm
+
+
+
+TradePartyIdentification3 ( theTradePartyIdentification3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role46026caf0088.htm
+
+
+
+)
+Association (TradeParty:PartyIdentification8Choice) (theTradePartyIdentification3:TradePartyIdentification3)
+../../../../webviewer/81.jpg
+../../../../looseends/ass460139af0238.htm
+../../../../looseends/ass460139af0238.txt
+
+
+(
+PartyIdentification8Choice ( TradeParty )
+../../../../webviewer/82.jpg
+../../../../looseends/role460139af0239.htm
+
+
+
+TradePartyIdentification3 ( theTradePartyIdentification3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role460139af0242.htm
+
+
+
+)
+Association (SubmittingParty:PartyIdentification8Choice) (theTradePartyIdentification3:TradePartyIdentification3)
+../../../../webviewer/81.jpg
+../../../../looseends/ass460139af024c.htm
+../../../../looseends/ass460139af024c.txt
+
+
+(
+PartyIdentification8Choice ( SubmittingParty )
+../../../../webviewer/82.jpg
+../../../../looseends/role460139af024d.htm
+
+
+
+TradePartyIdentification3 ( theTradePartyIdentification3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role460139af024f.htm
+
+
+
+)
+<<SWSTrace>> (theParty:Party) (theTradePartyIdentification4:TradePartyIdentification4)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4600f2e10184.htm
+
+
+
+(
+Party ( theParty )
+../../../../webviewer/82.jpg
+../../../../looseends/role4600f2e10185.htm
+
+
+
+TradePartyIdentification4 ( theTradePartyIdentification4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4600f2e1018e.htm
+
+
+
+)
+<<IsAnAlternativeFor>> (theTradePartyIdentification2:TradePartyIdentification2) (theTradePartyIdentification4:TradePartyIdentification4)
+../../../../webviewer/81.jpg
+../../../../looseends/ass46013b18002f.htm
+
+
+
+(
+TradePartyIdentification2 ( theTradePartyIdentification2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role46013b18033c.htm
+
+
+
+TradePartyIdentification4 ( theTradePartyIdentification4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role46013b180346.htm
+
+
+
+)
+Association (FundInformation:FundIdentification2) (theTradePartyIdentification4:TradePartyIdentification4)
+../../../../webviewer/81.jpg
+../../../../looseends/ass46026ca603c2.htm
+../../../../looseends/ass46026ca603c2.txt
+
+
+(
+FundIdentification2 ( FundInformation )
+../../../../webviewer/82.jpg
+../../../../looseends/role46026ca603c3.htm
+
+
+
+TradePartyIdentification4 ( theTradePartyIdentification4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role46026ca603c4.htm
+
+
+
+)
+Association (TradeParty:PartyIdentification8Choice) (theTradePartyIdentification4:TradePartyIdentification4)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4601042601ec.htm
+../../../../looseends/ass4601042601ec.txt
+
+
+(
+PartyIdentification8Choice ( TradeParty )
+../../../../webviewer/82.jpg
+../../../../looseends/role46010427023d.htm
+
+
+
+TradePartyIdentification4 ( theTradePartyIdentification4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role46010427023f.htm
+
+
+
+)
+Association (SubmittingParty:PartyIdentification8Choice) (theTradePartyIdentification4:TradePartyIdentification4)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4601040302dc.htm
+../../../../looseends/ass4601040302dc.txt
+
+
+(
+PartyIdentification8Choice ( SubmittingParty )
+../../../../webviewer/82.jpg
+../../../../looseends/role460104040319.htm
+
+
+
+TradePartyIdentification4 ( theTradePartyIdentification4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role460104040323.htm
+
+
+
+)
+<<SWSTrace>> (theParty:Party) (thePartyIdentificationAndAccount6:PartyIdentificationAndAccount6)
+../../../../webviewer/81.jpg
+../../../../looseends/ass460e86a20379.htm
+
+
+
+(
+Party ( theParty )
+../../../../webviewer/82.jpg
+../../../../looseends/role460e86a30186.htm
+
+
+
+PartyIdentificationAndAccount6 ( thePartyIdentificationAndAccount6 )
+../../../../webviewer/82.jpg
+../../../../looseends/role460e86a301a4.htm
+
+
+
+)
+<<SWSTrace>> (theParty:Party) (thePartyIdentificationAndAccount7:PartyIdentificationAndAccount7)
+../../../../webviewer/81.jpg
+../../../../looseends/ass460e880a007e.htm
+
+
+
+(
+Party ( theParty )
+../../../../webviewer/82.jpg
+../../../../looseends/role460e880a0254.htm
+
+
+
+PartyIdentificationAndAccount7 ( thePartyIdentificationAndAccount7 )
+../../../../webviewer/82.jpg
+../../../../looseends/role460e880a027c.htm
+
+
+
+)
+<<SWSTrace>> (theParty:Party) (thePartyIdentification26:PartyIdentification26)
+../../../../webviewer/81.jpg
+../../../../looseends/ass45cb45b302ae.htm
+
+
+
+(
+Party ( theParty )
+../../../../webviewer/82.jpg
+../../../../looseends/role45cb45b40043.htm
+
+
+
+PartyIdentification26 ( thePartyIdentification26 )
+../../../../webviewer/82.jpg
+../../../../looseends/role45cb45b40061.htm
+
+
+
+)
+Association (thePartyIdentification26:PartyIdentification26) (TaxIdentification:TaxIdentification1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass460e851e02ef.htm
+../../../../looseends/ass460e851e02ef.txt
+
+
+(
+PartyIdentification26 ( thePartyIdentification26 )
+../../../../webviewer/82.jpg
+../../../../looseends/role460e851f03c3.htm
+
+
+
+TaxIdentification1 ( TaxIdentification )
+../../../../webviewer/82.jpg
+../../../../looseends/role460e851f03d7.htm
+
+
+
+)
+Association (PostalAddress:PostalAddress1) (thePartyIdentification26:PartyIdentification26)
+../../../../webviewer/81.jpg
+../../../../looseends/ass461cd840002c.htm
+
+
+
+(
+PostalAddress1 ( PostalAddress )
+../../../../webviewer/82.jpg
+../../../../looseends/role461cd840002d.htm
+
+
+
+PartyIdentification26 ( thePartyIdentification26 )
+../../../../webviewer/82.jpg
+../../../../looseends/role461cd840002e.htm
+
+
+
+)
+Association (thePartyIdentification26:PartyIdentification26) (ContactInformation:ContactIdentification1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass460e84d30323.htm
+../../../../looseends/ass460e84d30323.txt
+
+
+(
+PartyIdentification26 ( thePartyIdentification26 )
+../../../../webviewer/82.jpg
+../../../../looseends/role460e84d4027b.htm
+
+
+
+ContactIdentification1 ( ContactInformation )
+../../../../webviewer/82.jpg
+../../../../looseends/role460e84d40285.htm
+
+
+
+)
+Association (thePartyIdentification26:PartyIdentification26) (ProprietaryIdentification:GenericIdentification4)
+../../../../webviewer/81.jpg
+../../../../looseends/ass45cb3b250050.htm
+../../../../looseends/ass45cb3b250050.txt
+
+
+(
+PartyIdentification26 ( thePartyIdentification26 )
+../../../../webviewer/82.jpg
+../../../../looseends/role45cb3b2a0148.htm
+
+
+
+GenericIdentification4 ( ProprietaryIdentification )
+../../../../webviewer/82.jpg
+../../../../looseends/role45cb3b2a0152.htm
+
+
+
+)
+Association (thePartyIdentification24:PartyIdentification24) (TaxIdentification:TaxIdentification1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass460e858e0105.htm
+../../../../looseends/ass460e858e0105.txt
+
+
+(
+PartyIdentification24 ( thePartyIdentification24 )
+../../../../webviewer/82.jpg
+../../../../looseends/role460e858f0111.htm
+
+
+
+TaxIdentification1 ( TaxIdentification )
+../../../../webviewer/82.jpg
+../../../../looseends/role460e858f011b.htm
+
+
+
+)
+Association (thePartyIdentification24:PartyIdentification24) (PostalAddress:PostalAddress1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass460e85b00104.htm
+
+
+
+(
+PartyIdentification24 ( thePartyIdentification24 )
+../../../../webviewer/82.jpg
+../../../../looseends/role460e85b1019c.htm
+
+
+
+PostalAddress1 ( PostalAddress )
+../../../../webviewer/82.jpg
+../../../../looseends/role460e85b101a6.htm
+
+
+
+)
+<<SWSTrace>> (theParty:Party) (thePartyIdentification24:PartyIdentification24)
+../../../../webviewer/81.jpg
+../../../../looseends/ass45cb45fb015d.htm
+
+
+
+(
+Party ( theParty )
+../../../../webviewer/82.jpg
+../../../../looseends/role45cb45fb03a2.htm
+
+
+
+PartyIdentification24 ( thePartyIdentification24 )
+../../../../webviewer/82.jpg
+../../../../looseends/role45cb45fb03ca.htm
+
+
+
+)
+Association (ProprietaryIdentification:GenericIdentification4) (thePartyIdentification25:PartyIdentification25)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4652a68e02c9.htm
+../../../../looseends/ass4652a68e02c9.txt
+
+
+(
+GenericIdentification4 ( ProprietaryIdentification )
+../../../../webviewer/82.jpg
+../../../../looseends/role4652a68e02ca.htm
+
+
+
+PartyIdentification25 ( thePartyIdentification25 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4652a68e02cc.htm
+
+
+
+)
+<<SWSTrace>> (theParty:Party) (thePartyIdentification25:PartyIdentification25)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4652a68e02e9.htm
+
+
+
+(
+Party ( theParty )
+../../../../webviewer/82.jpg
+../../../../looseends/role4652a68e02ea.htm
+
+
+
+PartyIdentification25 ( thePartyIdentification25 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4652a68e02ec.htm
+
+
+
+)
+)

@@ -1,0 +1,1 @@
+Place where the securities are safe-kept, physically or notionally.  This place can be, for example, a local custodian, a Central Securities Depository or an International Central Securities Depository.

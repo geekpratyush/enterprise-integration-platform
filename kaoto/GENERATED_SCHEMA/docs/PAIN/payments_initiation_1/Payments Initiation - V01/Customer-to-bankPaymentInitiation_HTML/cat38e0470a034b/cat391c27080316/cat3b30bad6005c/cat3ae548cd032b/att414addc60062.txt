@@ -1,0 +1,1 @@
+Case Assignee is not allowed to investigate on this instruction (eg. Case Assignee is not the next party in the payment chain).

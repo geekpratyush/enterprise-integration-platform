@@ -1,0 +1,1 @@
+Value of the NAV before all corporate events of the valuation date, divided by the value of the NAV after the corporate event.

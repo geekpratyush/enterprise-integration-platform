@@ -1,0 +1,8 @@
+OrderDateTime: new.
+RequestedNAVCurrency: deleted.
+AdditionalCashIn: changed from mandatory to optional.
+ResultingCashOut: changed from mandatory to optional.
+RequestedSettlementCurrency: deleted.
+CancellationRight: type changed from CancellationRight1Code to CancellationRight1 (code alignment).
+FinancialInstrumentQuantity2Rule: deleted.
+ForeignExchangeDetails: new.

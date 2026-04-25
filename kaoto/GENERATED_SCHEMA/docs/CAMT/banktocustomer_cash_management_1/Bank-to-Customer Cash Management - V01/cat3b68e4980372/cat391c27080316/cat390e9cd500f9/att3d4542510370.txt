@@ -1,0 +1,1 @@
+Date on which the amount of money for the redemption is paid.

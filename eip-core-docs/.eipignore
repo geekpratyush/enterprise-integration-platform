@@ -1,0 +1,8 @@
+# Skip IBM MQ routes when testing locally without MQ
+*ibmmq*
+# Skip certs folder if present
+*ssl*
+# Skip specific Kafka routes
+kafka-test.yaml
+# Skip MongoDB beans/routes if no Docker/Local Mongo
+*mongo*

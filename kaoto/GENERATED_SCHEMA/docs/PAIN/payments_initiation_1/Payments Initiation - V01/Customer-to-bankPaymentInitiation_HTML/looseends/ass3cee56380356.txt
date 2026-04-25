@@ -1,0 +1,2 @@
+Broker that settles security transactions from another broker for a fee.
+

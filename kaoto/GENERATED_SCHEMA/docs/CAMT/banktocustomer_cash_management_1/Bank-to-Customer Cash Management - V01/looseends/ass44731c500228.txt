@@ -1,0 +1,1 @@
+Detailed information on the number of transactions for each identical individual transaction status.

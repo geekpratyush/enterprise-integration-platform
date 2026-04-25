@@ -1,0 +1,13 @@
+# routes.yaml (ssl-postgres)
+- from:
+    uri: "timer:postgres-check"
+    parameters:
+      period: 10000
+    steps:
+      - setBody:
+          constant: "INSERT INTO demo_audit (message) VALUES ('Audit Log from EIP over SSL');"
+      - to: "sql:classpath:dummy?dataSource=#dataSource"
+      - setBody:
+          constant: "SELECT * FROM demo_audit ORDER BY created_at DESC LIMIT 1;"
+      - to: "sql:classpath:dummy?dataSource=#dataSource"
+      - log: "POSTGRES_SSL_RESULT: ${body}"

@@ -1,0 +1,2 @@
+Choice of a payment instrument for the cash-in flow or cash-out flow.
+

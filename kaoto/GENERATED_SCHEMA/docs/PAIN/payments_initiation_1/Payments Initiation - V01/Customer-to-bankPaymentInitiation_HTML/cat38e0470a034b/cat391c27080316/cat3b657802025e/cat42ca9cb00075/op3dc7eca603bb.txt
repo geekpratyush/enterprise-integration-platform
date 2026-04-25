@@ -1,0 +1,2 @@
+If Quantity is present, LegSwapType must not be present.
+If LegSwapType is present, Quantity must not be present.

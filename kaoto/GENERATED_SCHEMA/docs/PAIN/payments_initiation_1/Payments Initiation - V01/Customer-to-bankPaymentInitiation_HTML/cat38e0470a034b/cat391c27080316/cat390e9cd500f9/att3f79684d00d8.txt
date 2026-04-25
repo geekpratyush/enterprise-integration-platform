@@ -1,0 +1,1 @@
+Type of business of the organisation, eg, pharmaceutical.

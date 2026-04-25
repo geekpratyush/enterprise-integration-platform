@@ -1,0 +1,1 @@
+Final status of a transaction when the associated transfer of cash has been successfully processed.

@@ -1,0 +1,1 @@
+Indicates the type of product that was transferred. PEP or ISA. 

@@ -1,0 +1,1368 @@
+<<MessageComponent>> SimpleIdentificationInformation
+../../../../webviewer/142.jpg
+class3dc01822039e.htm
+
+
+
+(
+Identification
+../../../../webviewer/31.jpg
+att3dc018580233.htm
+
+
+
+(
+)
+theIdentificationInformation ( IdentificationInformation )
+../../../../webviewer/82.jpg
+../../../../looseends/role3dc018730106.htm
+
+
+
+)
+<<MessageComponent>> GenericIdentification3
+../../../../webviewer/142.jpg
+class4051bdb40239.htm
+
+
+
+(
+Identification
+../../../../webviewer/30.jpg
+att4051bddc02eb.htm
+
+
+
+(
+)
+Issuer[0..1]
+../../../../webviewer/31.jpg
+att4051be010366.htm
+
+
+
+(
+)
+theNonFinancialInstitutionIdentification1 ( NonFinancialInstitutionIdentification1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4051be3e0115.htm
+
+
+
+theFinancialInstitutionIdentification1 ( FinancialInstitutionIdentification1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4051bf1500ec.htm
+
+
+
+theIdentificationInformation ( IdentificationInformation )
+../../../../webviewer/82.jpg
+../../../../looseends/role4061a269016c.htm
+
+
+
+theFinancialInstitutionIdentification2Choice ( FinancialInstitutionIdentification2Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role4051bffe00a1.htm
+
+
+
+theRestrictedIdentification1 ( RestrictedIdentification1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role45178cb60312.htm
+
+
+
+theOrganisationIdentification2 ( OrganisationIdentification2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4373510e0184.htm
+
+
+
+theFinancialInstitutionIdentification2 ( FinancialInstitutionIdentification2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4399623401bf.htm
+
+
+
+theFinancialInstitutionIdentification3 ( FinancialInstitutionIdentification3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role447706580333.htm
+
+
+
+theFinancialInstitutionIdentification5Choice ( FinancialInstitutionIdentification5Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role4468e498037e.htm
+
+
+
+)
+<<MessageComponent>> GenericIdentification4
+../../../../webviewer/142.jpg
+class405b1abc0331.htm
+
+
+
+(
+IdentificationType
+../../../../webviewer/33.jpg
+att405b1aed00d9.htm
+att405b1aed00d9.txt
+
+
+(
+)
+Identification
+../../../../webviewer/31.jpg
+att405b1b100274.htm
+
+
+
+(
+)
+thePartyIdentification26 ( PartyIdentification26 )
+../../../../webviewer/82.jpg
+../../../../looseends/role45cb3b2a0152.htm
+
+
+
+thePartyIdentification25 ( PartyIdentification25 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4652a68e02ca.htm
+
+
+
+theIdentificationInformation ( IdentificationInformation )
+../../../../webviewer/82.jpg
+../../../../looseends/role40640002019b.htm
+
+
+
+theRestrictedIdentification2 ( RestrictedIdentification2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role452272070082.htm
+
+
+
+thePersonIdentification2 ( PersonIdentification2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role405b1b28011a.htm
+
+
+
+thePersonIdentification3 ( PersonIdentification3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role437355540220.htm
+
+
+
+thePersonIdentification5 ( PersonIdentification5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4509246401e0.htm
+
+
+
+theFinancialInstitutionIdentification6 ( FinancialInstitutionIdentification6 )
+../../../../webviewer/82.jpg
+../../../../looseends/role460d285600bb.htm
+
+
+
+theProductIdentifier1Choice ( ProductIdentifier1Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role417cc13d02f6.htm
+
+
+
+theProductCharacteristics1Choice ( ProductCharacteristics1Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role417cc4310190.htm
+
+
+
+theProductCategory1Choice ( ProductCategory1Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role417cc572004d.htm
+
+
+
+theProductIdentifier2Choice ( ProductIdentifier2Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role4476c0e103a7.htm
+
+
+
+)
+<<MessageComponent>> GenericIdentification9
+../../../../webviewer/142.jpg
+class427f5d080324.htm
+class427f5d080324.txt
+
+
+(
+Identification
+../../../../webviewer/31.jpg
+att427f5d080338.htm
+
+
+
+(
+)
+IdentificationType
+../../../../webviewer/31.jpg
+att427f5d080356.htm
+att427f5d080356.txt
+
+
+(
+)
+ExtendedIdentificationType
+../../../../webviewer/31.jpg
+att427f607a03cc.htm
+att427f607a03cc.txt
+
+
+(
+)
+Issuer[0..1]
+../../../../webviewer/31.jpg
+att427f5d080374.htm
+
+
+
+(
+)
+IssueDate[0..1]
+../../../../webviewer/31.jpg
+att429d80ac01c8.htm
+att429d80ac01c8.txt
+
+
+(
+)
+ExpiryDate[0..1]
+../../../../webviewer/31.jpg
+att429d80ac02ea.htm
+att429d80ac02ea.txt
+
+
+(
+)
+theIdentificationInformation ( IdentificationInformation )
+../../../../webviewer/82.jpg
+../../../../looseends/role427f5d0803a9.htm
+
+
+
+theIndividualPerson5 ( IndividualPerson5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role427f5d8f03b4.htm
+
+
+
+theIndividualPerson10 ( IndividualPerson10 )
+../../../../webviewer/82.jpg
+../../../../looseends/role44eef42a034f.htm
+
+
+
+theModificationScope2 ( ModificationScope2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role429ad5880040.htm
+
+
+
+<<XOR>> IdentificationTypeOrExtendedIdentificationTypeRule
+../../../../webviewer/34.jpg
+op427f61320345.htm
+op427f61320345.txt
+
+
+(
+)
+)
+<<MessageComponent>> GenericIdentification10
+../../../../webviewer/142.jpg
+class4282198902e1.htm
+class4282198902e1.txt
+
+
+(
+Identification
+../../../../webviewer/31.jpg
+att4282198a004e.htm
+
+
+
+(
+)
+IdentificationType
+../../../../webviewer/31.jpg
+att4282198a006c.htm
+att4282198a006c.txt
+
+
+(
+)
+ExtendedIdentificationType
+../../../../webviewer/31.jpg
+att4282198a009e.htm
+att4282198a009e.txt
+
+
+(
+)
+theIdentificationInformation ( IdentificationInformation )
+../../../../webviewer/82.jpg
+../../../../looseends/role4282198a01a2.htm
+
+
+
+theIndividualPersonIdentificationChoice ( IndividualPersonIdentificationChoice )
+../../../../webviewer/82.jpg
+../../../../looseends/role42e0f0b30074.htm
+
+
+
+<<XOR>> IdentificationTypeOrExtendedIdentificationTypeRule
+../../../../webviewer/34.jpg
+op4282198a0210.htm
+op4282198a0210.txt
+
+
+(
+)
+)
+<<MessageComponent>> AccountIssuerIdentification
+../../../../webviewer/142.jpg
+class3e4918d90092.htm
+class3e4918d90092.txt
+
+
+(
+Issuer
+../../../../webviewer/31.jpg
+att3e4918ec011c.htm
+
+
+
+(
+)
+Identification
+../../../../webviewer/31.jpg
+att3e4918ec0180.htm
+
+
+
+(
+)
+SubIdentification[0..1]
+../../../../webviewer/31.jpg
+att3e4918ec01a8.htm
+att3e4918ec01a8.txt
+
+
+(
+)
+theIdentificationInformation ( IdentificationInformation )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e927e090048.htm
+
+
+
+)
+<<MessageComponent>> InvestorSchemeIdentification
+../../../../webviewer/142.jpg
+class3d872c350173.htm
+class3d872c350173.txt
+
+
+(
+Identification
+../../../../webviewer/31.jpg
+att3d87315b0073.htm
+
+
+
+(
+)
+InvestorScheme
+../../../../webviewer/31.jpg
+att3e4917fd0118.htm
+
+
+
+(
+)
+theIdentificationInformation ( IdentificationInformation )
+../../../../webviewer/82.jpg
+../../../../looseends/role3ee5e86302a9.htm
+
+
+
+)
+<<MessageComponent>> MarketParticipantCodeAndIdentification
+../../../../webviewer/142.jpg
+class3d87363f0363.htm
+class3d87363f0363.txt
+
+
+(
+Identification
+../../../../webviewer/31.jpg
+att3d873658028c.htm
+
+
+
+(
+)
+SubIdentification[0..1]
+../../../../webviewer/31.jpg
+att3d87365802aa.htm
+
+
+
+(
+)
+MarketParticipant
+../../../../webviewer/31.jpg
+att3d87365802e6.htm
+att3d87365802e6.txt
+
+
+(
+)
+theIdentificationInformation ( IdentificationInformation )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e846db60384.htm
+
+
+
+)
+<<MessageComponent>> PartyIssuerIdentification
+../../../../webviewer/142.jpg
+class3d8978400127.htm
+class3d8978400127.txt
+
+
+(
+Issuer
+../../../../webviewer/31.jpg
+att3d8978550163.htm
+
+
+
+(
+)
+Scheme[0..1]
+../../../../webviewer/31.jpg
+att3d89785501be.htm
+att3d89785501be.txt
+
+
+(
+)
+Identification
+../../../../webviewer/31.jpg
+att3d89785500d7.htm
+att3d89785500d7.txt
+
+
+(
+)
+SubIdentification[0..1]
+../../../../webviewer/31.jpg
+att3d8978550109.htm
+att3d8978550109.txt
+
+
+(
+)
+theIdentificationInformation ( IdentificationInformation )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e9137d5034a.htm
+
+
+
+<<Textual>> NewYorkClearingHouseIssuerCodeRule
+../../../../webviewer/36.jpg
+op3e490ebf00ee.htm
+op3e490ebf00ee.txt
+
+
+(
+)
+<<Textual>> DepositoryTrustCompanyIssuerCodeRule
+../../../../webviewer/36.jpg
+op3e490edc0349.htm
+op3e490edc0349.txt
+
+
+(
+)
+)
+<<MessageComponent>> GenericIdentification2
+../../../../webviewer/142.jpg
+class3fcc672500e9.htm
+
+
+
+(
+SchemeName
+../../../../webviewer/31.jpg
+att3fcc672500ea.htm
+
+
+
+(
+)
+Issuer[0..1]
+../../../../webviewer/31.jpg
+att3fcc672500eb.htm
+
+
+
+(
+)
+theIdentificationInformation ( IdentificationInformation )
+../../../../webviewer/82.jpg
+../../../../looseends/role3fcc675d003d.htm
+
+
+
+)
+<<MessageComponent>> GenericIdentification5
+../../../../webviewer/142.jpg
+class40a256d60221.htm
+class40a256d60221.txt
+
+
+(
+Issuer
+../../../../webviewer/31.jpg
+att40a256ea0158.htm
+
+
+
+(
+)
+Information
+../../../../webviewer/31.jpg
+att40a256ea0022.htm
+att40a256ea0022.txt
+
+
+(
+)
+Narrative [0..1]
+../../../../webviewer/33.jpg
+att40a256ea01c6.htm
+att40a256ea01c6.txt
+
+
+(
+)
+theIdentificationInformation ( IdentificationInformation )
+../../../../webviewer/82.jpg
+../../../../looseends/role40a469390239.htm
+
+
+
+)
+<<MessageComponent>> GenericIdentification6
+../../../../webviewer/142.jpg
+class40a473c8000f.htm
+class40a473c8000f.txt
+
+
+(
+Issuer
+../../../../webviewer/31.jpg
+att40a4be7c00ef.htm
+
+
+
+(
+)
+Information
+../../../../webviewer/31.jpg
+att40a4741001c1.htm
+att40a4741001c1.txt
+
+
+(
+)
+Balance
+../../../../webviewer/31.jpg
+att40a4be8701dc.htm
+att40a4be8701dc.txt
+
+
+(
+)
+theIdentificationInformation ( IdentificationInformation )
+../../../../webviewer/82.jpg
+../../../../looseends/role40adf427029c.htm
+
+
+
+)
+<<MessageComponent>> GenericIdentification7
+../../../../webviewer/142.jpg
+class40a4d5d000f4.htm
+class40a4d5d000f4.txt
+
+
+(
+Issuer
+../../../../webviewer/31.jpg
+att40a4d5ed01de.htm
+
+
+
+(
+)
+Information
+../../../../webviewer/31.jpg
+att40a4d5ed01a2.htm
+att40a4d5ed01a2.txt
+
+
+(
+)
+theIdentificationInformation ( IdentificationInformation )
+../../../../webviewer/82.jpg
+../../../../looseends/role40adf42a00a2.htm
+
+
+
+)
+<<MessageComponent>> GenericIdentification8
+../../../../webviewer/142.jpg
+class420c782b010b.htm
+
+
+
+(
+Identification
+../../../../webviewer/31.jpg
+att420c7855004d.htm
+
+
+
+(
+)
+IdentificationType
+../../../../webviewer/33.jpg
+att420c78550025.htm
+att420c78550025.txt
+
+
+(
+)
+Issuer [0..1]
+../../../../webviewer/31.jpg
+att4210d8a50311.htm
+
+
+
+(
+)
+theIdentificationInformation ( IdentificationInformation )
+../../../../webviewer/82.jpg
+../../../../looseends/role420c80da017f.htm
+
+
+
+theGenericIdentification11 ( GenericIdentification11 )
+../../../../webviewer/82.jpg
+../../../../looseends/role458a67420068.htm
+
+
+
+theIndividualPerson2 ( IndividualPerson2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role420c82cf0235.htm
+
+
+
+)
+<<MessageComponent>> SimpleIdentificationInformation2
+../../../../webviewer/142.jpg
+class44687dac015d.htm
+class44687dac015d.txt
+
+
+(
+Identification
+../../../../webviewer/31.jpg
+att44687dac01c1.htm
+
+
+
+(
+)
+theIdentificationInformation ( IdentificationInformation )
+../../../../webviewer/82.jpg
+../../../../looseends/role44687dad017c.htm
+
+
+
+)
+<<MessageComponent>> RestrictedIdentification1
+../../../../webviewer/142.jpg
+class4510faca0067.htm
+
+
+
+(
+Identification
+../../../../webviewer/30.jpg
+att4510faca007b.htm
+
+
+
+(
+)
+theIdentificationInformation ( IdentificationInformation )
+../../../../webviewer/82.jpg
+../../../../looseends/role4510faca00af.htm
+
+
+
+theGenericIdentification3 ( GenericIdentification3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role45178cb60330.htm
+
+
+
+theFinancialInstitutionIdentification5 ( FinancialInstitutionIdentification5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4510fa4b0354.htm
+
+
+
+)
+<<MessageComponent>> RestrictedIdentification2
+../../../../webviewer/142.jpg
+class452271c3010f.htm
+
+
+
+(
+IdentificationType
+../../../../webviewer/33.jpg
+att452271c3011a.htm
+att452271c3011a.txt
+
+
+(
+)
+Identification
+../../../../webviewer/31.jpg
+att452271c3012d.htm
+
+
+
+(
+)
+theIdentificationInformation ( IdentificationInformation )
+../../../../webviewer/82.jpg
+../../../../looseends/role452271c3014e.htm
+
+
+
+theGenericIdentification4 ( GenericIdentification4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4522720700a0.htm
+
+
+
+thePersonIdentification4 ( PersonIdentification4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role45101440031c.htm
+
+
+
+)
+<<MessageComponent>> GenericIdentification11
+../../../../webviewer/142.jpg
+class458a61a3023b.htm
+
+
+
+(
+Identification
+../../../../webviewer/31.jpg
+att458a61a30245.htm
+
+
+
+(
+)
+IdentificationType
+../../../../webviewer/31.jpg
+att458a61a3024f.htm
+att458a61a3024f.txt
+
+
+(
+)
+ExtendedIdentificationType
+../../../../webviewer/31.jpg
+att458a6328020c.htm
+
+
+
+(
+)
+Issuer [0..1]
+../../../../webviewer/31.jpg
+att458a61a30259.htm
+
+
+
+(
+)
+theIdentificationInformation ( IdentificationInformation )
+../../../../webviewer/82.jpg
+../../../../looseends/role458a61ee03b6.htm
+
+
+
+theGenericIdentification8 ( GenericIdentification8 )
+../../../../webviewer/82.jpg
+../../../../looseends/role458a67420086.htm
+
+
+
+theIndividualPerson9 ( IndividualPerson9 )
+../../../../webviewer/82.jpg
+../../../../looseends/role44e9b6ea0025.htm
+
+
+
+theIndividualPerson12 ( IndividualPerson12 )
+../../../../webviewer/82.jpg
+../../../../looseends/role458a66e10217.htm
+
+
+
+<<XOR>> IdentificationTypeOrExtendedIdentificationTypeRule
+../../../../webviewer/34.jpg
+op458a63aa0265.htm
+op458a63aa0265.txt
+
+
+(
+)
+)
+Associations
+../../../../webviewer/assoccat.gif
+
+
+
+
+(
+<<SWSTrace>> (theIdentificationInformation:IdentificationInformation) (theSimpleIdentificationInformation:SimpleIdentificationInformation)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3dc0187201d7.htm
+
+
+
+(
+IdentificationInformation ( theIdentificationInformation )
+../../../../webviewer/82.jpg
+../../../../looseends/role3dc0187300e8.htm
+
+
+
+SimpleIdentificationInformation ( theSimpleIdentificationInformation )
+../../../../webviewer/82.jpg
+../../../../looseends/role3dc018730106.htm
+
+
+
+)
+<<SWSTrace>> (theIdentificationInformation:IdentificationInformation) (theGenericIdentification1:GenericIdentification1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3e0c18900290.htm
+
+
+
+(
+IdentificationInformation ( theIdentificationInformation )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e0c18910138.htm
+
+
+
+GenericIdentification1 ( theGenericIdentification1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e0c18910148.htm
+
+
+
+)
+<<SWSTrace>> (theIdentificationInformation:IdentificationInformation) (theGenericIdentification2:GenericIdentification2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3fcc675c0156.htm
+
+
+
+(
+IdentificationInformation ( theIdentificationInformation )
+../../../../webviewer/82.jpg
+../../../../looseends/role3fcc675d002d.htm
+
+
+
+GenericIdentification2 ( theGenericIdentification2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3fcc675d003d.htm
+
+
+
+)
+<<SWSTrace>> (theIdentificationInformation:IdentificationInformation) (theGenericIdentification4:GenericIdentification4)
+../../../../webviewer/81.jpg
+../../../../looseends/ass40640001028a.htm
+
+
+
+(
+IdentificationInformation ( theIdentificationInformation )
+../../../../webviewer/82.jpg
+../../../../looseends/role40640002017d.htm
+
+
+
+GenericIdentification4 ( theGenericIdentification4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role40640002019b.htm
+
+
+
+)
+Association (ProprietaryIdentification:GenericIdentification3) (theNonFinancialInstitutionIdentification1:NonFinancialInstitutionIdentification1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4051be3d0038.htm
+../../../../looseends/ass4051be3d0038.txt
+
+
+(
+GenericIdentification3 ( ProprietaryIdentification )
+../../../../webviewer/82.jpg
+../../../../looseends/role4051be3e0115.htm
+
+
+
+NonFinancialInstitutionIdentification1 ( theNonFinancialInstitutionIdentification1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4051be3e0147.htm
+
+
+
+)
+Association (ProprietaryIdentification:GenericIdentification3) (theFinancialInstitutionIdentification1:FinancialInstitutionIdentification1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4051bf0b01d8.htm
+
+
+
+(
+GenericIdentification3 ( ProprietaryIdentification )
+../../../../webviewer/82.jpg
+../../../../looseends/role4051bf1500ec.htm
+
+
+
+FinancialInstitutionIdentification1 ( theFinancialInstitutionIdentification1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4051bf150129.htm
+
+
+
+)
+<<SWSTrace>> (theIdentificationInformation:IdentificationInformation) (theGenericIdentification3:GenericIdentification3)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4061a2680175.htm
+
+
+
+(
+IdentificationInformation ( theIdentificationInformation )
+../../../../webviewer/82.jpg
+../../../../looseends/role4061a2690130.htm
+
+
+
+GenericIdentification3 ( theGenericIdentification3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4061a269016c.htm
+
+
+
+)
+Association (ProprietaryIdentification:GenericIdentification3) (theFinancialInstitutionIdentification2Choice:FinancialInstitutionIdentification2Choice)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4051bffc0329.htm
+
+
+
+(
+GenericIdentification3 ( ProprietaryIdentification )
+../../../../webviewer/82.jpg
+../../../../looseends/role4051bffe00a1.htm
+
+
+
+FinancialInstitutionIdentification2Choice ( theFinancialInstitutionIdentification2Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role4051bffe00bf.htm
+
+
+
+)
+<<SWSTrace>> (theIdentificationInformation:IdentificationInformation) (theGenericIdentification6:GenericIdentification6)
+../../../../webviewer/81.jpg
+../../../../looseends/ass40adf42700b1.htm
+
+
+
+(
+IdentificationInformation ( theIdentificationInformation )
+../../../../webviewer/82.jpg
+../../../../looseends/role40adf427026a.htm
+
+
+
+GenericIdentification6 ( theGenericIdentification6 )
+../../../../webviewer/82.jpg
+../../../../looseends/role40adf427029c.htm
+
+
+
+)
+<<SWSTrace>> (theIdentificationInformation:IdentificationInformation) (theGenericIdentification5:GenericIdentification5)
+../../../../webviewer/81.jpg
+../../../../looseends/ass40a4693803aa.htm
+
+
+
+(
+IdentificationInformation ( theIdentificationInformation )
+../../../../webviewer/82.jpg
+../../../../looseends/role40a46939021b.htm
+
+
+
+GenericIdentification5 ( theGenericIdentification5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role40a469390239.htm
+
+
+
+)
+<<SWSTrace>> (theIdentificationInformation:IdentificationInformation) (theGenericIdentification7:GenericIdentification7)
+../../../../webviewer/81.jpg
+../../../../looseends/ass40adf42902c7.htm
+
+
+
+(
+IdentificationInformation ( theIdentificationInformation )
+../../../../webviewer/82.jpg
+../../../../looseends/role40adf42a0070.htm
+
+
+
+GenericIdentification7 ( theGenericIdentification7 )
+../../../../webviewer/82.jpg
+../../../../looseends/role40adf42a00a2.htm
+
+
+
+)
+<<SWSTrace>> (theIdentificationInformation:IdentificationInformation) (theGenericIdentification8:GenericIdentification8)
+../../../../webviewer/81.jpg
+../../../../looseends/ass420c80d90188.htm
+
+
+
+(
+IdentificationInformation ( theIdentificationInformation )
+../../../../webviewer/82.jpg
+../../../../looseends/role420c80da00c1.htm
+
+
+
+GenericIdentification8 ( theGenericIdentification8 )
+../../../../webviewer/82.jpg
+../../../../looseends/role420c80da017f.htm
+
+
+
+)
+<<SWSTrace>> (theIdentificationInformation:IdentificationInformation) (theGenericIdentification9:GenericIdentification9)
+../../../../webviewer/81.jpg
+../../../../looseends/ass427f5d0803a6.htm
+
+
+
+(
+IdentificationInformation ( theIdentificationInformation )
+../../../../webviewer/82.jpg
+../../../../looseends/role427f5d0803a7.htm
+
+
+
+GenericIdentification9 ( theGenericIdentification9 )
+../../../../webviewer/82.jpg
+../../../../looseends/role427f5d0803a9.htm
+
+
+
+)
+<<SWSTrace>> (theIdentificationInformation:IdentificationInformation) (theGenericIdentification10:GenericIdentification10)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4282198a0120.htm
+
+
+
+(
+IdentificationInformation ( theIdentificationInformation )
+../../../../webviewer/82.jpg
+../../../../looseends/role4282198a015c.htm
+
+
+
+GenericIdentification10 ( theGenericIdentification10 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4282198a01a2.htm
+
+
+
+)
+<<SWSTrace>> (theIdentificationInformation:IdentificationInformation) (theAccountIssuerIdentification:AccountIssuerIdentification)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3e927e08023b.htm
+
+
+
+(
+IdentificationInformation ( theIdentificationInformation )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e927e090034.htm
+
+
+
+AccountIssuerIdentification ( theAccountIssuerIdentification )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e927e090048.htm
+
+
+
+)
+<<SWSTrace>> (theIdentificationInformation:IdentificationInformation) (theInvestorSchemeIdentification:InvestorSchemeIdentification)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3ee5e8630168.htm
+
+
+
+(
+IdentificationInformation ( theIdentificationInformation )
+../../../../webviewer/82.jpg
+../../../../looseends/role3ee5e8630295.htm
+
+
+
+InvestorSchemeIdentification ( theInvestorSchemeIdentification )
+../../../../webviewer/82.jpg
+../../../../looseends/role3ee5e86302a9.htm
+
+
+
+)
+<<SWSTrace>> (theIdentificationInformation:IdentificationInformation) (theMarketParticipantCodeAndIdentification:MarketParticipantCodeAndIdentification)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3e846db601d5.htm
+
+
+
+(
+IdentificationInformation ( theIdentificationInformation )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e846db60347.htm
+
+
+
+MarketParticipantCodeAndIdentification ( theMarketParticipantCodeAndIdentification )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e846db60384.htm
+
+
+
+)
+<<SWSTrace>> (theIdentificationInformation:IdentificationInformation) (thePartyIssuerIdentification:PartyIssuerIdentification)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3e9137d500dd.htm
+
+
+
+(
+IdentificationInformation ( theIdentificationInformation )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e9137d50304.htm
+
+
+
+PartyIssuerIdentification ( thePartyIssuerIdentification )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e9137d5034a.htm
+
+
+
+)
+<<SWSTrace>> (theIdentificationInformation:IdentificationInformation) (theSimpleIdentificationInformation2:SimpleIdentificationInformation2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass44687dad008c.htm
+
+
+
+(
+IdentificationInformation ( theIdentificationInformation )
+../../../../webviewer/82.jpg
+../../../../looseends/role44687dad00a0.htm
+
+
+
+SimpleIdentificationInformation2 ( theSimpleIdentificationInformation2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role44687dad017c.htm
+
+
+
+)
+<<SWSTrace>> (theIdentificationInformation:IdentificationInformation) (theRestrictedIdentification1:RestrictedIdentification1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4510faca00a3.htm
+
+
+
+(
+IdentificationInformation ( theIdentificationInformation )
+../../../../webviewer/82.jpg
+../../../../looseends/role4510faca00ad.htm
+
+
+
+RestrictedIdentification1 ( theRestrictedIdentification1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4510faca00af.htm
+
+
+
+)
+<<IsDerivedFrom>> (theGenericIdentification3:GenericIdentification3) (theRestrictedIdentification1:RestrictedIdentification1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass45178cb50162.htm
+../../../../looseends/ass45178cb50162.txt
+
+
+(
+GenericIdentification3 ( theGenericIdentification3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role45178cb60312.htm
+
+
+
+RestrictedIdentification1 ( theRestrictedIdentification1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role45178cb60330.htm
+
+
+
+)
+<<SWSTrace>> (theIdentificationInformation:IdentificationInformation) (theRestrictedIdentification2:RestrictedIdentification2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass452271c3014b.htm
+
+
+
+(
+IdentificationInformation ( theIdentificationInformation )
+../../../../webviewer/82.jpg
+../../../../looseends/role452271c3014c.htm
+
+
+
+RestrictedIdentification2 ( theRestrictedIdentification2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role452271c3014e.htm
+
+
+
+)
+<<IsDerivedFrom>> (theGenericIdentification4:GenericIdentification4) (theRestrictedIdentification2:RestrictedIdentification2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass452272050364.htm
+../../../../looseends/ass452272050364.txt
+
+
+(
+GenericIdentification4 ( theGenericIdentification4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role452272070082.htm
+
+
+
+RestrictedIdentification2 ( theRestrictedIdentification2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4522720700a0.htm
+
+
+
+)
+<<SWSTrace>> (theIdentificationInformation:IdentificationInformation) (theGenericIdentification11:GenericIdentification11)
+../../../../webviewer/81.jpg
+../../../../looseends/ass458a61ee01b7.htm
+
+
+
+(
+IdentificationInformation ( theIdentificationInformation )
+../../../../webviewer/82.jpg
+../../../../looseends/role458a61ee038e.htm
+
+
+
+GenericIdentification11 ( theGenericIdentification11 )
+../../../../webviewer/82.jpg
+../../../../looseends/role458a61ee03b6.htm
+
+
+
+)
+<<IsAnAlternativeFor>> (theGenericIdentification8:GenericIdentification8) (theGenericIdentification11:GenericIdentification11)
+../../../../webviewer/81.jpg
+../../../../looseends/ass458a67410323.htm
+
+
+
+(
+GenericIdentification8 ( theGenericIdentification8 )
+../../../../webviewer/82.jpg
+../../../../looseends/role458a67420068.htm
+
+
+
+GenericIdentification11 ( theGenericIdentification11 )
+../../../../webviewer/82.jpg
+../../../../looseends/role458a67420086.htm
+
+
+
+)
+)

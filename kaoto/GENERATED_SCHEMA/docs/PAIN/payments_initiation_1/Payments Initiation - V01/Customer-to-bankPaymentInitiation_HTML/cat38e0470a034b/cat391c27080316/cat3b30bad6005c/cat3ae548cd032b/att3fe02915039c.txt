@@ -1,0 +1,2 @@
+Payment instrument is a debit card. (The payment originated using a debit card scheme.)
+

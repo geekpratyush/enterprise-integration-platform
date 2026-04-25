@@ -1,0 +1,5 @@
+The initiating party has reconciled the external and internal information feeds and has detected (manually or automatically) discrepancies in between the various sources.
+These discrepancies will result in either an investigation (e.g. in a case of a mismatch such as a small difference in amounts) or a claim (e.g. where the item reported is unknown to the initiating party or when an expected entry is not reported, or when there are drastic differences as regards to the reconciliation criteria). Claims can also be lodged when the initiating party disagrees with an information provided by an external source. 
+
+Once the claim has been settled, or reconciliation forced manually after investigation is closed, the process ends. 
+

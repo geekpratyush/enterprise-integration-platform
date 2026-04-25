@@ -1,0 +1,1 @@
+Balance representing the projected total amount of all payment obligations to the participant (bank), based on their role as main paying agent.

@@ -1,0 +1,4 @@
+If SettlementMethod is equal to COVE then:
+- SettlementAccount is not allowed;
+- Reimbursement agent(s) must be present;
+- ClearingSystem is not allowed.

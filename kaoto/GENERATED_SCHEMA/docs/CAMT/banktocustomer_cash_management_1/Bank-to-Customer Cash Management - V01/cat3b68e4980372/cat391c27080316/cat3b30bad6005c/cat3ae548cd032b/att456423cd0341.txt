@@ -1,0 +1,1 @@
+Accumulation right reference information not the same as instructed.

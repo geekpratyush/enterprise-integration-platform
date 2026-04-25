@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BizMsgEnv xmlns="urn:iso:std:iso:20022:tech:xsd:head.001.001.02">
+   <AppHdr>
+      <Fr>
+         <FIId>
+            <FinInstnId>
+               <BICFI>BANKBEBBAXXX</BICFI>
+            </FinInstnId>
+         </FIId>
+      </Fr>
+      <To>
+         <FIId>
+            <FinInstnId>
+               <BICFI>BANKDEFFXXXX</BICFI>
+            </FinInstnId>
+         </FIId>
+      </To>
+      <BizMsgIdr>STP2024PROD01</BizMsgIdr>
+      <MsgDefIdr>pacs.008.001.13</MsgDefIdr>
+   </AppHdr>
+   <Document xmlns="urn:iso:std:iso:20022:tech:xsd:pacs.008.001.13">
+      <FIToFICstmrCdtTrf>
+         <GrpHdr>
+            <MsgId>STP2024PROD01</MsgId>
+            <CreDtTm>2026-04-18T23:09:26Z</CreDtTm>
+            <NbOfTxs>1</NbOfTxs>
+            <SttlmInf>
+               <SttlmMtd>INDA</SttlmMtd>
+            </SttlmInf>
+         </GrpHdr>
+         <CdtTrfTxInf>
+            <PmtId>
+               <InstrId>STP2024PROD01</InstrId>
+               <EndToEndId>NOTPROVIDED</EndToEndId>
+               <UETR>e1b75fc0-cd47-493c-9977-d64843f9a727</UETR>
+            </PmtId>
+            <IntrBkSttlmAmt Ccy="EUR">5500.25</IntrBkSttlmAmt>
+            <Dbtr>
+               <Nm>BICOBEBBXXX</Nm>
+               <PstlAdr/>
+            </Dbtr>
+            <Cdtr>
+               <Nm>MARIA ROSSI</Nm>
+               <PstlAdr>
+                  <AdrLine>VIA ROMA 10</AdrLine>
+                  <AdrLine>MILAN</AdrLine>
+                  <AdrLine>IT</AdrLine>
+               </PstlAdr>
+            </Cdtr>
+         </CdtTrfTxInf>
+      </FIToFICstmrCdtTrf>
+   </Document>
+</BizMsgEnv>

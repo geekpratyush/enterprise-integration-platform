@@ -1,0 +1,1 @@
+Specifies the type of account to which an account opening request is related, eg, a new account.

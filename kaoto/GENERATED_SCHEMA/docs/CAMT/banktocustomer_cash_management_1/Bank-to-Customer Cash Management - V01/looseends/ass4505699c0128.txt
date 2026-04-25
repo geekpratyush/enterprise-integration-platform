@@ -1,0 +1,1 @@
+Detailed information about the investment fund associated to the account.

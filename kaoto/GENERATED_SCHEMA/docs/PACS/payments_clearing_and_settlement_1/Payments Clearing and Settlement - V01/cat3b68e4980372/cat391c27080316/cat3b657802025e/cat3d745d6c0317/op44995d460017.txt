@@ -1,0 +1,1 @@
+If CreditTransferTransactionInformation/ChequeInstruction/DeliveryMethod is present and if CreditTransferTransactionInformation/ChequeInstruction/DeliveryMethod/Code is CRDB or MLDB or PUDB or RGDB, then CreditTransferTransactionInformation/ChequeInstruction/DeliverTo may only be present if different than Debtor.

@@ -1,0 +1,1 @@
+Negotiation details associated with an indication of interest.

@@ -1,0 +1,2 @@
+If PostalAddress is present then Identification is not allowed.
+If Identification is present then PostalAddress is not allowed.

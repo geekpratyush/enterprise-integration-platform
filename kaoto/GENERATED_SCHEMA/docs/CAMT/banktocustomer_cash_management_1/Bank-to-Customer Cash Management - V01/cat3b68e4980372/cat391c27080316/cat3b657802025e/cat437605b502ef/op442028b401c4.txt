@@ -1,0 +1,1 @@
+Either RecordDate or SecuritiesRegistrationDate may be present but not both.

@@ -1,0 +1,2 @@
+If RegisteredAddressIndicator is "true" or "1" (Yes), then NameAndAddress is not allowed.
+If RegisteredAddressIndicator is "false" or "0" (No), then NameAndAddress must be present.

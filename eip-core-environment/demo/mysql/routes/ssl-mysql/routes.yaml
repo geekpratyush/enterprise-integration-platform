@@ -1,0 +1,13 @@
+# routes.yaml (ssl-mysql)
+- from:
+    uri: "timer:mysql-check"
+    parameters:
+      period: 10000
+    steps:
+      - setBody:
+          constant: "INSERT INTO demo_audit (message) VALUES ('Audit Log from EIP over MySQL SSL');"
+      - to: "sql:classpath:dummy?dataSource=#dataSource"
+      - setBody:
+          constant: "SELECT * FROM demo_audit ORDER BY created_at DESC LIMIT 1;"
+      - to: "sql:classpath:dummy?dataSource=#dataSource"
+      - log: "MYSQL_SSL_RESULT: ${body}"

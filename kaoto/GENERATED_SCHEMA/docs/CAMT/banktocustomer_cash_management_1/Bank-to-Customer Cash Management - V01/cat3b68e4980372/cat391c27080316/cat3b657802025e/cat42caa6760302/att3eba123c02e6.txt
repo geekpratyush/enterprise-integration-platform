@@ -1,0 +1,1 @@
+Identifies a bid made by a client, to which the list is associated.

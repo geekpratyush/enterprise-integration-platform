@@ -1,0 +1,1 @@
+Reference currency of the global request.

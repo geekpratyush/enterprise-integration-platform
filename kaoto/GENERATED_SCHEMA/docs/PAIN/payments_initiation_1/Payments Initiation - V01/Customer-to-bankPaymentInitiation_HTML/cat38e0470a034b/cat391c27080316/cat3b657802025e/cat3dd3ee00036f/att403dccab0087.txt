@@ -1,0 +1,1 @@
+Priority with which all agents in the payment chain must clear and settle the payment transaction

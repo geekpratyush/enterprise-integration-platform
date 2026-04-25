@@ -1,0 +1,1 @@
+Information related to the processing of the payment instruction that may need to be acted upon by the agent. The instruction information further details the information provided in the coded instruction, as an instruction to be executed by the agent, or may be information required by the agent.

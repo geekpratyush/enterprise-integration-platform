@@ -1,0 +1,1 @@
+Specifies in coded form the reason for the time-out notification.

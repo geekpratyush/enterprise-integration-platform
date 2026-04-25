@@ -1,0 +1,1 @@
+Indicates whether the certificate representing a security is stored centrally and maintained electronically, without the need for any physical movement.

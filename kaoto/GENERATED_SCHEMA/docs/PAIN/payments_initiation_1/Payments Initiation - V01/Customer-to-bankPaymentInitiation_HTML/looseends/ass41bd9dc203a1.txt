@@ -1,0 +1,1 @@
+Status of the order details is rejected. This status is used for orders that have not been accepted or entered in an order book.

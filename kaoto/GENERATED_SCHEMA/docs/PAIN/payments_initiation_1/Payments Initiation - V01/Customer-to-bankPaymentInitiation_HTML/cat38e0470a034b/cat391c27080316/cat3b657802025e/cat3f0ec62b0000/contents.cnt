@@ -1,0 +1,1322 @@
+SecuritiesTransfer
+../../../../webviewer/18.jpg
+dgm3f0ec631003e.htm
+
+
+
+(
+)
+ReceiveInformation
+../../../../webviewer/18.jpg
+dgm3f12c8dc01d4.htm
+
+
+
+(
+)
+DeliverInformation
+../../../../webviewer/18.jpg
+dgm3f13ac9103b9.htm
+
+
+
+(
+)
+PEPISATransfer
+../../../../webviewer/18.jpg
+dgm42afd9fd0114.htm
+
+
+
+(
+)
+<<MessageComponent>> Transfer2
+../../../../webviewer/143.jpg
+class3e75cb9e034a.htm
+
+
+
+(
+TransferReference
+../../../../webviewer/33.jpg
+att3ee8856a0324.htm
+att3ee8856a0324.txt
+
+
+(
+)
+EffectiveTransferDate
+../../../../webviewer/31.jpg
+att3e64b95a00db.htm
+att3e64b95a00db.txt
+
+
+(
+)
+TotalUnitsNumber
+../../../../webviewer/31.jpg
+att3e75f05c0381.htm
+
+
+
+(
+)
+PortfolioTransferOutRate [0..1]
+../../../../webviewer/31.jpg
+att3e75f05c03a9.htm
+
+
+
+(
+)
+OwnAccountTransferIndicator
+../../../../webviewer/31.jpg
+att3e75cdb10343.htm
+
+
+
+(
+)
+AveragePrice [0..1]
+../../../../webviewer/31.jpg
+att3eae84f10387.htm
+
+
+
+(
+)
+TradeDate
+../../../../webviewer/31.jpg
+att40e00a220013.htm
+att40e00a220013.txt
+
+
+(
+)
+TransferConfirmationReference
+../../../../webviewer/33.jpg
+att4173aca60328.htm
+att4173aca60328.txt
+
+
+(
+)
+theTransferOut1 ( TransferOut1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3eaf8f3200fc.htm
+
+
+
+theSecuritiesTransfer ( SecuritiesTransfer )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f0ec64a01d4.htm
+
+
+
+UnitsDetails ( Unit1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role40a47ffd01c5.htm
+
+
+
+<<Textual>> TotalUnitsNumberRule
+../../../../webviewer/36.jpg
+op415a98620333.htm
+op415a98620333.txt
+
+
+(
+)
+)
+<<MessageComponent>> Transfer4
+../../../../webviewer/143.jpg
+class3e75e3a10190.htm
+
+
+
+(
+TransferReference
+../../../../webviewer/33.jpg
+att3ee88b2902cf.htm
+att3ee88b2902cf.txt
+
+
+(
+)
+EffectiveTransferDate
+../../../../webviewer/31.jpg
+att3e7889d401e2.htm
+att3e7889d401e2.txt
+
+
+(
+)
+OwnAccountTransferIndicator
+../../../../webviewer/31.jpg
+att3e75e3cb0277.htm
+
+
+
+(
+)
+AveragePrice [0..1]
+../../../../webviewer/31.jpg
+att3eb38e760241.htm
+
+
+
+(
+)
+TradeDate
+../../../../webviewer/31.jpg
+att40e00e93016e.htm
+att40e00e93016e.txt
+
+
+(
+)
+TotalUnitsNumber
+../../../../webviewer/31.jpg
+att40e00f5c02f5.htm
+att40e00f5c02f5.txt
+
+
+(
+)
+TransferConfirmationReference
+../../../../webviewer/33.jpg
+att4173a9d80170.htm
+att4173a9d80170.txt
+
+
+(
+)
+theTransferIn1 ( TransferIn1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3eaf983e0215.htm
+
+
+
+theSecuritiesTransfer ( SecuritiesTransfer )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f0ec6e902ce.htm
+
+
+
+UnitsDetails ( Unit1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role40a480e100cb.htm
+
+
+
+<<Textual>> TotalUnitsNumberRule
+../../../../webviewer/36.jpg
+op415a98d5036e.htm
+op415a98d5036e.txt
+
+
+(
+)
+)
+<<MessageComponent>> ReceiveInformation2
+../../../../webviewer/143.jpg
+class3e65b18b0020.htm
+
+
+
+(
+PhysicalTransferIndicator
+../../../../webviewer/31.jpg
+att3eae8554016d.htm
+att3eae8554016d.txt
+
+
+(
+)
+theTransferOut1 ( TransferOut1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3eaf8f380259.htm
+
+
+
+theSecuritiesTransfer ( SecuritiesTransfer )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f12c8f3005d.htm
+
+
+
+TaxDetails ( Tax3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3eb7783501db.htm
+
+
+
+PhysicalTransferDetails ( DeliveryParameters2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e65cd1400e4.htm
+
+
+
+ChargeDetails ( Charge4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3ebfc3660135.htm
+
+
+
+SettlementPartiesDetails ( ReceivingPartiesAndAccount1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e65cca30218.htm
+
+
+
+<<Textual>> PhysicalTransferDetailsRule
+../../../../webviewer/36.jpg
+op40e0319b0213.htm
+op40e0319b0213.txt
+
+
+(
+)
+<<Textual>> ReceiversCustodianDetailsRule
+../../../../webviewer/36.jpg
+op40e0319b0245.htm
+op40e0319b0245.txt
+
+
+(
+)
+<<Textual>> ReceiversIntermediaryDetailsRule
+../../../../webviewer/36.jpg
+op40e0319b0277.htm
+op40e0319b0277.txt
+
+
+(
+)
+)
+<<MessageComponent>> DeliverInformation2
+../../../../webviewer/143.jpg
+class3e65ffad00f3.htm
+
+
+
+(
+PhysicalTransferIndicator
+../../../../webviewer/31.jpg
+att3eaf89b000f5.htm
+att3eaf89b000f5.txt
+
+
+(
+)
+theTransferIn1 ( TransferIn1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3eaf984b0169.htm
+
+
+
+theSecuritiesTransfer ( SecuritiesTransfer )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f13aca90167.htm
+
+
+
+TaxDetails ( Tax3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3eb777880330.htm
+
+
+
+ChargeDetails ( Charge4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3ebfc3fa00a2.htm
+
+
+
+SettlementPartiesDetails ( DeliveringPartiesAndAccount1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e6600630236.htm
+
+
+
+PhysicalTransferDetails ( DeliveryParameters2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e66008c007c.htm
+
+
+
+<<Textual>> PhysicalTransferDetailsRule
+../../../../webviewer/36.jpg
+op40e02e6c0096.htm
+op40e02e6c0096.txt
+
+
+(
+)
+<<Textual>> DeliverersCustodianDetailsRule
+../../../../webviewer/36.jpg
+op40e02e6c00aa.htm
+op40e02e6c00aa.txt
+
+
+(
+)
+<<Textual>> DeliverersIntermediaryDetailsRule
+../../../../webviewer/36.jpg
+op40e02e6c00be.htm
+op40e02e6c00be.txt
+
+
+(
+)
+)
+<<MessageComponent>> PEPISATransfer1
+../../../../webviewer/143.jpg
+class4281fdef01cd.htm
+class4281fdef01cd.txt
+
+
+(
+TransferIdentification
+../../../../webviewer/33.jpg
+att4296e0830033.htm
+att4296e0830033.txt
+
+
+(
+)
+theTransferOut3 ( TransferOut3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role42aecf3b000a.htm
+
+
+
+theSecuritiesTransfer ( SecuritiesTransfer )
+../../../../webviewer/82.jpg
+../../../../looseends/role42a5c4c6027d.htm
+
+
+
+Assets ( FinancialInstrument7 )
+../../../../webviewer/82.jpg
+../../../../looseends/role42b1920a02a3.htm
+
+
+
+PEP ( PreviousYearChoice )
+../../../../webviewer/82.jpg
+../../../../looseends/role42a555b003de.htm
+
+
+
+ISA ( ISAYearsOfIssue )
+../../../../webviewer/82.jpg
+../../../../looseends/role42836a4d0255.htm
+
+
+
+<<XOR>> PepOrIsaRule
+../../../../webviewer/34.jpg
+op42970fea00fd.htm
+
+
+
+(
+)
+)
+<<MessageComponent>> FinancialInstrument7
+../../../../webviewer/143.jpg
+class4280b68a01b9.htm
+
+
+
+(
+Identification
+../../../../webviewer/31.jpg
+att4280b6bd0268.htm
+
+
+
+(
+)
+Name [0..1]
+../../../../webviewer/31.jpg
+att4280b6c80142.htm
+
+
+
+(
+)
+thePEPISACashTransfer1 ( PEPISACashTransfer1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role42d378c90368.htm
+
+
+
+theInvestmentFundClass ( InvestmentFundClass )
+../../../../webviewer/82.jpg
+../../../../looseends/role428477c00135.htm
+
+
+
+thePEPISATransfer1 ( PEPISATransfer1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role42b1920a027a.htm
+
+
+
+theUnit2 ( Unit2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role42b1919100be.htm
+
+
+
+theUnitsAndCash ( UnitsAndCash )
+../../../../webviewer/82.jpg
+../../../../looseends/role42dcc97d0258.htm
+
+
+
+<<Textual>> FinancialInstrumentIdentificationGuideline
+../../../../webviewer/36.jpg
+op4280b72102f1.htm
+op4280b72102f1.txt
+
+
+(
+)
+)
+<<MessageComponent>> PEPISATransfer2
+../../../../webviewer/143.jpg
+class4297241002bb.htm
+class4297241002bb.txt
+
+
+(
+TransferConfirmationIdentification
+../../../../webviewer/33.jpg
+att429724b700cb.htm
+att429724b700cb.txt
+
+
+(
+)
+TransferInstructionReference
+../../../../webviewer/33.jpg
+att4297244300d5.htm
+att4297244300d5.txt
+
+
+(
+)
+TradeDate
+../../../../webviewer/33.jpg
+att42972528001d.htm
+att42972528001d.txt
+
+
+(
+)
+ActualTransferDate
+../../../../webviewer/33.jpg
+att429725170253.htm
+att429725170253.txt
+
+
+(
+)
+PEP ( PreviousYearChoice )
+../../../../webviewer/82.jpg
+../../../../looseends/role429725d60004.htm
+
+
+
+theSecuritiesTransfer ( SecuritiesTransfer )
+../../../../webviewer/82.jpg
+../../../../looseends/role42a5c4a000c9.htm
+
+
+
+Assets ( Unit2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role42b191830172.htm
+
+
+
+ISA ( ISAYearsOfIssue )
+../../../../webviewer/82.jpg
+../../../../looseends/role429725d20348.htm
+
+
+
+<<XOR>> PepOrIsaRule
+../../../../webviewer/34.jpg
+op429729c80396.htm
+
+
+
+(
+)
+)
+<<MessageComponent>> Unit2
+../../../../webviewer/143.jpg
+class42aefd71021e.htm
+
+
+
+(
+TotalNumber
+../../../../webviewer/31.jpg
+att42aefdcd00c2.htm
+att42aefdcd00c2.txt
+
+
+(
+)
+Complete
+../../../../webviewer/33.jpg
+att42aefdd10013.htm
+att42aefdd10013.txt
+
+
+(
+)
+Group1Number[ 0..1 ]
+../../../../webviewer/31.jpg
+att42b192af01cd.htm
+
+
+
+(
+)
+Group2Number[ 0..1 ]
+../../../../webviewer/31.jpg
+att42b1939e0294.htm
+
+
+
+(
+)
+thePEPISATransfer2 ( PEPISATransfer2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role42b191830190.htm
+
+
+
+Instrument ( FinancialInstrument7 )
+../../../../webviewer/82.jpg
+../../../../looseends/role42b19191008c.htm
+
+
+
+theSecuritiesQuantity ( SecuritiesQuantity )
+../../../../webviewer/82.jpg
+../../../../looseends/role42aeff8c0114.htm
+
+
+
+<<Textual>> TotalNumberRule
+../../../../webviewer/36.jpg
+op42aefeba02cb.htm
+op42aefeba02cb.txt
+
+
+(
+)
+)
+<<ChoiceComponent>> PreviousYearChoice
+../../../../webviewer/144.jpg
+class4296e3a90158.htm
+class4296e3a90158.txt
+
+
+(
+AllPreviousYears
+../../../../webviewer/33.jpg
+att4296e3bb03a4.htm
+att4296e3bb03a4.txt
+
+
+(
+)
+SpecificPreviousYears[ 1.. n ]
+../../../../webviewer/31.jpg
+att4296e46a0288.htm
+att4296e46a0288.txt
+
+
+(
+)
+thePEPOrISAChoice ( PEPOrISAChoice )
+../../../../webviewer/82.jpg
+../../../../looseends/role42d37b6903e3.htm
+
+
+
+thePEPISATransfer1 ( PEPISATransfer1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role42a555b0033e.htm
+
+
+
+thePEPISATransfer2 ( PEPISATransfer2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role429725d503e2.htm
+
+
+
+theISAYearsOfIssue ( ISAYearsOfIssue )
+../../../../webviewer/82.jpg
+../../../../looseends/role4296e65c0261.htm
+
+
+
+<<Textual>> SpecificPreviousYearsGuideline
+../../../../webviewer/36.jpg
+op429d686600bd.htm
+op429d686600bd.txt
+
+
+(
+)
+)
+<<MessageComponent>> ISAYearsOfIssue
+../../../../webviewer/143.jpg
+class42836a5100de.htm
+class42836a5100de.txt
+
+
+(
+CurrentYear[ 0..1 ]
+../../../../webviewer/31.jpg
+att42836a9e01c8.htm
+att42836a9e01c8.txt
+
+
+(
+)
+thePEPOrISAChoice ( PEPOrISAChoice )
+../../../../webviewer/82.jpg
+../../../../looseends/role42d52c9c023e.htm
+
+
+
+PreviousYears ( PreviousYearChoice )
+../../../../webviewer/82.jpg
+../../../../looseends/role4296e65c0263.htm
+
+
+
+thePEPISATransfer2 ( PEPISATransfer2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role429725d20334.htm
+
+
+
+thePEPISATransfer1 ( PEPISATransfer1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role42836a4d0241.htm
+
+
+
+thePEPISAInvestmentPlan ( PEPISAInvestmentPlan )
+../../../../webviewer/82.jpg
+../../../../looseends/role42a589e60086.htm
+
+
+
+<<Textual>> CurrentYearRule
+../../../../webviewer/36.jpg
+op42a4463c0368.htm
+op42a4463c0368.txt
+
+
+(
+)
+)
+<<MessageComponent>> UnitsAndCash
+../../../../webviewer/143.jpg
+class42dcc57103b7.htm
+
+
+
+(
+GrandTotalAmount
+../../../../webviewer/31.jpg
+att42dcc8230156.htm
+
+
+
+(
+)
+CompleteIndicator[ 0..1 ]
+../../../../webviewer/33.jpg
+att42dcc7390023.htm
+att42dcc7390023.txt
+
+
+(
+)
+Group1Number[ 0..1 ]
+../../../../webviewer/31.jpg
+att42dcc73902ae.htm
+
+
+
+(
+)
+Group2Number[ 0..1 ]
+../../../../webviewer/31.jpg
+att42dcc73903a8.htm
+
+
+
+(
+)
+thePEPISACashTransfer2 ( PEPISACashTransfer2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role42dbc8220184.htm
+
+
+
+theSecuritiesTransfer ( SecuritiesTransfer )
+../../../../webviewer/82.jpg
+../../../../looseends/role42e64c030173.htm
+
+
+
+Instrument ( FinancialInstrument7 )
+../../../../webviewer/82.jpg
+../../../../looseends/role42dcc97d021c.htm
+
+
+
+)
+Associations
+../../../../webviewer/assoccat.gif
+
+
+
+
+(
+<<SWSTrace>> (theSecuritiesTransfer:SecuritiesTransfer) (theTransfer2:Transfer2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3f0ec64903b9.htm
+
+
+
+(
+SecuritiesTransfer ( theSecuritiesTransfer )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f0ec64a01c5.htm
+
+
+
+Transfer2 ( theTransfer2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f0ec64a01d4.htm
+
+
+
+)
+<<SWSTrace>> (theSecuritiesTransfer:SecuritiesTransfer) (theTransfer4:Transfer4)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3f0ec6e803c8.htm
+
+
+
+(
+SecuritiesTransfer ( theSecuritiesTransfer )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f0ec6e902af.htm
+
+
+
+Transfer4 ( theTransfer4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f0ec6e902ce.htm
+
+
+
+)
+<<SWSTrace>> (theSecuritiesTransfer:SecuritiesTransfer) (theReceiveInformation2:ReceiveInformation2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3f12c8f20290.htm
+
+
+
+(
+SecuritiesTransfer ( theSecuritiesTransfer )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f12c8f3003e.htm
+
+
+
+ReceiveInformation2 ( theReceiveInformation2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f12c8f3005d.htm
+
+
+
+)
+Association (TaxDetails:Tax3) (theReceiveInformation2:ReceiveInformation2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3eb7783501d9.htm
+
+
+
+(
+Tax3 ( TaxDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role3eb7783501da.htm
+
+
+
+ReceiveInformation2 ( theReceiveInformation2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3eb7783501db.htm
+
+
+
+)
+Association (PhysicalTransferDetails:DeliveryParameters2) (theReceiveInformation2:ReceiveInformation2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3e65cd13006a.htm
+
+
+
+(
+DeliveryParameters2 ( PhysicalTransferDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e65cd1400c6.htm
+
+
+
+ReceiveInformation2 ( theReceiveInformation2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e65cd1400e4.htm
+
+
+
+)
+Association (ChargeDetails:Charge4) (theReceiveInformation2:ReceiveInformation2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3ebfc3650397.htm
+../../../../looseends/ass3ebfc3650397.txt
+
+
+(
+Charge4 ( ChargeDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role3ebfc366012b.htm
+../../../../looseends/role3ebfc366012b.txt
+
+
+ReceiveInformation2 ( theReceiveInformation2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3ebfc3660135.htm
+
+
+
+)
+Association (SettlementPartiesDetails:ReceivingPartiesAndAccount1) (theReceiveInformation2:ReceiveInformation2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3e65cca203bb.htm
+../../../../looseends/ass3e65cca203bb.txt
+
+
+(
+ReceivingPartiesAndAccount1 ( SettlementPartiesDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e65cca301fa.htm
+
+
+
+ReceiveInformation2 ( theReceiveInformation2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e65cca30218.htm
+
+
+
+)
+<<SWSTrace>> (theSecuritiesTransfer:SecuritiesTransfer) (theDeliverInformation2:DeliverInformation2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3f13aca803a9.htm
+
+
+
+(
+SecuritiesTransfer ( theSecuritiesTransfer )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f13aca90148.htm
+
+
+
+DeliverInformation2 ( theDeliverInformation2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f13aca90167.htm
+
+
+
+)
+Association (TaxDetails:Tax3) (theDeliverInformation2:DeliverInformation2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3eb77788032e.htm
+../../../../looseends/ass3eb77788032e.txt
+
+
+(
+Tax3 ( TaxDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role3eb77788032f.htm
+
+
+
+DeliverInformation2 ( theDeliverInformation2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3eb777880330.htm
+
+
+
+)
+Association (ChargeDetails:Charge4) (theDeliverInformation2:DeliverInformation2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3ebfc3f902d1.htm
+../../../../looseends/ass3ebfc3f902d1.txt
+
+
+(
+Charge4 ( ChargeDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role3ebfc3fa008e.htm
+
+
+
+DeliverInformation2 ( theDeliverInformation2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3ebfc3fa00a2.htm
+
+
+
+)
+Association (SettlementPartiesDetails:DeliveringPartiesAndAccount1) (theDeliverInformation2:DeliverInformation2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3e66006202b6.htm
+../../../../looseends/ass3e66006202b6.txt
+
+
+(
+DeliveringPartiesAndAccount1 ( SettlementPartiesDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e6600630221.htm
+
+
+
+DeliverInformation2 ( theDeliverInformation2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e6600630236.htm
+
+
+
+)
+Association (PhysicalTransferDetails:DeliveryParameters2) (theDeliverInformation2:DeliverInformation2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3e66008a0123.htm
+../../../../looseends/ass3e66008a0123.txt
+
+
+(
+DeliveryParameters2 ( PhysicalTransferDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e66008c004a.htm
+
+
+
+DeliverInformation2 ( theDeliverInformation2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e66008c007c.htm
+
+
+
+)
+Association (UnitsDetails:Unit1) (theTransfer2:Transfer2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass40a47ffb0251.htm
+../../../../looseends/ass40a47ffb0251.txt
+
+
+(
+Unit1 ( UnitsDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role40a47ffd01a5.htm
+
+
+
+Transfer2 ( theTransfer2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role40a47ffd01c5.htm
+
+
+
+)
+Association (UnitsDetails:Unit1) (theTransfer4:Transfer4)
+../../../../webviewer/81.jpg
+../../../../looseends/ass40a480e0030d.htm
+../../../../looseends/ass40a480e0030d.txt
+
+
+(
+Unit1 ( UnitsDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role40a480e100ab.htm
+
+
+
+Transfer4 ( theTransfer4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role40a480e100cb.htm
+
+
+
+)
+<<SWSTrace>> (theSecuritiesTransfer:SecuritiesTransfer) (thePEPISATransfer1:PEPISATransfer1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass42a5c4b8036d.htm
+
+
+
+(
+SecuritiesTransfer ( theSecuritiesTransfer )
+../../../../webviewer/82.jpg
+../../../../looseends/role42a5c4c60269.htm
+
+
+
+PEPISATransfer1 ( thePEPISATransfer1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role42a5c4c6027d.htm
+
+
+
+)
+Association (Assets:FinancialInstrument7) (thePEPISATransfer1:PEPISATransfer1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass42b1920a0266.htm
+../../../../looseends/ass42b1920a0266.txt
+
+
+(
+FinancialInstrument7 ( Assets )
+../../../../webviewer/82.jpg
+../../../../looseends/role42b1920a027a.htm
+
+
+
+PEPISATransfer1 ( thePEPISATransfer1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role42b1920a02a3.htm
+
+
+
+)
+Association (PEP:PreviousYearChoice) (thePEPISATransfer1:PEPISATransfer1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass42a555af0224.htm
+
+
+
+(
+PreviousYearChoice ( PEP )
+../../../../webviewer/82.jpg
+../../../../looseends/role42a555b0033e.htm
+
+
+
+PEPISATransfer1 ( thePEPISATransfer1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role42a555b003de.htm
+
+
+
+)
+Association (PEP:PreviousYearChoice) (thePEPISATransfer2:PEPISATransfer2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass429725d501e3.htm
+
+
+
+(
+PreviousYearChoice ( PEP )
+../../../../webviewer/82.jpg
+../../../../looseends/role429725d503e2.htm
+
+
+
+PEPISATransfer2 ( thePEPISATransfer2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role429725d60004.htm
+
+
+
+)
+<<SWSTrace>> (theSecuritiesTransfer:SecuritiesTransfer) (thePEPISATransfer2:PEPISATransfer2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass42a5c49f02e5.htm
+
+
+
+(
+SecuritiesTransfer ( theSecuritiesTransfer )
+../../../../webviewer/82.jpg
+../../../../looseends/role42a5c4a000b5.htm
+
+
+
+PEPISATransfer2 ( thePEPISATransfer2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role42a5c4a000c9.htm
+
+
+
+)
+Association (thePEPISATransfer2:PEPISATransfer2) (Assets:Unit2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass42b19183014a.htm
+../../../../looseends/ass42b19183014a.txt
+
+
+(
+PEPISATransfer2 ( thePEPISATransfer2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role42b191830172.htm
+
+
+
+Unit2 ( Assets )
+../../../../webviewer/82.jpg
+../../../../looseends/role42b191830190.htm
+
+
+
+)
+Association (theUnit2:Unit2) (Instrument:FinancialInstrument7)
+../../../../webviewer/81.jpg
+../../../../looseends/ass42b191910078.htm
+../../../../looseends/ass42b191910078.txt
+
+
+(
+Unit2 ( theUnit2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role42b19191008c.htm
+
+
+
+FinancialInstrument7 ( Instrument )
+../../../../webviewer/82.jpg
+../../../../looseends/role42b1919100be.htm
+
+
+
+)
+Association (PreviousYears:PreviousYearChoice) (theISAYearsOfIssue:ISAYearsOfIssue)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4296e65603c1.htm
+
+
+
+(
+PreviousYearChoice ( PreviousYears )
+../../../../webviewer/82.jpg
+../../../../looseends/role4296e65c0261.htm
+
+
+
+ISAYearsOfIssue ( theISAYearsOfIssue )
+../../../../webviewer/82.jpg
+../../../../looseends/role4296e65c0263.htm
+
+
+
+)
+Association (ISA:ISAYearsOfIssue) (thePEPISATransfer2:PEPISATransfer2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass429725d20171.htm
+
+
+
+(
+ISAYearsOfIssue ( ISA )
+../../../../webviewer/82.jpg
+../../../../looseends/role429725d20334.htm
+
+
+
+PEPISATransfer2 ( thePEPISATransfer2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role429725d20348.htm
+
+
+
+)
+Association (ISA:ISAYearsOfIssue) (thePEPISATransfer1:PEPISATransfer1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass42836a4b037e.htm
+
+
+
+(
+ISAYearsOfIssue ( ISA )
+../../../../webviewer/82.jpg
+../../../../looseends/role42836a4d0241.htm
+
+
+
+PEPISATransfer1 ( thePEPISATransfer1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role42836a4d0255.htm
+
+
+
+)
+<<SWSTrace>> (theSecuritiesTransfer:SecuritiesTransfer) (theUnitsAndCash:UnitsAndCash)
+../../../../webviewer/81.jpg
+../../../../looseends/ass42e64c030079.htm
+
+
+
+(
+SecuritiesTransfer ( theSecuritiesTransfer )
+../../../../webviewer/82.jpg
+../../../../looseends/role42e64c030155.htm
+
+
+
+UnitsAndCash ( theUnitsAndCash )
+../../../../webviewer/82.jpg
+../../../../looseends/role42e64c030173.htm
+
+
+
+)
+Association (theUnitsAndCash:UnitsAndCash) (Instrument:FinancialInstrument7)
+../../../../webviewer/81.jpg
+../../../../looseends/ass42dcc97d01ad.htm
+../../../../looseends/ass42dcc97d01ad.txt
+
+
+(
+UnitsAndCash ( theUnitsAndCash )
+../../../../webviewer/82.jpg
+../../../../looseends/role42dcc97d021c.htm
+
+
+
+FinancialInstrument7 ( Instrument )
+../../../../webviewer/82.jpg
+../../../../looseends/role42dcc97d0258.htm
+
+
+
+)
+)

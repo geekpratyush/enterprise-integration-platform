@@ -1,0 +1,1 @@
+Amount of money due to a party as compensation for a service.

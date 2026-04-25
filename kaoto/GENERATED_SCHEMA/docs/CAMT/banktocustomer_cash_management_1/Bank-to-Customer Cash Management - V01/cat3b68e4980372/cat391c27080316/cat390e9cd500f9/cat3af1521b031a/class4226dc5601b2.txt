@@ -1,0 +1,1 @@
+Variance allowed on a quantity or on a price.

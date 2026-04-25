@@ -1,0 +1,1 @@
+Date and optionally time at which a transaction is completed and cleared, ie, securities are delivered.

@@ -1,0 +1,1 @@
+Indicates the tax is withheld at source and that the tax information is also reported to the tax authorities.

@@ -1,0 +1,1 @@
+Specifies why a payment instruction is rejected by an instructed agent or somebody acting on behalf of an instructed agent.

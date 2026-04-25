@@ -1,0 +1,1 @@
+Interest information defined for a cash account, as per a contractual relationship.

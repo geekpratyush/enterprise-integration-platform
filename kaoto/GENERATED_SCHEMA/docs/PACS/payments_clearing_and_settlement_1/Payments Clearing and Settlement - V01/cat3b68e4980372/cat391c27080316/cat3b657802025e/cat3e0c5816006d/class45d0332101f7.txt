@@ -1,0 +1,2 @@
+Set of characteristics that unambiguously identify the single invoice financing request.
+

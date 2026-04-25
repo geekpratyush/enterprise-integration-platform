@@ -1,0 +1,1 @@
+Set to yes if the case was closed and needs to be re-opened.

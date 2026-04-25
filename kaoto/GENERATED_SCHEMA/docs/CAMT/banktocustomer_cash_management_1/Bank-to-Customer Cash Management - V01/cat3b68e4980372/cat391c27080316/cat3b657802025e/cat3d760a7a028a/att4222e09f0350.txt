@@ -1,0 +1,1 @@
+Specifies that the payment conditions apply to a percentage of the amount due.

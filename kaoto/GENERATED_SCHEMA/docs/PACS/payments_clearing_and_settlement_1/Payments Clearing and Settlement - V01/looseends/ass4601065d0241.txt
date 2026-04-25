@@ -1,0 +1,1 @@
+Specifies the call and the put amount of the underlying foreign exchange trade. 

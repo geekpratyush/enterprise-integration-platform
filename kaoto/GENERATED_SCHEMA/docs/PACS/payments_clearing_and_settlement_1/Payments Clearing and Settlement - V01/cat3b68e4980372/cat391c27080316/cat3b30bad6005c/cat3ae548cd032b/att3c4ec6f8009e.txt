@@ -1,0 +1,2 @@
+Indicates whether the trade is executed  with a special ex 
+dividend, ie, selling before the ex date without the coupon. 

@@ -1,0 +1,1 @@
+Specifies the regulatory restrictions applicable to a security.

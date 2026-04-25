@@ -1,0 +1,1 @@
+Specifies the reason the transaction, transfer or settlement instruction is unmatched.

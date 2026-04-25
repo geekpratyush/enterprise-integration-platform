@@ -1,0 +1,1 @@
+Indicates the sum of the total amounts of the invoices/instalments financed.

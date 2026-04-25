@@ -1,0 +1,1 @@
+Indicates whether an exit/back-end load charge is applicable.

@@ -1,0 +1,1 @@
+Code allocated to the Euro currency, as described in the latest edition of the international standard ISO 4217.

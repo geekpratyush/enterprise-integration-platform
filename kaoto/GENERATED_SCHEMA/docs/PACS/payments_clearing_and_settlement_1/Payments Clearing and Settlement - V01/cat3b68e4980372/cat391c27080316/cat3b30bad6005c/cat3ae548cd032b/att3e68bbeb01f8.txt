@@ -1,0 +1,1 @@
+Note with an embedded derivative, eg, a synthetic-fixed rate note created by issuing a floating rate note while entering into a "plain vanilla" interest rate swap to offset the floating rate payments.

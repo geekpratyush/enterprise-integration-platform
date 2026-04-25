@@ -1,0 +1,1 @@
+Indicates whether the charge is deducted from the instructed amount and consequently included in the interbank settlement amount.

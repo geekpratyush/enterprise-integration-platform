@@ -1,0 +1,3 @@
+The ReturnedInterbankSettlementAmount shall be calculated from the OriginalInterbankSettlementAmount, taking into account all adjustments required for the ExchangeRate, all occurences of the ChargeAmount, the Compensation Amount, when present in the return transaction.
+
+

@@ -1,0 +1,1 @@
+Indicates whether the order is to be increased in shares on the ex-dividend date as a result of a stock dividend or distribution.

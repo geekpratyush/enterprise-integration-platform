@@ -1,0 +1,1 @@
+Indicates whether there is activity or information update reported in the statement.

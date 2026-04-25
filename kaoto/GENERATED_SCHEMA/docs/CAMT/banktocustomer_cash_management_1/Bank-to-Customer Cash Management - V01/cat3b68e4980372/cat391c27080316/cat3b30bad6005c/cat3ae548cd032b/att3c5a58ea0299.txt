@@ -1,0 +1,1 @@
+Indicates that the trade is to open a position.

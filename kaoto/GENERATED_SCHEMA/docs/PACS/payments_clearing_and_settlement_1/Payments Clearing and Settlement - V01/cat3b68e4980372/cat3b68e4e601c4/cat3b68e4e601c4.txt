@@ -1,0 +1,1 @@
+Package containing the business model, organised in 4 sub-packages, containing the Business Actors, the Business Components, the Business Processes and the ProjectDataTypes. 

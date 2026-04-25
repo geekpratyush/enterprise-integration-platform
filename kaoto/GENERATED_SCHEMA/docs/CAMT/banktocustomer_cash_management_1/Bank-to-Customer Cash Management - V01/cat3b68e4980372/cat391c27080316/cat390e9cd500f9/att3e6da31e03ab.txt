@@ -1,0 +1,1 @@
+Identifies a type of bid based on a common characteristic (the sector) of all securities of a list.

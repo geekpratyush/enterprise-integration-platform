@@ -1,0 +1,1 @@
+Identifies the possible types of voting instructions for resolutions proposed at the meeting.

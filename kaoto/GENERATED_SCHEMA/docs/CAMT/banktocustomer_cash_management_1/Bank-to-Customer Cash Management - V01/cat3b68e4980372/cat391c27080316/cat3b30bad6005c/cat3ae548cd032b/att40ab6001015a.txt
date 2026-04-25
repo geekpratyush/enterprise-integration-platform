@@ -1,0 +1,1 @@
+Real Time Gross Settlement System. Payment system that simultaneously clears individual transfers and settles them in central bank money.

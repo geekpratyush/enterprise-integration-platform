@@ -1,0 +1,85 @@
+- route:
+    id: "rest-demo-dynamic"
+    from:
+      uri: "timer:rest-timer?period=10000"
+      steps:
+        - setBody:
+            constant: "{\"message\": \"Hello EIP Platform\"}"
+        - setHeader:
+            name: "CamelHttpMethod"
+            constant: "POST"
+        - setHeader:
+            name: "Content-Type"
+            constant: "application/json"
+        - setHeader:
+            name: "Accept-Encoding"
+            constant: "identity"
+        - to: "{{WIRE_MOCK_URL}}/api/dynamic?skipContentEncoding=true{{EIP_TLS_FLAG}}"
+        - log: ">>> DYNAMIC RESPONSE: ${body}"
+- route:
+    id: "rest-demo-stateful"
+    from:
+      uri: "timer:state-timer?period=15000&repeatCount=2"
+      steps:
+        - setBody:
+            constant: "{}"
+        - setHeader:
+            name: "CamelHttpMethod"
+            constant: "POST"
+        - setHeader:
+            name: "Accept-Encoding"
+            constant: "identity"
+        - doTry:
+            steps:
+              - to: "{{WIRE_MOCK_URL}}/api/order?skipContentEncoding=true{{EIP_TLS_FLAG}}"
+              - log: ">>> STATEFUL RESPONSE: ${body}"
+            doCatch:
+              - exception:
+                  - "org.apache.camel.http.base.HttpOperationFailedException"
+                onWhen:
+                  simple: "${exception.statusCode} == 409"
+                steps:
+                  - log: ">>> STATEFUL: Caught expected duplicate (409) - Scenario Success."
+
+- route:
+    id: "rest-demo-fault"
+    from:
+      uri: "timer:fault-timer?period=20000"
+      steps:
+        - doTry:
+            steps:
+              - setHeader:
+                  name: "Accept-Encoding"
+                  constant: "identity"
+              - to: "{{WIRE_MOCK_URL}}/api/fault/500?skipContentEncoding=true{{EIP_TLS_FLAG}}"
+            doCatch:
+              - exception:
+                  - "org.apache.camel.http.base.HttpOperationFailedException"
+                steps:
+                  - log: ">>> CAUGHT EXPECTED FAULT: ${exception.statusCode}"
+- route:
+    id: "rest-demo-oauth"
+    from:
+      uri: "timer:oauth-timer?period=30000"
+      steps:
+        - setBody:
+            constant: "{}"
+        - setHeader:
+            name: "CamelHttpMethod"
+            constant: "POST"
+        - setHeader:
+            name: "Accept-Encoding"
+            constant: "identity"
+        - to: "{{WIRE_MOCK_URL}}/oauth/token?skipContentEncoding=true{{EIP_TLS_FLAG}}"
+        - setProperty:
+            name: "token"
+            jsonpath: "$.access_token"
+        - removeHeaders: "*"
+        - setHeader:
+            name: "Authorization"
+            simple: "Bearer ${exchangeProperty.token}"
+        - setHeader:
+            name: "Accept-Encoding"
+            constant: "identity"
+        - to: "{{WIRE_MOCK_URL}}/api/secure?skipContentEncoding=true{{EIP_TLS_FLAG}}"
+        - log: ">>> SECURE DATA captured with OAuth token: ${body}"

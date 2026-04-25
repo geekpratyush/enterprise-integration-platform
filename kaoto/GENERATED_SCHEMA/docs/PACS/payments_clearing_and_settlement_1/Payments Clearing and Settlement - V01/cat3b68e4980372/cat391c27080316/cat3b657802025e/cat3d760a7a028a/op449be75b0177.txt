@@ -1,0 +1,2 @@
+If IntermediaryAgent2 is not present, then IntermediaryAgent2Account is not allowed. 
+

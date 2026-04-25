@@ -1,0 +1,3 @@
+Legal sequential number of the report, assigned by the account servicer. It is increased incrementally for each report sent.
+
+Usage : in those scenarios where eg a paper statement is a legal requirement, the paper statement may have a different numbering than the electronic sequential number. Paper statements can for instance only be sent if movement on the account has taken place, whereas electronic statements can be sent eg each day, regardless of whether movements have taken place or not.

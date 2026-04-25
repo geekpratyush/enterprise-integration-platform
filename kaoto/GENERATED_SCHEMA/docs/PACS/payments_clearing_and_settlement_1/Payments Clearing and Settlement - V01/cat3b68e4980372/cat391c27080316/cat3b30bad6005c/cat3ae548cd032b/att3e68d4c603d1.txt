@@ -1,0 +1,1 @@
+An order to sell short which is exempt from short-sale rules.

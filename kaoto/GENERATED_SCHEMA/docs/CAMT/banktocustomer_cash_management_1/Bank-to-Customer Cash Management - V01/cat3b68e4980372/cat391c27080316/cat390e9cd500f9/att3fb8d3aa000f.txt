@@ -1,0 +1,1 @@
+Collection of information that identifies a FAX number, as defined by telecom services.

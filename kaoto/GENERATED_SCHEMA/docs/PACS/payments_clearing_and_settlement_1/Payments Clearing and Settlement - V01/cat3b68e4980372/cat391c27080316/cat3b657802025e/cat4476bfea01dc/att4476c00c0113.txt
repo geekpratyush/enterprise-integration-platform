@@ -1,0 +1,1 @@
+Specifies the type of product identifier by means of a code.

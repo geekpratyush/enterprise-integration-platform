@@ -1,0 +1,1 @@
+Rate is expressed as a percentage or a text. 

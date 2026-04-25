@@ -1,0 +1,1 @@
+In case of a partial fill, pro-rate the allocations.

@@ -1,0 +1,1 @@
+Either SubBalanceType or ExtendedSubBalanceType must be present, but not both.

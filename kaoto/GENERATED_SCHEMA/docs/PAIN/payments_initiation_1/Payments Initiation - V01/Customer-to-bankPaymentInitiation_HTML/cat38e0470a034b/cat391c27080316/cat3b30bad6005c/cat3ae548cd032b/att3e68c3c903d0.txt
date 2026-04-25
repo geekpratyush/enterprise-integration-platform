@@ -1,0 +1,1 @@
+An order that remains in effect until it is either executed or cancelled.

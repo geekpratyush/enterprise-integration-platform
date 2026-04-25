@@ -1,0 +1,1 @@
+Measure of prepayment as a percentage of the current outstanding loan balance, expressed as a compound annual rate. 

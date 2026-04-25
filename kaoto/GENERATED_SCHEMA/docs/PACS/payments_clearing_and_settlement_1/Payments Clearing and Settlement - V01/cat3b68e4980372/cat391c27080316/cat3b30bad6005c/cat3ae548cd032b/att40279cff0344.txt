@@ -1,0 +1,1 @@
+Net asset value currency is not supported.

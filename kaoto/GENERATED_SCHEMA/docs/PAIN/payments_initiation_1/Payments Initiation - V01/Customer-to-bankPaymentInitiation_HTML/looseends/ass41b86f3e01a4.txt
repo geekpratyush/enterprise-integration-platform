@@ -1,0 +1,2 @@
+Type: type changed from ChargeType3Code to ChargeType2, which uses ChargeType7Code: new codes have been added, eg, CUST, OTHR and the element AdditionalInformation has been added for use with OTHR. 
+CalculationBasis: new.

@@ -1,0 +1,140 @@
+<<MessageComponent>> SystemStatusDetails
+../../../../webviewer/142.jpg
+class3e76e29b0127.htm
+
+
+
+(
+Status
+../../../../webviewer/31.jpg
+att3e76e29b0128.htm
+
+
+
+(
+)
+ValidityTime
+../../../../webviewer/31.jpg
+att3e76e29b0129.htm
+
+
+
+(
+)
+theBusinessDayInformationDetails ( BusinessDayInformationDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e7ecd3b0020.htm
+
+
+
+theSystemStatus ( SystemStatus )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e7b228700b6.htm
+
+
+
+)
+<<MessageComponent>> SystemStatusDetails1
+../../../../webviewer/142.jpg
+class4211dd14020f.htm
+
+
+
+(
+Status
+../../../../webviewer/31.jpg
+att4211dd140273.htm
+
+
+
+(
+)
+ValidityTime[0..1]
+../../../../webviewer/31.jpg
+att4211dd1402af.htm
+
+
+
+(
+)
+theSystemStatus ( SystemStatus )
+../../../../webviewer/82.jpg
+../../../../looseends/role4211dd1402c6.htm
+
+
+
+theBusinessDayInformationDetails1 ( BusinessDayInformationDetails1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4211de78017c.htm
+
+
+
+)
+Associations
+../../../../webviewer/assoccat.gif
+
+
+
+
+(
+<<SWSTrace>> (theSystemStatus:SystemStatus) (theSystemStatusDetails:SystemStatusDetails)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3e7b2286025c.htm
+
+
+
+(
+SystemStatus ( theSystemStatus )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e7b228700a6.htm
+
+
+
+SystemStatusDetails ( theSystemStatusDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e7b228700b6.htm
+
+
+
+)
+<<SWSTrace>> (theSystemStatus:SystemStatus) (theSystemStatusDetails1:SystemStatusDetails1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4211dd1402c3.htm
+
+
+
+(
+SystemStatus ( theSystemStatus )
+../../../../webviewer/82.jpg
+../../../../looseends/role4211dd1402c4.htm
+
+
+
+SystemStatusDetails1 ( theSystemStatusDetails1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4211dd1402c6.htm
+
+
+
+)
+Association (SystemStatus:SystemStatusDetails1) (theBusinessDayInformationDetails1:BusinessDayInformationDetails1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4211de78017b.htm
+../../../../looseends/ass4211de78017b.txt
+
+
+(
+SystemStatusDetails1 ( SystemStatus )
+../../../../webviewer/82.jpg
+../../../../looseends/role4211de78017c.htm
+
+
+
+BusinessDayInformationDetails1 ( theBusinessDayInformationDetails1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4211de780185.htm
+
+
+
+)
+)

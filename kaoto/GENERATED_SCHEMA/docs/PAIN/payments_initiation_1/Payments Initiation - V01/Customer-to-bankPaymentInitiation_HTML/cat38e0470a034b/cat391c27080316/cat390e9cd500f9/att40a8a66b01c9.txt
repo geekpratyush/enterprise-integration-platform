@@ -1,0 +1,1 @@
+Date when the draft becomes payable and the debtor's account is debited. 

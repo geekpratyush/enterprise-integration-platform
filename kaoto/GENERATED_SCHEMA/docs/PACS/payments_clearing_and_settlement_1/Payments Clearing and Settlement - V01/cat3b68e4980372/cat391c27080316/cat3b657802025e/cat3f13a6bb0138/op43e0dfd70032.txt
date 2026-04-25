@@ -1,0 +1,9 @@
+If ExceptionalNetCashFlowIndicator is "true" or "1" (Yes) , then one of the following must be present:
+BreakdownByParty/CashInForecast/ExceptionalCashFlowIndicator, or
+BreakdownByParty/CashOutForecast/ExceptionalCashFlowIndicator, or
+BreakdownByCountry/CashInForecast/ExceptionalCashFlowIndicator, or
+BreakdownByCountry/CashOutForecast/ExceptionalCashFlowIndicator, or
+BreakdownByCurrency/CashInForecast/ExceptionalCashFlowIndicator, or
+BreakdownByCurrency/CashOutForecast/ExceptionalCashFlowIndicator, or
+BreakdownByUserDefinedParameter/CashInForecast/ExceptionalCashFlowIndicator, or
+BreakdownByUserDefinedParameter/CashOutForecast/ExceptionalCashFlowIndicator.

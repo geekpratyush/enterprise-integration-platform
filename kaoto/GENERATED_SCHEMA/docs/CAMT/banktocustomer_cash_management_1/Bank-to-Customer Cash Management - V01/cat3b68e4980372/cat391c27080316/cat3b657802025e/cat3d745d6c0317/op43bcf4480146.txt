@@ -1,0 +1,3 @@
+If ChargeAmount is present, then InstructedAmount is mandatory.
+If ChargeAmount is not present, then InstructedAmount is optional.
+

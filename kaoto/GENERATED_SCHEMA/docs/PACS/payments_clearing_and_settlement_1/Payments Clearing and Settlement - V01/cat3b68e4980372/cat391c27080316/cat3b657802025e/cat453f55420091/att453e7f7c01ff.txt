@@ -1,0 +1,1 @@
+Reference assigned by the account servicer to unambiguously identify a corporate action event.

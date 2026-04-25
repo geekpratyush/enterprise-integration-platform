@@ -1,0 +1,1 @@
+Transaction involves the withdrawal of specified amounts from specified sub-accounts.

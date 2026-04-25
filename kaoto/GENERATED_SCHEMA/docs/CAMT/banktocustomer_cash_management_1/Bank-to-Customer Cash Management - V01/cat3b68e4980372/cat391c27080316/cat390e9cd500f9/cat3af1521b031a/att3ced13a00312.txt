@@ -1,0 +1,1 @@
+Date, or range of dates, when a limit is considered valid.

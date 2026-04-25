@@ -1,0 +1,7 @@
+Prepare onward interbank payment
+Definition : the forwarding/first agent collects the information necessary to remit the payment to the next party (clearing and/or settlement agent) in the interbank chain. Then the clearing agent remits the payment to the party.
+
+Pre-condition : the payment is accepted, the next credit party is not the creditor and the next clearing agent is determined
+
+Post-condition : the onward payment is ready.
+

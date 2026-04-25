@@ -1,0 +1,1 @@
+Specifies the reason a specific tax has not been levied/deducted on a given transaction. 

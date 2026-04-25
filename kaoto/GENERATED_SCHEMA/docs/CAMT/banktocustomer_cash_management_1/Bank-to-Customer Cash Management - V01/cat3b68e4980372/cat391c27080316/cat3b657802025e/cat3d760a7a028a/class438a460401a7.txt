@@ -1,0 +1,1 @@
+Reference and status information concerning the original transactions, included in the original instruction, to which the return message applies.

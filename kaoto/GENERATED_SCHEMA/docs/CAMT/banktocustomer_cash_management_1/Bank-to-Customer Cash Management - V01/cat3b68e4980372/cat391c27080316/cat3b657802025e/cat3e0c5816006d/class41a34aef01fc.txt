@@ -1,0 +1,1 @@
+Status report of a bulk or multiple or switch order cancellation instruction that was previously received.

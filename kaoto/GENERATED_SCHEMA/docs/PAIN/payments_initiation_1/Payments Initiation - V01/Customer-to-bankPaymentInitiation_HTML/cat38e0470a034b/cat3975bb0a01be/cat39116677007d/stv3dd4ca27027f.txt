@@ -1,0 +1,4 @@
+The payment order may be warehoused when the execution date (or send date in the case of a relay scenario) is not yet reached. 
+A payment order remains in the warehouse up to the point in time it is either cancelled (at the request of the initiating party) or picked up for further processing by the first agent (or forwarding agent in a relay scenario).
+The warehouse is regularly checked to pick up mature payment orders to be further processed.
+Warehousing can happen at the forwarding or first agent.

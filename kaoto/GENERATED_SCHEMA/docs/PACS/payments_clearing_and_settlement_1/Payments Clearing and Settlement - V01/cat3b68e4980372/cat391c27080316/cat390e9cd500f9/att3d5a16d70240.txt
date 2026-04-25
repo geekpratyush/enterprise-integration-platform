@@ -1,0 +1,1 @@
+Predetermined price at which the holder of a Future will have  to buy or sell the underlying instrument.

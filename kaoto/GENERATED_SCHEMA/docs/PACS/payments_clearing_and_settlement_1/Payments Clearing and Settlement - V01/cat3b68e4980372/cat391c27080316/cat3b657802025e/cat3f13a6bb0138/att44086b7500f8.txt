@@ -1,0 +1,1 @@
+Amount of the cash flow out, expressed as a number of units.

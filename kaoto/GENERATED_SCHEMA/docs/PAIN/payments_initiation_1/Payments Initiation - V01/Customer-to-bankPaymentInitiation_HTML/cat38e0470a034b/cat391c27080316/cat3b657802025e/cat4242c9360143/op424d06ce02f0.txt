@@ -1,0 +1,1 @@
+If RoutingSummary is present, then RoutingSummary is not allowed within each occurrence of LineItemDetails.  If RoutingSummary is not present, then RoutingSummary is allowed within each occurrence of LineItemDetails.

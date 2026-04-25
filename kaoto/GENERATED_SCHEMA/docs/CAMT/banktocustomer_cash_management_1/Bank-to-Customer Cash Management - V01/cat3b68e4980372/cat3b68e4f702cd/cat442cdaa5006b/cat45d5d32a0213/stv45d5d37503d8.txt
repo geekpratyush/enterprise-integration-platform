@@ -1,0 +1,1 @@
+The account servicer processes the transaction (either received from the account owner, or from another party).

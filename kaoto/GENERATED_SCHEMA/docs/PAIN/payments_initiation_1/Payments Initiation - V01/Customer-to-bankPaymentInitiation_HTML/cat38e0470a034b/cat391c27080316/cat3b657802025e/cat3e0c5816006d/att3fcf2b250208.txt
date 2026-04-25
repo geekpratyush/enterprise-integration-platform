@@ -1,0 +1,1 @@
+Specifies under which conditions a payment should be processed.

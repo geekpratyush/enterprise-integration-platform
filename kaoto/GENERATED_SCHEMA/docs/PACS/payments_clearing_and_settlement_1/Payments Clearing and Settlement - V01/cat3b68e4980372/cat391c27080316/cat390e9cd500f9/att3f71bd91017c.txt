@@ -1,0 +1,1 @@
+Unique identifier for a cross trade, as assigned by the executing party. The identifier must be unique in within a single trading day.

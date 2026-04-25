@@ -1,0 +1,1 @@
+Indicates the financial center taken into account to adjust a date.

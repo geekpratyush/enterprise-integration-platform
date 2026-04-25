@@ -1,0 +1,1 @@
+Party identified as the issuer of an invoice on the face of a commercial invoice.

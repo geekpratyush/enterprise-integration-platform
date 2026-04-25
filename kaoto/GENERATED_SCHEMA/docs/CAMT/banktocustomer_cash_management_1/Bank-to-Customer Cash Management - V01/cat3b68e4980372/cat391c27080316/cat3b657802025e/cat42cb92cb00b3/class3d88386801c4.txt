@@ -1,0 +1,1 @@
+Return provided by a financial instrument.

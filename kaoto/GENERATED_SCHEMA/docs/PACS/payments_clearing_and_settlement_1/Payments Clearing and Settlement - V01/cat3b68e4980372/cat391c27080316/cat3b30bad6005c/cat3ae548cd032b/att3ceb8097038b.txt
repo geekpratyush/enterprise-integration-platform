@@ -1,0 +1,1 @@
+Insufficient money in counterparty's account.

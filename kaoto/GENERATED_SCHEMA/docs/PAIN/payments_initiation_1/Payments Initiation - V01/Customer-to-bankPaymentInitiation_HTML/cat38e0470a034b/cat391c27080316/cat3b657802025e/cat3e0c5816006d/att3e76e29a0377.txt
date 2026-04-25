@@ -1,0 +1,1 @@
+Indicates if the status date and time are requested.

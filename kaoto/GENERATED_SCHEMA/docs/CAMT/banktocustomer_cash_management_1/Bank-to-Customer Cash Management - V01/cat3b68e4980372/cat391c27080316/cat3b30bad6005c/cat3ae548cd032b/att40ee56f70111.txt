@@ -1,0 +1,1 @@
+Transfer or settlement instruction has been sent to the next party, ie, the next intermediary.

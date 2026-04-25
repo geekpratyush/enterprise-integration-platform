@@ -1,0 +1,17 @@
+# kafka-config.yaml (mtls-kafka)
+# This file dynamically configures the Kafka component in the Camel Context.
+# It avoids environment variable mapping issues (underscores vs dots).
+
+- beans:
+    - name: kafka
+      type: org.apache.camel.component.kafka.KafkaComponent
+      properties:
+        brokers: 127.0.0.1:9095
+        securityProtocol: SSL
+        sslKeystoreLocation: "{{env:EIP_CERT_DIR}}/client.keystore.p12"
+        sslKeystorePassword: password
+        sslKeystoreType: PKCS12
+        sslKeyPassword: password
+        sslTruststoreLocation: "{{env:EIP_CERT_DIR}}/audit-truststore.p12"
+        sslTruststorePassword: password
+        sslTruststoreType: PKCS12

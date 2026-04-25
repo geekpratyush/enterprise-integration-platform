@@ -1,0 +1,1 @@
+The OrderPrice element in SecuritiesOrder must be present if the OrderType element in SecuritiesOrderParameters contains the value  LMTO (limit order) or LMCO (limit on close) or LMBT (limit or better) or LIWI (limit with) or LIWO (limit without).

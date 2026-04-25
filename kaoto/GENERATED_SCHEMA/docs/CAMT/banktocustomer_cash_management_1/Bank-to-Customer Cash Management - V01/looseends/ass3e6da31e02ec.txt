@@ -1,0 +1,2 @@
+Characteristics of a bond with a coupon rate that will vary over the instrument's life.
+

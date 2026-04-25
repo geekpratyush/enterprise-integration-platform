@@ -1,0 +1,1 @@
+If BulkCashSettlementDetails is present, then Currency in IndividualOrderDetails/Amount must be the same as IndividualOrderDetails/RequestedSettlementCurrency in all occurrences of IndividualOrderDetails.

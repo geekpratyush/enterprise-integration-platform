@@ -1,0 +1,288 @@
+Entry
+../../../../webviewer/18.jpg
+dgm3d74e6530330.htm
+
+
+
+(
+)
+<<MessageComponent>> Entry3
+../../../../webviewer/143.jpg
+class3fdf095c01d5.htm
+
+
+
+(
+Identification[0..1]
+../../../../webviewer/31.jpg
+att3fdf0ac30041.htm
+
+
+
+(
+)
+Status
+../../../../webviewer/31.jpg
+att3fdf0ac30055.htm
+
+
+
+(
+)
+EntryDate[0..1]
+../../../../webviewer/31.jpg
+att3fdf0ac30069.htm
+
+
+
+(
+)
+ValueDate
+../../../../webviewer/31.jpg
+att3fdf0ac3007d.htm
+
+
+
+(
+)
+Amount
+../../../../webviewer/31.jpg
+att3fdf0ac30091.htm
+
+
+
+(
+)
+CreditDebitIndicator
+../../../../webviewer/31.jpg
+att3fdf0ac300a5.htm
+
+
+
+(
+)
+theCashEntry ( CashEntry )
+../../../../webviewer/82.jpg
+../../../../looseends/role3fdf095c020a.htm
+
+
+
+CurrencyExchange ( CurrencyExchange1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3fdf095c0232.htm
+
+
+
+EntryTypeChoice ( EntryType1Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role3fe06cac037e.htm
+
+
+
+theAccountReport5 ( AccountReport5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3fdf18880145.htm
+
+
+
+)
+<<MessageComponent>> Entry4
+../../../../webviewer/143.jpg
+class3fdf13b10233.htm
+
+
+
+(
+Identification[0..1]
+../../../../webviewer/31.jpg
+att3fdf14cf00f4.htm
+
+
+
+(
+)
+EntryDate
+../../../../webviewer/31.jpg
+att3fdf14cf0108.htm
+
+
+
+(
+)
+ValueDate
+../../../../webviewer/31.jpg
+att3fdf14cf011c.htm
+
+
+
+(
+)
+Amount
+../../../../webviewer/31.jpg
+att3fdf14cf0130.htm
+
+
+
+(
+)
+CreditDebitIndicator
+../../../../webviewer/31.jpg
+att3fdf14cf0144.htm
+
+
+
+(
+)
+theCashEntry ( CashEntry )
+../../../../webviewer/82.jpg
+../../../../looseends/role3fdf13b10256.htm
+
+
+
+CurrencyExchange ( CurrencyExchange1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3fdf13b10290.htm
+
+
+
+EntryTypeChoice ( EntryType1Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role3fe06e350329.htm
+
+
+
+theAccountReport6 ( AccountReport6 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3fdf209d02f8.htm
+
+
+
+)
+Associations
+../../../../webviewer/assoccat.gif
+
+
+
+
+(
+<<SWSTrace>> (theCashEntry:CashEntry) (theEntry3:Entry3)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3fdf095c0207.htm
+../../../../looseends/ass3fdf095c0207.txt
+
+
+(
+CashEntry ( theCashEntry )
+../../../../webviewer/82.jpg
+../../../../looseends/role3fdf095c0208.htm
+
+
+
+Entry3 ( theEntry3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3fdf095c020a.htm
+
+
+
+)
+Association (CurrencyExchange:CurrencyExchange1) (theEntry3:Entry3)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3fdf095c022f.htm
+
+
+
+(
+CurrencyExchange1 ( CurrencyExchange )
+../../../../webviewer/82.jpg
+../../../../looseends/role3fdf095c0230.htm
+
+
+
+Entry3 ( theEntry3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3fdf095c0232.htm
+
+
+
+)
+<<SWSTrace>> (theCashEntry:CashEntry) (theEntry4:Entry4)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3fdf13b10253.htm
+
+
+
+(
+CashEntry ( theCashEntry )
+../../../../webviewer/82.jpg
+../../../../looseends/role3fdf13b10254.htm
+
+
+
+Entry4 ( theEntry4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3fdf13b10256.htm
+
+
+
+)
+Association (CurrencyExchange:CurrencyExchange1) (theEntry4:Entry4)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3fdf13b1028d.htm
+
+
+
+(
+CurrencyExchange1 ( CurrencyExchange )
+../../../../webviewer/82.jpg
+../../../../looseends/role3fdf13b1028e.htm
+
+
+
+Entry4 ( theEntry4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3fdf13b10290.htm
+
+
+
+)
+Association (EntryTypeChoice:EntryType1Choice) (theEntry3:Entry3)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3fe06cac00cb.htm
+../../../../looseends/ass3fe06cac00cb.txt
+
+
+(
+EntryType1Choice ( EntryTypeChoice )
+../../../../webviewer/82.jpg
+../../../../looseends/role3fe06cac032e.htm
+
+
+
+Entry3 ( theEntry3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3fe06cac037e.htm
+
+
+
+)
+Association (EntryTypeChoice:EntryType1Choice) (theEntry4:Entry4)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3fe06e3402af.htm
+../../../../looseends/ass3fe06e3402af.txt
+
+
+(
+EntryType1Choice ( EntryTypeChoice )
+../../../../webviewer/82.jpg
+../../../../looseends/role3fe06e35031f.htm
+../../../../looseends/role3fe06e35031f.txt
+
+
+Entry4 ( theEntry4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3fe06e350329.htm
+
+
+
+)
+)

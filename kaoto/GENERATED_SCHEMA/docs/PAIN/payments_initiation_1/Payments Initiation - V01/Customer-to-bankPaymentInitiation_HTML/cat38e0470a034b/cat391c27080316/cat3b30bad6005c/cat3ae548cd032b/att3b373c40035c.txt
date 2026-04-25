@@ -1,0 +1,1 @@
+Transaction relates to a repo or reverse repo.

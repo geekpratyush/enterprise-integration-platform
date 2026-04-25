@@ -1,0 +1,2 @@
+Amount of money remaining after deduction of charges, commissions and taxes and  used to determine the quantity of investment fund units to be subscribed.
+[Quantity * Price]

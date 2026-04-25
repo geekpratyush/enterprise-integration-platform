@@ -1,0 +1,1 @@
+Party involved in a transaction chain.

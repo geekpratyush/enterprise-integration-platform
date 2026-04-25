@@ -1,0 +1,2 @@
+Specifies the reason for the status of a transfer, in coded form.
+

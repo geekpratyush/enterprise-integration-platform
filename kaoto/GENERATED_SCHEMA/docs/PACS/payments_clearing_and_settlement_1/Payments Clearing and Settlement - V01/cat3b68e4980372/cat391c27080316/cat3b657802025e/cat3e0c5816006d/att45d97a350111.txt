@@ -1,0 +1,1 @@
+Indicates whether the total net entry amount is a credit or a debit amount.

@@ -1,0 +1,1 @@
+Specifies the nature, or  use, of the cash account.

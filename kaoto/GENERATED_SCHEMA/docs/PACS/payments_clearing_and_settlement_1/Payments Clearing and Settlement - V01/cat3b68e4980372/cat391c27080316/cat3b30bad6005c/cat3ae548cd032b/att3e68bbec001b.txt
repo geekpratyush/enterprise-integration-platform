@@ -1,0 +1,1 @@
+Accumulate executions until order is filled or expires.

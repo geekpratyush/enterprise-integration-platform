@@ -1,0 +1,1 @@
+Indicates whether the instructed amount is requested.

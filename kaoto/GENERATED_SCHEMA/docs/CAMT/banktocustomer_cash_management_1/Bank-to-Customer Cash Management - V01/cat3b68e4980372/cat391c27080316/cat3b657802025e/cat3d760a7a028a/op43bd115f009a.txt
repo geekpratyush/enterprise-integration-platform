@@ -1,0 +1,3 @@
+If ReturnReason is equal to 'OTHR', then AddititionalReturnReasonInformation must be present.
+If ReturnReason is different from 'OTHR',  then AdditionalReturnReasonInformation is optional.
+

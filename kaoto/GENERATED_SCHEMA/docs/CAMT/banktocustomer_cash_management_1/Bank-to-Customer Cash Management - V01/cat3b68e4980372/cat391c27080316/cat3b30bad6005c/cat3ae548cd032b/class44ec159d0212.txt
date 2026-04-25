@@ -1,0 +1,1 @@
+Specifies the role played by an actor in an investment fund transaction.

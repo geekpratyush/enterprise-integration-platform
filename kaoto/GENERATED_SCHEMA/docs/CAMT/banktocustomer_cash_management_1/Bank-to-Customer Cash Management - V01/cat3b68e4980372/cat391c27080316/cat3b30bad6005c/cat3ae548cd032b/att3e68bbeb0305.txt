@@ -1,0 +1,1 @@
+Value weighted average price through an afternoon session.

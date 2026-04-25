@@ -1,0 +1,1 @@
+Balance representing the forecast of the total of all cash legs of transactions traded in exchanges that operate a central counterparty functionality.

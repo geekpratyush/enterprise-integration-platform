@@ -1,0 +1,1 @@
+Specifies if a trade party is a buyer or a seller.

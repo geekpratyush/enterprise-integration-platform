@@ -1,0 +1,1 @@
+Either OtherReference or PreviousReference must be present, but not both.

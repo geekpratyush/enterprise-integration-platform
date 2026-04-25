@@ -1,0 +1,3 @@
+Specifies if the statement is complete or only contains changes.
+
+

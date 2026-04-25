@@ -1,0 +1,3 @@
+Further details on the cancellation request information, in an uncoded form.
+
+Usage: Cancellation reason information can be used for several purposes, e.g.  to provide cancellation request reasons.

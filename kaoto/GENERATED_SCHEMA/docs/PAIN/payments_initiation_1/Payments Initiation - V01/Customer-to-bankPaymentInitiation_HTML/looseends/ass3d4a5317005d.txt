@@ -1,0 +1,1 @@
+Payment transaction resulting from the investment fund order execution.

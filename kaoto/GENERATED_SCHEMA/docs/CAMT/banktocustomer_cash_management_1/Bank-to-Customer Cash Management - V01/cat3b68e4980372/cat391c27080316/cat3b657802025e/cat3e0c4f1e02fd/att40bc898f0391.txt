@@ -1,0 +1,1 @@
+Indicates whether the price is expressed as a yield. The absence of Yielded means it is not applicable.

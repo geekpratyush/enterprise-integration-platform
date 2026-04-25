@@ -1,0 +1,2 @@
+Specifies the type of tax in free text form.
+

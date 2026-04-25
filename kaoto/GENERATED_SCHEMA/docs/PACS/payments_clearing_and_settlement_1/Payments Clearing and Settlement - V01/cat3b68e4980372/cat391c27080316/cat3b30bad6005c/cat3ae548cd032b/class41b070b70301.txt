@@ -1,0 +1,1 @@
+Specifies the type of investment fund commission.

@@ -1,0 +1,1 @@
+If SuspendedIndicator is "false" or "0" (No), then PriceDetails must be present. If SuspendedIndicator is "true" or "1" (Yes), then PriceDetails is optional.

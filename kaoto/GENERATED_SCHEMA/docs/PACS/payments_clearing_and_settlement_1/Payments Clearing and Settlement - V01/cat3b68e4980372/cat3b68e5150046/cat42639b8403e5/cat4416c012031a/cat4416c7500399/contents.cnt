@@ -1,0 +1,124 @@
+FinancialInstitutionCreditTransferV01Message
+../../../../../webviewer/18.jpg
+dgm4416c78103d5.htm
+
+
+
+(
+)
+<<Message>> FinancialInstitutionCreditTransferV01
+../../../../../webviewer/141.jpg
+class4416d2c60379.htm
+class4416d2c60379.txt
+
+
+(
+GroupHeader ( GroupHeader4 )
+../../../../../webviewer/82.jpg
+../../../../../looseends/role4416d2c7000a.htm
+
+
+
+CreditTransferTransactionInformation ( CreditTransferTransactionInformation3 )
+../../../../../webviewer/82.jpg
+../../../../../looseends/role4416d2c70048.htm
+
+
+
+<<Textual>> InstructedAgentRule
+../../../../../webviewer/36.jpg
+op4497aa5c03b5.htm
+op4497aa5c03b5.txt
+
+
+(
+)
+<<Textual>> InstructingAgentRule
+../../../../../webviewer/36.jpg
+op4497aa5d0027.htm
+op4497aa5d0027.txt
+
+
+(
+)
+<<Textual>> TotalInterbankSettlementAmount1Rule
+../../../../../webviewer/36.jpg
+op4497ad1101de.htm
+op4497ad1101de.txt
+
+
+(
+)
+<<Textual>> TotalInterbankSettlementAmount2Rule
+../../../../../webviewer/36.jpg
+op4416d2c70078.htm
+op4416d2c70078.txt
+
+
+(
+)
+<<Textual>> InterbankSettlementDateRule
+../../../../../webviewer/36.jpg
+op4416d2c700d2.htm
+op4416d2c700d2.txt
+
+
+(
+)
+<<Textual>> PaymentTypeInformationRule
+../../../../../webviewer/36.jpg
+op449c1ab503cb.htm
+op449c1ab503cb.txt
+
+
+(
+)
+)
+Associations
+../../../../../webviewer/assoccat.gif
+
+
+
+
+(
+Association (GroupHeader:GroupHeader4) (theFinancialInstitutionCreditTransferV01:FinancialInstitutionCreditTransferV01)
+../../../../../webviewer/81.jpg
+../../../../../looseends/ass4416d2c603b6.htm
+../../../../../looseends/ass4416d2c603b6.txt
+
+
+(
+GroupHeader4 ( GroupHeader )
+../../../../../webviewer/82.jpg
+../../../../../looseends/role4416d2c603ca.htm
+
+
+
+FinancialInstitutionCreditTransferV01 ( theFinancialInstitutionCreditTransferV01 )
+../../../../../webviewer/82.jpg
+../../../../../looseends/role4416d2c7000a.htm
+
+
+
+)
+Association (CreditTransferTransactionInformation:CreditTransferTransactionInformation3) (theFinancialInstitutionCreditTransferV01:FinancialInstitutionCreditTransferV01)
+../../../../../webviewer/81.jpg
+../../../../../looseends/ass4416d2c7003c.htm
+../../../../../looseends/ass4416d2c7003c.txt
+
+
+(
+CreditTransferTransactionInformation3 ( CreditTransferTransactionInformation )
+../../../../../webviewer/82.jpg
+../../../../../looseends/role4416d2c70046.htm
+
+
+
+FinancialInstitutionCreditTransferV01 ( theFinancialInstitutionCreditTransferV01 )
+../../../../../webviewer/82.jpg
+../../../../../looseends/role4416d2c70048.htm
+
+
+
+)
+)

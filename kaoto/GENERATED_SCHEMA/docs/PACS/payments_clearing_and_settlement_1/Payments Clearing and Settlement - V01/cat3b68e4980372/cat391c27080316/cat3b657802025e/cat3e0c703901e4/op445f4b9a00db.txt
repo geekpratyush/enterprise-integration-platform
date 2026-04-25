@@ -1,0 +1,1 @@
+Either Type or ExtendedType may be present but not both.

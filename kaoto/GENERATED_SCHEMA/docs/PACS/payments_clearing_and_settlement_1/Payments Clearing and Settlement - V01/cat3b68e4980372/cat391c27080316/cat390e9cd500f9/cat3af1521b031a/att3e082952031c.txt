@@ -1,0 +1,1 @@
+Indicates whether the address is a temporary address.

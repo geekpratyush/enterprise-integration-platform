@@ -1,0 +1,2 @@
+Information regarding the total amount of taxes.
+

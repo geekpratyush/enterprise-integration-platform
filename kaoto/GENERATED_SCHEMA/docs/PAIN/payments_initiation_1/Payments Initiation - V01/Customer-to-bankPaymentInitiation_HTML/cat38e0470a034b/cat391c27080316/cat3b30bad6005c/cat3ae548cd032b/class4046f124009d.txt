@@ -1,0 +1,1 @@
+Specifies the status of a group of payment transactions.

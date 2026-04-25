@@ -1,0 +1,1 @@
+Number used to show the relative position of a party in the transaction chain.

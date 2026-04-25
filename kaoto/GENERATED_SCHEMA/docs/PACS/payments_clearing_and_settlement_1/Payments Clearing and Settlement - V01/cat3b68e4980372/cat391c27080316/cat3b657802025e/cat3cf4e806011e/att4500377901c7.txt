@@ -1,0 +1,1 @@
+Specifies the reference of the transaction at the party identified in the sequence.

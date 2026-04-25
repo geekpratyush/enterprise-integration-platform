@@ -1,0 +1,1 @@
+Returned when a request for cancellation cannot be executed.

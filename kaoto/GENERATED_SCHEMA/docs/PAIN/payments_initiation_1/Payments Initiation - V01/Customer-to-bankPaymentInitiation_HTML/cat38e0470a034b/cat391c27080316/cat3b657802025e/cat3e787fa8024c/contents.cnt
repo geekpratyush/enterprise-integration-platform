@@ -1,0 +1,72 @@
+InformationQualifier
+../../../../webviewer/18.jpg
+dgm3e787fae0162.htm
+
+
+
+(
+)
+<<MessageComponent>> InformationQualifierType
+../../../../webviewer/143.jpg
+class3e76e29b007b.htm
+
+
+
+(
+IsFormatted[0..1]
+../../../../webviewer/31.jpg
+att3e76e29b007d.htm
+
+
+
+(
+)
+Priority[0..1]
+../../../../webviewer/31.jpg
+att3e76e29b007e.htm
+
+
+
+(
+)
+theInformationQualifier ( InformationQualifier )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e78800f02f8.htm
+
+
+
+theGeneralBusinessInformationSearchCriteria ( GeneralBusinessInformationSearchCriteria )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e798a060162.htm
+
+
+
+)
+Associations
+../../../../webviewer/assoccat.gif
+
+
+
+
+(
+<<SWSTrace>> (theInformationQualifier:InformationQualifier) (theInformationQualifierType:InformationQualifierType)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3e78800e026c.htm
+
+
+
+(
+InformationQualifier ( theInformationQualifier )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e78800f02e9.htm
+
+
+
+InformationQualifierType ( theInformationQualifierType )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e78800f02f8.htm
+
+
+
+)
+)

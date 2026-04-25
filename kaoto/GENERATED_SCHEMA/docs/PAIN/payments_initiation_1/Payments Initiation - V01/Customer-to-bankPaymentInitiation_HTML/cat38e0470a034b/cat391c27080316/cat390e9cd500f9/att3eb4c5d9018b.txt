@@ -1,0 +1,1 @@
+Indicates whether the transfer is an own account transfer.

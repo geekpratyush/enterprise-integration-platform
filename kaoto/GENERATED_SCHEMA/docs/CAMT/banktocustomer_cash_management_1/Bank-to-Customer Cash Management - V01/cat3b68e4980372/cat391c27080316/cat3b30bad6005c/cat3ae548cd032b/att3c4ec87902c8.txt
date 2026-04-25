@@ -1,0 +1,1 @@
+Indicates that the trade is executed clean, ie government tax must not be paid on the accrued interest on the bond.

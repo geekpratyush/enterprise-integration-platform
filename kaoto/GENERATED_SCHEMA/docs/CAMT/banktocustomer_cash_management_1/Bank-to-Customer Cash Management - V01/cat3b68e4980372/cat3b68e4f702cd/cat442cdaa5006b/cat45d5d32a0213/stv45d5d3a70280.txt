@@ -1,0 +1,1 @@
+The account servicer books the movement of cash, which is the result of the processed transaction, to the account of the account owner. The booking may include currency conversion and charges.

@@ -1,0 +1,165 @@
+apiVersion: camel.apache.org/v1
+kind: Kamelet
+metadata:
+  name: solace-xa-sink
+  labels:
+    camel.apache.org/kamelet.type: "sink"
+  annotations:
+    camel.apache.org/kamelet.title: "Solace PubSub+ Sink (XA/JTA)"
+    camel.apache.org/kamelet.version: "4.0.0"
+    camel.apache.org/provider: "EIP Platform"
+    camel.apache.org/kamelet.support.level: "Stable"
+    camel.apache.org/kamelet.group: "JMS"
+    camel.apache.org/kamelet.namespace: "Messaging"
+spec:
+  definition:
+    title: "Solace PubSub+ Sink (XA / JTA)"
+    description: >
+      Publishes messages to a Solace PubSub+ queue using a pre-configured XA connection
+      pool enlisted in a JTA (Narayana) distributed transaction.
+      Supports plain (smf://) and TLS-secured (smfs://) connections.
+      XA CONTRACT — these constraints must NOT be overridden:
+        transacted = false     JTA owns the transaction boundary.
+    required:
+      - queuename
+      - host
+      - vpn
+    type: object
+    properties:
+      queuename:
+        title: Queue Name
+        type: string
+        description: Name of the Solace queue to publish messages to.
+      host:
+        title: Broker Host URL
+        type: string
+        description: >
+          Full Solace broker URL including protocol prefix.
+          Use smf://hostname:55555 for plain or smfs://hostname:55443 for TLS.
+        default: "smf://localhost:55555"
+      vpn:
+        title: Message VPN
+        type: string
+        description: Name of the Solace Message VPN to connect to.
+        default: "default"
+      username:
+        title: Username
+        type: string
+        default: ""
+      password:
+        title: Password
+        type: string
+        format: password
+        default: ""
+      transacted:
+        title: Transacted
+        type: boolean
+        description: >
+          XA CONTRACT: must remain false. JTA (Narayana) owns the transaction boundary.
+          Overriding this will break distributed transaction semantics.
+        default: false
+      deliverypersistent:
+        title: Delivery Persistent
+        type: boolean
+        description: Whether messages are published as PERSISTENT (true) or NON_PERSISTENT (false).
+        default: true
+      deliverydelay:
+        title: Delivery Delay (ms)
+        type: integer
+        default: 0
+      timetolive:
+        title: Time To Live (ms)
+        type: integer
+        description: Message expiry in milliseconds. 0 means the message never expires.
+        default: 0
+      maxconnections:
+        title: Max Connections
+        type: integer
+        default: 5
+      sslvalidatecertificate:
+        title: SSL Validate Certificate
+        type: boolean
+        description: >
+          Validate the broker SSL certificate against the trust store.
+          Set false only in development when using self-signed certs without a trust store.
+        default: true
+      sslciphersuites:
+        title: SSL Cipher Suites
+        type: string
+        description: Comma-separated list of TLS cipher suites. Leave empty to use Solace defaults.
+        default: ""
+      ssltruststorepath:
+        title: SSL TrustStore Path
+        type: string
+        description: >
+          Absolute path to the TrustStore file (JKS or PKCS12) containing the CA certificate
+          used to verify the Solace broker identity. Required for one-way SSL and mTLS.
+        default: ""
+      ssltruststorepassword:
+        title: SSL TrustStore Password
+        type: string
+        format: password
+        default: ""
+      ssltruststoreformat:
+        title: SSL TrustStore Format
+        type: string
+        description: Format of the TrustStore file. Accepted values are JKS or PKCS12.
+        default: "PKCS12"
+      sslkeystorepath:
+        title: SSL KeyStore Path
+        type: string
+        description: >
+          Absolute path to the KeyStore file (JKS or PKCS12) containing the client certificate
+          and private key for mutual TLS (mTLS) authentication. Leave empty for one-way SSL.
+        default: ""
+      sslkeystorepassword:
+        title: SSL KeyStore Password
+        type: string
+        format: password
+        default: ""
+      sslkeystoreformat:
+        title: SSL KeyStore Format
+        type: string
+        description: Format of the KeyStore file. Accepted values are JKS or PKCS12.
+        default: "PKCS12"
+
+  template:
+    beans:
+      - name: solaceXAConnectionFactory
+        type: "#class:com.solacesystems.jms.SolJmsUtility"
+        factory-method: "createXAConnectionFactory"
+        properties:
+          host: '{{host}}'
+          vpn: '{{vpn}}'
+          username: '{{username}}'
+          password: '{{password}}'
+          directTransport: false
+          sslValidateCertificate: '{{sslvalidatecertificate}}'
+          sslCipherSuites: '{{?sslciphersuites}}'
+          sslTrustStore: '{{?ssltruststorepath}}'
+          sslTrustStorePassword: '{{?ssltruststorepassword}}'
+          sslTrustStoreFormat: '{{ssltruststoreformat}}'
+          sslKeyStore: '{{?sslkeystorepath}}'
+          sslKeyStorePassword: '{{?sslkeystorepassword}}'
+          sslKeyStoreFormat: '{{sslkeystoreformat}}'
+
+      - name: solaceXAPoolFactory
+        type: "#class:org.messaginghub.pooled.jms.JmsPoolXAConnectionFactory"
+        properties:
+          connectionFactory: '#bean:{{solaceXAConnectionFactory}}'
+          transactionManager: '#bean:transactionManager'
+          maxConnections: '{{maxconnections}}'
+
+    from:
+      uri: "kamelet:source"
+      steps:
+        - to:
+            uri: "jms:queue:{{queuename}}"
+            parameters:
+              connectionFactory: "#bean:{{solaceXAPoolFactory}}"
+              transactionManager: "#bean:jtaTxManager"
+              transacted: "{{transacted}}"
+              deliveryPersistent: "{{deliverypersistent}}"
+              timeToLive: "{{timetolive}}"
+              username: "{{?username}}"
+              password: "{{?password}}"

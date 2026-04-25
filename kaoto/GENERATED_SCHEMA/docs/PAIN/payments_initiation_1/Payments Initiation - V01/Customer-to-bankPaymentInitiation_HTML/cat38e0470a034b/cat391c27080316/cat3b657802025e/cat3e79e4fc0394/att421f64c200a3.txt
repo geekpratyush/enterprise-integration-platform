@@ -1,0 +1,1 @@
+Specifies if the account is debited or credited by the standing order.

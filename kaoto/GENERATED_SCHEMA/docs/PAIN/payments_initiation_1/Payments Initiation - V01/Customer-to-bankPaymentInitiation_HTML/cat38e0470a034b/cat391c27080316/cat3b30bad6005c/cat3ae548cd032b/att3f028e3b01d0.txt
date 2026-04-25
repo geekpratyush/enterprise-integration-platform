@@ -1,0 +1,1 @@
+Identifies whether the securities concerned are/should be fungible/interchangeable or not.

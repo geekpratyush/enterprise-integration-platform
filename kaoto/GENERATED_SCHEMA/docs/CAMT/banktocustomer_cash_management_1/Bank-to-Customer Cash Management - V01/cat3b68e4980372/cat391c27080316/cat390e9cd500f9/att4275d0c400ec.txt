@@ -1,0 +1,1 @@
+Specifies the type of meeting for which an invitation is sent.

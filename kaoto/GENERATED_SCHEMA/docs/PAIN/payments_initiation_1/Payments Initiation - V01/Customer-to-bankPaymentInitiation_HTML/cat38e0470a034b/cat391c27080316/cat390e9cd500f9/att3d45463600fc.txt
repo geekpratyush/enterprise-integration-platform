@@ -1,0 +1,1 @@
+Amount of money used to determine the quantity of investment fund units to be redeemed.

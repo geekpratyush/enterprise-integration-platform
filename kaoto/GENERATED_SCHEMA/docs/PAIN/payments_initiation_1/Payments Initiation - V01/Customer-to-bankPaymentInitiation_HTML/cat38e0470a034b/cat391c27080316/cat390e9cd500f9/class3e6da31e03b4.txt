@@ -1,0 +1,3 @@
+Technique whereby a position in the underlying is traded for a futures position in the physical commodity markets.
+
+

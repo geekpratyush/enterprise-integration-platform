@@ -1,0 +1,2 @@
+Indicates whether the letter of intent available with an investment account should be deleted.
+

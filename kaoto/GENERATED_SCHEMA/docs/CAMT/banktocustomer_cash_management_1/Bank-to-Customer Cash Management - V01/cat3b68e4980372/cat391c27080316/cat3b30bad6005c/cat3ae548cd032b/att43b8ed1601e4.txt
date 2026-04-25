@@ -1,0 +1,1 @@
+Transaction is related to a payment of cable TV bill.

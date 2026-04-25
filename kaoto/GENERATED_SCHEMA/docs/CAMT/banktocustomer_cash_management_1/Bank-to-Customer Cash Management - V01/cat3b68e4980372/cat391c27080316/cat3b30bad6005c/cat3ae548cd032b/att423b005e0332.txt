@@ -1,0 +1,1 @@
+Adjustment amount must be substracted from the total amount.

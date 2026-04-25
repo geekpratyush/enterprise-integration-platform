@@ -1,0 +1,1 @@
+If ChargesInformation/ChargesAmount is present, then the currency of ChargesInformation/ChargesAmount must be the same as the currency of InterbankSettlementAmount.

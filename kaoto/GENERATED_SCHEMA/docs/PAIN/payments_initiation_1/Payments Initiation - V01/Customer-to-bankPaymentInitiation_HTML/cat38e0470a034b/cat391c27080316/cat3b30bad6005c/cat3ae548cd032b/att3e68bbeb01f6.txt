@@ -1,0 +1,1 @@
+Eurobonds that pay coupon interest in one currency and principal in a different currency.

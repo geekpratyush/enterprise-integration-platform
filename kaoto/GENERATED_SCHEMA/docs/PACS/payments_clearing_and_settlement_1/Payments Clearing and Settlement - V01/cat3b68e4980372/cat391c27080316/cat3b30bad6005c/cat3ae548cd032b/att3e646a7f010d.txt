@@ -1,0 +1,1 @@
+Event is the cutoff for interbank payments. 

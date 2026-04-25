@@ -1,0 +1,5 @@
+LegIdentification:changed from mandatory to optional.
+GrossAmountIndicator: deleted.
+RequestedSettlementCurrency: new.
+RequestedNAVCurrency: new.
+GrossAmountIndicatorRule: deleted.

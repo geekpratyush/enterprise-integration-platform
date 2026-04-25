@@ -1,0 +1,1 @@
+Specifies if a limit is a debit limit or a credit limit.

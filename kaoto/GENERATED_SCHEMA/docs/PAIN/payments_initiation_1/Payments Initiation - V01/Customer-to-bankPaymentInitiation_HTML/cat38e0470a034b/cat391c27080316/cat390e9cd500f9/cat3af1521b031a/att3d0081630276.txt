@@ -1,0 +1,1 @@
+Amount specified for the referred document is the amount of a credit note.

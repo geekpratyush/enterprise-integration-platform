@@ -1,0 +1,1 @@
+Indicates whether the boundary amount is included in the range of amount values. 

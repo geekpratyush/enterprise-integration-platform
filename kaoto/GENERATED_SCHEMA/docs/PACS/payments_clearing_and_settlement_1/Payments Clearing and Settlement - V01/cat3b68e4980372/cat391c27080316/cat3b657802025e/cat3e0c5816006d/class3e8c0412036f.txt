@@ -1,0 +1,1 @@
+Defines the criteria which are used to search for an account. A name may be given to the new query.

@@ -1,0 +1,1 @@
+Indicates whether standing instructions have been defined or not. In this case, the intermediary should cast the votes according to these instructions.

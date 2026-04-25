@@ -1,0 +1,1 @@
+Instruction is confirmed in the local market or is ready for settlement, awaiting the next settlement cycle.

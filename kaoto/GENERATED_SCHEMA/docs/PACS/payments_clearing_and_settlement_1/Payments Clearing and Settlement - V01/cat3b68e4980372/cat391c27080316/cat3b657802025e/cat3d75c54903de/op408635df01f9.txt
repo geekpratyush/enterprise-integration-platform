@@ -1,0 +1,2 @@
+If GroupStatus is present, then any occurrence of OriginalPaymentInformation/OriginalTransactionReferenceInformationAndStatus is not allowed.
+If GroupStatus is not present, then at least one occurrence of OriginalPaymentInformation/OriginalTransactionReferenceInformationAndStatus must be present.

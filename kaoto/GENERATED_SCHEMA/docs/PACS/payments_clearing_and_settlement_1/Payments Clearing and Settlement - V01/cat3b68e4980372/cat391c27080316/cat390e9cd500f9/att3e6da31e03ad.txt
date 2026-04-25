@@ -1,0 +1,1 @@
+Indicates the total number of bidders participating to a list trade.

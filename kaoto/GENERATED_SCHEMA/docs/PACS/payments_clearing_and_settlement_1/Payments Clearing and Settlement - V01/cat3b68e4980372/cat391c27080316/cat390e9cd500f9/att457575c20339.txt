@@ -1,0 +1,2 @@
+Identifies the availability date.
+

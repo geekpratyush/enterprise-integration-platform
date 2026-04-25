@@ -1,0 +1,1 @@
+Specifies if executions on a partially-filled good till order should be booked out on the day of execution, or accumulated.

@@ -1,0 +1,1 @@
+The information for the charge calculation on a charge transfer. It defines the calculation method, or value of charge resulting in the charge amount. The charge is expressed as a fixed amount, or percentage of the amount on which the charge is applied.

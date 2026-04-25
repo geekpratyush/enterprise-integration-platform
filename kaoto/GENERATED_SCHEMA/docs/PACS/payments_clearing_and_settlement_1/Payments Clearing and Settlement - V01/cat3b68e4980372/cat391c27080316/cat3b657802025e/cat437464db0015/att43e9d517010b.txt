@@ -1,0 +1,1 @@
+Specifies the type of meeting for which  instructions are sent.

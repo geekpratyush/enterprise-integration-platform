@@ -1,0 +1,1 @@
+Balance representing the total incoming payments that were put on hold because the credit limit has been exceeded.

@@ -1,0 +1,1 @@
+If PrimaryOwner is present, then at least one occurence of PrimaryOwner/Organisation/Address/RegistrationAddressIndicator or of PrimaryOwner/IndividualPerson/Address/RegistrationAddressIndicator must be "true" or "1" (Yes).

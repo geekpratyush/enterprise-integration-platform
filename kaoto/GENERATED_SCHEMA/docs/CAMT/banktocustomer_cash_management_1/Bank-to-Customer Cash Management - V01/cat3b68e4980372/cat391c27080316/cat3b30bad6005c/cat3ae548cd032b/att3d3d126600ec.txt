@@ -1,0 +1,1 @@
+Entity that was given the authority by another entity to act on its behalf.

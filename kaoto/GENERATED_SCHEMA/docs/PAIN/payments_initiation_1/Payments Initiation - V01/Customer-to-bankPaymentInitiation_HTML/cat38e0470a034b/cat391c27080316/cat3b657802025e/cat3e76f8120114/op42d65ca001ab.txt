@@ -1,0 +1,1 @@
+Either InvestmentAccountType or ExtendedInvestmentAccountType may be present, but not both. 

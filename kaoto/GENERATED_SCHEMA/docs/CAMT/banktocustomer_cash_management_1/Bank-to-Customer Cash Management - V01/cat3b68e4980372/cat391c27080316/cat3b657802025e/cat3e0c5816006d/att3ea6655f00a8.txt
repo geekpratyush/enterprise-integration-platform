@@ -1,0 +1,1 @@
+Identification of a quote entry in a quote set.

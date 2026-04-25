@@ -1,0 +1,1 @@
+Record of a transfer of cash debited from an account.

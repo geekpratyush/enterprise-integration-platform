@@ -1,0 +1,1 @@
+Party that issues a payment card, as expressed by a numeric identification of the card issuer according to ISO/IEC 7812-1.

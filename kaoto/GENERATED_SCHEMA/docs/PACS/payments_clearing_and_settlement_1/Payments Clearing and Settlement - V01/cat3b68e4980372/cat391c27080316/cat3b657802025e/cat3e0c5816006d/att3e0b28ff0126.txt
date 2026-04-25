@@ -1,0 +1,2 @@
+Indicates whether the language assigned to an investment account should be deleted.
+

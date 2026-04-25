@@ -1,0 +1,340 @@
+MessageAndBusinessReference
+../../../../webviewer/18.jpg
+dgm42c501fe0145.htm
+
+
+
+(
+)
+<<MessageComponent>> MessageAndBusinessReference1
+../../../../webviewer/143.jpg
+class410f44de0212.htm
+class410f44de0212.txt
+
+
+(
+TransferReference[0..1]
+../../../../webviewer/31.jpg
+att410f45650053.htm
+att410f45650053.txt
+
+
+(
+)
+InvestmentAccountDetails ( InvestmentAccount10 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4180d9860067.htm
+
+
+
+theTransfer ( Transfer )
+../../../../webviewer/82.jpg
+../../../../looseends/role41371c4b006f.htm
+
+
+
+PreviousReference ( AdditionalReference2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role412db46000e7.htm
+
+
+
+OtherReference ( AdditionalReference2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role412db4620339.htm
+
+
+
+<<XOR>> PreviousReferenceOrOtherReferenceRule
+../../../../webviewer/34.jpg
+op410f464d016f.htm
+op410f464d016f.txt
+
+
+(
+)
+<<Textual>> OtherReferenceRule
+../../../../webviewer/36.jpg
+op41809eeb029d.htm
+op41809eeb029d.txt
+
+
+(
+)
+<<Textual>> PreviousReferenceRule
+../../../../webviewer/36.jpg
+op41809f7f0125.htm
+op41809f7f0125.txt
+
+
+(
+)
+)
+<<MessageComponent>> InvestmentAccount10
+../../../../webviewer/143.jpg
+class3e380dcb0079.htm
+
+
+
+(
+OwnerIdentification [0..n]
+../../../../webviewer/31.jpg
+att3e3e8def00b0.htm
+
+
+
+(
+)
+AccountIdentification
+../../../../webviewer/31.jpg
+att3e3e8def002e.htm
+
+
+
+(
+)
+AccountName [0..1]
+../../../../webviewer/31.jpg
+att3e3e8dee039d.htm
+
+
+
+(
+)
+AccountDesignation [0..1]
+../../../../webviewer/31.jpg
+att3e3e8dee03e4.htm
+
+
+
+(
+)
+IntermediaryInformation [0..n]
+../../../../webviewer/31.jpg
+att3e3e8def0074.htm
+
+
+
+(
+)
+SecuritiesForm [0..1]
+../../../../webviewer/31.jpg
+att3e3e8def01be.htm
+
+
+
+(
+)
+DematerialisedIndicator [0..1]
+../../../../webviewer/31.jpg
+att3eba363c01ff.htm
+
+
+
+(
+)
+IncomePreference [0..1]
+../../../../webviewer/31.jpg
+att3ec215d30077.htm
+
+
+
+(
+)
+BeneficiaryCertificationIndicator[0..1]
+../../../../webviewer/31.jpg
+att3ec21acc032a.htm
+
+
+
+(
+)
+SafekeepingPlace [0..1]
+../../../../webviewer/31.jpg
+att3e4ce98c0284.htm
+
+
+
+(
+)
+AccountServicer[0..1]
+../../../../webviewer/31.jpg
+att3f97ddb20280.htm
+
+
+
+(
+)
+theTransferIn1 ( TransferIn1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3eaf9848026a.htm
+
+
+
+theTransferIn2 ( TransferIn2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role40991224037c.htm
+
+
+
+theTransferOut1 ( TransferOut1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3eaf8f3f0213.htm
+
+
+
+theTransferOut2 ( TransferOut2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role40990e350376.htm
+
+
+
+theMessageAndBusinessReference1 ( MessageAndBusinessReference1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4180d9860068.htm
+
+
+
+theInvestmentAccount ( InvestmentAccount )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f1263140196.htm
+
+
+
+)
+<<MessageComponent>> AdditionalReference2
+../../../../webviewer/143.jpg
+class3fb8919a01b5.htm
+class3fb8919a01b5.txt
+
+
+(
+Reference
+../../../../webviewer/33.jpg
+att3fb891e10138.htm
+att3fb891e10138.txt
+
+
+(
+)
+ReferenceIssuer[0..1]
+../../../../webviewer/33.jpg
+att3fb891e101b5.htm
+att3fb891e101b5.txt
+
+
+(
+)
+MessageName[0..1]
+../../../../webviewer/33.jpg
+att3fb891e10203.htm
+att3fb891e10203.txt
+
+
+(
+)
+theRejectionReason1 ( RejectionReason1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role412dd8880093.htm
+
+
+
+theRejectionReason1 ( RejectionReason1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role417f5785006f.htm
+
+
+
+theRejectionReason1 ( RejectionReason1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role417f57da02c1.htm
+
+
+
+theMessageAndBusinessReference1 ( MessageAndBusinessReference1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role412db460006f.htm
+
+
+
+theMessageAndBusinessReference1 ( MessageAndBusinessReference1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role412db46202fc.htm
+
+
+
+theAdditionalReference3 ( AdditionalReference3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41aaec660070.htm
+
+
+
+)
+Associations
+../../../../webviewer/assoccat.gif
+
+
+
+
+(
+<<SWSTrace>> (theTransfer:Transfer) (theMessageAndBusinessReference1:MessageAndBusinessReference1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass41371c4a023b.htm
+
+
+
+(
+Transfer ( theTransfer )
+../../../../webviewer/82.jpg
+../../../../looseends/role41371c4a0353.htm
+
+
+
+MessageAndBusinessReference1 ( theMessageAndBusinessReference1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41371c4b006f.htm
+
+
+
+)
+Association (PreviousReference:AdditionalReference2) (theMessageAndBusinessReference1:MessageAndBusinessReference1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass412db45f0135.htm
+../../../../looseends/ass412db45f0135.txt
+
+
+(
+AdditionalReference2 ( PreviousReference )
+../../../../webviewer/82.jpg
+../../../../looseends/role412db460006f.htm
+
+
+
+MessageAndBusinessReference1 ( theMessageAndBusinessReference1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role412db46000e7.htm
+
+
+
+)
+Association (OtherReference:AdditionalReference2) (theMessageAndBusinessReference1:MessageAndBusinessReference1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass412db4620017.htm
+../../../../looseends/ass412db4620017.txt
+
+
+(
+AdditionalReference2 ( OtherReference )
+../../../../webviewer/82.jpg
+../../../../looseends/role412db46202fc.htm
+
+
+
+MessageAndBusinessReference1 ( theMessageAndBusinessReference1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role412db4620339.htm
+
+
+
+)
+)

@@ -1,0 +1,1 @@
+Party that provides electronic trade confirmation services to its clients, eg, trade and allocation matching.

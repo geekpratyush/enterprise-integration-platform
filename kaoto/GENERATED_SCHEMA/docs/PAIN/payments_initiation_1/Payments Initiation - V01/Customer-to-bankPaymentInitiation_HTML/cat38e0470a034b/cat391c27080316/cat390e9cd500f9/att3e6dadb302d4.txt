@@ -1,0 +1,2 @@
+Identifies the new factor expressed as a decimal between 0 and 1 defining 
+the outstanding principal of  the bond (for asset or mortgage backed securities).

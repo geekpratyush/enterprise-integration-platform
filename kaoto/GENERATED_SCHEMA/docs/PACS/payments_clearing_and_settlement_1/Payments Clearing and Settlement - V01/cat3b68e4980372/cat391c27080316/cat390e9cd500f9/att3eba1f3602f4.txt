@@ -1,0 +1,1 @@
+Indicates whether the valuation of the investment fund class is suspended.

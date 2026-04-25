@@ -1,0 +1,1 @@
+Date by which the securities should be blocked. This deadline is set by the issuer. (STP mode)

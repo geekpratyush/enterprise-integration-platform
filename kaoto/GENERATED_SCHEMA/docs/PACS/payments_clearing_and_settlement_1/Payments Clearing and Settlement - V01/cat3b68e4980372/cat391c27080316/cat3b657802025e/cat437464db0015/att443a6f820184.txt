@@ -1,0 +1,1 @@
+Indicates that no proxy is allowed for a meeting.

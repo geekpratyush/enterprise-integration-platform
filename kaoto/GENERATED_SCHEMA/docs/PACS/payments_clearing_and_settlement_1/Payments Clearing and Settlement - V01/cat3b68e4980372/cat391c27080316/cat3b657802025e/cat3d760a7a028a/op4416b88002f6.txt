@@ -1,0 +1,1 @@
+If TotalInterbankSettlementAmount is present, then InterbankSettlementDate must be present.

@@ -1,0 +1,1 @@
+Unit used to qualify an amount.

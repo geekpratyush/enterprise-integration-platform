@@ -1,0 +1,1 @@
+Type of charge expressed either in free format or in structured or free form.

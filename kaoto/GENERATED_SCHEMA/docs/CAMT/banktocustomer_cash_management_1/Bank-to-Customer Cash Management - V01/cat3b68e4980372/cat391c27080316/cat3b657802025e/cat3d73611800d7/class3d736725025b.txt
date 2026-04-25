@@ -1,0 +1,1 @@
+Choice between a date or a date and time format.

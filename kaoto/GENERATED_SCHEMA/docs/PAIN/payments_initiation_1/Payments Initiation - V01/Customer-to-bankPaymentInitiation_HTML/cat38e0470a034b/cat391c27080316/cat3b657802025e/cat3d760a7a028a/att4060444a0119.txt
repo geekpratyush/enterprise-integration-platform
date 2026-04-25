@@ -1,0 +1,4 @@
+Unambiguous identification of the nostro account of the final agent at an intermediary.
+
+Usage :the final agent account information provides information for interbank settlement purposes. The element may be used in several ways, eg, building society scenarios (in case the nostro account of the building society at the clearing agent needs to be specified) or scenarios where the nostro account information of the final agent is part of the information provided by the creditor to the debtor for inclusion in the payment initiation. 
+

@@ -1,0 +1,1 @@
+Type, eg, bilateral or multilateral, of risk management limit as set by default in the system. The default limit is applicable by the system unless otherwise instructed.

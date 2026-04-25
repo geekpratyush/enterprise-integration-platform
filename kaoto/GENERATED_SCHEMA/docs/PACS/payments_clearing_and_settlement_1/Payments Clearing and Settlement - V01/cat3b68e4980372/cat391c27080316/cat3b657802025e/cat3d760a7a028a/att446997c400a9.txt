@@ -1,0 +1,1 @@
+Specifies the underlying reason for the payment transaction, as published in an external purpose code list.

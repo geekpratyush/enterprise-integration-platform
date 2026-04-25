@@ -1,0 +1,1 @@
+Request for cancellation instruction for the order has been accepted and processed; the order  has been cancelled.

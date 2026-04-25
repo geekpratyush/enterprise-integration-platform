@@ -1,0 +1,2 @@
+The number of fractional digits (or minor unit of currency) must comply with ISO 4217.
+Note: The decimal separator is a dot.

@@ -1,0 +1,4 @@
+Reference assigned by a requestor party to unambiguously identify the global invoice financing request sent. 
+
+Usage: this reference is used between the requestor party and the forwarding or first agent to refer  to the request containing invoices to be financed. It can be used in status messages,  between the forwarding or first agent and the requestor party.
+

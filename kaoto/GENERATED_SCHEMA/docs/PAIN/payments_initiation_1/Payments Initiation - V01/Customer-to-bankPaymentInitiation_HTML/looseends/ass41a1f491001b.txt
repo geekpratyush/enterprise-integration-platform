@@ -1,0 +1,3 @@
+PreviousTotalNAV: new.
+PreviousTotalUnitsNumber: new.
+ExceptionalCashFlowIndicatorRule: new.

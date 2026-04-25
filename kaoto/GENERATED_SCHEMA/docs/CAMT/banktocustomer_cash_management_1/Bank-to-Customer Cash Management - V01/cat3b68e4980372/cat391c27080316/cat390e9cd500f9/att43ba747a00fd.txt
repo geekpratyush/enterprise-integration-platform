@@ -1,0 +1,1 @@
+Indicates whether the trade is to be settled as principal or netted off against another trade.

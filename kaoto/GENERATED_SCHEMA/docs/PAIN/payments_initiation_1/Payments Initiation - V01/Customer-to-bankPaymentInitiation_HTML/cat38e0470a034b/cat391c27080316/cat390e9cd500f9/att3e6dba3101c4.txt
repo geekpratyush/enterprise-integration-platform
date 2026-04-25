@@ -1,0 +1,1 @@
+Indicates the relative quality of the indication of interest.

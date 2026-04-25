@@ -1,0 +1,4 @@
+Date and time when an entry is posted to an account on the account servicer's books.
+
+Usage : Booking date is only present if Status is booked.
+

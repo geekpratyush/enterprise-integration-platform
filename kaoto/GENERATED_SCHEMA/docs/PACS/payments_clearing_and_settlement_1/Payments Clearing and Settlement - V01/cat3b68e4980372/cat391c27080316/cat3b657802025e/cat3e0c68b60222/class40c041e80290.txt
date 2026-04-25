@@ -1,0 +1,2 @@
+Type of tax expressed in structured or free text form.
+

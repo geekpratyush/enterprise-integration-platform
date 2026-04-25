@@ -1,0 +1,1 @@
+Amount of money resulting from a foreign exchange conversion.

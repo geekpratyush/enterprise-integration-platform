@@ -1,0 +1,1 @@
+Multiplier cannot be equal to zero.

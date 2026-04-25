@@ -1,0 +1,1 @@
+Payment system that clears physical or truncated cheques and settles the proceeds in a lump sum, usually on a multilateral netting basis.

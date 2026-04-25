@@ -1,0 +1,1 @@
+Expresses an amount or an amount range with the currency and where the credit/debit indicator is explicit.

@@ -1,0 +1,1 @@
+An order pegged against the primary market where the financial instrument is traded. It is relative to the offering if buying and relative to the bid if selling.

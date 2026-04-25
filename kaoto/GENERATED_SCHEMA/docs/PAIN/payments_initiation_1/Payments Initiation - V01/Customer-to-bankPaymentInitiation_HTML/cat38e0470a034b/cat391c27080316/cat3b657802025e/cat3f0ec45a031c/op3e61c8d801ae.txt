@@ -1,0 +1,1 @@
+Currency in PriceChange/Amount must be the same as Currency.

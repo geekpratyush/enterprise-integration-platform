@@ -1,0 +1,10 @@
+Scenario : reject of group by forwarding agent.
+
+In this scenario, the forwarding agent receives a group with multiple single transactions. 
+The forwarding agent rejects the complete group as the percentage of individual faulty transactions has exceeded a pre-agreed treshold between initiating party and forwarding agent.
+
+The forwarding agent rejects the complete group and sends a status message to inform the initiating party, referring to the original group and indicating the reason for reject of the group.
+
+Information needed by the initiating party to reconcile the reject with payment initiation sent :
+Group ID, requested execution date, possibly payment type identification details, name of message type sent, debtor's account details and debtor identification.
+

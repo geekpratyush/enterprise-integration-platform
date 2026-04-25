@@ -1,0 +1,1 @@
+Indicates whether tax is included in the interest transfer. 

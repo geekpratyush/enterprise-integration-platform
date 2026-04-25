@@ -1,0 +1,1 @@
+Date by which the securities have to be registered. This deadline is specified by an intermediary (STP mode).

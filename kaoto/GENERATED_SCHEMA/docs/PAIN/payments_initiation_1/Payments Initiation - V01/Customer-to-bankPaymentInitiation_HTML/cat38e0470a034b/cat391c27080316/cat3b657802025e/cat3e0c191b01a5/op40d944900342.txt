@@ -1,0 +1,1 @@
+If PlaceSafekeeping is not SHHE, then Party is mandatory. If PlaceSafekeeping is SHHE, then Party is optional.

@@ -1,0 +1,1 @@
+Payment method, eg, cheque or payment card, is not accepted.

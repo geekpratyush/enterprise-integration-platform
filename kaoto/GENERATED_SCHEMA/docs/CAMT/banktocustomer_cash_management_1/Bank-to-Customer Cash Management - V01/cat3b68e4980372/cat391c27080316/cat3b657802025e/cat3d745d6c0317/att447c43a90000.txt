@@ -1,0 +1,1 @@
+Total of all individual amounts included in the original message, irrespective of currencies.

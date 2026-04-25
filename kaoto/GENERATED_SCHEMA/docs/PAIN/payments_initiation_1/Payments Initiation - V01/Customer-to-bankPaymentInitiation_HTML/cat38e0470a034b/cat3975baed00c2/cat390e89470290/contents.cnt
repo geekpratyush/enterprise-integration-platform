@@ -1,0 +1,1822 @@
+BusinessProcessDiagram
+../../../webviewer/26.jpg
+dgm3eb92217024c.htm
+
+
+
+(
+)
+<<business use case>> Process customer-to-bank Payment
+../../../webviewer/121.jpg
+uc3ae7e696007b.htm
+uc3ae7e696007b.txt
+
+
+(
+theOrder customer-to-bank payment ( Order customer-to-bank payment )
+../../../webviewer/82.jpg
+../../../looseends/role3bf914cd02bb.htm
+
+
+
+theAccept customer-to-bank payment ( Accept customer-to-bank payment )
+../../../webviewer/82.jpg
+../../../looseends/role3dec98f20006.htm
+
+
+
+theProcess E2E payment transaction ( Process E2E payment transaction )
+../../../webviewer/82.jpg
+../../../looseends/role3def62c503c5.htm
+
+
+
+theSettle customer-to-bank payment ( Settle customer-to-bank payment )
+../../../webviewer/82.jpg
+../../../looseends/role3df74f610036.htm
+
+
+
+theClear customer-to-bank payment ( Clear customer-to-bank payment )
+../../../webviewer/82.jpg
+../../../looseends/role3df750850053.htm
+
+
+
+)
+(
+)
+<<business use case>> Process inter-bank payment
+../../../webviewer/121.jpg
+uc3ae7ea270223.htm
+uc3ae7ea270223.txt
+
+
+(
+theSettle  interbank payment ( Settle  interbank payment )
+../../../webviewer/82.jpg
+../../../looseends/role3bf26fde0209.htm
+
+
+
+theProcess E2E payment transaction ( Process E2E payment transaction )
+../../../webviewer/82.jpg
+../../../looseends/role3bf914e40016.htm
+
+
+
+theSettle  interbank payment ( Settle  interbank payment )
+../../../webviewer/82.jpg
+../../../looseends/role3bf915180117.htm
+
+
+
+theReport ( Report )
+../../../webviewer/82.jpg
+../../../looseends/role3dec876d028a.htm
+
+
+
+theAccept interbank payment ( Accept interbank payment )
+../../../webviewer/82.jpg
+../../../looseends/role3def770d0122.htm
+
+
+
+theClear interbank payment ( Clear interbank payment )
+../../../webviewer/82.jpg
+../../../looseends/role3e4b8c090314.htm
+
+
+
+)
+(
+)
+<<business use case>> Order customer-to-bank payment
+../../../webviewer/121.jpg
+uc3b4a8c8d01fb.htm
+uc3b4a8c8d01fb.txt
+
+
+(
+theProcess customer-to-bank Payment ( Process customer-to-bank Payment )
+../../../webviewer/82.jpg
+../../../looseends/role3bf914cd02b1.htm
+
+
+
+theInitiatingParty ( InitiatingParty )
+../../../webviewer/82.jpg
+../../../looseends/role3dddf01500fc.htm
+
+
+
+theAuthorize ( Authorize )
+../../../webviewer/82.jpg
+../../../looseends/role3e4b8c7e02e8.htm
+
+
+
+)
+(
+)
+<<business use case>> Settle  interbank payment
+../../../webviewer/121.jpg
+uc3bf2697200f5.htm
+uc3bf2697200f5.txt
+
+
+(
+theProcess inter-bank payment ( Process inter-bank payment )
+../../../webviewer/82.jpg
+../../../looseends/role3bf26fde0207.htm
+
+
+
+theProcess inter-bank payment ( Process inter-bank payment )
+../../../webviewer/82.jpg
+../../../looseends/role3bf915180115.htm
+
+
+
+thePaymentSettlementAgent ( PaymentSettlementAgent )
+../../../webviewer/82.jpg
+../../../looseends/role3dddf0350199.htm
+
+
+
+)
+(
+)
+<<business use case>> Clear customer-to-bank payment
+../../../webviewer/121.jpg
+uc3db7ae0100c0.htm
+uc3db7ae0100c0.txt
+
+
+(
+theProcess customer-to-bank Payment ( Process customer-to-bank Payment )
+../../../webviewer/82.jpg
+../../../looseends/role3df750840251.htm
+
+
+
+theSort customer-to-bank payment ( Sort customer-to-bank payment )
+../../../webviewer/82.jpg
+../../../looseends/role3e4b8d9900de.htm
+
+
+
+thePrepare onward interbank payment(1) ( Prepare onward interbank payment(1) )
+../../../webviewer/82.jpg
+../../../looseends/role3e4b8d9b0236.htm
+
+
+
+theForwardingAgent ( ForwardingAgent )
+../../../webviewer/82.jpg
+../../../looseends/role3e4b91f3017f.htm
+
+
+
+theFirstAgent ( FirstAgent )
+../../../webviewer/82.jpg
+../../../looseends/role3e4b91f80230.htm
+
+
+
+)
+(
+)
+<<business use case>> Report
+../../../webviewer/121.jpg
+uc3dec875701b4.htm
+uc3dec875701b4.txt
+
+
+(
+theProcess inter-bank payment ( Process inter-bank payment )
+../../../webviewer/82.jpg
+../../../looseends/role3dec876d0288.htm
+
+
+
+theReport on payment transaction status ( Report on payment transaction status )
+../../../webviewer/82.jpg
+../../../looseends/role3dec8e6a0340.htm
+
+
+
+theReport on payment transaction's financial impact ( Report on payment transaction's financial impact )
+../../../webviewer/82.jpg
+../../../looseends/role3dec8e6d0309.htm
+
+
+
+theProcess E2E payment transaction ( Process E2E payment transaction )
+../../../webviewer/82.jpg
+../../../looseends/role3def66a6034b.htm
+
+
+
+theFirstAgent ( FirstAgent )
+../../../webviewer/82.jpg
+../../../looseends/role3def6d50002d.htm
+
+
+
+theFinalAgent ( FinalAgent )
+../../../webviewer/82.jpg
+../../../looseends/role3def6d560112.htm
+
+
+
+theReconcile ( Reconcile )
+../../../webviewer/82.jpg
+../../../looseends/role3e4b8e9103d4.htm
+
+
+
+thePaymentSettlementAgent ( PaymentSettlementAgent )
+../../../webviewer/82.jpg
+../../../looseends/role3e4b8f9f01dc.htm
+
+
+
+)
+(
+)
+<<business use case>> Report on payment transaction status
+../../../webviewer/121.jpg
+uc3dec8e4f0336.htm
+uc3dec8e4f0336.txt
+
+
+(
+theReport ( Report )
+../../../webviewer/82.jpg
+../../../looseends/role3dec8e6a033e.htm
+
+
+
+theInitiatingParty ( InitiatingParty )
+../../../webviewer/82.jpg
+../../../looseends/role3df74d240050.htm
+
+
+
+theInitiatingParty ( InitiatingParty )
+../../../webviewer/82.jpg
+../../../looseends/role3e4b9027037c.htm
+
+
+
+theCreditParty ( CreditParty )
+../../../webviewer/82.jpg
+../../../looseends/role3e4b903d002a.htm
+
+
+
+theDebitParty ( DebitParty )
+../../../webviewer/82.jpg
+../../../looseends/role3e4b904200b4.htm
+
+
+
+)
+(
+)
+<<business use case>> Report on payment transaction's financial impact
+../../../webviewer/121.jpg
+uc3dec8e610241.htm
+uc3dec8e610241.txt
+
+
+(
+theReport ( Report )
+../../../webviewer/82.jpg
+../../../looseends/role3dec8e6d0307.htm
+
+
+
+theDebtor ( Debtor )
+../../../webviewer/82.jpg
+../../../looseends/role3df74b9c01d2.htm
+
+
+
+theCreditParty ( CreditParty )
+../../../webviewer/82.jpg
+../../../looseends/role3e4b8fdc0324.htm
+
+
+
+theDebitParty ( DebitParty )
+../../../webviewer/82.jpg
+../../../looseends/role3e4b8fe70243.htm
+
+
+
+)
+(
+)
+<<business use case>> Accept customer-to-bank payment
+../../../webviewer/121.jpg
+uc3dec98dc0285.htm
+uc3dec98dc0285.txt
+
+
+(
+theProcess customer-to-bank Payment ( Process customer-to-bank Payment )
+../../../webviewer/82.jpg
+../../../looseends/role3dec98f103e4.htm
+
+
+
+theValidate customer-to-bank payment ( Validate customer-to-bank payment )
+../../../webviewer/82.jpg
+../../../looseends/role3dec9907021b.htm
+
+
+
+theAssess customer-to-bank payment risk ( Assess customer-to-bank payment risk )
+../../../webviewer/82.jpg
+../../../looseends/role3dec991d0224.htm
+
+
+
+theCheck authorization customer-to-bank payment ( Check authorization customer-to-bank payment )
+../../../webviewer/82.jpg
+../../../looseends/role3def5b3200d8.htm
+
+
+
+theFirstAgent ( FirstAgent )
+../../../webviewer/82.jpg
+../../../looseends/role3e4b921c00b5.htm
+
+
+
+theForwardingAgent ( ForwardingAgent )
+../../../webviewer/82.jpg
+../../../looseends/role3e4b92220082.htm
+
+
+
+)
+(
+)
+<<business use case>> Validate customer-to-bank payment
+../../../webviewer/121.jpg
+uc3dec98fb01ad.htm
+uc3dec98fb01ad.txt
+
+
+(
+theAccept customer-to-bank payment ( Accept customer-to-bank payment )
+../../../webviewer/82.jpg
+../../../looseends/role3dec99070219.htm
+
+
+
+)
+(
+)
+<<business use case>> Assess customer-to-bank payment risk
+../../../webviewer/121.jpg
+uc3dec99110014.htm
+uc3dec99110014.txt
+
+
+(
+theAccept customer-to-bank payment ( Accept customer-to-bank payment )
+../../../webviewer/82.jpg
+../../../looseends/role3dec991d021a.htm
+
+
+
+theGenerate regulatory reporting information ( Generate regulatory reporting information )
+../../../webviewer/82.jpg
+../../../looseends/role3e4b8d4001c5.htm
+
+
+
+)
+(
+)
+<<business use case>> Check authorization customer-to-bank payment
+../../../webviewer/121.jpg
+uc3def5b250043.htm
+uc3def5b250043.txt
+
+
+(
+theAccept customer-to-bank payment ( Accept customer-to-bank payment )
+../../../webviewer/82.jpg
+../../../looseends/role3def5b3103d9.htm
+
+
+
+)
+(
+)
+<<business use case>> Process E2E payment transaction
+../../../webviewer/121.jpg
+uc3def620c01de.htm
+uc3def620c01de.txt
+
+
+(
+theProcess inter-bank payment ( Process inter-bank payment )
+../../../webviewer/82.jpg
+../../../looseends/role3bf914e40020.htm
+
+
+
+theProcess customer-to-bank Payment ( Process customer-to-bank Payment )
+../../../webviewer/82.jpg
+../../../looseends/role3def62c60019.htm
+
+
+
+theReport ( Report )
+../../../webviewer/82.jpg
+../../../looseends/role3def66a6035f.htm
+
+
+
+)
+(
+)
+<<business use case>> Accept interbank payment
+../../../webviewer/121.jpg
+uc3def76fe03dd.htm
+uc3def76fe03dd.txt
+
+
+(
+theProcess inter-bank payment ( Process inter-bank payment )
+../../../webviewer/82.jpg
+../../../looseends/role3def770c0329.htm
+
+
+
+theValidate interbank payment ( Validate interbank payment )
+../../../webviewer/82.jpg
+../../../looseends/role3def78f4035d.htm
+
+
+
+theAssess interbank payment risk ( Assess interbank payment risk )
+../../../webviewer/82.jpg
+../../../looseends/role3def78f70162.htm
+
+
+
+)
+(
+)
+<<business use case>> Validate interbank payment
+../../../webviewer/121.jpg
+uc3def78da0201.htm
+uc3def78da0201.txt
+
+
+(
+theAccept interbank payment ( Accept interbank payment )
+../../../webviewer/82.jpg
+../../../looseends/role3def78f40186.htm
+
+
+
+thePaymentClearingAgent ( PaymentClearingAgent )
+../../../webviewer/82.jpg
+../../../looseends/role3def796f009d.htm
+
+
+
+)
+(
+)
+<<business use case>> Assess interbank payment risk
+../../../webviewer/121.jpg
+uc3def78ea02d6.htm
+uc3def78ea02d6.txt
+
+
+(
+theAccept interbank payment ( Accept interbank payment )
+../../../webviewer/82.jpg
+../../../looseends/role3def78f7013a.htm
+
+
+
+thePaymentSettlementAgent ( PaymentSettlementAgent )
+../../../webviewer/82.jpg
+../../../looseends/role3def798b0129.htm
+
+
+
+)
+(
+)
+<<business use case>> Sort interbank payment
+../../../webviewer/121.jpg
+uc3def7b9502e2.htm
+uc3def7b9502e2.txt
+
+
+(
+theClear interbank payment ( Clear interbank payment )
+../../../webviewer/82.jpg
+../../../looseends/role3def7bce03ad.htm
+
+
+
+)
+(
+)
+<<business use case>> Prepare onward interbank payment (2)
+../../../webviewer/121.jpg
+uc3def7bc00136.htm
+uc3def7bc00136.txt
+
+
+(
+theGenerate regulatory reporting information ( Generate regulatory reporting information )
+../../../webviewer/82.jpg
+../../../looseends/role3def7bc0034a.htm
+
+
+
+theClear interbank payment ( Clear interbank payment )
+../../../webviewer/82.jpg
+../../../looseends/role3def7bd101c6.htm
+
+
+
+)
+(
+)
+<<business use case>> Generate regulatory reporting information
+../../../webviewer/121.jpg
+uc3def7bc00354.htm
+uc3def7bc00354.txt
+
+
+(
+thePrepare onward interbank payment (2) ( Prepare onward interbank payment (2) )
+../../../webviewer/82.jpg
+../../../looseends/role3def7bc00353.htm
+
+
+
+theAssess customer-to-bank payment risk ( Assess customer-to-bank payment risk )
+../../../webviewer/82.jpg
+../../../looseends/role3e4b8d4001c7.htm
+
+
+
+theFinalAgent ( FinalAgent )
+../../../webviewer/82.jpg
+../../../looseends/role3e4b909400c6.htm
+
+
+
+theFinalAgent ( FinalAgent )
+../../../webviewer/82.jpg
+../../../looseends/role3e4b90a8034f.htm
+
+
+
+)
+(
+)
+<<business use case>> Calculate the settlement positions
+../../../webviewer/121.jpg
+uc3def7bc0035d.htm
+uc3def7bc0035d.txt
+
+
+(
+theClear interbank payment ( Clear interbank payment )
+../../../webviewer/82.jpg
+../../../looseends/role3def7bd401e9.htm
+
+
+
+)
+(
+)
+<<business use case>> Settle customer-to-bank payment
+../../../webviewer/121.jpg
+uc3df74f44005c.htm
+uc3df74f44005c.txt
+
+
+(
+theProcess customer-to-bank Payment ( Process customer-to-bank Payment )
+../../../webviewer/82.jpg
+../../../looseends/role3df74f61000d.htm
+
+
+
+theDebtor ( Debtor )
+../../../webviewer/82.jpg
+../../../looseends/role3e4b913100a3.htm
+
+
+
+theCreditor ( Creditor )
+../../../webviewer/82.jpg
+../../../looseends/role3e4b9162005e.htm
+
+
+
+theFinalAgent ( FinalAgent )
+../../../webviewer/82.jpg
+../../../looseends/role3e4b916702be.htm
+
+
+
+theFirstAgent ( FirstAgent )
+../../../webviewer/82.jpg
+../../../looseends/role3e4b916d015e.htm
+
+
+
+)
+(
+)
+<<business use case>> Clear interbank payment
+../../../webviewer/121.jpg
+uc3e4b8b3d023c.htm
+uc3e4b8b3d023c.txt
+
+
+(
+theSort interbank payment ( Sort interbank payment )
+../../../webviewer/82.jpg
+../../../looseends/role3def7bce03c1.htm
+
+
+
+thePrepare onward interbank payment (2) ( Prepare onward interbank payment (2) )
+../../../webviewer/82.jpg
+../../../looseends/role3def7bd101f8.htm
+
+
+
+theCalculate the settlement positions ( Calculate the settlement positions )
+../../../webviewer/82.jpg
+../../../looseends/role3def7bd401fd.htm
+
+
+
+thePaymentClearingAgent ( PaymentClearingAgent )
+../../../webviewer/82.jpg
+../../../looseends/role3e4b8bb6001a.htm
+
+
+
+theProcess inter-bank payment ( Process inter-bank payment )
+../../../webviewer/82.jpg
+../../../looseends/role3e4b8c090312.htm
+
+
+
+)
+(
+)
+<<business use case>> Authorize
+../../../webviewer/121.jpg
+uc3e4b8c5b023e.htm
+uc3e4b8c5b023e.txt
+
+
+(
+theOrder customer-to-bank payment ( Order customer-to-bank payment )
+../../../webviewer/82.jpg
+../../../looseends/role3e4b8c7e02f2.htm
+
+
+
+)
+(
+)
+<<business use case>> Sort customer-to-bank payment
+../../../webviewer/121.jpg
+uc3e4b8d88004c.htm
+uc3e4b8d88004c.txt
+
+
+(
+theClear customer-to-bank payment ( Clear customer-to-bank payment )
+../../../webviewer/82.jpg
+../../../looseends/role3e4b8d9900dc.htm
+
+
+
+)
+(
+)
+<<business use case>> Prepare onward interbank payment(1)
+../../../webviewer/121.jpg
+uc3e4b8d8e0022.htm
+uc3e4b8d8e0022.txt
+
+
+(
+theClear customer-to-bank payment ( Clear customer-to-bank payment )
+../../../webviewer/82.jpg
+../../../looseends/role3e4b8d9b0234.htm
+
+
+
+)
+(
+)
+<<business use case>> Reconcile
+../../../webviewer/121.jpg
+uc3e4b8e8a02d8.htm
+uc3e4b8e8a02d8.txt
+
+
+(
+theReport ( Report )
+../../../webviewer/82.jpg
+../../../looseends/role3e4b8e9103d2.htm
+
+
+
+)
+(
+)
+Associations
+../../../webviewer/assoccat.gif
+
+
+
+
+(
+Association (theSettle  interbank payment:Settle  interbank payment) (theProcess inter-bank payment:Process inter-bank payment)
+../../../webviewer/81.jpg
+../../../looseends/ass3bf26fdd0346.htm
+
+
+
+(
+Settle  interbank payment ( theSettle  interbank payment )
+../../../webviewer/82.jpg
+../../../looseends/role3bf26fde0207.htm
+
+
+
+Process inter-bank payment ( theProcess inter-bank payment )
+../../../webviewer/82.jpg
+../../../looseends/role3bf26fde0209.htm
+
+
+
+)
+<<include>> (theOrder customer-to-bank payment:Order customer-to-bank payment) (theProcess customer-to-bank Payment:Process customer-to-bank Payment)
+../../../webviewer/81.jpg
+../../../looseends/ass3bf914cc0350.htm
+
+
+
+(
+Order customer-to-bank payment ( theOrder customer-to-bank payment )
+../../../webviewer/82.jpg
+../../../looseends/role3bf914cd02b1.htm
+
+
+
+Process customer-to-bank Payment ( theProcess customer-to-bank Payment )
+../../../webviewer/82.jpg
+../../../looseends/role3bf914cd02bb.htm
+
+
+
+)
+<<include>> (theProcess inter-bank payment:Process inter-bank payment) (theProcess E2E payment transaction:Process E2E payment transaction)
+../../../webviewer/81.jpg
+../../../looseends/ass3bf914e3001e.htm
+
+
+
+(
+Process inter-bank payment ( theProcess inter-bank payment )
+../../../webviewer/82.jpg
+../../../looseends/role3bf914e40016.htm
+
+
+
+Process E2E payment transaction ( theProcess E2E payment transaction )
+../../../webviewer/82.jpg
+../../../looseends/role3bf914e40020.htm
+
+
+
+)
+<<include>> (theSettle  interbank payment:Settle  interbank payment) (theProcess inter-bank payment:Process inter-bank payment)
+../../../webviewer/81.jpg
+../../../looseends/ass3bf91517027c.htm
+
+
+
+(
+Settle  interbank payment ( theSettle  interbank payment )
+../../../webviewer/82.jpg
+../../../looseends/role3bf915180115.htm
+
+
+
+Process inter-bank payment ( theProcess inter-bank payment )
+../../../webviewer/82.jpg
+../../../looseends/role3bf915180117.htm
+
+
+
+)
+Association (theOrder customer-to-bank payment:Order customer-to-bank payment) (theInitiatingParty:InitiatingParty)
+../../../webviewer/81.jpg
+../../../looseends/ass3dddf0140191.htm
+
+
+
+(
+Order customer-to-bank payment ( theOrder customer-to-bank payment )
+../../../webviewer/82.jpg
+../../../looseends/role3dddf01500fc.htm
+
+
+
+InitiatingParty ( theInitiatingParty )
+../../../webviewer/82.jpg
+../../../looseends/role3dddf01500fe.htm
+
+
+
+)
+Association (theSettle  interbank payment:Settle  interbank payment) (thePaymentSettlementAgent:PaymentSettlementAgent)
+../../../webviewer/81.jpg
+../../../looseends/ass3dddf034035a.htm
+
+
+
+(
+Settle  interbank payment ( theSettle  interbank payment )
+../../../webviewer/82.jpg
+../../../looseends/role3dddf0350199.htm
+
+
+
+PaymentSettlementAgent ( thePaymentSettlementAgent )
+../../../webviewer/82.jpg
+../../../looseends/role3dddf035019b.htm
+
+
+
+)
+Association (theReport:Report) (theProcess inter-bank payment:Process inter-bank payment)
+../../../webviewer/81.jpg
+../../../looseends/ass3dec876c01c8.htm
+
+
+
+(
+Report ( theReport )
+../../../webviewer/82.jpg
+../../../looseends/role3dec876d0288.htm
+
+
+
+Process inter-bank payment ( theProcess inter-bank payment )
+../../../webviewer/82.jpg
+../../../looseends/role3dec876d028a.htm
+
+
+
+)
+<<include>> (theReport on payment transaction status:Report on payment transaction status) (theReport:Report)
+../../../webviewer/81.jpg
+../../../looseends/ass3dec8e6a0045.htm
+
+
+
+(
+Report on payment transaction status ( theReport on payment transaction status )
+../../../webviewer/82.jpg
+../../../looseends/role3dec8e6a033e.htm
+
+
+
+Report ( theReport )
+../../../webviewer/82.jpg
+../../../looseends/role3dec8e6a0340.htm
+
+
+
+)
+<<include>> (theReport on payment transaction's financial impact:Report on payment transaction's financial impact) (theReport:Report)
+../../../webviewer/81.jpg
+../../../looseends/ass3dec8e6c0387.htm
+
+
+
+(
+Report on payment transaction's financial impact ( theReport on payment transaction's financial impact )
+../../../webviewer/82.jpg
+../../../looseends/role3dec8e6d0307.htm
+
+
+
+Report ( theReport )
+../../../webviewer/82.jpg
+../../../looseends/role3dec8e6d0309.htm
+
+
+
+)
+<<include>> (theAccept customer-to-bank payment:Accept customer-to-bank payment) (theProcess customer-to-bank Payment:Process customer-to-bank Payment)
+../../../webviewer/81.jpg
+../../../looseends/ass3dec98f00356.htm
+
+
+
+(
+Accept customer-to-bank payment ( theAccept customer-to-bank payment )
+../../../webviewer/82.jpg
+../../../looseends/role3dec98f103e4.htm
+
+
+
+Process customer-to-bank Payment ( theProcess customer-to-bank Payment )
+../../../webviewer/82.jpg
+../../../looseends/role3dec98f20006.htm
+
+
+
+)
+<<include>> (theValidate customer-to-bank payment:Validate customer-to-bank payment) (theAccept customer-to-bank payment:Accept customer-to-bank payment)
+../../../webviewer/81.jpg
+../../../looseends/ass3dec9906038a.htm
+
+
+
+(
+Validate customer-to-bank payment ( theValidate customer-to-bank payment )
+../../../webviewer/82.jpg
+../../../looseends/role3dec99070219.htm
+
+
+
+Accept customer-to-bank payment ( theAccept customer-to-bank payment )
+../../../webviewer/82.jpg
+../../../looseends/role3dec9907021b.htm
+
+
+
+)
+<<include>> (theAssess customer-to-bank payment risk:Assess customer-to-bank payment risk) (theAccept customer-to-bank payment:Accept customer-to-bank payment)
+../../../webviewer/81.jpg
+../../../looseends/ass3dec991c006a.htm
+
+
+
+(
+Assess customer-to-bank payment risk ( theAssess customer-to-bank payment risk )
+../../../webviewer/82.jpg
+../../../looseends/role3dec991d021a.htm
+
+
+
+Accept customer-to-bank payment ( theAccept customer-to-bank payment )
+../../../webviewer/82.jpg
+../../../looseends/role3dec991d0224.htm
+
+
+
+)
+<<include>> (theCheck authorization customer-to-bank payment:Check authorization customer-to-bank payment) (theAccept customer-to-bank payment:Accept customer-to-bank payment)
+../../../webviewer/81.jpg
+../../../looseends/ass3def5b31016c.htm
+
+
+
+(
+Check authorization customer-to-bank payment ( theCheck authorization customer-to-bank payment )
+../../../webviewer/82.jpg
+../../../looseends/role3def5b3103d9.htm
+
+
+
+Accept customer-to-bank payment ( theAccept customer-to-bank payment )
+../../../webviewer/82.jpg
+../../../looseends/role3def5b3200d8.htm
+
+
+
+)
+<<include>> (theProcess customer-to-bank Payment:Process customer-to-bank Payment) (theProcess E2E payment transaction:Process E2E payment transaction)
+../../../webviewer/81.jpg
+../../../looseends/ass3def62c5004a.htm
+
+
+
+(
+Process customer-to-bank Payment ( theProcess customer-to-bank Payment )
+../../../webviewer/82.jpg
+../../../looseends/role3def62c503c5.htm
+
+
+
+Process E2E payment transaction ( theProcess E2E payment transaction )
+../../../webviewer/82.jpg
+../../../looseends/role3def62c60019.htm
+
+
+
+)
+<<include>> (theReport:Report) (theProcess E2E payment transaction:Process E2E payment transaction)
+../../../webviewer/81.jpg
+../../../looseends/ass3def66a600a2.htm
+
+
+
+(
+Report ( theReport )
+../../../webviewer/82.jpg
+../../../looseends/role3def66a6034b.htm
+
+
+
+Process E2E payment transaction ( theProcess E2E payment transaction )
+../../../webviewer/82.jpg
+../../../looseends/role3def66a6035f.htm
+
+
+
+)
+Association (theFirstAgent:FirstAgent) (theReport:Report)
+../../../webviewer/81.jpg
+../../../looseends/ass3def6d4f005d.htm
+
+
+
+(
+FirstAgent ( theFirstAgent )
+../../../webviewer/82.jpg
+../../../looseends/role3def6d500019.htm
+
+
+
+Report ( theReport )
+../../../webviewer/82.jpg
+../../../looseends/role3def6d50002d.htm
+
+
+
+)
+Association (theFinalAgent:FinalAgent) (theReport:Report)
+../../../webviewer/81.jpg
+../../../looseends/ass3def6d5500ca.htm
+
+
+
+(
+FinalAgent ( theFinalAgent )
+../../../webviewer/82.jpg
+../../../looseends/role3def6d550319.htm
+
+
+
+Report ( theReport )
+../../../webviewer/82.jpg
+../../../looseends/role3def6d560112.htm
+
+
+
+)
+<<include>> (theAccept interbank payment:Accept interbank payment) (theProcess inter-bank payment:Process inter-bank payment)
+../../../webviewer/81.jpg
+../../../looseends/ass3def770c00e4.htm
+
+
+
+(
+Accept interbank payment ( theAccept interbank payment )
+../../../webviewer/82.jpg
+../../../looseends/role3def770c0329.htm
+
+
+
+Process inter-bank payment ( theProcess inter-bank payment )
+../../../webviewer/82.jpg
+../../../looseends/role3def770d0122.htm
+
+
+
+)
+<<include>> (theValidate interbank payment:Validate interbank payment) (theAccept interbank payment:Accept interbank payment)
+../../../webviewer/81.jpg
+../../../looseends/ass3def78f30365.htm
+
+
+
+(
+Validate interbank payment ( theValidate interbank payment )
+../../../webviewer/82.jpg
+../../../looseends/role3def78f40186.htm
+
+
+
+Accept interbank payment ( theAccept interbank payment )
+../../../webviewer/82.jpg
+../../../looseends/role3def78f4035d.htm
+
+
+
+)
+<<include>> (theAssess interbank payment risk:Assess interbank payment risk) (theAccept interbank payment:Accept interbank payment)
+../../../webviewer/81.jpg
+../../../looseends/ass3def78f602b5.htm
+
+
+
+(
+Assess interbank payment risk ( theAssess interbank payment risk )
+../../../webviewer/82.jpg
+../../../looseends/role3def78f7013a.htm
+
+
+
+Accept interbank payment ( theAccept interbank payment )
+../../../webviewer/82.jpg
+../../../looseends/role3def78f70162.htm
+
+
+
+)
+Association (theValidate interbank payment:Validate interbank payment) (thePaymentClearingAgent:PaymentClearingAgent)
+../../../webviewer/81.jpg
+../../../looseends/ass3def796e0272.htm
+
+
+
+(
+Validate interbank payment ( theValidate interbank payment )
+../../../webviewer/82.jpg
+../../../looseends/role3def796f009d.htm
+
+
+
+PaymentClearingAgent ( thePaymentClearingAgent )
+../../../webviewer/82.jpg
+../../../looseends/role3def796f00c5.htm
+
+
+
+)
+Association (theAssess interbank payment risk:Assess interbank payment risk) (thePaymentSettlementAgent:PaymentSettlementAgent)
+../../../webviewer/81.jpg
+../../../looseends/ass3def798a01b4.htm
+
+
+
+(
+Assess interbank payment risk ( theAssess interbank payment risk )
+../../../webviewer/82.jpg
+../../../looseends/role3def798b0129.htm
+
+
+
+PaymentSettlementAgent ( thePaymentSettlementAgent )
+../../../webviewer/82.jpg
+../../../looseends/role3def798b0151.htm
+
+
+
+)
+<<extend>> (thePrepare onward interbank payment (2):Prepare onward interbank payment (2)) (theGenerate regulatory reporting information:Generate regulatory reporting information)
+../../../webviewer/81.jpg
+../../../looseends/ass3def7bc00349.htm
+
+
+
+(
+Prepare onward interbank payment (2) ( thePrepare onward interbank payment (2) )
+../../../webviewer/82.jpg
+../../../looseends/role3def7bc0034a.htm
+
+
+
+Generate regulatory reporting information ( theGenerate regulatory reporting information )
+../../../webviewer/82.jpg
+../../../looseends/role3def7bc00353.htm
+
+
+
+)
+<<include>> (theSort interbank payment:Sort interbank payment) (theClear interbank payment:Clear interbank payment)
+../../../webviewer/81.jpg
+../../../looseends/ass3def7bce0059.htm
+
+
+
+(
+Sort interbank payment ( theSort interbank payment )
+../../../webviewer/82.jpg
+../../../looseends/role3def7bce03ad.htm
+
+
+
+Clear interbank payment ( theClear interbank payment )
+../../../webviewer/82.jpg
+../../../looseends/role3def7bce03c1.htm
+
+
+
+)
+<<include>> (thePrepare onward interbank payment (2):Prepare onward interbank payment (2)) (theClear interbank payment:Clear interbank payment)
+../../../webviewer/81.jpg
+../../../looseends/ass3def7bd002fb.htm
+
+
+
+(
+Prepare onward interbank payment (2) ( thePrepare onward interbank payment (2) )
+../../../webviewer/82.jpg
+../../../looseends/role3def7bd101c6.htm
+
+
+
+Clear interbank payment ( theClear interbank payment )
+../../../webviewer/82.jpg
+../../../looseends/role3def7bd101f8.htm
+
+
+
+)
+<<include>> (theCalculate the settlement positions:Calculate the settlement positions) (theClear interbank payment:Clear interbank payment)
+../../../webviewer/81.jpg
+../../../looseends/ass3def7bd30287.htm
+
+
+
+(
+Calculate the settlement positions ( theCalculate the settlement positions )
+../../../webviewer/82.jpg
+../../../looseends/role3def7bd401e9.htm
+
+
+
+Clear interbank payment ( theClear interbank payment )
+../../../webviewer/82.jpg
+../../../looseends/role3def7bd401fd.htm
+
+
+
+)
+Association (theReport on payment transaction's financial impact:Report on payment transaction's financial impact) (theDebtor:Debtor)
+../../../webviewer/81.jpg
+../../../looseends/ass3df74b9b0326.htm
+
+
+
+(
+Report on payment transaction's financial impact ( theReport on payment transaction's financial impact )
+../../../webviewer/82.jpg
+../../../looseends/role3df74b9c01d2.htm
+
+
+
+Debtor ( theDebtor )
+../../../webviewer/82.jpg
+../../../looseends/role3df74b9c02b9.htm
+
+
+
+)
+Association (theReport on payment transaction status:Report on payment transaction status) (theInitiatingParty:InitiatingParty)
+../../../webviewer/81.jpg
+../../../looseends/ass3df74d2301fd.htm
+
+
+
+(
+Report on payment transaction status ( theReport on payment transaction status )
+../../../webviewer/82.jpg
+../../../looseends/role3df74d240050.htm
+
+
+
+InitiatingParty ( theInitiatingParty )
+../../../webviewer/82.jpg
+../../../looseends/role3df74d240078.htm
+
+
+
+)
+<<include>> (theSettle customer-to-bank payment:Settle customer-to-bank payment) (theProcess customer-to-bank Payment:Process customer-to-bank Payment)
+../../../webviewer/81.jpg
+../../../looseends/ass3df74f6001a7.htm
+
+
+
+(
+Settle customer-to-bank payment ( theSettle customer-to-bank payment )
+../../../webviewer/82.jpg
+../../../looseends/role3df74f61000d.htm
+
+
+
+Process customer-to-bank Payment ( theProcess customer-to-bank Payment )
+../../../webviewer/82.jpg
+../../../looseends/role3df74f610036.htm
+
+
+
+)
+<<include>> (theClear customer-to-bank payment:Clear customer-to-bank payment) (theProcess customer-to-bank Payment:Process customer-to-bank Payment)
+../../../webviewer/81.jpg
+../../../looseends/ass3df750840034.htm
+
+
+
+(
+Clear customer-to-bank payment ( theClear customer-to-bank payment )
+../../../webviewer/82.jpg
+../../../looseends/role3df750840251.htm
+
+
+
+Process customer-to-bank Payment ( theProcess customer-to-bank Payment )
+../../../webviewer/82.jpg
+../../../looseends/role3df750850053.htm
+
+
+
+)
+Association (theClear interbank payment:Clear interbank payment) (thePaymentClearingAgent:PaymentClearingAgent)
+../../../webviewer/81.jpg
+../../../looseends/ass3e4b8bb500ae.htm
+
+
+
+(
+Clear interbank payment ( theClear interbank payment )
+../../../webviewer/82.jpg
+../../../looseends/role3e4b8bb6001a.htm
+
+
+
+PaymentClearingAgent ( thePaymentClearingAgent )
+../../../webviewer/82.jpg
+../../../looseends/role3e4b8bb60024.htm
+
+
+
+)
+<<include>> (theClear interbank payment:Clear interbank payment) (theProcess inter-bank payment:Process inter-bank payment)
+../../../webviewer/81.jpg
+../../../looseends/ass3e4b8c08032f.htm
+
+
+
+(
+Clear interbank payment ( theClear interbank payment )
+../../../webviewer/82.jpg
+../../../looseends/role3e4b8c090312.htm
+
+
+
+Process inter-bank payment ( theProcess inter-bank payment )
+../../../webviewer/82.jpg
+../../../looseends/role3e4b8c090314.htm
+
+
+
+)
+<<extend>> (theOrder customer-to-bank payment:Order customer-to-bank payment) (theAuthorize:Authorize)
+../../../webviewer/81.jpg
+../../../looseends/ass3e4b8c7e005d.htm
+
+
+
+(
+Order customer-to-bank payment ( theOrder customer-to-bank payment )
+../../../webviewer/82.jpg
+../../../looseends/role3e4b8c7e02e8.htm
+
+
+
+Authorize ( theAuthorize )
+../../../webviewer/82.jpg
+../../../looseends/role3e4b8c7e02f2.htm
+
+
+
+)
+<<extend>> (theAssess customer-to-bank payment risk:Assess customer-to-bank payment risk) (theGenerate regulatory reporting information:Generate regulatory reporting information)
+../../../webviewer/81.jpg
+../../../looseends/ass3e4b8d3d0351.htm
+
+
+
+(
+Assess customer-to-bank payment risk ( theAssess customer-to-bank payment risk )
+../../../webviewer/82.jpg
+../../../looseends/role3e4b8d4001c5.htm
+
+
+
+Generate regulatory reporting information ( theGenerate regulatory reporting information )
+../../../webviewer/82.jpg
+../../../looseends/role3e4b8d4001c7.htm
+
+
+
+)
+<<include>> (theSort customer-to-bank payment:Sort customer-to-bank payment) (theClear customer-to-bank payment:Clear customer-to-bank payment)
+../../../webviewer/81.jpg
+../../../looseends/ass3e4b8d980276.htm
+
+
+
+(
+Sort customer-to-bank payment ( theSort customer-to-bank payment )
+../../../webviewer/82.jpg
+../../../looseends/role3e4b8d9900dc.htm
+
+
+
+Clear customer-to-bank payment ( theClear customer-to-bank payment )
+../../../webviewer/82.jpg
+../../../looseends/role3e4b8d9900de.htm
+
+
+
+)
+<<include>> (thePrepare onward interbank payment(1):Prepare onward interbank payment(1)) (theClear customer-to-bank payment:Clear customer-to-bank payment)
+../../../webviewer/81.jpg
+../../../looseends/ass3e4b8d9a0391.htm
+
+
+
+(
+Prepare onward interbank payment(1) ( thePrepare onward interbank payment(1) )
+../../../webviewer/82.jpg
+../../../looseends/role3e4b8d9b0234.htm
+
+
+
+Clear customer-to-bank payment ( theClear customer-to-bank payment )
+../../../webviewer/82.jpg
+../../../looseends/role3e4b8d9b0236.htm
+
+
+
+)
+<<include>> (theReconcile:Reconcile) (theReport:Report)
+../../../webviewer/81.jpg
+../../../looseends/ass3e4b8e9100b1.htm
+
+
+
+(
+Reconcile ( theReconcile )
+../../../webviewer/82.jpg
+../../../looseends/role3e4b8e9103d2.htm
+
+
+
+Report ( theReport )
+../../../webviewer/82.jpg
+../../../looseends/role3e4b8e9103d4.htm
+
+
+
+)
+Association (theReport:Report) (thePaymentSettlementAgent:PaymentSettlementAgent)
+../../../webviewer/81.jpg
+../../../looseends/ass3e4b8f9e02d5.htm
+
+
+
+(
+Report ( theReport )
+../../../webviewer/82.jpg
+../../../looseends/role3e4b8f9f01dc.htm
+
+
+
+PaymentSettlementAgent ( thePaymentSettlementAgent )
+../../../webviewer/82.jpg
+../../../looseends/role3e4b8f9f01e6.htm
+
+
+
+)
+Association (theReport on payment transaction's financial impact:Report on payment transaction's financial impact) (theCreditParty:CreditParty)
+../../../webviewer/81.jpg
+../../../looseends/ass3e4b8fdc00a3.htm
+
+
+
+(
+Report on payment transaction's financial impact ( theReport on payment transaction's financial impact )
+../../../webviewer/82.jpg
+../../../looseends/role3e4b8fdc0324.htm
+
+
+
+CreditParty ( theCreditParty )
+../../../webviewer/82.jpg
+../../../looseends/role3e4b8fdc0326.htm
+
+
+
+)
+Association (theReport on payment transaction's financial impact:Report on payment transaction's financial impact) (theDebitParty:DebitParty)
+../../../webviewer/81.jpg
+../../../looseends/ass3e4b8fe60260.htm
+
+
+
+(
+Report on payment transaction's financial impact ( theReport on payment transaction's financial impact )
+../../../webviewer/82.jpg
+../../../looseends/role3e4b8fe70243.htm
+
+
+
+DebitParty ( theDebitParty )
+../../../webviewer/82.jpg
+../../../looseends/role3e4b8fe70245.htm
+
+
+
+)
+Association (theInitiatingParty:InitiatingParty) (theReport on payment transaction status:Report on payment transaction status)
+../../../webviewer/81.jpg
+../../../looseends/ass3e4b90260244.htm
+
+
+
+(
+InitiatingParty ( theInitiatingParty )
+../../../webviewer/82.jpg
+../../../looseends/role3e4b9027034a.htm
+
+
+
+Report on payment transaction status ( theReport on payment transaction status )
+../../../webviewer/82.jpg
+../../../looseends/role3e4b9027037c.htm
+
+
+
+)
+Association (theCreditParty:CreditParty) (theReport on payment transaction status:Report on payment transaction status)
+../../../webviewer/81.jpg
+../../../looseends/ass3e4b903b02d0.htm
+
+
+
+(
+CreditParty ( theCreditParty )
+../../../webviewer/82.jpg
+../../../looseends/role3e4b903d0016.htm
+
+
+
+Report on payment transaction status ( theReport on payment transaction status )
+../../../webviewer/82.jpg
+../../../looseends/role3e4b903d002a.htm
+
+
+
+)
+Association (theReport on payment transaction status:Report on payment transaction status) (theDebitParty:DebitParty)
+../../../webviewer/81.jpg
+../../../looseends/ass3e4b904101fd.htm
+
+
+
+(
+Report on payment transaction status ( theReport on payment transaction status )
+../../../webviewer/82.jpg
+../../../looseends/role3e4b904200b4.htm
+
+
+
+DebitParty ( theDebitParty )
+../../../webviewer/82.jpg
+../../../looseends/role3e4b904200b6.htm
+
+
+
+)
+Association (theGenerate regulatory reporting information:Generate regulatory reporting information) (theFinalAgent:FinalAgent)
+../../../webviewer/81.jpg
+../../../looseends/ass3e4b9093020f.htm
+
+
+
+(
+Generate regulatory reporting information ( theGenerate regulatory reporting information )
+../../../webviewer/82.jpg
+../../../looseends/role3e4b909400c6.htm
+
+
+
+FinalAgent ( theFinalAgent )
+../../../webviewer/82.jpg
+../../../looseends/role3e4b909400c8.htm
+
+
+
+)
+Association (theGenerate regulatory reporting information:Generate regulatory reporting information) (theFinalAgent:FinalAgent)
+../../../webviewer/81.jpg
+../../../looseends/ass3e4b90a703e4.htm
+
+
+
+(
+Generate regulatory reporting information ( theGenerate regulatory reporting information )
+../../../webviewer/82.jpg
+../../../looseends/role3e4b90a8034f.htm
+
+
+
+FinalAgent ( theFinalAgent )
+../../../webviewer/82.jpg
+../../../looseends/role3e4b90a80359.htm
+
+
+
+)
+Association (theSettle customer-to-bank payment:Settle customer-to-bank payment) (theDebtor:Debtor)
+../../../webviewer/81.jpg
+../../../looseends/ass3e4b91300124.htm
+
+
+
+(
+Settle customer-to-bank payment ( theSettle customer-to-bank payment )
+../../../webviewer/82.jpg
+../../../looseends/role3e4b913100a3.htm
+
+
+
+Debtor ( theDebtor )
+../../../webviewer/82.jpg
+../../../looseends/role3e4b913100a5.htm
+
+
+
+)
+Association (theSettle customer-to-bank payment:Settle customer-to-bank payment) (theCreditor:Creditor)
+../../../webviewer/81.jpg
+../../../looseends/ass3e4b916101d9.htm
+
+
+
+(
+Settle customer-to-bank payment ( theSettle customer-to-bank payment )
+../../../webviewer/82.jpg
+../../../looseends/role3e4b9162005e.htm
+
+
+
+Creditor ( theCreditor )
+../../../webviewer/82.jpg
+../../../looseends/role3e4b91620060.htm
+
+
+
+)
+Association (theSettle customer-to-bank payment:Settle customer-to-bank payment) (theFinalAgent:FinalAgent)
+../../../webviewer/81.jpg
+../../../looseends/ass3e4b916603b7.htm
+
+
+
+(
+Settle customer-to-bank payment ( theSettle customer-to-bank payment )
+../../../webviewer/82.jpg
+../../../looseends/role3e4b916702be.htm
+
+
+
+FinalAgent ( theFinalAgent )
+../../../webviewer/82.jpg
+../../../looseends/role3e4b916702c0.htm
+
+
+
+)
+Association (theSettle customer-to-bank payment:Settle customer-to-bank payment) (theFirstAgent:FirstAgent)
+../../../webviewer/81.jpg
+../../../looseends/ass3e4b916c02ed.htm
+
+
+
+(
+Settle customer-to-bank payment ( theSettle customer-to-bank payment )
+../../../webviewer/82.jpg
+../../../looseends/role3e4b916d015e.htm
+
+
+
+FirstAgent ( theFirstAgent )
+../../../webviewer/82.jpg
+../../../looseends/role3e4b916d0168.htm
+
+
+
+)
+Association (theClear customer-to-bank payment:Clear customer-to-bank payment) (theForwardingAgent:ForwardingAgent)
+../../../webviewer/81.jpg
+../../../looseends/ass3e4b91f201e1.htm
+
+
+
+(
+Clear customer-to-bank payment ( theClear customer-to-bank payment )
+../../../webviewer/82.jpg
+../../../looseends/role3e4b91f3017f.htm
+
+
+
+ForwardingAgent ( theForwardingAgent )
+../../../webviewer/82.jpg
+../../../looseends/role3e4b91f30181.htm
+
+
+
+)
+Association (theClear customer-to-bank payment:Clear customer-to-bank payment) (theFirstAgent:FirstAgent)
+../../../webviewer/81.jpg
+../../../looseends/ass3e4b91f7030b.htm
+
+
+
+(
+Clear customer-to-bank payment ( theClear customer-to-bank payment )
+../../../webviewer/82.jpg
+../../../looseends/role3e4b91f80230.htm
+
+
+
+FirstAgent ( theFirstAgent )
+../../../webviewer/82.jpg
+../../../looseends/role3e4b91f8023a.htm
+
+
+
+)
+Association (theAccept customer-to-bank payment:Accept customer-to-bank payment) (theFirstAgent:FirstAgent)
+../../../webviewer/81.jpg
+../../../looseends/ass3e4b921b0244.htm
+
+
+
+(
+Accept customer-to-bank payment ( theAccept customer-to-bank payment )
+../../../webviewer/82.jpg
+../../../looseends/role3e4b921c00b5.htm
+
+
+
+FirstAgent ( theFirstAgent )
+../../../webviewer/82.jpg
+../../../looseends/role3e4b921c00b7.htm
+
+
+
+)
+Association (theAccept customer-to-bank payment:Accept customer-to-bank payment) (theForwardingAgent:ForwardingAgent)
+../../../webviewer/81.jpg
+../../../looseends/ass3e4b92210199.htm
+
+
+
+(
+Accept customer-to-bank payment ( theAccept customer-to-bank payment )
+../../../webviewer/82.jpg
+../../../looseends/role3e4b92220082.htm
+
+
+
+ForwardingAgent ( theForwardingAgent )
+../../../webviewer/82.jpg
+../../../looseends/role3e4b9222008c.htm
+
+
+
+)
+)

@@ -1,0 +1,126 @@
+- route:
+    id: "postgres-kamelet-insert"
+    from:
+      uri: "timer:postgres-trigger-insert?period=10000&repeatCount=5"
+      steps:
+        - setHeader:
+            name: "txnId"
+            simple: "${uuid}"
+        - setBody:
+            constant: "{\"TXN_ID\": \"PG-SQL-001\", \"STATUS\": \"NEW\", \"PAYLOAD\":
+              \"Initial insertion via Postgres SQL Kamelet\"}"
+        - to:
+            uri: "kamelet:eip-sql-sink"
+            parameters:
+              connectionBean: "eip"
+              table: "BUSINESS_DATA"
+              operation: "insert"
+        - wireTap:
+            uri: "direct:postgres-async-audit"
+        - log: ">>> [POSTGRES-INSERT] Success: ${body}"
+
+- route:
+    id: "postgres-async-audit"
+    from:
+      uri: "direct:postgres-async-audit"
+      steps:
+        - to: "kamelet:eip-audit-action?encryption=AES"
+        - to:
+            uri: "kamelet:eip-sql-sink"
+            parameters:
+              connectionBean: "eip"
+              table: "AUDIT_EVENTS"
+        - log: ">>> [POSTGRES-AUDIT] Asynchronous Audit Captured via Kamelet"
+
+- route:
+    id: "postgres-kamelet-update"
+
+    from:
+      uri: "timer:postgres-trigger-update?delay=5000&period=60000&repeatCount=1"
+      steps:
+        - setBody:
+            constant: "[{\"TXN_ID\": \"PG-SQL-001\"}, {\"$set\": {\"STATUS\":
+              \"PROCESSED\"}}]"
+        - to:
+            uri: "kamelet:eip-sql-action"
+            parameters:
+              connectionBean: "eip"
+              table: "BUSINESS_DATA"
+              operation: "update"
+        - log: ">>> [POSTGRES-UPDATE] Success: ${body}"
+
+- route:
+    id: "postgres-kamelet-findall"
+    from:
+      uri: "timer:postgres-trigger-findall?delay=15000&period=60000&repeatCount=1"
+      steps:
+        - setBody:
+            constant: "{}"
+        - to:
+            uri: "kamelet:eip-sql-action"
+            parameters:
+              connectionBean: "eip"
+              table: "BUSINESS_DATA"
+              operation: "findAll"
+        - log: ">>> [POSTGRES-FIND-ALL] Count: ${body.size()}"
+
+- route:
+    id: "postgres-kamelet-insert-complex"
+    from:
+      uri: "timer:postgres-trigger-insert-complex?delay=25000&period=60000&repeatCount=1"
+      steps:
+        - setBody:
+            constant: >
+              {
+                "IDENTIFIER": "COMPLEX-001",
+                "NOTIFICATIONS": [
+                  {"type": "email", "active": true},
+                  {"type": "sms", "active": false}
+                ],
+                "ATTACHMENT": {
+                  "$blob": "SGVsbG8sIEJMT0IhIFRoaXMgaXMgYmluYXJ5IGRhdGEu"
+                }
+              }
+        - to:
+            uri: "kamelet:eip-sql-sink"
+            parameters:
+              connectionBean: "eip"
+              table: "COMPLEX_DATA"
+              operation: "insert"
+        - log: ">>> [POSTGRES-COMPLEX-INSERT] Success: ${body}"
+
+- route:
+    id: "postgres-kamelet-findall-complex"
+    from:
+      uri: "timer:postgres-trigger-findall-complex?delay=35000&period=60000&repeatCount=1"
+      steps:
+        - setBody:
+            constant: "{}"
+        - to:
+            uri: "kamelet:eip-sql-action"
+            parameters:
+              connectionBean: "eip"
+              table: "COMPLEX_DATA"
+              operation: "findAll"
+        - split:
+            simple: "${body}"
+            steps:
+              - log: ">>> [POSTGRES-COMPLEX-FINDALL] Record: ${body}"
+- route:
+    id: "postgres-kamelet-filter-dynamic"
+    from:
+      uri: "timer:postgres-trigger-filter-dyn?delay=45000&period=60000&repeatCount=1"
+      steps:
+        - setBody:
+            constant: |
+              {
+                "TXN_ID": {"$like": "PG-SQL-%"},
+                "STATUS": ["NEW", "PROCESSED"]
+              }
+        - to:
+            uri: "kamelet:eip-sql-action"
+            parameters:
+              connectionBean: "eip"
+              table: "BUSINESS_DATA"
+              operation: "findAll"
+        - log: ">>> [POSTGRES-DYNAMIC-FILTER] Matches: ${body}"

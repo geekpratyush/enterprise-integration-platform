@@ -1,0 +1,1 @@
+Indicates when the amount of money will become available, ie can be accessed and start generating interest. 

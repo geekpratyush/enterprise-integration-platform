@@ -1,0 +1,1 @@
+Specifies how the valuation is done, based on the schedule stated in the prospectus.

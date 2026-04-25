@@ -1,0 +1,1 @@
+Indicates the type of quote request (e.g. manual vs. automatic) being generated.

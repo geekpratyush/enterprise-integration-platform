@@ -1,0 +1,15 @@
+services:
+  ibmmq:
+    image: icr.io/ibm-messaging/mq:9.3.5.0-r2
+    container_name: ibmmq-platform
+    environment:
+      - LICENSE=accept
+      - MQ_QMGR_NAME=QM1
+      - MQ_APP_PASSWORD=admin
+    ports:
+      - "1414:1414"
+      - "1415:1415"
+      - "9443:9443"
+    volumes:
+      # Use scenario-specific sub-folder for isolation
+      - ../02_initialization/certs/${SCENARIO}:/var/mqm/ssl-certs:rw

@@ -1,0 +1,1 @@
+Requested settlement currency information not the same as instructed.

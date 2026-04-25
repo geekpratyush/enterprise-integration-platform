@@ -1,0 +1,1 @@
+Unrecognised or invalid trade date or requested trade date or future trade date.

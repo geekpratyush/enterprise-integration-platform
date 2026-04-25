@@ -1,0 +1,2404 @@
+SubscriptionOrder_1
+../../../../webviewer/18.jpg
+dgm3e143b59003d.htm
+
+
+
+(
+)
+SubscriptionOrder_2
+../../../../webviewer/18.jpg
+dgm3e14426c0159.htm
+
+
+
+(
+)
+SubscriptionOrder_3
+../../../../webviewer/18.jpg
+dgm3e1443f403ac.htm
+
+
+
+(
+)
+SubscriptionBulkCancellation1
+../../../../webviewer/18.jpg
+dgm3e14454f02f7.htm
+
+
+
+(
+)
+SubscriptionMultipleCancellation1
+../../../../webviewer/18.jpg
+dgm3e1446a403bf.htm
+
+
+
+(
+)
+SubscriptionOrder_ISA
+../../../../webviewer/18.jpg
+dgm4203423902fc.htm
+
+
+
+(
+)
+SubscriptionOrder_4
+../../../../webviewer/18.jpg
+dgm420342500395.htm
+
+
+
+(
+)
+<<MessageComponent>> SubscriptionOrder1
+../../../../webviewer/143.jpg
+class3e0b28fe03d7.htm
+class3e0b28fe03d7.txt
+
+
+(
+OrderReference
+../../../../webviewer/31.jpg
+att3e0b28fe03d9.htm
+
+
+
+(
+)
+UnitsNumber
+../../../../webviewer/31.jpg
+att3e0b28fe03da.htm
+
+
+
+(
+)
+Amount
+../../../../webviewer/31.jpg
+att3e0b28fe03db.htm
+
+
+
+(
+)
+GrossAmountIndicator[0..1]
+../../../../webviewer/31.jpg
+att3e0b28fe03dc.htm
+
+
+
+(
+)
+IncomePreference[0..1]
+../../../../webviewer/31.jpg
+att3e0b28fe03dd.htm
+
+
+
+(
+)
+LetterIntentReference[0..1]
+../../../../webviewer/31.jpg
+att3e0b28fe03de.htm
+att3e0b28fe03de.txt
+
+
+(
+)
+AccumulationRightReference[0..1]
+../../../../webviewer/31.jpg
+att3e0b28fe03df.htm
+
+
+
+(
+)
+OrderType[0..1]
+../../../../webviewer/31.jpg
+att3f97c9aa033c.htm
+
+
+
+(
+)
+PhysicalDeliveryIndicator
+../../../../webviewer/31.jpg
+att3f97e723000f.htm
+att3f97e723000f.txt
+
+
+(
+)
+InvestmentAccountDetails ( InvestmentAccount3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e0b28fe07dd.htm
+
+
+
+TaxDetails ( Tax1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e0b28fe059f.htm
+
+
+
+ChargeDetails ( Charge1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e0b28fe03f5.htm
+
+
+
+CommissionDetails ( Commission1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e0b28fe03e9.htm
+
+
+
+theSubscriptionOrder ( SubscriptionOrder )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e143d72023e.htm
+
+
+
+theSubscriptionBulkOrder1 ( SubscriptionBulkOrder1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e0b28fe03d6.htm
+
+
+
+theSubscriptionBulkCancellation1 ( SubscriptionBulkCancellation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e0b28fe07e3.htm
+
+
+
+PhysicalDeliveryDetails ( NameAndAddress1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e2406f80109.htm
+
+
+
+SettlementAndCustodyDetails ( FundSettlementParameters2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f9d1c5902f0.htm
+
+
+
+theSubscriptionOrder3 ( SubscriptionOrder3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role419200ce01ff.htm
+
+
+
+<<XOR>> AmountOrUnitsNumberRule
+../../../../webviewer/34.jpg
+op3e0b28fe03d8.htm
+op3e0b28fe03d8.txt
+
+
+(
+)
+<<Textual>> PhysicalDeliveryDetailsRule
+../../../../webviewer/36.jpg
+op3f97e7570119.htm
+op3f97e7570119.txt
+
+
+(
+)
+<<Textual>> GrossAmountIndicatorRule
+../../../../webviewer/36.jpg
+op3f9d2d6e02fd.htm
+op3f9d2d6e02fd.txt
+
+
+(
+)
+)
+<<MessageComponent>> SubscriptionOrder2
+../../../../webviewer/143.jpg
+class3e0b28fe040e.htm
+class3e0b28fe040e.txt
+
+
+(
+OrderReference
+../../../../webviewer/31.jpg
+att3e0b28fe0411.htm
+
+
+
+(
+)
+UnitsNumber
+../../../../webviewer/31.jpg
+att3e0b28fe0412.htm
+
+
+
+(
+)
+Amount
+../../../../webviewer/31.jpg
+att3e0b28fe0413.htm
+
+
+
+(
+)
+GrossAmountIndicator[0..1]
+../../../../webviewer/31.jpg
+att3e0b28fe0414.htm
+
+
+
+(
+)
+IncomePreference[0..1]
+../../../../webviewer/31.jpg
+att3e0b28fe0415.htm
+
+
+
+(
+)
+LetterIntentReference[0..1]
+../../../../webviewer/31.jpg
+att3e0b28fe0416.htm
+att3e0b28fe0416.txt
+
+
+(
+)
+AccumulationRightReference[0..1]
+../../../../webviewer/31.jpg
+att3e0b28fe0417.htm
+
+
+
+(
+)
+RequestedSettlementCurrency[0..1]
+../../../../webviewer/31.jpg
+att3e0b28fe0418.htm
+
+
+
+(
+)
+RequestedNAVCurrency[0..1]
+../../../../webviewer/31.jpg
+att3e0b28fe0419.htm
+
+
+
+(
+)
+OrderType[0..1]
+../../../../webviewer/31.jpg
+att3f97c9b30177.htm
+
+
+
+(
+)
+PhysicalDeliveryIndicator
+../../../../webviewer/31.jpg
+att3f97e8000167.htm
+att3f97e8000167.txt
+
+
+(
+)
+TaxDetails ( Tax1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e0b28fe05a7.htm
+
+
+
+ChargeDetails ( Charge1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e0b28fe040d.htm
+
+
+
+CommissionDetails ( Commission1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e0b28fe0421.htm
+
+
+
+FinancialInstrumentDetails ( FinancialInstrument1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e0b28fe07b6.htm
+
+
+
+theSubscriptionOrder ( SubscriptionOrder )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e14402200fd.htm
+
+
+
+theSubscriptionMultipleOrder1 ( SubscriptionMultipleOrder1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e0b28fe0427.htm
+
+
+
+theSubscriptionMultipleCancellation1 ( SubscriptionMultipleCancellation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e0b28fe07bc.htm
+
+
+
+PhysicalDeliveryDetails ( NameAndAddress1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e2408330242.htm
+
+
+
+SettlementAndCustodyDetails ( FundSettlementParameters2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f9d1c550205.htm
+
+
+
+CashSettlementDetails ( PaymentTransaction10 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3fb20aea039b.htm
+
+
+
+theSubscriptionOrder4 ( SubscriptionOrder4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role418facb400e1.htm
+
+
+
+<<XOR>> AmountOrUnitsNumberRule
+../../../../webviewer/34.jpg
+op3e0b28fe040f.htm
+op3e0b28fe040f.txt
+
+
+(
+)
+<<Textual>> PhysicalDeliveryDetailsRule
+../../../../webviewer/36.jpg
+op3f97e83e007d.htm
+op3f97e83e007d.txt
+
+
+(
+)
+<<Textual>> GrossAmountIndicatorRule
+../../../../webviewer/36.jpg
+op3f9d2d7e004e.htm
+op3f9d2d7e004e.txt
+
+
+(
+)
+)
+<<MessageComponent>> SubscriptionBulkOrder1
+../../../../webviewer/143.jpg
+class3e0b28fe03c3.htm
+class3e0b28fe03c3.txt
+
+
+(
+CancellationRight[0..1]
+../../../../webviewer/31.jpg
+att3e0b28fe03c6.htm
+
+
+
+(
+)
+RequestedSettlementCurrency[0..1]
+../../../../webviewer/31.jpg
+att3e0b28fe03c7.htm
+
+
+
+(
+)
+RequestedNAVCurrency[0..1]
+../../../../webviewer/31.jpg
+att3e0b28fe03c8.htm
+
+
+
+(
+)
+PlaceOfTrade[0..1]
+../../../../webviewer/31.jpg
+att3fa8d1510213.htm
+att3fa8d1510213.txt
+
+
+(
+)
+theSubscriptionOrder ( SubscriptionOrder )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e1442e801e4.htm
+
+
+
+FinancialInstrumentDetails ( FinancialInstrument1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e0b28fe03d0.htm
+
+
+
+IndividualOrderDetails ( SubscriptionOrder1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e0b28fe03e1.htm
+
+
+
+CashSettlementDetails ( PaymentTransaction8 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3fb209bb033e.htm
+
+
+
+theSubscriptionBulkOrder2 ( SubscriptionBulkOrder2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4191ff7a00a1.htm
+
+
+
+<<Textual>> SettlementCurrency2Rule
+../../../../webviewer/36.jpg
+op3e0b28fe03c4.htm
+op3e0b28fe03c4.txt
+
+
+(
+)
+)
+<<MessageComponent>> SubscriptionMultipleOrder1
+../../../../webviewer/143.jpg
+class3e0b28fe042a.htm
+class3e0b28fe042a.txt
+
+
+(
+CancellationRight[0..1]
+../../../../webviewer/31.jpg
+att3e0b28fe042d.htm
+
+
+
+(
+)
+PlaceOfTrade[0..1]
+../../../../webviewer/31.jpg
+att3fa8d02402bf.htm
+att3fa8d02402bf.txt
+
+
+(
+)
+InvestmentAccountDetails ( InvestmentAccount3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e0b28fe043b.htm
+
+
+
+IndividualOrderDetails ( SubscriptionOrder2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e0b28fe0429.htm
+
+
+
+theSubscriptionOrder ( SubscriptionOrder )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e1444850238.htm
+
+
+
+BulkCashSettlementDetails ( PaymentTransaction10 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3fb20ae402e0.htm
+
+
+
+theSubscriptionMultipleOrder2 ( SubscriptionMultipleOrder2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role418facb20283.htm
+
+
+
+<<Textual>> BulkCashSettlementDeatails1Rule
+../../../../webviewer/36.jpg
+op3e0b28fe042b.htm
+op3e0b28fe042b.txt
+
+
+(
+)
+<<Textual>> SettlementCurrency5Rule
+../../../../webviewer/36.jpg
+op3e5f8d8d0311.htm
+op3e5f8d8d0311.txt
+
+
+(
+)
+)
+<<MessageComponent>> SubscriptionBulkCancellation1
+../../../../webviewer/143.jpg
+class3e0b28fe07e6.htm
+class3e0b28fe07e6.txt
+
+
+(
+CancellationRight[0..1]
+../../../../webviewer/31.jpg
+att3e0b28fe07e9.htm
+
+
+
+(
+)
+RequestedSettlementCurrency[0..1]
+../../../../webviewer/31.jpg
+att3e0b28fe07ea.htm
+
+
+
+(
+)
+RequestedNAVCurrency[0..1]
+../../../../webviewer/31.jpg
+att3e0b28fe07eb.htm
+
+
+
+(
+)
+FinancialInstrumentDetails ( FinancialInstrument1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e0b28fe07f3.htm
+
+
+
+OrderToBeCancelled ( SubscriptionOrder1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e0b28fe07e5.htm
+
+
+
+theSubscriptionOrder ( SubscriptionOrder )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e1445f60076.htm
+
+
+
+)
+<<MessageComponent>> SubscriptionMultipleCancellation1
+../../../../webviewer/143.jpg
+class3e0b28fe07bf.htm
+class3e0b28fe07bf.txt
+
+
+(
+CancellationRight[0..1]
+../../../../webviewer/31.jpg
+att3e0b28fe07c2.htm
+
+
+
+(
+)
+BulkCashSettlementDetails ( PaymentTransaction3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e0b28fe07ca.htm
+
+
+
+OrderToBeCancelled ( SubscriptionOrder2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e0b28fe07be.htm
+
+
+
+theSubscriptionOrder ( SubscriptionOrder )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e1447130242.htm
+
+
+
+InvestmentAccountDetails ( InvestmentAccount3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e24296300cb.htm
+
+
+
+<<Textual>> BulkCashSettlementRule
+../../../../webviewer/36.jpg
+op3e0b28fe07c0.htm
+op3e0b28fe07c0.txt
+
+
+(
+)
+<<Textual>> SettlementCurrencyRule
+../../../../webviewer/36.jpg
+op3e5f8d510023.htm
+op3e5f8d510023.txt
+
+
+(
+)
+)
+<<MessageComponent>> SubscriptionBulkOrder2
+../../../../webviewer/143.jpg
+class4191ff20035c.htm
+class4191ff20035c.txt
+
+
+(
+PlaceOfTrade[0..1]
+../../../../webviewer/31.jpg
+att4191ff200384.htm
+att4191ff200384.txt
+
+
+(
+)
+OrderDateTime[0..1]
+../../../../webviewer/31.jpg
+att41b865dd02ae.htm
+
+
+
+(
+)
+ExpiryDateTime [0..1]
+../../../../webviewer/31.jpg
+att41bdb823005b.htm
+
+
+
+(
+)
+CancellationRight[0..1]
+../../../../webviewer/31.jpg
+att4191ff200366.htm
+
+
+
+(
+)
+RequestedSettlementCurrency[0..1]
+../../../../webviewer/31.jpg
+att4191ff200370.htm
+
+
+
+(
+)
+RequestedNAVCurrency[0..1]
+../../../../webviewer/31.jpg
+att4191ff20037a.htm
+
+
+
+(
+)
+theSubscriptionBulkOrderInstruction1 ( SubscriptionBulkOrderInstruction1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4192044f0300.htm
+
+
+
+theSubscriptionOrder ( SubscriptionOrder )
+../../../../webviewer/82.jpg
+../../../../looseends/role4191ff200391.htm
+
+
+
+BulkCashSettlementDetails ( PaymentTransaction17 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4191ff2003b9.htm
+
+
+
+IndividualOrderDetails ( SubscriptionOrder3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4191ff2003a5.htm
+
+
+
+FinancialInstrumentDetails ( FinancialInstrument6 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4191ff20039c.htm
+
+
+
+theSubscriptionBulkOrder1 ( SubscriptionBulkOrder1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4191ff7a00b5.htm
+
+
+
+<<Textual>> SettlementCurrency2Rule
+../../../../webviewer/36.jpg
+op4191ff2003de.htm
+op4191ff2003de.txt
+
+
+(
+)
+<<Textual>> BulkCashSettlementDetails3Rule
+../../../../webviewer/36.jpg
+op41beaaf2038e.htm
+op41beaaf2038e.txt
+
+
+(
+)
+)
+<<MessageComponent>> SubscriptionMultipleOrder2
+../../../../webviewer/143.jpg
+class418fa2ae01cb.htm
+class418fa2ae01cb.txt
+
+
+(
+PlaceOfTrade[0..1]
+../../../../webviewer/31.jpg
+att418fa2ae01f3.htm
+att418fa2ae01f3.txt
+
+
+(
+)
+OrderDateTime [0..1]
+../../../../webviewer/31.jpg
+att419085aa0179.htm
+att419085aa0179.txt
+
+
+(
+)
+ExpiryDateTime [0..1]
+../../../../webviewer/31.jpg
+att41bdb6a10362.htm
+
+
+
+(
+)
+CancellationRight[0..1]
+../../../../webviewer/31.jpg
+att418fa2ae01df.htm
+
+
+
+(
+)
+theSubscriptionMultipleOrderInstruction1 ( SubscriptionMultipleOrderInstruction1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4191ebba0190.htm
+
+
+
+theSubscriptionOrder ( SubscriptionOrder )
+../../../../webviewer/82.jpg
+../../../../looseends/role418fa2ae0228.htm
+
+
+
+BeneficiaryDetails ( IndividualPerson2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4210c41503bd.htm
+
+
+
+BulkCashSettlementDetails ( PaymentTransaction19 )
+../../../../webviewer/82.jpg
+../../../../looseends/role418fa2ae0230.htm
+
+
+
+InvestmentAccountDetails ( InvestmentAccount13 )
+../../../../webviewer/82.jpg
+../../../../looseends/role418fa2ae0207.htm
+
+
+
+IndividualOrderDetails ( SubscriptionOrder4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role418fa2ae0214.htm
+
+
+
+theSubscriptionMultipleOrder1 ( SubscriptionMultipleOrder1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role418facb2028d.htm
+
+
+
+<<Textual>> BulkCashSettlementDetails1Rule
+../../../../webviewer/36.jpg
+op418fa2ae0239.htm
+op418fa2ae0239.txt
+
+
+(
+)
+<<Textual>> SettlementCurrency5Rule
+../../../../webviewer/36.jpg
+op418fa2ae024d.htm
+op418fa2ae024d.txt
+
+
+(
+)
+)
+<<MessageComponent>> SubscriptionOrder3
+../../../../webviewer/143.jpg
+class4191ffc5017e.htm
+class4191ffc5017e.txt
+
+
+(
+OrderReference
+../../../../webviewer/31.jpg
+att4191ffc50180.htm
+
+
+
+(
+)
+OrderType [0..n]
+../../../../webviewer/31.jpg
+att4191ffc501ce.htm
+
+
+
+(
+)
+UnitsNumber
+../../../../webviewer/31.jpg
+att4191ffc50188.htm
+
+
+
+(
+)
+NetAmount
+../../../../webviewer/31.jpg
+att4191ffc5019c.htm
+
+
+
+(
+)
+Rounding [0..1]
+../../../../webviewer/31.jpg
+att41b8481002a6.htm
+att41b8481002a6.txt
+
+
+(
+)
+GrossAmount [0..1]
+../../../../webviewer/31.jpg
+att4191ffc501a6.htm
+att4191ffc501a6.txt
+
+
+(
+)
+IncomePreference[0..1]
+../../../../webviewer/31.jpg
+att4191ffc501b0.htm
+
+
+
+(
+)
+LetterIntentReference[0..1]
+../../../../webviewer/31.jpg
+att4191ffc501ba.htm
+att4191ffc501ba.txt
+
+
+(
+)
+AccumulationRightReference[0..1]
+../../../../webviewer/31.jpg
+att4191ffc501c4.htm
+
+
+
+(
+)
+PhysicalDeliveryIndicator
+../../../../webviewer/31.jpg
+att4191ffc501d8.htm
+att4191ffc501d8.txt
+
+
+(
+)
+theSubscriptionBulkOrder2 ( SubscriptionBulkOrder2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4191ff2003a3.htm
+
+
+
+theSubscriptionOrder ( SubscriptionOrder )
+../../../../webviewer/82.jpg
+../../../../looseends/role4191ffc50221.htm
+
+
+
+BeneficiaryDetails ( IndividualPerson2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role420c9127018a.htm
+
+
+
+CashSettlementDetails ( PaymentTransaction17 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41b49e04000c.htm
+
+
+
+InvestmentAccountDetails ( InvestmentAccount13 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4191ffc501e5.htm
+
+
+
+PhysicalDeliveryDetails ( NameAndAddress4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4191ffc5036a.htm
+
+
+
+ChargeDetails ( Charge8 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4191ffc50203.htm
+
+
+
+CommissionDetails ( Commission6 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4191ffc50217.htm
+
+
+
+SettlementAndCustodyDetails ( FundSettlementParameters4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4191ffc50376.htm
+
+
+
+ForeignExchangeDetails ( ForeignExchangeTerms5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41b495640015.htm
+
+
+
+TaxDetails ( Tax6 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4191ffc501f9.htm
+
+
+
+theSubscriptionOrder1 ( SubscriptionOrder1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role419200ce0213.htm
+
+
+
+<<XOR>> NetAmountOrUnitsNumberRule
+../../../../webviewer/34.jpg
+op4191ffc50387.htm
+op4191ffc50387.txt
+
+
+(
+)
+<<Textual>> PhysicalDeliveryDetailsRule
+../../../../webviewer/36.jpg
+op4191ffc50389.htm
+op4191ffc50389.txt
+
+
+(
+)
+)
+<<MessageComponent>> SubscriptionOrder4
+../../../../webviewer/143.jpg
+class418fa3250234.htm
+class418fa3250234.txt
+
+
+(
+OrderReference
+../../../../webviewer/31.jpg
+att418fa3250236.htm
+
+
+
+(
+)
+OrderType [0..n]
+../../../../webviewer/31.jpg
+att418fa3250298.htm
+
+
+
+(
+)
+UnitsNumber
+../../../../webviewer/31.jpg
+att418fa3250248.htm
+
+
+
+(
+)
+NetAmount
+../../../../webviewer/31.jpg
+att418fa3250252.htm
+
+
+
+(
+)
+Rounding [0..1]
+../../../../webviewer/31.jpg
+att41b81b5b023e.htm
+att41b81b5b023e.txt
+
+
+(
+)
+GrossAmount [0..1]
+../../../../webviewer/31.jpg
+att418fa325025c.htm
+att418fa325025c.txt
+
+
+(
+)
+IncomePreference[0..1]
+../../../../webviewer/31.jpg
+att418fa3250266.htm
+
+
+
+(
+)
+LetterIntentReference[0..1]
+../../../../webviewer/31.jpg
+att418fa3250270.htm
+att418fa3250270.txt
+
+
+(
+)
+AccumulationRightReference[0..1]
+../../../../webviewer/31.jpg
+att418fa325027a.htm
+
+
+
+(
+)
+PhysicalDeliveryIndicator
+../../../../webviewer/31.jpg
+att418fa32502a2.htm
+att418fa32502a2.txt
+
+
+(
+)
+RequestedSettlementCurrency[0..1]
+../../../../webviewer/31.jpg
+att418fa3250284.htm
+
+
+
+(
+)
+RequestedNAVCurrency[0..1]
+../../../../webviewer/31.jpg
+att418fa325028e.htm
+
+
+
+(
+)
+theSubscriptionMultipleOrder2 ( SubscriptionMultipleOrder2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role418fa2ae0212.htm
+
+
+
+theSubscriptionOrder ( SubscriptionOrder )
+../../../../webviewer/82.jpg
+../../../../looseends/role418fa32502f5.htm
+
+
+
+CashSettlementDetails ( PaymentTransaction19 )
+../../../../webviewer/82.jpg
+../../../../looseends/role418fa3250327.htm
+
+
+
+PhysicalDeliveryDetails ( NameAndAddress4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role418fa3250306.htm
+
+
+
+FinancialInstrumentDetails ( FinancialInstrument6 )
+../../../../webviewer/82.jpg
+../../../../looseends/role418fa32502eb.htm
+
+
+
+TaxDetails ( Tax6 )
+../../../../webviewer/82.jpg
+../../../../looseends/role418fa32502af.htm
+
+
+
+CommissionDetails ( Commission6 )
+../../../../webviewer/82.jpg
+../../../../looseends/role418fa32502d7.htm
+
+
+
+ForeignExchangeDetails ( ForeignExchangeTerms5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41b4941f01da.htm
+
+
+
+SettlementAndCustodyDetails ( FundSettlementParameters4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role418fa3250313.htm
+
+
+
+ChargeDetails ( Charge8 )
+../../../../webviewer/82.jpg
+../../../../looseends/role418fa32502c3.htm
+
+
+
+theSubscriptionOrder2 ( SubscriptionOrder2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role418facb400f5.htm
+
+
+
+<<XOR>> NetAmountOrUnitsNumberRule
+../../../../webviewer/34.jpg
+op418fa3250338.htm
+op418fa3250338.txt
+
+
+(
+)
+<<Textual>> PhysicalDeliveryDetailsRule
+../../../../webviewer/36.jpg
+op418fa325033a.htm
+op418fa325033a.txt
+
+
+(
+)
+<<Textual>> NetAmountGrossAmountRule
+../../../../webviewer/36.jpg
+op41b822e1006e.htm
+op41b822e1006e.txt
+
+
+(
+)
+)
+Associations
+../../../../webviewer/assoccat.gif
+
+
+
+
+(
+Association (InvestmentAccountDetails:InvestmentAccount3) (theSubscriptionOrder1:SubscriptionOrder1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3e0b28fe07da.htm
+../../../../looseends/ass3e0b28fe07da.txt
+
+
+(
+InvestmentAccount3 ( InvestmentAccountDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e0b28fe07db.htm
+
+
+
+SubscriptionOrder1 ( theSubscriptionOrder1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e0b28fe07dd.htm
+
+
+
+)
+Association (TaxDetails:Tax1) (theSubscriptionOrder1:SubscriptionOrder1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3e0b28fe059c.htm
+../../../../looseends/ass3e0b28fe059c.txt
+
+
+(
+Tax1 ( TaxDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e0b28fe059d.htm
+
+
+
+SubscriptionOrder1 ( theSubscriptionOrder1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e0b28fe059f.htm
+
+
+
+)
+Association (ChargeDetails:Charge1) (theSubscriptionOrder1:SubscriptionOrder1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3e0b28fe03ee.htm
+../../../../looseends/ass3e0b28fe03ee.txt
+
+
+(
+Charge1 ( ChargeDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e0b28fe03ef.htm
+
+
+
+SubscriptionOrder1 ( theSubscriptionOrder1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e0b28fe03f5.htm
+
+
+
+)
+Association (CommissionDetails:Commission1) (theSubscriptionOrder1:SubscriptionOrder1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3e0b28fe03e6.htm
+../../../../looseends/ass3e0b28fe03e6.txt
+
+
+(
+Commission1 ( CommissionDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e0b28fe03e7.htm
+
+
+
+SubscriptionOrder1 ( theSubscriptionOrder1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e0b28fe03e9.htm
+
+
+
+)
+<<SWSTrace>> (theSubscriptionOrder:SubscriptionOrder) (theSubscriptionOrder1:SubscriptionOrder1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3e143d720035.htm
+
+
+
+(
+SubscriptionOrder ( theSubscriptionOrder )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e143d720202.htm
+
+
+
+SubscriptionOrder1 ( theSubscriptionOrder1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e143d72023e.htm
+
+
+
+)
+Association (TaxDetails:Tax1) (theSubscriptionOrder2:SubscriptionOrder2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3e0b28fe05a4.htm
+../../../../looseends/ass3e0b28fe05a4.txt
+
+
+(
+Tax1 ( TaxDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e0b28fe05a5.htm
+
+
+
+SubscriptionOrder2 ( theSubscriptionOrder2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e0b28fe05a7.htm
+
+
+
+)
+Association (ChargeDetails:Charge1) (theSubscriptionOrder2:SubscriptionOrder2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3e0b28fe040a.htm
+../../../../looseends/ass3e0b28fe040a.txt
+
+
+(
+Charge1 ( ChargeDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e0b28fe040b.htm
+
+
+
+SubscriptionOrder2 ( theSubscriptionOrder2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e0b28fe040d.htm
+
+
+
+)
+Association (CommissionDetails:Commission1) (theSubscriptionOrder2:SubscriptionOrder2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3e0b28fe041e.htm
+../../../../looseends/ass3e0b28fe041e.txt
+
+
+(
+Commission1 ( CommissionDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e0b28fe041f.htm
+
+
+
+SubscriptionOrder2 ( theSubscriptionOrder2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e0b28fe0421.htm
+
+
+
+)
+Association (FinancialInstrumentDetails:FinancialInstrument1) (theSubscriptionOrder2:SubscriptionOrder2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3e0b28fe07b3.htm
+../../../../looseends/ass3e0b28fe07b3.txt
+
+
+(
+FinancialInstrument1 ( FinancialInstrumentDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e0b28fe07b4.htm
+
+
+
+SubscriptionOrder2 ( theSubscriptionOrder2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e0b28fe07b6.htm
+
+
+
+)
+<<SWSTrace>> (theSubscriptionOrder:SubscriptionOrder) (theSubscriptionOrder2:SubscriptionOrder2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3e144021030e.htm
+
+
+
+(
+SubscriptionOrder ( theSubscriptionOrder )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e14402200c0.htm
+
+
+
+SubscriptionOrder2 ( theSubscriptionOrder2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e14402200fd.htm
+
+
+
+)
+<<SWSTrace>> (theSubscriptionOrder:SubscriptionOrder) (theSubscriptionBulkOrder1:SubscriptionBulkOrder1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3e1442e70265.htm
+
+
+
+(
+SubscriptionOrder ( theSubscriptionOrder )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e1442e80194.htm
+
+
+
+SubscriptionBulkOrder1 ( theSubscriptionBulkOrder1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e1442e801e4.htm
+
+
+
+)
+Association (FinancialInstrumentDetails:FinancialInstrument1) (theSubscriptionBulkOrder1:SubscriptionBulkOrder1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3e0b28fe03cd.htm
+../../../../looseends/ass3e0b28fe03cd.txt
+
+
+(
+FinancialInstrument1 ( FinancialInstrumentDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e0b28fe03ce.htm
+
+
+
+SubscriptionBulkOrder1 ( theSubscriptionBulkOrder1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e0b28fe03d0.htm
+
+
+
+)
+Association (IndividualOrderDetails:SubscriptionOrder1) (theSubscriptionBulkOrder1:SubscriptionBulkOrder1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3e0b28fe03d5.htm
+../../../../looseends/ass3e0b28fe03d5.txt
+
+
+(
+SubscriptionOrder1 ( IndividualOrderDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e0b28fe03d6.htm
+
+
+
+SubscriptionBulkOrder1 ( theSubscriptionBulkOrder1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e0b28fe03e1.htm
+
+
+
+)
+Association (theSubscriptionMultipleOrder1:SubscriptionMultipleOrder1) (InvestmentAccountDetails:InvestmentAccount3)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3e0b28fe043a.htm
+../../../../looseends/ass3e0b28fe043a.txt
+
+
+(
+SubscriptionMultipleOrder1 ( theSubscriptionMultipleOrder1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e0b28fe043b.htm
+
+
+
+InvestmentAccount3 ( InvestmentAccountDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e0b28fe043d.htm
+
+
+
+)
+Association (IndividualOrderDetails:SubscriptionOrder2) (theSubscriptionMultipleOrder1:SubscriptionMultipleOrder1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3e0b28fe0426.htm
+../../../../looseends/ass3e0b28fe0426.txt
+
+
+(
+SubscriptionOrder2 ( IndividualOrderDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e0b28fe0427.htm
+
+
+
+SubscriptionMultipleOrder1 ( theSubscriptionMultipleOrder1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e0b28fe0429.htm
+
+
+
+)
+<<SWSTrace>> (theSubscriptionOrder:SubscriptionOrder) (theSubscriptionMultipleOrder1:SubscriptionMultipleOrder1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3e1444850061.htm
+
+
+
+(
+SubscriptionOrder ( theSubscriptionOrder )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e14448501de.htm
+
+
+
+SubscriptionMultipleOrder1 ( theSubscriptionMultipleOrder1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e1444850238.htm
+
+
+
+)
+Association (FinancialInstrumentDetails:FinancialInstrument1) (theSubscriptionBulkCancellation1:SubscriptionBulkCancellation1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3e0b28fe07f0.htm
+../../../../looseends/ass3e0b28fe07f0.txt
+
+
+(
+FinancialInstrument1 ( FinancialInstrumentDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e0b28fe07f1.htm
+
+
+
+SubscriptionBulkCancellation1 ( theSubscriptionBulkCancellation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e0b28fe07f3.htm
+
+
+
+)
+Association (OrderToBeCancelled:SubscriptionOrder1) (theSubscriptionBulkCancellation1:SubscriptionBulkCancellation1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3e0b28fe07e2.htm
+../../../../looseends/ass3e0b28fe07e2.txt
+
+
+(
+SubscriptionOrder1 ( OrderToBeCancelled )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e0b28fe07e3.htm
+
+
+
+SubscriptionBulkCancellation1 ( theSubscriptionBulkCancellation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e0b28fe07e5.htm
+
+
+
+)
+<<SWSTrace>> (theSubscriptionOrder:SubscriptionOrder) (theSubscriptionBulkCancellation1:SubscriptionBulkCancellation1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3e1445f40254.htm
+
+
+
+(
+SubscriptionOrder ( theSubscriptionOrder )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e1445f502e1.htm
+
+
+
+SubscriptionBulkCancellation1 ( theSubscriptionBulkCancellation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e1445f60076.htm
+
+
+
+)
+Association (BulkCashSettlementDetails:PaymentTransaction3) (theSubscriptionMultipleCancellation1:SubscriptionMultipleCancellation1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3e0b28fe07c7.htm
+../../../../looseends/ass3e0b28fe07c7.txt
+
+
+(
+PaymentTransaction3 ( BulkCashSettlementDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e0b28fe07c8.htm
+
+
+
+SubscriptionMultipleCancellation1 ( theSubscriptionMultipleCancellation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e0b28fe07ca.htm
+
+
+
+)
+Association (OrderToBeCancelled:SubscriptionOrder2) (theSubscriptionMultipleCancellation1:SubscriptionMultipleCancellation1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3e0b28fe07bb.htm
+../../../../looseends/ass3e0b28fe07bb.txt
+
+
+(
+SubscriptionOrder2 ( OrderToBeCancelled )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e0b28fe07bc.htm
+
+
+
+SubscriptionMultipleCancellation1 ( theSubscriptionMultipleCancellation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e0b28fe07be.htm
+
+
+
+)
+<<SWSTrace>> (theSubscriptionOrder:SubscriptionOrder) (theSubscriptionMultipleCancellation1:SubscriptionMultipleCancellation1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3e1447130007.htm
+
+
+
+(
+SubscriptionOrder ( theSubscriptionOrder )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e14471301c0.htm
+
+
+
+SubscriptionMultipleCancellation1 ( theSubscriptionMultipleCancellation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e1447130242.htm
+
+
+
+)
+Association (PhysicalDeliveryDetails:NameAndAddress1) (theSubscriptionOrder1:SubscriptionOrder1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3e2406f700ea.htm
+
+
+
+(
+NameAndAddress1 ( PhysicalDeliveryDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e2406f800da.htm
+
+
+
+SubscriptionOrder1 ( theSubscriptionOrder1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e2406f80109.htm
+
+
+
+)
+Association (PhysicalDeliveryDetails:NameAndAddress1) (theSubscriptionOrder2:SubscriptionOrder2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3e240831035b.htm
+
+
+
+(
+NameAndAddress1 ( PhysicalDeliveryDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e2408330213.htm
+
+
+
+SubscriptionOrder2 ( theSubscriptionOrder2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e2408330242.htm
+
+
+
+)
+Association (InvestmentAccountDetails:InvestmentAccount3) (theSubscriptionMultipleCancellation1:SubscriptionMultipleCancellation1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3e242962008c.htm
+../../../../looseends/ass3e242962008c.txt
+
+
+(
+InvestmentAccount3 ( InvestmentAccountDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e242963008c.htm
+
+
+
+SubscriptionMultipleCancellation1 ( theSubscriptionMultipleCancellation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e24296300cb.htm
+
+
+
+)
+Association (SettlementAndCustodyDetails:FundSettlementParameters2) (theSubscriptionOrder2:SubscriptionOrder2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3f9d1c550203.htm
+../../../../looseends/ass3f9d1c550203.txt
+
+
+(
+FundSettlementParameters2 ( SettlementAndCustodyDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f9d1c550204.htm
+
+
+
+SubscriptionOrder2 ( theSubscriptionOrder2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f9d1c550205.htm
+
+
+
+)
+Association (SettlementAndCustodyDetails:FundSettlementParameters2) (theSubscriptionOrder1:SubscriptionOrder1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3f9d1c5902ee.htm
+../../../../looseends/ass3f9d1c5902ee.txt
+
+
+(
+FundSettlementParameters2 ( SettlementAndCustodyDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f9d1c5902ef.htm
+
+
+
+SubscriptionOrder1 ( theSubscriptionOrder1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f9d1c5902f0.htm
+
+
+
+)
+Association (CashSettlementDetails:PaymentTransaction8) (theSubscriptionBulkOrder1:SubscriptionBulkOrder1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3fb209bb033c.htm
+../../../../looseends/ass3fb209bb033c.txt
+
+
+(
+PaymentTransaction8 ( CashSettlementDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role3fb209bb033d.htm
+
+
+
+SubscriptionBulkOrder1 ( theSubscriptionBulkOrder1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3fb209bb033e.htm
+
+
+
+)
+Association (BulkCashSettlementDetails:PaymentTransaction10) (theSubscriptionMultipleOrder1:SubscriptionMultipleOrder1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3fb20ae402de.htm
+../../../../looseends/ass3fb20ae402de.txt
+
+
+(
+PaymentTransaction10 ( BulkCashSettlementDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role3fb20ae402df.htm
+
+
+
+SubscriptionMultipleOrder1 ( theSubscriptionMultipleOrder1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3fb20ae402e0.htm
+
+
+
+)
+Association (CashSettlementDetails:PaymentTransaction10) (theSubscriptionOrder2:SubscriptionOrder2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3fb20aea0399.htm
+../../../../looseends/ass3fb20aea0399.txt
+
+
+(
+PaymentTransaction10 ( CashSettlementDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role3fb20aea039a.htm
+
+
+
+SubscriptionOrder2 ( theSubscriptionOrder2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3fb20aea039b.htm
+
+
+
+)
+<<SWSTrace>> (theSubscriptionOrder:SubscriptionOrder) (theSubscriptionMultipleOrder2:SubscriptionMultipleOrder2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass418fa2ae0225.htm
+
+
+
+(
+SubscriptionOrder ( theSubscriptionOrder )
+../../../../webviewer/82.jpg
+../../../../looseends/role418fa2ae0226.htm
+
+
+
+SubscriptionMultipleOrder2 ( theSubscriptionMultipleOrder2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role418fa2ae0228.htm
+
+
+
+)
+Association (theSubscriptionMultipleOrder2:SubscriptionMultipleOrder2) (BeneficiaryDetails:IndividualPerson2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4210c41503bc.htm
+../../../../looseends/ass4210c41503bc.txt
+
+
+(
+SubscriptionMultipleOrder2 ( theSubscriptionMultipleOrder2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4210c41503bd.htm
+
+
+
+IndividualPerson2 ( BeneficiaryDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role4210c41503be.htm
+
+
+
+)
+Association (BulkCashSettlementDetails:PaymentTransaction19) (theSubscriptionMultipleOrder2:SubscriptionMultipleOrder2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass418fa2ae022b.htm
+
+
+
+(
+PaymentTransaction19 ( BulkCashSettlementDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role418fa2ae022c.htm
+
+
+
+SubscriptionMultipleOrder2 ( theSubscriptionMultipleOrder2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role418fa2ae0230.htm
+
+
+
+)
+Association (InvestmentAccountDetails:InvestmentAccount13) (theSubscriptionMultipleOrder2:SubscriptionMultipleOrder2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass418fa2ae01fd.htm
+../../../../looseends/ass418fa2ae01fd.txt
+
+
+(
+InvestmentAccount13 ( InvestmentAccountDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role418fa2ae01fe.htm
+
+
+
+SubscriptionMultipleOrder2 ( theSubscriptionMultipleOrder2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role418fa2ae0207.htm
+
+
+
+)
+Association (IndividualOrderDetails:SubscriptionOrder4) (theSubscriptionMultipleOrder2:SubscriptionMultipleOrder2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass418fa2ae0211.htm
+../../../../looseends/ass418fa2ae0211.txt
+
+
+(
+SubscriptionOrder4 ( IndividualOrderDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role418fa2ae0212.htm
+
+
+
+SubscriptionMultipleOrder2 ( theSubscriptionMultipleOrder2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role418fa2ae0214.htm
+
+
+
+)
+<<SWSTrace>> (theSubscriptionOrder:SubscriptionOrder) (theSubscriptionBulkOrder2:SubscriptionBulkOrder2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4191ff20038e.htm
+
+
+
+(
+SubscriptionOrder ( theSubscriptionOrder )
+../../../../webviewer/82.jpg
+../../../../looseends/role4191ff20038f.htm
+
+
+
+SubscriptionBulkOrder2 ( theSubscriptionBulkOrder2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4191ff200391.htm
+
+
+
+)
+Association (BulkCashSettlementDetails:PaymentTransaction17) (theSubscriptionBulkOrder2:SubscriptionBulkOrder2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4191ff2003b6.htm
+../../../../looseends/ass4191ff2003b6.txt
+
+
+(
+PaymentTransaction17 ( BulkCashSettlementDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role4191ff2003b7.htm
+
+
+
+SubscriptionBulkOrder2 ( theSubscriptionBulkOrder2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4191ff2003b9.htm
+
+
+
+)
+Association (IndividualOrderDetails:SubscriptionOrder3) (theSubscriptionBulkOrder2:SubscriptionBulkOrder2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4191ff2003a2.htm
+
+
+
+(
+SubscriptionOrder3 ( IndividualOrderDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role4191ff2003a3.htm
+
+
+
+SubscriptionBulkOrder2 ( theSubscriptionBulkOrder2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4191ff2003a5.htm
+
+
+
+)
+Association (FinancialInstrumentDetails:FinancialInstrument6) (theSubscriptionBulkOrder2:SubscriptionBulkOrder2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4191ff200399.htm
+../../../../looseends/ass4191ff200399.txt
+
+
+(
+FinancialInstrument6 ( FinancialInstrumentDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role4191ff20039a.htm
+
+
+
+SubscriptionBulkOrder2 ( theSubscriptionBulkOrder2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4191ff20039c.htm
+
+
+
+)
+<<SWSTrace>> (theSubscriptionOrder:SubscriptionOrder) (theSubscriptionOrder3:SubscriptionOrder3)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4191ffc5021e.htm
+
+
+
+(
+SubscriptionOrder ( theSubscriptionOrder )
+../../../../webviewer/82.jpg
+../../../../looseends/role4191ffc5021f.htm
+
+
+
+SubscriptionOrder3 ( theSubscriptionOrder3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4191ffc50221.htm
+
+
+
+)
+Association (BeneficiaryDetails:IndividualPerson2) (theSubscriptionOrder3:SubscriptionOrder3)
+../../../../webviewer/81.jpg
+../../../../looseends/ass420c9126030f.htm
+../../../../looseends/ass420c9126030f.txt
+
+
+(
+IndividualPerson2 ( BeneficiaryDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role420c9127014e.htm
+
+
+
+SubscriptionOrder3 ( theSubscriptionOrder3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role420c9127018a.htm
+
+
+
+)
+Association (CashSettlementDetails:PaymentTransaction17) (theSubscriptionOrder3:SubscriptionOrder3)
+../../../../webviewer/81.jpg
+../../../../looseends/ass41b49e03008c.htm
+../../../../looseends/ass41b49e03008c.txt
+
+
+(
+PaymentTransaction17 ( CashSettlementDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role41b49e040002.htm
+
+
+
+SubscriptionOrder3 ( theSubscriptionOrder3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41b49e04000c.htm
+
+
+
+)
+Association (InvestmentAccountDetails:InvestmentAccount13) (theSubscriptionOrder3:SubscriptionOrder3)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4191ffc501e2.htm
+../../../../looseends/ass4191ffc501e2.txt
+
+
+(
+InvestmentAccount13 ( InvestmentAccountDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role4191ffc501e3.htm
+
+
+
+SubscriptionOrder3 ( theSubscriptionOrder3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4191ffc501e5.htm
+
+
+
+)
+Association (PhysicalDeliveryDetails:NameAndAddress4) (theSubscriptionOrder3:SubscriptionOrder3)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4191ffc5035e.htm
+
+
+
+(
+NameAndAddress4 ( PhysicalDeliveryDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role4191ffc5035f.htm
+
+
+
+SubscriptionOrder3 ( theSubscriptionOrder3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4191ffc5036a.htm
+
+
+
+)
+Association (ChargeDetails:Charge8) (theSubscriptionOrder3:SubscriptionOrder3)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4191ffc50200.htm
+../../../../looseends/ass4191ffc50200.txt
+
+
+(
+Charge8 ( ChargeDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role4191ffc50201.htm
+
+
+
+SubscriptionOrder3 ( theSubscriptionOrder3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4191ffc50203.htm
+
+
+
+)
+Association (CommissionDetails:Commission6) (theSubscriptionOrder3:SubscriptionOrder3)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4191ffc50214.htm
+../../../../looseends/ass4191ffc50214.txt
+
+
+(
+Commission6 ( CommissionDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role4191ffc50215.htm
+
+
+
+SubscriptionOrder3 ( theSubscriptionOrder3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4191ffc50217.htm
+
+
+
+)
+Association (SettlementAndCustodyDetails:FundSettlementParameters4) (theSubscriptionOrder3:SubscriptionOrder3)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4191ffc50373.htm
+../../../../looseends/ass4191ffc50373.txt
+
+
+(
+FundSettlementParameters4 ( SettlementAndCustodyDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role4191ffc50374.htm
+
+
+
+SubscriptionOrder3 ( theSubscriptionOrder3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4191ffc50376.htm
+
+
+
+)
+Association (ForeignExchangeDetails:ForeignExchangeTerms5) (theSubscriptionOrder3:SubscriptionOrder3)
+../../../../webviewer/81.jpg
+../../../../looseends/ass41b4956300c7.htm
+../../../../looseends/ass41b4956300c7.txt
+
+
+(
+ForeignExchangeTerms5 ( ForeignExchangeDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role41b4956303de.htm
+
+
+
+SubscriptionOrder3 ( theSubscriptionOrder3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41b495640015.htm
+
+
+
+)
+Association (TaxDetails:Tax6) (theSubscriptionOrder3:SubscriptionOrder3)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4191ffc501f6.htm
+../../../../looseends/ass4191ffc501f6.txt
+
+
+(
+Tax6 ( TaxDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role4191ffc501f7.htm
+
+
+
+SubscriptionOrder3 ( theSubscriptionOrder3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4191ffc501f9.htm
+
+
+
+)
+<<SWSTrace>> (theSubscriptionOrder:SubscriptionOrder) (theSubscriptionOrder4:SubscriptionOrder4)
+../../../../webviewer/81.jpg
+../../../../looseends/ass418fa32502f2.htm
+
+
+
+(
+SubscriptionOrder ( theSubscriptionOrder )
+../../../../webviewer/82.jpg
+../../../../looseends/role418fa32502f3.htm
+
+
+
+SubscriptionOrder4 ( theSubscriptionOrder4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role418fa32502f5.htm
+
+
+
+)
+Association (CashSettlementDetails:PaymentTransaction19) (theSubscriptionOrder4:SubscriptionOrder4)
+../../../../webviewer/81.jpg
+../../../../looseends/ass418fa3250324.htm
+../../../../looseends/ass418fa3250324.txt
+
+
+(
+PaymentTransaction19 ( CashSettlementDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role418fa3250325.htm
+
+
+
+SubscriptionOrder4 ( theSubscriptionOrder4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role418fa3250327.htm
+
+
+
+)
+Association (PhysicalDeliveryDetails:NameAndAddress4) (theSubscriptionOrder4:SubscriptionOrder4)
+../../../../webviewer/81.jpg
+../../../../looseends/ass418fa32502fd.htm
+
+
+
+(
+NameAndAddress4 ( PhysicalDeliveryDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role418fa32502fe.htm
+
+
+
+SubscriptionOrder4 ( theSubscriptionOrder4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role418fa3250306.htm
+
+
+
+)
+Association (FinancialInstrumentDetails:FinancialInstrument6) (theSubscriptionOrder4:SubscriptionOrder4)
+../../../../webviewer/81.jpg
+../../../../looseends/ass418fa32502e8.htm
+
+
+
+(
+FinancialInstrument6 ( FinancialInstrumentDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role418fa32502e9.htm
+
+
+
+SubscriptionOrder4 ( theSubscriptionOrder4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role418fa32502eb.htm
+
+
+
+)
+Association (TaxDetails:Tax6) (theSubscriptionOrder4:SubscriptionOrder4)
+../../../../webviewer/81.jpg
+../../../../looseends/ass418fa32502ac.htm
+
+
+
+(
+Tax6 ( TaxDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role418fa32502ad.htm
+
+
+
+SubscriptionOrder4 ( theSubscriptionOrder4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role418fa32502af.htm
+
+
+
+)
+Association (CommissionDetails:Commission6) (theSubscriptionOrder4:SubscriptionOrder4)
+../../../../webviewer/81.jpg
+../../../../looseends/ass418fa32502d4.htm
+../../../../looseends/ass418fa32502d4.txt
+
+
+(
+Commission6 ( CommissionDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role418fa32502d5.htm
+
+
+
+SubscriptionOrder4 ( theSubscriptionOrder4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role418fa32502d7.htm
+
+
+
+)
+Association (ForeignExchangeDetails:ForeignExchangeTerms5) (theSubscriptionOrder4:SubscriptionOrder4)
+../../../../webviewer/81.jpg
+../../../../looseends/ass41b4941e01d9.htm
+
+
+
+(
+ForeignExchangeTerms5 ( ForeignExchangeDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role41b4941f01d0.htm
+
+
+
+SubscriptionOrder4 ( theSubscriptionOrder4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41b4941f01da.htm
+
+
+
+)
+Association (SettlementAndCustodyDetails:FundSettlementParameters4) (theSubscriptionOrder4:SubscriptionOrder4)
+../../../../webviewer/81.jpg
+../../../../looseends/ass418fa3250310.htm
+../../../../looseends/ass418fa3250310.txt
+
+
+(
+FundSettlementParameters4 ( SettlementAndCustodyDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role418fa3250311.htm
+
+
+
+SubscriptionOrder4 ( theSubscriptionOrder4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role418fa3250313.htm
+
+
+
+)
+Association (ChargeDetails:Charge8) (theSubscriptionOrder4:SubscriptionOrder4)
+../../../../webviewer/81.jpg
+../../../../looseends/ass418fa32502c0.htm
+../../../../looseends/ass418fa32502c0.txt
+
+
+(
+Charge8 ( ChargeDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role418fa32502c1.htm
+
+
+
+SubscriptionOrder4 ( theSubscriptionOrder4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role418fa32502c3.htm
+
+
+
+)
+)

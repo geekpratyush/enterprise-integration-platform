@@ -1,0 +1,1 @@
+If PaymentInformation/PaymentTransaction/ChequeInstruction/DeliveryMethod is present and is CRCD or MLCD or PUCD or RGCD, then DeliverTo may only be present if different than PaymentInformation/Creditor.

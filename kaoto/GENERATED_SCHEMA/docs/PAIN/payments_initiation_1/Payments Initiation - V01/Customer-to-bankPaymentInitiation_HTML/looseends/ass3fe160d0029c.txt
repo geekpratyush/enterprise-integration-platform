@@ -1,0 +1,1 @@
+Status of the order details is cancelled. This status is used for orders that have been accepted or that have been entered in an order book but that can not be executed.

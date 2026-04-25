@@ -1,0 +1,1 @@
+Type of underlying transaction resulting in the entry.

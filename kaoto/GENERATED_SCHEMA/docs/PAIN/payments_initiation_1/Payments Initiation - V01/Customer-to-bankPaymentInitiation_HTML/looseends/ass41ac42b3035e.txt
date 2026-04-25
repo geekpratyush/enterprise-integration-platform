@@ -1,0 +1,3 @@
+Creditor: type changed from PartyIdentification1Choice to PartyIdentification2Choice.
+FinalAgent: type changed from FinancialInstitutionIdentification1Choice to FinancialInstitutionIdentification3Choice.
+AccountIdentification: type changed from AccountIdentificationAndName1 to AccountIdentificationAndName3.

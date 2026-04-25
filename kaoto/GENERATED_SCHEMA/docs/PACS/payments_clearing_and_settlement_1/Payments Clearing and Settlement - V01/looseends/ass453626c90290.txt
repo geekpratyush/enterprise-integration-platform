@@ -1,0 +1,3 @@
+Party that is entitled by the account owner to receive information about movements in the account. 
+
+Guideline : MessageRecipient should only be identified when different from the account owner.

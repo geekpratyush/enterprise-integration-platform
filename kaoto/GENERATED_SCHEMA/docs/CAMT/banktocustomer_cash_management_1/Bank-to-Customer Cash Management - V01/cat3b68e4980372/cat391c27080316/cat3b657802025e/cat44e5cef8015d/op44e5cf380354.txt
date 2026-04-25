@@ -1,0 +1,1 @@
+Either Organisation or IndividualPerson must be present, but not both.

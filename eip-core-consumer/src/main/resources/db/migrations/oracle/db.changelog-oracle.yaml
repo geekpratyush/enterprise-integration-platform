@@ -1,0 +1,32 @@
+databaseChangeLog:
+  - changeSet:
+      id: 1-oracle-create-audit-log
+      author: pratyush
+      dbms: oracle
+      changes:
+        - createTable:
+            tableName: audit_log
+            columns:
+              - column:
+                  name: id
+                  type: NUMBER
+                  autoIncrement: true
+                  constraints:
+                    primaryKey: true
+              - column:
+                  name: txn_id
+                  type: VARCHAR2(50)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: status
+                  type: VARCHAR2(20)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: payload
+                  type: CLOB
+              - column:
+                  name: created_at
+                  type: TIMESTAMP
+                  defaultValueComputed: CURRENT_TIMESTAMP

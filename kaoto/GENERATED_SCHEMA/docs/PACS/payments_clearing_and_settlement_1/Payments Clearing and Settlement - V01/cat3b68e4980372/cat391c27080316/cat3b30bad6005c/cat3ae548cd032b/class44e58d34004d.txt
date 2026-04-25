@@ -1,0 +1,1 @@
+Specifies if advice has been received from an independent financial advisor.

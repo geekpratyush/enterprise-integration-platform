@@ -1,0 +1,2 @@
+Indicates that the book priority is unchanged.
+

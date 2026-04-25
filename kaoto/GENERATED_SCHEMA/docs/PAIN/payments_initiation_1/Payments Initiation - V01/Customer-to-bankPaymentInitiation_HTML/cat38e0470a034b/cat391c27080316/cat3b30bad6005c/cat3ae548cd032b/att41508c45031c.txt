@@ -1,0 +1,1 @@
+Returned when a creditor accepts the debit authorisation.

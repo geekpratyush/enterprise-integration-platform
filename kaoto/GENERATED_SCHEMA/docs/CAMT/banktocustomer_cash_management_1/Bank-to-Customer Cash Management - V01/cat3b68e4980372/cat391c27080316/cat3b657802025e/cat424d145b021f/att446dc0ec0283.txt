@@ -1,0 +1,1 @@
+Price multiplied by the ordered quantity for a line as indicated in the baseline. 

@@ -1,0 +1,7 @@
+The first agent prepares the information to send to the initiating party or forwarding agent (relay scenario) explaining that the payment is executed i.e. that the account is debited. 
+
+Pre-condition : the payment is settled.
+
+Trigger : the account has been debited. 
+
+Post-condition : the initiating party may be informed that the payment is settled and may start the payment reconcilation and tracking.

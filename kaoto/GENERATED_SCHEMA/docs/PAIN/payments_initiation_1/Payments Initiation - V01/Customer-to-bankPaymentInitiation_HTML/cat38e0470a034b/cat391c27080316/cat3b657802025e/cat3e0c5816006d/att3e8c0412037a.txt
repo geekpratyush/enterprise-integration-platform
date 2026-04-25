@@ -1,0 +1,1 @@
+Recalls the search criteria defined in a preceding query.

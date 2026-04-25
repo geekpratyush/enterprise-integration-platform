@@ -1,0 +1,3 @@
+Unique and unambiguous identification of the pre-notification which is sent separately from the direct debit instruction.
+
+Usage: the direct debit pre-notification is used to reconcile separately sent collection information with the direct debit transaction information.

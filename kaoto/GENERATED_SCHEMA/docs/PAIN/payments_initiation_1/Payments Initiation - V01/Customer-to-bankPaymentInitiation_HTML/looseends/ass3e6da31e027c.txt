@@ -1,0 +1,1 @@
+Parameters used to evaluate the liquidity of a security in a specific market and point in time.

@@ -1,0 +1,1 @@
+Total amount of the trade. Is equal to the executed trade quantity multiplied by the executed trade price.

@@ -1,0 +1,1 @@
+Reference that links to other trades that are/will be sent, eg for straddles where put and call legs need to be reported together.

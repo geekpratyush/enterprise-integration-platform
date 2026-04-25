@@ -1,0 +1,1 @@
+Direct debit instruction where the debtor's authorisation is used to initiate one single direct debit transaction. 

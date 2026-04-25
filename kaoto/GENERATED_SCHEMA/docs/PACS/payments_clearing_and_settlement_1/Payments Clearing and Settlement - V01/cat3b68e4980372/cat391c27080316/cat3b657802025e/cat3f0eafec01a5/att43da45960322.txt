@@ -1,0 +1,3 @@
+Value of all the holdings, less the fund's liabilities, attributable to a specific investment fund class.
+
+

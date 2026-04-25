@@ -1,0 +1,1 @@
+Specifies whether all matching items are returned or only the new matching items since the latest query. 

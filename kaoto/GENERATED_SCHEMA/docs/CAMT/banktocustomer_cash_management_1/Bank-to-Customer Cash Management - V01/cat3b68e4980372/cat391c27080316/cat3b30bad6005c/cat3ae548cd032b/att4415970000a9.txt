@@ -1,0 +1,1 @@
+Scheme code for AL (Albania) -  Albania Interbank Payment System.

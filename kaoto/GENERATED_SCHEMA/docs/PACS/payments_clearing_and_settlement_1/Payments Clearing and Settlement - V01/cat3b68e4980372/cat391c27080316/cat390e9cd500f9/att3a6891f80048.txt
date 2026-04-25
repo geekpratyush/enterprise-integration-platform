@@ -1,0 +1,2 @@
+Indicates whether the standing arrangement for beneficial ownership 
+has to be overridden or not.

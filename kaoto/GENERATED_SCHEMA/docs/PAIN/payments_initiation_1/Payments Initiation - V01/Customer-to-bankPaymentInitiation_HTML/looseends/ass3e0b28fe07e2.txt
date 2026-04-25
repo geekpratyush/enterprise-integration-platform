@@ -1,0 +1,1 @@
+Information related to the individual order to be cancelled.

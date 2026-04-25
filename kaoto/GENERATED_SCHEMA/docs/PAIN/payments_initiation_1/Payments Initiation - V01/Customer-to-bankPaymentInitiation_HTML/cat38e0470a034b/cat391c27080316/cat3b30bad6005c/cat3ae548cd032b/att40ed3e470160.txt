@@ -1,0 +1,1 @@
+Source of price quotation is a fund, eg, transfer agent, fund itself.

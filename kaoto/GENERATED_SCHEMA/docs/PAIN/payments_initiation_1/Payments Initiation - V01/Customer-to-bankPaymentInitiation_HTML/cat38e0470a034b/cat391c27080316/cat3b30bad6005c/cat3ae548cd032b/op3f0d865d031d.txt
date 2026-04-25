@@ -1,0 +1,1 @@
+A valid IBAN consists of all three of the following components: Country Code, check digits and BBAN.

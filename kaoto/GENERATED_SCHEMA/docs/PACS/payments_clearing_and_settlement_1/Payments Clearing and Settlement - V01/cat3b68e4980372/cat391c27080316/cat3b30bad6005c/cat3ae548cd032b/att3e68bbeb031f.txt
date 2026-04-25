@@ -1,0 +1,4 @@
+The rate at which major international banks are willing to take deposits from one another, is normally 1/8 percent below LIBOR.
+
+London InterBank Bid Rate, the rate bid by banks on Eurocurrency deposits; the international rate that banks lend to other banks.
+

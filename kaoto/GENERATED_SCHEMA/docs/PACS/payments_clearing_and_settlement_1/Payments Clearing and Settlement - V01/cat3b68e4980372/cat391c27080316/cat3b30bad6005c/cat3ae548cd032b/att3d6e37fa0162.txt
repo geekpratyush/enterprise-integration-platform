@@ -1,0 +1,1 @@
+Transaction has been matched with a corresponding transaction by the clearing agent.

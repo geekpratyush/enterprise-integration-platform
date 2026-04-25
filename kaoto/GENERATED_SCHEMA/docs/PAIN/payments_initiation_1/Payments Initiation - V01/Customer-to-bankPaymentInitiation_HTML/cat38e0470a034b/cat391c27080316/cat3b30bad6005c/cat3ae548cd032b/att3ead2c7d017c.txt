@@ -1,0 +1,1 @@
+Indicates that the trade is a spot or forward agreement.

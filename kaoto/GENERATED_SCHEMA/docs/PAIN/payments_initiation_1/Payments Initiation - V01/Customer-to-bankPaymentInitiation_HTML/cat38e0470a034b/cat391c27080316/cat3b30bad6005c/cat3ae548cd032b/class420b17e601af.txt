@@ -1,0 +1,1 @@
+Specifies whether the report contains a new, a resubmitted or an amended baseline.

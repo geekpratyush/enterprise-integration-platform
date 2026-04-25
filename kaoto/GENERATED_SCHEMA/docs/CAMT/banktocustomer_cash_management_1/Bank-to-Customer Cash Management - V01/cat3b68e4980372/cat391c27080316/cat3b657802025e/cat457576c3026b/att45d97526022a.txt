@@ -1,0 +1,1 @@
+Indicates whether the availability balance is a credit or a debit balance. A zero balance is considered to be a credit balance

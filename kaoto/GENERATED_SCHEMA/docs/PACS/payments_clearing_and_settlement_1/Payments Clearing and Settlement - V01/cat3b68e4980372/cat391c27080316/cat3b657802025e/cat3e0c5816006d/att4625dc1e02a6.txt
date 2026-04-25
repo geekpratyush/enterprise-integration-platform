@@ -1,0 +1,1 @@
+Provides the identification of the RegulatoryTransactionReport document that was previously sent by the reporting institution.

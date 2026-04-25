@@ -1,0 +1,1 @@
+Date on which the price is obtained. With an investment fund, this is as stated in the prospectus.

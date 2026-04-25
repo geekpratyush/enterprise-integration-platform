@@ -1,0 +1,14 @@
+Definition : the settlement agent performs the transfer of cash between the debit party and the credit party
+
+Pre-condition :  instructed payment is executable (all information is there to process the payment and the payment validity has been checked) and the settlement agent is identifed by the clearing agent
+
+Trigger : payment execution date in the payment is reached
+
+Post-condition : transfer of ownership is performed between the debit party and credit party.
+
+Note : This process was further analysed in the (Interbank) Bulk Payments project, but is outside the scope of the Customer-to-Bank Payment Initiation project.
+
+
+
+
+

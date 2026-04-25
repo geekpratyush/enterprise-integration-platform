@@ -1,0 +1,4 @@
+Code for payment at end of period after receipt of invoice.
+
+
+

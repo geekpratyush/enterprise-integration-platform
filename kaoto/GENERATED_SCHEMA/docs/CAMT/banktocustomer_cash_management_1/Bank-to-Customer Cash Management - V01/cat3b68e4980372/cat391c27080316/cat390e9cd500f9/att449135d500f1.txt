@@ -1,0 +1,1 @@
+Additional information, in free text form, to complement the structured remittance information.

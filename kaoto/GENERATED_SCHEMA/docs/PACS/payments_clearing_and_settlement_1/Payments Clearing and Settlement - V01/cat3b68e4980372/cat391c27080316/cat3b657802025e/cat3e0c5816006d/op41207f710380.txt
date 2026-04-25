@@ -1,0 +1,1 @@
+If Status is Pending, then AdditionalInformation is allowed. If Status is not Pending, then AdditionalInformation is not allowed.

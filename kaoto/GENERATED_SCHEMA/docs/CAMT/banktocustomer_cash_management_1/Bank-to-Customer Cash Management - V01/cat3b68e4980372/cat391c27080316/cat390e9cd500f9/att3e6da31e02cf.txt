@@ -1,0 +1,1 @@
+Indicates per lot the collection of loans, mortgages or other assets assembled by an originator as the basis for a security. 

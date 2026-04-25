@@ -1,0 +1,1 @@
+Type of ISA that must offer a stocks and shares component and, optionally, a cash component.

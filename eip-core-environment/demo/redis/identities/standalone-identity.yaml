@@ -1,0 +1,3 @@
+# EIP Redis - No YAML beans required.
+# Authentication is managed natively by RedisCamelRegistrar in eip-core-lib.
+- beans: []

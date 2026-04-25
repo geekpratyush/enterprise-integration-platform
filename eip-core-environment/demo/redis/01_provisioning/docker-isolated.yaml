@@ -1,0 +1,16 @@
+# Redis (Isolated Architecture)
+# MISSION: high-performance caching & state store
+# ----------------------------------------------------------------------
+services:
+  redis-platform:
+    image: redis:7.2-alpine
+    container_name: redis-platform
+    ports:
+      - "6379:6379"
+    networks:
+      - redis-network
+    command: ["redis-server", "--loglevel", "verbose"]
+
+networks:
+  redis-network:
+    name: redis-network

@@ -1,0 +1,1 @@
+Search for one or more accounts based on partial identification of the account(s).

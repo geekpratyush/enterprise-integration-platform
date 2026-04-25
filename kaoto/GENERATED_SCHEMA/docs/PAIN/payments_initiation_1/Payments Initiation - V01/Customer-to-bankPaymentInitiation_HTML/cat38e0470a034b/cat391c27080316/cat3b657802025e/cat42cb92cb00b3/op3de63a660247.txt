@@ -1,0 +1,1 @@
+If FixedRateBond is present, VariableRateBond must not be present. If VariableRateBond is present, FixedRateBond must not be present.

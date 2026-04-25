@@ -1,0 +1,1 @@
+If SettlementMethod is equal to INDA or INGA then ClearingSystem is not allowed.

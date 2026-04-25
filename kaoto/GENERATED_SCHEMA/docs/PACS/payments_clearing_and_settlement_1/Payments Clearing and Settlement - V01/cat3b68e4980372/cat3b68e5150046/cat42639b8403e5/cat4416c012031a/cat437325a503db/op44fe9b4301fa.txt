@@ -1,0 +1,3 @@
+GroupHeader/InitiatingParty is not allowed.
+
+

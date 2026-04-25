@@ -1,0 +1,1 @@
+Reference of the type of trade to which the order is linked.

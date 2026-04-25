@@ -1,0 +1,1 @@
+Date and time by which the participation to the vote should be confirmed.

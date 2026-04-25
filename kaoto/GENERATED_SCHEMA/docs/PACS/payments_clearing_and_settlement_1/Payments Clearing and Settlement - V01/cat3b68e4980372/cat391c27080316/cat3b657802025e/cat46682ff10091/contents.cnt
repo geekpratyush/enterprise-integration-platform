@@ -1,0 +1,630 @@
+<<MessageComponent>> FinancingAllowedSummary1
+../../../../webviewer/142.jpg
+class45c886d00093.htm
+class45c886d00093.txt
+
+
+(
+FinancedItemNumber
+../../../../webviewer/33.jpg
+att45c8874602ec.htm
+att45c8874602ec.txt
+
+
+(
+)
+TotalAcceptedItemsAmount
+../../../../webviewer/33.jpg
+att45c887ef015e.htm
+att45c887ef015e.txt
+
+
+(
+)
+AppliedPercentage[0..1]
+../../../../webviewer/31.jpg
+att45c888950207.htm
+att45c888950207.txt
+
+
+(
+)
+TotalFinancedAmount
+../../../../webviewer/31.jpg
+att45c888d70176.htm
+att45c888d70176.txt
+
+
+(
+)
+theInvoiceFinancingTransaction ( InvoiceFinancingTransaction )
+../../../../webviewer/82.jpg
+../../../../looseends/role45f9789b0344.htm
+
+
+
+FinancingDateDetails ( FinancingDateDetails1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role45d04fa500c8.htm
+
+
+
+Account ( AccountIdentification2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role460bb2a403ba.htm
+
+
+
+FinancingAccount ( AccountIdentification3Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role460bb2cb01b7.htm
+
+
+
+)
+<<MessageComponent>> FinancingResultDetails1
+../../../../webviewer/142.jpg
+class460ce92002ec.htm
+class460ce92002ec.txt
+
+
+(
+AppliedPercentage[0..1]
+../../../../webviewer/31.jpg
+att45c897090149.htm
+
+
+
+(
+)
+FinancingRequestStatus
+../../../../webviewer/31.jpg
+att4427a2a00317.htm
+
+
+
+(
+)
+StatusReason[0..1]
+../../../../webviewer/31.jpg
+att45cb00f600b6.htm
+
+
+
+(
+)
+theInvoiceOrInstalmentFinancedDetails1 ( InvoiceOrInstalmentFinancedDetails1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role460d1a5902a5.htm
+
+
+
+theInvoiceFinancingTransaction ( InvoiceFinancingTransaction )
+../../../../webviewer/82.jpg
+../../../../looseends/role460ce99a0337.htm
+
+
+
+)
+<<MessageComponent>> OriginalRequestInformation1
+../../../../webviewer/142.jpg
+class45c8854a0273.htm
+class45c8854a0273.txt
+
+
+(
+Identification
+../../../../webviewer/31.jpg
+att4427ab5802ef.htm
+att4427ab5802ef.txt
+
+
+(
+)
+theInvoiceFinancingTransaction ( InvoiceFinancingTransaction )
+../../../../webviewer/82.jpg
+../../../../looseends/role45f97f5b0046.htm
+
+
+
+FirstAgent ( FinancialInstitutionIdentification6 )
+../../../../webviewer/82.jpg
+../../../../looseends/role460d29af034a.htm
+
+
+
+ForwardingAgent ( FinancialInstitutionIdentification6 )
+../../../../webviewer/82.jpg
+../../../../looseends/role460d299601aa.htm
+
+
+
+FinancingRequestor ( PartyIdentification25 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4652a81c034b.htm
+
+
+
+)
+<<MessageComponent>> RequestGroupInformation1
+../../../../webviewer/142.jpg
+class463ae1710018.htm
+class463ae1710018.txt
+
+
+(
+GroupIdentification
+../../../../webviewer/33.jpg
+att463ae1710023.htm
+att463ae1710023.txt
+
+
+(
+)
+CreationDateTime
+../../../../webviewer/33.jpg
+att463ae171002c.htm
+att463ae171002c.txt
+
+
+(
+)
+NumberOfInvoiceRequests
+../../../../webviewer/33.jpg
+att463ae1710036.htm
+att463ae1710036.txt
+
+
+(
+)
+TotalInvoiceRequestAmount
+../../../../webviewer/33.jpg
+att463ae171004a.htm
+att463ae171004a.txt
+
+
+(
+)
+Currency
+../../../../webviewer/33.jpg
+att463ae1710054.htm
+att463ae1710054.txt
+
+
+(
+)
+FinancingMethod[0..1]
+../../../../webviewer/31.jpg
+att463ae171005e.htm
+att463ae171005e.txt
+
+
+(
+)
+theInvoiceFinancingTransaction ( InvoiceFinancingTransaction )
+../../../../webviewer/82.jpg
+../../../../looseends/role463ae1710072.htm
+
+
+
+AgreementClauses ( AgreementClauses1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role463ae1710078.htm
+
+
+
+AdditionalInformation ( AdditionalInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role463ae2d703c9.htm
+
+
+
+FirstAgent ( FinancialInstitutionIdentification6 )
+../../../../webviewer/82.jpg
+../../../../looseends/role463ae1710093.htm
+
+
+
+ForwardingAgent ( FinancialInstitutionIdentification6 )
+../../../../webviewer/82.jpg
+../../../../looseends/role463ae17100a7.htm
+
+
+
+FinancingRequestor ( PartyIdentificationAndAccount6 )
+../../../../webviewer/82.jpg
+../../../../looseends/role463ae17100b8.htm
+
+
+
+)
+<<MessageComponent>> RequestGroupInformation2
+../../../../webviewer/142.jpg
+class46387d8f00ab.htm
+class46387d8f00ab.txt
+
+
+(
+GroupIdentification
+../../../../webviewer/33.jpg
+att46387d8f00ad.htm
+att46387d8f00ad.txt
+
+
+(
+)
+CreationDateTime
+../../../../webviewer/33.jpg
+att46387d8f00b5.htm
+att46387d8f00b5.txt
+
+
+(
+)
+NumberOfInvoiceRequests
+../../../../webviewer/33.jpg
+att46387d8f00bf.htm
+att46387d8f00bf.txt
+
+
+(
+)
+TotalInvoiceRequestAmount
+../../../../webviewer/33.jpg
+att46387d8f00c9.htm
+att46387d8f00c9.txt
+
+
+(
+)
+Currency
+../../../../webviewer/33.jpg
+att46387d8f00d3.htm
+att46387d8f00d3.txt
+
+
+(
+)
+FinancingMethod[0..1]
+../../../../webviewer/31.jpg
+att46387d8f00dd.htm
+att46387d8f00dd.txt
+
+
+(
+)
+theInvoiceFinancingTransaction ( InvoiceFinancingTransaction )
+../../../../webviewer/82.jpg
+../../../../looseends/role46387d8f00f4.htm
+
+
+
+)
+Associations
+../../../../webviewer/assoccat.gif
+
+
+
+
+(
+<<SWSTrace>> (theInvoiceFinancingTransaction:InvoiceFinancingTransaction) (theFinancingAllowedSummary1:FinancingAllowedSummary1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass45f9789b00c3.htm
+
+
+
+(
+InvoiceFinancingTransaction ( theInvoiceFinancingTransaction )
+../../../../webviewer/82.jpg
+../../../../looseends/role45f9789b031c.htm
+
+
+
+FinancingAllowedSummary1 ( theFinancingAllowedSummary1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role45f9789b0344.htm
+
+
+
+)
+Association (theFinancingAllowedSummary1:FinancingAllowedSummary1) (FinancingDateDetails:FinancingDateDetails1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass45d04fa401de.htm
+../../../../looseends/ass45d04fa401de.txt
+
+
+(
+FinancingAllowedSummary1 ( theFinancingAllowedSummary1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role45d04fa500c8.htm
+
+
+
+FinancingDateDetails1 ( FinancingDateDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role45d04fa500d2.htm
+
+
+
+)
+Association (theFinancingAllowedSummary1:FinancingAllowedSummary1) (Account:AccountIdentification2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass460bb2a40139.htm
+../../../../looseends/ass460bb2a40139.txt
+
+
+(
+FinancingAllowedSummary1 ( theFinancingAllowedSummary1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role460bb2a403ba.htm
+
+
+
+AccountIdentification2 ( Account )
+../../../../webviewer/82.jpg
+../../../../looseends/role460bb2a403ce.htm
+
+
+
+)
+Association (theFinancingAllowedSummary1:FinancingAllowedSummary1) (FinancingAccount:AccountIdentification3Choice)
+../../../../webviewer/81.jpg
+../../../../looseends/ass460bb2ca02d8.htm
+../../../../looseends/ass460bb2ca02d8.txt
+
+
+(
+FinancingAllowedSummary1 ( theFinancingAllowedSummary1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role460bb2cb01b7.htm
+
+
+
+AccountIdentification3Choice ( FinancingAccount )
+../../../../webviewer/82.jpg
+../../../../looseends/role460bb2cb01cb.htm
+
+
+
+)
+<<SWSTrace>> (theInvoiceFinancingTransaction:InvoiceFinancingTransaction) (theFinancingResultDetails1:FinancingResultDetails1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass460ce99a00d4.htm
+
+
+
+(
+InvoiceFinancingTransaction ( theInvoiceFinancingTransaction )
+../../../../webviewer/82.jpg
+../../../../looseends/role460ce99a0319.htm
+
+
+
+FinancingResultDetails1 ( theFinancingResultDetails1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role460ce99a0337.htm
+
+
+
+)
+<<SWSTrace>> (theInvoiceFinancingTransaction:InvoiceFinancingTransaction) (theOriginalRequestInformation1:OriginalRequestInformation1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass45f97f5a027f.htm
+
+
+
+(
+InvoiceFinancingTransaction ( theInvoiceFinancingTransaction )
+../../../../webviewer/82.jpg
+../../../../looseends/role45f97f5b0032.htm
+
+
+
+OriginalRequestInformation1 ( theOriginalRequestInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role45f97f5b0046.htm
+
+
+
+)
+Association (theOriginalRequestInformation1:OriginalRequestInformation1) (FirstAgent:FinancialInstitutionIdentification6)
+../../../../webviewer/81.jpg
+../../../../looseends/ass460d29ae0172.htm
+../../../../looseends/ass460d29ae0172.txt
+
+
+(
+OriginalRequestInformation1 ( theOriginalRequestInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role460d29af034a.htm
+
+
+
+FinancialInstitutionIdentification6 ( FirstAgent )
+../../../../webviewer/82.jpg
+../../../../looseends/role460d29af035e.htm
+
+
+
+)
+Association (theOriginalRequestInformation1:OriginalRequestInformation1) (ForwardingAgent:FinancialInstitutionIdentification6)
+../../../../webviewer/81.jpg
+../../../../looseends/ass460d29950072.htm
+../../../../looseends/ass460d29950072.txt
+
+
+(
+OriginalRequestInformation1 ( theOriginalRequestInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role460d299601aa.htm
+
+
+
+FinancialInstitutionIdentification6 ( ForwardingAgent )
+../../../../webviewer/82.jpg
+../../../../looseends/role460d299601be.htm
+
+
+
+)
+Association (FinancingRequestor:PartyIdentification25) (theOriginalRequestInformation1:OriginalRequestInformation1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4652a81a0201.htm
+../../../../looseends/ass4652a81a0201.txt
+
+
+(
+PartyIdentification25 ( FinancingRequestor )
+../../../../webviewer/82.jpg
+../../../../looseends/role4652a81c0349.htm
+
+
+
+OriginalRequestInformation1 ( theOriginalRequestInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4652a81c034b.htm
+
+
+
+)
+<<SWSTrace>> (theInvoiceFinancingTransaction:InvoiceFinancingTransaction) (theRequestGroupInformation1:RequestGroupInformation1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass463ae1710068.htm
+
+
+
+(
+InvoiceFinancingTransaction ( theInvoiceFinancingTransaction )
+../../../../webviewer/82.jpg
+../../../../looseends/role463ae1710069.htm
+
+
+
+RequestGroupInformation1 ( theRequestGroupInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role463ae1710072.htm
+
+
+
+)
+Association (AgreementClauses:AgreementClauses1) (theRequestGroupInformation1:RequestGroupInformation1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass463ae1710075.htm
+../../../../looseends/ass463ae1710075.txt
+
+
+(
+AgreementClauses1 ( AgreementClauses )
+../../../../webviewer/82.jpg
+../../../../looseends/role463ae1710076.htm
+
+
+
+RequestGroupInformation1 ( theRequestGroupInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role463ae1710078.htm
+
+
+
+)
+Association (AdditionalInformation:AdditionalInformation1) (theRequestGroupInformation1:RequestGroupInformation1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass463ae2d703c7.htm
+../../../../looseends/ass463ae2d703c7.txt
+
+
+(
+AdditionalInformation1 ( AdditionalInformation )
+../../../../webviewer/82.jpg
+../../../../looseends/role463ae2d703c8.htm
+
+
+
+RequestGroupInformation1 ( theRequestGroupInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role463ae2d703c9.htm
+
+
+
+)
+Association (FirstAgent:FinancialInstitutionIdentification6) (theRequestGroupInformation1:RequestGroupInformation1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass463ae1710090.htm
+../../../../looseends/ass463ae1710090.txt
+
+
+(
+FinancialInstitutionIdentification6 ( FirstAgent )
+../../../../webviewer/82.jpg
+../../../../looseends/role463ae1710091.htm
+
+
+
+RequestGroupInformation1 ( theRequestGroupInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role463ae1710093.htm
+
+
+
+)
+Association (ForwardingAgent:FinancialInstitutionIdentification6) (theRequestGroupInformation1:RequestGroupInformation1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass463ae17100a4.htm
+../../../../looseends/ass463ae17100a4.txt
+
+
+(
+FinancialInstitutionIdentification6 ( ForwardingAgent )
+../../../../webviewer/82.jpg
+../../../../looseends/role463ae17100a5.htm
+
+
+
+RequestGroupInformation1 ( theRequestGroupInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role463ae17100a7.htm
+
+
+
+)
+Association (FinancingRequestor:PartyIdentificationAndAccount6) (theRequestGroupInformation1:RequestGroupInformation1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass463ae17100ae.htm
+../../../../looseends/ass463ae17100ae.txt
+
+
+(
+PartyIdentificationAndAccount6 ( FinancingRequestor )
+../../../../webviewer/82.jpg
+../../../../looseends/role463ae17100af.htm
+
+
+
+RequestGroupInformation1 ( theRequestGroupInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role463ae17100b8.htm
+
+
+
+)
+<<SWSTrace>> (theInvoiceFinancingTransaction:InvoiceFinancingTransaction) (theRequestGroupInformation2:RequestGroupInformation2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass46387d8f00f1.htm
+
+
+
+(
+InvoiceFinancingTransaction ( theInvoiceFinancingTransaction )
+../../../../webviewer/82.jpg
+../../../../looseends/role46387d8f00f2.htm
+
+
+
+RequestGroupInformation2 ( theRequestGroupInformation2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role46387d8f00f4.htm
+
+
+
+)
+)

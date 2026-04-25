@@ -1,0 +1,1018 @@
+System
+../../../../webviewer/18.jpg
+dgm3d74aa4c00da.htm
+
+
+
+(
+)
+<<MessageComponent>> SystemSearch
+../../../../webviewer/143.jpg
+class3d74aa5f02fe.htm
+class3d74aa5f02fe.txt
+
+
+(
+SystemIdentification[0..n]
+../../../../webviewer/31.jpg
+att3d74aa5f02ff.htm
+
+
+
+(
+)
+MemberIdentification[0..n]
+../../../../webviewer/31.jpg
+att3d74aa5f0300.htm
+
+
+
+(
+)
+theSystem ( System )
+../../../../webviewer/82.jpg
+../../../../looseends/role3d74aa9b03a5.htm
+
+
+
+theTransactionSearchCriteria ( TransactionSearchCriteria )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e79beb50317.htm
+
+
+
+theTransactionSearchCriteria ( TransactionSearchCriteria )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e79bec10152.htm
+
+
+
+theTransactionSearchCriteria1 ( TransactionSearchCriteria1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e8c4b4f0203.htm
+
+
+
+theTransactionSearchCriteria1 ( TransactionSearchCriteria1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e8c4b520241.htm
+
+
+
+theSystemSearch2 ( SystemSearch2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41f525250210.htm
+
+
+
+)
+<<MessageComponent>> SystemDetails
+../../../../webviewer/143.jpg
+class3d76085e0016.htm
+class3d76085e0016.txt
+
+
+(
+SystemIdentification[0..1]
+../../../../webviewer/31.jpg
+att3d76085e0017.htm
+
+
+
+(
+)
+MemberIdentification[0..1]
+../../../../webviewer/31.jpg
+att3d76085e0018.htm
+
+
+
+(
+)
+thePaymentCommonDetails ( PaymentCommonDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role3d761805025d.htm
+
+
+
+thePaymentCommonDetails ( PaymentCommonDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role3d76180a02be.htm
+
+
+
+thePaymentCommonDetails1 ( PaymentCommonDetails1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e7f00b00291.htm
+
+
+
+thePaymentCommonDetails1 ( PaymentCommonDetails1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e7f00b3012a.htm
+
+
+
+theSystem ( System )
+../../../../webviewer/82.jpg
+../../../../looseends/role3d76088103e2.htm
+
+
+
+theTransaction1 ( Transaction1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e7efbfd034d.htm
+
+
+
+theTransaction1 ( Transaction1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e7efc0e035c.htm
+
+
+
+theTransaction2 ( Transaction2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e912bdd01b5.htm
+
+
+
+theTransaction2 ( Transaction2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e912bdd01ac.htm
+
+
+
+theSystemDetails2 ( SystemDetails2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41f6849b03a0.htm
+
+
+
+)
+<<MessageComponent>> SystemDetails1
+../../../../webviewer/143.jpg
+class3e76e29b0108.htm
+class3e76e29b0108.txt
+
+
+(
+SystemIdentification[0..1]
+../../../../webviewer/31.jpg
+att3e76e29b0109.htm
+
+
+
+(
+)
+MemberIdentification
+../../../../webviewer/31.jpg
+att3e76e29b010a.htm
+
+
+
+(
+)
+theSystem ( System )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e784a3903c3.htm
+
+
+
+)
+<<MessageComponent>> BusinessDayInformationSearchCriteria
+../../../../webviewer/143.jpg
+class3e76e29b01a0.htm
+class3e76e29b01a0.txt
+
+
+(
+SystemIdentification[0..n]
+../../../../webviewer/31.jpg
+att3e76e29b01a1.htm
+
+
+
+(
+)
+SystemCurrency[0..n]
+../../../../webviewer/31.jpg
+att3e76e29b01a2.htm
+
+
+
+(
+)
+theSystem ( System )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e798682024c.htm
+
+
+
+theBusinessDayInformationCriteria ( BusinessDayInformationCriteria )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e786e2900d5.htm
+
+
+
+)
+<<MessageComponent>> BusinessDayInformationReport
+../../../../webviewer/143.jpg
+class3e76e29b023d.htm
+class3e76e29b023d.txt
+
+
+(
+SystemIdentification
+../../../../webviewer/31.jpg
+att3e76e29b023f.htm
+
+
+
+(
+)
+theSystem ( System )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e7ec47202ef.htm
+
+
+
+BusinessDayInformation ( BusinessDayInformationDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e7ec4b6006e.htm
+
+
+
+BusinessError ( ErrorHandling2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e7f31f502a1.htm
+
+
+
+theBusinessDayInformation ( BusinessDayInformation )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e7b2c7401a0.htm
+
+
+
+theBusinessDayInformationReport1 ( BusinessDayInformationReport1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4211de970189.htm
+
+
+
+<<XOR>> BusinessDayInformationOrBusinessErrorRule
+../../../../webviewer/34.jpg
+op3e76e29b023e.htm
+op3e76e29b023e.txt
+
+
+(
+)
+)
+<<MessageComponent>> SystemAvailabilityAndEventsDetails
+../../../../webviewer/143.jpg
+class3e76e29b0118.htm
+
+
+
+(
+SystemCurrency
+../../../../webviewer/31.jpg
+att3e76e29b0119.htm
+
+
+
+(
+)
+SessionPeriod[0..1]
+../../../../webviewer/31.jpg
+att3e76e29b011a.htm
+
+
+
+(
+)
+theSystem ( System )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e7ecefc004f.htm
+
+
+
+ClosureInformation ( SystemClosureDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e7ecf3501d6.htm
+
+
+
+Event ( SystemEvent )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e7ecf380253.htm
+
+
+
+theBusinessDayInformationDetails ( BusinessDayInformationDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e7ecd3e02c0.htm
+
+
+
+theSystemAvailabilityAndEventsDetails1 ( SystemAvailabilityAndEventsDetails1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role42a85b81014a.htm
+
+
+
+)
+<<MessageComponent>> BusinessDayInformationReport1
+../../../../webviewer/143.jpg
+class4211de230381.htm
+class4211de230381.txt
+
+
+(
+SystemIdentification[1..n]
+../../../../webviewer/31.jpg
+att4211de23038c.htm
+
+
+
+(
+)
+theSystem ( System )
+../../../../webviewer/82.jpg
+../../../../looseends/role4211de2303a2.htm
+
+
+
+BusinessError ( ErrorHandling2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4211de2303c0.htm
+
+
+
+BusinessDayInformation ( BusinessDayInformationDetails1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4211de2303ad.htm
+
+
+
+theBusinessDayInformation1 ( BusinessDayInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4211dddb025c.htm
+
+
+
+theBusinessDayInformationReport ( BusinessDayInformationReport )
+../../../../webviewer/82.jpg
+../../../../looseends/role4211de970193.htm
+
+
+
+<<XOR>> BusinessDayInformationOrBusinessErrorRule
+../../../../webviewer/34.jpg
+op4211de2303d1.htm
+op4211de2303d1.txt
+
+
+(
+)
+)
+<<MessageComponent>> SystemAvailabilityAndEventsDetails1
+../../../../webviewer/143.jpg
+class42a85a4a021f.htm
+
+
+
+(
+SystemCurrency
+../../../../webviewer/31.jpg
+att42a85a4a0233.htm
+
+
+
+(
+)
+SessionPeriod[0..1]
+../../../../webviewer/31.jpg
+att42a85a4a0283.htm
+
+
+
+(
+)
+theSystem ( System )
+../../../../webviewer/82.jpg
+../../../../looseends/role42a85a4a02e7.htm
+
+
+
+ClosureInformation ( SystemClosureDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role42a85a4a030f.htm
+
+
+
+Event ( SystemEvent1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role42a85a4a033a.htm
+
+
+
+theBusinessDayInformationDetails1 ( BusinessDayInformationDetails1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role42a85aef00aa.htm
+
+
+
+theSystemAvailabilityAndEventsDetails ( SystemAvailabilityAndEventsDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role42a85b81015e.htm
+
+
+
+)
+<<MessageComponent>> SystemDetails2
+../../../../webviewer/143.jpg
+class41f68446003f.htm
+class41f68446003f.txt
+
+
+(
+SystemIdentification[0..1]
+../../../../webviewer/31.jpg
+att41f68446004a.htm
+
+
+
+(
+)
+MemberIdentification[0..1]
+../../../../webviewer/31.jpg
+att41f68446005d.htm
+
+
+
+(
+)
+Country[0..1]
+../../../../webviewer/31.jpg
+att41f684460067.htm
+
+
+
+(
+)
+thePaymentCommonDetails2 ( PaymentCommonDetails2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41ff47cb03bf.htm
+
+
+
+thePaymentCommonDetails2 ( PaymentCommonDetails2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41ff47cb03d4.htm
+
+
+
+theSystem ( System )
+../../../../webviewer/82.jpg
+../../../../looseends/role41f684460092.htm
+
+
+
+AccountIdentification ( AccountIdentification1Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role41f68446007e.htm
+
+
+
+theTransaction3 ( Transaction3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41f8cde70210.htm
+
+
+
+theTransaction3 ( Transaction3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41f8cde7025f.htm
+
+
+
+theSystemDetails ( SystemDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role41f6849b03b4.htm
+
+
+
+)
+<<MessageComponent>> SystemSearch2
+../../../../webviewer/143.jpg
+class41ee53ed0214.htm
+class41ee53ed0214.txt
+
+
+(
+SystemIdentification[0..n]
+../../../../webviewer/31.jpg
+att41ee53ed0283.htm
+
+
+
+(
+)
+MemberIdentification[0..n]
+../../../../webviewer/31.jpg
+att41ee53ed02bf.htm
+
+
+
+(
+)
+Country[0..1]
+../../../../webviewer/31.jpg
+att41ee4b6a0129.htm
+
+
+
+(
+)
+theTransactionSearchCriteria2 ( TransactionSearchCriteria2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41ee4a0b029e.htm
+
+
+
+theTransactionSearchCriteria2 ( TransactionSearchCriteria2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41ee4a0b028a.htm
+
+
+
+theSystem ( System )
+../../../../webviewer/82.jpg
+../../../../looseends/role41ee53ed02d6.htm
+
+
+
+AccountIdentification ( AccountIdentification1Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role41ee55d90217.htm
+
+
+
+theSystemSearch ( SystemSearch )
+../../../../webviewer/82.jpg
+../../../../looseends/role41f525250224.htm
+
+
+
+)
+Associations
+../../../../webviewer/assoccat.gif
+
+
+
+
+(
+<<SWSTrace>> (theSystem:System) (theSystemSearch:SystemSearch)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3d74aa9a02b3.htm
+
+
+
+(
+System ( theSystem )
+../../../../webviewer/82.jpg
+../../../../looseends/role3d74aa9b002a.htm
+
+
+
+SystemSearch ( theSystemSearch )
+../../../../webviewer/82.jpg
+../../../../looseends/role3d74aa9b03a5.htm
+
+
+
+)
+<<SWSTrace>> (theSystem:System) (theSystemDetails:SystemDetails)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3d7608810021.htm
+
+
+
+(
+System ( theSystem )
+../../../../webviewer/82.jpg
+../../../../looseends/role3d7608810215.htm
+
+
+
+SystemDetails ( theSystemDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role3d76088103e2.htm
+
+
+
+)
+<<SWSTrace>> (theSystemDetails1:SystemDetails1) (theSystem:System)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3e784a3900d5.htm
+
+
+
+(
+SystemDetails1 ( theSystemDetails1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e784a3903c3.htm
+
+
+
+System ( theSystem )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e784a3903e3.htm
+
+
+
+)
+<<SWSTrace>> (theSystem:System) (theBusinessDayInformationSearchCriteria:BusinessDayInformationSearchCriteria)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3e7986810317.htm
+
+
+
+(
+System ( theSystem )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e798682022d.htm
+
+
+
+BusinessDayInformationSearchCriteria ( theBusinessDayInformationSearchCriteria )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e798682024c.htm
+
+
+
+)
+<<SWSTrace>> (theSystem:System) (theBusinessDayInformationReport:BusinessDayInformationReport)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3e7ec4700149.htm
+
+
+
+(
+System ( theSystem )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e7ec47202d0.htm
+
+
+
+BusinessDayInformationReport ( theBusinessDayInformationReport )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e7ec47202ef.htm
+
+
+
+)
+Association (BusinessDayInformation:BusinessDayInformationDetails) (theBusinessDayInformationReport:BusinessDayInformationReport)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3e7ec4b501d6.htm
+../../../../looseends/ass3e7ec4b501d6.txt
+
+
+(
+BusinessDayInformationDetails ( BusinessDayInformation )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e7ec4b6005f.htm
+
+
+
+BusinessDayInformationReport ( theBusinessDayInformationReport )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e7ec4b6006e.htm
+
+
+
+)
+<<SWSTrace>> (theSystemAvailabilityAndEventsDetails:SystemAvailabilityAndEventsDetails) (theSystem:System)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3e7ecefa038b.htm
+
+
+
+(
+SystemAvailabilityAndEventsDetails ( theSystemAvailabilityAndEventsDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e7ecefc004f.htm
+
+
+
+System ( theSystem )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e7ecefc007e.htm
+
+
+
+)
+Association (ClosureInformation:SystemClosureDetails) (theSystemAvailabilityAndEventsDetails:SystemAvailabilityAndEventsDetails)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3e7ecf3402c0.htm
+
+
+
+(
+SystemClosureDetails ( ClosureInformation )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e7ecf3501c6.htm
+
+
+
+SystemAvailabilityAndEventsDetails ( theSystemAvailabilityAndEventsDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e7ecf3501d6.htm
+
+
+
+)
+Association (Event:SystemEvent) (theSystemAvailabilityAndEventsDetails:SystemAvailabilityAndEventsDetails)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3e7ecf370243.htm
+
+
+
+(
+SystemEvent ( Event )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e7ecf380243.htm
+
+
+
+SystemAvailabilityAndEventsDetails ( theSystemAvailabilityAndEventsDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e7ecf380253.htm
+
+
+
+)
+Association (BusinessError:ErrorHandling2) (theBusinessDayInformationReport:BusinessDayInformationReport)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3e7f31f4032d.htm
+../../../../looseends/ass3e7f31f4032d.txt
+
+
+(
+ErrorHandling2 ( BusinessError )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e7f31f50272.htm
+
+
+
+BusinessDayInformationReport ( theBusinessDayInformationReport )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e7f31f502a1.htm
+
+
+
+)
+<<SWSTrace>> (theSystem:System) (theBusinessDayInformationReport1:BusinessDayInformationReport1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4211de23039f.htm
+
+
+
+(
+System ( theSystem )
+../../../../webviewer/82.jpg
+../../../../looseends/role4211de2303a0.htm
+
+
+
+BusinessDayInformationReport1 ( theBusinessDayInformationReport1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4211de2303a2.htm
+
+
+
+)
+Association (BusinessError:ErrorHandling2) (theBusinessDayInformationReport1:BusinessDayInformationReport1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4211de2303bd.htm
+../../../../looseends/ass4211de2303bd.txt
+
+
+(
+ErrorHandling2 ( BusinessError )
+../../../../webviewer/82.jpg
+../../../../looseends/role4211de2303be.htm
+
+
+
+BusinessDayInformationReport1 ( theBusinessDayInformationReport1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4211de2303c0.htm
+
+
+
+)
+<<SWSTrace>> (theSystem:System) (theSystemAvailabilityAndEventsDetails1:SystemAvailabilityAndEventsDetails1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass42a85a4a02b5.htm
+
+
+
+(
+System ( theSystem )
+../../../../webviewer/82.jpg
+../../../../looseends/role42a85a4a02b6.htm
+
+
+
+SystemAvailabilityAndEventsDetails1 ( theSystemAvailabilityAndEventsDetails1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role42a85a4a02e7.htm
+
+
+
+)
+Association (ClosureInformation:SystemClosureDetails) (theSystemAvailabilityAndEventsDetails1:SystemAvailabilityAndEventsDetails1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass42a85a4a02f2.htm
+
+
+
+(
+SystemClosureDetails ( ClosureInformation )
+../../../../webviewer/82.jpg
+../../../../looseends/role42a85a4a02f3.htm
+
+
+
+SystemAvailabilityAndEventsDetails1 ( theSystemAvailabilityAndEventsDetails1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role42a85a4a030f.htm
+
+
+
+)
+<<SWSTrace>> (theSystem:System) (theSystemDetails2:SystemDetails2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass41f68446008f.htm
+
+
+
+(
+System ( theSystem )
+../../../../webviewer/82.jpg
+../../../../looseends/role41f684460090.htm
+
+
+
+SystemDetails2 ( theSystemDetails2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41f684460092.htm
+
+
+
+)
+<<SWSTrace>> (theSystem:System) (theSystemSearch2:SystemSearch2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass41ee53ed02d3.htm
+
+
+
+(
+System ( theSystem )
+../../../../webviewer/82.jpg
+../../../../looseends/role41ee53ed02d4.htm
+
+
+
+SystemSearch2 ( theSystemSearch2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41ee53ed02d6.htm
+
+
+
+)
+Association (BusinessDayInformation:BusinessDayInformationDetails1) (theBusinessDayInformationReport1:BusinessDayInformationReport1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4211de2303aa.htm
+../../../../looseends/ass4211de2303aa.txt
+
+
+(
+BusinessDayInformationDetails1 ( BusinessDayInformation )
+../../../../webviewer/82.jpg
+../../../../looseends/role4211de2303ab.htm
+
+
+
+BusinessDayInformationReport1 ( theBusinessDayInformationReport1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4211de2303ad.htm
+
+
+
+)
+Association (AccountIdentification:AccountIdentification1Choice) (theSystemDetails2:SystemDetails2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass41f68446007b.htm
+
+
+
+(
+AccountIdentification1Choice ( AccountIdentification )
+../../../../webviewer/82.jpg
+../../../../looseends/role41f68446007c.htm
+
+
+
+SystemDetails2 ( theSystemDetails2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41f68446007e.htm
+
+
+
+)
+Association (AccountIdentification:AccountIdentification1Choice) (theSystemSearch2:SystemSearch2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass41ee55d80099.htm
+
+
+
+(
+AccountIdentification1Choice ( AccountIdentification )
+../../../../webviewer/82.jpg
+../../../../looseends/role41ee55d901f9.htm
+
+
+
+SystemSearch2 ( theSystemSearch2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41ee55d90217.htm
+
+
+
+)
+Association (Event:SystemEvent1) (theSystemAvailabilityAndEventsDetails1:SystemAvailabilityAndEventsDetails1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass42a85a4a0337.htm
+
+
+
+(
+SystemEvent1 ( Event )
+../../../../webviewer/82.jpg
+../../../../looseends/role42a85a4a0338.htm
+
+
+
+SystemAvailabilityAndEventsDetails1 ( theSystemAvailabilityAndEventsDetails1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role42a85a4a033a.htm
+
+
+
+)
+Association (BusinessDayInformationReport:BusinessDayInformationReport1) (theBusinessDayInformation1:BusinessDayInformation1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4211dddb025b.htm
+../../../../looseends/ass4211dddb025b.txt
+
+
+(
+BusinessDayInformationReport1 ( BusinessDayInformationReport )
+../../../../webviewer/82.jpg
+../../../../looseends/role4211dddb025c.htm
+
+
+
+BusinessDayInformation1 ( theBusinessDayInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4211dddb025e.htm
+
+
+
+)
+Association (SystemInformationPerCurrency:SystemAvailabilityAndEventsDetails1) (theBusinessDayInformationDetails1:BusinessDayInformationDetails1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass42a85aef00a9.htm
+../../../../looseends/ass42a85aef00a9.txt
+
+
+(
+SystemAvailabilityAndEventsDetails1 ( SystemInformationPerCurrency )
+../../../../webviewer/82.jpg
+../../../../looseends/role42a85aef00aa.htm
+
+
+
+BusinessDayInformationDetails1 ( theBusinessDayInformationDetails1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role42a85aef00ab.htm
+
+
+
+)
+)

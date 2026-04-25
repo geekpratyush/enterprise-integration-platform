@@ -1,0 +1,1 @@
+Explains the reason for rejecting a payment cancellation request.

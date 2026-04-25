@@ -1,0 +1,1 @@
+Document that represents a large part of the total number of units in circulation on a given date (at the ISIN level).

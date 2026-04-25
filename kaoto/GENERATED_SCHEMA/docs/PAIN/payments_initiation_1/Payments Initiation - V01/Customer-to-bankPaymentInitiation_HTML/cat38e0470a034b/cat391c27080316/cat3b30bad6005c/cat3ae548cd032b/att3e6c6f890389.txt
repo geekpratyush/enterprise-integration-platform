@@ -1,0 +1,1 @@
+Trade whose price is guaranteed as the weighted average of the trade prices on a specific day.

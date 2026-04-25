@@ -1,0 +1,1 @@
+An intermediary in the Proxy voting chain that forwards and makes information available that was received/collected from the Proxy Initiator.

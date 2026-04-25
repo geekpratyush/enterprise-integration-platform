@@ -1,0 +1,1 @@
+Unit of measure equal to a 100 square meters.

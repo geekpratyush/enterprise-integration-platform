@@ -1,0 +1,1 @@
+ Specifies the status of the information contained in the notification.

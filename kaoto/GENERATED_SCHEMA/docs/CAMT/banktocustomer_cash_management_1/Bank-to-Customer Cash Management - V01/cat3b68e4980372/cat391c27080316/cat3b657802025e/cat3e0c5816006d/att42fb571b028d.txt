@@ -1,0 +1,1 @@
+Specifies the type of party involved in the transaction.

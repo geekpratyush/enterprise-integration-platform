@@ -1,0 +1,3 @@
+If PrimaryCorporateInvestor is present, then SecondaryCorporateInvestor may be present. If PrimaryCorporateInvestor is not present, then SecondaryCorporateInvestor is not allowed.
+
+If PrimaryCorporateInvestor is present, then OtherCorporateInvestor may be present. If PrimaryCorporateInvestor is not present, then OtherCorporateInvestor is not allowed.

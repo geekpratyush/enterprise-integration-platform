@@ -1,0 +1,1 @@
+If RequestedSettlementDateCode contains the value FUTU or SELL, then RequestedSettlementDate must be present.

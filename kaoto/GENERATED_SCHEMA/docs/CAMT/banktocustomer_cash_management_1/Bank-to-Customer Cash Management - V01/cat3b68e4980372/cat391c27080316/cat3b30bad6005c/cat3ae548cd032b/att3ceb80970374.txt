@@ -1,0 +1,1 @@
+Securities have been delivered, but the money is still expected from the counterparty.

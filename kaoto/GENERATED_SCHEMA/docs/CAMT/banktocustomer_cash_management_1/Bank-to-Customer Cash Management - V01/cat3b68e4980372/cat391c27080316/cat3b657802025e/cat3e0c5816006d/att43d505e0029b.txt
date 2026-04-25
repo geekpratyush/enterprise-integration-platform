@@ -1,0 +1,1 @@
+Specifies the previous status of a trade.

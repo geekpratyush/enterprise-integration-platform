@@ -1,0 +1,3 @@
+If ChargeBearer contains DEBT, then ChargesInformation may be present to communicate charges that have been added for (the) InstructedAgent(s).  
+If ChargeBearer contains CRED, then at least one occurrence of ChargesInformation must be present to communicate charges that have been deducted from the InstructedAmount by (the) InstructingAgent(s). 
+If ChargeBearer contains SHAR or SLEV , then ChargesInformation is optional. 

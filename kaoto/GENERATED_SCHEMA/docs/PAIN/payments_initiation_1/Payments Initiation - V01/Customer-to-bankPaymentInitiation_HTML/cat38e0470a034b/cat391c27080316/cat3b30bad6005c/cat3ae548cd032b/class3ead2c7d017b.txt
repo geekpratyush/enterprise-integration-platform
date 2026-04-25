@@ -1,0 +1,2 @@
+Specifies the type of foreign exchange trade. 
+

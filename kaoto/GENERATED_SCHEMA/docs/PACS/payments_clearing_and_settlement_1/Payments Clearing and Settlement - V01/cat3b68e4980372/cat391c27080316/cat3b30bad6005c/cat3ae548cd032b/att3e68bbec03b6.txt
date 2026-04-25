@@ -1,0 +1,1 @@
+Request to disable the previous snapshot subscriptiion and to update the request (unsubscribe).

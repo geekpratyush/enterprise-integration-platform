@@ -1,0 +1,1 @@
+Specifies information about the impact of a change.

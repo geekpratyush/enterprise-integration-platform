@@ -1,0 +1,1 @@
+Specifies the calculation method of the number of votes assigned to one security. This element should be used when the entitlement calculation rule is complex.

@@ -1,0 +1,38 @@
+apiVersion: camel.apache.org/v1
+kind: Kamelet
+metadata:
+  name: hello-world-source
+  labels:
+    camel.apache.org/kamelet.type: "source"
+  annotations:
+    camel.apache.org/kamelet.version: "1.0.0"
+    camel.apache.org/provider: "EIP Platform"
+spec:
+  definition:
+    title: "Hello World Source"
+    description: >
+      Periodically emits a configurable text message via a timer.
+      Use this kamlet to verify that the EIP Kamlet platform is working
+      end-to-end before introducing real protocol bindings.
+    properties:
+      period:
+        title: Period (ms)
+        description: Interval between emitted messages in milliseconds.
+        type: integer
+        default: 5000
+      message:
+        title: Message
+        description: The text body to emit on each tick.
+        type: string
+        default: "Hello World from EIP Kamlet!"
+  template:
+    from:
+      uri: "timer:hello-tick"
+      parameters:
+        period: "{{period}}"
+      steps:
+        - setBody:
+            constant: "{{message}}"
+        - log:
+            message: "[hello-world-source] emitting: ${body}"
+            loggingLevel: "DEBUG"

@@ -1,0 +1,1 @@
+Event is the cutoff time for the receipt of new commercial payments.

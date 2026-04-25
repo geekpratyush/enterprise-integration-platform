@@ -1,0 +1,1 @@
+Identifies the future status of the transaction by means of a code and a period.

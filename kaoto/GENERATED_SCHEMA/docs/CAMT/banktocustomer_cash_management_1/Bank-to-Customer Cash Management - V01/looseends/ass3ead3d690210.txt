@@ -1,0 +1,1 @@
+Party that acts on behalf of a counterparty to negotiate and execute trades.

@@ -1,0 +1,520 @@
+ValuationStatistics
+../../../../webviewer/18.jpg
+dgm3f0ec46002de.htm
+
+
+
+(
+)
+ValuationStatistics_ISA
+../../../../webviewer/18.jpg
+dgm42034cb20177.htm
+
+
+
+(
+)
+<<MessageComponent>> ValuationStatistics1
+../../../../webviewer/143.jpg
+class3dafc1660232.htm
+class3dafc1660232.txt
+
+
+(
+Currency
+../../../../webviewer/31.jpg
+att3e3015c9029f.htm
+
+
+
+(
+)
+PriceTypeChangeBasis
+../../../../webviewer/31.jpg
+att3dafc3a500da.htm
+
+
+
+(
+)
+PriceChange
+../../../../webviewer/31.jpg
+att3dafc1ab0321.htm
+att3dafc1ab0321.txt
+
+
+(
+)
+Yield [0..1]
+../../../../webviewer/31.jpg
+att3dafc19a03d1.htm
+
+
+
+(
+)
+thePriceValuation1 ( PriceValuation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3dafc3f203c0.htm
+
+
+
+theValuationStatistics ( ValuationStatistics )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f0ec48a00ea.htm
+
+
+
+ByPredefinedTimePeriods ( StatisticsByPredefinedTimePeriods1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e24241702fc.htm
+
+
+
+ByUserDefinedTimePeriod ( StatisticsByUserDefinedTimePeriod1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e24241a008b.htm
+
+
+
+theValuationStatistics2 ( ValuationStatistics2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41c165bd009c.htm
+
+
+
+<<Textual>> CurrencyPriceChangeRule
+../../../../webviewer/36.jpg
+op3e61c8d801ae.htm
+op3e61c8d801ae.txt
+
+
+(
+)
+<<Textual>> CurrencyPredefinedPeriodsRule
+../../../../webviewer/36.jpg
+op3e61c92101e6.htm
+op3e61c92101e6.txt
+
+
+(
+)
+<<Textual>> CurrencyUserDefinedPeriodsRule
+../../../../webviewer/36.jpg
+op3e61ca1a0071.htm
+op3e61ca1a0071.txt
+
+
+(
+)
+)
+<<MessageComponent>> StatisticsByPredefinedTimePeriods1
+../../../../webviewer/143.jpg
+class3e241fc40232.htm
+class3e241fc40232.txt
+
+
+(
+HighestPriceValue12Months[0..1]
+../../../../webviewer/31.jpg
+att3dafc1cc03c9.htm
+att3dafc1cc03c9.txt
+
+
+(
+)
+LowestPriceValue12Months[0..1]
+../../../../webviewer/31.jpg
+att3dafc32800b2.htm
+att3dafc32800b2.txt
+
+
+(
+)
+OneYearPriceChange[0..1]
+../../../../webviewer/31.jpg
+att3dafc34403c0.htm
+att3dafc34403c0.txt
+
+
+(
+)
+ThreeYearPriceChange[0..1]
+../../../../webviewer/31.jpg
+att3dafc356014f.htm
+att3dafc356014f.txt
+
+
+(
+)
+FiveYearPriceChange[0..1]
+../../../../webviewer/31.jpg
+att3dafc38d0068.htm
+att3dafc38d0068.txt
+
+
+(
+)
+theValuationStatistics1 ( ValuationStatistics1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e24241702f2.htm
+
+
+
+theValuationStatistics ( ValuationStatistics )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f0ec4ed01e4.htm
+
+
+
+theValuationStatistics2 ( ValuationStatistics2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4216318b02dd.htm
+
+
+
+<<Textual>> StatisticsCurrency1Rule
+../../../../webviewer/36.jpg
+op3f0ea8670157.htm
+op3f0ea8670157.txt
+
+
+(
+)
+)
+<<MessageComponent>> StatisticsByUserDefinedTimePeriod1
+../../../../webviewer/143.jpg
+class3e24220900c5.htm
+class3e24220900c5.txt
+
+
+(
+Period
+../../../../webviewer/31.jpg
+att3e24223003ba.htm
+
+
+
+(
+)
+HighestPriceValue [0..1]
+../../../../webviewer/31.jpg
+att3e24224101e8.htm
+
+
+
+(
+)
+LowestPriceValue [0..1]
+../../../../webviewer/31.jpg
+att3e24224a0245.htm
+
+
+
+(
+)
+PriceChange [0..1]
+../../../../webviewer/31.jpg
+att3e2424d60238.htm
+att3e2424d60238.txt
+
+
+(
+)
+Yield [0..1]
+../../../../webviewer/31.jpg
+att3eba250b01ba.htm
+
+
+
+(
+)
+theValuationStatistics1 ( ValuationStatistics1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e24241a0089.htm
+
+
+
+theValuationStatistics ( ValuationStatistics )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f0ec4f200bb.htm
+
+
+
+theValuationStatistics2 ( ValuationStatistics2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41c165b10384.htm
+
+
+
+<<Textual>> StatisticsCurrency2Rule
+../../../../webviewer/36.jpg
+op3f0ea93902ce.htm
+op3f0ea93902ce.txt
+
+
+(
+)
+)
+<<MessageComponent>> ValuationStatistics2
+../../../../webviewer/143.jpg
+class41c165b1018f.htm
+class41c165b1018f.txt
+
+
+(
+Currency
+../../../../webviewer/31.jpg
+att41c165b101f3.htm
+
+
+
+(
+)
+PriceTypeChangeBasis
+../../../../webviewer/31.jpg
+att41c165b10239.htm
+
+
+
+(
+)
+PriceChange
+../../../../webviewer/31.jpg
+att41c165b1024d.htm
+att41c165b1024d.txt
+
+
+(
+)
+Yield [0..1]
+../../../../webviewer/31.jpg
+att41c165b10289.htm
+
+
+
+(
+)
+thePriceValuation2 ( PriceValuation2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41c1662a01dc.htm
+
+
+
+theValuationStatistics ( ValuationStatistics )
+../../../../webviewer/82.jpg
+../../../../looseends/role41c165b10315.htm
+
+
+
+ByPredefinedTimePeriods ( StatisticsByPredefinedTimePeriods1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4216318b02de.htm
+
+
+
+ByUserDefinedTimePeriod ( StatisticsByUserDefinedTimePeriod1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41c165b10386.htm
+
+
+
+theValuationStatistics1 ( ValuationStatistics1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41c165bd00ba.htm
+
+
+
+<<Textual>> CurrencyPriceChangeRule
+../../../../webviewer/36.jpg
+op41c165b103c0.htm
+op41c165b103c0.txt
+
+
+(
+)
+<<Textual>> CurrencyPredefinedPeriodsRule
+../../../../webviewer/36.jpg
+op41c165b103ca.htm
+op41c165b103ca.txt
+
+
+(
+)
+<<Textual>> CurrencyUserDefinedPeriodsRule
+../../../../webviewer/36.jpg
+op41c165b103d4.htm
+op41c165b103d4.txt
+
+
+(
+)
+)
+Associations
+../../../../webviewer/assoccat.gif
+
+
+
+
+(
+<<SWSTrace>> (theValuationStatistics:ValuationStatistics) (theValuationStatistics1:ValuationStatistics1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3f0ec48902de.htm
+../../../../looseends/ass3f0ec48902de.txt
+
+
+(
+ValuationStatistics ( theValuationStatistics )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f0ec48a00da.htm
+
+
+
+ValuationStatistics1 ( theValuationStatistics1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f0ec48a00ea.htm
+
+
+
+)
+Association (ByPredefinedTimePeriods:StatisticsByPredefinedTimePeriods1) (theValuationStatistics1:ValuationStatistics1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3e2424170202.htm
+../../../../looseends/ass3e2424170202.txt
+
+
+(
+StatisticsByPredefinedTimePeriods1 ( ByPredefinedTimePeriods )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e24241702f2.htm
+
+
+
+ValuationStatistics1 ( theValuationStatistics1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e24241702fc.htm
+
+
+
+)
+Association (ByUserDefinedTimePeriod:StatisticsByUserDefinedTimePeriod1) (theValuationStatistics1:ValuationStatistics1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3e24241902b9.htm
+../../../../looseends/ass3e24241902b9.txt
+
+
+(
+StatisticsByUserDefinedTimePeriod1 ( ByUserDefinedTimePeriod )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e24241a0089.htm
+
+
+
+ValuationStatistics1 ( theValuationStatistics1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e24241a008b.htm
+
+
+
+)
+<<SWSTrace>> (theValuationStatistics:ValuationStatistics) (theStatisticsByPredefinedTimePeriods1:StatisticsByPredefinedTimePeriods1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3f0ec4ec0148.htm
+
+
+
+(
+ValuationStatistics ( theValuationStatistics )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f0ec4ed01d4.htm
+
+
+
+StatisticsByPredefinedTimePeriods1 ( theStatisticsByPredefinedTimePeriods1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f0ec4ed01e4.htm
+
+
+
+)
+<<SWSTrace>> (theValuationStatistics:ValuationStatistics) (theStatisticsByUserDefinedTimePeriod1:StatisticsByUserDefinedTimePeriod1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3f0ec4f101c5.htm
+
+
+
+(
+ValuationStatistics ( theValuationStatistics )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f0ec4f200ab.htm
+
+
+
+StatisticsByUserDefinedTimePeriod1 ( theStatisticsByUserDefinedTimePeriod1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f0ec4f200bb.htm
+
+
+
+)
+<<SWSTrace>> (theValuationStatistics:ValuationStatistics) (theValuationStatistics2:ValuationStatistics2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass41c165b102ed.htm
+../../../../looseends/ass41c165b102ed.txt
+
+
+(
+ValuationStatistics ( theValuationStatistics )
+../../../../webviewer/82.jpg
+../../../../looseends/role41c165b102ee.htm
+
+
+
+ValuationStatistics2 ( theValuationStatistics2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41c165b10315.htm
+
+
+
+)
+Association (ByPredefinedTimePeriods:StatisticsByPredefinedTimePeriods1) (theValuationStatistics2:ValuationStatistics2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4216318b02dc.htm
+../../../../looseends/ass4216318b02dc.txt
+
+
+(
+StatisticsByPredefinedTimePeriods1 ( ByPredefinedTimePeriods )
+../../../../webviewer/82.jpg
+../../../../looseends/role4216318b02dd.htm
+
+
+
+ValuationStatistics2 ( theValuationStatistics2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4216318b02de.htm
+
+
+
+)
+Association (ByUserDefinedTimePeriod:StatisticsByUserDefinedTimePeriod1) (theValuationStatistics2:ValuationStatistics2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass41c165b10383.htm
+../../../../looseends/ass41c165b10383.txt
+
+
+(
+StatisticsByUserDefinedTimePeriod1 ( ByUserDefinedTimePeriod )
+../../../../webviewer/82.jpg
+../../../../looseends/role41c165b10384.htm
+
+
+
+ValuationStatistics2 ( theValuationStatistics2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41c165b10386.htm
+
+
+
+)
+)

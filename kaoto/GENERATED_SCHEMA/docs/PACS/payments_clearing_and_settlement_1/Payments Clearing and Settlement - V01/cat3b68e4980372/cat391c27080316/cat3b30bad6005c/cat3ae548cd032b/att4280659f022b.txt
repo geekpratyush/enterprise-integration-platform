@@ -1,0 +1,1 @@
+Financial institution that receives the payment transaction on behalf of an account owner, or other nominated party, and credits the account.

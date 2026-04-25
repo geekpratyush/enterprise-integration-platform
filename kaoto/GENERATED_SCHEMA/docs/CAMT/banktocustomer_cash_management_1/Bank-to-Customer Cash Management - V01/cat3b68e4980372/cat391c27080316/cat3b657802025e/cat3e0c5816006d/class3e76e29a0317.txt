@@ -1,0 +1,1 @@
+Amount may be defined with or without the currency. 

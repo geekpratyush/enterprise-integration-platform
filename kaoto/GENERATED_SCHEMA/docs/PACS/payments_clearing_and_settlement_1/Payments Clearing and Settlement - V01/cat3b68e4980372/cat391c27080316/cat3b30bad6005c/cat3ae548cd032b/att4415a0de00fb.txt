@@ -1,0 +1,1 @@
+Scheme code for UG (Uganda) - Uganda National Interbank Settlement System.

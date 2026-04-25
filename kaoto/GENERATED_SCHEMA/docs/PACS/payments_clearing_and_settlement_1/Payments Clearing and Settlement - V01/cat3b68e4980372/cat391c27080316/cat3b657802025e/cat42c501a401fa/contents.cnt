@@ -1,0 +1,1202 @@
+<<MessageComponent>> MessageAndBusinessReference1
+../../../../webviewer/142.jpg
+class410f44de0212.htm
+class410f44de0212.txt
+
+
+(
+TransferReference[0..1]
+../../../../webviewer/31.jpg
+att410f45650053.htm
+att410f45650053.txt
+
+
+(
+)
+InvestmentAccountDetails ( InvestmentAccount10 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4180d9860067.htm
+
+
+
+theTransfer ( Transfer )
+../../../../webviewer/82.jpg
+../../../../looseends/role41371c4b006f.htm
+
+
+
+PreviousReference ( AdditionalReference2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role412db46000e7.htm
+
+
+
+OtherReference ( AdditionalReference2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role412db4620339.htm
+
+
+
+theMessageAndBusinessReference6 ( MessageAndBusinessReference6 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4563253c0063.htm
+
+
+
+<<XOR>> PreviousReferenceOrOtherReferenceRule
+../../../../webviewer/34.jpg
+op410f464d016f.htm
+op410f464d016f.txt
+
+
+(
+)
+<<Textual>> OtherReferenceRule
+../../../../webviewer/36.jpg
+op41809eeb029d.htm
+op41809eeb029d.txt
+
+
+(
+)
+<<Textual>> PreviousReferenceRule
+../../../../webviewer/36.jpg
+op41809f7f0125.htm
+op41809f7f0125.txt
+
+
+(
+)
+)
+<<MessageComponent>> TransferReference2
+../../../../webviewer/142.jpg
+class4506cd1d017c.htm
+class4506cd1d017c.txt
+
+
+(
+MasterReference [0..1]
+../../../../webviewer/31.jpg
+att457169ba0217.htm
+
+
+
+(
+)
+TransferReference [0..1]
+../../../../webviewer/31.jpg
+att4506ce450207.htm
+att4506ce450207.txt
+
+
+(
+)
+ClientReference [0..1]
+../../../../webviewer/31.jpg
+att4506ce450211.htm
+att4506ce450211.txt
+
+
+(
+)
+TransferConfirmationReference [0..1]
+../../../../webviewer/33.jpg
+att4506ce45021b.htm
+att4506ce45021b.txt
+
+
+(
+)
+theTransfer ( Transfer )
+../../../../webviewer/82.jpg
+../../../../looseends/role4506ce3303d7.htm
+
+
+
+<<Textual>> ReferenceRule
+../../../../webviewer/36.jpg
+op4506d18401e2.htm
+op4506d18401e2.txt
+
+
+(
+)
+)
+<<MessageComponent>> TransferReference1
+../../../../webviewer/142.jpg
+class44e03bd501b7.htm
+class44e03bd501b7.txt
+
+
+(
+MasterReference [0..1]
+../../../../webviewer/31.jpg
+att4571636e0358.htm
+
+
+
+(
+)
+TransferReference
+../../../../webviewer/31.jpg
+att44e03bd501d5.htm
+att44e03bd501d5.txt
+
+
+(
+)
+ClientReference [0..1]
+../../../../webviewer/31.jpg
+att44e03bd501df.htm
+att44e03bd501df.txt
+
+
+(
+)
+CancellationReference [0..1]
+../../../../webviewer/33.jpg
+att44e03bd501f3.htm
+att44e03bd501f3.txt
+
+
+(
+)
+theTransfer ( Transfer )
+../../../../webviewer/82.jpg
+../../../../looseends/role44e03c53000a.htm
+
+
+
+)
+<<MessageComponent>> TransferStatusAndReason2
+../../../../webviewer/142.jpg
+class455452b40384.htm
+class455452b40384.txt
+
+
+(
+MasterReference [0..1]
+../../../../webviewer/31.jpg
+att456c59500027.htm
+
+
+
+(
+)
+TransferReference
+../../../../webviewer/31.jpg
+att455452b4038f.htm
+
+
+
+(
+)
+ClientReference [0..1]
+../../../../webviewer/31.jpg
+att456c595a03e3.htm
+att456c595a03e3.txt
+
+
+(
+)
+CancellationReference [0..1]
+../../../../webviewer/33.jpg
+att456c596600ca.htm
+att456c596600ca.txt
+
+
+(
+)
+TradeDate [0..1]
+../../../../webviewer/31.jpg
+att4554537b0043.htm
+att4554537b0043.txt
+
+
+(
+)
+SendOutDate [0..1]
+../../../../webviewer/33.jpg
+att4554546d007f.htm
+att4554546d007f.txt
+
+
+(
+)
+theTransferStatusAndReason ( TransferStatusAndReason )
+../../../../webviewer/82.jpg
+../../../../looseends/role455452ce024b.htm
+
+
+
+theTransfer ( Transfer )
+../../../../webviewer/82.jpg
+../../../../looseends/role4586c53d02ba.htm
+
+
+
+StatusInitiator ( PartyIdentification2Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role455452b50033.htm
+
+
+
+Reversed ( ReversedStatus1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4558a55201b2.htm
+
+
+
+FailedSettlement ( FailedSettlementStatus1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4558a927014d.htm
+
+
+
+Status ( TransferInstructionStatus2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role455452b403a5.htm
+
+
+
+Unmatched ( TransferUnmatchedStatus2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role455452b50017.htm
+
+
+
+Rejected ( RejectedStatus8Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role455452b50003.htm
+
+
+
+PendingSettlement ( PendingSettlementStatus2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role455452b403d5.htm
+
+
+
+InRepair ( InRepairStatus3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role455452b403b9.htm
+
+
+
+Cancelled ( CancelledStatus3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role45589e6701f4.htm
+
+
+
+CancellationPending ( CancellationPendingStatus1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456dda4f003f.htm
+
+
+
+<<XOR>> TypeOfStatusRule
+../../../../webviewer/34.jpg
+op455452b50046.htm
+op455452b50046.txt
+
+
+(
+)
+)
+<<MessageComponent>> TransferReference4
+../../../../webviewer/142.jpg
+class459d27350028.htm
+
+
+
+(
+TransferReference
+../../../../webviewer/31.jpg
+att456ed3f900c4.htm
+att456ed3f900c4.txt
+
+
+(
+)
+CancellationReference [0..1]
+../../../../webviewer/33.jpg
+att457199100155.htm
+att457199100155.txt
+
+
+(
+)
+theTransfer ( Transfer )
+../../../../webviewer/82.jpg
+../../../../looseends/role459d27c00371.htm
+
+
+
+theTransferReference3 ( TransferReference3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role459d274e0088.htm
+
+
+
+)
+<<MessageComponent>> TransferReference3
+../../../../webviewer/142.jpg
+class456ed3a9010d.htm
+class456ed3a9010d.txt
+
+
+(
+MasterReference [0..1]
+../../../../webviewer/31.jpg
+att457076cc02ef.htm
+
+
+
+(
+)
+theTransfer ( Transfer )
+../../../../webviewer/82.jpg
+../../../../looseends/role45866c3c02e2.htm
+
+
+
+TransferReferences ( TransferReference4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role459d274e00ba.htm
+
+
+
+)
+<<MessageComponent>> MessageAndBusinessReference6
+../../../../webviewer/142.jpg
+class456324a801fb.htm
+class456324a801fb.txt
+
+
+(
+MasterReference [0..1]
+../../../../webviewer/31.jpg
+att456c32150388.htm
+
+
+
+(
+)
+TransferReference
+../../../../webviewer/31.jpg
+att456324a80205.htm
+
+
+
+(
+)
+ClientReference [0..1]
+../../../../webviewer/31.jpg
+att456c321a030d.htm
+att456c321a030d.txt
+
+
+(
+)
+CancellationReference [0..1]
+../../../../webviewer/33.jpg
+att456326960241.htm
+att456326960241.txt
+
+
+(
+)
+theTransfer ( Transfer )
+../../../../webviewer/82.jpg
+../../../../looseends/role456324a80237.htm
+
+
+
+theMessageAndBusinessReference1 ( MessageAndBusinessReference1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4563253c006d.htm
+
+
+
+InvestmentAccountDetails ( InvestmentAccount22 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456324a8021c.htm
+
+
+
+OtherReference ( AdditionalReference3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456324a80258.htm
+
+
+
+PreviousReference ( AdditionalReference3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456324a80244.htm
+
+
+
+<<XOR>> PreviousReferenceOrOtherReferenceRule
+../../../../webviewer/34.jpg
+op456324a80273.htm
+op456324a80273.txt
+
+
+(
+)
+<<Textual>> OtherReferenceRule
+../../../../webviewer/36.jpg
+op456324a8027d.htm
+op456324a8027d.txt
+
+
+(
+)
+<<Textual>> PreviousReferenceRule
+../../../../webviewer/36.jpg
+op456324a80291.htm
+op456324a80291.txt
+
+
+(
+)
+)
+<<MessageComponent>> CancellationStatusAndReason2
+../../../../webviewer/142.jpg
+class456dbd3b033a.htm
+class456dbd3b033a.txt
+
+
+(
+MasterReference [0..1]
+../../../../webviewer/31.jpg
+att456dbd680281.htm
+
+
+
+(
+)
+TransferReference
+../../../../webviewer/31.jpg
+att456dbd68028b.htm
+
+
+
+(
+)
+ClientReference [0..1]
+../../../../webviewer/31.jpg
+att456dbd68029f.htm
+att456dbd68029f.txt
+
+
+(
+)
+CancellationReference [0..1]
+../../../../webviewer/33.jpg
+att456dbd6802a9.htm
+att456dbd6802a9.txt
+
+
+(
+)
+theCancellationStatusAndReason ( CancellationStatusAndReason )
+../../../../webviewer/82.jpg
+../../../../looseends/role456dbd430219.htm
+
+
+
+StatusInitiator ( PartyIdentification2Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role456dbd3b0345.htm
+
+
+
+theTransfer ( Transfer )
+../../../../webviewer/82.jpg
+../../../../looseends/role458696ca00ab.htm
+
+
+
+Complete ( TransferCancellationCompleteStatusAndReason1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456dbd3b036f.htm
+
+
+
+Pending ( TransferCancellationPendingStatus1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456dddee0177.htm
+
+
+
+Status ( TransferCancellationStatus2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456dbd3d02d2.htm
+
+
+
+Rejected ( TransferCancellationRejectedStatus1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456dbd3b035b.htm
+
+
+
+<<XOR>> StatusOrRejectedOrCompleteOrPendingRule
+../../../../webviewer/34.jpg
+op456dbd3d02e3.htm
+op456dbd3d02e3.txt
+
+
+(
+)
+)
+Associations
+../../../../webviewer/assoccat.gif
+
+
+
+
+(
+<<SWSTrace>> (theTransfer:Transfer) (theMessageAndBusinessReference1:MessageAndBusinessReference1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass41371c4a023b.htm
+
+
+
+(
+Transfer ( theTransfer )
+../../../../webviewer/82.jpg
+../../../../looseends/role41371c4a0353.htm
+
+
+
+MessageAndBusinessReference1 ( theMessageAndBusinessReference1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41371c4b006f.htm
+
+
+
+)
+Association (PreviousReference:AdditionalReference2) (theMessageAndBusinessReference1:MessageAndBusinessReference1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass412db45f0135.htm
+../../../../looseends/ass412db45f0135.txt
+
+
+(
+AdditionalReference2 ( PreviousReference )
+../../../../webviewer/82.jpg
+../../../../looseends/role412db460006f.htm
+
+
+
+MessageAndBusinessReference1 ( theMessageAndBusinessReference1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role412db46000e7.htm
+
+
+
+)
+Association (OtherReference:AdditionalReference2) (theMessageAndBusinessReference1:MessageAndBusinessReference1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass412db4620017.htm
+../../../../looseends/ass412db4620017.txt
+
+
+(
+AdditionalReference2 ( OtherReference )
+../../../../webviewer/82.jpg
+../../../../looseends/role412db46202fc.htm
+
+
+
+MessageAndBusinessReference1 ( theMessageAndBusinessReference1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role412db4620339.htm
+
+
+
+)
+<<SWSTrace>> (theTransfer:Transfer) (theTransferReference1:TransferReference1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass44e03c520230.htm
+
+
+
+(
+Transfer ( theTransfer )
+../../../../webviewer/82.jpg
+../../../../looseends/role44e03c5203de.htm
+
+
+
+TransferReference1 ( theTransferReference1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role44e03c53000a.htm
+
+
+
+)
+<<SWSTrace>> (theTransfer:Transfer) (theTransferReference2:TransferReference2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4506ce3301c5.htm
+
+
+
+(
+Transfer ( theTransfer )
+../../../../webviewer/82.jpg
+../../../../looseends/role4506ce33037d.htm
+
+
+
+TransferReference2 ( theTransferReference2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4506ce3303d7.htm
+
+
+
+)
+<<SWSTrace>> (theTransfer:Transfer) (theTransferReference4:TransferReference4)
+../../../../webviewer/81.jpg
+../../../../looseends/ass459d27bb0356.htm
+
+
+
+(
+Transfer ( theTransfer )
+../../../../webviewer/82.jpg
+../../../../looseends/role459d27bf018f.htm
+
+
+
+TransferReference4 ( theTransferReference4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role459d27c00371.htm
+
+
+
+)
+<<SWSTrace>> (theTransfer:Transfer) (theMessageAndBusinessReference6:MessageAndBusinessReference6)
+../../../../webviewer/81.jpg
+../../../../looseends/ass456324a8022d.htm
+
+
+
+(
+Transfer ( theTransfer )
+../../../../webviewer/82.jpg
+../../../../looseends/role456324a8022e.htm
+
+
+
+MessageAndBusinessReference6 ( theMessageAndBusinessReference6 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456324a80237.htm
+
+
+
+)
+<<IsAnAlternativeFor>> (theMessageAndBusinessReference1:MessageAndBusinessReference1) (theMessageAndBusinessReference6:MessageAndBusinessReference6)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4563253b017a.htm
+
+
+
+(
+MessageAndBusinessReference1 ( theMessageAndBusinessReference1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4563253c0063.htm
+
+
+
+MessageAndBusinessReference6 ( theMessageAndBusinessReference6 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4563253c006d.htm
+
+
+
+)
+Association (InvestmentAccountDetails:InvestmentAccount22) (theMessageAndBusinessReference6:MessageAndBusinessReference6)
+../../../../webviewer/81.jpg
+../../../../looseends/ass456324a80219.htm
+../../../../looseends/ass456324a80219.txt
+
+
+(
+InvestmentAccount22 ( InvestmentAccountDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role456324a8021a.htm
+
+
+
+MessageAndBusinessReference6 ( theMessageAndBusinessReference6 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456324a8021c.htm
+
+
+
+)
+Association (OtherReference:AdditionalReference3) (theMessageAndBusinessReference6:MessageAndBusinessReference6)
+../../../../webviewer/81.jpg
+../../../../looseends/ass456324a80255.htm
+../../../../looseends/ass456324a80255.txt
+
+
+(
+AdditionalReference3 ( OtherReference )
+../../../../webviewer/82.jpg
+../../../../looseends/role456324a80256.htm
+
+
+
+MessageAndBusinessReference6 ( theMessageAndBusinessReference6 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456324a80258.htm
+
+
+
+)
+Association (PreviousReference:AdditionalReference3) (theMessageAndBusinessReference6:MessageAndBusinessReference6)
+../../../../webviewer/81.jpg
+../../../../looseends/ass456324a80241.htm
+../../../../looseends/ass456324a80241.txt
+
+
+(
+AdditionalReference3 ( PreviousReference )
+../../../../webviewer/82.jpg
+../../../../looseends/role456324a80242.htm
+
+
+
+MessageAndBusinessReference6 ( theMessageAndBusinessReference6 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456324a80244.htm
+
+
+
+)
+<<SWSTrace>> (theTransfer:Transfer) (theTransferReference3:TransferReference3)
+../../../../webviewer/81.jpg
+../../../../looseends/ass45866c3c009d.htm
+
+
+
+(
+Transfer ( theTransfer )
+../../../../webviewer/82.jpg
+../../../../looseends/role45866c3c024c.htm
+
+
+
+TransferReference3 ( theTransferReference3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role45866c3c02e2.htm
+
+
+
+)
+Association (TransferReferences:TransferReference4) (theTransferReference3:TransferReference3)
+../../../../webviewer/81.jpg
+../../../../looseends/ass459d274d02e9.htm
+../../../../looseends/ass459d274d02e9.txt
+
+
+(
+TransferReference4 ( TransferReferences )
+../../../../webviewer/82.jpg
+../../../../looseends/role459d274e0088.htm
+
+
+
+TransferReference3 ( theTransferReference3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role459d274e00ba.htm
+
+
+
+)
+<<IsAnAlternativeFor>> (theCancellationStatusAndReason:CancellationStatusAndReason) (theCancellationStatusAndReason2:CancellationStatusAndReason2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass456dbd430056.htm
+
+
+
+(
+CancellationStatusAndReason ( theCancellationStatusAndReason )
+../../../../webviewer/82.jpg
+../../../../looseends/role456dbd43020f.htm
+
+
+
+CancellationStatusAndReason2 ( theCancellationStatusAndReason2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456dbd430219.htm
+
+
+
+)
+Association (StatusInitiator:PartyIdentification2Choice) (theCancellationStatusAndReason2:CancellationStatusAndReason2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass456dbd3b033c.htm
+../../../../looseends/ass456dbd3b033c.txt
+
+
+(
+PartyIdentification2Choice ( StatusInitiator )
+../../../../webviewer/82.jpg
+../../../../looseends/role456dbd3b033d.htm
+
+
+
+CancellationStatusAndReason2 ( theCancellationStatusAndReason2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456dbd3b0345.htm
+
+
+
+)
+<<SWSTrace>> (theTransfer:Transfer) (theCancellationStatusAndReason2:CancellationStatusAndReason2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass458696c9010d.htm
+
+
+
+(
+Transfer ( theTransfer )
+../../../../webviewer/82.jpg
+../../../../looseends/role458696ca0078.htm
+
+
+
+CancellationStatusAndReason2 ( theCancellationStatusAndReason2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role458696ca00ab.htm
+
+
+
+)
+Association (Complete:TransferCancellationCompleteStatusAndReason1) (theCancellationStatusAndReason2:CancellationStatusAndReason2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass456dbd3b036c.htm
+../../../../looseends/ass456dbd3b036c.txt
+
+
+(
+TransferCancellationCompleteStatusAndReason1 ( Complete )
+../../../../webviewer/82.jpg
+../../../../looseends/role456dbd3b036d.htm
+
+
+
+CancellationStatusAndReason2 ( theCancellationStatusAndReason2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456dbd3b036f.htm
+
+
+
+)
+Association (Pending:TransferCancellationPendingStatus1) (theCancellationStatusAndReason2:CancellationStatusAndReason2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass456ddded037d.htm
+../../../../looseends/ass456ddded037d.txt
+
+
+(
+TransferCancellationPendingStatus1 ( Pending )
+../../../../webviewer/82.jpg
+../../../../looseends/role456dddee0175.htm
+
+
+
+CancellationStatusAndReason2 ( theCancellationStatusAndReason2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456dddee0177.htm
+
+
+
+)
+Association (Status:TransferCancellationStatus2) (theCancellationStatusAndReason2:CancellationStatusAndReason2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass456dbd3d02cf.htm
+../../../../looseends/ass456dbd3d02cf.txt
+
+
+(
+TransferCancellationStatus2 ( Status )
+../../../../webviewer/82.jpg
+../../../../looseends/role456dbd3d02d0.htm
+
+
+
+CancellationStatusAndReason2 ( theCancellationStatusAndReason2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456dbd3d02d2.htm
+
+
+
+)
+Association (Rejected:TransferCancellationRejectedStatus1) (theCancellationStatusAndReason2:CancellationStatusAndReason2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass456dbd3b0358.htm
+../../../../looseends/ass456dbd3b0358.txt
+
+
+(
+TransferCancellationRejectedStatus1 ( Rejected )
+../../../../webviewer/82.jpg
+../../../../looseends/role456dbd3b0359.htm
+
+
+
+CancellationStatusAndReason2 ( theCancellationStatusAndReason2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456dbd3b035b.htm
+
+
+
+)
+<<IsAnAlternativeFor>> (theTransferStatusAndReason:TransferStatusAndReason) (theTransferStatusAndReason2:TransferStatusAndReason2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass455452cd020d.htm
+
+
+
+(
+TransferStatusAndReason ( theTransferStatusAndReason )
+../../../../webviewer/82.jpg
+../../../../looseends/role455452ce0241.htm
+
+
+
+TransferStatusAndReason2 ( theTransferStatusAndReason2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role455452ce024b.htm
+
+
+
+)
+<<SWSTrace>> (theTransfer:Transfer) (theTransferStatusAndReason2:TransferStatusAndReason2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4586c5380231.htm
+
+
+
+(
+Transfer ( theTransfer )
+../../../../webviewer/82.jpg
+../../../../looseends/role4586c53d0288.htm
+
+
+
+TransferStatusAndReason2 ( theTransferStatusAndReason2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4586c53d02ba.htm
+
+
+
+)
+Association (StatusInitiator:PartyIdentification2Choice) (theTransferStatusAndReason2:TransferStatusAndReason2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass455452b50028.htm
+../../../../looseends/ass455452b50028.txt
+
+
+(
+PartyIdentification2Choice ( StatusInitiator )
+../../../../webviewer/82.jpg
+../../../../looseends/role455452b50029.htm
+
+
+
+TransferStatusAndReason2 ( theTransferStatusAndReason2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role455452b50033.htm
+
+
+
+)
+Association (Reversed:ReversedStatus1) (theTransferStatusAndReason2:TransferStatusAndReason2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4558a5510033.htm
+../../../../looseends/ass4558a5510033.txt
+
+
+(
+ReversedStatus1 ( Reversed )
+../../../../webviewer/82.jpg
+../../../../looseends/role4558a55201a7.htm
+
+
+
+TransferStatusAndReason2 ( theTransferStatusAndReason2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4558a55201b2.htm
+
+
+
+)
+Association (FailedSettlement:FailedSettlementStatus1) (theTransferStatusAndReason2:TransferStatusAndReason2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4558a92600b5.htm
+../../../../looseends/ass4558a92600b5.txt
+
+
+(
+FailedSettlementStatus1 ( FailedSettlement )
+../../../../webviewer/82.jpg
+../../../../looseends/role4558a9270143.htm
+
+
+
+TransferStatusAndReason2 ( theTransferStatusAndReason2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4558a927014d.htm
+
+
+
+)
+Association (Status:TransferInstructionStatus2) (theTransferStatusAndReason2:TransferStatusAndReason2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass455452b403a2.htm
+../../../../looseends/ass455452b403a2.txt
+
+
+(
+TransferInstructionStatus2 ( Status )
+../../../../webviewer/82.jpg
+../../../../looseends/role455452b403a3.htm
+
+
+
+TransferStatusAndReason2 ( theTransferStatusAndReason2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role455452b403a5.htm
+
+
+
+)
+Association (Unmatched:TransferUnmatchedStatus2) (theTransferStatusAndReason2:TransferStatusAndReason2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass455452b50014.htm
+../../../../looseends/ass455452b50014.txt
+
+
+(
+TransferUnmatchedStatus2 ( Unmatched )
+../../../../webviewer/82.jpg
+../../../../looseends/role455452b50015.htm
+
+
+
+TransferStatusAndReason2 ( theTransferStatusAndReason2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role455452b50017.htm
+
+
+
+)
+Association (Rejected:RejectedStatus8Choice) (theTransferStatusAndReason2:TransferStatusAndReason2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass455452b50000.htm
+../../../../looseends/ass455452b50000.txt
+
+
+(
+RejectedStatus8Choice ( Rejected )
+../../../../webviewer/82.jpg
+../../../../looseends/role455452b50001.htm
+
+
+
+TransferStatusAndReason2 ( theTransferStatusAndReason2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role455452b50003.htm
+
+
+
+)
+Association (PendingSettlement:PendingSettlementStatus2) (theTransferStatusAndReason2:TransferStatusAndReason2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass455452b403ca.htm
+../../../../looseends/ass455452b403ca.txt
+
+
+(
+PendingSettlementStatus2 ( PendingSettlement )
+../../../../webviewer/82.jpg
+../../../../looseends/role455452b403cb.htm
+
+
+
+TransferStatusAndReason2 ( theTransferStatusAndReason2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role455452b403d5.htm
+
+
+
+)
+Association (InRepair:InRepairStatus3) (theTransferStatusAndReason2:TransferStatusAndReason2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass455452b403b6.htm
+../../../../looseends/ass455452b403b6.txt
+
+
+(
+InRepairStatus3 ( InRepair )
+../../../../webviewer/82.jpg
+../../../../looseends/role455452b403b7.htm
+
+
+
+TransferStatusAndReason2 ( theTransferStatusAndReason2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role455452b403b9.htm
+
+
+
+)
+Association (Cancelled:CancelledStatus3) (theTransferStatusAndReason2:TransferStatusAndReason2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass45589e6602c3.htm
+../../../../looseends/ass45589e6602c3.txt
+
+
+(
+CancelledStatus3 ( Cancelled )
+../../../../webviewer/82.jpg
+../../../../looseends/role45589e6701f2.htm
+
+
+
+TransferStatusAndReason2 ( theTransferStatusAndReason2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role45589e6701f4.htm
+
+
+
+)
+Association (CancellationPending:CancellationPendingStatus1) (theTransferStatusAndReason2:TransferStatusAndReason2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass456dda4e0186.htm
+../../../../looseends/ass456dda4e0186.txt
+
+
+(
+CancellationPendingStatus1 ( CancellationPending )
+../../../../webviewer/82.jpg
+../../../../looseends/role456dda4f003d.htm
+
+
+
+TransferStatusAndReason2 ( theTransferStatusAndReason2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456dda4f003f.htm
+
+
+
+)
+)

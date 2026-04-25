@@ -1,0 +1,4 @@
+Unique and unambiguous identifier of the original instruction assigned by the original sending party for the receiving party.
+
+Usage: the instruction identification is used as the original point to point reference between the sending party and the receiving party to refer to the original transaction. 
+

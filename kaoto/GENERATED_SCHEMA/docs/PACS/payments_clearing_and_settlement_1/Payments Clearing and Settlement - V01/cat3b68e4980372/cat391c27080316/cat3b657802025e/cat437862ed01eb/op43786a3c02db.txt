@@ -1,0 +1,2 @@
+If ServiceLevel is present then ClearingChannel must not be present.
+If ClearingChannel is present then ServiceLevel must not be present.

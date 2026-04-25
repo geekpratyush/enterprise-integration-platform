@@ -1,0 +1,1 @@
+Event is the cutoff for the settlement of the cash multilateral balances resulting from the daylight cycle of the securities settlement system.

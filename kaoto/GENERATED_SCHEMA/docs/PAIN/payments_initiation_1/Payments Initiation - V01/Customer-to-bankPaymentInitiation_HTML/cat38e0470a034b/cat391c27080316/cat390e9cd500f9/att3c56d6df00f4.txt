@@ -1,0 +1,1 @@
+Indicates whether charges have already been included in the entry amount.

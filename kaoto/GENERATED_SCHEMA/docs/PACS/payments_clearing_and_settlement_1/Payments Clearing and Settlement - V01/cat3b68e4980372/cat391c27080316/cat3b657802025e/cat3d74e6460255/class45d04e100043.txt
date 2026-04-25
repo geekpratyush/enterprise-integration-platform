@@ -1,0 +1,1 @@
+Includes a set of dates (e.g. credit date) related to settlement of the financing amount.

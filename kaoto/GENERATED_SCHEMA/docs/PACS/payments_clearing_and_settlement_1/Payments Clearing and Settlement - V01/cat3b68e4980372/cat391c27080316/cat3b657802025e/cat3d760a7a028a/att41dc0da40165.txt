@@ -1,0 +1,1 @@
+Specifies payment terms not present in a code list.

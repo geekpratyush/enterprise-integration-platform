@@ -1,0 +1,1 @@
+Amount of money and currency to be transferred when a payment instruction is created as a result of a standing order.

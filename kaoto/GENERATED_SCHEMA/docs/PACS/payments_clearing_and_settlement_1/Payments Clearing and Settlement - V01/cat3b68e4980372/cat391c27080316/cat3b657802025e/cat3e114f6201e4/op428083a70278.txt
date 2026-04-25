@@ -1,0 +1,1 @@
+At least one occurrence of either CashAccount or Cheque must be present, but not both.

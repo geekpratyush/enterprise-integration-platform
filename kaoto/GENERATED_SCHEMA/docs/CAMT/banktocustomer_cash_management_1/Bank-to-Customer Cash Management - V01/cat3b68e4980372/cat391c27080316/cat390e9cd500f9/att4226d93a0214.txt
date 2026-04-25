@@ -1,0 +1,1 @@
+Specifies the quantity of goods on a line in a trade transaction. 

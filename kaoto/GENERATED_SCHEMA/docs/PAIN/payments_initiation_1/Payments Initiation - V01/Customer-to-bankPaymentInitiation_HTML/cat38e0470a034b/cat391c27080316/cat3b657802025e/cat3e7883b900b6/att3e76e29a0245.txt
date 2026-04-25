@@ -1,0 +1,1 @@
+Type, eg, bilateral or multilateral, of risk management limit applied by the system at the present time.

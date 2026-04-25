@@ -1,0 +1,3 @@
+If ChargeBearer is present, then DirectDebitTransactionInformation/ChargeBearer is not allowed.
+If DirectDebitTransactionInformation/ChargeBearer is present, then ChargeBearer  is not allowed.
+DirectDebitTransactionInformation/ChargeBearer and ChargeBearer may both be absent.

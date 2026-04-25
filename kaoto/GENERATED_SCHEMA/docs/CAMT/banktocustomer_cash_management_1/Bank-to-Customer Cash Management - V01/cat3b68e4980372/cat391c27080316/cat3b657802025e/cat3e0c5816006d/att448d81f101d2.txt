@@ -1,0 +1,1 @@
+Refers to the identification of a notification.

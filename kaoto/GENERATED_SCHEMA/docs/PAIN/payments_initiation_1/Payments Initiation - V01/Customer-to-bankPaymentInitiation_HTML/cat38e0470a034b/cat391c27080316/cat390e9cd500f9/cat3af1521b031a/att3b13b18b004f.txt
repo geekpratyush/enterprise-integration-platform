@@ -1,0 +1,1 @@
+Identifier consisting of a group of letters and/or numbers that is added to a postal address to assist the sorting of mail.

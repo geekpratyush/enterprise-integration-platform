@@ -1,0 +1,1 @@
+Indicates whether the cash flow is exceptional , eg, extraordinary cash amounts in or out.

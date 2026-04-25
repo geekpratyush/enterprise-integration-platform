@@ -1,0 +1,1 @@
+Balance representing the total outgoing payments that were put on hold because the debit limit has been exceeded.

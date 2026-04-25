@@ -1,0 +1,2 @@
+Type: type changed from TaxType3Code to TaxType3, which uses TaxType6Code: new codes have been added, eg,  AKT1,  OTHR.
+TaxCalculationDetails: new.

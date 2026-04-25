@@ -1,0 +1,1 @@
+Indicates whether the contact references are requested.

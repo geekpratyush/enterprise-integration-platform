@@ -1,0 +1,3 @@
+Amount of money associated with a service.
+
+

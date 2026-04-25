@@ -1,0 +1,3 @@
+Set of elements providing details on the interest amount included in the entry amount.
+
+Usage : it is used in case of batch or aggregate bookings.

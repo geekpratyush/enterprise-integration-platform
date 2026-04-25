@@ -1,0 +1,3 @@
+If at least one occurrence of LiquidityManagementDefaultLimitType is present and is MULT, then no occurrence of BilateralLimitCounterpartyIdentification is allowed.
+If no occurrence of LiquidityManagementDefaultLimitType is MULT, then any occurrence of BilateralLimitCounterpartyIdentification is optional.
+If LiquidityManagementDefaultLimitType is not present, then any occurrence of BilateralLimitCounterpartyIdentification is optional.

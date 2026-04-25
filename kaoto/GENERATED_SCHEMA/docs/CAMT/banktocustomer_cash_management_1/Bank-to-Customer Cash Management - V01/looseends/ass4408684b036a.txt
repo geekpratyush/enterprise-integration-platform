@@ -1,0 +1,1 @@
+Breakdown of cash out amounts, eg,  by transaction or order type.

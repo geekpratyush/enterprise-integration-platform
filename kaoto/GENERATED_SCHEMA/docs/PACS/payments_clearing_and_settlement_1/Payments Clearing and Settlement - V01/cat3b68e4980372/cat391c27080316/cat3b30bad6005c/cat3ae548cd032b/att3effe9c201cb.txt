@@ -1,0 +1,1 @@
+Specified transaction/message amount is equal to zero.

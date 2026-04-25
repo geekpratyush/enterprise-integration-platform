@@ -1,0 +1,1 @@
+If trading in this instrument is halted, cancel this order and reinstate this order when/if trading resumes, subject to time in force limitations.

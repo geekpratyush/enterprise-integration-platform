@@ -1,0 +1,1 @@
+Cash account credited as the result of a cash transfer.

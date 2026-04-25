@@ -1,0 +1,1 @@
+Indicates the vote instruction for the resolutions that would be added during the meeting.

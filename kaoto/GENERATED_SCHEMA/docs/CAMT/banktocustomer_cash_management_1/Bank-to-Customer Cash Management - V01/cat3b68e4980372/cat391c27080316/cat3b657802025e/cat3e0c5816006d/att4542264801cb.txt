@@ -1,0 +1,1 @@
+Point to point reference assigned by the sending party to unambiguously identify the batch of transactions.

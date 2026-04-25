@@ -1,0 +1,2 @@
+Bank identifier code specified in the message has an incorrect format (formerly IncorrectFormatForRoutingCode).
+

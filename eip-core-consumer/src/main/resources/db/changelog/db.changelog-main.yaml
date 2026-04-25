@@ -1,0 +1,9 @@
+databaseChangeLog:
+  - include:
+      file: db/migrations/postgres/db.changelog-postgres.yaml
+  - include:
+      file: db/migrations/mysql/db.changelog-mysql.yaml
+  - include:
+      file: db/migrations/oracle/db.changelog-oracle.yaml
+  - include:
+      file: db/migrations/sqlserver/db.changelog-sqlserver.yaml

@@ -1,0 +1,1 @@
+Identifies the direct debit sequence, eg, first, recurrent, final or one-off.

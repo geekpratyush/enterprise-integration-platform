@@ -1,0 +1,1 @@
+Minimum quantity of securities required to hold a meeting.

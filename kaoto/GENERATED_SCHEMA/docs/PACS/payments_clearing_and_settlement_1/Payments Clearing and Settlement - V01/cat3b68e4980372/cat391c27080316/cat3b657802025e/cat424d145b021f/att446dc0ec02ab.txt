@@ -1,0 +1,1 @@
+Price multiplied by the outstanding quantity for a line.

@@ -1,0 +1,1 @@
+Indicates the type of product the financial instrument is associated with (used for fixed income).

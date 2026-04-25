@@ -1,0 +1,21 @@
+# routes.yaml (mtls-kafka)
+- from:
+    uri: "timer:trigger-mtls"
+    parameters:
+      repeatCount: 5
+      period: 5000
+    steps:
+      - setBody:
+          constant: "Hello from EIP Platform over Direct Kafka Component with mTLS!"
+      - to:
+          uri: "kafka:demo-topic-mtls"
+          parameters:
+            brokers: "127.0.0.1:9095"
+
+- from:
+    uri: "kafka:demo-topic-mtls"
+    parameters:
+      brokers: "127.0.0.1:9095"
+      groupId: "eip-consumer-group"
+    steps:
+      - log: "MTLS_CONSUMER_RECEIVED: ${body}"

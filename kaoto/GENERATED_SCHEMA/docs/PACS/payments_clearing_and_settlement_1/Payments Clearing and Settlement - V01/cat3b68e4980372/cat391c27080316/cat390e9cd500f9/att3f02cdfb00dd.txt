@@ -1,0 +1,1 @@
+Identification of a specific execution time bracket code through its trading session name or description.

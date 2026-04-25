@@ -1,0 +1,1894 @@
+<<MessageComponent>> Unit1
+../../../../webviewer/142.jpg
+class40a477180138.htm
+class40a477180138.txt
+
+
+(
+UnitsNumber
+../../../../webviewer/31.jpg
+att40a4779801b5.htm
+att40a4779801b5.txt
+
+
+(
+)
+AcquisitionDate[0..1]
+../../../../webviewer/31.jpg
+att40a477bf000f.htm
+att40a477bf000f.txt
+
+
+(
+)
+CertificateNumber[0..n]
+../../../../webviewer/31.jpg
+att40a4b34a0000.htm
+att40a4b34a0000.txt
+
+
+(
+)
+Group1Or2Units[0..1]
+../../../../webviewer/31.jpg
+att40e007300064.htm
+
+
+
+(
+)
+theTransfer1 ( Transfer1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role40a4789f0119.htm
+
+
+
+PriceDetails ( UnitPrice3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role40a476e70290.htm
+
+
+
+theSecuritiesQuantity ( SecuritiesQuantity )
+../../../../webviewer/82.jpg
+../../../../looseends/role40c9ba030375.htm
+
+
+
+theTransfer2 ( Transfer2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role40a47ffd01a5.htm
+
+
+
+theTransfer4 ( Transfer4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role40a480e100ab.htm
+
+
+
+theUnit3 ( Unit3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role45250fa303dd.htm
+
+
+
+)
+<<MessageComponent>> PriceInformation1
+../../../../webviewer/142.jpg
+class40bc888e0247.htm
+
+
+
+(
+Value
+../../../../webviewer/31.jpg
+att40bc896b0031.htm
+
+
+
+(
+)
+ValueType [0..1]
+../../../../webviewer/31.jpg
+att40bc893c01e0.htm
+
+
+
+(
+)
+Type
+../../../../webviewer/31.jpg
+att40bc89f2036f.htm
+
+
+
+(
+)
+SourceOfPrice [0..1]
+../../../../webviewer/31.jpg
+att40bc897a014b.htm
+
+
+
+(
+)
+QuotationDate [0..1]
+../../../../webviewer/31.jpg
+att40bc897c0389.htm
+att40bc897c0389.txt
+
+
+(
+)
+Yielded [0..1]
+../../../../webviewer/31.jpg
+att40bc898f0391.htm
+att40bc898f0391.txt
+
+
+(
+)
+thePrice ( Price )
+../../../../webviewer/82.jpg
+../../../../looseends/role40bc92d4024f.htm
+
+
+
+thePriceInformation2 ( PriceInformation2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role452382190218.htm
+
+
+
+theAggregateBalanceInformation1 ( AggregateBalanceInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role40bc88a7009f.htm
+
+
+
+theAggregateBalanceInformation2 ( AggregateBalanceInformation2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role40bc9442028b.htm
+
+
+
+theAggregateBalancePerSafekeepingPlace1 ( AggregateBalancePerSafekeepingPlace1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role40bc931400f4.htm
+
+
+
+theAggregateBalancePerSafekeepingPlace2 ( AggregateBalancePerSafekeepingPlace2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role40bc9576000f.htm
+
+
+
+<<Textual>> ValueRule
+../../../../webviewer/36.jpg
+op40bc8ff80238.htm
+op40bc8ff80238.txt
+
+
+(
+)
+)
+<<MessageComponent>> PriceSource
+../../../../webviewer/142.jpg
+class40a3a3f801e3.htm
+class40a3a3f801e3.txt
+
+
+(
+PriceSource
+../../../../webviewer/31.jpg
+att40a3a4670181.htm
+att40a3a4670181.txt
+
+
+(
+)
+Narrative [0..1]
+../../../../webviewer/33.jpg
+att40a3a468020f.htm
+att40a3a468020f.txt
+
+
+(
+)
+thePrice ( Price )
+../../../../webviewer/82.jpg
+../../../../looseends/role40fcd6d8015d.htm
+
+
+
+)
+<<ChoiceComponent>> PriceSourceFormatChoice
+../../../../webviewer/143.jpg
+class40a39a0d0304.htm
+class40a39a0d0304.txt
+
+
+(
+LocalMarketPlace
+../../../../webviewer/31.jpg
+att40a3a4f901de.htm
+att40a3a4f901de.txt
+
+
+(
+)
+NonLocalMarketPlace
+../../../../webviewer/31.jpg
+att40a3a51800d5.htm
+att40a3a51800d5.txt
+
+
+(
+)
+PlaceAsDSS
+../../../../webviewer/31.jpg
+att40a3a52503af.htm
+att40a3a52503af.txt
+
+
+(
+)
+)
+<<MessageComponent>> UnitPrice7
+../../../../webviewer/142.jpg
+class416f90f20115.htm
+
+
+
+(
+Amount
+../../../../webviewer/31.jpg
+att416f91070011.htm
+
+
+
+(
+)
+Factor[ 0..1 ]
+../../../../webviewer/31.jpg
+att41ecf5d90220.htm
+
+
+
+(
+)
+UnitOfMeasureCode
+../../../../webviewer/31.jpg
+att4235a71902f5.htm
+
+
+
+(
+)
+OtherUnitOfMeasure
+../../../../webviewer/33.jpg
+att4235a719031d.htm
+att4235a719031d.txt
+
+
+(
+)
+thePrice ( Price )
+../../../../webviewer/82.jpg
+../../../../looseends/role423598a70249.htm
+
+
+
+theLineItemDetails1 ( LineItemDetails1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role416f91510394.htm
+../../../../looseends/role416f91510394.txt
+
+
+theLineItemDetails2 ( LineItemDetails2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41b84fbf01d9.htm
+../../../../looseends/role41b84fbf01d9.txt
+
+
+<<XOR>> UnitOfMeasureCodeOrOtherUnitOfMeasureRule
+../../../../webviewer/34.jpg
+op4235a732003e.htm
+op4235a732003e.txt
+
+
+(
+)
+)
+<<MessageComponent>> Price1
+../../../../webviewer/142.jpg
+class3c10bea4032c.htm
+
+
+
+(
+Yielded
+../../../../webviewer/31.jpg
+att3d8b2e5d00b1.htm
+
+
+
+(
+)
+ValueType[0..1]
+../../../../webviewer/31.jpg
+att3c10bdaa00a2.htm
+
+
+
+(
+)
+Value
+../../../../webviewer/31.jpg
+att3c42c83300e2.htm
+
+
+
+(
+)
+TreasuryEurodollarSpread
+../../../../webviewer/31.jpg
+att3c1db99601fb.htm
+
+
+
+(
+)
+PriceType[0..1]
+../../../../webviewer/31.jpg
+att3eaeac7400af.htm
+
+
+
+(
+)
+thePrice ( Price )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e8415110061.htm
+
+
+
+)
+<<MessageComponent>> PriceType1
+../../../../webviewer/142.jpg
+class41b8810e02de.htm
+class41b8810e02de.txt
+
+
+(
+Structured
+../../../../webviewer/30.jpg
+att41b8812100e7.htm
+att41b8812100e7.txt
+
+
+(
+)
+AdditionalInformation [0..1]
+../../../../webviewer/30.jpg
+att41b8812100e8.htm
+att41b8812100e8.txt
+
+
+(
+)
+thePriceTypeFormat ( PriceTypeFormat )
+../../../../webviewer/82.jpg
+../../../../looseends/role4236ab710237.htm
+
+
+
+<<Textual>> OtherCodeRule
+../../../../webviewer/36.jpg
+op41ee5f570395.htm
+op41ee5f570395.txt
+
+
+(
+)
+)
+<<MessageComponent>> UnitPrice1
+../../../../webviewer/142.jpg
+class3e0b28fe066d.htm
+
+
+
+(
+Type
+../../../../webviewer/31.jpg
+att3e0b28fe066e.htm
+
+
+
+(
+)
+Value
+../../../../webviewer/31.jpg
+att3e0b28fe066f.htm
+
+
+
+(
+)
+PriceMethod[0..1]
+../../../../webviewer/31.jpg
+att3fb8971c00ea.htm
+
+
+
+(
+)
+thePrice ( Price )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e0c4f5a01a5.htm
+
+
+
+theUnitPrice11 ( UnitPrice11 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4513f3330139.htm
+
+
+
+theExecution1 ( Execution1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e1be44d02fa.htm
+
+
+
+theInvestmentFundTransaction2 ( InvestmentFundTransaction2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role417f5159034d.htm
+
+
+
+)
+<<MessageComponent>> UnitPrice3
+../../../../webviewer/142.jpg
+class40a4760601b5.htm
+
+
+
+(
+PriceType
+../../../../webviewer/31.jpg
+att40a4768000fa.htm
+
+
+
+(
+)
+Value
+../../../../webviewer/31.jpg
+att40a476800109.htm
+att40a476800109.txt
+
+
+(
+)
+PriceMethod[0..1]
+../../../../webviewer/31.jpg
+att40a476800119.htm
+
+
+
+(
+)
+AccruedInterestNAV[0..1]
+../../../../webviewer/31.jpg
+att40cd8fe500a7.htm
+att40cd8fe500a7.txt
+
+
+(
+)
+NumberOfDaysAccrued[0..1]
+../../../../webviewer/31.jpg
+att40cd8ffc0264.htm
+
+
+
+(
+)
+TaxableIncomePerShare[0..1]
+../../../../webviewer/31.jpg
+att415a9472035b.htm
+att415a9472035b.txt
+
+
+(
+)
+theUnit1 ( Unit1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role40a476e70280.htm
+
+
+
+thePrice ( Price )
+../../../../webviewer/82.jpg
+../../../../looseends/role40bd968e039a.htm
+
+
+
+theUnitPrice12 ( UnitPrice12 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4525044a026e.htm
+
+
+
+)
+<<MessageComponent>> UnitPrice4
+../../../../webviewer/142.jpg
+class41b9645d03dd.htm
+
+
+
+(
+Type
+../../../../webviewer/31.jpg
+att41b964860121.htm
+
+
+
+(
+)
+Value
+../../../../webviewer/31.jpg
+att41b964860122.htm
+
+
+
+(
+)
+thePrice ( Price )
+../../../../webviewer/82.jpg
+../../../../looseends/role41b9e8ff010e.htm
+
+
+
+theUnitPrice9 ( UnitPrice9 )
+../../../../webviewer/82.jpg
+../../../../looseends/role43f0864603e0.htm
+
+
+
+)
+<<MessageComponent>> UnitPrice5
+../../../../webviewer/142.jpg
+class41922c110183.htm
+
+
+
+(
+Type
+../../../../webviewer/31.jpg
+att41922c110185.htm
+
+
+
+(
+)
+Value
+../../../../webviewer/31.jpg
+att41922c110197.htm
+
+
+
+(
+)
+PriceMethod[0..1]
+../../../../webviewer/31.jpg
+att41922c1101a1.htm
+
+
+
+(
+)
+NumberOfDaysAccrued [0..1]
+../../../../webviewer/31.jpg
+att41922c520106.htm
+
+
+
+(
+)
+TaxableIncomePerShare [0..1]
+../../../../webviewer/31.jpg
+att41922c520110.htm
+att41922c520110.txt
+
+
+(
+)
+TaxableIncomePerShareCalculated [0..1]
+../../../../webviewer/31.jpg
+att4192328c01d8.htm
+
+
+
+(
+)
+thePrice ( Price )
+../../../../webviewer/82.jpg
+../../../../looseends/role41922c1101ae.htm
+
+
+
+theUnitPrice10 ( UnitPrice10 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4406b8320246.htm
+
+
+
+)
+<<MessageComponent>> UnitPrice8
+../../../../webviewer/142.jpg
+class447702920305.htm
+
+
+
+(
+Amount
+../../../../webviewer/31.jpg
+att44770292030f.htm
+
+
+
+(
+)
+Factor[ 0..1 ]
+../../../../webviewer/31.jpg
+att447702920319.htm
+
+
+
+(
+)
+UnitOfMeasureCode
+../../../../webviewer/31.jpg
+att447702920323.htm
+
+
+
+(
+)
+OtherUnitOfMeasure
+../../../../webviewer/33.jpg
+att447702920337.htm
+att447702920337.txt
+
+
+(
+)
+thePrice ( Price )
+../../../../webviewer/82.jpg
+../../../../looseends/role447702920344.htm
+
+
+
+theLineItemDetails4 ( LineItemDetails4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role446dbddf014c.htm
+
+
+
+theLineItemDetails6 ( LineItemDetails6 )
+../../../../webviewer/82.jpg
+../../../../looseends/role446dc3ad037f.htm
+
+
+
+<<XOR>> UnitOfMeasureCodeOrOtherUnitOfMeasureRule
+../../../../webviewer/34.jpg
+op44770292034c.htm
+op44770292034c.txt
+
+
+(
+)
+)
+<<MessageComponent>> UnitPrice9
+../../../../webviewer/142.jpg
+class43f086430255.htm
+
+
+
+(
+Type
+../../../../webviewer/31.jpg
+att43f08643027d.htm
+
+
+
+(
+)
+ExtendedType
+../../../../webviewer/31.jpg
+att4525140802f6.htm
+
+
+
+(
+)
+Value
+../../../../webviewer/31.jpg
+att43f08643029b.htm
+
+
+
+(
+)
+thePrice ( Price )
+../../../../webviewer/82.jpg
+../../../../looseends/role43f086430377.htm
+
+
+
+theUnitPrice4 ( UnitPrice4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role43f086470070.htm
+
+
+
+<<XOR>> TypeOrExtendedTypeRule
+../../../../webviewer/34.jpg
+op4525141403b1.htm
+op4525141403b1.txt
+
+
+(
+)
+)
+<<MessageComponent>> UnitPrice15
+../../../../webviewer/142.jpg
+class43da46b30051.htm
+class43da46b30051.txt
+
+
+(
+Type
+../../../../webviewer/31.jpg
+att43da46b30066.htm
+
+
+
+(
+)
+ExtendedType
+../../../../webviewer/31.jpg
+att43e35bb50329.htm
+
+
+
+(
+)
+PriceMethod [0..1]
+../../../../webviewer/31.jpg
+att43da46b3008d.htm
+
+
+
+(
+)
+ValueInInvestmentCurrency [1..n]
+../../../../webviewer/31.jpg
+att43da46b300b5.htm
+att43da46b300b5.txt
+
+
+(
+)
+ValueInAlternativeCurrency [0..n]
+../../../../webviewer/31.jpg
+att43da46b300d3.htm
+att43da46b300d3.txt
+
+
+(
+)
+ForExecutionIndicator
+../../../../webviewer/31.jpg
+att43da46b300fb.htm
+
+
+
+(
+)
+CumDividendIndicator
+../../../../webviewer/31.jpg
+att43da46b30123.htm
+att43da46b30123.txt
+
+
+(
+)
+CalculationBasis [0..1]
+../../../../webviewer/31.jpg
+att43da46b30142.htm
+
+
+
+(
+)
+EstimatedPriceIndicator
+../../../../webviewer/31.jpg
+att43e9c9b9029c.htm
+
+
+
+(
+)
+NumberOfDaysAccrued [0..1]
+../../../../webviewer/31.jpg
+att43da46b3016a.htm
+
+
+
+(
+)
+TaxableIncomePerShare [0..1]
+../../../../webviewer/31.jpg
+att43da46b30188.htm
+att43da46b30188.txt
+
+
+(
+)
+TaxableIncomePerShareCalculated [0..1]
+../../../../webviewer/31.jpg
+att43da46b301b0.htm
+
+
+
+(
+)
+ExtendedTaxableIncomePerShareCalculated [0..1]
+../../../../webviewer/31.jpg
+att43eb03290111.htm
+
+
+
+(
+)
+TaxableIncomePerDividend [0..1]
+../../../../webviewer/31.jpg
+att43eafc6b0001.htm
+att43eafc6b0001.txt
+
+
+(
+)
+EUDividendStatus [0..1]
+../../../../webviewer/31.jpg
+att43eafcbb033b.htm
+
+
+
+(
+)
+ExtendedEUDividendStatus [0..1]
+../../../../webviewer/31.jpg
+att43eb0b1c01cc.htm
+
+
+
+(
+)
+thePrice ( Price )
+../../../../webviewer/82.jpg
+../../../../looseends/role43da46b301db.htm
+
+
+
+TaxLiabilityDetails ( Tax17 )
+../../../../webviewer/82.jpg
+../../../../looseends/role458bb3a802f2.htm
+
+
+
+TaxRefundDetails ( Tax17 )
+../../../../webviewer/82.jpg
+../../../../looseends/role458bb3ab0198.htm
+
+
+
+ChargeDetails ( Charge15 )
+../../../../webviewer/82.jpg
+../../../../looseends/role43da46b30253.htm
+
+
+
+thePriceValuation3 ( PriceValuation3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role43da459700ae.htm
+
+
+
+<<Textual>> CalculationBasisRule
+../../../../webviewer/36.jpg
+op43da46b30282.htm
+op43da46b30282.txt
+
+
+(
+)
+<<XOR>> TypeOrExtendedTypeRule
+../../../../webviewer/34.jpg
+op43e35bdb0306.htm
+op43e35bdb0306.txt
+
+
+(
+)
+<<XOR>> TaxableIncomePerShareCalculatedOrExtendedTaxableIncomePerShareCalculatedRule
+../../../../webviewer/34.jpg
+op43eb034a012d.htm
+op43eb034a012d.txt
+
+
+(
+)
+<<XOR>> EUDividendStatusOrExtendedEUDividendStatusRule
+../../../../webviewer/34.jpg
+op43eb0b6101ad.htm
+op43eb0b6101ad.txt
+
+
+(
+)
+)
+<<MessageComponent>> UnitPrice12
+../../../../webviewer/142.jpg
+class45250424007a.htm
+
+
+
+(
+Type
+../../../../webviewer/31.jpg
+att452504240232.htm
+
+
+
+(
+)
+ExtendedType
+../../../../webviewer/31.jpg
+att45250cf7006b.htm
+
+
+
+(
+)
+Value
+../../../../webviewer/31.jpg
+att4525042402aa.htm
+att4525042402aa.txt
+
+
+(
+)
+PriceMethod[0..1]
+../../../../webviewer/31.jpg
+att452504240319.htm
+
+
+
+(
+)
+AccruedInterestNAV[0..1]
+../../../../webviewer/31.jpg
+att45250424032d.htm
+att45250424032d.txt
+
+
+(
+)
+NumberOfDaysAccrued[0..1]
+../../../../webviewer/31.jpg
+att4525042403c3.htm
+
+
+
+(
+)
+TaxableIncomePerShare[0..1]
+../../../../webviewer/31.jpg
+att45250425000d.htm
+att45250425000d.txt
+
+
+(
+)
+theUnitPrice3 ( UnitPrice3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4525044a0337.htm
+
+
+
+thePrice ( Price )
+../../../../webviewer/82.jpg
+../../../../looseends/role4525042500e9.htm
+
+
+
+theUnit3 ( Unit3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role45250f9f0052.htm
+
+
+
+<<XOR>> TypeOrExtendedTypeRule
+../../../../webviewer/34.jpg
+op45250db502a1.htm
+op45250db502a1.txt
+
+
+(
+)
+)
+<<MessageComponent>> UnitPrice11
+../../../../webviewer/142.jpg
+class4513f221039f.htm
+
+
+
+(
+Type
+../../../../webviewer/31.jpg
+att4513f22103ab.htm
+
+
+
+(
+)
+ExtendedType
+../../../../webviewer/31.jpg
+att4513f36e02bb.htm
+
+
+
+(
+)
+Value
+../../../../webviewer/31.jpg
+att4513f22103b4.htm
+
+
+
+(
+)
+PriceMethod[0..1]
+../../../../webviewer/31.jpg
+att4513f22103be.htm
+
+
+
+(
+)
+theUnitPrice1 ( UnitPrice1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4513f3330157.htm
+
+
+
+thePrice ( Price )
+../../../../webviewer/82.jpg
+../../../../looseends/role4513f22103cb.htm
+
+
+
+theInvestmentFundTransaction3 ( InvestmentFundTransaction3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4513f4310107.htm
+
+
+
+<<XOR>> TypeOrExtendedTypeRule
+../../../../webviewer/34.jpg
+op4513f38f0205.htm
+op4513f38f0205.txt
+
+
+(
+)
+)
+<<MessageComponent>> UnitPrice10
+../../../../webviewer/142.jpg
+class4406b82b01ec.htm
+
+
+
+(
+Type
+../../../../webviewer/31.jpg
+att4406b82b0233.htm
+
+
+
+(
+)
+ExtendedType
+../../../../webviewer/31.jpg
+att4406bc23039b.htm
+
+
+
+(
+)
+Value
+../../../../webviewer/31.jpg
+att4406b82b025a.htm
+
+
+
+(
+)
+PriceMethod[0..1]
+../../../../webviewer/31.jpg
+att4406b82b0278.htm
+
+
+
+(
+)
+NumberOfDaysAccrued [0..1]
+../../../../webviewer/31.jpg
+att4406b82b02a0.htm
+
+
+
+(
+)
+TaxableIncomePerShare [0..1]
+../../../../webviewer/31.jpg
+att4406b82b02e6.htm
+att4406b82b02e6.txt
+
+
+(
+)
+TaxableIncomePerShareCalculated [0..1]
+../../../../webviewer/31.jpg
+att4406b82b0318.htm
+
+
+
+(
+)
+ExtendedTaxableIncomePerShareCalculated [0..1]
+../../../../webviewer/31.jpg
+att4406bd9b016b.htm
+
+
+
+(
+)
+PriceDifferenceReason [0..1]
+../../../../webviewer/31.jpg
+att44f307190042.htm
+
+
+
+(
+)
+theUnitPrice5 ( UnitPrice5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4406b8320318.htm
+
+
+
+thePrice ( Price )
+../../../../webviewer/82.jpg
+../../../../looseends/role4406b82b039a.htm
+
+
+
+theRedemptionExecution5 ( RedemptionExecution5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role44e97bf40233.htm
+
+
+
+theRedemptionExecution6 ( RedemptionExecution6 )
+../../../../webviewer/82.jpg
+../../../../looseends/role44e989f402b4.htm
+
+
+
+theRedemptionExecution6 ( RedemptionExecution6 )
+../../../../webviewer/82.jpg
+../../../../looseends/role43e1d82502f9.htm
+
+
+
+theRedemptionExecution5 ( RedemptionExecution5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4406ec95028c.htm
+
+
+
+theSubscriptionExecution6 ( SubscriptionExecution6 )
+../../../../webviewer/82.jpg
+../../../../looseends/role43e1cb350089.htm
+
+
+
+theSubscriptionExecution6 ( SubscriptionExecution6 )
+../../../../webviewer/82.jpg
+../../../../looseends/role44e98af70291.htm
+
+
+
+theSubscriptionExecution5 ( SubscriptionExecution5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4406e9bc00cb.htm
+
+
+
+theSubscriptionExecution5 ( SubscriptionExecution5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role44e98ab20133.htm
+
+
+
+theSwitchSubscriptionLegExecution3 ( SwitchSubscriptionLegExecution3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role43e20780039b.htm
+
+
+
+theSwitchRedemptionLegExecution3 ( SwitchRedemptionLegExecution3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role43e2068a00b2.htm
+
+
+
+<<XOR>> TypeOrExtendedTypeRule
+../../../../webviewer/34.jpg
+op4406bc34015b.htm
+op4406bc34015b.txt
+
+
+(
+)
+<<XOR>> TISCalculatedOrExtendedTISCalculatedRule
+../../../../webviewer/34.jpg
+op4406bda30072.htm
+op4406bda30072.txt
+
+
+(
+)
+)
+<<MessageComponent>> PriceInformation2
+../../../../webviewer/142.jpg
+class452382110053.htm
+
+
+
+(
+Value
+../../../../webviewer/31.jpg
+att45238211005e.htm
+
+
+
+(
+)
+ValueType [0..1]
+../../../../webviewer/31.jpg
+att452382110067.htm
+
+
+
+(
+)
+Type
+../../../../webviewer/31.jpg
+att452382110071.htm
+
+
+
+(
+)
+ExtendedType
+../../../../webviewer/31.jpg
+att45238569031a.htm
+
+
+
+(
+)
+SourceOfPrice [0..1]
+../../../../webviewer/31.jpg
+att452382110085.htm
+
+
+
+(
+)
+QuotationDate [0..1]
+../../../../webviewer/31.jpg
+att452382110090.htm
+att452382110090.txt
+
+
+(
+)
+Yielded [0..1]
+../../../../webviewer/31.jpg
+att4523821100a4.htm
+att4523821100a4.txt
+
+
+(
+)
+thePrice ( Price )
+../../../../webviewer/82.jpg
+../../../../looseends/role4523821100b1.htm
+
+
+
+thePriceInformation1 ( PriceInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role452382190236.htm
+
+
+
+theAggregateBalancePerSafekeepingPlace4 ( AggregateBalancePerSafekeepingPlace4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4513dc770224.htm
+
+
+
+theAggregateBalancePerSafekeepingPlace3 ( AggregateBalancePerSafekeepingPlace3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4513ddc00221.htm
+
+
+
+theAggregateBalanceInformation4 ( AggregateBalanceInformation4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4513aa2f0317.htm
+
+
+
+theAggregateBalanceInformation3 ( AggregateBalanceInformation3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4512490a0215.htm
+
+
+
+<<Textual>> ValueRule
+../../../../webviewer/36.jpg
+op4523821100c2.htm
+op4523821100c2.txt
+
+
+(
+)
+<<XOR>> TypeOrExtendedTypeRule
+../../../../webviewer/34.jpg
+op4523861e031c.htm
+op4523861e031c.txt
+
+
+(
+)
+)
+Associations
+../../../../webviewer/assoccat.gif
+
+
+
+
+(
+<<SWSTrace>> (thePrice:Price) (theUnitPrice1:UnitPrice1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3e0c4f59035b.htm
+
+
+
+(
+Price ( thePrice )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e0c4f5a0196.htm
+
+
+
+UnitPrice1 ( theUnitPrice1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e0c4f5a01a5.htm
+
+
+
+)
+Association (PriceDetails:UnitPrice3) (theUnit1:Unit1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass40a476e5038a.htm
+../../../../looseends/ass40a476e5038a.txt
+
+
+(
+UnitPrice3 ( PriceDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role40a476e70280.htm
+
+
+
+Unit1 ( theUnit1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role40a476e70290.htm
+
+
+
+)
+<<SWSTrace>> (theSecuritiesQuantity:SecuritiesQuantity) (theUnit1:Unit1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass40c9ba020283.htm
+
+
+
+(
+SecuritiesQuantity ( theSecuritiesQuantity )
+../../../../webviewer/82.jpg
+../../../../looseends/role40c9ba03036b.htm
+
+
+
+Unit1 ( theUnit1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role40c9ba030375.htm
+
+
+
+)
+<<SWSTrace>> (thePrice:Price) (theUnitPrice3:UnitPrice3)
+../../../../webviewer/81.jpg
+../../../../looseends/ass40bd968d01cc.htm
+
+
+
+(
+Price ( thePrice )
+../../../../webviewer/82.jpg
+../../../../looseends/role40bd968e0368.htm
+
+
+
+UnitPrice3 ( theUnitPrice3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role40bd968e039a.htm
+
+
+
+)
+<<SWSTrace>> (thePriceInformation1:PriceInformation1) (thePrice:Price)
+../../../../webviewer/81.jpg
+../../../../looseends/ass40bc92d4024e.htm
+
+
+
+(
+PriceInformation1 ( thePriceInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role40bc92d4024f.htm
+
+
+
+Price ( thePrice )
+../../../../webviewer/82.jpg
+../../../../looseends/role40bc92d40250.htm
+
+
+
+)
+<<SWSTrace>> (thePrice:Price) (thePriceSource:PriceSource)
+../../../../webviewer/81.jpg
+../../../../looseends/ass40fcd6d7033c.htm
+
+
+
+(
+Price ( thePrice )
+../../../../webviewer/82.jpg
+../../../../looseends/role40fcd6d80121.htm
+
+
+
+PriceSource ( thePriceSource )
+../../../../webviewer/82.jpg
+../../../../looseends/role40fcd6d8015d.htm
+
+
+
+)
+<<SWSTrace>> (thePrice:Price) (theUnitPrice4:UnitPrice4)
+../../../../webviewer/81.jpg
+../../../../looseends/ass41b9e8fe0207.htm
+
+
+
+(
+Price ( thePrice )
+../../../../webviewer/82.jpg
+../../../../looseends/role41b9e8fe03a1.htm
+
+
+
+UnitPrice4 ( theUnitPrice4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41b9e8ff010e.htm
+
+
+
+)
+<<SWSTrace>> (thePrice:Price) (theUnitPrice5:UnitPrice5)
+../../../../webviewer/81.jpg
+../../../../looseends/ass41922c1101ab.htm
+
+
+
+(
+Price ( thePrice )
+../../../../webviewer/82.jpg
+../../../../looseends/role41922c1101ac.htm
+
+
+
+UnitPrice5 ( theUnitPrice5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41922c1101ae.htm
+
+
+
+)
+<<SWSTrace>> (thePrice:Price) (theUnitPrice7:UnitPrice7)
+../../../../webviewer/81.jpg
+../../../../looseends/ass423598a60388.htm
+
+
+
+(
+Price ( thePrice )
+../../../../webviewer/82.jpg
+../../../../looseends/role423598a7022b.htm
+
+
+
+UnitPrice7 ( theUnitPrice7 )
+../../../../webviewer/82.jpg
+../../../../looseends/role423598a70249.htm
+
+
+
+)
+<<SWSTrace>> (thePrice:Price) (thePrice1:Price1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3e8415100269.htm
+
+
+
+(
+Price ( thePrice )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e8415100377.htm
+
+
+
+Price1 ( thePrice1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e8415110061.htm
+
+
+
+)
+<<SWSTrace>> (thePrice:Price) (theUnitPrice8:UnitPrice8)
+../../../../webviewer/81.jpg
+../../../../looseends/ass447702920341.htm
+
+
+
+(
+Price ( thePrice )
+../../../../webviewer/82.jpg
+../../../../looseends/role447702920342.htm
+
+
+
+UnitPrice8 ( theUnitPrice8 )
+../../../../webviewer/82.jpg
+../../../../looseends/role447702920344.htm
+
+
+
+)
+<<IsAnAlternativeFor>> (theUnitPrice5:UnitPrice5) (theUnitPrice10:UnitPrice10)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4406b83200d3.htm
+
+
+
+(
+UnitPrice5 ( theUnitPrice5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4406b8320246.htm
+
+
+
+UnitPrice10 ( theUnitPrice10 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4406b8320318.htm
+
+
+
+)
+<<SWSTrace>> (thePrice:Price) (theUnitPrice10:UnitPrice10)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4406b82b0340.htm
+
+
+
+(
+Price ( thePrice )
+../../../../webviewer/82.jpg
+../../../../looseends/role4406b82b034a.htm
+
+
+
+UnitPrice10 ( theUnitPrice10 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4406b82b039a.htm
+
+
+
+)
+<<IsAnAlternativeFor>> (theUnitPrice1:UnitPrice1) (theUnitPrice11:UnitPrice11)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4513f33203e1.htm
+
+
+
+(
+UnitPrice1 ( theUnitPrice1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4513f3330139.htm
+
+
+
+UnitPrice11 ( theUnitPrice11 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4513f3330157.htm
+
+
+
+)
+<<SWSTrace>> (thePrice:Price) (theUnitPrice11:UnitPrice11)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4513f22103c8.htm
+
+
+
+(
+Price ( thePrice )
+../../../../webviewer/82.jpg
+../../../../looseends/role4513f22103c9.htm
+
+
+
+UnitPrice11 ( theUnitPrice11 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4513f22103cb.htm
+
+
+
+)
+<<IsAnAlternativeFor>> (theUnitPrice3:UnitPrice3) (theUnitPrice12:UnitPrice12)
+../../../../webviewer/81.jpg
+../../../../looseends/ass452504490303.htm
+
+
+
+(
+UnitPrice3 ( theUnitPrice3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4525044a026e.htm
+
+
+
+UnitPrice12 ( theUnitPrice12 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4525044a0337.htm
+
+
+
+)
+<<SWSTrace>> (thePrice:Price) (theUnitPrice12:UnitPrice12)
+../../../../webviewer/81.jpg
+../../../../looseends/ass452504250099.htm
+
+
+
+(
+Price ( thePrice )
+../../../../webviewer/82.jpg
+../../../../looseends/role4525042500ad.htm
+
+
+
+UnitPrice12 ( theUnitPrice12 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4525042500e9.htm
+
+
+
+)
+<<SWSTrace>> (thePrice:Price) (theUnitPrice9:UnitPrice9)
+../../../../webviewer/81.jpg
+../../../../looseends/ass43f0864302af.htm
+
+
+
+(
+Price ( thePrice )
+../../../../webviewer/82.jpg
+../../../../looseends/role43f0864302b9.htm
+
+
+
+UnitPrice9 ( theUnitPrice9 )
+../../../../webviewer/82.jpg
+../../../../looseends/role43f086430377.htm
+
+
+
+)
+<<IsAnAlternativeFor>> (theUnitPrice4:UnitPrice4) (theUnitPrice9:UnitPrice9)
+../../../../webviewer/81.jpg
+../../../../looseends/ass43f0864600f1.htm
+
+
+
+(
+UnitPrice4 ( theUnitPrice4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role43f0864603e0.htm
+
+
+
+UnitPrice9 ( theUnitPrice9 )
+../../../../webviewer/82.jpg
+../../../../looseends/role43f086470070.htm
+
+
+
+)
+<<SWSTrace>> (thePrice:Price) (theUnitPrice15:UnitPrice15)
+../../../../webviewer/81.jpg
+../../../../looseends/ass43da46b301d8.htm
+
+
+
+(
+Price ( thePrice )
+../../../../webviewer/82.jpg
+../../../../looseends/role43da46b301d9.htm
+
+
+
+UnitPrice15 ( theUnitPrice15 )
+../../../../webviewer/82.jpg
+../../../../looseends/role43da46b301db.htm
+
+
+
+)
+Association (TaxLiabilityDetails:Tax17) (theUnitPrice15:UnitPrice15)
+../../../../webviewer/81.jpg
+../../../../looseends/ass458bb3a800cb.htm
+../../../../looseends/ass458bb3a800cb.txt
+
+
+(
+Tax17 ( TaxLiabilityDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role458bb3a802e8.htm
+
+
+
+UnitPrice15 ( theUnitPrice15 )
+../../../../webviewer/82.jpg
+../../../../looseends/role458bb3a802f2.htm
+
+
+
+)
+Association (TaxRefundDetails:Tax17) (theUnitPrice15:UnitPrice15)
+../../../../webviewer/81.jpg
+../../../../looseends/ass458bb3aa0204.htm
+../../../../looseends/ass458bb3aa0204.txt
+
+
+(
+Tax17 ( TaxRefundDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role458bb3ab018e.htm
+
+
+
+UnitPrice15 ( theUnitPrice15 )
+../../../../webviewer/82.jpg
+../../../../looseends/role458bb3ab0198.htm
+
+
+
+)
+Association (ChargeDetails:Charge15) (theUnitPrice15:UnitPrice15)
+../../../../webviewer/81.jpg
+../../../../looseends/ass43da46b30250.htm
+../../../../looseends/ass43da46b30250.txt
+
+
+(
+Charge15 ( ChargeDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role43da46b30251.htm
+
+
+
+UnitPrice15 ( theUnitPrice15 )
+../../../../webviewer/82.jpg
+../../../../looseends/role43da46b30253.htm
+
+
+
+)
+<<SWSTrace>> (thePrice:Price) (thePriceInformation2:PriceInformation2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4523821100ae.htm
+
+
+
+(
+Price ( thePrice )
+../../../../webviewer/82.jpg
+../../../../looseends/role4523821100af.htm
+
+
+
+PriceInformation2 ( thePriceInformation2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4523821100b1.htm
+
+
+
+)
+<<IsAnAlternativeFor>> (thePriceInformation1:PriceInformation1) (thePriceInformation2:PriceInformation2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass45238219013b.htm
+
+
+
+(
+PriceInformation1 ( thePriceInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role452382190218.htm
+
+
+
+PriceInformation2 ( thePriceInformation2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role452382190236.htm
+
+
+
+)
+)

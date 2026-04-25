@@ -1,0 +1,1 @@
+Specifies the type of tax that applies to the invoicing of the goods.

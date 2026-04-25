@@ -1,0 +1,1 @@
+Indicates whether execution details represent the most recent fill on an order.

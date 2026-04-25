@@ -1,0 +1,1 @@
+Identification of the payment instruction by its position in a queue managed by the clearing agent.

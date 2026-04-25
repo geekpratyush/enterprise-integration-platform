@@ -1,0 +1,1 @@
+Either IndividualOrderDetails/RelatedPartiesDetails/OrderOriginatorEligibility or (one or more instances of InvestmentAccountDetails/OrderOriginatorEligibility) may be present, but not both.

@@ -1,0 +1,1 @@
+Indicates the type of  instruction to a broker or dealer to buy or sell a financial instrument. 

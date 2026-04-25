@@ -1,0 +1,142 @@
+# ==========================================
+# 1. INSERT (Kamelet Sink)
+# ==========================================
+- route:
+    id: "mongo-kamelet-insert"
+    from:
+      uri: "timer:trigger-insert?period=500&repeatCount=5"
+      steps:
+        - setBody:
+            constant: "{\"messageId\": \"EXP-KAM-001\", \"status\": \"NEW\", \"category\":
+              \"FINANCE\"}"
+        - to:
+            uri: "kamelet:eip-mongodb-sink"
+            parameters:
+              connectionBean: "client1"
+              database: "eip_db"
+              collection: "operations"
+              operation: "insert"
+        - log: ">>> [KAMELET-INSERT] Success: ${body}"
+
+# ==========================================
+# 2. UPDATE (Kamelet Action)
+# ==========================================
+- route:
+    id: "mongo-kamelet-update"
+    from:
+      uri: "timer:trigger-update?delay=500&period=500&repeatCount=1"
+      steps:
+        - setBody:
+            constant: "[{\"messageId\": \"EXP-KAM-001\"}, {\"$set\": {\"status\":
+              \"PROCESSED\"}}]"
+        - to:
+            uri: "kamelet:eip-mongodb-action"
+            parameters:
+              connectionBean: "client1"
+              database: "eip_db"
+              collection: "operations"
+              operation: "update"
+        - log: ">>> [KAMELET-UPDATE] Success: ${body}"
+
+# ==========================================
+# 3. FIND ALL (Kamelet Action)
+# ==========================================
+- route:
+    id: "mongo-kamelet-findall"
+    from:
+      uri: "timer:trigger-findall?delay=10000&period=60000&repeatCount=1"
+      steps:
+        - setBody:
+            constant: "{}"
+        - to:
+            uri: "kamelet:eip-mongodb-action"
+            parameters:
+              connectionBean: "client1"
+              database: "eip_db"
+              collection: "operations"
+              operation: "findAll"
+        - log: ">>> [KAMELET-FIND-ALL] Count: ${body.size()}"
+
+# ==========================================
+# 4. FILTER QUERY (Kamelet Action)
+# ==========================================
+- route:
+    id: "mongo-kamelet-filter"
+    from:
+      uri: "timer:trigger-filter?delay=15000&period=60000&repeatCount=1"
+      steps:
+        - setBody:
+            constant: "{\"category\": \"FINANCE\"}"
+        - to:
+            uri: "kamelet:eip-mongodb-action"
+            parameters:
+              connectionBean: "client1"
+              database: "eip_db"
+              collection: "operations"
+              operation: "findAll"
+        - log: ">>> [KAMELET-FILTER] Found: ${body}"
+
+# ==========================================
+# 5. KAMELET CHANGE STREAM (Commented)
+# ==========================================
+# - route:
+#     id: "mongo-kamelet-stream"
+#     from:
+#       uri: "kamelet:eip-mongodb-changes-stream-source"
+#       parameters:
+#         connectionBean: "client1"
+#         database: "eip_db"
+#         collection: "operations"
+#       steps:
+#         - log: ">>> [KAMELET-STREAM] Detected mutation: ${body}"
+
+# ==========================================
+# 6. COMPLEX INSERT (Kamelet Sink)
+# ==========================================
+- route:
+    id: "mongo-kamelet-insert-complex"
+    from:
+      uri: "timer:trigger-insert-complex?delay=20000&period=60000&repeatCount=1"
+      steps:
+        - setBody:
+            constant: >
+              {
+                "IDENTIFIER": "COMPLEX-001",
+                "NOTIFICATIONS": [
+                  {"type": "email", "active": true},
+                  {"type": "sms", "active": false}
+                ],
+                "ATTACHMENT": {
+                  "$blob": "SGVsbG8sIEJMT0IhIFRoaXMgaXMgYmluYXJ5IGRhdGEu"
+                }
+              }
+        - to:
+            uri: "kamelet:eip-mongodb-sink"
+            parameters:
+              connectionBean: "client1"
+              database: "eip_db"
+              collection: "complex_data"
+              operation: "insert"
+        - log: ">>> [MONGO-COMPLEX-INSERT] Success: ${body}"
+
+# ==========================================
+# 7. COMPLEX FIND ALL (Kamelet Action)
+# ==========================================
+- route:
+    id: "mongo-kamelet-findall-complex"
+    from:
+      uri: "timer:trigger-findall-complex?delay=30000&period=60000&repeatCount=1"
+      steps:
+        - setBody:
+            constant: "{}"
+        - to:
+            uri: "kamelet:eip-mongodb-action"
+            parameters:
+              connectionBean: "client1"
+              database: "eip_db"
+              collection: "complex_data"
+              operation: "findAll"
+        - split:
+            simple: "${body}"
+            steps:
+              - log: ">>> [MONGO-COMPLEX-FINDALL] Record: ${body}"

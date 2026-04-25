@@ -1,0 +1,2 @@
+Choice between types of payment instrument, ie, cheque, credit transfer, direct debit, investment account or payment card.
+

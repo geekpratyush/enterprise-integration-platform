@@ -1,0 +1,1 @@
+Full copy of the received payment instruction.

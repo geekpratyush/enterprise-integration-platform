@@ -1,0 +1,1 @@
+The party that decides upon one or more specific trades to follow the investment decision maker's strategy. This may be an individual within an investment firm, that selects a market in which to execute the investment decision maker's orders, and adds instructions for hedging and leveraging.

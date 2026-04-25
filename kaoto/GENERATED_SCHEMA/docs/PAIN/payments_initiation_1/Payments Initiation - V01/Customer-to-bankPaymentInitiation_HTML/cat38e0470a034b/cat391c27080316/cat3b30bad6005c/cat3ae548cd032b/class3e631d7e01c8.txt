@@ -1,0 +1,1 @@
+Specifies the type of risk management limit.

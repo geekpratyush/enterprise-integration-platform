@@ -1,0 +1,69 @@
+apiVersion: camel.apache.org/v1alpha1
+kind: Kamelet
+metadata:
+  name: eip-mongodb-source
+  labels:
+    camel.apache.org/kamelet.type: "source"
+spec:
+  definition:
+    title: "EIP MongoDB Source"
+    description: "Consumes events from MongoDB using Change Streams or Tailable Cursors."
+    required:
+      - database
+      - collection
+    properties:
+      connectionBean:
+        title: Connection Bean
+        description: "The registered database client (e.g., eip)."
+        type: string
+        default: "mongoClient"
+      database:
+        title: Database
+        description: "The source database name."
+        type: string
+      collection:
+        title: Collection
+        description: "The source collection name."
+        type: string
+      consumerType:
+        title: Consumer Type
+        description: "Mechanism for consuming changes (Change Streams require a replica set)."
+        type: string
+        default: "changeStreams"
+        enum: [ "changeStreams", "tailable" ]
+      streamFilter:
+        title: Stream Filter
+        description: "JSON String representing the aggregation pipeline to apply to the change stream (e.g. [{$match: { 'fullDocument.status': 'CRITICAL' }}])."
+        type: string
+  template:
+    from:
+      uri: "mongodb:{{connectionBean}}?database={{database}}&collection={{collection}}\
+        }&consumerType={{consumerType}}&createCollection=true&streamFilter={{?streamFilter}}"
+      steps:
+        - script:
+            groovy: |
+                import java.time.ZoneOffset
+                import java.time.format.DateTimeFormatter
+                def traverseAndEncode;
+                traverseAndEncode = { val ->
+                    if (val instanceof byte[]) {
+                        return ['$blob': val.encodeBase64().toString()]
+                    } else if (val?.getClass()?.getName() == 'org.bson.types.Binary') {
+                        return ['$blob': val.getData().encodeBase64().toString()]
+                    } else if (val instanceof java.util.Date) {
+                        return val.toInstant().atOffset(ZoneOffset.UTC).format(DateTimeFormatter.ISO_INSTANT)
+                    } else if (val instanceof Map) {
+                        def newMap = [:]
+                        val.each { k, v -> newMap[k] = traverseAndEncode(v) }
+                        return newMap
+                    } else if (val instanceof Iterable) {
+                        def newList = []
+                        val.each { v -> newList.add(traverseAndEncode(v)) }
+                        return newList
+                    }
+                    return val
+                }
+                if (request.body != null) {
+                    request.body = traverseAndEncode(request.body)
+                }
+        - to: "kamelet:sink"

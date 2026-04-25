@@ -1,0 +1,1 @@
+Exact set of characters that cannot match to be considered valid.

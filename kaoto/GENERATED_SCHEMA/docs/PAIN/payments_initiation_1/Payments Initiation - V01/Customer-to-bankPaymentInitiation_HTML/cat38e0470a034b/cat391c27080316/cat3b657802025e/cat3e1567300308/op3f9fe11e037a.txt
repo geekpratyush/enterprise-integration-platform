@@ -1,0 +1,1 @@
+The value of FinancialInstrumentQuantityChoice2/SubscriptionLegDetails must be the same as the value of FinancialInstrumentQuantityChoice1/RedemptionLegDetails for each occurrence of RedemptionLegDetails or SubscriptionLegDetails.

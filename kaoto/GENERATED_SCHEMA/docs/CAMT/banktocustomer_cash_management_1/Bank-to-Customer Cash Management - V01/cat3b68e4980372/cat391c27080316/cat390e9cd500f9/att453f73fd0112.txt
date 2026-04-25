@@ -1,0 +1,1 @@
+Specifies the sub-product family within a specific family.

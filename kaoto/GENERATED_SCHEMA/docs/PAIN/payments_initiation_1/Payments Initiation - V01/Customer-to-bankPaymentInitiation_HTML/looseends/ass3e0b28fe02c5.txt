@@ -1,0 +1,2 @@
+Information needed to process a currency exchange or conversion.
+

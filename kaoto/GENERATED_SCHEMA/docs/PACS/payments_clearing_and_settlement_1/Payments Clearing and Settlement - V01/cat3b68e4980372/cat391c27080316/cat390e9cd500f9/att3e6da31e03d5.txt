@@ -1,0 +1,1 @@
+Indicates whether or not automatic booking can occur.

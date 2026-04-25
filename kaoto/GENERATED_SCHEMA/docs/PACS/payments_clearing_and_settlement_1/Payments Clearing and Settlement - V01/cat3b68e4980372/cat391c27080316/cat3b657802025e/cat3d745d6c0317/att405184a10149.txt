@@ -1,0 +1,3 @@
+Date at which the initiating party requests that the payment instruction be processed. 
+
+Usage: This is the date on which the debtor's account(s) is (are) to be debited.

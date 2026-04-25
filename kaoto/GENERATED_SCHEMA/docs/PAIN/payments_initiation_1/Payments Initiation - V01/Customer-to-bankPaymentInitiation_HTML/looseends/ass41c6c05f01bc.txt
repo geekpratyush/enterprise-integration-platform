@@ -1,0 +1,1 @@
+Instructed amount of the payment instruction (Field 33B)

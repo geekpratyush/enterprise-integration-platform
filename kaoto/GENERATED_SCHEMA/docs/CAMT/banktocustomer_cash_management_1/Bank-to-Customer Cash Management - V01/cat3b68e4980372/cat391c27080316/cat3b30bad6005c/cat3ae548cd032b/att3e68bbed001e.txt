@@ -1,0 +1,1 @@
+Indicates that the order should be executed automatically, public initiative, broker intervention allowed.

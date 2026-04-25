@@ -1,0 +1,1 @@
+The first agent undertakes the necessary risk checks when the execution date is reached, in order to further process the payment.  Examples of this type of risk assessment are : is sufficient cash available, has cover been received, etc

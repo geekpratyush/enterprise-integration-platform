@@ -1,0 +1,1 @@
+GroupHeader/CreditorAgent is not allowed.

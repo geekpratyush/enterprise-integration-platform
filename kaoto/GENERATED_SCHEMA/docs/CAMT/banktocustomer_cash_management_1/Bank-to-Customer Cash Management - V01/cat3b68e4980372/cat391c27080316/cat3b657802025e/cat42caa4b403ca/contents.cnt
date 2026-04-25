@@ -1,0 +1,88 @@
+<<MessageComponent>> AmortisedBond1
+../../../../webviewer/142.jpg
+class3c22f22402cf.htm
+
+
+
+(
+CurrentFaceAmount[0..1]
+../../../../webviewer/31.jpg
+att3de61bfb009b.htm
+
+
+
+(
+)
+CurrentFactor [0..1]
+../../../../webviewer/31.jpg
+att3c22f23e0069.htm
+
+
+
+(
+)
+NextFactorDate [0..1]
+../../../../webviewer/31.jpg
+att3c22f23e004b.htm
+
+
+
+(
+)
+NextFactor
+../../../../webviewer/31.jpg
+att3c3d71870300.htm
+
+
+
+(
+)
+PreviousFactor [0..1]
+../../../../webviewer/31.jpg
+att3c22f23e0091.htm
+
+
+
+(
+)
+theAmortisedBond ( AmortisedBond )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e83178e02cb.htm
+
+
+
+theInterestBearingInstrument1 ( InterestBearingInstrument1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e51e6e4022b.htm
+
+
+
+)
+Associations
+../../../../webviewer/assoccat.gif
+
+
+
+
+(
+<<SWSTrace>> (theAmortisedBond:AmortisedBond) (theAmortisedBond1:AmortisedBond1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3e83178e00ea.htm
+
+
+
+(
+AmortisedBond ( theAmortisedBond )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e83178e02b7.htm
+
+
+
+AmortisedBond1 ( theAmortisedBond1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e83178e02cb.htm
+
+
+
+)
+)

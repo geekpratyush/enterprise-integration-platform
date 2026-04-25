@@ -1,0 +1,1 @@
+An order to sell that sets the sell price below the market price.

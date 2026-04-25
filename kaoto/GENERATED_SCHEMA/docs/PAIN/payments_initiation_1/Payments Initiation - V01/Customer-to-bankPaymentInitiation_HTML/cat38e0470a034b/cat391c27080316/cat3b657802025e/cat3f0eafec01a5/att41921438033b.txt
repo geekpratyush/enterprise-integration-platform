@@ -1,0 +1,2 @@
+Unique technical identifier for an instance of a price valuation within a price report, as assigned by the issuer of the report. 
+

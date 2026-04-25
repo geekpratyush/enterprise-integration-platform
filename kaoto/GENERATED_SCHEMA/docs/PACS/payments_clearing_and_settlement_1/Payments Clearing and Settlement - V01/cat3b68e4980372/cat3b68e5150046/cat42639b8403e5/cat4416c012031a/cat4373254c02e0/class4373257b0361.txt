@@ -1,0 +1,2 @@
+The PaymentReturnV01 message is sent by an agent to the previous agent in the payment chain to undo a payment previously settled.
+

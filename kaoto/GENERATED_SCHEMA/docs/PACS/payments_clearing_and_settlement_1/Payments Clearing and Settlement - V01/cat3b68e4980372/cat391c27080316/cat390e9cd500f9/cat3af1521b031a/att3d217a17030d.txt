@@ -1,0 +1,1 @@
+SWIFT defined service level applies to the payment instruction.

@@ -1,0 +1,1 @@
+Either StatementFrequency or ExtendedStatementFrequency may be present but not both.

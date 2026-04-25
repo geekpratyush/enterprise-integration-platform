@@ -1,0 +1,1 @@
+Search for one or more accounts based on exact identification of the account(s).

@@ -1,0 +1,1 @@
+Type of investor that can invest in the fund class.

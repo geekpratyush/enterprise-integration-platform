@@ -1,0 +1,1 @@
+Elements from the original individual order details that have been repaired so that the order can be accepted.

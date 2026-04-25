@@ -1,0 +1,1 @@
+If IndividualExecution/CashSettlementDetails is present, then BulkCashSettlementDetails is not allowed. If IndividualExecution/CashSettlementDetails is not present, then BulkCashSettlementDetails is mandatory.

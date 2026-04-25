@@ -1,0 +1,1 @@
+Multiplication factor of measurement values. For example: goods that can be ordered by 36 pieces.

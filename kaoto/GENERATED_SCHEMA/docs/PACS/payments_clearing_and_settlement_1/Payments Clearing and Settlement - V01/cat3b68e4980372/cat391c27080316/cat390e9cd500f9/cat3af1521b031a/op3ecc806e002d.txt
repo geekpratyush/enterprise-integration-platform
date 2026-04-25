@@ -1,0 +1,1 @@
+If CreditTransferType contains the value TopAccount, then only the FloorAmount may be used.

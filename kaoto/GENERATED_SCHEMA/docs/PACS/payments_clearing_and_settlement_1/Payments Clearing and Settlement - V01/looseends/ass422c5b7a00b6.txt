@@ -1,0 +1,1 @@
+Rejection reason that applies to the whole report.

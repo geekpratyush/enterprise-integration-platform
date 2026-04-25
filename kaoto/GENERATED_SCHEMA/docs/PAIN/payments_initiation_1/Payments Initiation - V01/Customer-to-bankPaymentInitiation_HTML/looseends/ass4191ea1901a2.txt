@@ -1,0 +1,5 @@
+Structural change: Tax1 has been split into two components. Information used to calculate the tax, eg, Basis, has been moved into TaxCalculationInformation.
+Type: type changed from TaxTypeFormatChoice to TaxType2, which uses TaxType5Code: new codes have been added, eg, EUTR, OTHR and the element AdditionalInformation has been added for use with OTHR.
+RecipientIdentification: type changed from PartyIdentification1Choice to PartyIdentification2Choice.
+EUCapitalGain: new.
+ExemptionReason: type changed from TaxExemptionReasonFormatChoice to TaxExemptionReason1, which uses TaxExemptReason2Code: code OTHR has been added and the element AdditionalInformation has been added for use with OTHR (alignment).

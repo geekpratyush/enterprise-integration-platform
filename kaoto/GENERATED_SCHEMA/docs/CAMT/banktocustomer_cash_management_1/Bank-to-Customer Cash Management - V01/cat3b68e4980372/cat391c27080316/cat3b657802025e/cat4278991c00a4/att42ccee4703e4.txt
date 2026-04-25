@@ -1,0 +1,1 @@
+Indicates whether the account owner signature is required to authorise transactions on the account.

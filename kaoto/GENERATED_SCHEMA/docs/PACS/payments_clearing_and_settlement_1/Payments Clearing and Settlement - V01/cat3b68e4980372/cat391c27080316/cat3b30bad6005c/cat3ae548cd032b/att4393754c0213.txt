@@ -1,0 +1,2 @@
+End customer specified is not known at associated Sort/National Bank Code or does no longer exist in the books.
+

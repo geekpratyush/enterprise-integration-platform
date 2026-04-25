@@ -1,0 +1,2 @@
+Amount of cash flow in, expressed as an amount of money.
+

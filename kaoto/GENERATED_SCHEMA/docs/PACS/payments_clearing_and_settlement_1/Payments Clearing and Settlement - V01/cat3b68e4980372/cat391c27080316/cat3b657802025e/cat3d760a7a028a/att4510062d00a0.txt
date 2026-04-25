@@ -1,0 +1,4 @@
+Unique identification assigned by the first instructing agent to unambiguously identify the transaction and passed on, unchanged, throughout the entire interbank chain. 
+
+Usage: The transaction identification can be used for reconciliation, tracking or to link tasks relating to the transaction on the interbank level. 
+Usage: The instructing agent has to make sure the transaction identification is unique for a pre-agreed period.

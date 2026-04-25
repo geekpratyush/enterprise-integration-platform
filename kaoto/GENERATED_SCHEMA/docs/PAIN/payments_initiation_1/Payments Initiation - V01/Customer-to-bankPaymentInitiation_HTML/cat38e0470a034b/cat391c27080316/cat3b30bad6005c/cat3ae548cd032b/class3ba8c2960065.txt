@@ -1,0 +1,1 @@
+Indicates which type of interest is applied to a balance left on an account.

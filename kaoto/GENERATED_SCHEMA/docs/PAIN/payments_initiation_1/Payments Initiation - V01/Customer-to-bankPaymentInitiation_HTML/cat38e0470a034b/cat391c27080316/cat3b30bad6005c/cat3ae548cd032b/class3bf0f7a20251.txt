@@ -1,0 +1,1 @@
+Rate expressed as a decimal, eg, 0.7 is 7/10 and 70%.

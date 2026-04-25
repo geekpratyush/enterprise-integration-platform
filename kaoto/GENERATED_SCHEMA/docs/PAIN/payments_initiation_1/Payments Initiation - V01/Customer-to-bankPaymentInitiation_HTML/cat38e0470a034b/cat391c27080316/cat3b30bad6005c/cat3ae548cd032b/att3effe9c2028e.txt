@@ -1,0 +1,3 @@
+Routing code specified in the transaction/message has
+an incorrect format.
+

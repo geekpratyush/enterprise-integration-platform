@@ -1,0 +1,1 @@
+Gives a name to the query defined by the search criteria and the report type.(statement or predefined report). 

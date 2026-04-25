@@ -1,0 +1,1 @@
+Interest rate that has been accrued in between coupon payment periods.

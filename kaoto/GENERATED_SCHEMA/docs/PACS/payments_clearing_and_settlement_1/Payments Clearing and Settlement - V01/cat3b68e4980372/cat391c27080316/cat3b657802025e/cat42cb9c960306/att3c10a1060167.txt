@@ -1,0 +1,1 @@
+Specifies the frequency of change to the variable rate of an interest bearing instrument. 

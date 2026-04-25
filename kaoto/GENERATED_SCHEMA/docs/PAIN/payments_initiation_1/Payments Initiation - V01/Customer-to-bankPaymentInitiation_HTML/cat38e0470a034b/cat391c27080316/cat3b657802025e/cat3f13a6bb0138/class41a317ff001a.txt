@@ -1,0 +1,3 @@
+Cash movements from or to a fund as a result of investment funds transactions, eg, subscriptions or redemptions.
+
+

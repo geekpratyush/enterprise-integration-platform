@@ -1,0 +1,2 @@
+The settlement transaction relates to options, futures or derivatives that are expired worthless. 
+

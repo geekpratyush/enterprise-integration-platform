@@ -1,0 +1,1 @@
+Party that is entitled by the account owner to receive information about movements in the account. 

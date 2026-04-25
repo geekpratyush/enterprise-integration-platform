@@ -1,0 +1,27 @@
+services:
+  wiremock:
+    image: wiremock/wiremock:2.35.0
+    container_name: wiremock-eip
+    user: root
+    ports:
+      - "8081:8080"
+      - "8443:8443"
+    volumes:
+      - "${EIP_ROOT_DIR}/02_initialization/mappings:/home/wiremock/mappings:ro"
+      - "${EIP_ROOT_DIR}/02_initialization/__files:/home/wiremock/__files:ro"
+      - "${EIP_CERT_DIR}:/home/wiremock/certs:ro"
+    command: "--global-response-templating --https-port=8443 --https-keystore=/home/wiremock/certs/keystore.jks --keystore-password=changeit --key-manager-password=changeit --https-truststore=/home/wiremock/certs/truststore.jks --truststore-password=changeit --https-require-client-cert"
+    healthcheck:
+      test:
+        [
+          "CMD",
+          "wget",
+          "--quiet",
+          "--tries=1",
+          "--spider",
+          "http://127.0.0.1:8080/__admin/health",
+        ]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+      start_period: 15s

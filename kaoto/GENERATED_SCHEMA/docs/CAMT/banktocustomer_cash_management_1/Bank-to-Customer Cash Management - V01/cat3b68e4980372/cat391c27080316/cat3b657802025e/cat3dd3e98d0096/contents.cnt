@@ -1,0 +1,242 @@
+<<ChoiceComponent>> LongPostalAddress1Choice
+../../../../webviewer/143.jpg
+class3fb3a7f9031c.htm
+
+
+
+(
+Unstructured
+../../../../webviewer/33.jpg
+att3fb3a83201b5.htm
+att3fb3a83201b5.txt
+
+
+(
+)
+Structured
+../../../../webviewer/31.jpg
+att3fb3a83201c5.htm
+
+
+
+(
+)
+theNameAndAddress2 ( NameAndAddress2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3fb3a9ac005d.htm
+
+
+
+thePostalAddress ( PostalAddress )
+../../../../webviewer/82.jpg
+../../../../looseends/role3fb3a83b0251.htm
+
+
+
+)
+<<MessageComponent>> PostalAddress4
+../../../../webviewer/142.jpg
+class450922a403a6.htm
+
+
+
+(
+AddressLine[0..2]
+../../../../webviewer/33.jpg
+att450922a5000e.htm
+att450922a5000e.txt
+
+
+(
+)
+Country
+../../../../webviewer/31.jpg
+att450922a50022.htm
+
+
+
+(
+)
+thePartyIdentification10 ( PartyIdentification10 )
+../../../../webviewer/82.jpg
+../../../../looseends/role450ff5a00072.htm
+
+
+
+thePartyIdentification13 ( PartyIdentification13 )
+../../../../webviewer/82.jpg
+../../../../looseends/role451139c40318.htm
+
+
+
+thePartyIdentification15 ( PartyIdentification15 )
+../../../../webviewer/82.jpg
+../../../../looseends/role45081ab70124.htm
+
+
+
+thePartyIdentification16 ( PartyIdentification16 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4511008d018e.htm
+
+
+
+thePartyIdentification18 ( PartyIdentification18 )
+../../../../webviewer/82.jpg
+../../../../looseends/role457f99e70285.htm
+
+
+
+thePartyIdentification19 ( PartyIdentification19 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456d76b103a1.htm
+
+
+
+thePartyIdentification20 ( PartyIdentification20 )
+../../../../webviewer/82.jpg
+../../../../looseends/role457ec30703ac.htm
+
+
+
+thePostalAddress1 ( PostalAddress1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4513e323007c.htm
+
+
+
+thePostalAddress ( PostalAddress )
+../../../../webviewer/82.jpg
+../../../../looseends/role450922a50092.htm
+
+
+
+)
+Associations
+../../../../webviewer/assoccat.gif
+
+
+
+
+(
+<<SWSTrace>> (thePostalAddress:PostalAddress) (theLongPostalAddress1Choice:LongPostalAddress1Choice)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3fb3a83a0222.htm
+
+
+
+(
+PostalAddress ( thePostalAddress )
+../../../../webviewer/82.jpg
+../../../../looseends/role3fb3a83b0222.htm
+
+
+
+LongPostalAddress1Choice ( theLongPostalAddress1Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role3fb3a83b0251.htm
+
+
+
+)
+<<SWSTrace>> (thePostalAddress:PostalAddress) (thePostalAddress1:PostalAddress1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass40adfb2d003b.htm
+
+
+
+(
+PostalAddress ( thePostalAddress )
+../../../../webviewer/82.jpg
+../../../../looseends/role40adfb2d03ca.htm
+
+
+
+PostalAddress1 ( thePostalAddress1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role40adfb2e000a.htm
+
+
+
+)
+Association (PostalAddress:PostalAddress1) (theFinancialInstitutionIdentification1:FinancialInstitutionIdentification1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4055a52c0078.htm
+
+
+
+(
+PostalAddress1 ( PostalAddress )
+../../../../webviewer/82.jpg
+../../../../looseends/role4055a52d012e.htm
+
+
+
+FinancialInstitutionIdentification1 ( theFinancialInstitutionIdentification1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4055a52d0160.htm
+
+
+
+)
+Association (PostalAddress:PostalAddress1) (theBranchData:BranchData)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4051bf840128.htm
+
+
+
+(
+PostalAddress1 ( PostalAddress )
+../../../../webviewer/82.jpg
+../../../../looseends/role4051bf8501ca.htm
+
+
+
+BranchData ( theBranchData )
+../../../../webviewer/82.jpg
+../../../../looseends/role4051bf8501de.htm
+
+
+
+)
+<<IsDerivedFrom>> (thePostalAddress1:PostalAddress1) (thePostalAddress4:PostalAddress4)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4513e32200c1.htm
+../../../../looseends/ass4513e32200c1.txt
+
+
+(
+PostalAddress1 ( thePostalAddress1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4513e3230036.htm
+
+
+
+PostalAddress4 ( thePostalAddress4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4513e323007c.htm
+
+
+
+)
+<<SWSTrace>> (thePostalAddress:PostalAddress) (thePostalAddress4:PostalAddress4)
+../../../../webviewer/81.jpg
+../../../../looseends/ass450922a50086.htm
+
+
+
+(
+PostalAddress ( thePostalAddress )
+../../../../webviewer/82.jpg
+../../../../looseends/role450922a50090.htm
+
+
+
+PostalAddress4 ( thePostalAddress4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role450922a50092.htm
+
+
+
+)
+)

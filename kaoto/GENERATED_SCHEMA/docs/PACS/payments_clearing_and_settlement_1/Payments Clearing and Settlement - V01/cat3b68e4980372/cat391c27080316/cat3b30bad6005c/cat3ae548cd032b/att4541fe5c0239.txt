@@ -1,0 +1,4 @@
+Booking on the account owner's account in the account servicer's ledger has not been completed.
+
+Usage : this can be used for expected items, or for items for which some conditions still need to be fulfilled before they can be booked. If booking takes place, the entry will be included with status Booked in subsequent account report or statement. Status Pending cannot be reversed.
+

@@ -1,0 +1,1 @@
+Identifies whether the interest amount included in the entry amount is positive (CRDT) or negative (DBIT).

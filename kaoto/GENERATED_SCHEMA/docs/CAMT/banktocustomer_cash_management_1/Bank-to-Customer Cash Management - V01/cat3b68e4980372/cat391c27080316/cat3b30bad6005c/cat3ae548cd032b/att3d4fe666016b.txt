@@ -1,0 +1,1 @@
+Balance corresponding to transactions that have been executed, settled and fully registered.

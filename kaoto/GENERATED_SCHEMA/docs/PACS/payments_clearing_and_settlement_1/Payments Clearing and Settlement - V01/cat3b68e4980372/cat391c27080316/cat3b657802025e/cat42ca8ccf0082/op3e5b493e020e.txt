@@ -1,0 +1,1 @@
+It is recommended that for fixed income orders, OrderType only contains the value MRKT(Market) or LMTO (Limit) or PRQT (PreviouslyQuoted) or PRID (PreviouslyIndicated).

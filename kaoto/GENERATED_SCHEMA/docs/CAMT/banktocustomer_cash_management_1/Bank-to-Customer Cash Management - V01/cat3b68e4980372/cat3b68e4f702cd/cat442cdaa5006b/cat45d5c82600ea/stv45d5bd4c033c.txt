@@ -1,0 +1,1 @@
+new actual balance information is received from the bank. This includes information on the booked (ledger) balance (closing balance at end of previous day, opening booked balance at start of current day, available and forward available balances. Note : the different balance types that need to be reported on are further discussed in the data requirements chapter.

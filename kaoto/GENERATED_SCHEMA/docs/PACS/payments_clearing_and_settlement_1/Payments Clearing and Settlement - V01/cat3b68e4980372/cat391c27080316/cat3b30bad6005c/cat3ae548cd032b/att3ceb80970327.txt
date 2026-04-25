@@ -1,0 +1,1 @@
+Counterparty expects a delivery not a receipt, or counterparty expects a receipt not a delivery.

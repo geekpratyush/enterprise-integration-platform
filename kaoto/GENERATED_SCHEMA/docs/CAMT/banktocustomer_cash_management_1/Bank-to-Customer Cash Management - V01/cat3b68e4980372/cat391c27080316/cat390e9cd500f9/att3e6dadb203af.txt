@@ -1,0 +1,1 @@
+Indicates whether an interest bearing instrument is deposited in a fund that will be used to pay debt service on refunded securities.

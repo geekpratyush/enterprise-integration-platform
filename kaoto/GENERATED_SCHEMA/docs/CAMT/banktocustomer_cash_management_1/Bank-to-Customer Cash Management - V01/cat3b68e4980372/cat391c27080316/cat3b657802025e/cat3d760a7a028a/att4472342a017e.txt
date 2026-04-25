@@ -1,0 +1,1 @@
+Unique and unambiguous identifier of the original payment information block as assigned by the original sending party.

@@ -1,0 +1,1 @@
+Indicates whether or not the net cash flow is an exceptional cash flow (eg, large cash amounts in/out).

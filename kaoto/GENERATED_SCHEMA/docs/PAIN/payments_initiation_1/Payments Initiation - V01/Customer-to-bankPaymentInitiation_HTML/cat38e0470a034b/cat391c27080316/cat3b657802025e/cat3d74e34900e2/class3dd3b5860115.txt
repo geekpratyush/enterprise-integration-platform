@@ -1,0 +1,2 @@
+A business relationship between two entities; one entity is the account owner, the other entity is the account servicer.
+

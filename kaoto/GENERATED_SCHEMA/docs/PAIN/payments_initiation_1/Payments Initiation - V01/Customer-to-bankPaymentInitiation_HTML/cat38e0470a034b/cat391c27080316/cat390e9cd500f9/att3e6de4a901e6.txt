@@ -1,0 +1,1 @@
+Requested date of trade settlement, in coded form, eg, trade date +1).

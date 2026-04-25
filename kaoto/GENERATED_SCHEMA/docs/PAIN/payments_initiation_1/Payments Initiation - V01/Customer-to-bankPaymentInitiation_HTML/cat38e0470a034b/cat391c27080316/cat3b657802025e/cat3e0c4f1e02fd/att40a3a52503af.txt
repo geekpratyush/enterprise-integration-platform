@@ -1,0 +1,1 @@
+Source of a price quotation expressed with a propriety identification scheme.

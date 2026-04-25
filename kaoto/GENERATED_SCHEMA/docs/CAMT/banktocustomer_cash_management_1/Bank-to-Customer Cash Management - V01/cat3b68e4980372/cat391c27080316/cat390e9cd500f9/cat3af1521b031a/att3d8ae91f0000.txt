@@ -1,0 +1,1 @@
+Unique identifier for an account. It is assigned by the account servicer using a proprietary identification scheme.

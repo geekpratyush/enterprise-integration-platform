@@ -1,0 +1,1 @@
+Information related to the party profile to be inserted or deleted.

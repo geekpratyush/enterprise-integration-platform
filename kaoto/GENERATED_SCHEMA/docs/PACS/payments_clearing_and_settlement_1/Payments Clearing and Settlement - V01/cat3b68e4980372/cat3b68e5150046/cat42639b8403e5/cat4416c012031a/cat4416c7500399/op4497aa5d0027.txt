@@ -1,0 +1,2 @@
+If GroupHeader/InstructingAgent is present, then CreditTransferTransactionInformation/InstructingAgent is not allowed.
+

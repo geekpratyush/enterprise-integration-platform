@@ -1,0 +1,1 @@
+Contains the details of one of the legs of a swap, both in time (spot vs. (partial) forward details) and the side (sell vs. buy).

@@ -1,0 +1,2 @@
+If Code is present then Proprietary must not be present.
+If Proprietary is present then Code must not be present.

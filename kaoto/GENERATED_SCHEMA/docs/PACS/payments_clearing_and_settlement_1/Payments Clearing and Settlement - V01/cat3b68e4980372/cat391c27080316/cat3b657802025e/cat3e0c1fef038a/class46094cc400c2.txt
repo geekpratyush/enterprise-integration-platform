@@ -1,0 +1,2 @@
+Choice of identification of a party. The party can be identified by giving a BIC/BEI or a proprietary code.
+

@@ -1,0 +1,1 @@
+Balance representing the total of the payments that have been processed and are waiting for settlement during the day.

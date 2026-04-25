@@ -1,0 +1,4 @@
+Indicates whether the trade is a block trade or not, ie, 
+whether allocation instruction will follow or not.
+
+

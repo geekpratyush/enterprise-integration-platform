@@ -1,0 +1,1 @@
+Information in structured form that specifies remittance information.

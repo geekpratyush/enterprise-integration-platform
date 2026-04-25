@@ -1,0 +1,1 @@
+Credit party that requests the invoice financing, on behalf of a creditor.

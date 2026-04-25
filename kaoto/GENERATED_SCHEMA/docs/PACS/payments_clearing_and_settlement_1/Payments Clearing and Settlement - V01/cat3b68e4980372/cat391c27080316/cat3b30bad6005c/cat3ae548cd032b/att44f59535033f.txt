@@ -1,0 +1,1 @@
+Balance representing the net amount to be funded resulting from all transactions which have an impact on the funding requirement.

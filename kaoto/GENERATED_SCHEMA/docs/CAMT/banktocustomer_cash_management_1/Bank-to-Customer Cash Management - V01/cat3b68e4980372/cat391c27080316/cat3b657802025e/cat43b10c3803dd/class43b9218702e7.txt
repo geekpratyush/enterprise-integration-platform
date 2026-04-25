@@ -1,0 +1,2 @@
+Set of data which contains the link to a previously notified option trade.
+

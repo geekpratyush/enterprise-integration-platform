@@ -1,0 +1,1 @@
+Identifier of a security assigned by the Japanese QUICK identification scheme for financial instruments.

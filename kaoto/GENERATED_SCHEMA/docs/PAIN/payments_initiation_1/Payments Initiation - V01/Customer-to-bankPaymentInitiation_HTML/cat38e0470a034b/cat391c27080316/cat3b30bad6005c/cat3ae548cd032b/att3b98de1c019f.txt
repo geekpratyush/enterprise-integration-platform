@@ -1,0 +1,2 @@
+Confirmation is for partial settlement. Part of the transaction remains unsettled.
+

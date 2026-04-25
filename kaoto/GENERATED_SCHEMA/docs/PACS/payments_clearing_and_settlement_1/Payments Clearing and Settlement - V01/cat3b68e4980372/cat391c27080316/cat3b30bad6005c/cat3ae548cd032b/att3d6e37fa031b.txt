@@ -1,0 +1,1 @@
+Transaction is eligible for settlement, but is pending.

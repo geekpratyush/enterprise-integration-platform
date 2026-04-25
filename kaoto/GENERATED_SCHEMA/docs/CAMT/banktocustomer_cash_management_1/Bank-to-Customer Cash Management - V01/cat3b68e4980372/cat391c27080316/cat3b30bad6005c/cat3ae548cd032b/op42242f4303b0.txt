@@ -1,0 +1,1 @@
+Valid BICs are registered with the ISO 9362 Registration Authority, and consist of eleven (11) contiguous characters comprising the following components: BANK CODE, COUNTRY CODE, LOCATION CODE, BRANCH CODE. 

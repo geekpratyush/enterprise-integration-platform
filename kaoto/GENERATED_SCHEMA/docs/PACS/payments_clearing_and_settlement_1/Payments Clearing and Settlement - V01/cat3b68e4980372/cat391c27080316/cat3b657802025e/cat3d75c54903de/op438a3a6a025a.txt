@@ -1,0 +1,2 @@
+If OriginalGroupIdentification is present, then NetworkFileName is not allowed.
+If NetworkFileName is present, then OriginalGroupIdentification is not allowed.

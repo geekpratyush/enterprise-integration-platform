@@ -1,0 +1,8 @@
+Report on transaction status : report to initiating party by first or forwarding agent on negative (rejected) and/or positive status (accepted/repaired) of the payment transaction throughout the lifecycle of the transaction. 
+
+Note : Report on final execution status is the reporting done by the final agent to the initiating party when he has registered the item to the creditor's account. This reporting has to be conveyed to the initiating party, either through the chain of preceding agents in the original chain, or through means of investigation by eg forwarding or first agent. 
+
+Pre-condition : transaction has been received by any agent in the chain
+Trigger : any change in status during the lifecycle of the transaction
+Post-condition : status is delivered to the initiating party
+

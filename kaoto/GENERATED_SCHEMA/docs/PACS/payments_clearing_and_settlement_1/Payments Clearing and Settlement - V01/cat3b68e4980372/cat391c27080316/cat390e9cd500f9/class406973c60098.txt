@@ -1,0 +1,17 @@
+Represents a set of activities performed to handle an exception to a normal transaction flow.
+
+Payment investigation cases have several root causes, eg:
+
+- a payment has not been received
+- a payment has been received but is incorrect.
+
+In addition, the party which ordered the payment could request its cancellation or its modification.
+
+Such request for cancellation or modification could also be the result of a payment not received or incorrect.
+
+This leads to the four defined specialisations:
+
+UnableToApplyCase
+ClaimNonReceiptCase
+RequestToCancelCase
+RequestToModifyCase

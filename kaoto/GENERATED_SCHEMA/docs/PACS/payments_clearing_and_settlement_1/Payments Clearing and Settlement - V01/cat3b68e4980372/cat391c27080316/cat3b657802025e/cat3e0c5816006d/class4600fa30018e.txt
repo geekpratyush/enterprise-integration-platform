@@ -1,0 +1,1 @@
+Identification of a party by a choice between a BIC, a BEI or a name and address.

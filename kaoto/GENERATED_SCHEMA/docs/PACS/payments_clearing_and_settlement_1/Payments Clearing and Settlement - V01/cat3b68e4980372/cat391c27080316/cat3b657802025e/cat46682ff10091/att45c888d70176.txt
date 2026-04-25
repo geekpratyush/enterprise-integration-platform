@@ -1,0 +1,1 @@
+Total amount financed, defined as the sum of the financed amount of the single requests.

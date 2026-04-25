@@ -1,0 +1,2 @@
+Program trade on a stock index. Simultaneous purchase and sale of an index future and the index underlying securities to
+profit from intermarket spreads between the future and the index itself. 

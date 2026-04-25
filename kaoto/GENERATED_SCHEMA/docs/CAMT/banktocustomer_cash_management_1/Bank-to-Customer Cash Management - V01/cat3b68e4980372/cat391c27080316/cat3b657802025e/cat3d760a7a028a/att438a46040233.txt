@@ -1,0 +1,3 @@
+Details on the return reason, in an uncoded form.
+
+Usage : Additional return reason information can be used for several purposes, eg, to report repaired information, or to provide reject reasons which are not included in the coded list.

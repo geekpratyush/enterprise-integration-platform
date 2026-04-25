@@ -1,0 +1,2 @@
+Difference between the cash amount of the first leg and the cash amount of the 
+second leg of the repurchase agreement.

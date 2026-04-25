@@ -1,0 +1,1 @@
+Indicates that the transaction resulting in the entry has been sent from the account.

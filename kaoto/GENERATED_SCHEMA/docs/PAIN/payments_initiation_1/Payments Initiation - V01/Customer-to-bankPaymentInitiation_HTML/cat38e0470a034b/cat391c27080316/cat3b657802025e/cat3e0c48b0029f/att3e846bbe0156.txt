@@ -1,0 +1,1 @@
+Specifies the type of cheque to be issued by the first agent.

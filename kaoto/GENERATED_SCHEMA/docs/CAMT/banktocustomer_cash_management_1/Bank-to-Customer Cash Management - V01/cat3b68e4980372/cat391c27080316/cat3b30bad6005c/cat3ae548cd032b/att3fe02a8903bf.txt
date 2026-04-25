@@ -1,0 +1,1 @@
+Transaction is a payment for the purchase and sale of goods.

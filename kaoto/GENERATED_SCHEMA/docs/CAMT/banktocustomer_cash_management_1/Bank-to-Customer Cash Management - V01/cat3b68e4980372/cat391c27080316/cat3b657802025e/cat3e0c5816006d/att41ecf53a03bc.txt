@@ -1,0 +1,1 @@
+Specifies whether the transport documents must be submitted for the current transaction or not.

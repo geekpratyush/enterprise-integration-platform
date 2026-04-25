@@ -1,0 +1,1 @@
+If GroupHeader/GroupCancellation is false, then NumberOfTransactions must equal the number of occurrences of TransactionInformation.

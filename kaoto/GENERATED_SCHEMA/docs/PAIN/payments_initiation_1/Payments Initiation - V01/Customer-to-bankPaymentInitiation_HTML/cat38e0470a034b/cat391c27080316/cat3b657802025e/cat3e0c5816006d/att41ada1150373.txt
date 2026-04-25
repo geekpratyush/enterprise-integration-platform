@@ -1,0 +1,1 @@
+Type of transaction, expressed as a code.

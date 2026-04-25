@@ -1,0 +1,1 @@
+Specifies the transfer or settlement instruction status.

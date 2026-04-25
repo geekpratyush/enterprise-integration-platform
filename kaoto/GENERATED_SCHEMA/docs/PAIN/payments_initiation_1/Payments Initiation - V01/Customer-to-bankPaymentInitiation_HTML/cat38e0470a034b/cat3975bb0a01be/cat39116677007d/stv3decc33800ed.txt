@@ -1,0 +1,1 @@
+The forwarding agent (if any) or first agent will check business rules that he has logged for the initiating party sending the file. These business rules include information about the customer's profile : the type of transactions the customer is allowed to send,  the authorisation procedures set up between customer and receiving agent, etc.

@@ -1,0 +1,1 @@
+Percentage rate applied to calculate the total amount financed related to the global request (ie the same percentage applied to the single invoice financing request allowed).

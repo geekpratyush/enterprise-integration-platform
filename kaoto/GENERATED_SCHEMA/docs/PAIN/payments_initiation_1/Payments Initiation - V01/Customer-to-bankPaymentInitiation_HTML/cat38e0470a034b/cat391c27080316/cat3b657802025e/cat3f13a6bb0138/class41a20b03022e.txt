@@ -1,0 +1,2 @@
+Parameters used to report cash movements,eg, country code, currency code, BIC or a user defined parameter.
+

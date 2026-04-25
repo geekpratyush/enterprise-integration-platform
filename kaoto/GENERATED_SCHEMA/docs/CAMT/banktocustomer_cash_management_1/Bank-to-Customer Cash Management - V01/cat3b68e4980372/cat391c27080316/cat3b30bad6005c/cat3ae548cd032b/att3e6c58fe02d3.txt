@@ -1,0 +1,1 @@
+Broker is trading for its firm. The transactions affect the firm's account, but not the accounts of its clients. 

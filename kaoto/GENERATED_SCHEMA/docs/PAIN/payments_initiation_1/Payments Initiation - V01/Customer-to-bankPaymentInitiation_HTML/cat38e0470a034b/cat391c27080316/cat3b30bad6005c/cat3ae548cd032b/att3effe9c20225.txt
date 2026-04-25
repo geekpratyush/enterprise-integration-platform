@@ -1,0 +1,2 @@
+Specified transaction amount is less than agreed minimum.
+

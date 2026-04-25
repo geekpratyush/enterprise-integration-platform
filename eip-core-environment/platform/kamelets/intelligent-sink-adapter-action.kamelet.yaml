@@ -1,0 +1,106 @@
+apiVersion: camel.apache.org/v1
+kind: Kamelet
+metadata:
+  name: intelligent-sink-adapter-action
+  labels:
+    camel.apache.org/kamelet.type: "action"
+  annotations:
+    camel.apache.org/kamelet.group: "Data"
+    camel.apache.org/provider: "Pratyush EIP"
+spec:
+  definition:
+    title: "Intelligent Sink Adapter"
+    description: >
+      Universal message translator and content filter for relational database sinks.
+      Strips unwanted headers, optionally drops the payload, applies an inline DataSonnet/Groovy
+      script to reshape the body into a java.util.Map, and selectively encrypts JSON fields
+      before handing off to the downstream sink.
+    properties:
+      preserveHeaders:
+        title: "Preserve Headers"
+        description: "Comma-separated list of header name patterns to keep. All other headers are removed. Supports Camel wildcard patterns (e.g. 'breadcrumbId,CamelHttp*')."
+        type: string
+        default: ""
+      dropPayload:
+        title: "Drop Payload"
+        description: "When true, the exchange body is nullified before further processing."
+        type: boolean
+        default: false
+      inlineScript:
+        title: "Inline Script"
+        description: "Optional transformation script executed against the body. Must return a java.util.Map. Leave empty to skip."
+        type: string
+        default: ""
+      scriptLanguage:
+        title: "Script Language"
+        description: >
+          Language used to evaluate the inlineScript. Supported values:
+            datasonnet — JSON-to-JSON mapping language (default); must return a java.util.Map.
+            groovy     — Groovy script; must return a java.util.Map.
+            java       — Inline Java snippet compiled at runtime via JOOR (camel-joor).
+                         The body is bound as 'body', the exchange as 'exchange'.
+                         Must evaluate to a java.util.Map.
+          Note: XSLT is intentionally omitted — it targets XML→XML transforms and cannot
+          produce the java.util.Map expected by the RDBMS sink Kamelets.
+        type: string
+        default: "datasonnet"
+      fieldsToEncrypt:
+        title: "Fields To Encrypt"
+        description: "Comma-separated JSON paths (Jayway JsonPath syntax, e.g. '$.ssn,$.card.number') of fields to encrypt before exit. Leave empty to skip encryption."
+        type: string
+        default: ""
+  template:
+    from:
+      uri: "kamelet:source"
+      steps:
+        # ── Step 1: Header pruning ──────────────────────────────────────────────
+        # Keep only headers matching the preserveHeaders pattern; drop everything
+        # else to prevent leaking internal Camel state into the sink.
+        - choice:
+            when:
+              - simple: "'{{preserveHeaders}}' != ''"
+                steps:
+                  - removeHeaders:
+                      pattern: "*"
+                      excludePattern: "{{preserveHeaders}}"
+            otherwise:
+              steps:
+                - removeHeaders:
+                    pattern: "*"
+
+        # ── Step 2: Optional payload drop ──────────────────────────────────────
+        - choice:
+            when:
+              - simple: "{{dropPayload}} == true"
+                steps:
+                  - setBody:
+                      constant: ~
+
+        # ── Step 3: Inline script transformation ───────────────────────────────
+        # Inline language expressions (datasonnet, groovy, joor) are compiled
+        # eagerly at route creation time by their respective language engines.
+        # Embedding them directly in a choice block fails when inlineScript is
+        # blank because the parser receives an empty string and throws before
+        # any message is processed.
+        #
+        # The ScriptDispatchProcessor resolves and compiles the language at
+        # runtime (first message), so there is nothing to compile here.
+        # It is a no-op when inlineScript is blank.
+        - setProperty:
+            name: "inlineScript"
+            constant: "{{inlineScript}}"
+        - setProperty:
+            name: "scriptLanguage"
+            constant: "{{scriptLanguage}}"
+        - process:
+            ref: "scriptDispatchProcessor"
+
+        # ── Step 4: Selective field encryption ─────────────────────────────────
+        # Publish the fieldsToEncrypt list as an Exchange property so the
+        # JsonPathEncryptionProcessor bean can pick it up without coupling to
+        # Kamelet internals.
+        - setProperty:
+            name: "fieldsToEncrypt"
+            constant: "{{fieldsToEncrypt}}"
+        - process:
+            ref: "jsonPathEncryptionProcessor"

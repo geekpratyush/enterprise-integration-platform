@@ -1,0 +1,1 @@
+Provides proprietary amount information.

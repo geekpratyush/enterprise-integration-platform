@@ -1,0 +1,22 @@
+- route:
+    id: redis-producer
+    from:
+      uri: "timer://redis-sync?period=5000"
+      steps:
+        - setBody:
+            simple: "Payload at ${date:now:yyyy-MM-dd HH:mm:ss}"
+        - setHeader:
+            name: CamelRedis.Message
+            simple: "${body}"
+        - setHeader:
+            name: CamelRedis.Channel
+            simple: "{{REDIS_CHANNEL}}"
+        - to: "spring-redis://{{REDIS_HOST}}:{{REDIS_PORT}}?command=PUBLISH&channels={{REDIS_CHANNEL}}&serializer=#class:org.springframework.data.redis.serializer.StringRedisSerializer&connectionFactory=#redisConnectionFactory"
+        - log: ">>> Redis Published to [{{REDIS_CHANNEL}}]"
+
+- route:
+    id: redis-consumer
+    from:
+      uri: "spring-redis://{{REDIS_HOST}}:{{REDIS_PORT}}?command=SUBSCRIBE&channels={{REDIS_CHANNEL}}&serializer=#class:org.springframework.data.redis.serializer.StringRedisSerializer&connectionFactory=#redisConnectionFactory"
+      steps:
+        - log: ">>> Redis Received: ${body}"

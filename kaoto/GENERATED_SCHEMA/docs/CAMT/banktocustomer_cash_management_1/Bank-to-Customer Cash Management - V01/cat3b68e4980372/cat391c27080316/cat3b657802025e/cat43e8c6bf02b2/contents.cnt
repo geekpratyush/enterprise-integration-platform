@@ -1,0 +1,88 @@
+<<MessageComponent>> PerformanceFactors1
+../../../../webviewer/142.jpg
+class43e8bd5e0147.htm
+
+
+
+(
+CorporateActionFactor [0..1]
+../../../../webviewer/31.jpg
+att43e8c21502ab.htm
+
+
+
+(
+)
+CumulativeCorporateActionFactor [0..1]
+../../../../webviewer/31.jpg
+att43e8c2170177.htm
+
+
+
+(
+)
+AccumulationPeriod [0..1]
+../../../../webviewer/31.jpg
+att45769329007c.htm
+att45769329007c.txt
+
+
+(
+)
+NormalPerformance [0..1]
+../../../../webviewer/31.jpg
+att43e8c21801e7.htm
+
+
+
+(
+)
+thePriceValuation3 ( PriceValuation3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role43e8ccfd01b5.htm
+
+
+
+thePerformanceFactors ( PerformanceFactors )
+../../../../webviewer/82.jpg
+../../../../looseends/role43e8c8070324.htm
+
+
+
+<<Textual>> AccumulationPeriodRule
+../../../../webviewer/36.jpg
+op457696ae015c.htm
+op457696ae015c.txt
+
+
+(
+)
+)
+Associations
+../../../../webviewer/assoccat.gif
+
+
+
+
+(
+<<SWSTrace>> (thePerformanceFactors:PerformanceFactors) (thePerformanceFactors1:PerformanceFactors1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass43e8c807014b.htm
+
+
+
+(
+PerformanceFactors ( thePerformanceFactors )
+../../../../webviewer/82.jpg
+../../../../looseends/role43e8c8070322.htm
+
+
+
+PerformanceFactors1 ( thePerformanceFactors1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role43e8c8070324.htm
+
+
+
+)
+)

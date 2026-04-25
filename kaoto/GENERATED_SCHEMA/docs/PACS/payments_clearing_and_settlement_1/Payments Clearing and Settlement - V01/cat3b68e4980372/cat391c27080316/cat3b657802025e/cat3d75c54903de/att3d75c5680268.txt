@@ -1,0 +1,1 @@
+Indicates that the transaction has been completely processed by the clearing agent.

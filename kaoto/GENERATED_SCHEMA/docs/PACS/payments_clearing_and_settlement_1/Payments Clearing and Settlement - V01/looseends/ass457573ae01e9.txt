@@ -1,0 +1,1 @@
+Elements used to indicate when the booked funds will become available, ie can be accessed and start generating interest. 

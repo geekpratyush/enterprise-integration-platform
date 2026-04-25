@@ -1,0 +1,21 @@
+- route:
+    id: "kafka-producer-high-freq"
+    from:
+      uri: "timer:kafka-trigger?period=1000&repeatCount=10&delay=5000"
+      steps:
+        - loop:
+            constant: 10
+            steps:
+              - setBody:
+                  constant: "{\"event\": \"EIP-KAFKA-STRESS\", \"index\":
+                    \"${exchangeProperty.CamelLoopIndex}\", \"sec\":
+                    \"{{CAMEL_KAMELET_KAFKA_SINK_SECURITY_PROTOCOL}}\"}"
+              - to: "kamelet:kafka-sink"
+        - log: ">>> [KAFKA-PRODUCER] Sent burst of 10 messages to Kafka."
+
+- route:
+    id: "kafka-consumer-magic"
+    from:
+      uri: "kamelet:kafka-source"
+      steps:
+        - log: ">>> [KAFKA-CONSUMER] Received event from Kafka: ${body}"

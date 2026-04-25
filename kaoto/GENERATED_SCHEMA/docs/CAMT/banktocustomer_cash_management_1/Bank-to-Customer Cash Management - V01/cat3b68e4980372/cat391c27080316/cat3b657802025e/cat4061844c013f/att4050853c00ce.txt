@@ -1,0 +1,3 @@
+Reference assigned by a sending party to unambiguously identify the group of individual transfers being sent.
+
+Usage: this reference is used between initiating party and forwarding/first agent to refer to the group of instructions sent. It can be used in status messages/statements/advices between initiation party and forwarding/first agent.

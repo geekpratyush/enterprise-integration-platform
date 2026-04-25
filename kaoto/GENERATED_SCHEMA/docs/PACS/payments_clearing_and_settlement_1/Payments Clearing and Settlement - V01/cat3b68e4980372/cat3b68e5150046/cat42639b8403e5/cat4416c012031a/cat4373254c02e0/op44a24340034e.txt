@@ -1,0 +1,1 @@
+If OriginalGroupInformation is present, then TransactionInformation/OriginalGroupInformation is not allowed.

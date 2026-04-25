@@ -1,0 +1,1 @@
+Exchange of interest payments on a specific principal amount. Often, an interest rate swap involves exchanging a fixed amount per payment period for a payment that is not fixed

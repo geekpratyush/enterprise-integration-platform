@@ -1,0 +1,1 @@
+A market or limit order that is to be executed in its entirety as soon as it is submitted; if not so executed, the order is to be cancelled.

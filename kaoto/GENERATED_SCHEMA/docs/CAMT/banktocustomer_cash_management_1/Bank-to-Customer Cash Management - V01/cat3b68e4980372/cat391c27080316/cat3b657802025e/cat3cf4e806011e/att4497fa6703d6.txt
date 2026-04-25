@@ -1,0 +1,1 @@
+Unique identification assigned by the TSU to a transaction, for which the TSU must generate a report.

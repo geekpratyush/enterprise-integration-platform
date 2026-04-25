@@ -1,0 +1,1 @@
+Balance of a financial instrument for a specific statement page.

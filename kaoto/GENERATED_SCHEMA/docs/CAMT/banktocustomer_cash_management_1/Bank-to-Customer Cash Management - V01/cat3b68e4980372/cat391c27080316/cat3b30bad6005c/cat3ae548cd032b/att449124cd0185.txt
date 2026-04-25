@@ -1,0 +1,2 @@
+Settlement of the transaction has failed.
+

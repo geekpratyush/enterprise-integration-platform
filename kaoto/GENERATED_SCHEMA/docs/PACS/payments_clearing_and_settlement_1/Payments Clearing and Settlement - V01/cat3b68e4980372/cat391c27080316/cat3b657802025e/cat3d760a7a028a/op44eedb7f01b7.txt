@@ -1,0 +1,3 @@
+If CreditDebitIndicator is present, then at least one or more Message Elements in the list (AccountEntry/EntryAmount, Payment/InstructedAmount, Payment/InterbankSettlementAmount) must be present.
+If CreditDebitIndicator is not present, then any Message Elements in the list (AccountEntry/EntryAmount, Payment/InstructedAmount, Payment/InterbankSettlementAmount) is optional.
+

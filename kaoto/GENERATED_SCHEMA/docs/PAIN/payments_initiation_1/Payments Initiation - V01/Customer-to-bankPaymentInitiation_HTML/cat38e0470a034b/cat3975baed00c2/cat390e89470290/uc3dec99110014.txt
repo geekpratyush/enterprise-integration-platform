@@ -1,0 +1,7 @@
+Definition :the forwarding (if any) and/or first agent undertake the necessary risk checks in order to execute and process the payment further. Type of risks checked will be different for first and forwarding agent, therefore, in the activity diagram, this 'assess risk' process is further split into 'assess static risk' (eg checking of embargo) and 'assess dynamic risk' (check sufficient cash on account, cover received,…). Please see the activity diagram for further description of these sub-categories of risk assessment. A forwarding agent will typically only assess 'static risks' whereas a first agent may do both 'static and dynamic' risk assessment.
+
+Pre-condition : the payment has been validated. Risk criteria have been established.
+
+Trigger : payment has arrived at the forwarding/first agent. Risk assessment procedures need to be executed because a) forwarding agent has to undertake partial risk assessment (ie static risk assessment) before forwarding the payment to the first agent b) execution date has been reached and first agent needs to assess risk before executing the payment.  
+
+Post condition : the instructed payment is executable (all information is there to process the payment and the payment risk assessment has been checked)

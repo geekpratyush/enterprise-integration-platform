@@ -1,0 +1,6 @@
+Indicates whether the entry is the result of a reversal operation.
+
+Usage : this element should only be present if the entry is the result of a reversal operation.
+If the CreditDebitIndicator is CRDT and ReversalIndicator is Yes, the original operation was a debit entry.
+If the CreditDebitIndicator is DBIT and ReversalIndicator is Yes, the original operation was a credit entry.
+

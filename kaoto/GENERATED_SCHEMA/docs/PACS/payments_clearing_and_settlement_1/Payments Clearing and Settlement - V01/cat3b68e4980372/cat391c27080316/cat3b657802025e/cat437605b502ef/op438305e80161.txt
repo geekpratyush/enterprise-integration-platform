@@ -1,0 +1,1 @@
+If AccountIdentification is empty, then HoldingBalance represents the total balance (for all the accounts).

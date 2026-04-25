@@ -1,0 +1,4 @@
+Total amount of the invoice, being the sum of total invoice
+lines amounts, total invoice additional amounts and total tax amounts.
+
+

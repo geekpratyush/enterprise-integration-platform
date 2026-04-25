@@ -1,0 +1,1 @@
+Identification of a notification.This identification must be unique amongst all notifications of same type confirmed by the same party. 

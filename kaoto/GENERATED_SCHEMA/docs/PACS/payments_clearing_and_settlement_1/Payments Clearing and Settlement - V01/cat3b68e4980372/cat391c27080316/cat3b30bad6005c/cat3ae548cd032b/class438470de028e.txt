@@ -1,0 +1,1 @@
+Specifies a character string.

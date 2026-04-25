@@ -1,0 +1,1 @@
+For CIV orders - indicates that the Investor wishes the order to be dealt at the unit price determined at the next Valuation Point, a.k.a. a Forward price.

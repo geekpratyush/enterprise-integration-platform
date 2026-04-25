@@ -1,0 +1,1 @@
+DebitCreditIndicator should be present when TotalNetEntryAmount is present. 

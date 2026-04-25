@@ -1,0 +1,1 @@
+Contains the interest of a buy or sell leg of a swap for the spot or the forward.

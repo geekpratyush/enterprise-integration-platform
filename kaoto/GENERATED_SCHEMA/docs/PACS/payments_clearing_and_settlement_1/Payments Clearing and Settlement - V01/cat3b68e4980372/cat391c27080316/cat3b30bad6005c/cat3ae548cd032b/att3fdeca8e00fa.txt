@@ -1,0 +1,1 @@
+Debit entry used to reverse a previously booked credit entry.

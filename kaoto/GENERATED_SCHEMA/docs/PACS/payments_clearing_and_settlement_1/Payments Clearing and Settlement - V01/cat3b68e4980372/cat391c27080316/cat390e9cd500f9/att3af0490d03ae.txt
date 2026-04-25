@@ -1,0 +1,1 @@
+Maximum quantity of financial instrument to be shown at a time.

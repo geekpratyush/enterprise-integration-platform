@@ -1,0 +1,1 @@
+Difference between the ordered and the accepted line items total amount.

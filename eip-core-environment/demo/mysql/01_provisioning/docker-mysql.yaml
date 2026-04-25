@@ -1,0 +1,36 @@
+services:
+  mysql-platform:
+    image: mysql:8.0
+    container_name: mysql-platform
+    environment:
+      MYSQL_DATABASE: eip_db
+      MYSQL_USER: eip_user
+      MYSQL_PASSWORD: eip_password
+      MYSQL_ROOT_PASSWORD: eip_root_password
+    ports:
+      - "3306:3306"
+    volumes:
+      # Mount to a neutral path
+      - ../02_initialization/certs/${MODE}:/mnt/certs:ro
+    user: root
+    command: 
+      - sh
+      - -c
+      - |
+        mkdir -p /etc/mysql/certs
+        if [ -f /mnt/certs/server-key.pem ]; then
+          echo '>>> Securing MySQL SSL certificates...'
+          cp /mnt/certs/*.pem /etc/mysql/certs/
+          chown -R mysql:mysql /etc/mysql/certs
+          chmod 600 /etc/mysql/certs/server-key.pem
+        fi
+        exec /usr/local/bin/docker-entrypoint.sh mysqld \
+          --user=mysql \
+          --default-authentication-plugin=mysql_native_password \
+          ${MYSQL_OPTS}
+    networks:
+      - eip-net
+
+networks:
+  eip-net:
+    name: eip-network

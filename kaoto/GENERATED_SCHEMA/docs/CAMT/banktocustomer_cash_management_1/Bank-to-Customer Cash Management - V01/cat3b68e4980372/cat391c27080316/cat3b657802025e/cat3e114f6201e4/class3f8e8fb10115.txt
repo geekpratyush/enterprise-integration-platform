@@ -1,0 +1,2 @@
+Choice between types of payment instrument, ie, credit transfer or direct debit.
+

@@ -1,0 +1,2 @@
+Creditor specified is not known at associated Sort/National Clearing code.
+

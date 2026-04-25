@@ -1,0 +1,1 @@
+Determine the type of document and the type of communication method to be used to notify a Party.

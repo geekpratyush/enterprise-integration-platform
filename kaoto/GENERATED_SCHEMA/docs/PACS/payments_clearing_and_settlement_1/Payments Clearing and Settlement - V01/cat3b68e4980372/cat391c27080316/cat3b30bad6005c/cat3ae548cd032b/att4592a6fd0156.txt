@@ -1,0 +1,1 @@
+Order confirmation cancellation has been sent and will be followed by a confirmation amendment, or a confirmation amendment has been sent.

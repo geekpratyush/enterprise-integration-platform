@@ -1,0 +1,1 @@
+A Party which is assigned an Investigation Case.

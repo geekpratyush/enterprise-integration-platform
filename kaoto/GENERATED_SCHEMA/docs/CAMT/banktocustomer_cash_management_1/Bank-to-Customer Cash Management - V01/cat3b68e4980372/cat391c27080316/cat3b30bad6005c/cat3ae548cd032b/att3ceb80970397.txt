@@ -1,0 +1,1 @@
+Not enough collateral in your account to execute the instruction.

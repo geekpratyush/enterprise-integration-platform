@@ -1,0 +1,1 @@
+Specifies the transfer method that will be used  to transfer an amount of money.

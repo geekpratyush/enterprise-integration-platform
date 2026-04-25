@@ -1,0 +1,2 @@
+If yes, it means the cancellation of the assignment is confirmed.
+If no, it means the cancellation of the assignment is rejected and the investigation process will continue.

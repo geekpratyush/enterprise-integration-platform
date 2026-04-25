@@ -1,0 +1,13 @@
+Status information scenarios : relationship between 'status' and 'advice/statement'.
+The scenarios illustrate the relationship between 'status information' of the payment initiation order (pre-execution) and 'account information', such as statements and debit advices', that will be exchanged once the payment initiation order has been executed by the first agent.
+
+Scenario : debit advice information in a direct scenario before payment passes in the interbank chain.
+
+In this scenario, upon receipt of the payment initation and after doing the necessary checks, the first agent can inform the initiating party about :
+· the status of the group (accepted or rejected).
+or 
+· the status of the individual transactions (accepted or repair or rejected)
+For repaired items, the original and repaired item are provided. For rejected items, the reason for the rejection is given.
+
+At requested execution date, depending on the status of the group or the individual transactions, the first agent will debit the account of the debtor. Once the first agent debits the account of the debtor (at requested execution date), he/she may  need to generate customer debit advice/statement - depending on agreement between debtor/initiating party and the first agent.
+There is no indication of chronological order in the status/debit advice information sent in the scenario above, as this will also depend on agreements between debtor/initiating party and the first agent, but banks implementing and offering these services will define a logical, chronological sequence for sending these messages.

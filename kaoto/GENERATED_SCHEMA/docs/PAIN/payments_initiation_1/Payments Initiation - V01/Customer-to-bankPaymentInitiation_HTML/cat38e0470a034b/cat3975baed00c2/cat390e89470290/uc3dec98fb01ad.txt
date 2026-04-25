@@ -1,0 +1,12 @@
+Definition : the forwarding or first agent undertakes the necessary content and syntactical checks in order to process the payment further. For example : validation of syntax.
+
+Pre-condition :the agent has received the payment order and performed the necessary authorisation checks. Validation procedures have been established.
+
+Trigger :receipt of the payment order (if no authorization procedures need to be applied) /
+authorization finished and positive(if authorisation procedures apply) and validation procedures need to be executed.
+
+
+Post condition : payment has been accepted or rejected. If accepted, the instructed payment is ready for the risk assessment (if risk assessment procedures apply) or is executable. 
+
+
+

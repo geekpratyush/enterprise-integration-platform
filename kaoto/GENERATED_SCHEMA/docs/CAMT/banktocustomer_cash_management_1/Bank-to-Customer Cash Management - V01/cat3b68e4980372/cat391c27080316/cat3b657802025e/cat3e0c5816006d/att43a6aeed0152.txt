@@ -1,0 +1,1 @@
+Additional information on the status of a trade in a central system.

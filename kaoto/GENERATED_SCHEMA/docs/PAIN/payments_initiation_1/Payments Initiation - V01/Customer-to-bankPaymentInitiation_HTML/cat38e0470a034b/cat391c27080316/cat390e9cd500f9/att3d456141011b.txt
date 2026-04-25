@@ -1,0 +1,1 @@
+Currency and amount that is exempt from tax.

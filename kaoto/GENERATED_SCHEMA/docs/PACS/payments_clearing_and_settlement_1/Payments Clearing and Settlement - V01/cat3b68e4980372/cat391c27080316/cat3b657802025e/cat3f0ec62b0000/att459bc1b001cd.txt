@@ -1,0 +1,1 @@
+Indicates whether the settlement amount includes the stamp duty amount.

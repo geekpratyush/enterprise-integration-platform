@@ -1,0 +1,1 @@
+Indicates that the report is rejected and provides a reason why.

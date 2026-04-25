@@ -1,0 +1,1 @@
+Settlement system in which the items cleared are settled gross, i.e. where no netting as taken place before the settlement becomes final and irrevocable between the participants.

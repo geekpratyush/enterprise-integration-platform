@@ -1,0 +1,1 @@
+The account from/to which an entry is made as a result of a cash transfer. 

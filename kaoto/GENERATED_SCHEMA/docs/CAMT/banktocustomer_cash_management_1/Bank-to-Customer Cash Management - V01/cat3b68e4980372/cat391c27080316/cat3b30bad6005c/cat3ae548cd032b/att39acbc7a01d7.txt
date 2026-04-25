@@ -1,0 +1,2 @@
+Indicates whether the delivery of the financial instrument on settlement date 
+is guaranteed.

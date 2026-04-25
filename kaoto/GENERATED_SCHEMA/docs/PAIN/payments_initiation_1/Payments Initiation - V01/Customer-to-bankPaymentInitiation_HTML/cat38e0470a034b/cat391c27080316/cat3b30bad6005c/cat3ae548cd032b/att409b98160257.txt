@@ -1,0 +1,1 @@
+Transaction is related to settlement of a trade, eg a foreign exchange deal or a securities transaction.

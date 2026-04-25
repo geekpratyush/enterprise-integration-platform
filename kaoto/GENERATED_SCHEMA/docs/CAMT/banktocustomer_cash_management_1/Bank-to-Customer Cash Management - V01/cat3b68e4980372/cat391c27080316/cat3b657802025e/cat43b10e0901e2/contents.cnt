@@ -1,0 +1,304 @@
+<<MessageComponent>> ValuationData1
+../../../../webviewer/142.jpg
+class43aa852c03e5.htm
+class43aa852c03e5.txt
+
+
+(
+ValuationReference
+../../../../webviewer/31.jpg
+att43aa854e0145.htm
+att43aa854e0145.txt
+
+
+(
+)
+AdditionalValuationInformation[0..1]
+../../../../webviewer/33.jpg
+att43aa854e0163.htm
+att43aa854e0163.txt
+
+
+(
+)
+SettlementParty[ 0..1 ]
+../../../../webviewer/31.jpg
+att43b2b271028f.htm
+att43b2b271028f.txt
+
+
+(
+)
+SettlementCurrency[0..1]
+../../../../webviewer/31.jpg
+att43d4c92302c0.htm
+att43d4c92302c0.txt
+
+
+(
+)
+theFixingConditions ( FixingConditions )
+../../../../webviewer/82.jpg
+../../../../looseends/role43aac95203be.htm
+
+
+
+theClosingData1 ( ClosingData1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role43aa7e3102a5.htm
+
+
+
+)
+<<MessageComponent>> NonDeliverableForwardValuationConditions1
+../../../../webviewer/142.jpg
+class43a2eedb0080.htm
+
+
+
+(
+SettlementParty[ 0..1 ]
+../../../../webviewer/31.jpg
+att43a2ef0e0215.htm
+att43a2ef0e0215.txt
+
+
+(
+)
+ValuationDate
+../../../../webviewer/31.jpg
+att43a2ef0e021f.htm
+att43a2ef0e021f.txt
+
+
+(
+)
+AdditionalValuationInformation[0..1]
+../../../../webviewer/33.jpg
+att43aa6f0f00c4.htm
+att43aa6f0f00c4.txt
+
+
+(
+)
+SettlementCurrency
+../../../../webviewer/31.jpg
+att43e714480272.htm
+att43e714480272.txt
+
+
+(
+)
+theFixingConditions ( FixingConditions )
+../../../../webviewer/82.jpg
+../../../../looseends/role43aac90c0018.htm
+
+
+
+theOpeningData1 ( OpeningData1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role43a6ade80138.htm
+
+
+
+)
+<<MessageComponent>> ClosingData1
+../../../../webviewer/142.jpg
+class43aa7855017c.htm
+class43aa7855017c.txt
+
+
+(
+TradeDate
+../../../../webviewer/31.jpg
+att43aa86fb017e.htm
+att43aa86fb017e.txt
+
+
+(
+)
+CommonReference[0..1]
+../../../../webviewer/33.jpg
+att43aaaf38014d.htm
+att43aaaf38014d.txt
+
+
+(
+)
+NotificationIdentification
+../../../../webviewer/31.jpg
+att43abcfb902b7.htm
+att43abcfb902b7.txt
+
+
+(
+)
+AmendOrCancelReason[0..1]
+../../../../webviewer/33.jpg
+att43b2b46c0040.htm
+att43b2b46c0040.txt
+
+
+(
+)
+RelatedReference[ 0..1 ]
+../../../../webviewer/31.jpg
+att43b2b4880311.htm
+att43b2b4880311.txt
+
+
+(
+)
+theFixingConditions ( FixingConditions )
+../../../../webviewer/82.jpg
+../../../../looseends/role43aac93601aa.htm
+
+
+
+ValuationInformation ( ValuationData1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role43aa7e3102e1.htm
+
+
+
+ValuationRate ( AgreedRate1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role43abd48702f9.htm
+
+
+
+TradeAmounts ( AmountsAndValueDate1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role43aa787402fd.htm
+
+
+
+)
+Associations
+../../../../webviewer/assoccat.gif
+
+
+
+
+(
+<<SWSTrace>> (theFixingConditions:FixingConditions) (theClosingData1:ClosingData1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass43aac9350389.htm
+
+
+
+(
+FixingConditions ( theFixingConditions )
+../../../../webviewer/82.jpg
+../../../../looseends/role43aac93601a0.htm
+
+
+
+ClosingData1 ( theClosingData1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role43aac93601aa.htm
+
+
+
+)
+<<SWSTrace>> (theFixingConditions:FixingConditions) (theValuationData1:ValuationData1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass43aac952018e.htm
+
+
+
+(
+FixingConditions ( theFixingConditions )
+../../../../webviewer/82.jpg
+../../../../looseends/role43aac95203aa.htm
+
+
+
+ValuationData1 ( theValuationData1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role43aac95203be.htm
+
+
+
+)
+Association (ValuationInformation:ValuationData1) (theClosingData1:ClosingData1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass43aa7e300254.htm
+../../../../looseends/ass43aa7e300254.txt
+
+
+(
+ValuationData1 ( ValuationInformation )
+../../../../webviewer/82.jpg
+../../../../looseends/role43aa7e3102a5.htm
+
+
+
+ClosingData1 ( theClosingData1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role43aa7e3102e1.htm
+
+
+
+)
+<<SWSTrace>> (theFixingConditions:FixingConditions) (theNonDeliverableForwardValuationConditions1:NonDeliverableForwardValuationConditions1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass43aac90b017f.htm
+
+
+
+(
+FixingConditions ( theFixingConditions )
+../../../../webviewer/82.jpg
+../../../../looseends/role43aac90b03d8.htm
+
+
+
+NonDeliverableForwardValuationConditions1 ( theNonDeliverableForwardValuationConditions1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role43aac90c0018.htm
+
+
+
+)
+Association (ValuationRate:AgreedRate1) (theClosingData1:ClosingData1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass43abd486015d.htm
+../../../../looseends/ass43abd486015d.txt
+
+
+(
+AgreedRate1 ( ValuationRate )
+../../../../webviewer/82.jpg
+../../../../looseends/role43abd48702b3.htm
+
+
+
+ClosingData1 ( theClosingData1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role43abd48702f9.htm
+
+
+
+)
+Association (TradeAmounts:AmountsAndValueDate1) (theClosingData1:ClosingData1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass43aa787400d6.htm
+../../../../looseends/ass43aa787400d6.txt
+
+
+(
+AmountsAndValueDate1 ( TradeAmounts )
+../../../../webviewer/82.jpg
+../../../../looseends/role43aa7874027b.htm
+
+
+
+ClosingData1 ( theClosingData1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role43aa787402fd.htm
+
+
+
+)
+)

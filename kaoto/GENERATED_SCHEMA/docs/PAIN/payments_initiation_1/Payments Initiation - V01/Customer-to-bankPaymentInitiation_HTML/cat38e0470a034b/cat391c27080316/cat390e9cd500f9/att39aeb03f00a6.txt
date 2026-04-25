@@ -1,0 +1,1 @@
+Date and, optionally, time the security is issued.

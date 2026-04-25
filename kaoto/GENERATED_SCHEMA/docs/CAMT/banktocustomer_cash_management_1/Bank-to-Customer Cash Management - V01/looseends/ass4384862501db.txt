@@ -1,0 +1,1 @@
+Party that initiates the payment. In the payment context, this can be the debtor (in a credit transfer), the creditor (in a direct debit), or the party that initiates the payment on behalf of the debtor or creditor.

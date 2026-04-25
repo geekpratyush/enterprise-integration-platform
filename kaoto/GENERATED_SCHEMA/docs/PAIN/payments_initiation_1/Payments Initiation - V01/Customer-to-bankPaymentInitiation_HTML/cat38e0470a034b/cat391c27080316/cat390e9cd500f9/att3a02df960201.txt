@@ -1,0 +1,1 @@
+Currency and amount bought in a foreign exchange trade. The buy amount is received by the buyer.

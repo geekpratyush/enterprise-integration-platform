@@ -1,0 +1,1 @@
+If TransactionType is SWII or SWIO, then LegIdentification is optional. If TransactionType is neither SWII nor SWIO, then LegIdentification is not allowed. 

@@ -1,0 +1,1 @@
+First date on which an option becomes effective.

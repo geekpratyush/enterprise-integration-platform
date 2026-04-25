@@ -1,0 +1,1 @@
+Specifies the maximum quantity of the financial instrument.

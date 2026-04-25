@@ -1,0 +1,1 @@
+If SwitchOrderDetails is present more than once, then SwitchOrderDetails/RedemptionLegDetails and SwitchOrderDetails/SubscriptionLegDetails may only be present once.

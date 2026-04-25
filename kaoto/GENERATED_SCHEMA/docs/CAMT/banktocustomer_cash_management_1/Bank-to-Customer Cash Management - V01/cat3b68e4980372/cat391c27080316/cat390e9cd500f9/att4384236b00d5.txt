@@ -1,0 +1,1 @@
+Regularity with which direct debit instructions are to be created and processed, eg, daily, weekly, monthly.

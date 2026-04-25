@@ -1,0 +1,1 @@
+Indicates whether the executed order has a registered status on the books of the transfer agent.

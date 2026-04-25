@@ -1,0 +1,51 @@
+# ==========================================
+# 1. INSERT (Kamelet Sink)
+# ==========================================
+- route:
+    id: "mongo-kam-stream-insert"
+    from:
+      uri: "timer:trigger-insert?period=30000&repeatCount=1"
+      steps:
+        - setBody:
+            constant: "{\"messageId\": \"STRM-001\", \"status\": \"NEW\", \"type\": \"CDC-TEST\"}"
+        - to:
+            uri: "kamelet:eip-mongodb-sink"
+            parameters:
+              connectionBean: "client1"
+              database: "eip_db"
+              collection: "operations"
+              operation: "insert"
+        - log: ">>> [SEED] Inserted record: ${body}"
+
+# ==========================================
+# 2. UPDATE (Kamelet Action)
+# ==========================================
+- route:
+    id: "mongo-kam-stream-update"
+    from:
+      uri: "timer:trigger-update?delay=5000&period=60000&repeatCount=1"
+      steps:
+        - setBody:
+            constant: "[{\"messageId\": \"STRM-001\"}, {\"$set\": {\"status\": \"MUTATED\"}}]"
+        - to:
+            uri: "kamelet:eip-mongodb-action"
+            parameters:
+              connectionBean: "client1"
+              database: "eip_db"
+              collection: "operations"
+              operation: "update"
+        - log: ">>> [SEED] Triggered update for record: STRM-001"
+
+# ==========================================
+# 3. CHANGE STREAM (Kamelet Source)
+# ==========================================
+- route:
+    id: "mongo-kam-stream-observer"
+    from:
+      uri: "kamelet:eip-mongodb-source"
+      parameters:
+        connectionBean: "client1"
+        database: "eip_db"
+        collection: "operations"
+      steps:
+        - log: ">>> [OBSERVER] Mutation Captured! Event: ${body}"

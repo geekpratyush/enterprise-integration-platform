@@ -1,0 +1,1 @@
+Returned when a payment will be cancelled to solve an investigation case.

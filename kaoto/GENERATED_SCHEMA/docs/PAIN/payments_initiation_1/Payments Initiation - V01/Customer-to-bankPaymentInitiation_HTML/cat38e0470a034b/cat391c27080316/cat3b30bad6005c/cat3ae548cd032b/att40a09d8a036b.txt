@@ -1,0 +1,1 @@
+Transaction is the payment of value added tax.

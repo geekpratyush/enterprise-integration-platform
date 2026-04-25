@@ -1,0 +1,1 @@
+If CommercialAgreementReference is present, then NewCommercialAgreementReferenceIndicator must be present too.

@@ -1,0 +1,1904 @@
+<<MessageComponent>> PaymentTypeIdentification1
+../../../../webviewer/142.jpg
+class437869590361.htm
+class437869590361.txt
+
+
+(
+ServiceLevel[0..1]
+../../../../webviewer/31.jpg
+att437869860320.htm
+att437869860320.txt
+
+
+(
+)
+ClearingChannel[0..1]
+../../../../webviewer/31.jpg
+att437869a80365.htm
+att437869a80365.txt
+
+
+(
+)
+SubType [0..1]
+../../../../webviewer/31.jpg
+att437869d602ad.htm
+att437869d602ad.txt
+
+
+(
+)
+SequenceType [0..1]
+../../../../webviewer/31.jpg
+att437869f3031d.htm
+att437869f3031d.txt
+
+
+(
+)
+InstructionPriority [0..1]
+../../../../webviewer/31.jpg
+att43786a0f004c.htm
+att43786a0f004c.txt
+
+
+(
+)
+thePaymentInformation14 ( PaymentInformation14 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4384df390340.htm
+
+
+
+thePaymentInformation13 ( PaymentInformation13 )
+../../../../webviewer/82.jpg
+../../../../looseends/role43832f6e018a.htm
+
+
+
+thePaymentType ( PaymentType )
+../../../../webviewer/82.jpg
+../../../../looseends/role439d97ad026a.htm
+
+
+
+<<XOR>> ServiceLevelOrClearingChannelRule
+../../../../webviewer/34.jpg
+op43786a3c02db.htm
+op43786a3c02db.txt
+
+
+(
+)
+<<Textual>> ServiceLevel1Guideline
+../../../../webviewer/36.jpg
+op43786a860274.htm
+op43786a860274.txt
+
+
+(
+)
+<<Textual>> ServiceLevel2Guideline
+../../../../webviewer/36.jpg
+op43786ab103ac.htm
+op43786ab103ac.txt
+
+
+(
+)
+<<Textual>> ClearingChannelRule
+../../../../webviewer/36.jpg
+op440599f303a0.htm
+op440599f303a0.txt
+
+
+(
+)
+)
+<<MessageComponent>> PaymentTypeInformation5
+../../../../webviewer/142.jpg
+class446a2ce701df.htm
+class446a2ce701df.txt
+
+
+(
+InstructionPriority [0..1]
+../../../../webviewer/31.jpg
+att446a2ce7022f.htm
+att446a2ce7022f.txt
+
+
+(
+)
+ClearingChannel[0..1]
+../../../../webviewer/31.jpg
+att446ae9540157.htm
+att446ae9540157.txt
+
+
+(
+)
+theGroupHeader4 ( GroupHeader4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role447c41c4020b.htm
+
+
+
+thePaymentType ( PaymentType )
+../../../../webviewer/82.jpg
+../../../../looseends/role44718c710278.htm
+
+
+
+ServiceLevel ( RestrictedProprietaryChoice )
+../../../../webviewer/82.jpg
+../../../../looseends/role446a2ce7026b.htm
+
+
+
+LocalInstrument ( RestrictedProprietaryChoice )
+../../../../webviewer/82.jpg
+../../../../looseends/role446aeb71006f.htm
+
+
+
+theCreditTransferTransactionInformation3 ( CreditTransferTransactionInformation3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role446a2d610163.htm
+
+
+
+<<XOR>> ServiceLevelOrClearingChannelRule
+../../../../webviewer/34.jpg
+op446ae960029f.htm
+op446ae960029f.txt
+
+
+(
+)
+)
+<<MessageComponent>> PaymentTypeInformation4
+../../../../webviewer/142.jpg
+class446a40570389.htm
+class446a40570389.txt
+
+
+(
+InstructionPriority [0..1]
+../../../../webviewer/31.jpg
+att446a40570394.htm
+att446a40570394.txt
+
+
+(
+)
+ClearingChannel[0..1]
+../../../../webviewer/31.jpg
+att446a40ea004b.htm
+att446a40ea004b.txt
+
+
+(
+)
+SequenceType [0..1]
+../../../../webviewer/31.jpg
+att446a40ea0069.htm
+att446a40ea0069.txt
+
+
+(
+)
+CategoryPurpose[0..1]
+../../../../webviewer/31.jpg
+att446a41300060.htm
+
+
+
+(
+)
+theGroupHeader3 ( GroupHeader3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role448ed675019f.htm
+
+
+
+theDirectDebitTransactionInformation2 ( DirectDebitTransactionInformation2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role446a4fd80233.htm
+
+
+
+thePaymentType ( PaymentType )
+../../../../webviewer/82.jpg
+../../../../looseends/role44718c720306.htm
+
+
+
+LocalInstrument ( LocalInstrument1Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role446a436800eb.htm
+
+
+
+ServiceLevel ( ServiceLevel3Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role446a405703b1.htm
+
+
+
+thePaymentTypeInformation8 ( PaymentTypeInformation8 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4513f9d800ed.htm
+
+
+
+thePaymentTypeInformation11 ( PaymentTypeInformation11 )
+../../../../webviewer/82.jpg
+../../../../looseends/role45104c1902c6.htm
+
+
+
+<<XOR>> ServiceLevelOrClearingChannelRule
+../../../../webviewer/34.jpg
+op446ae5620187.htm
+op446ae5620187.txt
+
+
+(
+)
+)
+<<MessageComponent>> PaymentTypeInformation3
+../../../../webviewer/142.jpg
+class4468979b0396.htm
+class4468979b0396.txt
+
+
+(
+InstructionPriority [0..1]
+../../../../webviewer/31.jpg
+att446897b80172.htm
+att446897b80172.txt
+
+
+(
+)
+ClearingChannel[0..1]
+../../../../webviewer/31.jpg
+att446ae8430096.htm
+
+
+
+(
+)
+CategoryPurpose[0..1]
+../../../../webviewer/31.jpg
+att446ae84300f0.htm
+
+
+
+(
+)
+theGroupHeader2 ( GroupHeader2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role447b76630103.htm
+
+
+
+theCreditTransferTransactionInformation2 ( CreditTransferTransactionInformation2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role44699926036f.htm
+
+
+
+thePaymentType ( PaymentType )
+../../../../webviewer/82.jpg
+../../../../looseends/role44718c6f03b6.htm
+
+
+
+ServiceLevel ( ServiceLevel2Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role446897f70322.htm
+
+
+
+LocalInstrument ( LocalInstrument1Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role446ae8ab029f.htm
+
+
+
+thePaymentTypeInformation7 ( PaymentTypeInformation7 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4513f9cb03e7.htm
+
+
+
+thePaymentTypeInformation10 ( PaymentTypeInformation10 )
+../../../../webviewer/82.jpg
+../../../../looseends/role450944cf0386.htm
+
+
+
+<<XOR>> ServiceLevelOrClearingChannelRule
+../../../../webviewer/34.jpg
+op446ae97e0298.htm
+op446ae97e0298.txt
+
+
+(
+)
+)
+<<MessageComponent>> PaymentTypeInformation2
+../../../../webviewer/142.jpg
+class446dbcc7019b.htm
+class446dbcc7019b.txt
+
+
+(
+InstructionPriority [0..1]
+../../../../webviewer/31.jpg
+att446dbcc701cd.htm
+att446dbcc701cd.txt
+
+
+(
+)
+ClearingChannel[0..1]
+../../../../webviewer/31.jpg
+att446dbcc701eb.htm
+att446dbcc701eb.txt
+
+
+(
+)
+SequenceType [0..1]
+../../../../webviewer/31.jpg
+att446dbcc701ff.htm
+att446dbcc701ff.txt
+
+
+(
+)
+CategoryPurpose[0..1]
+../../../../webviewer/31.jpg
+att446dbcc70227.htm
+
+
+
+(
+)
+thePaymentInstructionInformation2 ( PaymentInstructionInformation2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role446dba1c00eb.htm
+
+
+
+theDirectDebitTransactionInformation1 ( DirectDebitTransactionInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role447c45cb036d.htm
+
+
+
+thePaymentType ( PaymentType )
+../../../../webviewer/82.jpg
+../../../../looseends/role44718c73039d.htm
+
+
+
+LocalInstrument ( LocalInstrument1Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role446dbcc70344.htm
+
+
+
+ServiceLevel ( ServiceLevel3Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role446dbcc70259.htm
+
+
+
+<<XOR>> ServiceLevelOrClearingChannelRule
+../../../../webviewer/34.jpg
+op446dbcc703b8.htm
+op446dbcc703b8.txt
+
+
+(
+)
+)
+<<MessageComponent>> PaymentTypeInformation1
+../../../../webviewer/142.jpg
+class446dbdf5014b.htm
+class446dbdf5014b.txt
+
+
+(
+InstructionPriority [0..1]
+../../../../webviewer/31.jpg
+att446dbdf5017d.htm
+att446dbdf5017d.txt
+
+
+(
+)
+ClearingChannel[0..1]
+../../../../webviewer/31.jpg
+att446dbdf50191.htm
+att446dbdf50191.txt
+
+
+(
+)
+CategoryPurpose[0..1]
+../../../../webviewer/31.jpg
+att446dbdf50200.htm
+
+
+
+(
+)
+thePaymentInstructionInformation1 ( PaymentInstructionInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role446c92550147.htm
+
+
+
+theCreditTransferTransactionInformation1 ( CreditTransferTransactionInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role447c44c3039a.htm
+
+
+
+thePaymentType ( PaymentType )
+../../../../webviewer/82.jpg
+../../../../looseends/role44718c74034f.htm
+
+
+
+ServiceLevel ( ServiceLevel2Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role446dbdf502a1.htm
+
+
+
+LocalInstrument ( LocalInstrument1Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role446dbdf50386.htm
+
+
+
+<<XOR>> ServiceLevelOrClearingChannelRule
+../../../../webviewer/34.jpg
+op446dbdf60099.htm
+op446dbdf60099.txt
+
+
+(
+)
+)
+<<ChoiceComponent>> LocalInstrument1Choice
+../../../../webviewer/143.jpg
+class446a43360304.htm
+class446a43360304.txt
+
+
+(
+Code
+../../../../webviewer/31.jpg
+att446a4336030f.htm
+att446a4336030f.txt
+
+
+(
+)
+Proprietary
+../../../../webviewer/33.jpg
+att446a43360322.htm
+att446a43360322.txt
+
+
+(
+)
+thePaymentTypeInformation3 ( PaymentTypeInformation3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role446ae8ab0226.htm
+
+
+
+thePaymentTypeInformation1 ( PaymentTypeInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role446dbdf50336.htm
+
+
+
+thePaymentTypeInformation2 ( PaymentTypeInformation2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role446dbcc70342.htm
+
+
+
+thePaymentTypeInformation4 ( PaymentTypeInformation4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role446a436800e9.htm
+
+
+
+thePaymentType ( PaymentType )
+../../../../webviewer/82.jpg
+../../../../looseends/role447443b30303.htm
+
+
+
+thePaymentTypeInformation6 ( PaymentTypeInformation6 )
+../../../../webviewer/82.jpg
+../../../../looseends/role44fd81e401ac.htm
+
+
+
+thePaymentTypeInformation10 ( PaymentTypeInformation10 )
+../../../../webviewer/82.jpg
+../../../../looseends/role45092dff014e.htm
+
+
+
+thePaymentTypeInformation12 ( PaymentTypeInformation12 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4534bdbb01ff.htm
+
+
+
+thePaymentTypeInformation11 ( PaymentTypeInformation11 )
+../../../../webviewer/82.jpg
+../../../../looseends/role45104c05023d.htm
+
+
+
+)
+<<MessageComponent>> PaymentTypeInformation6
+../../../../webviewer/142.jpg
+class44fd81e40151.htm
+class44fd81e40151.txt
+
+
+(
+InstructionPriority [0..1]
+../../../../webviewer/31.jpg
+att44fd81e4015b.htm
+att44fd81e4015b.txt
+
+
+(
+)
+ClearingChannel[0..1]
+../../../../webviewer/31.jpg
+att44fd81e40165.htm
+
+
+
+(
+)
+SequenceType [0..1]
+../../../../webviewer/31.jpg
+att44fd975e01ec.htm
+att44fd975e01ec.txt
+
+
+(
+)
+CategoryPurpose[0..1]
+../../../../webviewer/31.jpg
+att44fd81e40179.htm
+
+
+
+(
+)
+theOriginalTransactionReference1 ( OriginalTransactionReference1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role44fd97b5004f.htm
+
+
+
+ServiceLevel ( ServiceLevel2Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role44fd81e4019a.htm
+
+
+
+LocalInstrument ( LocalInstrument1Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role44fd81e401b6.htm
+
+
+
+thePaymentType ( PaymentType )
+../../../../webviewer/82.jpg
+../../../../looseends/role44fd81e4018d.htm
+
+
+
+thePaymentTypeInformation9 ( PaymentTypeInformation9 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4520df5701f5.htm
+
+
+
+thePaymentTypeInformation12 ( PaymentTypeInformation12 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4534bdda0195.htm
+
+
+
+<<XOR>> ServiceLevelOrClearingChannelRule
+../../../../webviewer/34.jpg
+op44fd81e401c9.htm
+op44fd81e401c9.txt
+
+
+(
+)
+)
+<<MessageComponent>> PaymentTypeInformation7
+../../../../webviewer/142.jpg
+class450ff14c01d4.htm
+class450ff14c01d4.txt
+
+
+(
+theGroupHeader10 ( GroupHeader10 )
+../../../../webviewer/82.jpg
+../../../../looseends/role450abb7b0240.htm
+
+
+
+theCreditTransferTransactionInformation4 ( CreditTransferTransactionInformation4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role450ff1aa01f0.htm
+
+
+
+theCreditTransferTransactionInformation6 ( CreditTransferTransactionInformation6 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456d75ab03aa.htm
+
+
+
+theGroupHeader19 ( GroupHeader19 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456d66c6010c.htm
+
+
+
+thePaymentType ( PaymentType )
+../../../../webviewer/82.jpg
+../../../../looseends/role450ff14c0213.htm
+
+
+
+ServiceLevel ( ServiceLevel4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role450ff14c021e.htm
+
+
+
+thePaymentTypeInformation3 ( PaymentTypeInformation3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4513f9cc0013.htm
+
+
+
+)
+<<MessageComponent>> PaymentTypeInformation8
+../../../../webviewer/142.jpg
+class4510ebde019a.htm
+class4510ebde019a.txt
+
+
+(
+SequenceType [0..1]
+../../../../webviewer/31.jpg
+att4510ebde01f5.htm
+att4510ebde01f5.txt
+
+
+(
+)
+theGroupHeader11 ( GroupHeader11 )
+../../../../webviewer/82.jpg
+../../../../looseends/role45104cbb0342.htm
+
+
+
+theDirectDebitTransactionInformation3 ( DirectDebitTransactionInformation3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role451052c30252.htm
+
+
+
+theDirectDebitTransactionInformation5 ( DirectDebitTransactionInformation5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456da22f0105.htm
+
+
+
+theGroupHeader20 ( GroupHeader20 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456da05e0053.htm
+
+
+
+thePaymentType ( PaymentType )
+../../../../webviewer/82.jpg
+../../../../looseends/role4510ebde0229.htm
+
+
+
+ServiceLevel ( ServiceLevel5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4510ebde0264.htm
+
+
+
+thePaymentTypeInformation4 ( PaymentTypeInformation4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4513f9d80101.htm
+
+
+
+)
+<<MessageComponent>> PaymentTypeInformation9
+../../../../webviewer/142.jpg
+class4520df2e008c.htm
+class4520df2e008c.txt
+
+
+(
+SequenceType [0..1]
+../../../../webviewer/31.jpg
+att4520df2e0097.htm
+att4520df2e0097.txt
+
+
+(
+)
+theOriginalTransactionReference3 ( OriginalTransactionReference3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role45183bac002e.htm
+
+
+
+theOriginalTransactionReference4 ( OriginalTransactionReference4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role451b245d026b.htm
+
+
+
+theOriginalTransactionReference2 ( OriginalTransactionReference2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role45179fc3003b.htm
+
+
+
+theOriginalTransactionReference7 ( OriginalTransactionReference7 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456ded50035b.htm
+
+
+
+theOriginalTransactionReference8 ( OriginalTransactionReference8 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456dfc2f0323.htm
+
+
+
+thePaymentType ( PaymentType )
+../../../../webviewer/82.jpg
+../../../../looseends/role4520df2e00bf.htm
+
+
+
+ServiceLevel ( ServiceLevel4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4520df2e00d3.htm
+
+
+
+thePaymentTypeInformation6 ( PaymentTypeInformation6 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4520df5701ff.htm
+
+
+
+)
+<<MessageComponent>> PaymentTypeInformation12
+../../../../webviewer/142.jpg
+class4534bdbb0167.htm
+class4534bdbb0167.txt
+
+
+(
+InstructionPriority [0..1]
+../../../../webviewer/31.jpg
+att4534bdbb017b.htm
+att4534bdbb017b.txt
+
+
+(
+)
+ClearingChannel[0..1]
+../../../../webviewer/31.jpg
+att4534bdbb018f.htm
+
+
+
+(
+)
+SequenceType [0..1]
+../../../../webviewer/31.jpg
+att4534bdbb01a4.htm
+att4534bdbb01a4.txt
+
+
+(
+)
+CategoryPurpose[0..1]
+../../../../webviewer/31.jpg
+att4534bdbb01c2.htm
+
+
+
+(
+)
+theOriginalTransactionReference5 ( OriginalTransactionReference5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4518367701fe.htm
+
+
+
+theOriginalTransactionReference6 ( OriginalTransactionReference6 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4517948101d1.htm
+
+
+
+theOriginalTransactionReference9 ( OriginalTransactionReference9 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456ea6920252.htm
+
+
+
+thePaymentType ( PaymentType )
+../../../../webviewer/82.jpg
+../../../../looseends/role4534bdbb0226.htm
+
+
+
+thePaymentTypeInformation6 ( PaymentTypeInformation6 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4534bdda01bd.htm
+
+
+
+LocalInstrument ( LocalInstrument1Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role4534bdbb0201.htm
+
+
+
+ServiceLevel ( ServiceLevel6Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role4534bdbb01e1.htm
+
+
+
+<<XOR>> ServiceLevelOrClearingChannelRule
+../../../../webviewer/34.jpg
+op4534bdbb023a.htm
+op4534bdbb023a.txt
+
+
+(
+)
+)
+<<MessageComponent>> PaymentTypeInformation11
+../../../../webviewer/142.jpg
+class45104c050123.htm
+class45104c050123.txt
+
+
+(
+InstructionPriority [0..1]
+../../../../webviewer/31.jpg
+att45104c050138.htm
+att45104c050138.txt
+
+
+(
+)
+ClearingChannel[0..1]
+../../../../webviewer/31.jpg
+att45104c050155.htm
+att45104c050155.txt
+
+
+(
+)
+SequenceType [0..1]
+../../../../webviewer/31.jpg
+att45104c05017d.htm
+att45104c05017d.txt
+
+
+(
+)
+CategoryPurpose[0..1]
+../../../../webviewer/31.jpg
+att45104c0501eb.htm
+
+
+
+(
+)
+theDirectDebitTransactionInformation4 ( DirectDebitTransactionInformation4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role45104ea60226.htm
+
+
+
+theGroupHeader16 ( GroupHeader16 )
+../../../../webviewer/82.jpg
+../../../../looseends/role451047df0130.htm
+
+
+
+theDirectDebitTransactionInformation6 ( DirectDebitTransactionInformation6 )
+../../../../webviewer/82.jpg
+../../../../looseends/role457f971c0087.htm
+
+
+
+thePaymentType ( PaymentType )
+../../../../webviewer/82.jpg
+../../../../looseends/role45104c05022a.htm
+
+
+
+LocalInstrument ( LocalInstrument1Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role45104c050246.htm
+
+
+
+ServiceLevel ( ServiceLevel7Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role45104c05026e.htm
+
+
+
+thePaymentTypeInformation4 ( PaymentTypeInformation4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role45104c1902da.htm
+
+
+
+<<XOR>> ServiceLevelOrClearingChannelRule
+../../../../webviewer/34.jpg
+op45104c05028b.htm
+op45104c05028b.txt
+
+
+(
+)
+)
+<<MessageComponent>> PaymentTypeInformation10
+../../../../webviewer/142.jpg
+class45092dff00f3.htm
+class45092dff00f3.txt
+
+
+(
+InstructionPriority [0..1]
+../../../../webviewer/31.jpg
+att45092dff00fd.htm
+att45092dff00fd.txt
+
+
+(
+)
+ClearingChannel[0..1]
+../../../../webviewer/31.jpg
+att45092dff0107.htm
+
+
+
+(
+)
+CategoryPurpose[0..1]
+../../../../webviewer/31.jpg
+att45092dff011b.htm
+
+
+
+(
+)
+theCreditTransferTransactionInformation5 ( CreditTransferTransactionInformation5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role45092cac0378.htm
+
+
+
+theGroupHeader15 ( GroupHeader15 )
+../../../../webviewer/82.jpg
+../../../../looseends/role45092c530226.htm
+
+
+
+theCreditTransferTransactionInformation7 ( CreditTransferTransactionInformation7 )
+../../../../webviewer/82.jpg
+../../../../looseends/role457f93bc02c1.htm
+
+
+
+thePaymentType ( PaymentType )
+../../../../webviewer/82.jpg
+../../../../looseends/role45092dff0132.htm
+
+
+
+thePaymentTypeInformation3 ( PaymentTypeInformation3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role450944cf039a.htm
+
+
+
+ServiceLevel ( ServiceLevel6Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role45092dff0143.htm
+
+
+
+LocalInstrument ( LocalInstrument1Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role45092dff0158.htm
+
+
+
+<<XOR>> ServiceLevelOrClearingChannelRule
+../../../../webviewer/34.jpg
+op45092dff016b.htm
+op45092dff016b.txt
+
+
+(
+)
+)
+Associations
+../../../../webviewer/assoccat.gif
+
+
+
+
+(
+<<SWSTrace>> (thePaymentType:PaymentType) (thePaymentTypeIdentification1:PaymentTypeIdentification1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass439d97ac01be.htm
+
+
+
+(
+PaymentType ( thePaymentType )
+../../../../webviewer/82.jpg
+../../../../looseends/role439d97ad0260.htm
+
+
+
+PaymentTypeIdentification1 ( thePaymentTypeIdentification1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role439d97ad026a.htm
+
+
+
+)
+<<SWSTrace>> (thePaymentTypeInformation4:PaymentTypeInformation4) (thePaymentType:PaymentType)
+../../../../webviewer/81.jpg
+../../../../looseends/ass44718c72027a.htm
+
+
+
+(
+PaymentTypeInformation4 ( thePaymentTypeInformation4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role44718c720306.htm
+
+
+
+PaymentType ( thePaymentType )
+../../../../webviewer/82.jpg
+../../../../looseends/role44718c7300ae.htm
+
+
+
+)
+<<SWSTrace>> (thePaymentTypeInformation2:PaymentTypeInformation2) (thePaymentType:PaymentType)
+../../../../webviewer/81.jpg
+../../../../looseends/ass44718c7302b7.htm
+
+
+
+(
+PaymentTypeInformation2 ( thePaymentTypeInformation2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role44718c73039d.htm
+
+
+
+PaymentType ( thePaymentType )
+../../../../webviewer/82.jpg
+../../../../looseends/role44718c7401aa.htm
+
+
+
+)
+<<SWSTrace>> (thePaymentTypeInformation1:PaymentTypeInformation1) (thePaymentType:PaymentType)
+../../../../webviewer/81.jpg
+../../../../looseends/ass44718c7402a5.htm
+
+
+
+(
+PaymentTypeInformation1 ( thePaymentTypeInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role44718c74034f.htm
+
+
+
+PaymentType ( thePaymentType )
+../../../../webviewer/82.jpg
+../../../../looseends/role44718c7500ed.htm
+
+
+
+)
+<<SWSTrace>> (thePaymentTypeInformation3:PaymentTypeInformation3) (thePaymentType:PaymentType)
+../../../../webviewer/81.jpg
+../../../../looseends/ass44718c6f0243.htm
+
+
+
+(
+PaymentTypeInformation3 ( thePaymentTypeInformation3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role44718c6f03b6.htm
+
+
+
+PaymentType ( thePaymentType )
+../../../../webviewer/82.jpg
+../../../../looseends/role44718c7002db.htm
+
+
+
+)
+<<SWSTrace>> (thePaymentTypeInformation5:PaymentTypeInformation5) (thePaymentType:PaymentType)
+../../../../webviewer/81.jpg
+../../../../looseends/ass44718c7101ba.htm
+
+
+
+(
+PaymentTypeInformation5 ( thePaymentTypeInformation5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role44718c710278.htm
+
+
+
+PaymentType ( thePaymentType )
+../../../../webviewer/82.jpg
+../../../../looseends/role44718c7200cb.htm
+
+
+
+)
+Association (ServiceLevel:RestrictedProprietaryChoice) (thePaymentTypeInformation5:PaymentTypeInformation5)
+../../../../webviewer/81.jpg
+../../../../looseends/ass446a2ce70243.htm
+../../../../looseends/ass446a2ce70243.txt
+
+
+(
+RestrictedProprietaryChoice ( ServiceLevel )
+../../../../webviewer/82.jpg
+../../../../looseends/role446a2ce7024d.htm
+
+
+
+PaymentTypeInformation5 ( thePaymentTypeInformation5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role446a2ce7026b.htm
+
+
+
+)
+Association (LocalInstrument:RestrictedProprietaryChoice) (thePaymentTypeInformation5:PaymentTypeInformation5)
+../../../../webviewer/81.jpg
+../../../../looseends/ass446aeb6f0080.htm
+../../../../looseends/ass446aeb6f0080.txt
+
+
+(
+RestrictedProprietaryChoice ( LocalInstrument )
+../../../../webviewer/82.jpg
+../../../../looseends/role446aeb7003cb.htm
+
+
+
+PaymentTypeInformation5 ( thePaymentTypeInformation5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role446aeb71006f.htm
+
+
+
+)
+Association (thePaymentTypeInformation3:PaymentTypeInformation3) (ServiceLevel:ServiceLevel2Choice)
+../../../../webviewer/81.jpg
+../../../../looseends/ass446897f7030e.htm
+../../../../looseends/ass446897f7030e.txt
+
+
+(
+PaymentTypeInformation3 ( thePaymentTypeInformation3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role446897f70322.htm
+
+
+
+ServiceLevel2Choice ( ServiceLevel )
+../../../../webviewer/82.jpg
+../../../../looseends/role446897f70323.htm
+
+
+
+)
+Association (ServiceLevel:ServiceLevel2Choice) (thePaymentTypeInformation1:PaymentTypeInformation1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass446dbdf5021e.htm
+../../../../looseends/ass446dbdf5021e.txt
+
+
+(
+ServiceLevel2Choice ( ServiceLevel )
+../../../../webviewer/82.jpg
+../../../../looseends/role446dbdf50278.htm
+
+
+
+PaymentTypeInformation1 ( thePaymentTypeInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role446dbdf502a1.htm
+
+
+
+)
+Association (LocalInstrument:LocalInstrument1Choice) (thePaymentTypeInformation3:PaymentTypeInformation3)
+../../../../webviewer/81.jpg
+../../../../looseends/ass446ae8a802e0.htm
+../../../../looseends/ass446ae8a802e0.txt
+
+
+(
+LocalInstrument1Choice ( LocalInstrument )
+../../../../webviewer/82.jpg
+../../../../looseends/role446ae8ab0226.htm
+
+
+
+PaymentTypeInformation3 ( thePaymentTypeInformation3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role446ae8ab029f.htm
+
+
+
+)
+Association (LocalInstrument:LocalInstrument1Choice) (thePaymentTypeInformation1:PaymentTypeInformation1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass446dbdf50323.htm
+../../../../looseends/ass446dbdf50323.txt
+
+
+(
+LocalInstrument1Choice ( LocalInstrument )
+../../../../webviewer/82.jpg
+../../../../looseends/role446dbdf50336.htm
+
+
+
+PaymentTypeInformation1 ( thePaymentTypeInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role446dbdf50386.htm
+
+
+
+)
+Association (LocalInstrument:LocalInstrument1Choice) (thePaymentTypeInformation2:PaymentTypeInformation2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass446dbcc70341.htm
+../../../../looseends/ass446dbcc70341.txt
+
+
+(
+LocalInstrument1Choice ( LocalInstrument )
+../../../../webviewer/82.jpg
+../../../../looseends/role446dbcc70342.htm
+
+
+
+PaymentTypeInformation2 ( thePaymentTypeInformation2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role446dbcc70344.htm
+
+
+
+)
+Association (LocalInstrument:LocalInstrument1Choice) (thePaymentTypeInformation4:PaymentTypeInformation4)
+../../../../webviewer/81.jpg
+../../../../looseends/ass446a4367010f.htm
+../../../../looseends/ass446a4367010f.txt
+
+
+(
+LocalInstrument1Choice ( LocalInstrument )
+../../../../webviewer/82.jpg
+../../../../looseends/role446a436800e9.htm
+
+
+
+PaymentTypeInformation4 ( thePaymentTypeInformation4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role446a436800eb.htm
+
+
+
+)
+Association (ServiceLevel:ServiceLevel3Choice) (thePaymentTypeInformation2:PaymentTypeInformation2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass446dbcc7024f.htm
+../../../../looseends/ass446dbcc7024f.txt
+
+
+(
+ServiceLevel3Choice ( ServiceLevel )
+../../../../webviewer/82.jpg
+../../../../looseends/role446dbcc70250.htm
+
+
+
+PaymentTypeInformation2 ( thePaymentTypeInformation2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role446dbcc70259.htm
+
+
+
+)
+Association (ServiceLevel:ServiceLevel3Choice) (thePaymentTypeInformation4:PaymentTypeInformation4)
+../../../../webviewer/81.jpg
+../../../../looseends/ass446a405703a7.htm
+../../../../looseends/ass446a405703a7.txt
+
+
+(
+ServiceLevel3Choice ( ServiceLevel )
+../../../../webviewer/82.jpg
+../../../../looseends/role446a405703a8.htm
+
+
+
+PaymentTypeInformation4 ( thePaymentTypeInformation4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role446a405703b1.htm
+
+
+
+)
+<<SWSTrace>> (thePaymentType:PaymentType) (theLocalInstrument1Choice:LocalInstrument1Choice)
+../../../../webviewer/81.jpg
+../../../../looseends/ass447443b30122.htm
+
+
+
+(
+PaymentType ( thePaymentType )
+../../../../webviewer/82.jpg
+../../../../looseends/role447443b302ef.htm
+
+
+
+LocalInstrument1Choice ( theLocalInstrument1Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role447443b30303.htm
+
+
+
+)
+Association (ServiceLevel:ServiceLevel2Choice) (thePaymentTypeInformation6:PaymentTypeInformation6)
+../../../../webviewer/81.jpg
+../../../../looseends/ass44fd81e40197.htm
+../../../../looseends/ass44fd81e40197.txt
+
+
+(
+ServiceLevel2Choice ( ServiceLevel )
+../../../../webviewer/82.jpg
+../../../../looseends/role44fd81e40198.htm
+
+
+
+PaymentTypeInformation6 ( thePaymentTypeInformation6 )
+../../../../webviewer/82.jpg
+../../../../looseends/role44fd81e4019a.htm
+
+
+
+)
+Association (LocalInstrument:LocalInstrument1Choice) (thePaymentTypeInformation6:PaymentTypeInformation6)
+../../../../webviewer/81.jpg
+../../../../looseends/ass44fd81e401ab.htm
+../../../../looseends/ass44fd81e401ab.txt
+
+
+(
+LocalInstrument1Choice ( LocalInstrument )
+../../../../webviewer/82.jpg
+../../../../looseends/role44fd81e401ac.htm
+
+
+
+PaymentTypeInformation6 ( thePaymentTypeInformation6 )
+../../../../webviewer/82.jpg
+../../../../looseends/role44fd81e401b6.htm
+
+
+
+)
+<<SWSTrace>> (thePaymentType:PaymentType) (thePaymentTypeInformation6:PaymentTypeInformation6)
+../../../../webviewer/81.jpg
+../../../../looseends/ass44fd81e40183.htm
+
+
+
+(
+PaymentType ( thePaymentType )
+../../../../webviewer/82.jpg
+../../../../looseends/role44fd81e40184.htm
+
+
+
+PaymentTypeInformation6 ( thePaymentTypeInformation6 )
+../../../../webviewer/82.jpg
+../../../../looseends/role44fd81e4018d.htm
+
+
+
+)
+<<SWSTrace>> (thePaymentType:PaymentType) (thePaymentTypeInformation7:PaymentTypeInformation7)
+../../../../webviewer/81.jpg
+../../../../looseends/ass450ff14c0210.htm
+
+
+
+(
+PaymentType ( thePaymentType )
+../../../../webviewer/82.jpg
+../../../../looseends/role450ff14c0211.htm
+
+
+
+PaymentTypeInformation7 ( thePaymentTypeInformation7 )
+../../../../webviewer/82.jpg
+../../../../looseends/role450ff14c0213.htm
+
+
+
+)
+Association (ServiceLevel:ServiceLevel4) (thePaymentTypeInformation7:PaymentTypeInformation7)
+../../../../webviewer/81.jpg
+../../../../looseends/ass450ff14c021b.htm
+../../../../looseends/ass450ff14c021b.txt
+
+
+(
+ServiceLevel4 ( ServiceLevel )
+../../../../webviewer/82.jpg
+../../../../looseends/role450ff14c021c.htm
+
+
+
+PaymentTypeInformation7 ( thePaymentTypeInformation7 )
+../../../../webviewer/82.jpg
+../../../../looseends/role450ff14c021e.htm
+
+
+
+)
+<<IsDerivedFrom>> (thePaymentTypeInformation3:PaymentTypeInformation3) (thePaymentTypeInformation7:PaymentTypeInformation7)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4513f9ca0287.htm
+../../../../looseends/ass4513f9ca0287.txt
+
+
+(
+PaymentTypeInformation3 ( thePaymentTypeInformation3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4513f9cb03e7.htm
+
+
+
+PaymentTypeInformation7 ( thePaymentTypeInformation7 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4513f9cc0013.htm
+
+
+
+)
+<<SWSTrace>> (thePaymentType:PaymentType) (thePaymentTypeInformation8:PaymentTypeInformation8)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4510ebde021d.htm
+
+
+
+(
+PaymentType ( thePaymentType )
+../../../../webviewer/82.jpg
+../../../../looseends/role4510ebde0227.htm
+
+
+
+PaymentTypeInformation8 ( thePaymentTypeInformation8 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4510ebde0229.htm
+
+
+
+)
+Association (ServiceLevel:ServiceLevel5) (thePaymentTypeInformation8:PaymentTypeInformation8)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4510ebde0259.htm
+../../../../looseends/ass4510ebde0259.txt
+
+
+(
+ServiceLevel5 ( ServiceLevel )
+../../../../webviewer/82.jpg
+../../../../looseends/role4510ebde025a.htm
+
+
+
+PaymentTypeInformation8 ( thePaymentTypeInformation8 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4510ebde0264.htm
+
+
+
+)
+<<IsDerivedFrom>> (thePaymentTypeInformation4:PaymentTypeInformation4) (thePaymentTypeInformation8:PaymentTypeInformation8)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4513f9d70109.htm
+../../../../looseends/ass4513f9d70109.txt
+
+
+(
+PaymentTypeInformation4 ( thePaymentTypeInformation4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4513f9d800ed.htm
+
+
+
+PaymentTypeInformation8 ( thePaymentTypeInformation8 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4513f9d80101.htm
+
+
+
+)
+<<SWSTrace>> (thePaymentType:PaymentType) (thePaymentTypeInformation9:PaymentTypeInformation9)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4520df2e00b4.htm
+
+
+
+(
+PaymentType ( thePaymentType )
+../../../../webviewer/82.jpg
+../../../../looseends/role4520df2e00b5.htm
+
+
+
+PaymentTypeInformation9 ( thePaymentTypeInformation9 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4520df2e00bf.htm
+
+
+
+)
+Association (ServiceLevel:ServiceLevel4) (thePaymentTypeInformation9:PaymentTypeInformation9)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4520df2e00c9.htm
+../../../../looseends/ass4520df2e00c9.txt
+
+
+(
+ServiceLevel4 ( ServiceLevel )
+../../../../webviewer/82.jpg
+../../../../looseends/role4520df2e00ca.htm
+
+
+
+PaymentTypeInformation9 ( thePaymentTypeInformation9 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4520df2e00d3.htm
+
+
+
+)
+<<IsDerivedFrom>> (thePaymentTypeInformation6:PaymentTypeInformation6) (thePaymentTypeInformation9:PaymentTypeInformation9)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4520df560167.htm
+../../../../looseends/ass4520df560167.txt
+
+
+(
+PaymentTypeInformation6 ( thePaymentTypeInformation6 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4520df5701f5.htm
+
+
+
+PaymentTypeInformation9 ( thePaymentTypeInformation9 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4520df5701ff.htm
+
+
+
+)
+<<SWSTrace>> (thePaymentType:PaymentType) (thePaymentTypeInformation10:PaymentTypeInformation10)
+../../../../webviewer/81.jpg
+../../../../looseends/ass45092dff012f.htm
+
+
+
+(
+PaymentType ( thePaymentType )
+../../../../webviewer/82.jpg
+../../../../looseends/role45092dff0130.htm
+
+
+
+PaymentTypeInformation10 ( thePaymentTypeInformation10 )
+../../../../webviewer/82.jpg
+../../../../looseends/role45092dff0132.htm
+
+
+
+)
+<<IsDerivedFrom>> (thePaymentTypeInformation3:PaymentTypeInformation3) (thePaymentTypeInformation10:PaymentTypeInformation10)
+../../../../webviewer/81.jpg
+../../../../looseends/ass450944cd00c6.htm
+../../../../looseends/ass450944cd00c6.txt
+
+
+(
+PaymentTypeInformation3 ( thePaymentTypeInformation3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role450944cf0386.htm
+
+
+
+PaymentTypeInformation10 ( thePaymentTypeInformation10 )
+../../../../webviewer/82.jpg
+../../../../looseends/role450944cf039a.htm
+
+
+
+)
+Association (ServiceLevel:ServiceLevel6Choice) (thePaymentTypeInformation10:PaymentTypeInformation10)
+../../../../webviewer/81.jpg
+../../../../looseends/ass45092dff013a.htm
+../../../../looseends/ass45092dff013a.txt
+
+
+(
+ServiceLevel6Choice ( ServiceLevel )
+../../../../webviewer/82.jpg
+../../../../looseends/role45092dff013b.htm
+
+
+
+PaymentTypeInformation10 ( thePaymentTypeInformation10 )
+../../../../webviewer/82.jpg
+../../../../looseends/role45092dff0143.htm
+
+
+
+)
+Association (LocalInstrument:LocalInstrument1Choice) (thePaymentTypeInformation10:PaymentTypeInformation10)
+../../../../webviewer/81.jpg
+../../../../looseends/ass45092dff014d.htm
+../../../../looseends/ass45092dff014d.txt
+
+
+(
+LocalInstrument1Choice ( LocalInstrument )
+../../../../webviewer/82.jpg
+../../../../looseends/role45092dff014e.htm
+
+
+
+PaymentTypeInformation10 ( thePaymentTypeInformation10 )
+../../../../webviewer/82.jpg
+../../../../looseends/role45092dff0158.htm
+
+
+
+)
+<<SWSTrace>> (thePaymentType:PaymentType) (thePaymentTypeInformation12:PaymentTypeInformation12)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4534bdbb021c.htm
+
+
+
+(
+PaymentType ( thePaymentType )
+../../../../webviewer/82.jpg
+../../../../looseends/role4534bdbb021d.htm
+
+
+
+PaymentTypeInformation12 ( thePaymentTypeInformation12 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4534bdbb0226.htm
+
+
+
+)
+<<IsDerivedFrom>> (thePaymentTypeInformation6:PaymentTypeInformation6) (thePaymentTypeInformation12:PaymentTypeInformation12)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4534bdd90139.htm
+../../../../looseends/ass4534bdd90139.txt
+
+
+(
+PaymentTypeInformation6 ( thePaymentTypeInformation6 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4534bdda0195.htm
+
+
+
+PaymentTypeInformation12 ( thePaymentTypeInformation12 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4534bdda01bd.htm
+
+
+
+)
+Association (LocalInstrument:LocalInstrument1Choice) (thePaymentTypeInformation12:PaymentTypeInformation12)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4534bdbb01fe.htm
+../../../../looseends/ass4534bdbb01fe.txt
+
+
+(
+LocalInstrument1Choice ( LocalInstrument )
+../../../../webviewer/82.jpg
+../../../../looseends/role4534bdbb01ff.htm
+
+
+
+PaymentTypeInformation12 ( thePaymentTypeInformation12 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4534bdbb0201.htm
+
+
+
+)
+Association (ServiceLevel:ServiceLevel6Choice) (thePaymentTypeInformation12:PaymentTypeInformation12)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4534bdbb01d6.htm
+../../../../looseends/ass4534bdbb01d6.txt
+
+
+(
+ServiceLevel6Choice ( ServiceLevel )
+../../../../webviewer/82.jpg
+../../../../looseends/role4534bdbb01d7.htm
+
+
+
+PaymentTypeInformation12 ( thePaymentTypeInformation12 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4534bdbb01e1.htm
+
+
+
+)
+<<SWSTrace>> (thePaymentType:PaymentType) (thePaymentTypeInformation11:PaymentTypeInformation11)
+../../../../webviewer/81.jpg
+../../../../looseends/ass45104c050227.htm
+
+
+
+(
+PaymentType ( thePaymentType )
+../../../../webviewer/82.jpg
+../../../../looseends/role45104c050228.htm
+
+
+
+PaymentTypeInformation11 ( thePaymentTypeInformation11 )
+../../../../webviewer/82.jpg
+../../../../looseends/role45104c05022a.htm
+
+
+
+)
+Association (LocalInstrument:LocalInstrument1Choice) (thePaymentTypeInformation11:PaymentTypeInformation11)
+../../../../webviewer/81.jpg
+../../../../looseends/ass45104c05023c.htm
+../../../../looseends/ass45104c05023c.txt
+
+
+(
+LocalInstrument1Choice ( LocalInstrument )
+../../../../webviewer/82.jpg
+../../../../looseends/role45104c05023d.htm
+
+
+
+PaymentTypeInformation11 ( thePaymentTypeInformation11 )
+../../../../webviewer/82.jpg
+../../../../looseends/role45104c050246.htm
+
+
+
+)
+Association (ServiceLevel:ServiceLevel7Choice) (thePaymentTypeInformation11:PaymentTypeInformation11)
+../../../../webviewer/81.jpg
+../../../../looseends/ass45104c050263.htm
+../../../../looseends/ass45104c050263.txt
+
+
+(
+ServiceLevel7Choice ( ServiceLevel )
+../../../../webviewer/82.jpg
+../../../../looseends/role45104c050264.htm
+
+
+
+PaymentTypeInformation11 ( thePaymentTypeInformation11 )
+../../../../webviewer/82.jpg
+../../../../looseends/role45104c05026e.htm
+
+
+
+)
+<<IsDerivedFrom>> (thePaymentTypeInformation4:PaymentTypeInformation4) (thePaymentTypeInformation11:PaymentTypeInformation11)
+../../../../webviewer/81.jpg
+../../../../looseends/ass45104c1801c0.htm
+../../../../looseends/ass45104c1801c0.txt
+
+
+(
+PaymentTypeInformation4 ( thePaymentTypeInformation4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role45104c1902c6.htm
+
+
+
+PaymentTypeInformation11 ( thePaymentTypeInformation11 )
+../../../../webviewer/82.jpg
+../../../../looseends/role45104c1902da.htm
+
+
+
+)
+)

@@ -1,0 +1,1 @@
+Reference and status information concerning the payment initiation for which the status message is being reported.

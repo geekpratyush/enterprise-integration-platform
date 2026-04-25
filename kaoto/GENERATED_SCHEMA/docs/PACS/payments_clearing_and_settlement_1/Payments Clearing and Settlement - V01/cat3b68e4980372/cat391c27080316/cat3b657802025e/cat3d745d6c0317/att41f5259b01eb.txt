@@ -1,0 +1,1 @@
+Specifies the interbank settlement amount(s) on which the query is performed.

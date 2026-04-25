@@ -1,0 +1,1 @@
+Specifies a financial institution which is not a head office.

@@ -1,0 +1,5 @@
+OrderDateTime: new.
+ExpiryDateTime: new.
+CancellationRight: type changed from CancellationRight1Code to CancellationRight1 (code alignment).
+BulkCashSettlementDeatails1Rule: renamed to BulkCashSettlementDetails1Rule and modified.
+BeneficiaryDetails: new.

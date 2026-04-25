@@ -1,0 +1,416 @@
+<<ChoiceComponent>> FinancialInstrumentQuantityChoice
+../../../../webviewer/143.jpg
+class40a472d3011b.htm
+class40a472d3011b.txt
+
+
+(
+Unit
+../../../../webviewer/31.jpg
+att40a472f902d9.htm
+
+
+
+(
+)
+FaceAmount
+../../../../webviewer/31.jpg
+att40a4730701fd.htm
+att40a4730701fd.txt
+
+
+(
+)
+AmortisedValue
+../../../../webviewer/31.jpg
+att40a47307021b.htm
+att40a47307021b.txt
+
+
+(
+)
+theTransactionQuantities1Choice ( TransactionQuantities1Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role453de4bb00ef.htm
+
+
+
+theSecuritiesQuantity ( SecuritiesQuantity )
+../../../../webviewer/82.jpg
+../../../../looseends/role40a4c1380105.htm
+
+
+
+)
+<<ChoiceComponent>> UnitOrFaceAmountChoice
+../../../../webviewer/143.jpg
+class3c10824e02a9.htm
+class3c10824e02a9.txt
+
+
+(
+Unit
+../../../../webviewer/31.jpg
+att3c10824e02aa.htm
+
+
+
+(
+)
+FaceAmount
+../../../../webviewer/31.jpg
+att3c10824e02b3.htm
+
+
+
+(
+)
+theSecuritiesQuantity ( SecuritiesQuantity )
+../../../../webviewer/82.jpg
+../../../../looseends/role3cd8f8330296.htm
+
+
+
+)
+<<ChoiceComponent>> FinancialInstrumentQuantity6Choice
+../../../../webviewer/143.jpg
+class4406f2620061.htm
+class4406f2620061.txt
+
+
+(
+UnitsNumber
+../../../../webviewer/31.jpg
+att4406f26201bf.htm
+
+
+
+(
+)
+PercentageOfTotalRedemptionAmount
+../../../../webviewer/31.jpg
+att4406f26202ec.htm
+
+
+
+(
+)
+NetAmount
+../../../../webviewer/31.jpg
+att4406f262030a.htm
+
+
+
+(
+)
+GrossAmount
+../../../../webviewer/31.jpg
+att4406f2620396.htm
+att4406f2620396.txt
+
+
+(
+)
+theSwitchSubscriptionLegOrder3 ( SwitchSubscriptionLegOrder3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role43e1fd6c002a.htm
+
+
+
+theSecuritiesQuantity ( SecuritiesQuantity )
+../../../../webviewer/82.jpg
+../../../../looseends/role4406f2630102.htm
+
+
+
+)
+<<ChoiceComponent>> FinancialInstrumentQuantity5Choice
+../../../../webviewer/143.jpg
+class4406f0ef0071.htm
+class4406f0ef0071.txt
+
+
+(
+UnitsNumber
+../../../../webviewer/31.jpg
+att4406f0ef01b2.htm
+
+
+
+(
+)
+PercentageOfTotalSubscriptionAmount
+../../../../webviewer/31.jpg
+att4406f0ef0284.htm
+
+
+
+(
+)
+NetAmount
+../../../../webviewer/31.jpg
+att4406f0ef034c.htm
+
+
+
+(
+)
+GrossAmount
+../../../../webviewer/31.jpg
+att4406f0ef03cf.htm
+att4406f0ef03cf.txt
+
+
+(
+)
+HoldingsRedemptionRate
+../../../../webviewer/31.jpg
+att4406f0f00113.htm
+
+
+
+(
+)
+theSwitchRedemptionLegOrder3 ( SwitchRedemptionLegOrder3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role43e1fc2d0248.htm
+
+
+
+theSecuritiesQuantity ( SecuritiesQuantity )
+../../../../webviewer/82.jpg
+../../../../looseends/role4406f0f0039e.htm
+
+
+
+)
+<<MessageComponent>> Unit3
+../../../../webviewer/142.jpg
+class45250f9e02bd.htm
+class45250f9e02bd.txt
+
+
+(
+UnitsNumber
+../../../../webviewer/31.jpg
+att45250f9f0017.htm
+att45250f9f0017.txt
+
+
+(
+)
+AcquisitionDate[0..1]
+../../../../webviewer/31.jpg
+att45250f9f002a.htm
+att45250f9f002a.txt
+
+
+(
+)
+CertificateNumber[0..n]
+../../../../webviewer/31.jpg
+att45250f9f0034.htm
+att45250f9f0034.txt
+
+
+(
+)
+Group1Or2Units[0..1]
+../../../../webviewer/31.jpg
+att45250f9f003e.htm
+
+
+
+(
+)
+theTransfer8 ( Transfer8 )
+../../../../webviewer/82.jpg
+../../../../looseends/role44e071be003f.htm
+
+
+
+theTransfer9 ( Transfer9 )
+../../../../webviewer/82.jpg
+../../../../looseends/role44e073490221.htm
+
+
+
+theTransfer7 ( Transfer7 )
+../../../../webviewer/82.jpg
+../../../../looseends/role44e068c7005c.htm
+
+
+
+theTransfer10 ( Transfer10 )
+../../../../webviewer/82.jpg
+../../../../looseends/role44e07c580265.htm
+
+
+
+theSecuritiesQuantity ( SecuritiesQuantity )
+../../../../webviewer/82.jpg
+../../../../looseends/role45250f9f00ca.htm
+
+
+
+theUnit1 ( Unit1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role45250fa400d1.htm
+
+
+
+PriceDetails ( UnitPrice12 )
+../../../../webviewer/82.jpg
+../../../../looseends/role45250f9f0070.htm
+
+
+
+)
+Associations
+../../../../webviewer/assoccat.gif
+
+
+
+
+(
+<<SWSTrace>> (theSecuritiesQuantity:SecuritiesQuantity) (theFinancialInstrumentQuantityChoice:FinancialInstrumentQuantityChoice)
+../../../../webviewer/81.jpg
+../../../../looseends/ass40a4c1370154.htm
+
+
+
+(
+SecuritiesQuantity ( theSecuritiesQuantity )
+../../../../webviewer/82.jpg
+../../../../looseends/role40a4c1370370.htm
+
+
+
+FinancialInstrumentQuantityChoice ( theFinancialInstrumentQuantityChoice )
+../../../../webviewer/82.jpg
+../../../../looseends/role40a4c1380105.htm
+
+
+
+)
+<<SWSTrace>> (theSecuritiesQuantity:SecuritiesQuantity) (theUnitOrFaceAmountChoice:UnitOrFaceAmountChoice)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3cd8f83300a1.htm
+
+
+
+(
+SecuritiesQuantity ( theSecuritiesQuantity )
+../../../../webviewer/82.jpg
+../../../../looseends/role3cd8f833028c.htm
+
+
+
+UnitOrFaceAmountChoice ( theUnitOrFaceAmountChoice )
+../../../../webviewer/82.jpg
+../../../../looseends/role3cd8f8330296.htm
+
+
+
+)
+<<SWSTrace>> (theSecuritiesQuantity:SecuritiesQuantity) (theFinancialInstrumentQuantity5Choice:FinancialInstrumentQuantity5Choice)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4406f0f00203.htm
+
+
+
+(
+SecuritiesQuantity ( theSecuritiesQuantity )
+../../../../webviewer/82.jpg
+../../../../looseends/role4406f0f0025d.htm
+
+
+
+FinancialInstrumentQuantity5Choice ( theFinancialInstrumentQuantity5Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role4406f0f0039e.htm
+
+
+
+)
+<<SWSTrace>> (theSecuritiesQuantity:SecuritiesQuantity) (theFinancialInstrumentQuantity6Choice:FinancialInstrumentQuantity6Choice)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4406f2630012.htm
+
+
+
+(
+SecuritiesQuantity ( theSecuritiesQuantity )
+../../../../webviewer/82.jpg
+../../../../looseends/role4406f2630062.htm
+
+
+
+FinancialInstrumentQuantity6Choice ( theFinancialInstrumentQuantity6Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role4406f2630102.htm
+
+
+
+)
+<<SWSTrace>> (theSecuritiesQuantity:SecuritiesQuantity) (theUnit3:Unit3)
+../../../../webviewer/81.jpg
+../../../../looseends/ass45250f9f007a.htm
+
+
+
+(
+SecuritiesQuantity ( theSecuritiesQuantity )
+../../../../webviewer/82.jpg
+../../../../looseends/role45250f9f007b.htm
+
+
+
+Unit3 ( theUnit3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role45250f9f00ca.htm
+
+
+
+)
+<<IsAnAlternativeFor>> (theUnit1:Unit1) (theUnit3:Unit3)
+../../../../webviewer/81.jpg
+../../../../looseends/ass45250fa302a7.htm
+
+
+
+(
+Unit1 ( theUnit1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role45250fa303dd.htm
+
+
+
+Unit3 ( theUnit3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role45250fa400d1.htm
+
+
+
+)
+Association (PriceDetails:UnitPrice12) (theUnit3:Unit3)
+../../../../webviewer/81.jpg
+../../../../looseends/ass45250f9f0048.htm
+../../../../looseends/ass45250f9f0048.txt
+
+
+(
+UnitPrice12 ( PriceDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role45250f9f0052.htm
+
+
+
+Unit3 ( theUnit3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role45250f9f0070.htm
+
+
+
+)
+)

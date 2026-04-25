@@ -1,0 +1,1 @@
+Financial instrument to which a quote is related.

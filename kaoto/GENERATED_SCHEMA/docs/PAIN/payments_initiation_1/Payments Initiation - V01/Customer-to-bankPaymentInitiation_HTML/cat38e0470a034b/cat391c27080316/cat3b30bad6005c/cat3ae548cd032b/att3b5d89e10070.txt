@@ -1,0 +1,1 @@
+Pre-allocate shares only if fully dealt.

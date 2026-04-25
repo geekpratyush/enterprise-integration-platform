@@ -1,0 +1,1 @@
+Date and time the debtor requests the clearing agent to process the payment instruction.

@@ -1,0 +1,1 @@
+Party that owes an amount of money to the creditor. The debtor is also the debit account owner. 

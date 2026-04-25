@@ -1,0 +1,9 @@
+The first agent confirms the payment acceptance, after checking authorization procedures, doing validation and assessing static and dynamic risk. This 'confirm acceptance' activity can be communicated to the initiating party (through the forwarding agent - if any) by means of an acceptance acknowledgement.
+
+The acceptance acknowledgement means that :
+· the first agent accepts the responsability to execute the payment orders.
+
+· the payment orders will be processed by the first agent and will trigger accounting entries on the debtor's account maintained at the first agent.
+
+Note : depending on the contract agreed with the debtor/initiating party, an acceptance acknowledgement and/or a debit advice can be sent.  An acceptance acknowledgement would be sent before the actual item(s) (ie one single batch or several individual debit entry/ies for the payment order)  is/are registered to the debtor's account, whereas a debit advice would be sent after the item(s) has/have been registered to the debtor's account.
+

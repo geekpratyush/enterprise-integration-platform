@@ -1,0 +1,1 @@
+If ClearingChannel is used, one of the following codes must be used: PMNS, RTGS or RTNS. Domestic codes may complement the ClearingChannel in the SubType.

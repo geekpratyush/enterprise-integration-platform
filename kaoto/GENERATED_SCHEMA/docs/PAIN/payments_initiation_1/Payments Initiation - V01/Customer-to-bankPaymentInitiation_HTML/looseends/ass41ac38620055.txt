@@ -1,0 +1,1 @@
+DelivererIntermediaryRule: name changed to DeliverersCustodianRule and modified.

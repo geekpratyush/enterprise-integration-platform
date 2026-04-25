@@ -1,0 +1,1 @@
+Particular time span specified between a start date and an end date.

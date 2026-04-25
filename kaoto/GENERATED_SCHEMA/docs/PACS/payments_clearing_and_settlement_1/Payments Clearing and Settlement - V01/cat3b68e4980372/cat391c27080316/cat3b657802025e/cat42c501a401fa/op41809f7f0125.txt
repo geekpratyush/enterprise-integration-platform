@@ -1,0 +1,1 @@
+If PreviousReference/MessageName is present, it must contain 540 or 542 or must start with sese.001 or sese.002 or sese.005 or sese.006 and Reference must contain the MessageReference from the Application Header.

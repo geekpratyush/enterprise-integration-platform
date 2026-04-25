@@ -1,0 +1,1 @@
+Unique and unambiguous identifier of a system member, as assigned by the system, or the system administrator.

@@ -1,0 +1,2 @@
+The report is precalculated. This type of report is sent when an amendment is proposed.
+

@@ -1,0 +1,2 @@
+Set of characteristics that unambiguously identify the global invoice financing request.
+

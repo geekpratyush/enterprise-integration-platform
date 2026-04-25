@@ -1,0 +1,1 @@
+Specifies the reason why an instruction is reversed in a coded form.

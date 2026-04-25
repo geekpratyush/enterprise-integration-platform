@@ -1,0 +1,1 @@
+Identifies the method used to determine a settlement rate when a disruption event has occurred.

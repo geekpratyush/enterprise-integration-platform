@@ -1,0 +1,1 @@
+Settlement system in which the items cleared are netted before settlement takes place, i.e. the relative positions of the participants are adjusted so that only the in debit participants are requested to fund their net positions in order for all individual items cleared to be settled between at least two or more participants to the net settlement system.

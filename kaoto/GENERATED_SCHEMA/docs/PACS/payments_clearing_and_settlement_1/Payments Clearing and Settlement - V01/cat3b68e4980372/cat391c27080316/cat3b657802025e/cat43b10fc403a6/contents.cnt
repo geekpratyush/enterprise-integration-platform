@@ -1,0 +1,652 @@
+<<MessageComponent>> SettlementData1
+../../../../webviewer/142.jpg
+class43a6b5cd02bb.htm
+class43a6b5cd02bb.txt
+
+
+(
+SettlementDate
+../../../../webviewer/31.jpg
+att43a6b85f0191.htm
+att43a6b85f0191.txt
+
+
+(
+)
+SettlementStatus
+../../../../webviewer/33.jpg
+att43a6b88003d5.htm
+att43a6b88003d5.txt
+
+
+(
+)
+SettlementStatusSubType[0..1]
+../../../../webviewer/33.jpg
+att43a6b8a0022d.htm
+att43a6b8a0022d.txt
+
+
+(
+)
+CashFlowUniqueReference [0..1]
+../../../../webviewer/31.jpg
+att43a6b8e3010a.htm
+att43a6b8e3010a.txt
+
+
+(
+)
+Suspended
+../../../../webviewer/33.jpg
+att43a6b9270327.htm
+att43a6b9270327.txt
+
+
+(
+)
+Pending
+../../../../webviewer/33.jpg
+att43a6b941016d.htm
+att43a6b941016d.txt
+
+
+(
+)
+SettledAmount[ 0..1 ]
+../../../../webviewer/31.jpg
+att43a6b9fb0186.htm
+att43a6b9fb0186.txt
+
+
+(
+)
+SettlementAmount
+../../../../webviewer/31.jpg
+att43a6ba340285.htm
+att43a6ba340285.txt
+
+
+(
+)
+SettlementSystemUniqueReference[0..1]
+../../../../webviewer/31.jpg
+att43b2b50801a2.htm
+att43b2b50801a2.txt
+
+
+(
+)
+ExtendedSettlementStatus
+../../../../webviewer/33.jpg
+att43b2bb7e0038.htm
+att43b2bb7e0038.txt
+
+
+(
+)
+RejectedAmount[ 0..1 ]
+../../../../webviewer/33.jpg
+att43df7ad9026d.htm
+att43df7ad9026d.txt
+
+
+(
+)
+thePaymentAgreement ( PaymentAgreement )
+../../../../webviewer/82.jpg
+../../../../looseends/role43aac98c01c5.htm
+
+
+
+PayingParty ( PartyIdentification7Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role43d4cf2d0387.htm
+
+
+
+ReceivingParty ( PartyIdentification7Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role43d4cf8d02a2.htm
+
+
+
+theSettlementData2 ( SettlementData2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4602b5b8031c.htm
+
+
+
+<<XOR>> SettlementStatusOrExtendedSettlementStatusRule
+../../../../webviewer/34.jpg
+op43b2bbac003e.htm
+
+
+
+(
+)
+)
+<<MessageComponent>> PremiumAmount1
+../../../../webviewer/142.jpg
+class43b504900118.htm
+
+
+
+(
+Amount
+../../../../webviewer/31.jpg
+att43b504a602dd.htm
+att43b504a602dd.txt
+
+
+(
+)
+SettlementDate
+../../../../webviewer/31.jpg
+att43b504bc019f.htm
+att43b504bc019f.txt
+
+
+(
+)
+PremiumQuote ( PremiumQuote1Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role43b512ad02a2.htm
+
+
+
+SettlementParty ( PartyIdentification7Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role43bba5760344.htm
+
+
+
+thePaymentAgreement ( PaymentAgreement )
+../../../../webviewer/82.jpg
+../../../../looseends/role43bba3be0031.htm
+
+
+
+thePremiumAmount2 ( PremiumAmount2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4601075603d0.htm
+
+
+
+theOption2 ( Option2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role43b508340379.htm
+
+
+
+)
+<<MessageComponent>> PremiumAmount2
+../../../../webviewer/142.jpg
+class4601068f01b7.htm
+
+
+
+(
+Amount
+../../../../webviewer/31.jpg
+att4601068f01b9.htm
+att4601068f01b9.txt
+
+
+(
+)
+SettlementDate
+../../../../webviewer/31.jpg
+att4601068f01c1.htm
+att4601068f01c1.txt
+
+
+(
+)
+thePaymentAgreement ( PaymentAgreement )
+../../../../webviewer/82.jpg
+../../../../looseends/role4601068f0214.htm
+
+
+
+SettlementParty ( PartyIdentification8Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role4601068f01e9.htm
+
+
+
+PremiumQuote ( PremiumQuote1Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role46026b3600d6.htm
+
+
+
+thePremiumAmount1 ( PremiumAmount1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4601075603db.htm
+
+
+
+theOption3 ( Option3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role46025fca0045.htm
+
+
+
+)
+<<MessageComponent>> SettlementData2
+../../../../webviewer/142.jpg
+class4602b4db0260.htm
+class4602b4db0260.txt
+
+
+(
+SettlementDate
+../../../../webviewer/31.jpg
+att4602b4db026a.htm
+att4602b4db026a.txt
+
+
+(
+)
+SettlementStatus
+../../../../webviewer/33.jpg
+att4602b4db0274.htm
+att4602b4db0274.txt
+
+
+(
+)
+SettlementStatusSubType[0..1]
+../../../../webviewer/33.jpg
+att4602b4db027e.htm
+att4602b4db027e.txt
+
+
+(
+)
+CashFlowUniqueReference [0..1]
+../../../../webviewer/31.jpg
+att4602b4db0292.htm
+att4602b4db0292.txt
+
+
+(
+)
+Suspended
+../../../../webviewer/33.jpg
+att4602b4db029c.htm
+att4602b4db029c.txt
+
+
+(
+)
+Pending
+../../../../webviewer/33.jpg
+att4602b4db02a6.htm
+att4602b4db02a6.txt
+
+
+(
+)
+SettledAmount[ 0..1 ]
+../../../../webviewer/31.jpg
+att4602b4db02b0.htm
+att4602b4db02b0.txt
+
+
+(
+)
+SettlementAmount
+../../../../webviewer/31.jpg
+att4602b4db02c4.htm
+att4602b4db02c4.txt
+
+
+(
+)
+SettlementSystemUniqueReference[0..1]
+../../../../webviewer/31.jpg
+att4602b4db02ce.htm
+att4602b4db02ce.txt
+
+
+(
+)
+ExtendedSettlementStatus
+../../../../webviewer/33.jpg
+att4602b4db02d8.htm
+att4602b4db02d8.txt
+
+
+(
+)
+RejectedAmount[ 0..1 ]
+../../../../webviewer/33.jpg
+att4602b4db02ec.htm
+att4602b4db02ec.txt
+
+
+(
+)
+thePaymentAgreement ( PaymentAgreement )
+../../../../webviewer/82.jpg
+../../../../looseends/role4607808b024d.htm
+
+
+
+theSettlementData1 ( SettlementData1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4602b5b80330.htm
+
+
+
+PayingParty ( PartyIdentification8Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role4602b4db0305.htm
+
+
+
+ReceivingParty ( PartyIdentification8Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role4602b4db0329.htm
+
+
+
+<<XOR>> SettlementStatusOrExtendedSettlementStatusRule
+../../../../webviewer/34.jpg
+op4602b4db0365.htm
+
+
+
+(
+)
+)
+Associations
+../../../../webviewer/assoccat.gif
+
+
+
+
+(
+<<SWSTrace>> (thePaymentAgreement:PaymentAgreement) (theSettlementData1:SettlementData1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass43aac98b02d2.htm
+
+
+
+(
+PaymentAgreement ( thePaymentAgreement )
+../../../../webviewer/82.jpg
+../../../../looseends/role43aac98c01a7.htm
+
+
+
+SettlementData1 ( theSettlementData1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role43aac98c01c5.htm
+
+
+
+)
+Association (PayingParty:PartyIdentification7Choice) (theSettlementData1:SettlementData1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass43d4cf2d0188.htm
+../../../../looseends/ass43d4cf2d0188.txt
+
+
+(
+PartyIdentification7Choice ( PayingParty )
+../../../../webviewer/82.jpg
+../../../../looseends/role43d4cf2d0373.htm
+
+
+
+SettlementData1 ( theSettlementData1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role43d4cf2d0387.htm
+
+
+
+)
+Association (ReceivingParty:PartyIdentification7Choice) (theSettlementData1:SettlementData1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass43d4cf8c03d7.htm
+../../../../looseends/ass43d4cf8c03d7.txt
+
+
+(
+PartyIdentification7Choice ( ReceivingParty )
+../../../../webviewer/82.jpg
+../../../../looseends/role43d4cf8d0298.htm
+
+
+
+SettlementData1 ( theSettlementData1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role43d4cf8d02a2.htm
+
+
+
+)
+Association (PremiumQuote:PremiumQuote1Choice) (thePremiumAmount1:PremiumAmount1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass43b512ac02a0.htm
+../../../../looseends/ass43b512ac02a0.txt
+
+
+(
+PremiumQuote1Choice ( PremiumQuote )
+../../../../webviewer/82.jpg
+../../../../looseends/role43b512ad0161.htm
+
+
+
+PremiumAmount1 ( thePremiumAmount1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role43b512ad02a2.htm
+
+
+
+)
+Association (SettlementParty:PartyIdentification7Choice) (thePremiumAmount1:PremiumAmount1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass43bba57502c0.htm
+../../../../looseends/ass43bba57502c0.txt
+
+
+(
+PartyIdentification7Choice ( SettlementParty )
+../../../../webviewer/82.jpg
+../../../../looseends/role43bba57601c7.htm
+
+
+
+PremiumAmount1 ( thePremiumAmount1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role43bba5760344.htm
+
+
+
+)
+<<SWSTrace>> (thePaymentAgreement:PaymentAgreement) (thePremiumAmount1:PremiumAmount1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass43bba3bd0365.htm
+
+
+
+(
+PaymentAgreement ( thePaymentAgreement )
+../../../../webviewer/82.jpg
+../../../../looseends/role43bba3bd0397.htm
+
+
+
+PremiumAmount1 ( thePremiumAmount1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role43bba3be0031.htm
+
+
+
+)
+<<SWSTrace>> (thePaymentAgreement:PaymentAgreement) (thePremiumAmount2:PremiumAmount2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4601068f0211.htm
+
+
+
+(
+PaymentAgreement ( thePaymentAgreement )
+../../../../webviewer/82.jpg
+../../../../looseends/role4601068f0212.htm
+
+
+
+PremiumAmount2 ( thePremiumAmount2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4601068f0214.htm
+
+
+
+)
+Association (SettlementParty:PartyIdentification8Choice) (thePremiumAmount2:PremiumAmount2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4601068f01df.htm
+../../../../looseends/ass4601068f01df.txt
+
+
+(
+PartyIdentification8Choice ( SettlementParty )
+../../../../webviewer/82.jpg
+../../../../looseends/role4601068f01e0.htm
+
+
+
+PremiumAmount2 ( thePremiumAmount2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4601068f01e9.htm
+
+
+
+)
+Association (PremiumQuote:PremiumQuote1Choice) (thePremiumAmount2:PremiumAmount2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass46026b3600d4.htm
+../../../../looseends/ass46026b3600d4.txt
+
+
+(
+PremiumQuote1Choice ( PremiumQuote )
+../../../../webviewer/82.jpg
+../../../../looseends/role46026b3600d5.htm
+
+
+
+PremiumAmount2 ( thePremiumAmount2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role46026b3600d6.htm
+
+
+
+)
+<<IsAnAlternativeFor>> (thePremiumAmount1:PremiumAmount1) (thePremiumAmount2:PremiumAmount2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass460107560113.htm
+
+
+
+(
+PremiumAmount1 ( thePremiumAmount1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4601075603d0.htm
+
+
+
+PremiumAmount2 ( thePremiumAmount2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4601075603db.htm
+
+
+
+)
+<<SWSTrace>> (thePaymentAgreement:PaymentAgreement) (theSettlementData2:SettlementData2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4607808a02e1.htm
+
+
+
+(
+PaymentAgreement ( thePaymentAgreement )
+../../../../webviewer/82.jpg
+../../../../looseends/role4607808b0239.htm
+
+
+
+SettlementData2 ( theSettlementData2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4607808b024d.htm
+
+
+
+)
+<<IsAnAlternativeFor>> (theSettlementData1:SettlementData1) (theSettlementData2:SettlementData2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4602b5b800b9.htm
+
+
+
+(
+SettlementData1 ( theSettlementData1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4602b5b8031c.htm
+
+
+
+SettlementData2 ( theSettlementData2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4602b5b80330.htm
+
+
+
+)
+Association (PayingParty:PartyIdentification8Choice) (theSettlementData2:SettlementData2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4602b4db0302.htm
+../../../../looseends/ass4602b4db0302.txt
+
+
+(
+PartyIdentification8Choice ( PayingParty )
+../../../../webviewer/82.jpg
+../../../../looseends/role4602b4db0303.htm
+
+
+
+SettlementData2 ( theSettlementData2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4602b4db0305.htm
+
+
+
+)
+Association (ReceivingParty:PartyIdentification8Choice) (theSettlementData2:SettlementData2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4602b4db031f.htm
+../../../../looseends/ass4602b4db031f.txt
+
+
+(
+PartyIdentification8Choice ( ReceivingParty )
+../../../../webviewer/82.jpg
+../../../../looseends/role4602b4db0320.htm
+
+
+
+SettlementData2 ( theSettlementData2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4602b4db0329.htm
+
+
+
+)
+)

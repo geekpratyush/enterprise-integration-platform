@@ -1,0 +1,1 @@
+Indicates the scenario in which the quote is (requested to be) used (ie, indicative, firm, restricted tradeable or counter).

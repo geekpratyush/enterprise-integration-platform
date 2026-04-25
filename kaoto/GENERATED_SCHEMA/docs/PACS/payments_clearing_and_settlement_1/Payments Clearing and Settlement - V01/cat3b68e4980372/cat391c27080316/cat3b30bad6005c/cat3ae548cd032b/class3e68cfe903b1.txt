@@ -1,0 +1,1 @@
+Identifier for Swiss securities assigned by Telekurs Financial, the Swiss numbering agency. 

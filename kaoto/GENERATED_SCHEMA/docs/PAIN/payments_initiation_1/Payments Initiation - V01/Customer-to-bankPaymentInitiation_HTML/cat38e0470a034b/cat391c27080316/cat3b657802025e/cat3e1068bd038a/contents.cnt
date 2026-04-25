@@ -1,0 +1,158 @@
+AccountRelatedParty
+../../../../webviewer/18.jpg
+dgm3e1068d300ea.htm
+
+
+
+(
+)
+<<MessageComponent>> InvestmentAccountRelationshipInformation1
+../../../../webviewer/143.jpg
+class3e0b28fe0119.htm
+
+
+
+(
+AccountRelationshipType
+../../../../webviewer/31.jpg
+att3e0b28fe011a.htm
+
+
+
+(
+)
+MoneyLaunderingCheck[0..1]
+../../../../webviewer/31.jpg
+att3e0b28fe011b.htm
+
+
+
+(
+)
+BeneficiaryRate[0..1]
+../../../../webviewer/31.jpg
+att3e0b28fe011c.htm
+
+
+
+(
+)
+ClientIdentification[0..1]
+../../../../webviewer/31.jpg
+att3e0b28fe011d.htm
+att3e0b28fe011d.txt
+
+
+(
+)
+theNewOtherAccountPartyInformation ( NewOtherAccountPartyInformation )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e0b28fe019a.htm
+
+
+
+theDeleteOtherAccountPartyInformation ( DeleteOtherAccountPartyInformation )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e0b28fe018f.htm
+
+
+
+theOtherAccountParty1 ( OtherAccountParty1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3c9707c201b5.htm
+
+
+
+theOtherAccountParty1 ( OtherAccountParty1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3c9707e40363.htm
+
+
+
+theInvestmentAccountRelationshipInformation ( InvestmentAccountRelationshipInformation )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e10690e0196.htm
+../../../../looseends/role3e10690e0196.txt
+
+
+CommunicationDetails ( CommunicationAddress2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e0b28fe0129.htm
+
+
+
+OrganisationOrIndividualChoice ( OrganisationOrIndividualChoice )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e0b28fe0161.htm
+
+
+
+)
+Associations
+../../../../webviewer/assoccat.gif
+
+
+
+
+(
+<<SWSTrace>> (theInvestmentAccountRelationshipInformation:InvestmentAccountRelationshipInformation) (theInvestmentAccountRelationshipInformation1:InvestmentAccountRelationshipInformation1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3e10690d034b.htm
+
+
+
+(
+InvestmentAccountRelationshipInformation ( theInvestmentAccountRelationshipInformation )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e10690e0186.htm
+
+
+
+InvestmentAccountRelationshipInformation1 ( theInvestmentAccountRelationshipInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e10690e0196.htm
+../../../../looseends/role3e10690e0196.txt
+
+
+)
+Association (CommunicationDetails:CommunicationAddress2) (theInvestmentAccountRelationshipInformation1:InvestmentAccountRelationshipInformation1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3e0b28fe011f.htm
+../../../../looseends/ass3e0b28fe011f.txt
+
+
+(
+CommunicationAddress2 ( CommunicationDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e0b28fe0120.htm
+
+
+
+InvestmentAccountRelationshipInformation1 ( theInvestmentAccountRelationshipInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e0b28fe0129.htm
+
+
+
+)
+Association (OrganisationOrIndividualChoice:OrganisationOrIndividualChoice) (theInvestmentAccountRelationshipInformation1:InvestmentAccountRelationshipInformation1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3e0b28fe015e.htm
+../../../../looseends/ass3e0b28fe015e.txt
+
+
+(
+OrganisationOrIndividualChoice ( OrganisationOrIndividualChoice )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e0b28fe015f.htm
+
+
+
+InvestmentAccountRelationshipInformation1 ( theInvestmentAccountRelationshipInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e0b28fe0161.htm
+
+
+
+)
+)

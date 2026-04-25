@@ -1,0 +1,1 @@
+Refers to a set of information explaining how to apply the commission. It may be a table that contains the amount to be paid between banks for the processing of a transaction and other ancillary details (such as whether or not VAT is to be applied or who pays whom).

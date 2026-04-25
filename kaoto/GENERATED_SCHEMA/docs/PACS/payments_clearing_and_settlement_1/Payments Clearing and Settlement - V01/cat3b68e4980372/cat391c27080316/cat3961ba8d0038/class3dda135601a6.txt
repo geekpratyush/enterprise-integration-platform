@@ -1,0 +1,1 @@
+An agent that instructs the next party in the payment chain to carry out the payment. 

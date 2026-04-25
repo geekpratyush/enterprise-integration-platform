@@ -1,0 +1,1 @@
+Identification type has been simplified to Max35Text.

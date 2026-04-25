@@ -1,0 +1,1 @@
+The accounting system of the account owner will book a 'liability/claim' for the transaction concluded with the counterparty  in its internal books.

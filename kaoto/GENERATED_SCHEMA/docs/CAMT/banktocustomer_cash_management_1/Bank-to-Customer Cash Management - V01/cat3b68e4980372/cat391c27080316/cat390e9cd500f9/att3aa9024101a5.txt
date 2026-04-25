@@ -1,0 +1,2 @@
+Indicates the trading phase at the stock exchange, eg, opening auction phase, 
+main trading phase, closing auction phase, etc.

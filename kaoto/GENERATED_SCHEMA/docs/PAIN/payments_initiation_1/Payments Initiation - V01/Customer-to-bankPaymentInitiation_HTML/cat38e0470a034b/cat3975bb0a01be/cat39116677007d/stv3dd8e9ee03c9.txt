@@ -1,0 +1,1 @@
+The first agent checks the payment order to be processed and isolates the individual instructions for which the credit account is in its books.

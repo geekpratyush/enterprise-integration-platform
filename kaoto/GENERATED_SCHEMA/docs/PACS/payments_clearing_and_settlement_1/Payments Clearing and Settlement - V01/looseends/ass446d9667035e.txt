@@ -1,0 +1,1 @@
+Specifies how the transaction should be settled. 

@@ -1,0 +1,1 @@
+Role of a party in the settlement of the transaction.

@@ -1,0 +1,1 @@
+Specifies the time at which the current status was assigned.

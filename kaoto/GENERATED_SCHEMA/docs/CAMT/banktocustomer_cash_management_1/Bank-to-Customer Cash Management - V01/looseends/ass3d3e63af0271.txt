@@ -1,0 +1,1 @@
+Investment fund class held in an investment account.

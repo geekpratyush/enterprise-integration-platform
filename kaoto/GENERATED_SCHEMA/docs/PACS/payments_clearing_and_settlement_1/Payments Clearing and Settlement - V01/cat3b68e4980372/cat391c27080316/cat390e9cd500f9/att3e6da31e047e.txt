@@ -1,0 +1,1 @@
+Is used to specify the desired currency of the quoted price when they differ from the normal trading currency of the instrument being quote requested.

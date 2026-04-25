@@ -1,0 +1,1 @@
+Securities have not yet been received from the counterparty. If the settlement instruction was a received against payment, the cash has been delivered.

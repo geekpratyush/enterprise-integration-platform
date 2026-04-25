@@ -1,0 +1,1 @@
+Similar to a repurchase agreement, with the exception that it is from the purchaser's (customer's) perspective.  Reverse repos offer the holders of fixed income securities a means of temporarily absorbing reserves by selling securities under an agreement to subsequently repurchase them. It offers the customer of the transaction the security as collateral to the loan.

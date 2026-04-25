@@ -1,0 +1,1 @@
+Specifies a type of event related to a system's operation.

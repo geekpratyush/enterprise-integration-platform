@@ -1,0 +1,3 @@
+Instrument that has or represents monetary value and is used to process a payment instruction.
+
+

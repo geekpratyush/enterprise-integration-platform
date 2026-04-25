@@ -1,0 +1,200 @@
+State/Activity Model
+../../../../../webviewer/86.jpg
+stm42bfe9940324.htm
+
+
+
+(
+SingleCreditTransfer
+../../../../../webviewer/87.jpg
+dgm42bfe9940342.htm
+
+
+
+(
+)
+Prepare onward interbank payment
+../../../../../webviewer/91.jpg
+stv42bfee7d0227.htm
+stv42bfee7d0227.txt
+
+
+(
+)
+Send payment
+../../../../../webviewer/91.jpg
+stv42bfee9f00e6.htm
+stv42bfee9f00e6.txt
+
+
+(
+)
+Receive Payment Order
+../../../../../webviewer/91.jpg
+stv42bfeebb01b8.htm
+stv42bfeebb01b8.txt
+
+
+(
+)
+Apply Technical Validation
+../../../../../webviewer/91.jpg
+stv42bfef130042.htm
+stv42bfef130042.txt
+
+
+(
+)
+Apply Business Validation
+../../../../../webviewer/91.jpg
+stv42bff1180227.htm
+
+
+
+(
+)
+Reject payment Order
+../../../../../webviewer/91.jpg
+stv42bff145001b.htm
+stv42bff145001b.txt
+
+
+(
+)
+Assess reject reason code
+../../../../../webviewer/91.jpg
+stv42bff18a038f.htm
+stv42bff18a038f.txt
+
+
+(
+)
+Repair payment order
+../../../../../webviewer/91.jpg
+stv42bff1d502e6.htm
+stv42bff1d502e6.txt
+
+
+(
+)
+Recycle payment order
+../../../../../webviewer/91.jpg
+stv42bff22300bc.htm
+stv42bff22300bc.txt
+
+
+(
+)
+--Not Named--
+../../../../../webviewer/91.jpg
+stv42bff3ab039a.htm
+
+
+
+(
+)
+Assess Interbank Payment Risk
+../../../../../webviewer/91.jpg
+stv42bff3c40008.htm
+
+
+
+(
+)
+Sort Interbank payment
+../../../../../webviewer/91.jpg
+stv42bff6f2024e.htm
+
+
+
+(
+)
+Calculate settlement positions
+../../../../../webviewer/91.jpg
+stv42bff759035f.htm
+
+
+
+(
+)
+Settle Payment order
+../../../../../webviewer/91.jpg
+stv42bfff780023.htm
+
+
+
+(
+)
+Inform about Settlement
+../../../../../webviewer/91.jpg
+stv42bfff8f004f.htm
+
+
+
+(
+)
+NewActivity
+../../../../../webviewer/91.jpg
+stv42c0029e01a9.htm
+
+
+
+(
+)
+--Not Named--
+../../../../../webviewer/93.jpg
+stv42bfeeab00cf.htm
+
+
+
+(
+)
+--Not Named--
+../../../../../webviewer/92.jpg
+stv42bff2430127.htm
+
+
+
+(
+)
+--Not Named--
+../../../../../webviewer/92.jpg
+stv42c000280328.htm
+
+
+
+(
+)
+PaymentClearingAgent A
+../../../../../webviewer/89.jpg
+prt42bfeb230165.htm
+
+
+
+(
+)
+PaymentClearingAgent B
+../../../../../webviewer/89.jpg
+prt42bfece50361.htm
+
+
+
+(
+)
+PaymentSettlementAgent
+../../../../../webviewer/89.jpg
+prt42bfee650060.htm
+
+
+
+(
+)
+)
+Associations
+../../../../../webviewer/assoccat.gif
+
+
+
+
+(
+)

@@ -1,0 +1,1 @@
+Specifies the reason for cancelling a meeting.

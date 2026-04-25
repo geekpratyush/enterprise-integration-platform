@@ -1,0 +1,1 @@
+Document that represents the materialised number of units held by a specific investor at a given date.

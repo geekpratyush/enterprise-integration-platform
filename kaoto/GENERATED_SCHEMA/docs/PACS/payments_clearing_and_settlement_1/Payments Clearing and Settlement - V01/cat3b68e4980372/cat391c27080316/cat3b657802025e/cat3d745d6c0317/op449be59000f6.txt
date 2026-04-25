@@ -1,0 +1,3 @@
+If ChargeBearer is present, then CreditTransferTransactionInformation/ChargeBearer is not allowed.
+If CreditTransferTransactionInformation/ChargeBearer is present, then ChargeBearer  is not allowed.
+CreditTransferTransactionInformation/ChargeBearer and ChargeBearer may both be absent.

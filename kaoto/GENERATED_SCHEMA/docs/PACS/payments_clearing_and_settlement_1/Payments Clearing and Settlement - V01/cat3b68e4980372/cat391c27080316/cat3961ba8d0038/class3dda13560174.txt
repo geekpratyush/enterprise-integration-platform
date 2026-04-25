@@ -1,0 +1,1 @@
+An agent that executes the cash transfer upon the request of either an agreement party, or a clearing agent.

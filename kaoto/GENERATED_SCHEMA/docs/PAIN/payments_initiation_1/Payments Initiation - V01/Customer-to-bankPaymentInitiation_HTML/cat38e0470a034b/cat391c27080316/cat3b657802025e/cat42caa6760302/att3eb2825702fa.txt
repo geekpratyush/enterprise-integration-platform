@@ -1,0 +1,3 @@
+Indicates whether the list order should be immediately executed or not.
+Yes means immediate
+No means wait for a ListExecution or phone call before proceeding with execution of the list order.

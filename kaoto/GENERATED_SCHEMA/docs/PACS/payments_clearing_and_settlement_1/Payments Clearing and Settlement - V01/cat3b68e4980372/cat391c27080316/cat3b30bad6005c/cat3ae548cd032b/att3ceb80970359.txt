@@ -1,0 +1,1 @@
+Settlement cannot be executed as securities are in global form.

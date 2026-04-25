@@ -1,0 +1,1 @@
+Last reported price of a financial instrument in a market, determined by supply and demand.

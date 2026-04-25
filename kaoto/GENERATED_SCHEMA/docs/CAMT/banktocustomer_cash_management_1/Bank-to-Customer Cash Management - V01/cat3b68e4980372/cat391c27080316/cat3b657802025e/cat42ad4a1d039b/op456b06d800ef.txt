@@ -1,0 +1,1 @@
+If CurrentYearType or ExtendedCurrentYearType is not present then PreviousYears is mandatory. If CurrentYearType or ExtendedCurrentYearType is present then PreviousYears is optional.

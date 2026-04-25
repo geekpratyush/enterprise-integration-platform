@@ -1,0 +1,2 @@
+Total amount of commissions related to a specific order.
+

@@ -1,0 +1,1 @@
+Specifies whether an agenda item of a general meeting has been accepted or rejected together with the number of votes.

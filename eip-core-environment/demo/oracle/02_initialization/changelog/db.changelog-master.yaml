@@ -1,0 +1,73 @@
+databaseChangeLog:
+  - changeSet:
+      id: 1-oracle-create-refined-tables
+      author: pratyush
+      changes:
+        - createTable:
+            tableName: BUSINESS_DATA
+            columns:
+              - column:
+                  name: ID
+                  type: NUMBER(19)
+                  autoIncrement: true
+                  constraints:
+                    primaryKey: true
+                    nullable: false
+              - column:
+                  name: TXN_ID
+                  type: VARCHAR2(50)
+              - column:
+                  name: STATUS
+                  type: VARCHAR2(20)
+              - column:
+                  name: PAYLOAD
+                  type: CLOB
+              - column:
+                  name: CREATED_AT
+                  type: TIMESTAMP
+                  defaultValueComputed: CURRENT_TIMESTAMP
+        
+        - createTable:
+            tableName: AUDIT_EVENTS
+            columns:
+              - column:
+                  name: AUDIT_ID
+                  type: VARCHAR2(50)
+                  constraints:
+                    primaryKey: true
+                    nullable: false
+              - column:
+                  name: TIMESTAMP
+                  type: VARCHAR2(50)
+              - column:
+                  name: CORRELATION_ID
+                  type: VARCHAR2(50)
+              - column:
+                  name: ROUTE_ID
+                  type: VARCHAR2(50)
+              - column:
+                  name: IS_ENCRYPTED
+                  type: BOOLEAN
+              - column:
+                  name: PAYLOAD
+                  type: CLOB
+
+        - createTable:
+            tableName: COMPLEX_DATA
+            columns:
+              - column:
+                  name: ID
+                  type: NUMBER(19)
+                  autoIncrement: true
+                  constraints:
+                    primaryKey: true
+                    nullable: false
+              - column:
+                  name: IDENTIFIER
+                  type: VARCHAR2(50)
+              - column:
+                  name: NOTIFICATIONS
+                  type: CLOB
+              - column:
+                  name: ATTACHMENT
+                  type: BLOB

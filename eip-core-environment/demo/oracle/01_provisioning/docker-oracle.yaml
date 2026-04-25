@@ -1,0 +1,32 @@
+services:
+  oracle-platform:
+    image: gvenzl/oracle-free:full
+    container_name: oracle-platform
+    environment:
+      ORACLE_DATABASE: eip_db
+      ORACLE_PASSWORD: eip_password
+      APP_USER: eip_user
+      APP_USER_PASSWORD: eip_password
+    ports:
+      - "1521:1521"
+      - "2484:2484" # Mandatory for Secure TCPS
+    volumes:
+      # Mount certificates + Pre-fabricated Wallet
+      - ../02_initialization/certs/${MODE}:/mnt/certs:ro
+      # Bind persistent data through Named Volume to bypass host UID blocks
+      - oracle_data:/opt/oracle/oradata
+    healthcheck:
+      test: ["CMD", "healthcheck.sh"]
+      interval: 10s
+      timeout: 5s
+      retries: 30
+    networks:
+      - eip-net
+
+networks:
+  eip-net:
+    name: eip-network
+
+volumes:
+  oracle_data:
+    name: eip_oracle_data

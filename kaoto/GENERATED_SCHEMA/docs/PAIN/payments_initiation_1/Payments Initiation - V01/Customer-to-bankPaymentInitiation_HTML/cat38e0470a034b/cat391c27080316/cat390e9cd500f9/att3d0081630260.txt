@@ -1,0 +1,1 @@
+Specifies the nature of the referred document/transaction, eg, invoice or credit note.

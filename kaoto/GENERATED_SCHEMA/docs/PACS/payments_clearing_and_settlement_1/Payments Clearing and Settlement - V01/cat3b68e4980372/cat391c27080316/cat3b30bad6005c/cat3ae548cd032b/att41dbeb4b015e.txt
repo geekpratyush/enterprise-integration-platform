@@ -1,0 +1,1 @@
+Code for payment at end of month of delivery.

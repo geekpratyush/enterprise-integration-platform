@@ -1,0 +1,58 @@
+<<MessageComponent>> Routing
+../../../../webviewer/142.jpg
+class3c29973e012e.htm
+class3c29973e012e.txt
+
+
+(
+List [0..n]
+../../../../webviewer/33.jpg
+att3c1f204b0159.htm
+att3c1f204b0159.txt
+
+
+(
+)
+Firm [0..n]
+../../../../webviewer/31.jpg
+att3c1f205803d8.htm
+
+
+
+(
+)
+theOrganisationList ( OrganisationList )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e8c4dc401a8.htm
+
+
+
+)
+Associations
+../../../../webviewer/assoccat.gif
+
+
+
+
+(
+<<SWSTrace>> (theOrganisationList:OrganisationList) (theRouting:Routing)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3e8c4dc30251.htm
+
+
+
+(
+OrganisationList ( theOrganisationList )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e8c4dc4019e.htm
+
+
+
+Routing ( theRouting )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e8c4dc401a8.htm
+
+
+
+)
+)

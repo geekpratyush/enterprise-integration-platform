@@ -1,0 +1,1 @@
+Specifies the precise type of liquidity management limit.

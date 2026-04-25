@@ -1,0 +1,3 @@
+Place where settlement of the securities takes place.
+
+Note : this is typed by a financial institution identification - as this is the standard way of identifying eg securities settlement agent/central system.

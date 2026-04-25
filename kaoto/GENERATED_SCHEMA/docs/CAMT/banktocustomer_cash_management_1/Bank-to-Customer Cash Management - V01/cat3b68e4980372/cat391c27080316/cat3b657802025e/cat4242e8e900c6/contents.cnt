@@ -1,0 +1,128 @@
+<<MessageComponent>> TransportByRail1
+../../../../webviewer/142.jpg
+class41dbc59e034b.htm
+
+
+
+(
+PlaceOfDelivery[ 1..n ]
+../../../../webviewer/31.jpg
+att41dbe3040258.htm
+att41dbe3040258.txt
+
+
+(
+)
+PlaceOfReceipt[ 0..n ]
+../../../../webviewer/31.jpg
+att41dbe304026c.htm
+att41dbe304026c.txt
+
+
+(
+)
+theSingleTransport1 ( SingleTransport1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role422ec5c90023.htm
+
+
+
+theTransportByRail ( TransportByRail )
+../../../../webviewer/82.jpg
+../../../../looseends/role4235b20202bd.htm
+
+
+
+)
+<<MessageComponent>> TransportByRail2
+../../../../webviewer/142.jpg
+class41ee413202a6.htm
+
+
+
+(
+RailCarrierName[ 0..1 ]
+../../../../webviewer/31.jpg
+att41ee428702bb.htm
+
+
+
+(
+)
+PlaceOfDelivery
+../../../../webviewer/31.jpg
+att41ee434a0315.htm
+att41ee434a0315.txt
+
+
+(
+)
+PlaceOfReceipt
+../../../../webviewer/31.jpg
+att41ee434a031f.htm
+att41ee434a031f.txt
+
+
+(
+)
+theSingleTransport2 ( SingleTransport2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role422d65cf0335.htm
+../../../../looseends/role422d65cf0335.txt
+
+
+theTransportByRail ( TransportByRail )
+../../../../webviewer/82.jpg
+../../../../looseends/role4235b1be0303.htm
+
+
+
+)
+Associations
+../../../../webviewer/assoccat.gif
+
+
+
+
+(
+<<SWSTrace>> (theTransportByRail:TransportByRail) (theTransportByRail1:TransportByRail1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4235b1fc02f0.htm
+
+
+
+(
+TransportByRail ( theTransportByRail )
+../../../../webviewer/82.jpg
+../../../../looseends/role4235b20202a8.htm
+
+
+
+TransportByRail1 ( theTransportByRail1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4235b20202bd.htm
+
+
+
+)
+<<SWSTrace>> (theTransportByRail:TransportByRail) (theTransportByRail2:TransportByRail2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4235b1be0032.htm
+
+
+
+(
+TransportByRail ( theTransportByRail )
+../../../../webviewer/82.jpg
+../../../../looseends/role4235b1be02ef.htm
+
+
+
+TransportByRail2 ( theTransportByRail2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4235b1be0303.htm
+
+
+
+)
+)

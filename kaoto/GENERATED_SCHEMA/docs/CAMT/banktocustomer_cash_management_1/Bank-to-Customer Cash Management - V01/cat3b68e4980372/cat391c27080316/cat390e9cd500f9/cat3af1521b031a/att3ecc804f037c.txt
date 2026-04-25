@@ -1,0 +1,1 @@
+Minimum amount of money that should remain on the debtor's account, for cash management purposes.

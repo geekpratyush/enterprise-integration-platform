@@ -1,0 +1,1 @@
+Reported when the cancellation cannot be accepted because of a customer decision (Creditor).

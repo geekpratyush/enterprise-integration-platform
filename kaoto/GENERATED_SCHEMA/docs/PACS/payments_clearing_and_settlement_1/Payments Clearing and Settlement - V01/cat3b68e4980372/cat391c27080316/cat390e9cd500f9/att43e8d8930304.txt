@@ -1,0 +1,1 @@
+Indicates that the premium is given per attendee.

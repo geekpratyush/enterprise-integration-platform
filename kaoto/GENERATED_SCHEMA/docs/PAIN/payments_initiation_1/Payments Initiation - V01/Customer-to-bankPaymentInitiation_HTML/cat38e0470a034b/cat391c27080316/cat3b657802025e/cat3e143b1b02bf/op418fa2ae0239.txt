@@ -1,0 +1,1 @@
+Either IndividualOrderDetails/CashSettlementDetails or BulkCashSettlementDetails may be present, but not both.

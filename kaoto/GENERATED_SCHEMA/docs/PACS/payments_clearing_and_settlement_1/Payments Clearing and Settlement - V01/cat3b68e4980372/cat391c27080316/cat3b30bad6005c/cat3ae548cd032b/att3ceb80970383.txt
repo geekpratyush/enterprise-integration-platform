@@ -1,0 +1,1 @@
+Payment for a buy of securities was received after the cut-off time for completing the settlement on a same day basis.

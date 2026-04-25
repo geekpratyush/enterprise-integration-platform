@@ -1,0 +1,1 @@
+Either NoSpecifiedReason or ReasonDetails must be present, but not both.

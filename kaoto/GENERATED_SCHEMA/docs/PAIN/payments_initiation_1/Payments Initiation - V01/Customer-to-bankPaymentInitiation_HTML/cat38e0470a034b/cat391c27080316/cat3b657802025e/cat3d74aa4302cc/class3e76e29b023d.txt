@@ -1,0 +1,1 @@
+Reports either on business day information or on a business error.

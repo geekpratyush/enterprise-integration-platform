@@ -1,0 +1,1 @@
+Type, eg, global or cash reservation, of liquidity management limit applied by the system at the present time.

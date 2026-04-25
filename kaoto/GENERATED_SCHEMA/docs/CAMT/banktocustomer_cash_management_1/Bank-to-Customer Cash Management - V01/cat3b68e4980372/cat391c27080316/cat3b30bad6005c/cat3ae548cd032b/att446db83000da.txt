@@ -1,0 +1,1 @@
+Exchange rate applied is the spot rate.

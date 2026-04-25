@@ -1,0 +1,1 @@
+Settlement is done by the agent instructed to execute a payment instruction.

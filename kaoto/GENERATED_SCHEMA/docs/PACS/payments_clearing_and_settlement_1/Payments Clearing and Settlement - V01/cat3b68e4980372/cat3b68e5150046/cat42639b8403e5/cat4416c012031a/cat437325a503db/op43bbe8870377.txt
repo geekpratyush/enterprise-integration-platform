@@ -1,0 +1,2 @@
+If OriginalGroupInformationAndStatus/GroupStatus is present and is equal to PDNG, then TransactionInformationAndStatus/TransactionStatus must be different from RJCT.
+

@@ -1,0 +1,2 @@
+Date and time at which a price is applied, according to the terms stated in the prospectus.
+

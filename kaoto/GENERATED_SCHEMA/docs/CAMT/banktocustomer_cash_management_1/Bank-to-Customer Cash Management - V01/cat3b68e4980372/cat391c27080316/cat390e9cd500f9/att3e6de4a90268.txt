@@ -1,0 +1,1 @@
+Currency to be used for settlement of the settlement amount.

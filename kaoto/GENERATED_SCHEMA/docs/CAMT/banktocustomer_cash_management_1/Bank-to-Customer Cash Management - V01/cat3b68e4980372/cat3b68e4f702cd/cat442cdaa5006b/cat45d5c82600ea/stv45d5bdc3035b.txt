@@ -1,0 +1,1 @@
+expected transaction information is collected. This can be a repetitive activity.

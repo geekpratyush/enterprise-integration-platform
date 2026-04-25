@@ -1,0 +1,1 @@
+An order pegged against a fixed amount.

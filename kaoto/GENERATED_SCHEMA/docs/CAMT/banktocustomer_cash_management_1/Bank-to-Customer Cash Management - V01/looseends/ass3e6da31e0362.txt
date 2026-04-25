@@ -1,0 +1,1 @@
+Preliminary information on conditions of the order, specified in the quote (request).

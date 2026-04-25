@@ -1,0 +1,200 @@
+<<MessageComponent>> Proxy
+../../../../webviewer/142.jpg
+class435e2c79038d.htm
+class435e2c79038d.txt
+
+
+(
+ProxyType
+../../../../webviewer/31.jpg
+att43609646010e.htm
+
+
+
+(
+)
+theProxyAppointment ( ProxyAppointment )
+../../../../webviewer/82.jpg
+../../../../looseends/role4374a6300385.htm
+
+
+
+PreassignedProxy ( IndividualPerson7 )
+../../../../webviewer/82.jpg
+../../../../looseends/role436b34f800e7.htm
+
+
+
+theProxyParameters ( ProxyParameters )
+../../../../webviewer/82.jpg
+../../../../looseends/role4361dce80295.htm
+
+
+
+)
+<<MessageComponent>> ProxyParameters
+../../../../webviewer/142.jpg
+class443a6b73023e.htm
+
+
+
+(
+ProxyAppointmentInformation[ 0..1 ]
+../../../../webviewer/31.jpg
+att441eb12903ab.htm
+
+
+
+(
+)
+ProxyAppointmentDeadline[ 0..1 ]
+../../../../webviewer/31.jpg
+att43609b1700b4.htm
+
+
+
+(
+)
+ProxyAppointmentElectronicDeadline[ 0..1 ]
+../../../../webviewer/31.jpg
+att441ead7a03d7.htm
+
+
+
+(
+)
+ProxyAppointmentMarketDeadline[ 0..1 ]
+../../../../webviewer/31.jpg
+att43994cef01fd.htm
+
+
+
+(
+)
+theProxyAppointmentInformation ( ProxyAppointmentInformation )
+../../../../webviewer/82.jpg
+../../../../looseends/role443e1854027f.htm
+
+
+
+AuthorisedProxy ( Proxy )
+../../../../webviewer/82.jpg
+../../../../looseends/role4361dce90033.htm
+
+
+
+theMeetingNotice1 ( MeetingNotice1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role443a6c52034d.htm
+
+
+
+)
+Associations
+../../../../webviewer/assoccat.gif
+
+
+
+
+(
+<<SWSTrace>> (theProxyAppointment:ProxyAppointment) (theProxy:Proxy)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4374a62f0275.htm
+
+
+
+(
+ProxyAppointment ( theProxyAppointment )
+../../../../webviewer/82.jpg
+../../../../looseends/role4374a630037b.htm
+
+
+
+Proxy ( theProxy )
+../../../../webviewer/82.jpg
+../../../../looseends/role4374a6300385.htm
+
+
+
+)
+Association (PreassignedProxy:IndividualPerson7) (theProxy:Proxy)
+../../../../webviewer/81.jpg
+../../../../looseends/ass436b34f70190.htm
+
+
+
+(
+IndividualPerson7 ( PreassignedProxy )
+../../../../webviewer/82.jpg
+../../../../looseends/role436b34f800dd.htm
+
+
+
+Proxy ( theProxy )
+../../../../webviewer/82.jpg
+../../../../looseends/role436b34f800e7.htm
+
+
+
+)
+<<SWSTrace>> (theProxyAppointmentInformation:ProxyAppointmentInformation) (theProxyParameters:ProxyParameters)
+../../../../webviewer/81.jpg
+../../../../looseends/ass443e185302f6.htm
+
+
+
+(
+ProxyAppointmentInformation ( theProxyAppointmentInformation )
+../../../../webviewer/82.jpg
+../../../../looseends/role443e18540275.htm
+
+
+
+ProxyParameters ( theProxyParameters )
+../../../../webviewer/82.jpg
+../../../../looseends/role443e1854027f.htm
+
+
+
+)
+Association (AuthorisedProxy:Proxy) (theProxyParameters:ProxyParameters)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4361dce701a3.htm
+../../../../looseends/ass4361dce701a3.txt
+
+
+(
+Proxy ( AuthorisedProxy )
+../../../../webviewer/82.jpg
+../../../../looseends/role4361dce80295.htm
+
+
+
+ProxyParameters ( theProxyParameters )
+../../../../webviewer/82.jpg
+../../../../looseends/role4361dce90033.htm
+
+
+
+)
+Association (Proxy:ProxyParameters) (theMeetingNotice1:MeetingNotice1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass443a6c52002c.htm
+../../../../looseends/ass443a6c52002c.txt
+
+
+(
+ProxyParameters ( Proxy )
+../../../../webviewer/82.jpg
+../../../../looseends/role443a6c52034d.htm
+
+
+
+MeetingNotice1 ( theMeetingNotice1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role443a6c5203e3.htm
+
+
+
+)
+)

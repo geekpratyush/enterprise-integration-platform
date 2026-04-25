@@ -1,0 +1,1 @@
+Provide information about the type of opening instruction and identification of the application request.

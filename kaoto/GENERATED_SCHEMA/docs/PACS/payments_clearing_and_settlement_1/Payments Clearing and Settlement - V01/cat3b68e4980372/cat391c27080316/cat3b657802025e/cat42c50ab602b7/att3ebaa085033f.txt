@@ -1,0 +1,3 @@
+Indicates whether the status request is applicable for all orders.
+Yes = all orders
+No = status for orders matching certain criteria further specified in this message.

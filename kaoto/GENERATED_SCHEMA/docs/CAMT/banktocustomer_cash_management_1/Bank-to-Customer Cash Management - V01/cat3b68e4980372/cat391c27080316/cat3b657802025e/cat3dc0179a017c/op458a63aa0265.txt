@@ -1,0 +1,1 @@
+Either IdentificationType or ExtendedIdentificationType must be present, but not both.

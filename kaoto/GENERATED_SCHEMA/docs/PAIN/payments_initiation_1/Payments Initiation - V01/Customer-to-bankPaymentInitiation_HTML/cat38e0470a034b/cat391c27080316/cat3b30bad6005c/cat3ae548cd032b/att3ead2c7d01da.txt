@@ -1,0 +1,1 @@
+Each trade is split into several amounts and delivered to different accounts of the buyer.

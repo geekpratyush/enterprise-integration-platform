@@ -1,0 +1,1 @@
+Financial Institution that receives the payment instruction from the initiating party and forwards it to the first agent in the payment chain.

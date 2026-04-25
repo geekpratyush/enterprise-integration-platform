@@ -1,0 +1,1 @@
+Either SwitchOrderDetails/InvestmentAccountDetails/OrderOriginatorEligibility or (one or more instances of SwitchOrderDetails/RelatedPartyDetails/OrderOriginatorEligibility) may be present, but not both.

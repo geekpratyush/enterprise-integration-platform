@@ -1,0 +1,1 @@
+Transaction has been successfully processed by the clearing agent.

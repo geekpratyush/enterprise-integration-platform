@@ -1,0 +1,1 @@
+A specified amount or amount range.

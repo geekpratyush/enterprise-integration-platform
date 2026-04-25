@@ -1,0 +1,1 @@
+If OriginalGroupReferenceInformationAndStatus/GroupStatus is present and is RCVD, then OriginalPaymentInformation/OriginalTransactionReferenceInformationAndStatus/TransactionStatus is not allowed

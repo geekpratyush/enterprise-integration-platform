@@ -1,0 +1,1 @@
+Specifies the category of cash clearing system, eg, cheque clearing.

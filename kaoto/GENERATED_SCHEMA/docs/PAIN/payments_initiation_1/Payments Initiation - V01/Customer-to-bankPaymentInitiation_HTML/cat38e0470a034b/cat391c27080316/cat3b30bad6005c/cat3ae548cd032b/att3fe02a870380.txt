@@ -1,0 +1,1 @@
+Transaction is a payment that is processed whenever liquidity is available on the settlement account of a member of the RTGSPlus system.

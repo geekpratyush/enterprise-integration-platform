@@ -1,0 +1,1 @@
+Charge for the execution of a payment transaction.

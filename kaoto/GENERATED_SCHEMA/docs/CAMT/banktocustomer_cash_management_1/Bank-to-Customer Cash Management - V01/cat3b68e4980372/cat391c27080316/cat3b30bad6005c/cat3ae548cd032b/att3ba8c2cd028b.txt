@@ -1,0 +1,1 @@
+Period of time between the end of a business day and the start of the next business day (usually the day after). 

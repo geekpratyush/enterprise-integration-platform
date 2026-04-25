@@ -1,0 +1,3 @@
+Agent between the debtor agent and creditor agent.
+
+Usage: If more than one intermediary agent is present, then IntermediaryAgent2 identifies the agent between the intermediary agent 1 and the intermediary agent 3. 

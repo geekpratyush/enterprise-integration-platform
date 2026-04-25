@@ -1,0 +1,1 @@
+Specifies the method to be used by the first agent to deliver the remittance advice information. 

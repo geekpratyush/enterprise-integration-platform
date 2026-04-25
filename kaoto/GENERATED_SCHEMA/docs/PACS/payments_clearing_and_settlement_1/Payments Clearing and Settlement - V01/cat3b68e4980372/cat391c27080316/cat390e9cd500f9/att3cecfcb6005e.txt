@@ -1,0 +1,1 @@
+Date and time at which all processing conditions for execution of the payment are met and adequate financial cover is available at the account servicing agent.

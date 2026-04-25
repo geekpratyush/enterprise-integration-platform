@@ -1,0 +1,1 @@
+Price of a financial instrument at closing time of the exchange in which it is traded.

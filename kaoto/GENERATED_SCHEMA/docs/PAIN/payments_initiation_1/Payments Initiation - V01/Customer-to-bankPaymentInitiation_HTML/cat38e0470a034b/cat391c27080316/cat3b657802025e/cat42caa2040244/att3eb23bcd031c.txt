@@ -1,0 +1,1 @@
+Unique identifier of execution as assigned by sell-side (broker, exchange, ECN). Uniqueness must be guaranteed within a single trading day or the life of a multi-day order. Firms that  accept multi-day orders should consider embedding a date within the ExecutionIdentification element to assure uniqueness across days.

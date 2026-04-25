@@ -1,0 +1,1 @@
+States whether executions are booked out or accumulated on a partially filled good till order on the day of execution or to accumulate.

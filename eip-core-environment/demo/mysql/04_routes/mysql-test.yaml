@@ -1,0 +1,126 @@
+- route:
+    id: "mysql-kamelet-insert"
+    from:
+      uri: "timer:mysql-trigger-insert?period=10000&repeatCount=5"
+      steps:
+        - setHeader:
+            name: "txnId"
+            simple: "${uuid}"
+        - setBody:
+            constant: "{\"TXN_ID\": \"MY-SQL-001\", \"STATUS\": \"NEW\", \"PAYLOAD\":
+              \"Initial insertion via MySQL SQL Kamelet\"}"
+        - to:
+            uri: "kamelet:eip-sql-sink"
+            parameters:
+              connectionBean: "eip"
+              table: "BUSINESS_DATA"
+              operation: "insert"
+        - wireTap:
+            uri: "direct:mysql-async-audit"
+        - log: ">>> [MYSQL-INSERT] Success: ${body}"
+
+- route:
+    id: "mysql-async-audit"
+    from:
+      uri: "direct:mysql-async-audit"
+      steps:
+        - to: "kamelet:eip-audit-action?encryption=AES"
+        - to:
+            uri: "kamelet:eip-sql-sink"
+            parameters:
+              connectionBean: "eip"
+              table: "AUDIT_EVENTS"
+        - log: ">>> [MYSQL-AUDIT] Asynchronous Audit Captured via Kamelet"
+
+- route:
+    id: "mysql-kamelet-update"
+
+    from:
+      uri: "timer:mysql-trigger-update?delay=5000&period=60000&repeatCount=1"
+      steps:
+        - setBody:
+            constant: "[{\"TXN_ID\": \"MY-SQL-001\"}, {\"$set\": {\"STATUS\":
+              \"PROCESSED\"}}]"
+        - to:
+            uri: "kamelet:eip-sql-action"
+            parameters:
+              connectionBean: "eip"
+              table: "BUSINESS_DATA"
+              operation: "update"
+        - log: ">>> [MYSQL-UPDATE] Success: ${body}"
+
+- route:
+    id: "mysql-kamelet-findall"
+    from:
+      uri: "timer:mysql-trigger-findall?delay=15000&period=60000&repeatCount=1"
+      steps:
+        - setBody:
+            constant: "{}"
+        - to:
+            uri: "kamelet:eip-sql-action"
+            parameters:
+              connectionBean: "eip"
+              table: "BUSINESS_DATA"
+              operation: "findAll"
+        - log: ">>> [MYSQL-FIND-ALL] Count: ${body.size()}"
+
+- route:
+    id: "mysql-kamelet-insert-complex"
+    from:
+      uri: "timer:mysql-trigger-insert-complex?delay=25000&period=60000&repeatCount=1"
+      steps:
+        - setBody:
+            constant: >
+              {
+                "IDENTIFIER": "COMPLEX-001",
+                "NOTIFICATIONS": [
+                  {"type": "email", "active": true},
+                  {"type": "sms", "active": false}
+                ],
+                "ATTACHMENT": {
+                  "$blob": "SGVsbG8sIEJMT0IhIFRoaXMgaXMgYmluYXJ5IGRhdGEu"
+                }
+              }
+        - to:
+            uri: "kamelet:eip-sql-sink"
+            parameters:
+              connectionBean: "eip"
+              table: "COMPLEX_DATA"
+              operation: "insert"
+        - log: ">>> [MYSQL-COMPLEX-INSERT] Success: ${body}"
+
+- route:
+    id: "mysql-kamelet-findall-complex"
+    from:
+      uri: "timer:mysql-trigger-findall-complex?delay=35000&period=60000&repeatCount=1"
+      steps:
+        - setBody:
+            constant: "{}"
+        - to:
+            uri: "kamelet:eip-sql-action"
+            parameters:
+              connectionBean: "eip"
+              table: "COMPLEX_DATA"
+              operation: "findAll"
+        - split:
+            simple: "${body}"
+            steps:
+              - log: ">>> [MYSQL-COMPLEX-FINDALL] Record: ${body}"
+- route:
+    id: "mysql-kamelet-filter-dynamic"
+    from:
+      uri: "timer:mysql-trigger-filter-dyn?delay=45000&period=60000&repeatCount=1"
+      steps:
+        - setBody:
+            constant: |
+              {
+                "TXN_ID": {"$like": "MY-SQL-%"},
+                "STATUS": ["NEW", "PROCESSED"]
+              }
+        - to:
+            uri: "kamelet:eip-sql-action"
+            parameters:
+              connectionBean: "eip"
+              table: "BUSINESS_DATA"
+              operation: "findAll"
+        - log: ">>> [MYSQL-DYNAMIC-FILTER] Matches: ${body}"

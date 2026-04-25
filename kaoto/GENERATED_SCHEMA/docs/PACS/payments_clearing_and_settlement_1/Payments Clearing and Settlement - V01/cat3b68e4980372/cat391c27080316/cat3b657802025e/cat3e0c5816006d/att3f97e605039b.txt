@@ -1,0 +1,1 @@
+Specifies the type of payment when not included in a SWIFT or proprietary format.

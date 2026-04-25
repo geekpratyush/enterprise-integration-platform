@@ -1,0 +1,2 @@
+The physical safekeeping place from where the investor would like its settlement agent
+ to deliver/receive the securities and its identification.

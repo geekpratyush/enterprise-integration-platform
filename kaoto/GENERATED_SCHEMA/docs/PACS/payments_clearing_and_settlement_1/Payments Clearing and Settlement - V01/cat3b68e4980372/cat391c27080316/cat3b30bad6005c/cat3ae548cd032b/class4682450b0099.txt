@@ -1,0 +1,1 @@
+Specifies quantity of a financial instrument

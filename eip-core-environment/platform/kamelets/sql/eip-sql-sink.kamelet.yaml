@@ -1,0 +1,99 @@
+apiVersion: camel.apache.org/v1alpha1
+kind: Kamelet
+metadata:
+  name: eip-sql-sink
+  labels:
+    camel.apache.org/kamelet.type: "sink"
+spec:
+  definition:
+    title: "EIP SQL Sink"
+    description: "Universal RDBMS Sink that accepts JSON and dynamically builds
+      INSERT statements. Mirroring MongoDB Sink structure."
+    required:
+      - table
+    properties:
+      connectionBean:
+        title: Connection Bean
+        description: "The registered DataSource bean (e.g., eip)."
+        type: string
+        connectionBean: "dataSource"
+      database:
+        title: Database
+        description: "The target database/schema name (optional for SQL as it is usually
+          in JDBC URL)."
+        type: string
+        default: ""
+      table:
+        title: Table
+        description: "The target table name."
+        type: string
+      operation:
+        title: Operation
+        description: "The database action (e.g., insert)."
+        type: string
+        default: "insert"
+        enum: [ "insert" ]
+  template:
+    from:
+      uri: "kamelet:source"
+      steps:
+        - choice:
+            when:
+              - simple: "${body} is 'java.lang.String'"
+                steps:
+                  - unmarshal:
+                      json:
+                        library: "Jackson"
+        - setHeader:
+            name: "eip.sql.table"
+            constant: "{{table}}"
+        - setHeader:
+            name: "eip.sql.database"
+            constant: "{{database}}"
+        - script:
+            groovy: |
+              import com.fasterxml.jackson.databind.ObjectMapper
+              import java.sql.Timestamp
+              import java.time.Instant
+              import java.time.format.DateTimeParseException
+              // Move body fields to headers for SQL named parameter mapping
+              if (request.body instanceof Map) {
+                  def mapper = new ObjectMapper()
+                  request.body.each { k, v -> 
+                      if (v instanceof Map && v.containsKey('$blob')) {
+                          try {
+                              request.headers.put(k, v.get('$blob').decodeBase64())
+                          } catch (Exception e) {
+                              request.headers.put(k, v)
+                          }
+                      } else if (v instanceof Map || v instanceof List) {
+                          request.headers.put(k, mapper.writeValueAsString(v))
+                      } else if (v instanceof String && v.matches("^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}.*Z\$")) {
+                          try {
+                              request.headers.put(k, Timestamp.from(Instant.parse(v)))
+                          } catch (Exception e) {
+                              request.headers.put(k, v)
+                          }
+                      } else {
+                          request.headers.put(k, v) 
+                      }
+                  }
+              }
+        - setHeader:
+            name: "dynamicQuery"
+            groovy: |
+              def table = request.headers.get('eip.sql.table')
+              def db = request.headers.get('eip.sql.database')
+              def fullTable = (db != null && !db.trim().isEmpty()) ? "${db}.${table}" : table
+              def payload = request.body
+              if (!(payload instanceof Map)) {
+                  throw new RuntimeException("SQL Sink expects a Map or JSON object body")
+              }
+              def cols = payload.keySet().join(", ")
+              def vals = payload.keySet().collect { ":?" + it }.join(", ")
+              return "INSERT INTO ${fullTable} (${cols}) VALUES (${vals})"
+        - setBody:
+            simple: "${header.dynamicQuery}"
+        - to:
+            uri: "sql:dynamic?dataSource=#{{connectionBean}}&useMessageBodyForSql=true"
+        - log: ">>> [SQL-SINK] Inserted into {{table}} using {{connectionBean}}"

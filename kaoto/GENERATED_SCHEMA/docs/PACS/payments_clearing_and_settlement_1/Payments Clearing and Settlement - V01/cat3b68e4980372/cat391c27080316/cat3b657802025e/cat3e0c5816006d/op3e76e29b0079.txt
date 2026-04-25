@@ -1,0 +1,1 @@
+Either Limit or BusinessError must be present, but not both.

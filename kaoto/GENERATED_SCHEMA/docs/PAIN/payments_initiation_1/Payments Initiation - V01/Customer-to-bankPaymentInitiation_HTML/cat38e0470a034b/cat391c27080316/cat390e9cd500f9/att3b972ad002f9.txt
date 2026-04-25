@@ -1,0 +1,1 @@
+Rate used for calculation of the tax.

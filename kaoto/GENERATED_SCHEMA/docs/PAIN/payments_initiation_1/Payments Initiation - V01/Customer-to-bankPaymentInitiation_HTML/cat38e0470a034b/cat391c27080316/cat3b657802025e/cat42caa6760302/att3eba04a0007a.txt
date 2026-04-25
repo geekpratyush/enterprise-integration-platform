@@ -1,0 +1,1 @@
+Identifies the total number of strike price entries across all messages with the same ListIdentification.

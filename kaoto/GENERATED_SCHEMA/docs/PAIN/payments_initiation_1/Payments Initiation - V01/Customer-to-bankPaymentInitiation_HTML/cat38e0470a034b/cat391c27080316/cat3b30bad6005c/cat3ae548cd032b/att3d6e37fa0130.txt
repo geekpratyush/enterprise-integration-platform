@@ -1,0 +1,1 @@
+Transaction has been validated by the clearing agent.

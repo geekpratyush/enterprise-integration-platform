@@ -1,0 +1,1 @@
+Date by which the securities have to be registered. This deadline is set by the issuer.

@@ -1,0 +1,2998 @@
+<<MessageComponent>> DirectDebitTransaction
+../../../../webviewer/142.jpg
+class43833ef601f4.htm
+class43833ef601f4.txt
+
+
+(
+PreNotificationIdentification[0..1]
+../../../../webviewer/31.jpg
+att43833fcf0363.htm
+
+
+
+(
+)
+PreNotificationDate[0..1]
+../../../../webviewer/31.jpg
+att438340280005.htm
+
+
+
+(
+)
+thePaymentInformation14 ( PaymentInformation14 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4384e2cc0382.htm
+
+
+
+theGenericPaymentTransaction4 ( GenericPaymentTransaction4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role438340fb03a6.htm
+
+
+
+MandateRelatedInformation ( MandateRelatedInformation )
+../../../../webviewer/82.jpg
+../../../../looseends/role43833f540010.htm
+
+
+
+theDirectDebitMandate ( DirectDebitMandate )
+../../../../webviewer/82.jpg
+../../../../looseends/role43833fbc022e.htm
+
+
+
+CreditorSchemeIdentification ( PartyIdentification7 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4383406f03b6.htm
+
+
+
+)
+<<MessageComponent>> MandateRelatedInformation
+../../../../webviewer/142.jpg
+class4378aa46011d.htm
+class4378aa46011d.txt
+
+
+(
+MandateIdentification [0..1]
+../../../../webviewer/31.jpg
+att4378aa9001b1.htm
+
+
+
+(
+)
+DateOfSignature[0..1]
+../../../../webviewer/31.jpg
+att438b28830241.htm
+
+
+
+(
+)
+AmendmentIndicator [0..1]
+../../../../webviewer/31.jpg
+att4378aab600e4.htm
+
+
+
+(
+)
+ElectronicSignature[0..1]
+../../../../webviewer/31.jpg
+att4378aacd023c.htm
+
+
+
+(
+)
+FirstCollectionDate [0..1]
+../../../../webviewer/31.jpg
+att4378aae5036e.htm
+
+
+
+(
+)
+FinalCollectionDate [0..1]
+../../../../webviewer/31.jpg
+att4378ab090230.htm
+
+
+
+(
+)
+Frequency [0..1]
+../../../../webviewer/31.jpg
+att4378ab1400e1.htm
+
+
+
+(
+)
+theDirectDebitTransaction ( DirectDebitTransaction )
+../../../../webviewer/82.jpg
+../../../../looseends/role43833f540006.htm
+
+
+
+AmendmentInformationDetails ( AmendmentInformationDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role438dd10b02af.htm
+
+
+
+theDirectDebitMandate ( DirectDebitMandate )
+../../../../webviewer/82.jpg
+../../../../looseends/role43833c5201a9.htm
+
+
+
+<<Textual>> AmendmentIndicatorRule
+../../../../webviewer/36.jpg
+op43bbf75e02ea.htm
+op43bbf75e02ea.txt
+
+
+(
+)
+)
+<<MessageComponent>> AmendmentInformationDetails
+../../../../webviewer/142.jpg
+class438dd0510248.htm
+class438dd0510248.txt
+
+
+(
+OriginalMandateIdentification[0..1]
+../../../../webviewer/31.jpg
+att438dd09001b3.htm
+att438dd09001b3.txt
+
+
+(
+)
+OriginalFinalCollectionDate[0..1]
+../../../../webviewer/31.jpg
+att438dd22c029a.htm
+att438dd22c029a.txt
+
+
+(
+)
+OriginalFrequency[0..1]
+../../../../webviewer/31.jpg
+att438dd2430077.htm
+att438dd2430077.txt
+
+
+(
+)
+theMandateRelatedInformation ( MandateRelatedInformation )
+../../../../webviewer/82.jpg
+../../../../looseends/role438dd10b02ad.htm
+
+
+
+OriginalCreditorSchemeIdentification ( PartyIdentification7 )
+../../../../webviewer/82.jpg
+../../../../looseends/role439045e9021c.htm
+
+
+
+OriginalDebtorAccount ( CashAccount3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4390464601d1.htm
+
+
+
+OriginalDebtor ( PartyIdentification7 )
+../../../../webviewer/82.jpg
+../../../../looseends/role439050fb02bd.htm
+
+
+
+theDirectDebitMandate ( DirectDebitMandate )
+../../../../webviewer/82.jpg
+../../../../looseends/role43938d1c0381.htm
+
+
+
+OriginalDebtorAgent ( FinancialInstitutionIdentification2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4390515002e9.htm
+
+
+
+OriginalCreditorAgent ( FinancialInstitutionIdentification2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4390514a0222.htm
+
+
+
+)
+<<MessageComponent>> AmendmentInformationDetails1
+../../../../webviewer/142.jpg
+class446dd8eb0180.htm
+class446dd8eb0180.txt
+
+
+(
+OriginalMandateIdentification[0..1]
+../../../../webviewer/31.jpg
+att446dd8eb039c.htm
+att446dd8eb039c.txt
+
+
+(
+)
+OriginalFinalCollectionDate[0..1]
+../../../../webviewer/31.jpg
+att446dd8ed0024.htm
+att446dd8ed0024.txt
+
+
+(
+)
+OriginalFrequency[0..1]
+../../../../webviewer/31.jpg
+att446dd8ed0092.htm
+att446dd8ed0092.txt
+
+
+(
+)
+theMandateRelatedInformation1 ( MandateRelatedInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role446dd910031e.htm
+
+
+
+OriginalCreditorSchemeIdentification ( PartyIdentification8 )
+../../../../webviewer/82.jpg
+../../../../looseends/role446dd8ed02b9.htm
+
+
+
+OriginalDebtor ( PartyIdentification8 )
+../../../../webviewer/82.jpg
+../../../../looseends/role446dd8ee0315.htm
+
+
+
+theDirectDebitMandate ( DirectDebitMandate )
+../../../../webviewer/82.jpg
+../../../../looseends/role446dd8ef0167.htm
+
+
+
+OriginalCreditorAgent ( BranchAndFinancialInstitutionIdentification3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role446dd8f00174.htm
+
+
+
+OriginalDebtorAgent ( BranchAndFinancialInstitutionIdentification3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role446dd8ef03ac.htm
+
+
+
+OriginalDebtorAccount ( CashAccount7 )
+../../../../webviewer/82.jpg
+../../../../looseends/role446dd8ee015c.htm
+
+
+
+OriginalCreditorAgentAccount ( CashAccount7 )
+../../../../webviewer/82.jpg
+../../../../looseends/role446dda1a007d.htm
+
+
+
+OriginalDebtorAgentAccount ( CashAccount7 )
+../../../../webviewer/82.jpg
+../../../../looseends/role446dd9d60024.htm
+
+
+
+theAmendmentInformationDetails2 ( AmendmentInformationDetails2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4513f5ae037d.htm
+
+
+
+theAmendmentInformationDetails3 ( AmendmentInformationDetails3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4513f5ab0301.htm
+
+
+
+theAmendmentInformationDetails4 ( AmendmentInformationDetails4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456de46802f7.htm
+
+
+
+theAmendmentInformationDetails5 ( AmendmentInformationDetails5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role457fccaf0000.htm
+
+
+
+)
+<<MessageComponent>> DirectDebitTransaction1
+../../../../webviewer/142.jpg
+class446dd8ff01bb.htm
+class446dd8ff01bb.txt
+
+
+(
+PreNotificationIdentification[0..1]
+../../../../webviewer/31.jpg
+att446dd8ff02ab.htm
+
+
+
+(
+)
+PreNotificationDate[0..1]
+../../../../webviewer/31.jpg
+att446dd9020115.htm
+
+
+
+(
+)
+theDirectDebitTransactionInformation2 ( DirectDebitTransactionInformation2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role446a48450054.htm
+
+
+
+theDirectDebitTransactionInformation1 ( DirectDebitTransactionInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role447167f00194.htm
+
+
+
+theDirectDebitMandate ( DirectDebitMandate )
+../../../../webviewer/82.jpg
+../../../../looseends/role446dd90300b2.htm
+
+
+
+CreditorSchemeIdentification ( PartyIdentification8 )
+../../../../webviewer/82.jpg
+../../../../looseends/role446dd9030207.htm
+
+
+
+MandateRelatedInformation ( MandateRelatedInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role446dd9020288.htm
+
+
+
+theDirectDebitTransaction2 ( DirectDebitTransaction2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4513e3ec01c6.htm
+
+
+
+theDirectDebitTransaction3 ( DirectDebitTransaction3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4513e3f50396.htm
+
+
+
+theDirectDebitTransaction4 ( DirectDebitTransaction4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456da366019e.htm
+
+
+
+theDirectDebitTransaction5 ( DirectDebitTransaction5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role457f996b01a9.htm
+
+
+
+)
+<<MessageComponent>> MandateRelatedInformation1
+../../../../webviewer/142.jpg
+class446dd90e00cc.htm
+class446dd90e00cc.txt
+
+
+(
+MandateIdentification [0..1]
+../../../../webviewer/31.jpg
+att446dd90e01e5.htm
+
+
+
+(
+)
+DateOfSignature[0..1]
+../../../../webviewer/31.jpg
+att446dd90e0285.htm
+
+
+
+(
+)
+AmendmentIndicator [0..1]
+../../../../webviewer/31.jpg
+att446dd90f009c.htm
+
+
+
+(
+)
+ElectronicSignature[0..1]
+../../../../webviewer/31.jpg
+att446dd910009d.htm
+
+
+
+(
+)
+FirstCollectionDate [0..1]
+../../../../webviewer/31.jpg
+att446dd910013d.htm
+
+
+
+(
+)
+FinalCollectionDate [0..1]
+../../../../webviewer/31.jpg
+att446dd91001e8.htm
+
+
+
+(
+)
+Frequency [0..1]
+../../../../webviewer/31.jpg
+att446dd9100256.htm
+
+
+
+(
+)
+theOriginalTransactionReference1 ( OriginalTransactionReference1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role447b02d1021f.htm
+
+
+
+theDirectDebitTransaction1 ( DirectDebitTransaction1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role446dd9020241.htm
+
+
+
+theDirectDebitMandate ( DirectDebitMandate )
+../../../../webviewer/82.jpg
+../../../../looseends/role446dd91103c0.htm
+
+
+
+AmendmentInformationDetails ( AmendmentInformationDetails1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role446dd91003be.htm
+
+
+
+theMandateRelatedInformation2 ( MandateRelatedInformation2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4513e4250146.htm
+
+
+
+theMandateRelatedInformation3 ( MandateRelatedInformation3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role451050e300d4.htm
+
+
+
+theMandateRelatedInformation5 ( MandateRelatedInformation5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role457d28bb03b6.htm
+
+
+
+theMandateRelatedInformation4 ( MandateRelatedInformation4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456da3bf019e.htm
+
+
+
+<<Textual>> AmendmentIndicatorRule
+../../../../webviewer/36.jpg
+op446dd9120191.htm
+op446dd9120191.txt
+
+
+(
+)
+)
+<<MessageComponent>> AmendmentInformationDetails2
+../../../../webviewer/142.jpg
+class451105ce00a7.htm
+class451105ce00a7.txt
+
+
+(
+OriginalMandateIdentification[0..1]
+../../../../webviewer/31.jpg
+att451105ce00b2.htm
+att451105ce00b2.txt
+
+
+(
+)
+theMandateRelatedInformation2 ( MandateRelatedInformation2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role45110473039c.htm
+
+
+
+theDirectDebitMandate ( DirectDebitMandate )
+../../../../webviewer/82.jpg
+../../../../looseends/role451105ce01a5.htm
+
+
+
+OriginalDebtorAgent ( FinancialInstitution3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role451105ce01df.htm
+
+
+
+OriginalDebtorAccount ( CashAccount8 )
+../../../../webviewer/82.jpg
+../../../../looseends/role451105ce01ff.htm
+
+
+
+theAmendmentInformationDetails1 ( AmendmentInformationDetails1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4513f5ae0387.htm
+
+
+
+OriginalCreditorSchemeIdentification ( PartyIdentification11 )
+../../../../webviewer/82.jpg
+../../../../looseends/role451105ce00fa.htm
+
+
+
+)
+<<MessageComponent>> DirectDebitTransaction2
+../../../../webviewer/142.jpg
+class451103f8023d.htm
+class451103f8023d.txt
+
+
+(
+theDirectDebitTransactionInformation3 ( DirectDebitTransactionInformation3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role451052c20387.htm
+
+
+
+theDirectDebitTransaction1 ( DirectDebitTransaction1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4513e3ec01d0.htm
+
+
+
+CreditorSchemeIdentification ( PartyIdentification11 )
+../../../../webviewer/82.jpg
+../../../../looseends/role451103f80291.htm
+
+
+
+MandateRelatedInformation ( MandateRelatedInformation2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role451103f802b8.htm
+
+
+
+theDirectDebitMandate ( DirectDebitMandate )
+../../../../webviewer/82.jpg
+../../../../looseends/role451103f80284.htm
+
+
+
+)
+<<MessageComponent>> MandateRelatedInformation2
+../../../../webviewer/142.jpg
+class4511047302c8.htm
+class4511047302c8.txt
+
+
+(
+MandateIdentification
+../../../../webviewer/31.jpg
+att4511047302dd.htm
+
+
+
+(
+)
+DateOfSignature[0..1]
+../../../../webviewer/31.jpg
+att4511047302fa.htm
+
+
+
+(
+)
+AmendmentIndicator [0..1]
+../../../../webviewer/31.jpg
+att45110473030e.htm
+
+
+
+(
+)
+ElectronicSignature[0..1]
+../../../../webviewer/31.jpg
+att451104730322.htm
+
+
+
+(
+)
+theOriginalTransactionReference3 ( OriginalTransactionReference3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role45183bab0285.htm
+
+
+
+theOriginalTransactionReference4 ( OriginalTransactionReference4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role451b245d0185.htm
+
+
+
+theOriginalTransactionReference2 ( OriginalTransactionReference2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role45179fc202e2.htm
+
+
+
+theDirectDebitTransaction2 ( DirectDebitTransaction2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role451103f802b6.htm
+
+
+
+theDirectDebitMandate ( DirectDebitMandate )
+../../../../webviewer/82.jpg
+../../../../looseends/role45110473038a.htm
+
+
+
+AmendmentInformationDetails ( AmendmentInformationDetails2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role45110473039e.htm
+
+
+
+theMandateRelatedInformation1 ( MandateRelatedInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4513e425016e.htm
+
+
+
+<<Textual>> AmendmentIndicatorRule
+../../../../webviewer/36.jpg
+op4511047303c3.htm
+op4511047303c3.txt
+
+
+(
+)
+)
+<<MessageComponent>> MandateRelatedInformation3
+../../../../webviewer/142.jpg
+class451050dc0387.htm
+class451050dc0387.txt
+
+
+(
+MandateIdentification
+../../../../webviewer/31.jpg
+att451050dc039b.htm
+
+
+
+(
+)
+DateOfSignature[0..1]
+../../../../webviewer/31.jpg
+att451050dc03b9.htm
+
+
+
+(
+)
+AmendmentIndicator [0..1]
+../../../../webviewer/31.jpg
+att451050dc03d7.htm
+
+
+
+(
+)
+ElectronicSignature[0..1]
+../../../../webviewer/31.jpg
+att451050dd000d.htm
+
+
+
+(
+)
+FirstCollectionDate [0..1]
+../../../../webviewer/31.jpg
+att451050dd002b.htm
+
+
+
+(
+)
+FinalCollectionDate [0..1]
+../../../../webviewer/31.jpg
+att451050dd0049.htm
+
+
+
+(
+)
+Frequency [0..1]
+../../../../webviewer/31.jpg
+att451050dd008f.htm
+
+
+
+(
+)
+theOriginalTransactionReference5 ( OriginalTransactionReference5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role451836770027.htm
+
+
+
+theOriginalTransactionReference6 ( OriginalTransactionReference6 )
+../../../../webviewer/82.jpg
+../../../../looseends/role451794810037.htm
+
+
+
+AmendmentInformationDetails ( AmendmentInformationDetails3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role451050dd0133.htm
+
+
+
+theMandateRelatedInformation1 ( MandateRelatedInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role451050e300fc.htm
+
+
+
+theDirectDebitMandate ( DirectDebitMandate )
+../../../../webviewer/82.jpg
+../../../../looseends/role451050dd011d.htm
+
+
+
+theDirectDebitTransaction3 ( DirectDebitTransaction3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4510506c01e2.htm
+
+
+
+<<Textual>> AmendmentIndicatorRule
+../../../../webviewer/36.jpg
+op451050dd0158.htm
+op451050dd0158.txt
+
+
+(
+)
+)
+<<MessageComponent>> DirectDebitTransaction3
+../../../../webviewer/142.jpg
+class4510506c014b.htm
+class4510506c014b.txt
+
+
+(
+PreNotificationIdentification[0..1]
+../../../../webviewer/31.jpg
+att4510506c015f.htm
+
+
+
+(
+)
+PreNotificationDate[0..1]
+../../../../webviewer/31.jpg
+att4510506c017d.htm
+
+
+
+(
+)
+theDirectDebitTransactionInformation4 ( DirectDebitTransactionInformation4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role45104ea5026b.htm
+
+
+
+MandateRelatedInformation ( MandateRelatedInformation3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4510506c01ec.htm
+
+
+
+theDirectDebitMandate ( DirectDebitMandate )
+../../../../webviewer/82.jpg
+../../../../looseends/role4510506c01a5.htm
+
+
+
+theDirectDebitTransaction1 ( DirectDebitTransaction1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4513e3f503aa.htm
+
+
+
+CreditorSchemeIdentification ( PartyIdentification16 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4510506c01bc.htm
+
+
+
+)
+<<MessageComponent>> AmendmentInformationDetails3
+../../../../webviewer/142.jpg
+class4510f873000b.htm
+class4510f873000b.txt
+
+
+(
+OriginalMandateIdentification[0..1]
+../../../../webviewer/31.jpg
+att4510f8730020.htm
+att4510f8730020.txt
+
+
+(
+)
+OriginalFinalCollectionDate[0..1]
+../../../../webviewer/31.jpg
+att4510f8730033.htm
+att4510f8730033.txt
+
+
+(
+)
+OriginalFrequency[0..1]
+../../../../webviewer/31.jpg
+att4510f8730052.htm
+att4510f8730052.txt
+
+
+(
+)
+theDirectDebitMandate ( DirectDebitMandate )
+../../../../webviewer/82.jpg
+../../../../looseends/role4510f87300ae.htm
+
+
+
+theMandateRelatedInformation3 ( MandateRelatedInformation3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role451050dd0131.htm
+
+
+
+theAmendmentInformationDetails1 ( AmendmentInformationDetails1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4513f5ab030b.htm
+
+
+
+OriginalCreditorAgent ( FinancialInstitution2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4510f87300ba.htm
+
+
+
+OriginalDebtorAgent ( FinancialInstitution3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4510f87300de.htm
+
+
+
+OriginalDebtor ( PartyIdentification15 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4510f873008f.htm
+
+
+
+OriginalCreditorSchemeIdentification ( PartyIdentification16 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4510f8730071.htm
+
+
+
+OriginalDebtorAgentAccount ( CashAccount7 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4510f873013b.htm
+
+
+
+OriginalCreditorAgentAccount ( CashAccount7 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4510f873011b.htm
+
+
+
+OriginalDebtorAccount ( CashAccount8 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4510f87300fd.htm
+
+
+
+)
+<<MessageComponent>> MandateRelatedInformation5
+../../../../webviewer/142.jpg
+class457d285c002a.htm
+class457d285c002a.txt
+
+
+(
+MandateIdentification
+../../../../webviewer/31.jpg
+att457d285c0034.htm
+
+
+
+(
+)
+DateOfSignature
+../../../../webviewer/31.jpg
+att457d285c0048.htm
+
+
+
+(
+)
+AmendmentIndicator [0..1]
+../../../../webviewer/31.jpg
+att457d285c005c.htm
+
+
+
+(
+)
+ElectronicSignature[0..1]
+../../../../webviewer/31.jpg
+att457d285c0070.htm
+
+
+
+(
+)
+FirstCollectionDate [0..1]
+../../../../webviewer/31.jpg
+att457d290b00a4.htm
+
+
+
+(
+)
+FinalCollectionDate [0..1]
+../../../../webviewer/31.jpg
+att457d290b00b8.htm
+
+
+
+(
+)
+Frequency [0..1]
+../../../../webviewer/31.jpg
+att457d290b00cc.htm
+
+
+
+(
+)
+theOriginalTransactionReference9 ( OriginalTransactionReference9 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456ea69202c0.htm
+
+
+
+theDirectDebitTransaction5 ( DirectDebitTransaction5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role457f98e3030d.htm
+
+
+
+theDirectDebitMandate ( DirectDebitMandate )
+../../../../webviewer/82.jpg
+../../../../looseends/role457d285c0087.htm
+
+
+
+AmendmentInformationDetails ( AmendmentInformationDetails5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role457d285c009a.htm
+
+
+
+theMandateRelatedInformation1 ( MandateRelatedInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role457d28bb03de.htm
+
+
+
+<<Textual>> AmendmentIndicatorRule
+../../../../webviewer/36.jpg
+op457d285c00b6.htm
+op457d285c00b6.txt
+
+
+(
+)
+)
+<<MessageComponent>> MandateRelatedInformation4
+../../../../webviewer/142.jpg
+class456da3a0024d.htm
+class456da3a0024d.txt
+
+
+(
+MandateIdentification
+../../../../webviewer/31.jpg
+att456da3a00258.htm
+
+
+
+(
+)
+DateOfSignature
+../../../../webviewer/31.jpg
+att456da3a0027f.htm
+
+
+
+(
+)
+AmendmentIndicator [0..1]
+../../../../webviewer/31.jpg
+att456da3a0029d.htm
+
+
+
+(
+)
+ElectronicSignature[0..1]
+../../../../webviewer/31.jpg
+att456da3a002b1.htm
+
+
+
+(
+)
+theOriginalTransactionReference7 ( OriginalTransactionReference7 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456ded500397.htm
+
+
+
+theOriginalTransactionReference8 ( OriginalTransactionReference8 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456dfc2f01e3.htm
+
+
+
+AmendmentInformationDetails ( AmendmentInformationDetails4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456da3a002ed.htm
+
+
+
+theDirectDebitTransaction4 ( DirectDebitTransaction4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456da34c0312.htm
+
+
+
+theDirectDebitMandate ( DirectDebitMandate )
+../../../../webviewer/82.jpg
+../../../../looseends/role456da3a002dc.htm
+
+
+
+theMandateRelatedInformation1 ( MandateRelatedInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456da3bf01bc.htm
+
+
+
+<<CrossElementComplexRule>> AmendmentIndicator1Rule
+../../../../webviewer/34.jpg
+op45dc46f10046.htm
+op45dc46f10046.txt
+
+
+(
+)
+<<CrossElementComplexRule>> AmendmentIndicator2Rule
+../../../../webviewer/34.jpg
+op45dc47270315.htm
+op45dc47270315.txt
+
+
+(
+)
+)
+<<MessageComponent>> DirectDebitTransaction5
+../../../../webviewer/142.jpg
+class457f98e3029e.htm
+class457f98e3029e.txt
+
+
+(
+PreNotificationIdentification[0..1]
+../../../../webviewer/31.jpg
+att457f98e302b3.htm
+
+
+
+(
+)
+PreNotificationDate[0..1]
+../../../../webviewer/31.jpg
+att457f98e302da.htm
+
+
+
+(
+)
+theDirectDebitTransactionInformation6 ( DirectDebitTransactionInformation6 )
+../../../../webviewer/82.jpg
+../../../../looseends/role457f971c004d.htm
+
+
+
+MandateRelatedInformation ( MandateRelatedInformation5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role457f98e3030f.htm
+
+
+
+CreditorSchemeIdentification ( PartyIdentification18 )
+../../../../webviewer/82.jpg
+../../../../looseends/role457f98e3035f.htm
+
+
+
+theDirectDebitTransaction1 ( DirectDebitTransaction1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role457f996b01c7.htm
+
+
+
+theDirectDebitMandate ( DirectDebitMandate )
+../../../../webviewer/82.jpg
+../../../../looseends/role457f98e30341.htm
+
+
+
+)
+<<MessageComponent>> DirectDebitTransaction4
+../../../../webviewer/142.jpg
+class456da34c02d6.htm
+class456da34c02d6.txt
+
+
+(
+theDirectDebitTransactionInformation5 ( DirectDebitTransactionInformation5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456da22f00e7.htm
+
+
+
+theDirectDebitMandate ( DirectDebitMandate )
+../../../../webviewer/82.jpg
+../../../../looseends/role456da34c0334.htm
+
+
+
+MandateRelatedInformation ( MandateRelatedInformation4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456da34c0314.htm
+
+
+
+theDirectDebitTransaction1 ( DirectDebitTransaction1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456da36601a8.htm
+
+
+
+CreditorSchemeIdentification ( PartyIdentification11 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456da34c02f5.htm
+
+
+
+)
+<<MessageComponent>> AmendmentInformationDetails5
+../../../../webviewer/142.jpg
+class457fcc8301a1.htm
+class457fcc8301a1.txt
+
+
+(
+OriginalMandateIdentification[0..1]
+../../../../webviewer/31.jpg
+att457fcc8301ac.htm
+att457fcc8301ac.txt
+
+
+(
+)
+OriginalFinalCollectionDate[0..1]
+../../../../webviewer/31.jpg
+att457fcc8301bf.htm
+att457fcc8301bf.txt
+
+
+(
+)
+OriginalFrequency[0..1]
+../../../../webviewer/31.jpg
+att457fcc8301d3.htm
+att457fcc8301d3.txt
+
+
+(
+)
+theMandateRelatedInformation5 ( MandateRelatedInformation5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role457d285c0098.htm
+
+
+
+theAmendmentInformationDetails1 ( AmendmentInformationDetails1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role457fccaf0014.htm
+
+
+
+OriginalDebtorAccount ( CashAccount8 )
+../../../../webviewer/82.jpg
+../../../../looseends/role457fcc830303.htm
+
+
+
+OriginalCreditorAgentAccount ( CashAccount7 )
+../../../../webviewer/82.jpg
+../../../../looseends/role457fcc8302e5.htm
+
+
+
+OriginalDebtorAgentAccount ( CashAccount7 )
+../../../../webviewer/82.jpg
+../../../../looseends/role457fcc8302c6.htm
+
+
+
+OriginalCreditorSchemeIdentification ( PartyIdentification18 )
+../../../../webviewer/82.jpg
+../../../../looseends/role457fcc8302a7.htm
+
+
+
+OriginalDebtor ( PartyIdentification20 )
+../../../../webviewer/82.jpg
+../../../../looseends/role457fcc830288.htm
+
+
+
+OriginalDebtorAgent ( FinancialInstitution3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role457fcc830224.htm
+
+
+
+OriginalCreditorAgent ( FinancialInstitution2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role457fcc830206.htm
+
+
+
+theDirectDebitMandate ( DirectDebitMandate )
+../../../../webviewer/82.jpg
+../../../../looseends/role457fcc8301f2.htm
+
+
+
+)
+<<MessageComponent>> AmendmentInformationDetails4
+../../../../webviewer/142.jpg
+class456da466007f.htm
+class456da466007f.txt
+
+
+(
+OriginalMandateIdentification[0..1]
+../../../../webviewer/31.jpg
+att456da4660093.htm
+att456da4660093.txt
+
+
+(
+)
+theAmendmentInformationDetails1 ( AmendmentInformationDetails1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456de468030b.htm
+
+
+
+theDirectDebitMandate ( DirectDebitMandate )
+../../../../webviewer/82.jpg
+../../../../looseends/role456da46600b4.htm
+
+
+
+theMandateRelatedInformation4 ( MandateRelatedInformation4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456da3a002e5.htm
+
+
+
+OriginalDebtorAccount ( CashAccount8 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456da46600ed.htm
+
+
+
+OriginalDebtorAgent ( FinancialInstitution3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456da46600c6.htm
+
+
+
+OriginalCreditorSchemeIdentification ( PartyIdentification17 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456da466010e.htm
+
+
+
+)
+Associations
+../../../../webviewer/assoccat.gif
+
+
+
+
+(
+Association (MandateRelatedInformation:MandateRelatedInformation) (theDirectDebitTransaction:DirectDebitTransaction)
+../../../../webviewer/81.jpg
+../../../../looseends/ass43833f520126.htm
+../../../../looseends/ass43833f520126.txt
+
+
+(
+MandateRelatedInformation ( MandateRelatedInformation )
+../../../../webviewer/82.jpg
+../../../../looseends/role43833f540006.htm
+
+
+
+DirectDebitTransaction ( theDirectDebitTransaction )
+../../../../webviewer/82.jpg
+../../../../looseends/role43833f540010.htm
+
+
+
+)
+<<SWSTrace>> (theDirectDebitMandate:DirectDebitMandate) (theDirectDebitTransaction:DirectDebitTransaction)
+../../../../webviewer/81.jpg
+../../../../looseends/ass43833fbb034f.htm
+
+
+
+(
+DirectDebitMandate ( theDirectDebitMandate )
+../../../../webviewer/82.jpg
+../../../../looseends/role43833fbc01ca.htm
+
+
+
+DirectDebitTransaction ( theDirectDebitTransaction )
+../../../../webviewer/82.jpg
+../../../../looseends/role43833fbc022e.htm
+
+
+
+)
+Association (CreditorSchemeIdentification:PartyIdentification7) (theDirectDebitTransaction:DirectDebitTransaction)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4383406e0346.htm
+
+
+
+(
+PartyIdentification7 ( CreditorSchemeIdentification )
+../../../../webviewer/82.jpg
+../../../../looseends/role4383406f035c.htm
+
+
+
+DirectDebitTransaction ( theDirectDebitTransaction )
+../../../../webviewer/82.jpg
+../../../../looseends/role4383406f03b6.htm
+
+
+
+)
+Association (AmendmentInformationDetails:AmendmentInformationDetails) (theMandateRelatedInformation:MandateRelatedInformation)
+../../../../webviewer/81.jpg
+../../../../looseends/ass438dd10a01a7.htm
+../../../../looseends/ass438dd10a01a7.txt
+
+
+(
+AmendmentInformationDetails ( AmendmentInformationDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role438dd10b02ad.htm
+
+
+
+MandateRelatedInformation ( theMandateRelatedInformation )
+../../../../webviewer/82.jpg
+../../../../looseends/role438dd10b02af.htm
+
+
+
+)
+Association (OriginalCreditorSchemeIdentification:PartyIdentification7) (theAmendmentInformationDetails:AmendmentInformationDetails)
+../../../../webviewer/81.jpg
+../../../../looseends/ass439045e001c8.htm
+../../../../looseends/ass439045e001c8.txt
+
+
+(
+PartyIdentification7 ( OriginalCreditorSchemeIdentification )
+../../../../webviewer/82.jpg
+../../../../looseends/role439045e901f4.htm
+
+
+
+AmendmentInformationDetails ( theAmendmentInformationDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role439045e9021c.htm
+
+
+
+)
+Association (OriginalDebtorAccount:CashAccount3) (theAmendmentInformationDetails:AmendmentInformationDetails)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4390464403af.htm
+../../../../looseends/ass4390464403af.txt
+
+
+(
+CashAccount3 ( OriginalDebtorAccount )
+../../../../webviewer/82.jpg
+../../../../looseends/role43904646019f.htm
+
+
+
+AmendmentInformationDetails ( theAmendmentInformationDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role4390464601d1.htm
+
+
+
+)
+Association (OriginalDebtor:PartyIdentification7) (theAmendmentInformationDetails:AmendmentInformationDetails)
+../../../../webviewer/81.jpg
+../../../../looseends/ass439050f9017a.htm
+../../../../looseends/ass439050f9017a.txt
+
+
+(
+PartyIdentification7 ( OriginalDebtor )
+../../../../webviewer/82.jpg
+../../../../looseends/role439050fb02a9.htm
+
+
+
+AmendmentInformationDetails ( theAmendmentInformationDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role439050fb02bd.htm
+
+
+
+)
+<<SWSTrace>> (theDirectDebitMandate:DirectDebitMandate) (theAmendmentInformationDetails:AmendmentInformationDetails)
+../../../../webviewer/81.jpg
+../../../../looseends/ass43938d1b03b2.htm
+
+
+
+(
+DirectDebitMandate ( theDirectDebitMandate )
+../../../../webviewer/82.jpg
+../../../../looseends/role43938d1c033b.htm
+
+
+
+AmendmentInformationDetails ( theAmendmentInformationDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role43938d1c0381.htm
+
+
+
+)
+Association (OriginalDebtorAgent:FinancialInstitutionIdentification2) (theAmendmentInformationDetails:AmendmentInformationDetails)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4390514e00d4.htm
+../../../../looseends/ass4390514e00d4.txt
+
+
+(
+FinancialInstitutionIdentification2 ( OriginalDebtorAgent )
+../../../../webviewer/82.jpg
+../../../../looseends/role4390515002cb.htm
+
+
+
+AmendmentInformationDetails ( theAmendmentInformationDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role4390515002e9.htm
+
+
+
+)
+Association (OriginalCreditorAgent:FinancialInstitutionIdentification2) (theAmendmentInformationDetails:AmendmentInformationDetails)
+../../../../webviewer/81.jpg
+../../../../looseends/ass439051480270.htm
+../../../../looseends/ass439051480270.txt
+
+
+(
+FinancialInstitutionIdentification2 ( OriginalCreditorAgent )
+../../../../webviewer/82.jpg
+../../../../looseends/role4390514a020e.htm
+
+
+
+AmendmentInformationDetails ( theAmendmentInformationDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role4390514a0222.htm
+
+
+
+)
+<<SWSTrace>> (theMandateRelatedInformation:MandateRelatedInformation) (theDirectDebitMandate:DirectDebitMandate)
+../../../../webviewer/81.jpg
+../../../../looseends/ass43833c5201a8.htm
+
+
+
+(
+MandateRelatedInformation ( theMandateRelatedInformation )
+../../../../webviewer/82.jpg
+../../../../looseends/role43833c5201a9.htm
+
+
+
+DirectDebitMandate ( theDirectDebitMandate )
+../../../../webviewer/82.jpg
+../../../../looseends/role43833c5201ee.htm
+
+
+
+)
+<<SWSTrace>> (theDirectDebitMandate:DirectDebitMandate) (theDirectDebitTransaction1:DirectDebitTransaction1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass446dd90203be.htm
+
+
+
+(
+DirectDebitMandate ( theDirectDebitMandate )
+../../../../webviewer/82.jpg
+../../../../looseends/role446dd9030012.htm
+
+
+
+DirectDebitTransaction1 ( theDirectDebitTransaction1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role446dd90300b2.htm
+
+
+
+)
+Association (CreditorSchemeIdentification:PartyIdentification8) (theDirectDebitTransaction1:DirectDebitTransaction1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass446dd9030149.htm
+
+
+
+(
+PartyIdentification8 ( CreditorSchemeIdentification )
+../../../../webviewer/82.jpg
+../../../../looseends/role446dd9030167.htm
+
+
+
+DirectDebitTransaction1 ( theDirectDebitTransaction1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role446dd9030207.htm
+
+
+
+)
+Association (MandateRelatedInformation:MandateRelatedInformation1) (theDirectDebitTransaction1:DirectDebitTransaction1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass446dd90201fb.htm
+../../../../looseends/ass446dd90201fb.txt
+
+
+(
+MandateRelatedInformation1 ( MandateRelatedInformation )
+../../../../webviewer/82.jpg
+../../../../looseends/role446dd9020241.htm
+
+
+
+DirectDebitTransaction1 ( theDirectDebitTransaction1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role446dd9020288.htm
+
+
+
+)
+<<SWSTrace>> (theDirectDebitMandate:DirectDebitMandate) (theMandateRelatedInformation1:MandateRelatedInformation1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass446dd91101ad.htm
+
+
+
+(
+DirectDebitMandate ( theDirectDebitMandate )
+../../../../webviewer/82.jpg
+../../../../looseends/role446dd91101df.htm
+
+
+
+MandateRelatedInformation1 ( theMandateRelatedInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role446dd91103c0.htm
+
+
+
+)
+Association (AmendmentInformationDetails:AmendmentInformationDetails1) (theMandateRelatedInformation1:MandateRelatedInformation1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass446dd9100292.htm
+../../../../looseends/ass446dd9100292.txt
+
+
+(
+AmendmentInformationDetails1 ( AmendmentInformationDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role446dd910031e.htm
+
+
+
+MandateRelatedInformation1 ( theMandateRelatedInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role446dd91003be.htm
+
+
+
+)
+Association (OriginalCreditorSchemeIdentification:PartyIdentification8) (theAmendmentInformationDetails1:AmendmentInformationDetails1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass446dd8ed0165.htm
+../../../../looseends/ass446dd8ed0165.txt
+
+
+(
+PartyIdentification8 ( OriginalCreditorSchemeIdentification )
+../../../../webviewer/82.jpg
+../../../../looseends/role446dd8ed01c9.htm
+
+
+
+AmendmentInformationDetails1 ( theAmendmentInformationDetails1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role446dd8ed02b9.htm
+
+
+
+)
+Association (OriginalDebtor:PartyIdentification8) (theAmendmentInformationDetails1:AmendmentInformationDetails1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass446dd8ee024c.htm
+../../../../looseends/ass446dd8ee024c.txt
+
+
+(
+PartyIdentification8 ( OriginalDebtor )
+../../../../webviewer/82.jpg
+../../../../looseends/role446dd8ee029c.htm
+
+
+
+AmendmentInformationDetails1 ( theAmendmentInformationDetails1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role446dd8ee0315.htm
+
+
+
+)
+<<SWSTrace>> (theDirectDebitMandate:DirectDebitMandate) (theAmendmentInformationDetails1:AmendmentInformationDetails1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass446dd8ef008b.htm
+
+
+
+(
+DirectDebitMandate ( theDirectDebitMandate )
+../../../../webviewer/82.jpg
+../../../../looseends/role446dd8ef0095.htm
+
+
+
+AmendmentInformationDetails1 ( theAmendmentInformationDetails1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role446dd8ef0167.htm
+
+
+
+)
+Association (OriginalCreditorAgent:BranchAndFinancialInstitutionIdentification3) (theAmendmentInformationDetails1:AmendmentInformationDetails1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass446dd8f000fb.htm
+../../../../looseends/ass446dd8f000fb.txt
+
+
+(
+BranchAndFinancialInstitutionIdentification3 ( OriginalCreditorAgent )
+../../../../webviewer/82.jpg
+../../../../looseends/role446dd8f000fc.htm
+
+
+
+AmendmentInformationDetails1 ( theAmendmentInformationDetails1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role446dd8f00174.htm
+
+
+
+)
+Association (OriginalDebtorAgent:BranchAndFinancialInstitutionIdentification3) (theAmendmentInformationDetails1:AmendmentInformationDetails1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass446dd8ef02c6.htm
+../../../../looseends/ass446dd8ef02c6.txt
+
+
+(
+BranchAndFinancialInstitutionIdentification3 ( OriginalDebtorAgent )
+../../../../webviewer/82.jpg
+../../../../looseends/role446dd8ef0302.htm
+
+
+
+AmendmentInformationDetails1 ( theAmendmentInformationDetails1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role446dd8ef03ac.htm
+
+
+
+)
+Association (OriginalDebtorAccount:CashAccount7) (theAmendmentInformationDetails1:AmendmentInformationDetails1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass446dd8ed03e5.htm
+../../../../looseends/ass446dd8ed03e5.txt
+
+
+(
+CashAccount7 ( OriginalDebtorAccount )
+../../../../webviewer/82.jpg
+../../../../looseends/role446dd8ee0062.htm
+
+
+
+AmendmentInformationDetails1 ( theAmendmentInformationDetails1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role446dd8ee015c.htm
+
+
+
+)
+Association (OriginalCreditorAgentAccount:CashAccount7) (theAmendmentInformationDetails1:AmendmentInformationDetails1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass446dda1703b8.htm
+../../../../looseends/ass446dda1703b8.txt
+
+
+(
+CashAccount7 ( OriginalCreditorAgentAccount )
+../../../../webviewer/82.jpg
+../../../../looseends/role446dda19037f.htm
+
+
+
+AmendmentInformationDetails1 ( theAmendmentInformationDetails1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role446dda1a007d.htm
+
+
+
+)
+Association (OriginalDebtorAgentAccount:CashAccount7) (theAmendmentInformationDetails1:AmendmentInformationDetails1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass446dd9d3023c.htm
+../../../../looseends/ass446dd9d3023c.txt
+
+
+(
+CashAccount7 ( OriginalDebtorAgentAccount )
+../../../../webviewer/82.jpg
+../../../../looseends/role446dd9d50343.htm
+
+
+
+AmendmentInformationDetails1 ( theAmendmentInformationDetails1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role446dd9d60024.htm
+
+
+
+)
+<<IsDerivedFrom>> (theDirectDebitTransaction1:DirectDebitTransaction1) (theDirectDebitTransaction2:DirectDebitTransaction2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4513e3eb0110.htm
+../../../../looseends/ass4513e3eb0110.txt
+
+
+(
+DirectDebitTransaction1 ( theDirectDebitTransaction1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4513e3ec01c6.htm
+
+
+
+DirectDebitTransaction2 ( theDirectDebitTransaction2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4513e3ec01d0.htm
+
+
+
+)
+Association (CreditorSchemeIdentification:PartyIdentification11) (theDirectDebitTransaction2:DirectDebitTransaction2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass451103f8028e.htm
+
+
+
+(
+PartyIdentification11 ( CreditorSchemeIdentification )
+../../../../webviewer/82.jpg
+../../../../looseends/role451103f8028f.htm
+
+
+
+DirectDebitTransaction2 ( theDirectDebitTransaction2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role451103f80291.htm
+
+
+
+)
+Association (MandateRelatedInformation:MandateRelatedInformation2) (theDirectDebitTransaction2:DirectDebitTransaction2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass451103f802b5.htm
+../../../../looseends/ass451103f802b5.txt
+
+
+(
+MandateRelatedInformation2 ( MandateRelatedInformation )
+../../../../webviewer/82.jpg
+../../../../looseends/role451103f802b6.htm
+
+
+
+DirectDebitTransaction2 ( theDirectDebitTransaction2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role451103f802b8.htm
+
+
+
+)
+<<SWSTrace>> (theDirectDebitMandate:DirectDebitMandate) (theDirectDebitTransaction2:DirectDebitTransaction2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass451103f80279.htm
+
+
+
+(
+DirectDebitMandate ( theDirectDebitMandate )
+../../../../webviewer/82.jpg
+../../../../looseends/role451103f8027a.htm
+
+
+
+DirectDebitTransaction2 ( theDirectDebitTransaction2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role451103f80284.htm
+
+
+
+)
+<<SWSTrace>> (theDirectDebitMandate:DirectDebitMandate) (theMandateRelatedInformation2:MandateRelatedInformation2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass451104730387.htm
+
+
+
+(
+DirectDebitMandate ( theDirectDebitMandate )
+../../../../webviewer/82.jpg
+../../../../looseends/role451104730388.htm
+
+
+
+MandateRelatedInformation2 ( theMandateRelatedInformation2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role45110473038a.htm
+
+
+
+)
+Association (AmendmentInformationDetails:AmendmentInformationDetails2) (theMandateRelatedInformation2:MandateRelatedInformation2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass45110473039b.htm
+../../../../looseends/ass45110473039b.txt
+
+
+(
+AmendmentInformationDetails2 ( AmendmentInformationDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role45110473039c.htm
+
+
+
+MandateRelatedInformation2 ( theMandateRelatedInformation2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role45110473039e.htm
+
+
+
+)
+<<IsDerivedFrom>> (theMandateRelatedInformation1:MandateRelatedInformation1) (theMandateRelatedInformation2:MandateRelatedInformation2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4513e424027b.htm
+../../../../looseends/ass4513e424027b.txt
+
+
+(
+MandateRelatedInformation1 ( theMandateRelatedInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4513e4250146.htm
+
+
+
+MandateRelatedInformation2 ( theMandateRelatedInformation2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4513e425016e.htm
+
+
+
+)
+<<SWSTrace>> (theDirectDebitMandate:DirectDebitMandate) (theAmendmentInformationDetails2:AmendmentInformationDetails2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass451105ce01a2.htm
+
+
+
+(
+DirectDebitMandate ( theDirectDebitMandate )
+../../../../webviewer/82.jpg
+../../../../looseends/role451105ce01a3.htm
+
+
+
+AmendmentInformationDetails2 ( theAmendmentInformationDetails2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role451105ce01a5.htm
+
+
+
+)
+Association (OriginalDebtorAgent:FinancialInstitution3) (theAmendmentInformationDetails2:AmendmentInformationDetails2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass451105ce01d4.htm
+../../../../looseends/ass451105ce01d4.txt
+
+
+(
+FinancialInstitution3 ( OriginalDebtorAgent )
+../../../../webviewer/82.jpg
+../../../../looseends/role451105ce01d5.htm
+
+
+
+AmendmentInformationDetails2 ( theAmendmentInformationDetails2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role451105ce01df.htm
+
+
+
+)
+Association (OriginalDebtorAccount:CashAccount8) (theAmendmentInformationDetails2:AmendmentInformationDetails2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass451105ce01fc.htm
+../../../../looseends/ass451105ce01fc.txt
+
+
+(
+CashAccount8 ( OriginalDebtorAccount )
+../../../../webviewer/82.jpg
+../../../../looseends/role451105ce01fd.htm
+
+
+
+AmendmentInformationDetails2 ( theAmendmentInformationDetails2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role451105ce01ff.htm
+
+
+
+)
+<<IsDerivedFrom>> (theAmendmentInformationDetails1:AmendmentInformationDetails1) (theAmendmentInformationDetails2:AmendmentInformationDetails2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4513f5ae0098.htm
+../../../../looseends/ass4513f5ae0098.txt
+
+
+(
+AmendmentInformationDetails1 ( theAmendmentInformationDetails1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4513f5ae037d.htm
+
+
+
+AmendmentInformationDetails2 ( theAmendmentInformationDetails2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4513f5ae0387.htm
+
+
+
+)
+Association (OriginalCreditorSchemeIdentification:PartyIdentification11) (theAmendmentInformationDetails2:AmendmentInformationDetails2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass451105ce00f7.htm
+../../../../looseends/ass451105ce00f7.txt
+
+
+(
+PartyIdentification11 ( OriginalCreditorSchemeIdentification )
+../../../../webviewer/82.jpg
+../../../../looseends/role451105ce00f8.htm
+
+
+
+AmendmentInformationDetails2 ( theAmendmentInformationDetails2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role451105ce00fa.htm
+
+
+
+)
+<<SWSTrace>> (theDirectDebitMandate:DirectDebitMandate) (theAmendmentInformationDetails3:AmendmentInformationDetails3)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4510f87300a2.htm
+
+
+
+(
+DirectDebitMandate ( theDirectDebitMandate )
+../../../../webviewer/82.jpg
+../../../../looseends/role4510f87300ac.htm
+
+
+
+AmendmentInformationDetails3 ( theAmendmentInformationDetails3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4510f87300ae.htm
+
+
+
+)
+Association (AmendmentInformationDetails:AmendmentInformationDetails3) (theMandateRelatedInformation3:MandateRelatedInformation3)
+../../../../webviewer/81.jpg
+../../../../looseends/ass451050dd0130.htm
+../../../../looseends/ass451050dd0130.txt
+
+
+(
+AmendmentInformationDetails3 ( AmendmentInformationDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role451050dd0131.htm
+
+
+
+MandateRelatedInformation3 ( theMandateRelatedInformation3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role451050dd0133.htm
+
+
+
+)
+<<IsDerivedFrom>> (theAmendmentInformationDetails1:AmendmentInformationDetails1) (theAmendmentInformationDetails3:AmendmentInformationDetails3)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4513f5aa0309.htm
+../../../../looseends/ass4513f5aa0309.txt
+
+
+(
+AmendmentInformationDetails1 ( theAmendmentInformationDetails1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4513f5ab0301.htm
+
+
+
+AmendmentInformationDetails3 ( theAmendmentInformationDetails3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4513f5ab030b.htm
+
+
+
+)
+Association (OriginalCreditorAgent:FinancialInstitution2) (theAmendmentInformationDetails3:AmendmentInformationDetails3)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4510f87300b7.htm
+../../../../looseends/ass4510f87300b7.txt
+
+
+(
+FinancialInstitution2 ( OriginalCreditorAgent )
+../../../../webviewer/82.jpg
+../../../../looseends/role4510f87300b8.htm
+
+
+
+AmendmentInformationDetails3 ( theAmendmentInformationDetails3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4510f87300ba.htm
+
+
+
+)
+Association (OriginalDebtorAgent:FinancialInstitution3) (theAmendmentInformationDetails3:AmendmentInformationDetails3)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4510f87300d4.htm
+../../../../looseends/ass4510f87300d4.txt
+
+
+(
+FinancialInstitution3 ( OriginalDebtorAgent )
+../../../../webviewer/82.jpg
+../../../../looseends/role4510f87300d5.htm
+
+
+
+AmendmentInformationDetails3 ( theAmendmentInformationDetails3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4510f87300de.htm
+
+
+
+)
+Association (OriginalDebtor:PartyIdentification15) (theAmendmentInformationDetails3:AmendmentInformationDetails3)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4510f8730084.htm
+../../../../looseends/ass4510f8730084.txt
+
+
+(
+PartyIdentification15 ( OriginalDebtor )
+../../../../webviewer/82.jpg
+../../../../looseends/role4510f8730085.htm
+
+
+
+AmendmentInformationDetails3 ( theAmendmentInformationDetails3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4510f873008f.htm
+
+
+
+)
+Association (OriginalCreditorSchemeIdentification:PartyIdentification16) (theAmendmentInformationDetails3:AmendmentInformationDetails3)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4510f8730066.htm
+../../../../looseends/ass4510f8730066.txt
+
+
+(
+PartyIdentification16 ( OriginalCreditorSchemeIdentification )
+../../../../webviewer/82.jpg
+../../../../looseends/role4510f8730067.htm
+
+
+
+AmendmentInformationDetails3 ( theAmendmentInformationDetails3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4510f8730071.htm
+
+
+
+)
+Association (OriginalDebtorAgentAccount:CashAccount7) (theAmendmentInformationDetails3:AmendmentInformationDetails3)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4510f8730138.htm
+../../../../looseends/ass4510f8730138.txt
+
+
+(
+CashAccount7 ( OriginalDebtorAgentAccount )
+../../../../webviewer/82.jpg
+../../../../looseends/role4510f8730139.htm
+
+
+
+AmendmentInformationDetails3 ( theAmendmentInformationDetails3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4510f873013b.htm
+
+
+
+)
+Association (OriginalCreditorAgentAccount:CashAccount7) (theAmendmentInformationDetails3:AmendmentInformationDetails3)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4510f8730110.htm
+../../../../looseends/ass4510f8730110.txt
+
+
+(
+CashAccount7 ( OriginalCreditorAgentAccount )
+../../../../webviewer/82.jpg
+../../../../looseends/role4510f8730111.htm
+
+
+
+AmendmentInformationDetails3 ( theAmendmentInformationDetails3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4510f873011b.htm
+
+
+
+)
+Association (OriginalDebtorAccount:CashAccount8) (theAmendmentInformationDetails3:AmendmentInformationDetails3)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4510f87300f2.htm
+../../../../looseends/ass4510f87300f2.txt
+
+
+(
+CashAccount8 ( OriginalDebtorAccount )
+../../../../webviewer/82.jpg
+../../../../looseends/role4510f87300f3.htm
+
+
+
+AmendmentInformationDetails3 ( theAmendmentInformationDetails3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4510f87300fd.htm
+
+
+
+)
+<<IsDerivedFrom>> (theMandateRelatedInformation1:MandateRelatedInformation1) (theMandateRelatedInformation3:MandateRelatedInformation3)
+../../../../webviewer/81.jpg
+../../../../looseends/ass451050e10316.htm
+../../../../looseends/ass451050e10316.txt
+
+
+(
+MandateRelatedInformation1 ( theMandateRelatedInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role451050e300d4.htm
+
+
+
+MandateRelatedInformation3 ( theMandateRelatedInformation3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role451050e300fc.htm
+
+
+
+)
+<<SWSTrace>> (theDirectDebitMandate:DirectDebitMandate) (theMandateRelatedInformation3:MandateRelatedInformation3)
+../../../../webviewer/81.jpg
+../../../../looseends/ass451050dd0112.htm
+
+
+
+(
+DirectDebitMandate ( theDirectDebitMandate )
+../../../../webviewer/82.jpg
+../../../../looseends/role451050dd0113.htm
+
+
+
+MandateRelatedInformation3 ( theMandateRelatedInformation3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role451050dd011d.htm
+
+
+
+)
+Association (MandateRelatedInformation:MandateRelatedInformation3) (theDirectDebitTransaction3:DirectDebitTransaction3)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4510506c01e1.htm
+../../../../looseends/ass4510506c01e1.txt
+
+
+(
+MandateRelatedInformation3 ( MandateRelatedInformation )
+../../../../webviewer/82.jpg
+../../../../looseends/role4510506c01e2.htm
+
+
+
+DirectDebitTransaction3 ( theDirectDebitTransaction3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4510506c01ec.htm
+
+
+
+)
+<<SWSTrace>> (theDirectDebitMandate:DirectDebitMandate) (theDirectDebitTransaction3:DirectDebitTransaction3)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4510506c019b.htm
+
+
+
+(
+DirectDebitMandate ( theDirectDebitMandate )
+../../../../webviewer/82.jpg
+../../../../looseends/role4510506c019c.htm
+
+
+
+DirectDebitTransaction3 ( theDirectDebitTransaction3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4510506c01a5.htm
+
+
+
+)
+<<IsDerivedFrom>> (theDirectDebitTransaction1:DirectDebitTransaction1) (theDirectDebitTransaction3:DirectDebitTransaction3)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4513e3f40344.htm
+../../../../looseends/ass4513e3f40344.txt
+
+
+(
+DirectDebitTransaction1 ( theDirectDebitTransaction1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4513e3f50396.htm
+
+
+
+DirectDebitTransaction3 ( theDirectDebitTransaction3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4513e3f503aa.htm
+
+
+
+)
+Association (CreditorSchemeIdentification:PartyIdentification16) (theDirectDebitTransaction3:DirectDebitTransaction3)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4510506c01b9.htm
+
+
+
+(
+PartyIdentification16 ( CreditorSchemeIdentification )
+../../../../webviewer/82.jpg
+../../../../looseends/role4510506c01ba.htm
+
+
+
+DirectDebitTransaction3 ( theDirectDebitTransaction3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4510506c01bc.htm
+
+
+
+)
+<<IsDerivedFrom>> (theAmendmentInformationDetails1:AmendmentInformationDetails1) (theAmendmentInformationDetails4:AmendmentInformationDetails4)
+../../../../webviewer/81.jpg
+../../../../looseends/ass456de46700e3.htm
+../../../../looseends/ass456de46700e3.txt
+
+
+(
+AmendmentInformationDetails1 ( theAmendmentInformationDetails1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456de46802f7.htm
+
+
+
+AmendmentInformationDetails4 ( theAmendmentInformationDetails4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456de468030b.htm
+
+
+
+)
+<<SWSTrace>> (theDirectDebitMandate:DirectDebitMandate) (theAmendmentInformationDetails4:AmendmentInformationDetails4)
+../../../../webviewer/81.jpg
+../../../../looseends/ass456da46600b1.htm
+
+
+
+(
+DirectDebitMandate ( theDirectDebitMandate )
+../../../../webviewer/82.jpg
+../../../../looseends/role456da46600b2.htm
+
+
+
+AmendmentInformationDetails4 ( theAmendmentInformationDetails4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456da46600b4.htm
+
+
+
+)
+Association (AmendmentInformationDetails:AmendmentInformationDetails4) (theMandateRelatedInformation4:MandateRelatedInformation4)
+../../../../webviewer/81.jpg
+../../../../looseends/ass456da3a002e4.htm
+../../../../looseends/ass456da3a002e4.txt
+
+
+(
+AmendmentInformationDetails4 ( AmendmentInformationDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role456da3a002e5.htm
+
+
+
+MandateRelatedInformation4 ( theMandateRelatedInformation4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456da3a002ed.htm
+
+
+
+)
+Association (OriginalDebtorAccount:CashAccount8) (theAmendmentInformationDetails4:AmendmentInformationDetails4)
+../../../../webviewer/81.jpg
+../../../../looseends/ass456da46600e3.htm
+../../../../looseends/ass456da46600e3.txt
+
+
+(
+CashAccount8 ( OriginalDebtorAccount )
+../../../../webviewer/82.jpg
+../../../../looseends/role456da46600e4.htm
+
+
+
+AmendmentInformationDetails4 ( theAmendmentInformationDetails4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456da46600ed.htm
+
+
+
+)
+Association (OriginalDebtorAgent:FinancialInstitution3) (theAmendmentInformationDetails4:AmendmentInformationDetails4)
+../../../../webviewer/81.jpg
+../../../../looseends/ass456da46600bc.htm
+../../../../looseends/ass456da46600bc.txt
+
+
+(
+FinancialInstitution3 ( OriginalDebtorAgent )
+../../../../webviewer/82.jpg
+../../../../looseends/role456da46600bd.htm
+
+
+
+AmendmentInformationDetails4 ( theAmendmentInformationDetails4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456da46600c6.htm
+
+
+
+)
+Association (OriginalCreditorSchemeIdentification:PartyIdentification17) (theAmendmentInformationDetails4:AmendmentInformationDetails4)
+../../../../webviewer/81.jpg
+../../../../looseends/ass456da466010b.htm
+../../../../looseends/ass456da466010b.txt
+
+
+(
+PartyIdentification17 ( OriginalCreditorSchemeIdentification )
+../../../../webviewer/82.jpg
+../../../../looseends/role456da466010c.htm
+
+
+
+AmendmentInformationDetails4 ( theAmendmentInformationDetails4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456da466010e.htm
+
+
+
+)
+<<SWSTrace>> (theDirectDebitMandate:DirectDebitMandate) (theDirectDebitTransaction4:DirectDebitTransaction4)
+../../../../webviewer/81.jpg
+../../../../looseends/ass456da34c0331.htm
+
+
+
+(
+DirectDebitMandate ( theDirectDebitMandate )
+../../../../webviewer/82.jpg
+../../../../looseends/role456da34c0332.htm
+
+
+
+DirectDebitTransaction4 ( theDirectDebitTransaction4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456da34c0334.htm
+
+
+
+)
+Association (MandateRelatedInformation:MandateRelatedInformation4) (theDirectDebitTransaction4:DirectDebitTransaction4)
+../../../../webviewer/81.jpg
+../../../../looseends/ass456da34c0308.htm
+../../../../looseends/ass456da34c0308.txt
+
+
+(
+MandateRelatedInformation4 ( MandateRelatedInformation )
+../../../../webviewer/82.jpg
+../../../../looseends/role456da34c0312.htm
+
+
+
+DirectDebitTransaction4 ( theDirectDebitTransaction4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456da34c0314.htm
+
+
+
+)
+<<IsDerivedFrom>> (theDirectDebitTransaction1:DirectDebitTransaction1) (theDirectDebitTransaction4:DirectDebitTransaction4)
+../../../../webviewer/81.jpg
+../../../../looseends/ass456da36501f7.htm
+../../../../looseends/ass456da36501f7.txt
+
+
+(
+DirectDebitTransaction1 ( theDirectDebitTransaction1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456da366019e.htm
+
+
+
+DirectDebitTransaction4 ( theDirectDebitTransaction4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456da36601a8.htm
+
+
+
+)
+Association (CreditorSchemeIdentification:PartyIdentification11) (theDirectDebitTransaction4:DirectDebitTransaction4)
+../../../../webviewer/81.jpg
+../../../../looseends/ass456da34c02ea.htm
+
+
+
+(
+PartyIdentification11 ( CreditorSchemeIdentification )
+../../../../webviewer/82.jpg
+../../../../looseends/role456da34c02eb.htm
+
+
+
+DirectDebitTransaction4 ( theDirectDebitTransaction4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456da34c02f5.htm
+
+
+
+)
+Association (MandateRelatedInformation:MandateRelatedInformation5) (theDirectDebitTransaction5:DirectDebitTransaction5)
+../../../../webviewer/81.jpg
+../../../../looseends/ass457f98e3030c.htm
+../../../../looseends/ass457f98e3030c.txt
+
+
+(
+MandateRelatedInformation5 ( MandateRelatedInformation )
+../../../../webviewer/82.jpg
+../../../../looseends/role457f98e3030d.htm
+
+
+
+DirectDebitTransaction5 ( theDirectDebitTransaction5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role457f98e3030f.htm
+
+
+
+)
+<<SWSTrace>> (theDirectDebitMandate:DirectDebitMandate) (theMandateRelatedInformation5:MandateRelatedInformation5)
+../../../../webviewer/81.jpg
+../../../../looseends/ass457d285c0084.htm
+
+
+
+(
+DirectDebitMandate ( theDirectDebitMandate )
+../../../../webviewer/82.jpg
+../../../../looseends/role457d285c0085.htm
+
+
+
+MandateRelatedInformation5 ( theMandateRelatedInformation5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role457d285c0087.htm
+
+
+
+)
+Association (AmendmentInformationDetails:AmendmentInformationDetails5) (theMandateRelatedInformation5:MandateRelatedInformation5)
+../../../../webviewer/81.jpg
+../../../../looseends/ass457d285c008f.htm
+../../../../looseends/ass457d285c008f.txt
+
+
+(
+AmendmentInformationDetails5 ( AmendmentInformationDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role457d285c0098.htm
+
+
+
+MandateRelatedInformation5 ( theMandateRelatedInformation5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role457d285c009a.htm
+
+
+
+)
+<<IsDerivedFrom>> (theMandateRelatedInformation1:MandateRelatedInformation1) (theMandateRelatedInformation5:MandateRelatedInformation5)
+../../../../webviewer/81.jpg
+../../../../looseends/ass457d28ba0134.htm
+../../../../looseends/ass457d28ba0134.txt
+
+
+(
+MandateRelatedInformation1 ( theMandateRelatedInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role457d28bb03b6.htm
+
+
+
+MandateRelatedInformation5 ( theMandateRelatedInformation5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role457d28bb03de.htm
+
+
+
+)
+<<SWSTrace>> (theDirectDebitMandate:DirectDebitMandate) (theMandateRelatedInformation4:MandateRelatedInformation4)
+../../../../webviewer/81.jpg
+../../../../looseends/ass456da3a002d9.htm
+
+
+
+(
+DirectDebitMandate ( theDirectDebitMandate )
+../../../../webviewer/82.jpg
+../../../../looseends/role456da3a002da.htm
+
+
+
+MandateRelatedInformation4 ( theMandateRelatedInformation4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456da3a002dc.htm
+
+
+
+)
+<<IsDerivedFrom>> (theMandateRelatedInformation1:MandateRelatedInformation1) (theMandateRelatedInformation4:MandateRelatedInformation4)
+../../../../webviewer/81.jpg
+../../../../looseends/ass456da3be0278.htm
+../../../../looseends/ass456da3be0278.txt
+
+
+(
+MandateRelatedInformation1 ( theMandateRelatedInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456da3bf019e.htm
+
+
+
+MandateRelatedInformation4 ( theMandateRelatedInformation4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456da3bf01bc.htm
+
+
+
+)
+Association (CreditorSchemeIdentification:PartyIdentification18) (theDirectDebitTransaction5:DirectDebitTransaction5)
+../../../../webviewer/81.jpg
+../../../../looseends/ass457f98e3035c.htm
+
+
+
+(
+PartyIdentification18 ( CreditorSchemeIdentification )
+../../../../webviewer/82.jpg
+../../../../looseends/role457f98e3035d.htm
+
+
+
+DirectDebitTransaction5 ( theDirectDebitTransaction5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role457f98e3035f.htm
+
+
+
+)
+<<IsDerivedFrom>> (theDirectDebitTransaction1:DirectDebitTransaction1) (theDirectDebitTransaction5:DirectDebitTransaction5)
+../../../../webviewer/81.jpg
+../../../../looseends/ass457f995e0331.htm
+../../../../looseends/ass457f995e0331.txt
+
+
+(
+DirectDebitTransaction1 ( theDirectDebitTransaction1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role457f996b01a9.htm
+
+
+
+DirectDebitTransaction5 ( theDirectDebitTransaction5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role457f996b01c7.htm
+
+
+
+)
+<<SWSTrace>> (theDirectDebitMandate:DirectDebitMandate) (theDirectDebitTransaction5:DirectDebitTransaction5)
+../../../../webviewer/81.jpg
+../../../../looseends/ass457f98e3033e.htm
+
+
+
+(
+DirectDebitMandate ( theDirectDebitMandate )
+../../../../webviewer/82.jpg
+../../../../looseends/role457f98e3033f.htm
+
+
+
+DirectDebitTransaction5 ( theDirectDebitTransaction5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role457f98e30341.htm
+
+
+
+)
+<<IsDerivedFrom>> (theAmendmentInformationDetails1:AmendmentInformationDetails1) (theAmendmentInformationDetails5:AmendmentInformationDetails5)
+../../../../webviewer/81.jpg
+../../../../looseends/ass457fccad00f7.htm
+../../../../looseends/ass457fccad00f7.txt
+
+
+(
+AmendmentInformationDetails1 ( theAmendmentInformationDetails1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role457fccaf0000.htm
+
+
+
+AmendmentInformationDetails5 ( theAmendmentInformationDetails5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role457fccaf0014.htm
+
+
+
+)
+Association (OriginalDebtorAccount:CashAccount8) (theAmendmentInformationDetails5:AmendmentInformationDetails5)
+../../../../webviewer/81.jpg
+../../../../looseends/ass457fcc830300.htm
+../../../../looseends/ass457fcc830300.txt
+
+
+(
+CashAccount8 ( OriginalDebtorAccount )
+../../../../webviewer/82.jpg
+../../../../looseends/role457fcc830301.htm
+
+
+
+AmendmentInformationDetails5 ( theAmendmentInformationDetails5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role457fcc830303.htm
+
+
+
+)
+Association (OriginalCreditorAgentAccount:CashAccount7) (theAmendmentInformationDetails5:AmendmentInformationDetails5)
+../../../../webviewer/81.jpg
+../../../../looseends/ass457fcc8302e2.htm
+../../../../looseends/ass457fcc8302e2.txt
+
+
+(
+CashAccount7 ( OriginalCreditorAgentAccount )
+../../../../webviewer/82.jpg
+../../../../looseends/role457fcc8302e3.htm
+
+
+
+AmendmentInformationDetails5 ( theAmendmentInformationDetails5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role457fcc8302e5.htm
+
+
+
+)
+Association (OriginalDebtorAgentAccount:CashAccount7) (theAmendmentInformationDetails5:AmendmentInformationDetails5)
+../../../../webviewer/81.jpg
+../../../../looseends/ass457fcc8302ba.htm
+../../../../looseends/ass457fcc8302ba.txt
+
+
+(
+CashAccount7 ( OriginalDebtorAgentAccount )
+../../../../webviewer/82.jpg
+../../../../looseends/role457fcc8302c4.htm
+
+
+
+AmendmentInformationDetails5 ( theAmendmentInformationDetails5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role457fcc8302c6.htm
+
+
+
+)
+Association (OriginalCreditorSchemeIdentification:PartyIdentification18) (theAmendmentInformationDetails5:AmendmentInformationDetails5)
+../../../../webviewer/81.jpg
+../../../../looseends/ass457fcc83029c.htm
+../../../../looseends/ass457fcc83029c.txt
+
+
+(
+PartyIdentification18 ( OriginalCreditorSchemeIdentification )
+../../../../webviewer/82.jpg
+../../../../looseends/role457fcc83029d.htm
+
+
+
+AmendmentInformationDetails5 ( theAmendmentInformationDetails5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role457fcc8302a7.htm
+
+
+
+)
+Association (OriginalDebtor:PartyIdentification20) (theAmendmentInformationDetails5:AmendmentInformationDetails5)
+../../../../webviewer/81.jpg
+../../../../looseends/ass457fcc83027e.htm
+../../../../looseends/ass457fcc83027e.txt
+
+
+(
+PartyIdentification20 ( OriginalDebtor )
+../../../../webviewer/82.jpg
+../../../../looseends/role457fcc83027f.htm
+
+
+
+AmendmentInformationDetails5 ( theAmendmentInformationDetails5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role457fcc830288.htm
+
+
+
+)
+Association (OriginalDebtorAgent:FinancialInstitution3) (theAmendmentInformationDetails5:AmendmentInformationDetails5)
+../../../../webviewer/81.jpg
+../../../../looseends/ass457fcc830219.htm
+../../../../looseends/ass457fcc830219.txt
+
+
+(
+FinancialInstitution3 ( OriginalDebtorAgent )
+../../../../webviewer/82.jpg
+../../../../looseends/role457fcc83021a.htm
+
+
+
+AmendmentInformationDetails5 ( theAmendmentInformationDetails5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role457fcc830224.htm
+
+
+
+)
+Association (OriginalCreditorAgent:FinancialInstitution2) (theAmendmentInformationDetails5:AmendmentInformationDetails5)
+../../../../webviewer/81.jpg
+../../../../looseends/ass457fcc8301fc.htm
+../../../../looseends/ass457fcc8301fc.txt
+
+
+(
+FinancialInstitution2 ( OriginalCreditorAgent )
+../../../../webviewer/82.jpg
+../../../../looseends/role457fcc8301fd.htm
+
+
+
+AmendmentInformationDetails5 ( theAmendmentInformationDetails5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role457fcc830206.htm
+
+
+
+)
+<<SWSTrace>> (theDirectDebitMandate:DirectDebitMandate) (theAmendmentInformationDetails5:AmendmentInformationDetails5)
+../../../../webviewer/81.jpg
+../../../../looseends/ass457fcc8301e7.htm
+
+
+
+(
+DirectDebitMandate ( theDirectDebitMandate )
+../../../../webviewer/82.jpg
+../../../../looseends/role457fcc8301e8.htm
+
+
+
+AmendmentInformationDetails5 ( theAmendmentInformationDetails5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role457fcc8301f2.htm
+
+
+
+)
+)

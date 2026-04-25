@@ -1,0 +1,1 @@
+Specifies the high level purpose of the instruction based on a set of pre-defined categories.

@@ -1,0 +1,1 @@
+Predetermined price at which the holder of an Option is entitled to buy or sell the underlying instrument.

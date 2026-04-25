@@ -1,0 +1,1 @@
+Total number of receipt instructions that are linked together.

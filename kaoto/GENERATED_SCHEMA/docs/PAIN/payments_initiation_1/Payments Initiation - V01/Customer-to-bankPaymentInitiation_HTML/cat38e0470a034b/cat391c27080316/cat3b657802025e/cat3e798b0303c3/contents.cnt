@@ -1,0 +1,432 @@
+Member
+../../../../webviewer/18.jpg
+dgm3e798b0d03d3.htm
+
+
+
+(
+)
+<<MessageComponent>> MemberSearchCriteria
+../../../../webviewer/143.jpg
+class3e76e29b021d.htm
+class3e76e29b021d.txt
+
+
+(
+Identification[0..n]
+../../../../webviewer/31.jpg
+att3e76e29b021e.htm
+
+
+
+(
+)
+Status[0..n]
+../../../../webviewer/31.jpg
+att3e76e29b021f.htm
+
+
+
+(
+)
+Type[0..n]
+../../../../webviewer/31.jpg
+att3e76e29b0220.htm
+
+
+
+(
+)
+theMemberCriteria ( MemberCriteria )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e789ac20191.htm
+
+
+
+theMember ( Member )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e798b2d0375.htm
+
+
+
+)
+<<MessageComponent>> MemberDetails
+../../../../webviewer/143.jpg
+class3e76e29b00a6.htm
+
+
+
+(
+Name[0..1]
+../../../../webviewer/31.jpg
+att3e76e29b00a7.htm
+att3e76e29b00a7.txt
+
+
+(
+)
+Status[0..1]
+../../../../webviewer/31.jpg
+att3e76e29b00a8.htm
+
+
+
+(
+)
+Type[0..1]
+../../../../webviewer/31.jpg
+att3e76e29b00a9.htm
+
+
+
+(
+)
+MemberReturnAddress[0..n]
+../../../../webviewer/31.jpg
+att3e76e29b00aa.htm
+
+
+
+(
+)
+theMember ( Member )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e7edc6f03d9.htm
+
+
+
+CommunicationAddress ( CommunicationAddressDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e7edd310178.htm
+
+
+
+ContactReference ( ContactIdentificationAndAddress )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e7edd3402fe.htm
+
+
+
+Account ( AccountIdentificationAndName )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e7edd4802ef.htm
+
+
+
+theMemberReport ( MemberReport )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e7edf0c030e.htm
+
+
+
+)
+<<MessageComponent>> MemberDetails1
+../../../../webviewer/143.jpg
+class3e76e29b00ba.htm
+
+
+
+(
+MemberReturnAddress[0..n]
+../../../../webviewer/31.jpg
+att3e76e29b00bb.htm
+
+
+
+(
+)
+theMember ( Member )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e79d9320317.htm
+
+
+
+CommunicationAddress ( CommunicationAddressDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e79da280308.htm
+
+
+
+ContactReference ( ContactIdentificationAndAddress )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e79da2c01c0.htm
+
+
+
+)
+<<MessageComponent>> MemberReport
+../../../../webviewer/143.jpg
+class3e76e29b027c.htm
+class3e76e29b027c.txt
+
+
+(
+MemberIdentification
+../../../../webviewer/31.jpg
+att3e76e29b027e.htm
+
+
+
+(
+)
+theMemberInformation ( MemberInformation )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e7ee035009d.htm
+
+
+
+MemberInformation ( MemberDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e7edf0c031e.htm
+
+
+
+theMember ( Member )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e7edf180168.htm
+
+
+
+BusinessError ( ErrorHandling2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e7edf550262.htm
+
+
+
+<<XOR>> MemberInformationOrBusinessErrorRule
+../../../../webviewer/34.jpg
+op3e76e29b027d.htm
+op3e76e29b027d.txt
+
+
+(
+)
+)
+Associations
+../../../../webviewer/assoccat.gif
+
+
+
+
+(
+<<SWSTrace>> (theMember:Member) (theMemberSearchCriteria:MemberSearchCriteria)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3e798b2d0181.htm
+
+
+
+(
+Member ( theMember )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e798b2d0356.htm
+
+
+
+MemberSearchCriteria ( theMemberSearchCriteria )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e798b2d0375.htm
+
+
+
+)
+<<SWSTrace>> (theMember:Member) (theMemberDetails1:MemberDetails1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3e79d93200a6.htm
+
+
+
+(
+Member ( theMember )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e79d9320308.htm
+
+
+
+MemberDetails1 ( theMemberDetails1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e79d9320317.htm
+
+
+
+)
+Association (CommunicationAddress:CommunicationAddressDetails) (theMemberDetails1:MemberDetails1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3e79da280078.htm
+
+
+
+(
+CommunicationAddressDetails ( CommunicationAddress )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e79da2802d9.htm
+
+
+
+MemberDetails1 ( theMemberDetails1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e79da280308.htm
+
+
+
+)
+Association (ContactReference:ContactIdentificationAndAddress) (theMemberDetails1:MemberDetails1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3e79da2b01ef.htm
+
+
+
+(
+ContactIdentificationAndAddress ( ContactReference )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e79da2c0191.htm
+
+
+
+MemberDetails1 ( theMemberDetails1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e79da2c01c0.htm
+
+
+
+)
+<<SWSTrace>> (theMember:Member) (theMemberDetails:MemberDetails)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3e7edc6e02b0.htm
+
+
+
+(
+Member ( theMember )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e7edc6f03ba.htm
+
+
+
+MemberDetails ( theMemberDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e7edc6f03d9.htm
+
+
+
+)
+Association (CommunicationAddress:CommunicationAddressDetails) (theMemberDetails:MemberDetails)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3e7edd3002b0.htm
+
+
+
+(
+CommunicationAddressDetails ( CommunicationAddress )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e7edd310159.htm
+
+
+
+MemberDetails ( theMemberDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e7edd310178.htm
+
+
+
+)
+Association (ContactReference:ContactIdentificationAndAddress) (theMemberDetails:MemberDetails)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3e7edd33032d.htm
+
+
+
+(
+ContactIdentificationAndAddress ( ContactReference )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e7edd3402df.htm
+
+
+
+MemberDetails ( theMemberDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e7edd3402fe.htm
+
+
+
+)
+Association (Account:AccountIdentificationAndName) (theMemberDetails:MemberDetails)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3e7edd4701a7.htm
+
+
+
+(
+AccountIdentificationAndName ( Account )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e7edd4802d0.htm
+
+
+
+MemberDetails ( theMemberDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e7edd4802ef.htm
+
+
+
+)
+Association (MemberInformation:MemberDetails) (theMemberReport:MemberReport)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3e7edf0b034d.htm
+../../../../looseends/ass3e7edf0b034d.txt
+
+
+(
+MemberDetails ( MemberInformation )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e7edf0c030e.htm
+
+
+
+MemberReport ( theMemberReport )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e7edf0c031e.htm
+
+
+
+)
+<<SWSTrace>> (theMember:Member) (theMemberReport:MemberReport)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3e7edf170204.htm
+
+
+
+(
+Member ( theMember )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e7edf180149.htm
+
+
+
+MemberReport ( theMemberReport )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e7edf180168.htm
+
+
+
+)
+Association (BusinessError:ErrorHandling2) (theMemberReport:MemberReport)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3e7edf54032d.htm
+../../../../looseends/ass3e7edf54032d.txt
+
+
+(
+ErrorHandling2 ( BusinessError )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e7edf550233.htm
+
+
+
+MemberReport ( theMemberReport )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e7edf550262.htm
+
+
+
+)
+)

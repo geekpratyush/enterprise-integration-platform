@@ -1,0 +1,8 @@
+The payment acceptation includes the checking of the authorisation, the validation of the payment and the payment risk assessment. 
+
+Pre-condition : the first or forwarding agent has received the payment order.
+
+Trigger : receipt of the payment order.
+
+Post condition : the payment has been accepted or rejected.
+

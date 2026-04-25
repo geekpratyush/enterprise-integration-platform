@@ -1,0 +1,1 @@
+OtherReference should be used to reference an order instruction or cancellation 'message' sent in a proprietary way or used for a system reference.  If OtherReference is present, OtherReference/MessageName must contain 'fax' or 'phone' or 'email', etc.

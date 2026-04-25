@@ -1,0 +1,182 @@
+PaymentStatusReportV02Message
+../../../../../webviewer/18.jpg
+dgm437325b5012b.htm
+
+
+
+(
+)
+<<Message>> PaymentStatusReportV02
+../../../../../webviewer/141.jpg
+class437325c300b3.htm
+class437325c300b3.txt
+
+
+(
+GroupHeader ( GroupHeader5 )
+../../../../../webviewer/82.jpg
+../../../../../looseends/role438489000032.htm
+
+
+
+OriginalGroupInformationAndStatus ( OriginalGroupInformation1 )
+../../../../../webviewer/82.jpg
+../../../../../looseends/role438a3d8b03c5.htm
+
+
+
+TransactionInformationAndStatus ( PaymentTransactionInformation1 )
+../../../../../webviewer/82.jpg
+../../../../../looseends/role438a4a8a00d0.htm
+
+
+
+<<Textual>> GroupAndTransactionStatus1Rule
+../../../../../webviewer/36.jpg
+op43bbe8870327.htm
+op43bbe8870327.txt
+
+
+(
+)
+<<Textual>> GroupAndTransactionStatus2Rule
+../../../../../webviewer/36.jpg
+op43bbe8870377.htm
+op43bbe8870377.txt
+
+
+(
+)
+<<Textual>> GroupAndTransactionStatus3Rule
+../../../../../webviewer/36.jpg
+op43bbe88703bd.htm
+op43bbe88703bd.txt
+
+
+(
+)
+<<Textual>> GroupAndTransactionStatus4Rule
+../../../../../webviewer/36.jpg
+op43bbe88703d1.htm
+op43bbe88703d1.txt
+
+
+(
+)
+<<Textual>> InstructedAgentRule
+../../../../../webviewer/36.jpg
+op4497c4d9032f.htm
+op4497c4d9032f.txt
+
+
+(
+)
+<<Textual>> InstructingAgentRule
+../../../../../webviewer/36.jpg
+op4497c4d9036b.htm
+op4497c4d9036b.txt
+
+
+(
+)
+<<Textual>> ForwardingAgentRule
+../../../../../webviewer/36.jpg
+op449a858c035b.htm
+op449a858c035b.txt
+
+
+(
+)
+<<Textual>> InitiatingPartyRule
+../../../../../webviewer/36.jpg
+op44fe9b4301fa.htm
+op44fe9b4301fa.txt
+
+
+(
+)
+<<Textual>> CreditorAgentRule
+../../../../../webviewer/36.jpg
+op449a85c400a0.htm
+op449a85c400a0.txt
+
+
+(
+)
+<<Textual>> DebtorAgentRule
+../../../../../webviewer/36.jpg
+op449a85d0031e.htm
+op449a85d0031e.txt
+
+
+(
+)
+)
+Associations
+../../../../../webviewer/assoccat.gif
+
+
+
+
+(
+Association (GroupHeader:GroupHeader5) (thePaymentStatusReportV02:PaymentStatusReportV02)
+../../../../../webviewer/81.jpg
+../../../../../looseends/ass438488ff00c7.htm
+../../../../../looseends/ass438488ff00c7.txt
+
+
+(
+GroupHeader5 ( GroupHeader )
+../../../../../webviewer/82.jpg
+../../../../../looseends/role438489000028.htm
+../../../../../looseends/role438489000028.txt
+
+
+PaymentStatusReportV02 ( thePaymentStatusReportV02 )
+../../../../../webviewer/82.jpg
+../../../../../looseends/role438489000032.htm
+
+
+
+)
+Association (OriginalGroupInformationAndStatus:OriginalGroupInformation1) (thePaymentStatusReportV02:PaymentStatusReportV02)
+../../../../../webviewer/81.jpg
+../../../../../looseends/ass438a3d8a028d.htm
+../../../../../looseends/ass438a3d8a028d.txt
+
+
+(
+OriginalGroupInformation1 ( OriginalGroupInformationAndStatus )
+../../../../../webviewer/82.jpg
+../../../../../looseends/role438a3d8b03bb.htm
+../../../../../looseends/role438a3d8b03bb.txt
+
+
+PaymentStatusReportV02 ( thePaymentStatusReportV02 )
+../../../../../webviewer/82.jpg
+../../../../../looseends/role438a3d8b03c5.htm
+
+
+
+)
+Association (TransactionInformationAndStatus:PaymentTransactionInformation1) (thePaymentStatusReportV02:PaymentStatusReportV02)
+../../../../../webviewer/81.jpg
+../../../../../looseends/ass438a4a8701e4.htm
+../../../../../looseends/ass438a4a8701e4.txt
+
+
+(
+PaymentTransactionInformation1 ( TransactionInformationAndStatus )
+../../../../../webviewer/82.jpg
+../../../../../looseends/role438a4a8a00bc.htm
+../../../../../looseends/role438a4a8a00bc.txt
+
+
+PaymentStatusReportV02 ( thePaymentStatusReportV02 )
+../../../../../webviewer/82.jpg
+../../../../../looseends/role438a4a8a00d0.htm
+
+
+
+)
+)

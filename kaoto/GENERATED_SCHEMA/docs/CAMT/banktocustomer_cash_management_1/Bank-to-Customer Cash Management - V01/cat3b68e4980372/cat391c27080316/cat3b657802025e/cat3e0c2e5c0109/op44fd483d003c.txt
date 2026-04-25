@@ -1,0 +1,1 @@
+If PhysicalTransferDetails is present, then SettlementPartiesDetails/DeliverersIntermediaryDetails is not allowed.

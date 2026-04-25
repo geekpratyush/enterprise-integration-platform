@@ -1,0 +1,1 @@
+Status of the order is accepted or already executed or sent to next party or received. There is no reason attached.

@@ -1,0 +1,1 @@
+Cash account, expressed as a code.

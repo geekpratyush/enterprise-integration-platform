@@ -1,0 +1,1 @@
+Either Quantity or RelativeSize must be present but not both.

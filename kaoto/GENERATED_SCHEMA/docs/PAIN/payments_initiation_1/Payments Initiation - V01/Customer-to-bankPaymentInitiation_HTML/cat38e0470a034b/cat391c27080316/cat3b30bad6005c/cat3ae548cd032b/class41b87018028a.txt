@@ -1,0 +1,1 @@
+Specifies the type of service for which a charge is asked or paid.

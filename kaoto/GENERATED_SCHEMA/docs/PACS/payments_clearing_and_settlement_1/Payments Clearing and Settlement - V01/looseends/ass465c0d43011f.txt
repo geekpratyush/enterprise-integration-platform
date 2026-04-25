@@ -1,0 +1,1 @@
+General information that unambiguously identify the invoice to be financed, such as invoice type, invoice number and issue date time.

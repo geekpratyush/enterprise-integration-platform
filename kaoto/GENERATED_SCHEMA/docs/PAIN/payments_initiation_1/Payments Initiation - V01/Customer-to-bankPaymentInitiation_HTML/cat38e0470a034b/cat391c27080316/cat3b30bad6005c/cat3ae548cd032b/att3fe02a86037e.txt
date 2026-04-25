@@ -1,0 +1,1 @@
+Transaction relates to a cash management instruction, requesting a sweep of the account of the debtor.

@@ -1,0 +1,1 @@
+If Reason is InvalidOrUnrecognisedReference, then LinkedMessageReference is mandatory. If Reason is not InvalidOrUnrecognisedReference, then LinkedMessageReference is optional.

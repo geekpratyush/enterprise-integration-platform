@@ -1,0 +1,1 @@
+Identifies the amount of interest included in the entry amount. 

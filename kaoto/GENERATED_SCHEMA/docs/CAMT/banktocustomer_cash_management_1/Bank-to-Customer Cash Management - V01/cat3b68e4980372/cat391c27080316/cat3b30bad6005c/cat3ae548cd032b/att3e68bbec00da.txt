@@ -1,0 +1,2 @@
+Computation is on the average value of the price of a security over a period of 20 days.
+

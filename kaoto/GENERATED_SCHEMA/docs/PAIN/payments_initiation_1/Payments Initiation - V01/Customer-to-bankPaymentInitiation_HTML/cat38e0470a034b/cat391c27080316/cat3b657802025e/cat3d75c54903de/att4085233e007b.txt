@@ -1,0 +1,3 @@
+Further details on the status, in uncoded form..
+
+Usage : Additional information can be used for several purposes, eg, to report repaired information, or to provide reject reasons which are not included in the coded list.

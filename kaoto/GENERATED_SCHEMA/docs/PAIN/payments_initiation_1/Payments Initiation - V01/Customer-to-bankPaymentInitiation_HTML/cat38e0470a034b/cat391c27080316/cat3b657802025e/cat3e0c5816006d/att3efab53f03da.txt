@@ -1,0 +1,2 @@
+Date expressed as a calendar date.
+

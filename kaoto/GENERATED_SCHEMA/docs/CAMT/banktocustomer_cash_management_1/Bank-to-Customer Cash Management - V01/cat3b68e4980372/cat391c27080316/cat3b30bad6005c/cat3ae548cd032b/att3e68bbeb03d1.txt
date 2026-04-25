@@ -1,0 +1,1 @@
+Can trigger booking without reference to the order initiator.

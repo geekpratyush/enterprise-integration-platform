@@ -1,0 +1,1 @@
+If BasisFeatureDate is used, then BasisFeaturePrice should also be present.

@@ -1,0 +1,1 @@
+Specifies the amounts exchanged and the strike price in a currency option trade.

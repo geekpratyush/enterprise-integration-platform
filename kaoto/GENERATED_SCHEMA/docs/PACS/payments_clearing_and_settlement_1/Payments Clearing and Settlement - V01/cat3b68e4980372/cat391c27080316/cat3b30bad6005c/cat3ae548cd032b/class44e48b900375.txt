@@ -1,0 +1,1 @@
+Communication method used for the transmission of documents.

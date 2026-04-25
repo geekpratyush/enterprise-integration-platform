@@ -1,0 +1,2 @@
+Repurchase spread interest rate; margin over or under an index that 
+determines the repurchase rate.

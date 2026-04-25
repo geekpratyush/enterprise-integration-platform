@@ -1,0 +1,996 @@
+Baseline1
+../../../../webviewer/18.jpg
+dgm4242c981007a.htm
+
+
+
+(
+)
+LineItem
+../../../../webviewer/18.jpg
+dgm424c094a0286.htm
+
+
+
+(
+)
+<<MessageComponent>> Baseline1
+../../../../webviewer/143.jpg
+class416e85d4007a.htm
+class416e85d4007a.txt
+
+
+(
+ServiceCode
+../../../../webviewer/33.jpg
+att41dac6e40325.htm
+att41dac6e40325.txt
+
+
+(
+)
+theGoodsTrade ( GoodsTrade )
+../../../../webviewer/82.jpg
+../../../../looseends/role42357481020c.htm
+
+
+
+Goods ( LineItem1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role416f88b9009e.htm
+
+
+
+ShipTo ( PartyIdentification4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41ecf4780024.htm
+
+
+
+BillTo ( PartyIdentification4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41ecf46f017f.htm
+
+
+
+Buyer ( PartyIdentification4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41b71a700296.htm
+
+
+
+Consignee ( PartyIdentification4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41ecf48000f7.htm
+
+
+
+Seller ( PartyIdentification4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41b71a7402a5.htm
+
+
+
+PurchaseOrderReference ( DocumentIdentification7 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41c6c93c0117.htm
+
+
+
+SubmitterBaselineIdentification ( DocumentIdentification1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41beab5c032d.htm
+
+
+
+SellerBank ( BICIdentification1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41b71a0003c9.htm
+
+
+
+BuyerBank ( BICIdentification1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41b71a0501ef.htm
+
+
+
+DataSetRequired ( RequiredSubmission1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41c6ae30029a.htm
+
+
+
+PaymentTerms ( PaymentTerms1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41ac976b02e2.htm
+
+
+
+SettlementTerms ( SettlementTerms1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41b71b9202a2.htm
+
+
+
+<<Textual>> TransShipmentRule
+../../../../webviewer/36.jpg
+op424d02ba00db.htm
+op424d02ba00db.txt
+
+
+(
+)
+)
+<<MessageComponent>> LineItem1
+../../../../webviewer/143.jpg
+class416f875e00ca.htm
+
+
+
+(
+PartialShipment
+../../../../webviewer/33.jpg
+att416f879503b9.htm
+att416f879503b9.txt
+
+
+(
+)
+TransShipment[ 0..1 ]
+../../../../webviewer/33.jpg
+att41ac92bd0390.htm
+att41ac92bd0390.txt
+
+
+(
+)
+LineItemsTotalAmount
+../../../../webviewer/33.jpg
+att41c6b0f10388.htm
+att41c6b0f10388.txt
+
+
+(
+)
+TotalNetAmount
+../../../../webviewer/31.jpg
+att41dabf5c028f.htm
+
+
+
+(
+)
+LatestShipmentDate[ 0..1 ]
+../../../../webviewer/31.jpg
+att41f134950365.htm
+att41f134950365.txt
+
+
+(
+)
+GoodsDescription[ 0..1 ]
+../../../../webviewer/31.jpg
+att422326580101.htm
+
+
+
+(
+)
+theBaseline1 ( Baseline1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role416f88b9008a.htm
+
+
+
+BuyerDefinedInformation ( UserDefinedInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41e7e15a0022.htm
+
+
+
+SellerDefinedInformation ( UserDefinedInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4222dddc01e0.htm
+
+
+
+RoutingSummary ( TransportMeans1Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role422ebbaa0371.htm
+
+
+
+Incoterms ( Incoterms1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41ecdeed0041.htm
+
+
+
+LineItemDetails ( LineItemDetails1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role416f89380021.htm
+
+
+
+FreightCharges ( Charge12 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41b713a8008d.htm
+
+
+
+Adjustment ( Adjustment1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41ece27301bd.htm
+
+
+
+Tax ( Tax9 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41c6b28400aa.htm
+
+
+
+theGoodsTrade ( GoodsTrade )
+../../../../webviewer/82.jpg
+../../../../looseends/role4235905b02ed.htm
+
+
+
+<<Textual>> LatestShipmentDateRule
+../../../../webviewer/36.jpg
+op424d047a03c7.htm
+op424d047a03c7.txt
+
+
+(
+)
+<<Textual>> RoutingSummaryRule
+../../../../webviewer/36.jpg
+op424d06ce02f0.htm
+op424d06ce02f0.txt
+
+
+(
+)
+<<Textual>> IncotermsRule
+../../../../webviewer/36.jpg
+op424d0ac1027c.htm
+op424d0ac1027c.txt
+
+
+(
+)
+)
+<<MessageComponent>> LineItem2
+../../../../webviewer/143.jpg
+class41b7137501dc.htm
+
+
+
+(
+LineItemsTotalAmount
+../../../../webviewer/33.jpg
+att41dcfd1f036e.htm
+att41dcfd1f036e.txt
+
+
+(
+)
+TotalNetAmount
+../../../../webviewer/31.jpg
+att41dcfd1f0382.htm
+
+
+
+(
+)
+theCommercialDataSet1 ( CommercialDataSet1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41c05ccf0339.htm
+
+
+
+SellerDefinedInformation ( UserDefinedInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role42247614034c.htm
+
+
+
+Tax ( Tax10 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41f8e44b0076.htm
+
+
+
+FreightCharges ( Charge13 )
+../../../../webviewer/82.jpg
+../../../../looseends/role42088b6002a1.htm
+
+
+
+Adjustment ( Adjustment2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41f8e376038b.htm
+
+
+
+Incoterms ( Incoterms2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41f8e4b30340.htm
+
+
+
+CommercialLineItems ( LineItemDetails2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41b71fd403c4.htm
+
+
+
+theGoodsTrade ( GoodsTrade )
+../../../../webviewer/82.jpg
+../../../../looseends/role423599bf02a1.htm
+
+
+
+BuyerDefinedInformation ( UserDefinedInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41ee313e0061.htm
+
+
+
+PurchaseOrderReference ( DocumentIdentification7 )
+../../../../webviewer/82.jpg
+../../../../looseends/role424d1fba01aa.htm
+
+
+
+)
+Associations
+../../../../webviewer/assoccat.gif
+
+
+
+
+(
+<<SWSTrace>> (theGoodsTrade:GoodsTrade) (theBaseline1:Baseline1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4235748002a1.htm
+
+
+
+(
+GoodsTrade ( theGoodsTrade )
+../../../../webviewer/82.jpg
+../../../../looseends/role4235748101d0.htm
+
+
+
+Baseline1 ( theBaseline1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role42357481020c.htm
+
+
+
+)
+Association (Goods:LineItem1) (theBaseline1:Baseline1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass416f88b6034c.htm
+
+
+
+(
+LineItem1 ( Goods )
+../../../../webviewer/82.jpg
+../../../../looseends/role416f88b9008a.htm
+
+
+
+Baseline1 ( theBaseline1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role416f88b9009e.htm
+
+
+
+)
+Association (ShipTo:PartyIdentification4) (theBaseline1:Baseline1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass41ecf475019c.htm
+
+
+
+(
+PartyIdentification4 ( ShipTo )
+../../../../webviewer/82.jpg
+../../../../looseends/role41ecf477032f.htm
+
+
+
+Baseline1 ( theBaseline1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41ecf4780024.htm
+
+
+
+)
+Association (BillTo:PartyIdentification4) (theBaseline1:Baseline1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass41ecf46d02e5.htm
+
+
+
+(
+PartyIdentification4 ( BillTo )
+../../../../webviewer/82.jpg
+../../../../looseends/role41ecf46f0143.htm
+
+
+
+Baseline1 ( theBaseline1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41ecf46f017f.htm
+
+
+
+)
+Association (Buyer:PartyIdentification4) (theBaseline1:Baseline1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass41b71a6f02b2.htm
+
+
+
+(
+PartyIdentification4 ( Buyer )
+../../../../webviewer/82.jpg
+../../../../looseends/role41b71a700250.htm
+
+
+
+Baseline1 ( theBaseline1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41b71a700296.htm
+
+
+
+)
+Association (Consignee:PartyIdentification4) (theBaseline1:Baseline1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass41ecf47d0251.htm
+
+
+
+(
+PartyIdentification4 ( Consignee )
+../../../../webviewer/82.jpg
+../../../../looseends/role41ecf480009d.htm
+
+
+
+Baseline1 ( theBaseline1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41ecf48000f7.htm
+
+
+
+)
+Association (Seller:PartyIdentification4) (theBaseline1:Baseline1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass41b71a730308.htm
+
+
+
+(
+PartyIdentification4 ( Seller )
+../../../../webviewer/82.jpg
+../../../../looseends/role41b71a740255.htm
+
+
+
+Baseline1 ( theBaseline1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41b71a7402a5.htm
+
+
+
+)
+Association (PurchaseOrderReference:DocumentIdentification7) (theBaseline1:Baseline1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass41c6c93b0184.htm
+../../../../looseends/ass41c6c93b0184.txt
+
+
+(
+DocumentIdentification7 ( PurchaseOrderReference )
+../../../../webviewer/82.jpg
+../../../../looseends/role41c6c93c00db.htm
+
+
+
+Baseline1 ( theBaseline1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41c6c93c0117.htm
+
+
+
+)
+Association (SubmitterBaselineIdentification:DocumentIdentification1) (theBaseline1:Baseline1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass41beab5b028c.htm
+../../../../looseends/ass41beab5b028c.txt
+
+
+(
+DocumentIdentification1 ( SubmitterBaselineIdentification )
+../../../../webviewer/82.jpg
+../../../../looseends/role41beab5c0319.htm
+
+
+
+Baseline1 ( theBaseline1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41beab5c032d.htm
+
+
+
+)
+Association (SellerBank:BICIdentification1) (theBaseline1:Baseline1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass41b719ff0223.htm
+../../../../looseends/ass41b719ff0223.txt
+
+
+(
+BICIdentification1 ( SellerBank )
+../../../../webviewer/82.jpg
+../../../../looseends/role41b71a000365.htm
+
+
+
+Baseline1 ( theBaseline1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41b71a0003c9.htm
+
+
+
+)
+Association (BuyerBank:BICIdentification1) (theBaseline1:Baseline1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass41b71a0400f4.htm
+../../../../looseends/ass41b71a0400f4.txt
+
+
+(
+BICIdentification1 ( BuyerBank )
+../../../../webviewer/82.jpg
+../../../../looseends/role41b71a05018b.htm
+
+
+
+Baseline1 ( theBaseline1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41b71a0501ef.htm
+
+
+
+)
+Association (DataSetRequired:RequiredSubmission1) (theBaseline1:Baseline1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass41c6ae2f02c0.htm
+../../../../looseends/ass41c6ae2f02c0.txt
+
+
+(
+RequiredSubmission1 ( DataSetRequired )
+../../../../webviewer/82.jpg
+../../../../looseends/role41c6ae30025e.htm
+
+
+
+Baseline1 ( theBaseline1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41c6ae30029a.htm
+
+
+
+)
+Association (PaymentTerms:PaymentTerms1) (theBaseline1:Baseline1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass41ac976b00a7.htm
+../../../../looseends/ass41ac976b00a7.txt
+
+
+(
+PaymentTerms1 ( PaymentTerms )
+../../../../webviewer/82.jpg
+../../../../looseends/role41ac976b02ce.htm
+
+
+
+Baseline1 ( theBaseline1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41ac976b02e2.htm
+
+
+
+)
+Association (SettlementTerms:SettlementTerms1) (theBaseline1:Baseline1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass41b71b910265.htm
+../../../../looseends/ass41b71b910265.txt
+
+
+(
+SettlementTerms1 ( SettlementTerms )
+../../../../webviewer/82.jpg
+../../../../looseends/role41b71b920270.htm
+
+
+
+Baseline1 ( theBaseline1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41b71b9202a2.htm
+
+
+
+)
+Association (BuyerDefinedInformation:UserDefinedInformation1) (theLineItem1:LineItem1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass41e7e15803d6.htm
+../../../../looseends/ass41e7e15803d6.txt
+
+
+(
+UserDefinedInformation1 ( BuyerDefinedInformation )
+../../../../webviewer/82.jpg
+../../../../looseends/role41e7e159039b.htm
+
+
+
+LineItem1 ( theLineItem1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41e7e15a0022.htm
+
+
+
+)
+Association (SellerDefinedInformation:UserDefinedInformation1) (theLineItem1:LineItem1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4222dddb018e.htm
+../../../../looseends/ass4222dddb018e.txt
+
+
+(
+UserDefinedInformation1 ( SellerDefinedInformation )
+../../../../webviewer/82.jpg
+../../../../looseends/role4222dddc0190.htm
+
+
+
+LineItem1 ( theLineItem1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4222dddc01e0.htm
+
+
+
+)
+Association (RoutingSummary:TransportMeans1Choice) (theLineItem1:LineItem1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass422ebbaa036f.htm
+
+
+
+(
+TransportMeans1Choice ( RoutingSummary )
+../../../../webviewer/82.jpg
+../../../../looseends/role422ebbaa0370.htm
+../../../../looseends/role422ebbaa0370.txt
+
+
+LineItem1 ( theLineItem1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role422ebbaa0371.htm
+
+
+
+)
+Association (Incoterms:Incoterms1) (theLineItem1:LineItem1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass41ecdeeb0360.htm
+
+
+
+(
+Incoterms1 ( Incoterms )
+../../../../webviewer/82.jpg
+../../../../looseends/role41ecdeed0037.htm
+../../../../looseends/role41ecdeed0037.txt
+
+
+LineItem1 ( theLineItem1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41ecdeed0041.htm
+
+
+
+)
+Association (LineItemDetails:LineItemDetails1) (theLineItem1:LineItem1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass416f893603ad.htm
+
+
+
+(
+LineItemDetails1 ( LineItemDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role416f89380017.htm
+../../../../looseends/role416f89380017.txt
+
+
+LineItem1 ( theLineItem1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role416f89380021.htm
+
+
+
+)
+Association (theLineItem1:LineItem1) (FreightCharges:Charge12)
+../../../../webviewer/81.jpg
+../../../../looseends/ass41b713a8008c.htm
+
+
+
+(
+LineItem1 ( theLineItem1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41b713a8008d.htm
+
+
+
+Charge12 ( FreightCharges )
+../../../../webviewer/82.jpg
+../../../../looseends/role41b713a8008e.htm
+../../../../looseends/role41b713a8008e.txt
+
+
+)
+Association (Adjustment:Adjustment1) (theLineItem1:LineItem1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass41ece27301bb.htm
+
+
+
+(
+Adjustment1 ( Adjustment )
+../../../../webviewer/82.jpg
+../../../../looseends/role41ece27301bc.htm
+../../../../looseends/role41ece27301bc.txt
+
+
+LineItem1 ( theLineItem1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41ece27301bd.htm
+
+
+
+)
+Association (Tax:Tax9) (theLineItem1:LineItem1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass41c6b283024d.htm
+
+
+
+(
+Tax9 ( Tax )
+../../../../webviewer/82.jpg
+../../../../looseends/role41c6b28400a0.htm
+../../../../looseends/role41c6b28400a0.txt
+
+
+LineItem1 ( theLineItem1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41c6b28400aa.htm
+
+
+
+)
+Association (SellerDefinedInformation:UserDefinedInformation1) (theLineItem2:LineItem2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4224761301a6.htm
+../../../../looseends/ass4224761301a6.txt
+
+
+(
+UserDefinedInformation1 ( SellerDefinedInformation )
+../../../../webviewer/82.jpg
+../../../../looseends/role42247614012f.htm
+
+
+
+LineItem2 ( theLineItem2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role42247614034c.htm
+
+
+
+)
+Association (Tax:Tax10) (theLineItem2:LineItem2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass41f8e44b0074.htm
+
+
+
+(
+Tax10 ( Tax )
+../../../../webviewer/82.jpg
+../../../../looseends/role41f8e44b0075.htm
+../../../../looseends/role41f8e44b0075.txt
+
+
+LineItem2 ( theLineItem2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41f8e44b0076.htm
+
+
+
+)
+Association (FreightCharges:Charge13) (theLineItem2:LineItem2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass42088b60025b.htm
+
+
+
+(
+Charge13 ( FreightCharges )
+../../../../webviewer/82.jpg
+../../../../looseends/role42088b600283.htm
+../../../../looseends/role42088b600283.txt
+
+
+LineItem2 ( theLineItem2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role42088b6002a1.htm
+
+
+
+)
+Association (Adjustment:Adjustment2) (theLineItem2:LineItem2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass41f8e3760389.htm
+
+
+
+(
+Adjustment2 ( Adjustment )
+../../../../webviewer/82.jpg
+../../../../looseends/role41f8e376038a.htm
+../../../../looseends/role41f8e376038a.txt
+
+
+LineItem2 ( theLineItem2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41f8e376038b.htm
+
+
+
+)
+Association (Incoterms:Incoterms2) (theLineItem2:LineItem2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass41f8e4b3033e.htm
+
+
+
+(
+Incoterms2 ( Incoterms )
+../../../../webviewer/82.jpg
+../../../../looseends/role41f8e4b3033f.htm
+../../../../looseends/role41f8e4b3033f.txt
+
+
+LineItem2 ( theLineItem2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41f8e4b30340.htm
+
+
+
+)
+Association (CommercialLineItems:LineItemDetails2) (theLineItem2:LineItem2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass41b71fd303b8.htm
+
+
+
+(
+LineItemDetails2 ( CommercialLineItems )
+../../../../webviewer/82.jpg
+../../../../looseends/role41b71fd403b0.htm
+
+
+
+LineItem2 ( theLineItem2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41b71fd403c4.htm
+
+
+
+)
+<<SWSTrace>> (theGoodsTrade:GoodsTrade) (theLineItem1:LineItem1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4235905a02b9.htm
+
+
+
+(
+GoodsTrade ( theGoodsTrade )
+../../../../webviewer/82.jpg
+../../../../looseends/role4235905b02c5.htm
+
+
+
+LineItem1 ( theLineItem1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4235905b02ed.htm
+
+
+
+)
+<<SWSTrace>> (theGoodsTrade:GoodsTrade) (theLineItem2:LineItem2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass423599be0246.htm
+
+
+
+(
+GoodsTrade ( theGoodsTrade )
+../../../../webviewer/82.jpg
+../../../../looseends/role423599bf0297.htm
+
+
+
+LineItem2 ( theLineItem2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role423599bf02a1.htm
+
+
+
+)
+Association (BuyerDefinedInformation:UserDefinedInformation1) (theLineItem2:LineItem2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass41ee313c0337.htm
+../../../../looseends/ass41ee313c0337.txt
+
+
+(
+UserDefinedInformation1 ( BuyerDefinedInformation )
+../../../../webviewer/82.jpg
+../../../../looseends/role41ee313e005f.htm
+
+
+
+LineItem2 ( theLineItem2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41ee313e0061.htm
+
+
+
+)
+Association (PurchaseOrderReference:DocumentIdentification7) (theLineItem2:LineItem2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass424d1fb9028f.htm
+../../../../looseends/ass424d1fb9028f.txt
+
+
+(
+DocumentIdentification7 ( PurchaseOrderReference )
+../../../../webviewer/82.jpg
+../../../../looseends/role424d1fba01a0.htm
+
+
+
+LineItem2 ( theLineItem2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role424d1fba01aa.htm
+
+
+
+)
+)

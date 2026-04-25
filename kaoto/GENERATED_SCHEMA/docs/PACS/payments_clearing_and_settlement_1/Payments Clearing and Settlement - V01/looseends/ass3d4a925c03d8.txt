@@ -1,0 +1,1 @@
+Payment instrument used for the payment of specific types of investment fund transactions.

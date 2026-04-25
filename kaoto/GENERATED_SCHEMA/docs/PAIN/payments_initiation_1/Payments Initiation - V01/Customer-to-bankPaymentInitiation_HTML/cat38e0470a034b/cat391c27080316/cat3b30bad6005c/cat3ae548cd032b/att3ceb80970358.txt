@@ -1,0 +1,1 @@
+Securities quantity is not a multiple of an existing settlement amount lot for the instructed financial instrument.

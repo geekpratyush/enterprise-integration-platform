@@ -1,0 +1,1 @@
+Minimum quantity of securities, expressed as an amount that must be purchased.

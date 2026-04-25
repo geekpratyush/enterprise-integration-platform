@@ -1,0 +1,2 @@
+Date at which the initiating party requests that the payment instruction be processed. 
+

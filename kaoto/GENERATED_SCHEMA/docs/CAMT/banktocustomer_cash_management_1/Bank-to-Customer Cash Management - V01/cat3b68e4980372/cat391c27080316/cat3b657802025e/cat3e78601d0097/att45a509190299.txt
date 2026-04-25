@@ -1,0 +1,1 @@
+Specifies the code for the type of a balance, eg, opening booked balance.

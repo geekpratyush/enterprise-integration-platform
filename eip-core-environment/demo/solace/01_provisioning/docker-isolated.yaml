@@ -1,0 +1,48 @@
+services:
+  solace-platform:
+    container_name: solace-platform
+    image: solace/solace-pubsub-standard:latest
+    shm_size: 1g
+    ulimits:
+      core: 1
+      nofile:
+        soft: 1048576
+        hard: 1048576
+    deploy:
+      resources:
+        limits:
+          memory: 4096M
+    restart: always
+    environment:
+      - username_admin_globalaccesslevel=admin
+      - username_admin_password=admin
+      - service_smf_tls_port=55443
+      - service_smf_tls_enabled=true
+    ports:
+      # SMF (TCP)
+      - "55555:55555"
+      # SMF (SSL)
+      - "55443:55443"
+      # Web Transport
+      - "8008:8008"
+      # Web Transport SSL
+      - "1443:1443"
+      # SEMP (Management)
+      - "8085:8080"
+      # SEMP SSL
+      - "1943:1943"
+      # AMQP
+      - "5673:5672"
+      # MQTT
+      - "1883:1883"
+      # REST
+      - "9000:9000"
+    # Note: Volumes removed to align with validated silo configuration
+    # Mounting volumes into /etc/solace/secrets can cause startup hangs if permissions are mismatched.
+    networks:
+      - solace-network
+
+networks:
+  solace-network:
+    name: solace-network
+    driver: bridge

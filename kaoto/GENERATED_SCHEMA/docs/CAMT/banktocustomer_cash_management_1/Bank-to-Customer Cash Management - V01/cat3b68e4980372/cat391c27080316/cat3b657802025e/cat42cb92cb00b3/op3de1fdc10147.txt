@@ -1,0 +1,1 @@
+PutDate must not be present if PutableIndicator contains the value "False" or "0" (No).

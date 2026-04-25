@@ -1,0 +1,1 @@
+AdditionalInformation: type changed from Max140Text to Max350Text.

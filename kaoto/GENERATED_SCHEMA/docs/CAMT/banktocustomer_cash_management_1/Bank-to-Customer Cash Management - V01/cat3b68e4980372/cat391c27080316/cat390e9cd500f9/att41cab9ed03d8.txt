@@ -1,0 +1,1 @@
+Maximum quantity of securities, expressed as an amount that can be sold.

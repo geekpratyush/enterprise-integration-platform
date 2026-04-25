@@ -1,0 +1,1 @@
+Name of the message associated with the activity.

@@ -1,0 +1,1 @@
+Type of corporate action event.

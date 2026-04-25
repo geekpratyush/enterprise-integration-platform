@@ -1,0 +1,1 @@
+Amount that cannot be settled by a settlement system.

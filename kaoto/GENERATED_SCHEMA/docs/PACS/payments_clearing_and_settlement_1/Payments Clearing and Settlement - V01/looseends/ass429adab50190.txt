@@ -1,0 +1,1 @@
+Information about the nationality and the legal status (minor or major) of a person.

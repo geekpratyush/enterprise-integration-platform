@@ -1,0 +1,1 @@
+If SubAccountIdentification/ActivityIndicator is "true" or "1" (Yes), then SubAccountIdentification/ BalanceForSubAccount must be present.

@@ -1,0 +1,1 @@
+Specifies the elements of an entry in the report.

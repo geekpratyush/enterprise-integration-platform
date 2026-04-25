@@ -1,0 +1,9 @@
+Collection of mortgages that have been securitised. The shares or participation certificates in the pool are sold to investors called mortgage pass-throughs. In order to securitise loans and attenuate risk in the mortgage market, a security is created when one or more mortgage holders form a collection pool of mortgages and sells shares or participation certificates in the pool. The cash flow from the collateral pool is "passed through" to the security holder as monthly payments of principal, interest and pre-payments.
+
+.
+
+.
+
+.
+
+

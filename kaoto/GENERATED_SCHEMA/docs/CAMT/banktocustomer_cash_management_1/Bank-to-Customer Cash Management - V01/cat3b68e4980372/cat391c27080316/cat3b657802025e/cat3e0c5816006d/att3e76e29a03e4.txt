@@ -1,0 +1,2 @@
+Indicates whether the system identification is requested.
+

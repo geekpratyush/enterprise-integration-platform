@@ -1,0 +1,1 @@
+Uniquely identifies a proxy card.

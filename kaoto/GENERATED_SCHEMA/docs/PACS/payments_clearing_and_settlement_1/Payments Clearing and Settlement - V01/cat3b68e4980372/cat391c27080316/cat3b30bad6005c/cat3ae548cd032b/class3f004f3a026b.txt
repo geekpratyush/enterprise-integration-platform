@@ -1,0 +1,2 @@
+Specifies how the price valuation timing is done based on the timeline defined in the prospectus.
+

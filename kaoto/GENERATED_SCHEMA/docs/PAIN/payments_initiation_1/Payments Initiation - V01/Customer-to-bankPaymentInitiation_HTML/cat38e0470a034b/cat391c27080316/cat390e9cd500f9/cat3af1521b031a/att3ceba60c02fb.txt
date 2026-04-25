@@ -1,0 +1,2 @@
+Date and time at which the status was assigned to the transfer.
+

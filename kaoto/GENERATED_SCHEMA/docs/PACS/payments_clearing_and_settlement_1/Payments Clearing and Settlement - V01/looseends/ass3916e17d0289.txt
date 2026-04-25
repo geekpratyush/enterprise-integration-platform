@@ -1,0 +1,1 @@
+Trade part of which a securities trnsaction is defined.

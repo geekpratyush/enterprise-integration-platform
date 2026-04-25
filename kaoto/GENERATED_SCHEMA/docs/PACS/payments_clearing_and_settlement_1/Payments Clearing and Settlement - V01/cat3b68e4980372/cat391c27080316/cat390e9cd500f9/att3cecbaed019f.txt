@@ -1,0 +1,2 @@
+Type, or nature, of the payment, eg, express payment.
+

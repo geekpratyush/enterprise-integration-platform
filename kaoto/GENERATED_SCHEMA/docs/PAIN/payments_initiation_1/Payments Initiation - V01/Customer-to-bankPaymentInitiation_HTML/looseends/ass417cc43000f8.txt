@@ -1,0 +1,1 @@
+Specifies the type of product characteristic not present in the code list.

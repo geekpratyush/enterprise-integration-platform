@@ -1,0 +1,1 @@
+Scope of the modification to be applied on an identified set of information.

@@ -1,0 +1,1 @@
+Indicates whether the Payment Instruction Reference is requested.

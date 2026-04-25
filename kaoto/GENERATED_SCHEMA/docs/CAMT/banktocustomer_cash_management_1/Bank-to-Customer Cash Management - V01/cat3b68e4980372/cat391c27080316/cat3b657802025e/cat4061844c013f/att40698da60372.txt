@@ -1,0 +1,1 @@
+Indicates that the common debit information in the transaction is included once and not repeated for each transaction.

@@ -1,0 +1,3268 @@
+<<MessageComponent>> SecuritiesSettlement3
+../../../../webviewer/142.jpg
+class3e5cae08017c.htm
+
+
+
+(
+SettlementInstructionMode[0..1]
+../../../../webviewer/33.jpg
+att3e5cae260356.htm
+att3e5cae260356.txt
+
+
+(
+)
+Amount [0..1]
+../../../../webviewer/31.jpg
+att3e5cae130313.htm
+
+
+
+(
+)
+Currency [0..1]
+../../../../webviewer/31.jpg
+att3e5cae130327.htm
+
+
+
+(
+)
+Date [0..1]
+../../../../webviewer/31.jpg
+att3ebbb92400a7.htm
+
+
+
+(
+)
+DateCode[0..1]
+../../../../webviewer/31.jpg
+att3ebbb9240115.htm
+
+
+
+(
+)
+PlaceOfSettlement[0..1]
+../../../../webviewer/31.jpg
+att3ebb8847003c.htm
+
+
+
+(
+)
+LocateLendingFirm[0..1]
+../../../../webviewer/31.jpg
+att3ec8ed35033f.htm
+
+
+
+(
+)
+theSecuritiesSettlementParameters ( SecuritiesSettlementParameters )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e91567b02e8.htm
+
+
+
+theAllocation2 ( Allocation2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e5cae88005e.htm
+
+
+
+theAllocation1 ( Allocation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3ebb7a110276.htm
+
+
+
+<<Textual>> SettlementDateAndDateCodeRule
+../../../../webviewer/36.jpg
+op3eafc0ba0354.htm
+op3eafc0ba0354.txt
+
+
+(
+)
+)
+<<MessageComponent>> SecuritiesSettlementDetails1
+../../../../webviewer/142.jpg
+class424c054102b1.htm
+
+
+
+(
+CurrencyToBuy [0..1]
+../../../../webviewer/31.jpg
+att424c057a012c.htm
+att424c057a012c.txt
+
+
+(
+)
+CurrencyToSell [0..1]
+../../../../webviewer/31.jpg
+att424c057b014b.htm
+att424c057b014b.txt
+
+
+(
+)
+theSecuritiesSettlementParameters ( SecuritiesSettlementParameters )
+../../../../webviewer/82.jpg
+../../../../looseends/role42afea1e01fb.htm
+
+
+
+AccountWithInstitutionDetails ( PartyIdentificationAndAccount2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4250edc20310.htm
+
+
+
+DeliveryAgentDetails ( PartyIdentificationAndAccount2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role424c05e60308.htm
+
+
+
+BuyerDetails ( PartyIdentificationAndAccount2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role424c05dd0319.htm
+
+
+
+ReceivingAgentDetails ( PartyIdentificationAndAccount2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role424c05ee02c3.htm
+
+
+
+PayingInstitutionDetails ( PartyIdentificationAndAccount2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4250eda200d8.htm
+
+
+
+BeneficiaryOfMoneyDetails ( PartyIdentificationAndAccount2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4250edab0190.htm
+
+
+
+SellerDetails ( PartyIdentificationAndAccount2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role424c05d7016c.htm
+
+
+
+theSecurityLeg2 ( SecurityLeg2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4297236102e7.htm
+
+
+
+theSecurityLeg ( SecurityLeg )
+../../../../webviewer/82.jpg
+../../../../looseends/role428c5f180359.htm
+
+
+
+theOrder6 ( Order6 )
+../../../../webviewer/82.jpg
+../../../../looseends/role428d9c1b0271.htm
+
+
+
+theOrder9 ( Order9 )
+../../../../webviewer/82.jpg
+../../../../looseends/role42932f8000b8.htm
+
+
+
+)
+<<MessageComponent>> SecuritiesSettlement2
+../../../../webviewer/142.jpg
+class3dd22d1f0244.htm
+
+
+
+(
+DateCode[0..1]
+../../../../webviewer/31.jpg
+att3dd22d3201c9.htm
+
+
+
+(
+)
+Date [0..1]
+../../../../webviewer/31.jpg
+att3dd22d3201f1.htm
+
+
+
+(
+)
+theSecuritiesSettlementParameters ( SecuritiesSettlementParameters )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e47a188026b.htm
+
+
+
+theQuoteEntry1 ( QuoteEntry1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3dd22d3801b4.htm
+
+
+
+theQuoteEntry2 ( QuoteEntry2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3dd24ef60327.htm
+
+
+
+theDisclosedBid ( DisclosedBid )
+../../../../webviewer/82.jpg
+../../../../looseends/role3eb90b950297.htm
+
+
+
+<<Textual>> SettlementDateAndDateCodeRule
+../../../../webviewer/36.jpg
+op3e47a1fb025d.htm
+op3e47a1fb025d.txt
+
+
+(
+)
+)
+<<MessageComponent>> SecuritiesSettlement1
+../../../../webviewer/142.jpg
+class3d882a410020.htm
+
+
+
+(
+Currency [0..1]
+../../../../webviewer/31.jpg
+att3eafbfe900d2.htm
+
+
+
+(
+)
+Date [0..1]
+../../../../webviewer/31.jpg
+att3e914ded01a8.htm
+
+
+
+(
+)
+DateCode[0..1]
+../../../../webviewer/31.jpg
+att3e914ded016c.htm
+
+
+
+(
+)
+PlaceOfSettlement[0..1]
+../../../../webviewer/31.jpg
+att3d87368d00e4.htm
+
+
+
+(
+)
+LocateLendingFirm[0..1]
+../../../../webviewer/31.jpg
+att3d87324001b3.htm
+
+
+
+(
+)
+SafekeepingAccountDetails ( SecuritiesAccount2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role42247dc402bb.htm
+
+
+
+theSecuritiesSettlementParameters ( SecuritiesSettlementParameters )
+../../../../webviewer/82.jpg
+../../../../looseends/role3d882a69004f.htm
+
+
+
+<<Textual>> SettlementDateAndDateCodeRule
+../../../../webviewer/36.jpg
+op3d9180e00114.htm
+op3d9180e00114.txt
+
+
+(
+)
+)
+<<MessageComponent>> DeliverInformation1
+../../../../webviewer/142.jpg
+class3e65ef680195.htm
+
+
+
+(
+PhysicalTransferIndicator
+../../../../webviewer/31.jpg
+att3eaf870f024c.htm
+att3eaf870f024c.txt
+
+
+(
+)
+theSecuritiesSettlementParameters ( SecuritiesSettlementParameters )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f13a3d800da.htm
+
+
+
+SettlementPartiesDetails ( DeliveringPartiesAndAccount1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e65f01a0118.htm
+
+
+
+PhysicalTransferDetails ( DeliveryParameters2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e65f775038d.htm
+
+
+
+theDeliverInformation3 ( DeliverInformation3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role44fd4b9d017d.htm
+
+
+
+theTransferIn2 ( TransferIn2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4099121c03d5.htm
+
+
+
+<<Textual>> PhysicalTransferDetailsRule
+../../../../webviewer/36.jpg
+op40e02f8f00ab.htm
+op40e02f8f00ab.txt
+
+
+(
+)
+<<Textual>> DeliverersCustodianDetailsRule
+../../../../webviewer/36.jpg
+op40e02f8f00b5.htm
+op40e02f8f00b5.txt
+
+
+(
+)
+<<Textual>> DeliverersIntermediaryDetailsRule
+../../../../webviewer/36.jpg
+op40e02f8f00c9.htm
+op40e02f8f00c9.txt
+
+
+(
+)
+)
+<<MessageComponent>> DeliveringPartiesAndAccount2
+../../../../webviewer/142.jpg
+class3f8abd9802af.htm
+class3f8abd9802af.txt
+
+
+(
+theFundSettlementParameters1 ( FundSettlementParameters1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f8ac12700b2.htm
+
+
+
+theSecuritiesSettlementParameters ( SecuritiesSettlementParameters )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f93fd960008.htm
+
+
+
+DeliverersCustodianDetails ( PartyIdentificationAndAccount1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f8abcdb01be.htm
+
+
+
+DeliverersIntermediaryDetails ( PartyIdentificationAndAccount1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f8abce00215.htm
+
+
+
+DeliveringAgentDetails ( PartyIdentificationAndAccount1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f8abcde005a.htm
+
+
+
+theFundSettlementParameters2 ( FundSettlementParameters2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f8abda4019e.htm
+
+
+
+<<Textual>> DelivererIntermediaryRule
+../../../../webviewer/36.jpg
+op3f8abdd401bb.htm
+op3f8abdd401bb.txt
+
+
+(
+)
+)
+<<MessageComponent>> DeliveringPartiesAndAccount3
+../../../../webviewer/142.jpg
+class41ac38570225.htm
+class41ac38570225.txt
+
+
+(
+theSecuritiesSettlementParameters ( SecuritiesSettlementParameters )
+../../../../webviewer/82.jpg
+../../../../looseends/role41ac38570233.htm
+
+
+
+DeliverersIntermediaryDetails ( PartyIdentificationAndAccount3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41ac3857024e.htm
+
+
+
+DeliverersCustodianDetails ( PartyIdentificationAndAccount3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41ac3857023d.htm
+
+
+
+DeliveringAgentDetails ( PartyIdentificationAndAccount3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41ac3857025a.htm
+
+
+
+theFundSettlementParameters4 ( FundSettlementParameters4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41ac34ff00cb.htm
+
+
+
+theFundSettlementParameters3 ( FundSettlementParameters3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41ac9eef0068.htm
+
+
+
+<<Textual>> DeliverersCustodianRule
+../../../../webviewer/36.jpg
+op41ac3857026b.htm
+op41ac3857026b.txt
+
+
+(
+)
+)
+<<MessageComponent>> FundSettlementParameters1
+../../../../webviewer/142.jpg
+class3e0b28fe044d.htm
+class3e0b28fe044d.txt
+
+
+(
+SettlementPlace
+../../../../webviewer/31.jpg
+att3e0b28fe044f.htm
+att3e0b28fe044f.txt
+
+
+(
+)
+SafekeepingPlace[0..1]
+../../../../webviewer/31.jpg
+att3e0b28fe044e.htm
+att3e0b28fe044e.txt
+
+
+(
+)
+SecuritiesSettlementSystem[0..1]
+../../../../webviewer/31.jpg
+att3e0b28fe0450.htm
+
+
+
+(
+)
+SettlementDate[0..1]
+../../../../webviewer/31.jpg
+att3f9fe8540203.htm
+
+
+
+(
+)
+theSecuritiesSettlementParameters ( SecuritiesSettlementParameters )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e0c2f64006d.htm
+
+
+
+DeliveringSideDetails ( DeliveringPartiesAndAccount2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f8ac12700b1.htm
+
+
+
+ReceivingSideDetails ( ReceivingPartiesAndAccount2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f8ac138003d.htm
+
+
+
+)
+<<MessageComponent>> FundSettlementParameters2
+../../../../webviewer/142.jpg
+class3f8abb3e0032.htm
+class3f8abb3e0032.txt
+
+
+(
+SettlementPlace
+../../../../webviewer/31.jpg
+att3f8abbc70242.htm
+att3f8abbc70242.txt
+
+
+(
+)
+SafekeepingPlace[0..1]
+../../../../webviewer/31.jpg
+att3f8abbc70274.htm
+att3f8abbc70274.txt
+
+
+(
+)
+SecuritiesSettlementSystem[0..1]
+../../../../webviewer/31.jpg
+att3f8abbc70288.htm
+
+
+
+(
+)
+SettlementDate[0..1]
+../../../../webviewer/31.jpg
+att3f9fe8f303c8.htm
+
+
+
+(
+)
+theSecuritiesSettlementParameters ( SecuritiesSettlementParameters )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f969ced01bd.htm
+
+
+
+ReceivingSideDetails ( ReceivingPartiesAndAccount2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f8abd9300c7.htm
+
+
+
+DeliveringSideDetails ( DeliveringPartiesAndAccount2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f8abda401a8.htm
+
+
+
+)
+<<MessageComponent>> FundSettlementParameters3
+../../../../webviewer/142.jpg
+class41ac9eef0025.htm
+class41ac9eef0025.txt
+
+
+(
+SettlementPlace
+../../../../webviewer/31.jpg
+att41ac9eef0030.htm
+att41ac9eef0030.txt
+
+
+(
+)
+SafekeepingPlace[0..1]
+../../../../webviewer/31.jpg
+att41ac9eef0039.htm
+att41ac9eef0039.txt
+
+
+(
+)
+SecuritiesSettlementSystemIdentification[0..1]
+../../../../webviewer/31.jpg
+att41ac9eef0043.htm
+
+
+
+(
+)
+SettlementDate[0..1]
+../../../../webviewer/31.jpg
+att41ac9eef004d.htm
+
+
+
+(
+)
+theSecuritiesSettlementParameters ( SecuritiesSettlementParameters )
+../../../../webviewer/82.jpg
+../../../../looseends/role41ac9eef0064.htm
+
+
+
+DeliveringSideDetails ( DeliveringPartiesAndAccount3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41ac9eef006c.htm
+
+
+
+ReceivingSideDetails ( ReceivingPartiesAndAccount3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41ac9eef0078.htm
+
+
+
+theSubscriptionExecution6 ( SubscriptionExecution6 )
+../../../../webviewer/82.jpg
+../../../../looseends/role43e1cb36003b.htm
+
+
+
+theSubscriptionExecution5 ( SubscriptionExecution5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4406e9be0025.htm
+
+
+
+theRedemptionOrder5 ( RedemptionOrder5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4406ae850226.htm
+
+
+
+theRedemptionOrder7 ( RedemptionOrder7 )
+../../../../webviewer/82.jpg
+../../../../looseends/role44e05b7b0050.htm
+
+
+
+theRedemptionOrder6 ( RedemptionOrder6 )
+../../../../webviewer/82.jpg
+../../../../looseends/role43e1d0ce01b7.htm
+
+
+
+theRedemptionOrder8 ( RedemptionOrder8 )
+../../../../webviewer/82.jpg
+../../../../looseends/role44e05da200bc.htm
+
+
+
+theSwitchSubscriptionLegExecution3 ( SwitchSubscriptionLegExecution3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role43e2078002f0.htm
+
+
+
+theSwitchRedemptionLegOrder3 ( SwitchRedemptionLegOrder3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role43e1fc2d018a.htm
+
+
+
+)
+<<MessageComponent>> FundSettlementParameters4
+../../../../webviewer/142.jpg
+class41ac34ff007a.htm
+class41ac34ff007a.txt
+
+
+(
+SettlementPlace
+../../../../webviewer/31.jpg
+att41ac34ff0085.htm
+att41ac34ff0085.txt
+
+
+(
+)
+SafekeepingPlace[0..1]
+../../../../webviewer/31.jpg
+att41ac34ff008e.htm
+att41ac34ff008e.txt
+
+
+(
+)
+SecuritiesSettlementSystemIdentification[0..1]
+../../../../webviewer/31.jpg
+att41ac34ff0098.htm
+
+
+
+(
+)
+SettlementDate[0..1]
+../../../../webviewer/31.jpg
+att41ac34ff00a2.htm
+
+
+
+(
+)
+theSecuritiesSettlementParameters ( SecuritiesSettlementParameters )
+../../../../webviewer/82.jpg
+../../../../looseends/role41ac34ff00b7.htm
+
+
+
+ReceivingSideDetails ( ReceivingPartiesAndAccount3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41ac34ff00bd.htm
+
+
+
+DeliveringSideDetails ( DeliveringPartiesAndAccount3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41ac34ff00cd.htm
+
+
+
+theRedemptionExecution5 ( RedemptionExecution5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4406ec960035.htm
+
+
+
+theRedemptionExecution6 ( RedemptionExecution6 )
+../../../../webviewer/82.jpg
+../../../../looseends/role43e1d82600c0.htm
+
+
+
+theSubscriptionOrder6 ( SubscriptionOrder6 )
+../../../../webviewer/82.jpg
+../../../../looseends/role43e0ed7a0228.htm
+
+
+
+theSubscriptionOrder5 ( SubscriptionOrder5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role43f1db0900bd.htm
+
+
+
+theSubscriptionOrder7 ( SubscriptionOrder7 )
+../../../../webviewer/82.jpg
+../../../../looseends/role44e0600c0229.htm
+
+
+
+theSubscriptionOrder8 ( SubscriptionOrder8 )
+../../../../webviewer/82.jpg
+../../../../looseends/role44e0625201fa.htm
+
+
+
+theSwitchRedemptionLegExecution3 ( SwitchRedemptionLegExecution3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role43e2068a0044.htm
+
+
+
+theSwitchSubscriptionLegOrder3 ( SwitchSubscriptionLegOrder3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role43e1fd6c00a1.htm
+
+
+
+)
+<<MessageComponent>> ReceiveInformation1
+../../../../webviewer/142.jpg
+class3e37ffc503d4.htm
+
+
+
+(
+PhysicalTransferIndicator
+../../../../webviewer/31.jpg
+att3eae75af0380.htm
+att3eae75af0380.txt
+
+
+(
+)
+theSecuritiesSettlementParameters ( SecuritiesSettlementParameters )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f1264d20399.htm
+
+
+
+SettlementPartiesDetails ( ReceivingPartiesAndAccount1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e69bf8b023a.htm
+
+
+
+PhysicalTransferDetails ( DeliveryParameters2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e95726f03b2.htm
+
+
+
+theReceiveInformation3 ( ReceiveInformation3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role44fd380103ce.htm
+
+
+
+theTransferOut2 ( TransferOut2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role40990e32006e.htm
+
+
+
+<<Textual>> PhysicalTransferDetailsRule
+../../../../webviewer/36.jpg
+op40e0321802d2.htm
+op40e0321802d2.txt
+
+
+(
+)
+<<Textual>> ReceiversCustodianDetailsRule
+../../../../webviewer/36.jpg
+op40e032180304.htm
+op40e032180304.txt
+
+
+(
+)
+<<Textual>> ReceiversIntermediaryDetailsRule
+../../../../webviewer/36.jpg
+op40e032180336.htm
+op40e032180336.txt
+
+
+(
+)
+)
+<<MessageComponent>> ReceivingPartiesAndAccount2
+../../../../webviewer/142.jpg
+class3f8abd5a001b.htm
+class3f8abd5a001b.txt
+
+
+(
+theFundSettlementParameters1 ( FundSettlementParameters1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f8ac138003e.htm
+
+
+
+theSecuritiesSettlementParameters ( SecuritiesSettlementParameters )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f93fd9f034a.htm
+
+
+
+ReceiversCustodianDetails ( PartyIdentificationAndAccount1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f8abc850264.htm
+
+
+
+ReceiversIntermediaryDetails ( PartyIdentificationAndAccount1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f8abc7803c4.htm
+
+
+
+ReceivingAgentDetails ( PartyIdentificationAndAccount1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f8abc64025d.htm
+
+
+
+theFundSettlementParameters2 ( FundSettlementParameters2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f8abd9300bd.htm
+
+
+
+<<Textual>> ReceiversCustodianDetails2Rule
+../../../../webviewer/36.jpg
+op3f8abded0329.htm
+op3f8abded0329.txt
+
+
+(
+)
+)
+<<MessageComponent>> ReceivingPartiesAndAccount3
+../../../../webviewer/142.jpg
+class41ac37010314.htm
+class41ac37010314.txt
+
+
+(
+theSecuritiesSettlementParameters ( SecuritiesSettlementParameters )
+../../../../webviewer/82.jpg
+../../../../looseends/role41ac37010322.htm
+
+
+
+ReceivingAgentDetails ( PartyIdentificationAndAccount3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41ac37010349.htm
+
+
+
+ReceiversIntermediaryDetails ( PartyIdentificationAndAccount3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41ac3701033f.htm
+
+
+
+ReceiversCustodianDetails ( PartyIdentificationAndAccount3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41ac3701032c.htm
+
+
+
+theFundSettlementParameters4 ( FundSettlementParameters4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41ac34ff00bb.htm
+
+
+
+theFundSettlementParameters3 ( FundSettlementParameters3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41ac9eef0076.htm
+
+
+
+<<Textual>> ReceiversCustodianRule
+../../../../webviewer/36.jpg
+op41ac3701035a.htm
+op41ac3701035a.txt
+
+
+(
+)
+)
+<<MessageComponent>> Transfer1
+../../../../webviewer/142.jpg
+class3e75bd6202e6.htm
+
+
+
+(
+RequestedTransferDate
+../../../../webviewer/31.jpg
+att3efab6320311.htm
+
+
+
+(
+)
+TotalUnitsNumber
+../../../../webviewer/31.jpg
+att3e3e8def00ec.htm
+
+
+
+(
+)
+PortfolioTransferOutRate
+../../../../webviewer/31.jpg
+att3e3e8def0178.htm
+
+
+
+(
+)
+OwnAccountTransferIndicator
+../../../../webviewer/31.jpg
+att3e75be090282.htm
+
+
+
+(
+)
+AveragePrice [0..1]
+../../../../webviewer/31.jpg
+att3eae6ef40080.htm
+
+
+
+(
+)
+TransferReference
+../../../../webviewer/31.jpg
+att4173ac200342.htm
+att4173ac200342.txt
+
+
+(
+)
+theSecuritiesSettlementParameters ( SecuritiesSettlementParameters )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f0ec5c0008c.htm
+
+
+
+UnitsDetails ( Unit1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role40a4789f011b.htm
+
+
+
+theTransfer8 ( Transfer8 )
+../../../../webviewer/82.jpg
+../../../../looseends/role44e071d60254.htm
+
+
+
+theTransfer9 ( Transfer9 )
+../../../../webviewer/82.jpg
+../../../../looseends/role44e07397013c.htm
+
+
+
+theTransferOut2 ( TransferOut2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role40990df2038b.htm
+
+
+
+<<XOR>> UnitsOrRateRule
+../../../../webviewer/34.jpg
+op3e3e806e0253.htm
+op3e3e806e0253.txt
+
+
+(
+)
+<<Textual>> TotalUnitsNumberRule
+../../../../webviewer/36.jpg
+op415a991302e2.htm
+op415a991302e2.txt
+
+
+(
+)
+)
+<<MessageComponent>> Transfer3
+../../../../webviewer/142.jpg
+class3e75e0a00311.htm
+
+
+
+(
+TransferDate[0..1]
+../../../../webviewer/31.jpg
+att3e7884ac0248.htm
+
+
+
+(
+)
+TotalUnitsNumber
+../../../../webviewer/31.jpg
+att3e75f0de0306.htm
+
+
+
+(
+)
+OwnAccountTransferIndicator
+../../../../webviewer/31.jpg
+att3e75e166035c.htm
+
+
+
+(
+)
+TransferReference
+../../../../webviewer/31.jpg
+att4173a8b90034.htm
+att4173a8b90034.txt
+
+
+(
+)
+theSecuritiesSettlementParameters ( SecuritiesSettlementParameters )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f0ec68e002e.htm
+
+
+
+theTransfer5 ( Transfer5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role44e0452b00e5.htm
+
+
+
+theTransfer6 ( Transfer6 )
+../../../../webviewer/82.jpg
+../../../../looseends/role44e066a8020a.htm
+
+
+
+theTransferIn2 ( TransferIn2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role409912100124.htm
+
+
+
+)
+<<MessageComponent>> Transfer9
+../../../../webviewer/142.jpg
+class44e0734901bb.htm
+
+
+
+(
+MasterReference [0..1]
+../../../../webviewer/31.jpg
+att44e0734901bd.htm
+
+
+
+(
+)
+TransferReference
+../../../../webviewer/31.jpg
+att44e0734901c5.htm
+att44e0734901c5.txt
+
+
+(
+)
+ClientReference [0..1]
+../../../../webviewer/31.jpg
+att44e0734901cf.htm
+att44e0734901cf.txt
+
+
+(
+)
+CancellationReference [0..1]
+../../../../webviewer/33.jpg
+att44e0736a0096.htm
+att44e0736a0096.txt
+
+
+(
+)
+RequestedTransferDate
+../../../../webviewer/31.jpg
+att44e0734901d9.htm
+att44e0734901d9.txt
+
+
+(
+)
+TotalUnitsNumber
+../../../../webviewer/31.jpg
+att44e0734901ed.htm
+
+
+
+(
+)
+PortfolioTransferOutRate
+../../../../webviewer/31.jpg
+att44e0734901f7.htm
+
+
+
+(
+)
+Rounding [0..1]
+../../../../webviewer/31.jpg
+att44fc481300db.htm
+att44fc481300db.txt
+
+
+(
+)
+OwnAccountTransferIndicator [0..1]
+../../../../webviewer/31.jpg
+att44e073490201.htm
+
+
+
+(
+)
+AveragePrice [0..1]
+../../../../webviewer/31.jpg
+att44e07349020b.htm
+
+
+
+(
+)
+NonStandardSettlementInformation [0..1]
+../../../../webviewer/31.jpg
+att44fd9718021a.htm
+
+
+
+(
+)
+theTransfer1 ( Transfer1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role44e073970150.htm
+
+
+
+theSecuritiesSettlementParameters ( SecuritiesSettlementParameters )
+../../../../webviewer/82.jpg
+../../../../looseends/role44e073490218.htm
+
+
+
+UnitsDetails ( Unit3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role44e073490223.htm
+
+
+
+theTransferOut5 ( TransferOut5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role44e07e5203b1.htm
+
+
+
+<<XOR>> UnitsOrRateRule
+../../../../webviewer/34.jpg
+op44e073490229.htm
+op44e073490229.txt
+
+
+(
+)
+<<Textual>> TotalUnitsNumberRule
+../../../../webviewer/36.jpg
+op44e073490234.htm
+op44e073490234.txt
+
+
+(
+)
+)
+<<MessageComponent>> Transfer8
+../../../../webviewer/142.jpg
+class44e071bd03ca.htm
+
+
+
+(
+MasterReference [0..1]
+../../../../webviewer/31.jpg
+att44e07216035b.htm
+
+
+
+(
+)
+TransferReference
+../../../../webviewer/31.jpg
+att44e071be0029.htm
+att44e071be0029.txt
+
+
+(
+)
+ClientReference [0..1]
+../../../../webviewer/31.jpg
+att44e0722f0357.htm
+att44e0722f0357.txt
+
+
+(
+)
+RequestedTransferDate
+../../../../webviewer/31.jpg
+att44e071bd03d5.htm
+att44e071bd03d5.txt
+
+
+(
+)
+TotalUnitsNumber
+../../../../webviewer/31.jpg
+att44e071bd03de.htm
+
+
+
+(
+)
+PortfolioTransferOutRate
+../../../../webviewer/31.jpg
+att44e071be0000.htm
+
+
+
+(
+)
+Rounding [0..1]
+../../../../webviewer/31.jpg
+att44fc429402f9.htm
+att44fc429402f9.txt
+
+
+(
+)
+OwnAccountTransferIndicator [0..1]
+../../../../webviewer/31.jpg
+att44e071be000b.htm
+
+
+
+(
+)
+AveragePrice [0..1]
+../../../../webviewer/31.jpg
+att44e071be001f.htm
+
+
+
+(
+)
+NonStandardSettlementInformation [0..1]
+../../../../webviewer/31.jpg
+att44fd94db0044.htm
+
+
+
+(
+)
+theTransfer1 ( Transfer1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role44e071d60272.htm
+
+
+
+theSecuritiesSettlementParameters ( SecuritiesSettlementParameters )
+../../../../webviewer/82.jpg
+../../../../looseends/role44e071be0036.htm
+
+
+
+UnitsDetails ( Unit3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role44e071be0041.htm
+
+
+
+<<XOR>> UnitsOrRateRule
+../../../../webviewer/34.jpg
+op44e071be0051.htm
+op44e071be0051.txt
+
+
+(
+)
+<<Textual>> TotalUnitsNumberRule
+../../../../webviewer/36.jpg
+op44e071be0053.htm
+op44e071be0053.txt
+
+
+(
+)
+)
+<<MessageComponent>> Transfer6
+../../../../webviewer/142.jpg
+class44e0667c003a.htm
+
+
+
+(
+MasterReference [0..1]
+../../../../webviewer/31.jpg
+att44e0667c006c.htm
+
+
+
+(
+)
+TransferReference
+../../../../webviewer/31.jpg
+att44e0667c0058.htm
+att44e0667c0058.txt
+
+
+(
+)
+ClientReference [0..1]
+../../../../webviewer/31.jpg
+att44e0667c0076.htm
+att44e0667c0076.txt
+
+
+(
+)
+CancellationReference [0..1]
+../../../../webviewer/33.jpg
+att44e0670f0372.htm
+att44e0670f0372.txt
+
+
+(
+)
+TransferDate[0..1]
+../../../../webviewer/31.jpg
+att44e0667c003c.htm
+att44e0667c003c.txt
+
+
+(
+)
+TotalUnitsNumber
+../../../../webviewer/31.jpg
+att44e0667c0044.htm
+
+
+
+(
+)
+OwnAccountTransferIndicator [0..1]
+../../../../webviewer/31.jpg
+att44e0667c004e.htm
+
+
+
+(
+)
+NonStandardSettlementInformation [0..1]
+../../../../webviewer/31.jpg
+att44fd97a1006a.htm
+
+
+
+(
+)
+theTransfer3 ( Transfer3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role44e066a80232.htm
+
+
+
+theSecuritiesSettlementParameters ( SecuritiesSettlementParameters )
+../../../../webviewer/82.jpg
+../../../../looseends/role44e0667c0083.htm
+
+
+
+theTransferIn3 ( TransferIn3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role44e041d203ad.htm
+
+
+
+)
+<<MessageComponent>> Transfer5
+../../../../webviewer/142.jpg
+class44e044ae015c.htm
+
+
+
+(
+MasterReference [0..1]
+../../../../webviewer/31.jpg
+att44e0458202ad.htm
+
+
+
+(
+)
+TransferReference
+../../../../webviewer/31.jpg
+att44e044ae0184.htm
+att44e044ae0184.txt
+
+
+(
+)
+ClientReference [0..1]
+../../../../webviewer/31.jpg
+att44e0463f0301.htm
+att44e0463f0301.txt
+
+
+(
+)
+TransferDate[0..1]
+../../../../webviewer/31.jpg
+att44e044ae0166.htm
+att44e044ae0166.txt
+
+
+(
+)
+TotalUnitsNumber
+../../../../webviewer/31.jpg
+att44e044ae0170.htm
+
+
+
+(
+)
+OwnAccountTransferIndicator [0..1]
+../../../../webviewer/31.jpg
+att44e044ae017a.htm
+
+
+
+(
+)
+NonStandardSettlementInformation [0..1]
+../../../../webviewer/31.jpg
+att44fd977d020d.htm
+
+
+
+(
+)
+theTransfer3 ( Transfer3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role44e0452b0103.htm
+
+
+
+theSecuritiesSettlementParameters ( SecuritiesSettlementParameters )
+../../../../webviewer/82.jpg
+../../../../looseends/role44e044ae0191.htm
+
+
+
+)
+<<MessageComponent>> ReceiveInformation3
+../../../../webviewer/142.jpg
+class44fd37c70117.htm
+
+
+
+(
+PhysicalTransferIndicator
+../../../../webviewer/31.jpg
+att44fd37c70121.htm
+att44fd37c70121.txt
+
+
+(
+)
+SettlementAmount [0..1]
+../../../../webviewer/31.jpg
+att459bcb190188.htm
+att459bcb190188.txt
+
+
+(
+)
+StampDutyIndicator
+../../../../webviewer/31.jpg
+att459bcb19019c.htm
+att459bcb19019c.txt
+
+
+(
+)
+NetAmount [0..1]
+../../../../webviewer/31.jpg
+att459bcb1901b0.htm
+att459bcb1901b0.txt
+
+
+(
+)
+theSecuritiesSettlementParameters ( SecuritiesSettlementParameters )
+../../../../webviewer/82.jpg
+../../../../looseends/role44fd37c7012e.htm
+
+
+
+theReceiveInformation1 ( ReceiveInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role44fd380103e2.htm
+
+
+
+SettlementPartiesDetails ( ReceivingPartiesAndAccount4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role44fd37c70140.htm
+
+
+
+ChargeDetails ( Charge20 )
+../../../../webviewer/82.jpg
+../../../../looseends/role459bd7d50352.htm
+
+
+
+CommissionDetails ( Commission12 )
+../../../../webviewer/82.jpg
+../../../../looseends/role459bd98103e4.htm
+
+
+
+TaxDetails ( Tax15 )
+../../../../webviewer/82.jpg
+../../../../looseends/role459bd986030f.htm
+
+
+
+PhysicalTransferDetails ( DeliveryParameters4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role44fd37c70154.htm
+
+
+
+theTransferOut5 ( TransferOut5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role44e07e5203bb.htm
+
+
+
+<<Textual>> PhysicalTransferDetailsRule
+../../../../webviewer/36.jpg
+op44fd37c70168.htm
+op44fd37c70168.txt
+
+
+(
+)
+<<Textual>> ReceiversCustodianDetailsRule
+../../../../webviewer/36.jpg
+op44fd37c70186.htm
+op44fd37c70186.txt
+
+
+(
+)
+<<Textual>> ReceiversIntermediaryDetailsRule
+../../../../webviewer/36.jpg
+op44fd37c70190.htm
+op44fd37c70190.txt
+
+
+(
+)
+)
+<<MessageComponent>> DeliverInformation3
+../../../../webviewer/142.jpg
+class44fd483c03be.htm
+
+
+
+(
+PhysicalTransferIndicator
+../../../../webviewer/31.jpg
+att44fd483c03c8.htm
+att44fd483c03c8.txt
+
+
+(
+)
+SettlementAmount [0..1]
+../../../../webviewer/31.jpg
+att459bcb2002be.htm
+att459bcb2002be.txt
+
+
+(
+)
+StampDutyIndicator
+../../../../webviewer/31.jpg
+att459bcb2002d2.htm
+att459bcb2002d2.txt
+
+
+(
+)
+NetAmount [0..1]
+../../../../webviewer/31.jpg
+att459bcb2002f1.htm
+att459bcb2002f1.txt
+
+
+(
+)
+theDeliverInformation1 ( DeliverInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role44fd4b9d019b.htm
+
+
+
+SettlementPartiesDetails ( DeliveringPartiesAndAccount4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role44fd483c03e7.htm
+
+
+
+theSecuritiesSettlementParameters ( SecuritiesSettlementParameters )
+../../../../webviewer/82.jpg
+../../../../looseends/role44fd483c03d5.htm
+
+
+
+PhysicalTransferDetails ( DeliveryParameters4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role44fd483d0012.htm
+
+
+
+ChargeDetails ( Charge20 )
+../../../../webviewer/82.jpg
+../../../../looseends/role459bd7da03e6.htm
+
+
+
+CommissionDetails ( Commission12 )
+../../../../webviewer/82.jpg
+../../../../looseends/role459bd98a030b.htm
+
+
+
+TaxDetails ( Tax15 )
+../../../../webviewer/82.jpg
+../../../../looseends/role459bda40009f.htm
+
+
+
+theTransferIn3 ( TransferIn3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role44e041d203c0.htm
+
+
+
+<<Textual>> PhysicalTransferDetailsRule
+../../../../webviewer/36.jpg
+op44fd483d0027.htm
+op44fd483d0027.txt
+
+
+(
+)
+<<Textual>> DeliverersCustodianDetailsRule
+../../../../webviewer/36.jpg
+op44fd483d0032.htm
+op44fd483d0032.txt
+
+
+(
+)
+<<Textual>> DeliverersIntermediaryDetailsRule
+../../../../webviewer/36.jpg
+op44fd483d003c.htm
+op44fd483d003c.txt
+
+
+(
+)
+)
+Associations
+../../../../webviewer/assoccat.gif
+
+
+
+
+(
+<<SWSTrace>> (theSecuritiesSettlementParameters:SecuritiesSettlementParameters) (theFundSettlementParameters1:FundSettlementParameters1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3e0c2f6301d4.htm
+
+
+
+(
+SecuritiesSettlementParameters ( theSecuritiesSettlementParameters )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e0c2f64004e.htm
+
+
+
+FundSettlementParameters1 ( theFundSettlementParameters1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e0c2f64006d.htm
+
+
+
+)
+<<SWSTrace>> (theSecuritiesSettlementParameters:SecuritiesSettlementParameters) (theTransfer1:Transfer1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3f0ec5bf0177.htm
+
+
+
+(
+SecuritiesSettlementParameters ( theSecuritiesSettlementParameters )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f0ec5c0004e.htm
+
+
+
+Transfer1 ( theTransfer1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f0ec5c0008c.htm
+
+
+
+)
+<<SWSTrace>> (theSecuritiesSettlementParameters:SecuritiesSettlementParameters) (theTransfer3:Transfer3)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3f0ec68d0196.htm
+
+
+
+(
+SecuritiesSettlementParameters ( theSecuritiesSettlementParameters )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f0ec68d03c8.htm
+
+
+
+Transfer3 ( theTransfer3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f0ec68e002e.htm
+
+
+
+)
+<<SWSTrace>> (theSecuritiesSettlementParameters:SecuritiesSettlementParameters) (theReceiveInformation1:ReceiveInformation1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3f1264d201b5.htm
+
+
+
+(
+SecuritiesSettlementParameters ( theSecuritiesSettlementParameters )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f1264d2034b.htm
+
+
+
+ReceiveInformation1 ( theReceiveInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f1264d20399.htm
+
+
+
+)
+Association (SettlementPartiesDetails:ReceivingPartiesAndAccount1) (theReceiveInformation1:ReceiveInformation1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3e69bf8a022e.htm
+../../../../looseends/ass3e69bf8a022e.txt
+
+
+(
+ReceivingPartiesAndAccount1 ( SettlementPartiesDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e69bf8b021c.htm
+
+
+
+ReceiveInformation1 ( theReceiveInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e69bf8b023a.htm
+
+
+
+)
+Association (PhysicalTransferDetails:DeliveryParameters2) (theReceiveInformation1:ReceiveInformation1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3e95726f0018.htm
+
+
+
+(
+DeliveryParameters2 ( PhysicalTransferDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e95726f0394.htm
+
+
+
+ReceiveInformation1 ( theReceiveInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e95726f03b2.htm
+
+
+
+)
+<<SWSTrace>> (theSecuritiesSettlementParameters:SecuritiesSettlementParameters) (theDeliverInformation1:DeliverInformation1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3f13a3d702ee.htm
+
+
+
+(
+SecuritiesSettlementParameters ( theSecuritiesSettlementParameters )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f13a3d8008c.htm
+
+
+
+DeliverInformation1 ( theDeliverInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f13a3d800da.htm
+
+
+
+)
+Association (SettlementPartiesDetails:DeliveringPartiesAndAccount1) (theDeliverInformation1:DeliverInformation1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3e65f0190243.htm
+../../../../looseends/ass3e65f0190243.txt
+
+
+(
+DeliveringPartiesAndAccount1 ( SettlementPartiesDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e65f01a010e.htm
+
+
+
+DeliverInformation1 ( theDeliverInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e65f01a0118.htm
+
+
+
+)
+Association (PhysicalTransferDetails:DeliveryParameters2) (theDeliverInformation1:DeliverInformation1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3e65f774038b.htm
+../../../../looseends/ass3e65f774038b.txt
+
+
+(
+DeliveryParameters2 ( PhysicalTransferDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e65f775036f.htm
+
+
+
+DeliverInformation1 ( theDeliverInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e65f775038d.htm
+
+
+
+)
+Association (theFundSettlementParameters1:FundSettlementParameters1) (DeliveringSideDetails:DeliveringPartiesAndAccount2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3f8ac12700b0.htm
+../../../../looseends/ass3f8ac12700b0.txt
+
+
+(
+FundSettlementParameters1 ( theFundSettlementParameters1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f8ac12700b1.htm
+
+
+
+DeliveringPartiesAndAccount2 ( DeliveringSideDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f8ac12700b2.htm
+
+
+
+)
+<<SWSTrace>> (theSecuritiesSettlementParameters:SecuritiesSettlementParameters) (theDeliveringPartiesAndAccount2:DeliveringPartiesAndAccount2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3f93fd94034e.htm
+
+
+
+(
+SecuritiesSettlementParameters ( theSecuritiesSettlementParameters )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f93fd950359.htm
+
+
+
+DeliveringPartiesAndAccount2 ( theDeliveringPartiesAndAccount2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f93fd960008.htm
+
+
+
+)
+Association (theFundSettlementParameters1:FundSettlementParameters1) (ReceivingSideDetails:ReceivingPartiesAndAccount2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3f8ac138003c.htm
+../../../../looseends/ass3f8ac138003c.txt
+
+
+(
+FundSettlementParameters1 ( theFundSettlementParameters1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f8ac138003d.htm
+
+
+
+ReceivingPartiesAndAccount2 ( ReceivingSideDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f8ac138003e.htm
+
+
+
+)
+<<SWSTrace>> (theSecuritiesSettlementParameters:SecuritiesSettlementParameters) (theReceivingPartiesAndAccount2:ReceivingPartiesAndAccount2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3f93fd9e01e0.htm
+
+
+
+(
+SecuritiesSettlementParameters ( theSecuritiesSettlementParameters )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f93fd9f02bd.htm
+
+
+
+ReceivingPartiesAndAccount2 ( theReceivingPartiesAndAccount2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f93fd9f034a.htm
+
+
+
+)
+Association (theDeliveringPartiesAndAccount2:DeliveringPartiesAndAccount2) (DeliverersCustodianDetails:PartyIdentificationAndAccount1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3f8abcdb01bd.htm
+../../../../looseends/ass3f8abcdb01bd.txt
+
+
+(
+DeliveringPartiesAndAccount2 ( theDeliveringPartiesAndAccount2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f8abcdb01be.htm
+
+
+
+PartyIdentificationAndAccount1 ( DeliverersCustodianDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f8abcdb01bf.htm
+
+
+
+)
+Association (theReceivingPartiesAndAccount2:ReceivingPartiesAndAccount2) (ReceiversCustodianDetails:PartyIdentificationAndAccount1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3f8abc850263.htm
+../../../../looseends/ass3f8abc850263.txt
+
+
+(
+ReceivingPartiesAndAccount2 ( theReceivingPartiesAndAccount2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f8abc850264.htm
+
+
+
+PartyIdentificationAndAccount1 ( ReceiversCustodianDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f8abc850265.htm
+
+
+
+)
+Association (theReceivingPartiesAndAccount2:ReceivingPartiesAndAccount2) (ReceiversIntermediaryDetails:PartyIdentificationAndAccount1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3f8abc7803c3.htm
+../../../../looseends/ass3f8abc7803c3.txt
+
+
+(
+ReceivingPartiesAndAccount2 ( theReceivingPartiesAndAccount2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f8abc7803c4.htm
+
+
+
+PartyIdentificationAndAccount1 ( ReceiversIntermediaryDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f8abc7803c5.htm
+
+
+
+)
+Association (theDeliveringPartiesAndAccount2:DeliveringPartiesAndAccount2) (DeliverersIntermediaryDetails:PartyIdentificationAndAccount1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3f8abce00214.htm
+../../../../looseends/ass3f8abce00214.txt
+
+
+(
+DeliveringPartiesAndAccount2 ( theDeliveringPartiesAndAccount2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f8abce00215.htm
+
+
+
+PartyIdentificationAndAccount1 ( DeliverersIntermediaryDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f8abce00216.htm
+
+
+
+)
+Association (theReceivingPartiesAndAccount2:ReceivingPartiesAndAccount2) (ReceivingAgentDetails:PartyIdentificationAndAccount1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3f8abc64025c.htm
+../../../../looseends/ass3f8abc64025c.txt
+
+
+(
+ReceivingPartiesAndAccount2 ( theReceivingPartiesAndAccount2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f8abc64025d.htm
+
+
+
+PartyIdentificationAndAccount1 ( ReceivingAgentDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f8abc64025e.htm
+
+
+
+)
+Association (theDeliveringPartiesAndAccount2:DeliveringPartiesAndAccount2) (DeliveringAgentDetails:PartyIdentificationAndAccount1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3f8abcde0059.htm
+../../../../looseends/ass3f8abcde0059.txt
+
+
+(
+DeliveringPartiesAndAccount2 ( theDeliveringPartiesAndAccount2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f8abcde005a.htm
+
+
+
+PartyIdentificationAndAccount1 ( DeliveringAgentDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f8abcde005b.htm
+
+
+
+)
+<<SWSTrace>> (theSecuritiesSettlementParameters:SecuritiesSettlementParameters) (theFundSettlementParameters2:FundSettlementParameters2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3f969cec01ee.htm
+
+
+
+(
+SecuritiesSettlementParameters ( theSecuritiesSettlementParameters )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f969ced0163.htm
+
+
+
+FundSettlementParameters2 ( theFundSettlementParameters2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f969ced01bd.htm
+
+
+
+)
+Association (ReceivingSideDetails:ReceivingPartiesAndAccount2) (theFundSettlementParameters2:FundSettlementParameters2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3f8abd910363.htm
+../../../../looseends/ass3f8abd910363.txt
+
+
+(
+ReceivingPartiesAndAccount2 ( ReceivingSideDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f8abd9300bd.htm
+
+
+
+FundSettlementParameters2 ( theFundSettlementParameters2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f8abd9300c7.htm
+
+
+
+)
+Association (DeliveringSideDetails:DeliveringPartiesAndAccount2) (theFundSettlementParameters2:FundSettlementParameters2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3f8abda302ab.htm
+../../../../looseends/ass3f8abda302ab.txt
+
+
+(
+DeliveringPartiesAndAccount2 ( DeliveringSideDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f8abda4019e.htm
+
+
+
+FundSettlementParameters2 ( theFundSettlementParameters2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3f8abda401a8.htm
+
+
+
+)
+Association (UnitsDetails:Unit1) (theTransfer1:Transfer1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass40a4789e0271.htm
+../../../../looseends/ass40a4789e0271.txt
+
+
+(
+Unit1 ( UnitsDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role40a4789f0119.htm
+
+
+
+Transfer1 ( theTransfer1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role40a4789f011b.htm
+
+
+
+)
+<<SWSTrace>> (theSecuritiesSettlementParameters:SecuritiesSettlementParameters) (theDeliveringPartiesAndAccount3:DeliveringPartiesAndAccount3)
+../../../../webviewer/81.jpg
+../../../../looseends/ass41ac38570230.htm
+
+
+
+(
+SecuritiesSettlementParameters ( theSecuritiesSettlementParameters )
+../../../../webviewer/82.jpg
+../../../../looseends/role41ac38570231.htm
+
+
+
+DeliveringPartiesAndAccount3 ( theDeliveringPartiesAndAccount3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41ac38570233.htm
+
+
+
+)
+Association (DeliverersIntermediaryDetails:PartyIdentificationAndAccount3) (theDeliveringPartiesAndAccount3:DeliveringPartiesAndAccount3)
+../../../../webviewer/81.jpg
+../../../../looseends/ass41ac38570243.htm
+../../../../looseends/ass41ac38570243.txt
+
+
+(
+PartyIdentificationAndAccount3 ( DeliverersIntermediaryDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role41ac38570244.htm
+
+
+
+DeliveringPartiesAndAccount3 ( theDeliveringPartiesAndAccount3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41ac3857024e.htm
+
+
+
+)
+Association (DeliverersCustodianDetails:PartyIdentificationAndAccount3) (theDeliveringPartiesAndAccount3:DeliveringPartiesAndAccount3)
+../../../../webviewer/81.jpg
+../../../../looseends/ass41ac3857023a.htm
+../../../../looseends/ass41ac3857023a.txt
+
+
+(
+PartyIdentificationAndAccount3 ( DeliverersCustodianDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role41ac3857023b.htm
+
+
+
+DeliveringPartiesAndAccount3 ( theDeliveringPartiesAndAccount3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41ac3857023d.htm
+
+
+
+)
+Association (DeliveringAgentDetails:PartyIdentificationAndAccount3) (theDeliveringPartiesAndAccount3:DeliveringPartiesAndAccount3)
+../../../../webviewer/81.jpg
+../../../../looseends/ass41ac38570257.htm
+../../../../looseends/ass41ac38570257.txt
+
+
+(
+PartyIdentificationAndAccount3 ( DeliveringAgentDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role41ac38570258.htm
+
+
+
+DeliveringPartiesAndAccount3 ( theDeliveringPartiesAndAccount3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41ac3857025a.htm
+
+
+
+)
+<<SWSTrace>> (theSecuritiesSettlementParameters:SecuritiesSettlementParameters) (theReceivingPartiesAndAccount3:ReceivingPartiesAndAccount3)
+../../../../webviewer/81.jpg
+../../../../looseends/ass41ac3701031f.htm
+
+
+
+(
+SecuritiesSettlementParameters ( theSecuritiesSettlementParameters )
+../../../../webviewer/82.jpg
+../../../../looseends/role41ac37010320.htm
+
+
+
+ReceivingPartiesAndAccount3 ( theReceivingPartiesAndAccount3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41ac37010322.htm
+
+
+
+)
+Association (ReceivingAgentDetails:PartyIdentificationAndAccount3) (theReceivingPartiesAndAccount3:ReceivingPartiesAndAccount3)
+../../../../webviewer/81.jpg
+../../../../looseends/ass41ac37010346.htm
+
+
+
+(
+PartyIdentificationAndAccount3 ( ReceivingAgentDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role41ac37010347.htm
+
+
+
+ReceivingPartiesAndAccount3 ( theReceivingPartiesAndAccount3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41ac37010349.htm
+
+
+
+)
+Association (ReceiversIntermediaryDetails:PartyIdentificationAndAccount3) (theReceivingPartiesAndAccount3:ReceivingPartiesAndAccount3)
+../../../../webviewer/81.jpg
+../../../../looseends/ass41ac3701033c.htm
+../../../../looseends/ass41ac3701033c.txt
+
+
+(
+PartyIdentificationAndAccount3 ( ReceiversIntermediaryDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role41ac3701033d.htm
+
+
+
+ReceivingPartiesAndAccount3 ( theReceivingPartiesAndAccount3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41ac3701033f.htm
+
+
+
+)
+Association (ReceiversCustodianDetails:PartyIdentificationAndAccount3) (theReceivingPartiesAndAccount3:ReceivingPartiesAndAccount3)
+../../../../webviewer/81.jpg
+../../../../looseends/ass41ac37010329.htm
+../../../../looseends/ass41ac37010329.txt
+
+
+(
+PartyIdentificationAndAccount3 ( ReceiversCustodianDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role41ac3701032a.htm
+
+
+
+ReceivingPartiesAndAccount3 ( theReceivingPartiesAndAccount3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41ac3701032c.htm
+
+
+
+)
+<<SWSTrace>> (theSecuritiesSettlementParameters:SecuritiesSettlementParameters) (theFundSettlementParameters4:FundSettlementParameters4)
+../../../../webviewer/81.jpg
+../../../../looseends/ass41ac34ff00ac.htm
+
+
+
+(
+SecuritiesSettlementParameters ( theSecuritiesSettlementParameters )
+../../../../webviewer/82.jpg
+../../../../looseends/role41ac34ff00ad.htm
+
+
+
+FundSettlementParameters4 ( theFundSettlementParameters4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41ac34ff00b7.htm
+
+
+
+)
+Association (ReceivingSideDetails:ReceivingPartiesAndAccount3) (theFundSettlementParameters4:FundSettlementParameters4)
+../../../../webviewer/81.jpg
+../../../../looseends/ass41ac34ff00ba.htm
+../../../../looseends/ass41ac34ff00ba.txt
+
+
+(
+ReceivingPartiesAndAccount3 ( ReceivingSideDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role41ac34ff00bb.htm
+
+
+
+FundSettlementParameters4 ( theFundSettlementParameters4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41ac34ff00bd.htm
+
+
+
+)
+Association (DeliveringSideDetails:DeliveringPartiesAndAccount3) (theFundSettlementParameters4:FundSettlementParameters4)
+../../../../webviewer/81.jpg
+../../../../looseends/ass41ac34ff00ca.htm
+../../../../looseends/ass41ac34ff00ca.txt
+
+
+(
+DeliveringPartiesAndAccount3 ( DeliveringSideDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role41ac34ff00cb.htm
+
+
+
+FundSettlementParameters4 ( theFundSettlementParameters4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41ac34ff00cd.htm
+
+
+
+)
+<<SWSTrace>> (theSecuritiesSettlementParameters:SecuritiesSettlementParameters) (theFundSettlementParameters3:FundSettlementParameters3)
+../../../../webviewer/81.jpg
+../../../../looseends/ass41ac9eef0061.htm
+
+
+
+(
+SecuritiesSettlementParameters ( theSecuritiesSettlementParameters )
+../../../../webviewer/82.jpg
+../../../../looseends/role41ac9eef0062.htm
+
+
+
+FundSettlementParameters3 ( theFundSettlementParameters3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41ac9eef0064.htm
+
+
+
+)
+Association (DeliveringSideDetails:DeliveringPartiesAndAccount3) (theFundSettlementParameters3:FundSettlementParameters3)
+../../../../webviewer/81.jpg
+../../../../looseends/ass41ac9eef0067.htm
+../../../../looseends/ass41ac9eef0067.txt
+
+
+(
+DeliveringPartiesAndAccount3 ( DeliveringSideDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role41ac9eef0068.htm
+
+
+
+FundSettlementParameters3 ( theFundSettlementParameters3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41ac9eef006c.htm
+
+
+
+)
+Association (ReceivingSideDetails:ReceivingPartiesAndAccount3) (theFundSettlementParameters3:FundSettlementParameters3)
+../../../../webviewer/81.jpg
+../../../../looseends/ass41ac9eef0075.htm
+../../../../looseends/ass41ac9eef0075.txt
+
+
+(
+ReceivingPartiesAndAccount3 ( ReceivingSideDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role41ac9eef0076.htm
+
+
+
+FundSettlementParameters3 ( theFundSettlementParameters3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role41ac9eef0078.htm
+
+
+
+)
+<<SWSTrace>> (theSecuritiesSettlementParameters:SecuritiesSettlementParameters) (theSecuritiesSettlement3:SecuritiesSettlement3)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3e91567b00d5.htm
+
+
+
+(
+SecuritiesSettlementParameters ( theSecuritiesSettlementParameters )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e91567b02c0.htm
+
+
+
+SecuritiesSettlement3 ( theSecuritiesSettlement3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e91567b02e8.htm
+
+
+
+)
+<<SWSTrace>> (theSecuritiesSettlementParameters:SecuritiesSettlementParameters) (theSecuritiesSettlementDetails1:SecuritiesSettlementDetails1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass42afea1d0113.htm
+
+
+
+(
+SecuritiesSettlementParameters ( theSecuritiesSettlementParameters )
+../../../../webviewer/82.jpg
+../../../../looseends/role42afea1e01ab.htm
+
+
+
+SecuritiesSettlementDetails1 ( theSecuritiesSettlementDetails1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role42afea1e01fb.htm
+
+
+
+)
+Association (AccountWithInstitutionDetails:PartyIdentificationAndAccount2) (theSecuritiesSettlementDetails1:SecuritiesSettlementDetails1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4250edc10033.htm
+
+
+
+(
+PartyIdentificationAndAccount2 ( AccountWithInstitutionDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role4250edc20107.htm
+
+
+
+SecuritiesSettlementDetails1 ( theSecuritiesSettlementDetails1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4250edc20310.htm
+
+
+
+)
+Association (DeliveryAgentDetails:PartyIdentificationAndAccount2) (theSecuritiesSettlementDetails1:SecuritiesSettlementDetails1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass424c05e6016d.htm
+
+
+
+(
+PartyIdentificationAndAccount2 ( DeliveryAgentDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role424c05e6027c.htm
+
+
+
+SecuritiesSettlementDetails1 ( theSecuritiesSettlementDetails1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role424c05e60308.htm
+
+
+
+)
+Association (BuyerDetails:PartyIdentificationAndAccount2) (theSecuritiesSettlementDetails1:SecuritiesSettlementDetails1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass424c05dd00de.htm
+
+
+
+(
+PartyIdentificationAndAccount2 ( BuyerDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role424c05dd02c9.htm
+
+
+
+SecuritiesSettlementDetails1 ( theSecuritiesSettlementDetails1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role424c05dd0319.htm
+
+
+
+)
+Association (ReceivingAgentDetails:PartyIdentificationAndAccount2) (theSecuritiesSettlementDetails1:SecuritiesSettlementDetails1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass424c05ed01b3.htm
+
+
+
+(
+PartyIdentificationAndAccount2 ( ReceivingAgentDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role424c05ee025f.htm
+
+
+
+SecuritiesSettlementDetails1 ( theSecuritiesSettlementDetails1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role424c05ee02c3.htm
+
+
+
+)
+Association (PayingInstitutionDetails:PartyIdentificationAndAccount2) (theSecuritiesSettlementDetails1:SecuritiesSettlementDetails1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4250eda000c2.htm
+
+
+
+(
+PartyIdentificationAndAccount2 ( PayingInstitutionDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role4250eda10109.htm
+
+
+
+SecuritiesSettlementDetails1 ( theSecuritiesSettlementDetails1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4250eda200d8.htm
+
+
+
+)
+Association (BeneficiaryOfMoneyDetails:PartyIdentificationAndAccount2) (theSecuritiesSettlementDetails1:SecuritiesSettlementDetails1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4250edaa0044.htm
+
+
+
+(
+PartyIdentificationAndAccount2 ( BeneficiaryOfMoneyDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role4250edab0027.htm
+
+
+
+SecuritiesSettlementDetails1 ( theSecuritiesSettlementDetails1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4250edab0190.htm
+
+
+
+)
+<<SWSTrace>> (theSecuritiesSettlementParameters:SecuritiesSettlementParameters) (theSecuritiesSettlement2:SecuritiesSettlement2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3e47a1880027.htm
+
+
+
+(
+SecuritiesSettlementParameters ( theSecuritiesSettlementParameters )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e47a188022f.htm
+
+
+
+SecuritiesSettlement2 ( theSecuritiesSettlement2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e47a188026b.htm
+
+
+
+)
+Association (SafekeepingAccountDetails:SecuritiesAccount2) (theSecuritiesSettlement1:SecuritiesSettlement1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass42247dc30332.htm
+../../../../looseends/ass42247dc30332.txt
+
+
+(
+SecuritiesAccount2 ( SafekeepingAccountDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role42247dc40261.htm
+
+
+
+SecuritiesSettlement1 ( theSecuritiesSettlement1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role42247dc402bb.htm
+
+
+
+)
+<<SWSTrace>> (theSecuritiesSettlementParameters:SecuritiesSettlementParameters) (theSecuritiesSettlement1:SecuritiesSettlement1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3d882a6801c0.htm
+
+
+
+(
+SecuritiesSettlementParameters ( theSecuritiesSettlementParameters )
+../../../../webviewer/82.jpg
+../../../../looseends/role3d882a690027.htm
+
+
+
+SecuritiesSettlement1 ( theSecuritiesSettlement1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3d882a69004f.htm
+
+
+
+)
+Association (SellerDetails:PartyIdentificationAndAccount2) (theSecuritiesSettlementDetails1:SecuritiesSettlementDetails1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass424c05d60341.htm
+
+
+
+(
+PartyIdentificationAndAccount2 ( SellerDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role424c05d70126.htm
+
+
+
+SecuritiesSettlementDetails1 ( theSecuritiesSettlementDetails1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role424c05d7016c.htm
+
+
+
+)
+<<IsAnAlternativeFor>> (theTransfer3:Transfer3) (theTransfer5:Transfer5)
+../../../../webviewer/81.jpg
+../../../../looseends/ass44e0452a03b4.htm
+
+
+
+(
+Transfer3 ( theTransfer3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role44e0452b00e5.htm
+
+
+
+Transfer5 ( theTransfer5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role44e0452b0103.htm
+
+
+
+)
+<<SWSTrace>> (theSecuritiesSettlementParameters:SecuritiesSettlementParameters) (theTransfer5:Transfer5)
+../../../../webviewer/81.jpg
+../../../../looseends/ass44e044ae018e.htm
+
+
+
+(
+SecuritiesSettlementParameters ( theSecuritiesSettlementParameters )
+../../../../webviewer/82.jpg
+../../../../looseends/role44e044ae018f.htm
+
+
+
+Transfer5 ( theTransfer5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role44e044ae0191.htm
+
+
+
+)
+<<IsAnAlternativeFor>> (theTransfer3:Transfer3) (theTransfer6:Transfer6)
+../../../../webviewer/81.jpg
+../../../../looseends/ass44e066a702db.htm
+
+
+
+(
+Transfer3 ( theTransfer3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role44e066a8020a.htm
+
+
+
+Transfer6 ( theTransfer6 )
+../../../../webviewer/82.jpg
+../../../../looseends/role44e066a80232.htm
+
+
+
+)
+<<SWSTrace>> (theSecuritiesSettlementParameters:SecuritiesSettlementParameters) (theTransfer6:Transfer6)
+../../../../webviewer/81.jpg
+../../../../looseends/ass44e0667c0080.htm
+
+
+
+(
+SecuritiesSettlementParameters ( theSecuritiesSettlementParameters )
+../../../../webviewer/82.jpg
+../../../../looseends/role44e0667c0081.htm
+
+
+
+Transfer6 ( theTransfer6 )
+../../../../webviewer/82.jpg
+../../../../looseends/role44e0667c0083.htm
+
+
+
+)
+<<IsAnAlternativeFor>> (theTransfer1:Transfer1) (theTransfer8:Transfer8)
+../../../../webviewer/81.jpg
+../../../../looseends/ass44e071d6011e.htm
+
+
+
+(
+Transfer1 ( theTransfer1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role44e071d60254.htm
+
+
+
+Transfer8 ( theTransfer8 )
+../../../../webviewer/82.jpg
+../../../../looseends/role44e071d60272.htm
+
+
+
+)
+<<SWSTrace>> (theSecuritiesSettlementParameters:SecuritiesSettlementParameters) (theTransfer8:Transfer8)
+../../../../webviewer/81.jpg
+../../../../looseends/ass44e071be0033.htm
+
+
+
+(
+SecuritiesSettlementParameters ( theSecuritiesSettlementParameters )
+../../../../webviewer/82.jpg
+../../../../looseends/role44e071be0034.htm
+
+
+
+Transfer8 ( theTransfer8 )
+../../../../webviewer/82.jpg
+../../../../looseends/role44e071be0036.htm
+
+
+
+)
+Association (UnitsDetails:Unit3) (theTransfer8:Transfer8)
+../../../../webviewer/81.jpg
+../../../../looseends/ass44e071be003e.htm
+../../../../looseends/ass44e071be003e.txt
+
+
+(
+Unit3 ( UnitsDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role44e071be003f.htm
+
+
+
+Transfer8 ( theTransfer8 )
+../../../../webviewer/82.jpg
+../../../../looseends/role44e071be0041.htm
+
+
+
+)
+<<IsAnAlternativeFor>> (theTransfer1:Transfer1) (theTransfer9:Transfer9)
+../../../../webviewer/81.jpg
+../../../../looseends/ass44e073960343.htm
+
+
+
+(
+Transfer1 ( theTransfer1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role44e07397013c.htm
+
+
+
+Transfer9 ( theTransfer9 )
+../../../../webviewer/82.jpg
+../../../../looseends/role44e073970150.htm
+
+
+
+)
+<<SWSTrace>> (theSecuritiesSettlementParameters:SecuritiesSettlementParameters) (theTransfer9:Transfer9)
+../../../../webviewer/81.jpg
+../../../../looseends/ass44e073490215.htm
+
+
+
+(
+SecuritiesSettlementParameters ( theSecuritiesSettlementParameters )
+../../../../webviewer/82.jpg
+../../../../looseends/role44e073490216.htm
+
+
+
+Transfer9 ( theTransfer9 )
+../../../../webviewer/82.jpg
+../../../../looseends/role44e073490218.htm
+
+
+
+)
+Association (UnitsDetails:Unit3) (theTransfer9:Transfer9)
+../../../../webviewer/81.jpg
+../../../../looseends/ass44e073490220.htm
+../../../../looseends/ass44e073490220.txt
+
+
+(
+Unit3 ( UnitsDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role44e073490221.htm
+
+
+
+Transfer9 ( theTransfer9 )
+../../../../webviewer/82.jpg
+../../../../looseends/role44e073490223.htm
+
+
+
+)
+<<SWSTrace>> (theSecuritiesSettlementParameters:SecuritiesSettlementParameters) (theReceiveInformation3:ReceiveInformation3)
+../../../../webviewer/81.jpg
+../../../../looseends/ass44fd37c7012b.htm
+
+
+
+(
+SecuritiesSettlementParameters ( theSecuritiesSettlementParameters )
+../../../../webviewer/82.jpg
+../../../../looseends/role44fd37c7012c.htm
+
+
+
+ReceiveInformation3 ( theReceiveInformation3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role44fd37c7012e.htm
+
+
+
+)
+<<IsAnAlternativeFor>> (theReceiveInformation1:ReceiveInformation1) (theReceiveInformation3:ReceiveInformation3)
+../../../../webviewer/81.jpg
+../../../../looseends/ass44fd380102bf.htm
+
+
+
+(
+ReceiveInformation1 ( theReceiveInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role44fd380103ce.htm
+
+
+
+ReceiveInformation3 ( theReceiveInformation3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role44fd380103e2.htm
+
+
+
+)
+Association (SettlementPartiesDetails:ReceivingPartiesAndAccount4) (theReceiveInformation3:ReceiveInformation3)
+../../../../webviewer/81.jpg
+../../../../looseends/ass44fd37c70136.htm
+../../../../looseends/ass44fd37c70136.txt
+
+
+(
+ReceivingPartiesAndAccount4 ( SettlementPartiesDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role44fd37c70137.htm
+
+
+
+ReceiveInformation3 ( theReceiveInformation3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role44fd37c70140.htm
+
+
+
+)
+Association (ChargeDetails:Charge20) (theReceiveInformation3:ReceiveInformation3)
+../../../../webviewer/81.jpg
+../../../../looseends/ass459bd7d50121.htm
+../../../../looseends/ass459bd7d50121.txt
+
+
+(
+Charge20 ( ChargeDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role459bd7d50334.htm
+
+
+
+ReceiveInformation3 ( theReceiveInformation3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role459bd7d50352.htm
+
+
+
+)
+Association (CommissionDetails:Commission12) (theReceiveInformation3:ReceiveInformation3)
+../../../../webviewer/81.jpg
+../../../../looseends/ass459bd981009b.htm
+../../../../looseends/ass459bd981009b.txt
+
+
+(
+Commission12 ( CommissionDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role459bd98103da.htm
+
+
+
+ReceiveInformation3 ( theReceiveInformation3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role459bd98103e4.htm
+
+
+
+)
+Association (TaxDetails:Tax15) (theReceiveInformation3:ReceiveInformation3)
+../../../../webviewer/81.jpg
+../../../../looseends/ass459bd984008b.htm
+../../../../looseends/ass459bd984008b.txt
+
+
+(
+Tax15 ( TaxDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role459bd98602f1.htm
+
+
+
+ReceiveInformation3 ( theReceiveInformation3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role459bd986030f.htm
+
+
+
+)
+Association (PhysicalTransferDetails:DeliveryParameters4) (theReceiveInformation3:ReceiveInformation3)
+../../../../webviewer/81.jpg
+../../../../looseends/ass44fd37c70149.htm
+
+
+
+(
+DeliveryParameters4 ( PhysicalTransferDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role44fd37c7014a.htm
+
+
+
+ReceiveInformation3 ( theReceiveInformation3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role44fd37c70154.htm
+
+
+
+)
+<<IsAnAlternativeFor>> (theDeliverInformation1:DeliverInformation1) (theDeliverInformation3:DeliverInformation3)
+../../../../webviewer/81.jpg
+../../../../looseends/ass44fd4b9d0001.htm
+
+
+
+(
+DeliverInformation1 ( theDeliverInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role44fd4b9d017d.htm
+
+
+
+DeliverInformation3 ( theDeliverInformation3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role44fd4b9d019b.htm
+
+
+
+)
+Association (SettlementPartiesDetails:DeliveringPartiesAndAccount4) (theDeliverInformation3:DeliverInformation3)
+../../../../webviewer/81.jpg
+../../../../looseends/ass44fd483c03dd.htm
+../../../../looseends/ass44fd483c03dd.txt
+
+
+(
+DeliveringPartiesAndAccount4 ( SettlementPartiesDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role44fd483c03de.htm
+
+
+
+DeliverInformation3 ( theDeliverInformation3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role44fd483c03e7.htm
+
+
+
+)
+<<SWSTrace>> (theSecuritiesSettlementParameters:SecuritiesSettlementParameters) (theDeliverInformation3:DeliverInformation3)
+../../../../webviewer/81.jpg
+../../../../looseends/ass44fd483c03d2.htm
+
+
+
+(
+SecuritiesSettlementParameters ( theSecuritiesSettlementParameters )
+../../../../webviewer/82.jpg
+../../../../looseends/role44fd483c03d3.htm
+
+
+
+DeliverInformation3 ( theDeliverInformation3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role44fd483c03d5.htm
+
+
+
+)
+Association (PhysicalTransferDetails:DeliveryParameters4) (theDeliverInformation3:DeliverInformation3)
+../../../../webviewer/81.jpg
+../../../../looseends/ass44fd483d0008.htm
+../../../../looseends/ass44fd483d0008.txt
+
+
+(
+DeliveryParameters4 ( PhysicalTransferDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role44fd483d0009.htm
+
+
+
+DeliverInformation3 ( theDeliverInformation3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role44fd483d0012.htm
+
+
+
+)
+Association (ChargeDetails:Charge20) (theDeliverInformation3:DeliverInformation3)
+../../../../webviewer/81.jpg
+../../../../looseends/ass459bd7d902ae.htm
+../../../../looseends/ass459bd7d902ae.txt
+
+
+(
+Charge20 ( ChargeDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role459bd7da03d2.htm
+
+
+
+DeliverInformation3 ( theDeliverInformation3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role459bd7da03e6.htm
+
+
+
+)
+Association (CommissionDetails:Commission12) (theDeliverInformation3:DeliverInformation3)
+../../../../webviewer/81.jpg
+../../../../looseends/ass459bd989013c.htm
+../../../../looseends/ass459bd989013c.txt
+
+
+(
+Commission12 ( CommissionDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role459bd98a0301.htm
+
+
+
+DeliverInformation3 ( theDeliverInformation3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role459bd98a030b.htm
+
+
+
+)
+Association (TaxDetails:Tax15) (theDeliverInformation3:DeliverInformation3)
+../../../../webviewer/81.jpg
+../../../../looseends/ass459bda3f027f.htm
+../../../../looseends/ass459bda3f027f.txt
+
+
+(
+Tax15 ( TaxDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role459bda400081.htm
+
+
+
+DeliverInformation3 ( theDeliverInformation3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role459bda40009f.htm
+
+
+
+)
+)

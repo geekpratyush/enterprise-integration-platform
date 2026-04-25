@@ -1,0 +1,1 @@
+Defines the criteria used to search for a payment.

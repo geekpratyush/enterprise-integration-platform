@@ -1,0 +1,360 @@
+<<MessageComponent>> BankTransactionCodeStructure2
+../../../../webviewer/142.jpg
+class453f726100b8.htm
+
+
+
+(
+Code
+../../../../webviewer/31.jpg
+att453f726100f4.htm
+
+
+
+(
+)
+theBankTransactionCodeStructure1 ( BankTransactionCodeStructure1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role453f728302ac.htm
+
+
+
+theBankTransaction ( BankTransaction )
+../../../../webviewer/82.jpg
+../../../../looseends/role453f74420113.htm
+
+
+
+Family ( BankTransactionCodeStructure3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role45d18f5b0244.htm
+
+
+
+)
+<<MessageComponent>> BankTransactionCodeStructure1
+../../../../webviewer/142.jpg
+class453ca72302e4.htm
+class453ca72302e4.txt
+
+
+(
+theStatementEntry1 ( StatementEntry1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4542312e0364.htm
+
+
+
+theReportEntry1 ( ReportEntry1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role453ca59202c1.htm
+
+
+
+theEntryTransaction1 ( EntryTransaction1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role453cd17100bc.htm
+
+
+
+theNotificationEntry1 ( NotificationEntry1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role45d985ae0325.htm
+
+
+
+theNumberAndSumOfTransactionsPerBankTransactionCode1 ( NumberAndSumOfTransactionsPerBankTransactionCode1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role45460a310277.htm
+../../../../looseends/role45460a310277.txt
+
+
+theReturnReasonInformation5 ( ReturnReasonInformation5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role454628000187.htm
+
+
+
+Domain ( BankTransactionCodeStructure2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role453f728302b6.htm
+
+
+
+theBankTransaction ( BankTransaction )
+../../../../webviewer/82.jpg
+../../../../looseends/role454f42810254.htm
+
+
+
+Proprietary ( ProprietaryBankTransactionCodeStructure1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role45d18e490263.htm
+
+
+
+<<Textual>> DomainAndProprietary1Rule
+../../../../webviewer/36.jpg
+op45d1929800bb.htm
+op45d1929800bb.txt
+
+
+(
+)
+<<Textual>> DomainAndProprietary2Rule
+../../../../webviewer/36.jpg
+op45d192eb03b9.htm
+op45d192eb03b9.txt
+
+
+(
+)
+<<Textual>> FamilyAndSubFamilyRule
+../../../../webviewer/36.jpg
+op45df176703b9.htm
+op45df176703b9.txt
+
+
+(
+)
+)
+<<MessageComponent>> ProprietaryBankTransactionCodeStructure1
+../../../../webviewer/142.jpg
+class45d18d560148.htm
+class45d18d560148.txt
+
+
+(
+Code
+../../../../webviewer/33.jpg
+att45d18d56014a.htm
+att45d18d56014a.txt
+
+
+(
+)
+Issuer[0..1]
+../../../../webviewer/33.jpg
+att45d18df502de.htm
+att45d18df502de.txt
+
+
+(
+)
+theBankTransaction ( BankTransaction )
+../../../../webviewer/82.jpg
+../../../../looseends/role45d18d56017a.htm
+
+
+
+theBankTransactionCodeStructure1 ( BankTransactionCodeStructure1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role45d18e490261.htm
+
+
+
+)
+<<MessageComponent>> BankTransactionCodeStructure3
+../../../../webviewer/142.jpg
+class45d18f470242.htm
+
+
+
+(
+Code
+../../../../webviewer/31.jpg
+att45d18f470252.htm
+
+
+
+(
+)
+SubFamilyCode
+../../../../webviewer/31.jpg
+att45d18f470261.htm
+
+
+
+(
+)
+theBankTransaction ( BankTransaction )
+../../../../webviewer/82.jpg
+../../../../looseends/role45d18f470273.htm
+
+
+
+theBankTransactionCodeStructure2 ( BankTransactionCodeStructure2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role45d18f5b0242.htm
+
+
+
+)
+Associations
+../../../../webviewer/assoccat.gif
+
+
+
+
+(
+Association (Domain:BankTransactionCodeStructure2) (theBankTransactionCodeStructure1:BankTransactionCodeStructure1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass453f728202fb.htm
+../../../../looseends/ass453f728202fb.txt
+
+
+(
+BankTransactionCodeStructure2 ( Domain )
+../../../../webviewer/82.jpg
+../../../../looseends/role453f728302ac.htm
+
+
+
+BankTransactionCodeStructure1 ( theBankTransactionCodeStructure1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role453f728302b6.htm
+
+
+
+)
+<<SWSTrace>> (theBankTransaction:BankTransaction) (theBankTransactionCodeStructure2:BankTransactionCodeStructure2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass453f74410306.htm
+
+
+
+(
+BankTransaction ( theBankTransaction )
+../../../../webviewer/82.jpg
+../../../../looseends/role453f74420109.htm
+
+
+
+BankTransactionCodeStructure2 ( theBankTransactionCodeStructure2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role453f74420113.htm
+
+
+
+)
+<<SWSTrace>> (theBankTransaction:BankTransaction) (theBankTransactionCodeStructure1:BankTransactionCodeStructure1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass454f42810022.htm
+
+
+
+(
+BankTransaction ( theBankTransaction )
+../../../../webviewer/82.jpg
+../../../../looseends/role454f42810249.htm
+
+
+
+BankTransactionCodeStructure1 ( theBankTransactionCodeStructure1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role454f42810254.htm
+
+
+
+)
+<<SWSTrace>> (theBankTransaction:BankTransaction) (theProprietaryBankTransactionCodeStructure1:ProprietaryBankTransactionCodeStructure1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass45d18d560177.htm
+
+
+
+(
+BankTransaction ( theBankTransaction )
+../../../../webviewer/82.jpg
+../../../../looseends/role45d18d560178.htm
+
+
+
+ProprietaryBankTransactionCodeStructure1 ( theProprietaryBankTransactionCodeStructure1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role45d18d56017a.htm
+
+
+
+)
+Association (Proprietary:ProprietaryBankTransactionCodeStructure1) (theBankTransactionCodeStructure1:BankTransactionCodeStructure1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass45d18e480251.htm
+../../../../looseends/ass45d18e480251.txt
+
+
+(
+ProprietaryBankTransactionCodeStructure1 ( Proprietary )
+../../../../webviewer/82.jpg
+../../../../looseends/role45d18e490261.htm
+
+
+
+BankTransactionCodeStructure1 ( theBankTransactionCodeStructure1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role45d18e490263.htm
+
+
+
+)
+<<SWSTrace>> (theBankTransaction:BankTransaction) (theBankTransactionCodeStructure3:BankTransactionCodeStructure3)
+../../../../webviewer/81.jpg
+../../../../looseends/ass45d18f470262.htm
+
+
+
+(
+BankTransaction ( theBankTransaction )
+../../../../webviewer/82.jpg
+../../../../looseends/role45d18f470271.htm
+
+
+
+BankTransactionCodeStructure3 ( theBankTransactionCodeStructure3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role45d18f470273.htm
+
+
+
+)
+Association (Family:BankTransactionCodeStructure3) (theBankTransactionCodeStructure2:BankTransactionCodeStructure2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass45d18f5a0271.htm
+../../../../looseends/ass45d18f5a0271.txt
+
+
+(
+BankTransactionCodeStructure3 ( Family )
+../../../../webviewer/82.jpg
+../../../../looseends/role45d18f5b0242.htm
+
+
+
+BankTransactionCodeStructure2 ( theBankTransactionCodeStructure2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role45d18f5b0244.htm
+
+
+
+)
+Association (Availability:CashBalanceAvailability1) (theNumberAndSumOfTransactionsPerBankTransactionCode1:NumberAndSumOfTransactionsPerBankTransactionCode1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass45d9ba8b00e2.htm
+../../../../looseends/ass45d9ba8b00e2.txt
+
+
+(
+CashBalanceAvailability1 ( Availability )
+../../../../webviewer/82.jpg
+../../../../looseends/role45d9ba8b00e3.htm
+
+
+
+NumberAndSumOfTransactionsPerBankTransactionCode1 ( theNumberAndSumOfTransactionsPerBankTransactionCode1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role45d9ba8b00e5.htm
+
+
+
+)
+)

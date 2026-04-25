@@ -1,0 +1,604 @@
+<<MessageComponent>> Interest1
+../../../../webviewer/142.jpg
+class3e76e29a02ee.htm
+
+
+
+(
+Rate
+../../../../webviewer/31.jpg
+att3e76e29a02ef.htm
+
+
+
+(
+)
+RateValidityRange[0..1]
+../../../../webviewer/31.jpg
+att3e76e29a02f0.htm
+
+
+
+(
+)
+theInterest ( Interest )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e7832480356.htm
+
+
+
+theAccountInterest ( AccountInterest )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e7f0952006e.htm
+
+
+
+theInterestEntry1 ( InterestEntry1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e78350e0143.htm
+
+
+
+)
+<<MessageComponent>> AccountInterest
+../../../../webviewer/142.jpg
+class3e76e29a02c9.htm
+
+
+
+(
+InterestReason[0..1]
+../../../../webviewer/31.jpg
+att3e76e29a02ca.htm
+
+
+
+(
+)
+InterestType[0..1]
+../../../../webviewer/31.jpg
+att3e76e29a02cb.htm
+
+
+
+(
+)
+theAccountReport6 ( AccountReport6 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3fe065fb0244.htm
+
+
+
+theInterest ( Interest )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e7f08c4039b.htm
+
+
+
+InterestRate ( Interest1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e7f0952008d.htm
+
+
+
+)
+<<MessageComponent>> TransactionInterest1
+../../../../webviewer/142.jpg
+class453ca2110092.htm
+class453ca2110092.txt
+
+
+(
+Reason [0..1]
+../../../../webviewer/31.jpg
+att453ca21100a6.htm
+att453ca21100a6.txt
+
+
+(
+)
+Amount
+../../../../webviewer/31.jpg
+att453ca27201de.htm
+att453ca27201de.txt
+
+
+(
+)
+CreditDebitIndicator
+../../../../webviewer/31.jpg
+att453ca27201e8.htm
+att453ca27201e8.txt
+
+
+(
+)
+theStatementEntry1 ( StatementEntry1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4542312e0328.htm
+
+
+
+theReportEntry1 ( ReportEntry1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role453ca9da039b.htm
+
+
+
+theEntryTransaction1 ( EntryTransaction1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role453cd171010d.htm
+
+
+
+theNotificationEntry1 ( NotificationEntry1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role45d985ae0383.htm
+
+
+
+theInterest ( Interest )
+../../../../webviewer/82.jpg
+../../../../looseends/role4575867e02b2.htm
+
+
+
+Rate ( Rate1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role453ca21100f9.htm
+
+
+
+FromToDate ( DateTimePeriodDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role453ca21100bd.htm
+
+
+
+Type ( InterestType1Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role453ca21100e2.htm
+
+
+
+)
+<<MessageComponent>> Rate1
+../../../../webviewer/142.jpg
+class453c91110337.htm
+class453c91110337.txt
+
+
+(
+theAccountInterest1 ( AccountInterest1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role453c914300e1.htm
+
+
+
+theTransactionInterest1 ( TransactionInterest1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role453ca21100f7.htm
+
+
+
+theInterest ( Interest )
+../../../../webviewer/82.jpg
+../../../../looseends/role457583dd01d5.htm
+
+
+
+Rate ( RateTypeChoice )
+../../../../webviewer/82.jpg
+../../../../looseends/role453c917c01ca.htm
+
+
+
+ValidityRange ( CurrencyAndAmountRange )
+../../../../webviewer/82.jpg
+../../../../looseends/role453c9456016a.htm
+
+
+
+)
+<<ChoiceComponent>> InterestType1Choice
+../../../../webviewer/143.jpg
+class453c902003b7.htm
+class453c902003b7.txt
+
+
+(
+Code
+../../../../webviewer/31.jpg
+att453c902003cc.htm
+
+
+
+(
+)
+Proprietary
+../../../../webviewer/33.jpg
+att453c902003e0.htm
+att453c902003e0.txt
+
+
+(
+)
+theAccountInterest1 ( AccountInterest1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role453c906802ea.htm
+
+
+
+theInterest ( Interest )
+../../../../webviewer/82.jpg
+../../../../looseends/role457584260299.htm
+
+
+
+theTransactionInterest1 ( TransactionInterest1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role453ca21100d9.htm
+
+
+
+)
+<<MessageComponent>> AccountInterest1
+../../../../webviewer/142.jpg
+class45362e7101a7.htm
+class45362e7101a7.txt
+
+
+(
+Reason [0..1]
+../../../../webviewer/33.jpg
+att45362ecd02ce.htm
+att45362ecd02ce.txt
+
+
+(
+)
+theAccountReport9 ( AccountReport9 )
+../../../../webviewer/82.jpg
+../../../../looseends/role453630d303cd.htm
+
+
+
+theAccountStatement1 ( AccountStatement1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role459bb0a70160.htm
+
+
+
+theInterest ( Interest )
+../../../../webviewer/82.jpg
+../../../../looseends/role4576e804008f.htm
+
+
+
+Type ( InterestType1Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role453c906802f4.htm
+
+
+
+Rate ( Rate1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role453c914300ec.htm
+
+
+
+FromToDate ( DateTimePeriodDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role45362fba00f5.htm
+
+
+
+)
+Associations
+../../../../webviewer/assoccat.gif
+
+
+
+
+(
+<<SWSTrace>> (theInterest:Interest) (theInterest1:Interest1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3e78324800b6.htm
+
+
+
+(
+Interest ( theInterest )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e7832480337.htm
+
+
+
+Interest1 ( theInterest1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e7832480356.htm
+
+
+
+)
+<<SWSTrace>> (theInterest:Interest) (theAccountInterest:AccountInterest)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3e7f08c002fe.htm
+
+
+
+(
+Interest ( theInterest )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e7f08c4037b.htm
+
+
+
+AccountInterest ( theAccountInterest )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e7f08c4039b.htm
+
+
+
+)
+Association (InterestRate:Interest1) (theAccountInterest:AccountInterest)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3e7f095100cc.htm
+
+
+
+(
+Interest1 ( InterestRate )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e7f0952006e.htm
+
+
+
+AccountInterest ( theAccountInterest )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e7f0952008d.htm
+
+
+
+)
+<<SWSTrace>> (theInterest:Interest) (theAccountInterest1:AccountInterest1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4576e8030232.htm
+
+
+
+(
+Interest ( theInterest )
+../../../../webviewer/82.jpg
+../../../../looseends/role4576e804007b.htm
+
+
+
+AccountInterest1 ( theAccountInterest1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4576e804008f.htm
+
+
+
+)
+Association (Type:InterestType1Choice) (theAccountInterest1:AccountInterest1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass453c9067018a.htm
+../../../../looseends/ass453c9067018a.txt
+
+
+(
+InterestType1Choice ( Type )
+../../../../webviewer/82.jpg
+../../../../looseends/role453c906802ea.htm
+
+
+
+AccountInterest1 ( theAccountInterest1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role453c906802f4.htm
+
+
+
+)
+Association (Rate:Rate1) (theAccountInterest1:AccountInterest1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass453c914200b7.htm
+../../../../looseends/ass453c914200b7.txt
+
+
+(
+Rate1 ( Rate )
+../../../../webviewer/82.jpg
+../../../../looseends/role453c914300e1.htm
+
+
+
+AccountInterest1 ( theAccountInterest1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role453c914300ec.htm
+
+
+
+)
+Association (FromToDate:DateTimePeriodDetails) (theAccountInterest1:AccountInterest1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass45362fba00f2.htm
+../../../../looseends/ass45362fba00f2.txt
+
+
+(
+DateTimePeriodDetails ( FromToDate )
+../../../../webviewer/82.jpg
+../../../../looseends/role45362fba00f3.htm
+
+
+
+AccountInterest1 ( theAccountInterest1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role45362fba00f5.htm
+
+
+
+)
+<<SWSTrace>> (theInterest:Interest) (theInterestType1Choice:InterestType1Choice)
+../../../../webviewer/81.jpg
+../../../../looseends/ass457584260040.htm
+
+
+
+(
+Interest ( theInterest )
+../../../../webviewer/82.jpg
+../../../../looseends/role457584260285.htm
+
+
+
+InterestType1Choice ( theInterestType1Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role457584260299.htm
+
+
+
+)
+<<SWSTrace>> (theInterest:Interest) (theTransactionInterest1:TransactionInterest1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4575867e0077.htm
+
+
+
+(
+Interest ( theInterest )
+../../../../webviewer/82.jpg
+../../../../looseends/role4575867e029e.htm
+
+
+
+TransactionInterest1 ( theTransactionInterest1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4575867e02b2.htm
+
+
+
+)
+Association (Rate:Rate1) (theTransactionInterest1:TransactionInterest1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass453ca21100f6.htm
+../../../../looseends/ass453ca21100f6.txt
+
+
+(
+Rate1 ( Rate )
+../../../../webviewer/82.jpg
+../../../../looseends/role453ca21100f7.htm
+
+
+
+TransactionInterest1 ( theTransactionInterest1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role453ca21100f9.htm
+
+
+
+)
+Association (FromToDate:DateTimePeriodDetails) (theTransactionInterest1:TransactionInterest1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass453ca21100ba.htm
+../../../../looseends/ass453ca21100ba.txt
+
+
+(
+DateTimePeriodDetails ( FromToDate )
+../../../../webviewer/82.jpg
+../../../../looseends/role453ca21100bb.htm
+
+
+
+TransactionInterest1 ( theTransactionInterest1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role453ca21100bd.htm
+
+
+
+)
+Association (Type:InterestType1Choice) (theTransactionInterest1:TransactionInterest1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass453ca21100d8.htm
+../../../../looseends/ass453ca21100d8.txt
+
+
+(
+InterestType1Choice ( Type )
+../../../../webviewer/82.jpg
+../../../../looseends/role453ca21100d9.htm
+
+
+
+TransactionInterest1 ( theTransactionInterest1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role453ca21100e2.htm
+
+
+
+)
+<<SWSTrace>> (theInterest:Interest) (theRate1:Rate1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass457583dc03be.htm
+
+
+
+(
+Interest ( theInterest )
+../../../../webviewer/82.jpg
+../../../../looseends/role457583dd01c1.htm
+
+
+
+Rate1 ( theRate1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role457583dd01d5.htm
+
+
+
+)
+Association (Rate:RateTypeChoice) (theRate1:Rate1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass453c917b029b.htm
+../../../../looseends/ass453c917b029b.txt
+
+
+(
+RateTypeChoice ( Rate )
+../../../../webviewer/82.jpg
+../../../../looseends/role453c917c01c0.htm
+
+
+
+Rate1 ( theRate1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role453c917c01ca.htm
+
+
+
+)
+Association (ValidityRange:CurrencyAndAmountRange) (theRate1:Rate1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass453c94550050.htm
+../../../../looseends/ass453c94550050.txt
+
+
+(
+CurrencyAndAmountRange ( ValidityRange )
+../../../../webviewer/82.jpg
+../../../../looseends/role453c94560160.htm
+
+
+
+Rate1 ( theRate1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role453c9456016a.htm
+
+
+
+)
+)

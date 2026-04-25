@@ -1,0 +1,1 @@
+Date at which the rate used for calculating the net amount to be settled is observed.

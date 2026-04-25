@@ -1,0 +1,1 @@
+Fixed amount to be applied in the interest calculation.

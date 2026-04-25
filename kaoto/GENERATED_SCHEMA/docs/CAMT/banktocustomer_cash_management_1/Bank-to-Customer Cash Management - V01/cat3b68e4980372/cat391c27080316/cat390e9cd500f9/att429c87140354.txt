@@ -1,0 +1,1 @@
+Total number of times the amount must be invested at the predefined frequency as of the start date of the investment plan.

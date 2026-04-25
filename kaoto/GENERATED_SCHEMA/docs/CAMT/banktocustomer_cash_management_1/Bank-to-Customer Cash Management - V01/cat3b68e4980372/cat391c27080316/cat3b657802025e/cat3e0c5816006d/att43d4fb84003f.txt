@@ -1,0 +1,1 @@
+Free text used to describe an event which occurred in a system.

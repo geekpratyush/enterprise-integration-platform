@@ -1,0 +1,1 @@
+Financial place  taken into account to adjust the date and time, as defined within the business day convention.

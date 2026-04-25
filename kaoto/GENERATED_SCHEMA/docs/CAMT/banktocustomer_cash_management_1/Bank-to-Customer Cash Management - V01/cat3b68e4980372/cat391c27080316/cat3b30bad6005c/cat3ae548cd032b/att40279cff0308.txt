@@ -1,0 +1,1 @@
+Percentage of commission waiving exceeds the commission percentage or commission amount.

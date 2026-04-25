@@ -1,0 +1,1 @@
+Period of time for the calculation of the cumulative corporate action factor.

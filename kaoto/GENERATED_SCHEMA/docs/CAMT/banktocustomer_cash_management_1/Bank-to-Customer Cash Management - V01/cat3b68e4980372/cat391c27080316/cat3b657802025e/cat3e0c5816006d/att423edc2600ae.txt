@@ -1,0 +1,1 @@
+Indicates whether the interbank settlement amount is requested.

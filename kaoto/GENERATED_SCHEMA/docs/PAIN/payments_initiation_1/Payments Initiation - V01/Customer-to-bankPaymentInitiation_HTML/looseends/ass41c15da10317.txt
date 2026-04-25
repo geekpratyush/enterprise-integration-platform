@@ -1,0 +1,3 @@
+Structure alignment with the RequestForTransferStatusReport message.
+AccountDetails: new.
+

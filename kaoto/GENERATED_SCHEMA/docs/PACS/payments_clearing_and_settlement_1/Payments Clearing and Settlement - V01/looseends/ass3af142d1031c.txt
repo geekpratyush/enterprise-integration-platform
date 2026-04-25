@@ -1,0 +1,1 @@
+Trading strategy in which securities order parameters are defined.

@@ -1,0 +1,1 @@
+Specifies the commercial details of the underlying transaction.

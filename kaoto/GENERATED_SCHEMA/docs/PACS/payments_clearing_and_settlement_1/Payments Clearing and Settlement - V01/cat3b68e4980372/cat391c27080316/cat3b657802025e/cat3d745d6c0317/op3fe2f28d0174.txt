@@ -1,0 +1,2 @@
+If at least one occurrence of InterbankSettlementAmount/CurrencyAndAmountRange is present, then no occurrence of InterbankSettlementAmountCurrency is allowed.
+If InterbankSettlementAmount/CurrencyAndAmountRange is not present, then any occurrence of InterbankSettlementAmountCurrency is optional.

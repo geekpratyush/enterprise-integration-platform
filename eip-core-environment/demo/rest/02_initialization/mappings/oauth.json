@@ -1,0 +1,29 @@
+{
+  "mappings": [
+    {
+      "request": {
+        "method": "POST",
+        "urlPathPattern": "/oauth/token.*"
+      },
+      "response": {
+        "status": 200,
+        "body": "{\"access_token\": \"eip-v6-secret-token\", \"expires_in\": 3600}"
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "urlPathPattern": "/api/secure.*",
+        "headers": {
+          "Authorization": {
+            "matches": "Bearer eip-v6-secret-token"
+          }
+        }
+      },
+      "response": {
+        "status": 200,
+        "body": "{\"data\": \"Top Secret Content\"}"
+      }
+    }
+  ]
+}

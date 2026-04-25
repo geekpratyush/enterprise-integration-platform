@@ -1,0 +1,91 @@
+apiVersion: camel.apache.org/v1alpha1
+kind: Kamelet
+metadata:
+  name: eip-sql-source
+  labels:
+    camel.apache.org/kamelet.type: "source"
+spec:
+  definition:
+    title: "EIP SQL Source"
+    description: "Standardized SQL Polling Source. Periodically executes a query or
+      polls a table and returns results as JSON."
+    required:
+      - table
+    properties:
+      connectionBean:
+        title: Connection Bean
+        description: "The registered DataSource bean (e.g., eip)."
+        type: string
+        default: "dataSource"
+      table:
+        title: Table
+        description: "The target table name to poll."
+        type: string
+      query:
+        title: SQL Query
+        description: "Custom SELECT query. If empty, 'SELECT * FROM table' is used."
+        type: string
+        default: ""
+      delay:
+        title: Delay
+        description: "Polling interval in milliseconds."
+        type: string
+        default: "10000"
+  template:
+    from:
+      uri: "timer:eip-sql-poll?period={{delay}}"
+      steps:
+        - setHeader:
+            name: "eip.sql.table"
+            constant: "{{table}}"
+        - setHeader:
+            name: "eip.sql.query"
+            constant: "{{query}}"
+        - setHeader:
+            name: "dynamicQuery"
+            groovy: |
+              def table = request.headers.get('eip.sql.table')
+              def customQuery = request.headers.get('eip.sql.query')
+              if (customQuery != null && !customQuery.trim().isEmpty()) {
+                  return customQuery
+              }
+              return "SELECT * FROM ${table}"
+        - setBody:
+            simple: "${header.dynamicQuery}"
+        - to:
+            uri: "sql:dynamic?dataSource=#{{connectionBean}}&useMessageBodyForSql=true"
+        - script:
+            groovy: |
+                import java.sql.Timestamp
+                import java.sql.Date
+                import java.sql.Clob
+                import java.sql.Blob
+                import java.time.format.DateTimeFormatter
+                import java.time.ZoneOffset
+                def result = request.body
+                if (result instanceof List) {
+                    result.each { row ->
+                        if (row instanceof Map) {
+                            row.each { k, v ->
+                                if (v instanceof Timestamp) {
+                                    row.put(k, v.toInstant().atOffset(ZoneOffset.UTC).format(DateTimeFormatter.ISO_INSTANT))
+                                } else if (v instanceof Date) {
+                                    row.put(k, v.toLocalDate().toString())
+                                } else if (v instanceof Clob) {
+                                    row.put(k, v.getSubString(1, (int) v.length()))
+                                } else if (v instanceof Blob) {
+                                    row.put(k, ['$blob': v.getBytes(1, (int) v.length()).encodeBase64().toString()])
+                                } else if (v instanceof byte[]) {
+                                    row.put(k, ['$blob': v.encodeBase64().toString()])
+                                }
+                            }
+                        }
+                    }
+                }
+        - split:
+            simple: "${body}"
+            steps:
+              - marshal:
+                  json:
+                    library: "Jackson"
+              - to: "kamelet:sink"

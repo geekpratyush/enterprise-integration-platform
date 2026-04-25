@@ -1,0 +1,1 @@
+Reference to the agreement established between the fund and another party. This element, amongst others, defines the conditions of the commissions. 

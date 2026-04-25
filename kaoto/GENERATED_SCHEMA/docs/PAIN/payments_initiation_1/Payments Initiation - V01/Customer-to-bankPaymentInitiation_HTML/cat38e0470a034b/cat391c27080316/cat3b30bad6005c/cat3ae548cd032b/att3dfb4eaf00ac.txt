@@ -1,0 +1,2 @@
+The units that were purchased prior to the last ex-div date.
+

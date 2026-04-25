@@ -1,0 +1,2 @@
+Party that owes the cash to the creditor/final party. The debtor is also the debit account owner.
+

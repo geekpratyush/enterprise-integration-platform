@@ -1,0 +1,67 @@
+apiVersion: camel.apache.org/v1alpha1
+kind: Kamelet
+metadata:
+  name: eip-mongodb-sink
+  labels:
+    camel.apache.org/kamelet.type: "sink"
+spec:
+  definition:
+    title: "EIP MongoDB Sink"
+    description: "Send data to a MongoDB collection with built-in ISO-8601 timestamp conversion. (Native Camel Implementation)"
+    required:
+      - database
+      - collection
+    properties:
+      connectionBean:
+        title: "MongoClient Bean Name"
+        description: "The name of the MongoClient bean in the registry"
+        type: "string"
+        default: "mongoClient"
+      database:
+        title: "Database"
+        description: "The MongoDB database name"
+        type: "string"
+      collection:
+        title: "Collection"
+        description: "The MongoDB collection name"
+        type: "string"
+
+  template:
+    from:
+      uri: "kamelet:source"
+      steps:
+        # Step 1: Ensure we have a Map
+        - choice:
+            when:
+              - simple: "${body} is 'java.util.Map'"
+                steps:
+                  - log: "Body is already Map"
+            otherwise:
+              steps:
+                - convertBodyTo: "java.lang.String"
+                - unmarshal:
+                    json:
+                      library: Jackson
+                      unmarshalType: "java.util.LinkedHashMap"
+
+        # Step 2: Native Data Conversion (ISO-8601 String -> java.util.Date)
+        # Using setHeader to perform the side-effect mutation on the Map
+        - choice:
+            when:
+              - simple: "${body[timestamp]} != null"
+                steps:
+                  - setHeader:
+                      name: "eip_raw_timestamp"
+                      simple: "${body[timestamp]}"
+                  - setHeader:
+                      name: "eip_mutation_result"
+                      simple: "${body.put('timestamp', T(java.util.Date).from(T(java.time.Instant).parse(header.eip_raw_timestamp)))}"
+                  - removeHeaders:
+                      pattern: "eip_*"
+
+        # Step 3: Explicit conversion to MongoDB Document to avoid type mismatch
+        - convertBodyTo: "org.bson.Document"
+
+        # Step 4: Deliver to MongoDB component
+        - to:
+            uri: "mongodb:{{connectionBean}}?database={{database}}&collection={{collection}}&operation=insert"

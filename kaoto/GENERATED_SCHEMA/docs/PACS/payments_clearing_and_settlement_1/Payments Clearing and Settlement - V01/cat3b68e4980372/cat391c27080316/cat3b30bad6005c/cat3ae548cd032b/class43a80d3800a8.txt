@@ -1,0 +1,1 @@
+Hellenic Bank Identification Code Identifier. Identifies Greek financial institutions on the greek national clearing system.

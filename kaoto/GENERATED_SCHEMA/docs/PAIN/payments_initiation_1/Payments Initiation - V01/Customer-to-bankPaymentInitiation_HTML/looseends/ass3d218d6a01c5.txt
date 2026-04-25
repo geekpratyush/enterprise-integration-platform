@@ -1,0 +1,1 @@
+Party that instructs the next party in the chain to carry out the payment. A clearing agent is first instructed by a party, eg, previous clearing agent in the payment chain or creditor.

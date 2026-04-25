@@ -1,0 +1,3 @@
+User community specific instrument.
+
+Usage : When available, codes provided by local authorities should be used.

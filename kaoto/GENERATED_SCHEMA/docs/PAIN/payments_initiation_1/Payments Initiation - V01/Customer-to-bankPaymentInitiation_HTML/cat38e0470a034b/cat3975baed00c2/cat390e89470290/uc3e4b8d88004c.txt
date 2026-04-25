@@ -1,0 +1,13 @@
+Sort customer-to-bank payment
+
+Definition : the first agent determines the next clearing agent (for 'not-on-us' payments) or creditor/debtor for the payment (for 'on-us' payments).
+The clearing agent identification is provided by the previous party or selected by the current agent (eg based on routing tables maintained by the current agent)
+In case of a relay scenario, the forwarding agent determines the first agent, as provided by the initiating party. The final agent identification is provided by the initiating party and identifies to which final agent the payment needs to be sent.
+
+Pre-condition: the payment is accepted 
+
+Trigger : the payment must be instructed to the next party
+
+Post-condition : next clearing agent is determined
+
+

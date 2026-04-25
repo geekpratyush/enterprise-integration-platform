@@ -1,0 +1,2 @@
+Indicates whether the report is complete or contains changes only.
+

@@ -1,0 +1,1 @@
+Specifies the geographic area, in which a payment transaction is executed.

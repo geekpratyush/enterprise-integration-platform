@@ -1,0 +1,1 @@
+Dividend policy of the fund, eg, cash, units.

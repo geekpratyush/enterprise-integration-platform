@@ -1,0 +1,2 @@
+If RequestedExecutionDate is present, then InterbankSettlementDate is not allowed.
+If InterbankSettlementDate is present, then RequestedExecutionDate is not allowed.

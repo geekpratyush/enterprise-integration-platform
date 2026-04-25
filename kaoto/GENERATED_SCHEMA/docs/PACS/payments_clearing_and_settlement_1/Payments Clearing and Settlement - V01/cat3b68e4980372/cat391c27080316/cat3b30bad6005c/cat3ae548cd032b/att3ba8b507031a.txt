@@ -1,0 +1,1 @@
+Account used to post debit and credit entries, as a result of transactions cleared and settled through a specific clearing and settlement system.

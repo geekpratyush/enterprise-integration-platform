@@ -1,0 +1,1 @@
+Information of a single instalment related to an invoice settlement.

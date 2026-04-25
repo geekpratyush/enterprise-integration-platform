@@ -1,0 +1,1 @@
+Swap resulting from the simultaneous crossing of a buy and sell order.

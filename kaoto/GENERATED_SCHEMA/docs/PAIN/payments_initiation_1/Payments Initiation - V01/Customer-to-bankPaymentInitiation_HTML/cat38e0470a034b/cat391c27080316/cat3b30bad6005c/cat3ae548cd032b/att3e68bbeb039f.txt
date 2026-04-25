@@ -1,0 +1,1 @@
+Identifies a cross trade which is executed completely or not. Both sides are treated in the same manner.

@@ -1,0 +1,1 @@
+Electronic address to which an agent is to send the remittance information.

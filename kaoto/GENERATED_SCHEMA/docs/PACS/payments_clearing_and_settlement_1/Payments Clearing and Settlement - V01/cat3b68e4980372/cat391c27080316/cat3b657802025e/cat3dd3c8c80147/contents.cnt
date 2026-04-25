@@ -1,0 +1,1890 @@
+<<MessageComponent>> LargeRemittanceInformation1
+../../../../webviewer/142.jpg
+class3dd3b585037d.htm
+class3dd3b585037d.txt
+
+
+(
+Unstructured
+../../../../webviewer/33.jpg
+att3dd3b585037e.htm
+att3dd3b585037e.txt
+
+
+(
+)
+)
+<<ChoiceComponent>> RemittanceInformation6Choice
+../../../../webviewer/143.jpg
+class3f9526bd024c.htm
+
+
+
+(
+Unstructured
+../../../../webviewer/33.jpg
+att3f9526bd024d.htm
+att3f9526bd024d.txt
+
+
+(
+)
+thePaymentTransaction12 ( PaymentTransaction12 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3fe082f802c8.htm
+
+
+
+Structured ( StructuredRemittanceInformation4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3fa0dbbc016c.htm
+
+
+
+theRemittanceInformation ( RemittanceInformation )
+../../../../webviewer/82.jpg
+../../../../looseends/role3fa0dbff0014.htm
+
+
+
+)
+<<MessageComponent>> StructuredRemittanceInformation4
+../../../../webviewer/142.jpg
+class3f9526bd00f6.htm
+
+
+
+(
+ReferredDocumentType[0..1]
+../../../../webviewer/31.jpg
+att3f9526bd00f7.htm
+
+
+
+(
+)
+DocumentIdentityNumber[0..1]
+../../../../webviewer/31.jpg
+att3f9526bd010a.htm
+
+
+
+(
+)
+ReferredDocumentRelatedDate[0..1]
+../../../../webviewer/31.jpg
+att3f9526bd010b.htm
+
+
+
+(
+)
+ReferredDocumentAmount[0..n]
+../../../../webviewer/31.jpg
+att3f9526bd010c.htm
+
+
+
+(
+)
+CreditorReference [0..1]
+../../../../webviewer/31.jpg
+att3f9526bd010d.htm
+att3f9526bd010d.txt
+
+
+(
+)
+theRemittanceInformation ( RemittanceInformation )
+../../../../webviewer/82.jpg
+../../../../looseends/role3fa0dc020235.htm
+
+
+
+theRemittanceInformation6Choice ( RemittanceInformation6Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role3fa0dbbc0162.htm
+
+
+
+Invoicee ( GenericParty1Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role3ff29f350109.htm
+
+
+
+Invoicer ( GenericParty1Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role3ff29f390322.htm
+
+
+
+)
+<<ChoiceComponent>> RemittanceInformation3Choice
+../../../../webviewer/143.jpg
+class3e662685028e.htm
+class3e662685028e.txt
+
+
+(
+Unstructured
+../../../../webviewer/33.jpg
+att3e8864f003e7.htm
+att3e8864f003e7.txt
+
+
+(
+)
+theRequestedModification ( RequestedModification )
+../../../../webviewer/82.jpg
+../../../../looseends/role41c6d33903ba.htm
+
+
+
+thePaymentComplementaryInformation ( PaymentComplementaryInformation )
+../../../../webviewer/82.jpg
+../../../../looseends/role41c6bd660140.htm
+
+
+
+theGenericPaymentTransaction3 ( GenericPaymentTransaction3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3eae7a330320.htm
+
+
+
+theGenericPaymentTransaction1 ( GenericPaymentTransaction1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role40508a2c0131.htm
+
+
+
+Structured ( StructuredRemittanceInformation2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role405091b0005a.htm
+
+
+
+theGenericPaymentTransaction2 ( GenericPaymentTransaction2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role40518df80133.htm
+
+
+
+)
+<<MessageComponent>> StructuredRemittanceInformation2
+../../../../webviewer/142.jpg
+class3e88620f030b.htm
+class3e88620f030b.txt
+
+
+(
+ReferredDocumentType[0..1]
+../../../../webviewer/31.jpg
+att3e88629e0343.htm
+
+
+
+(
+)
+DocumentReferenceNumber[0..1]
+../../../../webviewer/31.jpg
+att3e88629f01f0.htm
+
+
+
+(
+)
+ReferredDocumentRelatedDate[0..1]
+../../../../webviewer/31.jpg
+att3e88629f020e.htm
+
+
+
+(
+)
+ReferredDocumentAmount[0..n]
+../../../../webviewer/31.jpg
+att3e88632600aa.htm
+
+
+
+(
+)
+CreditorReference[0..1]
+../../../../webviewer/31.jpg
+att3ec3a7a20366.htm
+att3ec3a7a20366.txt
+
+
+(
+)
+theRemittanceInformation3Choice ( RemittanceInformation3Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role405091b0003c.htm
+
+
+
+Invoicer ( PartyIdentification1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role40449f130121.htm
+
+
+
+Invoicee ( PartyIdentification1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role40449ef4014e.htm
+
+
+
+theRemittanceInformation ( RemittanceInformation )
+../../../../webviewer/82.jpg
+../../../../looseends/role40af04bc01b1.htm
+
+
+
+)
+<<ChoiceComponent>> RemittanceInformation7Choice
+../../../../webviewer/143.jpg
+class437df8fe01d1.htm
+class437df8fe01d1.txt
+
+
+(
+Unstructured
+../../../../webviewer/33.jpg
+att437df8fe02e9.htm
+att437df8fe02e9.txt
+
+
+(
+)
+thePaymentInformation14 ( PaymentInformation14 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4384e2be0396.htm
+
+
+
+theGenericPaymentTransaction4 ( GenericPaymentTransaction4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4381cef40312.htm
+
+
+
+Structured ( StructuredRemittanceInformation5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role437df8ff015a.htm
+
+
+
+)
+<<MessageComponent>> RemittanceLocation
+../../../../webviewer/142.jpg
+class4378bd32018d.htm
+class4378bd32018d.txt
+
+
+(
+RemittanceLocationMethod[0..1]
+../../../../webviewer/31.jpg
+att4378bd3201bf.htm
+att4378bd3201bf.txt
+
+
+(
+)
+RemittanceLocationElectronicAddress[0..1]
+../../../../webviewer/31.jpg
+att4378bd3201d3.htm
+att4378bd3201d3.txt
+
+
+(
+)
+RemittanceIdentification [0..1]
+../../../../webviewer/31.jpg
+att4378bef7030a.htm
+att4378bef7030a.txt
+
+
+(
+)
+thePaymentInformation14 ( PaymentInformation14 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4384e28a02dd.htm
+
+
+
+theGenericPaymentTransaction4 ( GenericPaymentTransaction4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role438324d0028b.htm
+
+
+
+theRemittanceInformation ( RemittanceInformation )
+../../../../webviewer/82.jpg
+../../../../looseends/role437dc651027f.htm
+
+
+
+RemittanceLocationPostalAddress ( NameAndAddress3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4378bd320226.htm
+
+
+
+)
+<<MessageComponent>> StructuredRemittanceInformation5
+../../../../webviewer/142.jpg
+class437df89a0397.htm
+class437df89a0397.txt
+
+
+(
+ReferredDocumentType[0..1]
+../../../../webviewer/31.jpg
+att437df89c0141.htm
+
+
+
+(
+)
+DocumentReferenceNumber[0..1]
+../../../../webviewer/31.jpg
+att437df89d005d.htm
+
+
+
+(
+)
+ReferredDocumentRelatedDate[0..1]
+../../../../webviewer/31.jpg
+att437df89e00e0.htm
+
+
+
+(
+)
+ReferredDocumentAmount[0..n]
+../../../../webviewer/31.jpg
+att437df89e019e.htm
+
+
+
+(
+)
+CreditorReference[0..1]
+../../../../webviewer/31.jpg
+att437df89e028f.htm
+att437df89e028f.txt
+
+
+(
+)
+theRemittanceInformation7Choice ( RemittanceInformation7Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role437df8ff0038.htm
+
+
+
+theRemittanceInformation ( RemittanceInformation )
+../../../../webviewer/82.jpg
+../../../../looseends/role437df8a1004e.htm
+
+
+
+Invoicer ( PartyIdentification7 )
+../../../../webviewer/82.jpg
+../../../../looseends/role437df89f0286.htm
+
+
+
+Invoicee ( PartyIdentification7 )
+../../../../webviewer/82.jpg
+../../../../looseends/role437df8a001ab.htm
+
+
+
+)
+<<MessageComponent>> StructuredRemittanceInformation6
+../../../../webviewer/142.jpg
+class446c5a050081.htm
+class446c5a050081.txt
+
+
+(
+ReferredDocumentRelatedDate[0..1]
+../../../../webviewer/31.jpg
+att446c5a0500b3.htm
+
+
+
+(
+)
+ReferredDocumentAmount[0..n]
+../../../../webviewer/31.jpg
+att446c5a0500c7.htm
+
+
+
+(
+)
+AdditionalRemittanceInformation[0..1]
+../../../../webviewer/31.jpg
+att446c5a0500d1.htm
+att446c5a0500d1.txt
+
+
+(
+)
+theRemittanceInformation ( RemittanceInformation )
+../../../../webviewer/82.jpg
+../../../../looseends/role446c5a050149.htm
+
+
+
+theRemittanceInformation1 ( RemittanceInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role43ea09b400bd.htm
+
+
+
+ReferredDocumentInformation ( ReferredDocumentInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role446c5b0c022a.htm
+
+
+
+CreditorReferenceInformation ( CreditorReferenceInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role446c6ef603c6.htm
+
+
+
+Invoicer ( PartyIdentification8 )
+../../../../webviewer/82.jpg
+../../../../looseends/role446c5a050199.htm
+
+
+
+Invoicee ( PartyIdentification8 )
+../../../../webviewer/82.jpg
+../../../../looseends/role446c5a0501b1.htm
+
+
+
+theRemittanceInformation3 ( RemittanceInformation3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4509259502a7.htm
+
+
+
+theRemittanceInformation4 ( RemittanceInformation4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role452fb36f01c9.htm
+
+
+
+)
+<<MessageComponent>> RemittanceLocation1
+../../../../webviewer/142.jpg
+class44883eae005a.htm
+class44883eae005a.txt
+
+
+(
+RemittanceLocationMethod[0..1]
+../../../../webviewer/31.jpg
+att44883eae026d.htm
+att44883eae026d.txt
+
+
+(
+)
+RemittanceLocationElectronicAddress[0..1]
+../../../../webviewer/31.jpg
+att44883eae03d5.htm
+att44883eae03d5.txt
+
+
+(
+)
+RemittanceIdentification [0..1]
+../../../../webviewer/31.jpg
+att44883eaf000c.htm
+att44883eaf000c.txt
+
+
+(
+)
+theEntryTransaction1 ( EntryTransaction1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role453cd1f200d9.htm
+
+
+
+theDirectDebitTransactionInformation2 ( DirectDebitTransactionInformation2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role446a4fd70322.htm
+
+
+
+theDirectDebitTransactionInformation1 ( DirectDebitTransactionInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role446dba2f01d9.htm
+
+
+
+theCreditTransferTransactionInformation2 ( CreditTransferTransactionInformation2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role43e741000015.htm
+
+
+
+theCreditTransferTransactionInformation1 ( CreditTransferTransactionInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role446c924f0043.htm
+
+
+
+theCreditTransferTransactionInformation5 ( CreditTransferTransactionInformation5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role45092cac0346.htm
+
+
+
+theDirectDebitTransactionInformation4 ( DirectDebitTransactionInformation4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role45104ea601f4.htm
+
+
+
+theCreditTransferTransactionInformation7 ( CreditTransferTransactionInformation7 )
+../../../../webviewer/82.jpg
+../../../../looseends/role457f93bc0375.htm
+
+
+
+theDirectDebitTransactionInformation6 ( DirectDebitTransactionInformation6 )
+../../../../webviewer/82.jpg
+../../../../looseends/role457f971d0116.htm
+
+
+
+theRemittanceInformation ( RemittanceInformation )
+../../../../webviewer/82.jpg
+../../../../looseends/role44883eaf019c.htm
+
+
+
+RemittanceLocationPostalAddress ( NameAndAddress3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role44883eaf02e7.htm
+
+
+
+)
+<<MessageComponent>> RemittanceInformation2
+../../../../webviewer/142.jpg
+class447ac4060299.htm
+class447ac4060299.txt
+
+
+(
+Unstructured [0..n]
+../../../../webviewer/33.jpg
+att447ac407025e.htm
+att447ac407025e.txt
+
+
+(
+)
+theRemittanceInformation ( RemittanceInformation )
+../../../../webviewer/82.jpg
+../../../../looseends/role447ac40b0000.htm
+
+
+
+theCreditTransferTransactionInformation3 ( CreditTransferTransactionInformation3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role447ac45d0138.htm
+
+
+
+)
+<<MessageComponent>> RemittanceInformation1
+../../../../webviewer/142.jpg
+class43ea09b40094.htm
+class43ea09b40094.txt
+
+
+(
+Unstructured [0..n]
+../../../../webviewer/33.jpg
+att43ea09b400a9.htm
+att43ea09b400a9.txt
+
+
+(
+)
+theEntryTransaction1 ( EntryTransaction1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role453cd1f1036c.htm
+
+
+
+theOriginalTransactionReference1 ( OriginalTransactionReference1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role446c2e5102f2.htm
+
+
+
+theDirectDebitTransactionInformation2 ( DirectDebitTransactionInformation2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role446a4fd7030e.htm
+
+
+
+theDirectDebitTransactionInformation1 ( DirectDebitTransactionInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role446dba2d0084.htm
+
+
+
+theCreditTransferTransactionInformation2 ( CreditTransferTransactionInformation2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role43ea0a0f0352.htm
+
+
+
+theCreditTransferTransactionInformation1 ( CreditTransferTransactionInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role446c79140337.htm
+
+
+
+theRemittanceInformation ( RemittanceInformation )
+../../../../webviewer/82.jpg
+../../../../looseends/role43ec5c0a00da.htm
+
+
+
+Structured ( StructuredRemittanceInformation6 )
+../../../../webviewer/82.jpg
+../../../../looseends/role43ea09b400d0.htm
+
+
+
+theRemittanceInformation3 ( RemittanceInformation3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role450925a4038c.htm
+
+
+
+theRemittanceInformation4 ( RemittanceInformation4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role452fb78402a7.htm
+
+
+
+)
+<<MessageComponent>> ReferredDocumentType1
+../../../../webviewer/142.jpg
+class446c61af017c.htm
+class446c61af017c.txt
+
+
+(
+Code
+../../../../webviewer/31.jpg
+att446c62d100a2.htm
+
+
+
+(
+)
+Proprietary
+../../../../webviewer/31.jpg
+att446c62d501df.htm
+
+
+
+(
+)
+Issuer[0..1]
+../../../../webviewer/31.jpg
+att446c62da036c.htm
+att446c62da036c.txt
+
+
+(
+)
+theReferredDocumentInformation1 ( ReferredDocumentInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role446c62580146.htm
+
+
+
+theRemittanceDocument ( RemittanceDocument )
+../../../../webviewer/82.jpg
+../../../../looseends/role447b887e0202.htm
+
+
+
+<<XOR>> CodeOrProprietaryRule
+../../../../webviewer/34.jpg
+op446c6cb500d6.htm
+op446c6cb500d6.txt
+
+
+(
+)
+)
+<<MessageComponent>> ReferredDocumentInformation1
+../../../../webviewer/142.jpg
+class446c5ac5017b.htm
+class446c5ac5017b.txt
+
+
+(
+ReferredDocumentNumber[0..1]
+../../../../webviewer/31.jpg
+att446c5ac50199.htm
+att446c5ac50199.txt
+
+
+(
+)
+theStructuredRemittanceInformation6 ( StructuredRemittanceInformation6 )
+../../../../webviewer/82.jpg
+../../../../looseends/role446c5b0c020b.htm
+
+
+
+ReferredDocumentType ( ReferredDocumentType1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role446c62580165.htm
+
+
+
+theRemittanceDocument ( RemittanceDocument )
+../../../../webviewer/82.jpg
+../../../../looseends/role447b8867017d.htm
+
+
+
+)
+<<MessageComponent>> CreditorReferenceType1
+../../../../webviewer/142.jpg
+class446c6d4d022c.htm
+class446c6d4d022c.txt
+
+
+(
+Code
+../../../../webviewer/31.jpg
+att446c6d4d02ea.htm
+att446c6d4d02ea.txt
+
+
+(
+)
+Proprietary
+../../../../webviewer/31.jpg
+att446c6d4d0326.htm
+att446c6d4d0326.txt
+
+
+(
+)
+Issuer[0..1]
+../../../../webviewer/31.jpg
+att446c6d4d0344.htm
+att446c6d4d0344.txt
+
+
+(
+)
+theCreditorReferenceInformation1 ( CreditorReferenceInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role446c6e8601ba.htm
+
+
+
+theRemittanceDocument ( RemittanceDocument )
+../../../../webviewer/82.jpg
+../../../../looseends/role447b889003d5.htm
+
+
+
+<<XOR>> CodeOrProprietaryRule
+../../../../webviewer/34.jpg
+op4471968f0056.htm
+op4471968f0056.txt
+
+
+(
+)
+)
+<<MessageComponent>> CreditorReferenceInformation1
+../../../../webviewer/142.jpg
+class446c6e850281.htm
+class446c6e850281.txt
+
+
+(
+CreditorReference[0..1]
+../../../../webviewer/31.jpg
+att446c6e860033.htm
+att446c6e860033.txt
+
+
+(
+)
+theStructuredRemittanceInformation6 ( StructuredRemittanceInformation6 )
+../../../../webviewer/82.jpg
+../../../../looseends/role446c6ef603a8.htm
+
+
+
+theRemittanceDocument ( RemittanceDocument )
+../../../../webviewer/82.jpg
+../../../../looseends/role446c6e8600e8.htm
+
+
+
+CreditorReferenceType ( CreditorReferenceType1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role446c6e860214.htm
+
+
+
+)
+<<MessageComponent>> RemittanceInformation3
+../../../../webviewer/142.jpg
+class45092595027c.htm
+class45092595027c.txt
+
+
+(
+Unstructured
+../../../../webviewer/33.jpg
+att450925950286.htm
+att450925950286.txt
+
+
+(
+)
+theOriginalTransactionReference3 ( OriginalTransactionReference3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role45183bab023f.htm
+
+
+
+theOriginalTransactionReference4 ( OriginalTransactionReference4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role451b245d0167.htm
+
+
+
+theOriginalTransactionReference2 ( OriginalTransactionReference2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role45179fc202c4.htm
+
+
+
+theCreditTransferTransactionInformation4 ( CreditTransferTransactionInformation4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role450ff1aa0195.htm
+
+
+
+theDirectDebitTransactionInformation3 ( DirectDebitTransactionInformation3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role451052c30098.htm
+
+
+
+theCreditTransferTransactionInformation6 ( CreditTransferTransactionInformation6 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456d75ab0328.htm
+
+
+
+theDirectDebitTransactionInformation5 ( DirectDebitTransactionInformation5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456da22f0251.htm
+
+
+
+theOriginalTransactionReference7 ( OriginalTransactionReference7 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456ded50010c.htm
+
+
+
+theOriginalTransactionReference8 ( OriginalTransactionReference8 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456dfc2f0369.htm
+
+
+
+theRemittanceInformation ( RemittanceInformation )
+../../../../webviewer/82.jpg
+../../../../looseends/role45092595029e.htm
+
+
+
+theRemittanceInformation1 ( RemittanceInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role450925a403a0.htm
+
+
+
+Structured ( StructuredRemittanceInformation6 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4509259502a9.htm
+
+
+
+<<XOR>> StructuredOrUnstructured
+../../../../webviewer/34.jpg
+op4509267900b8.htm
+op4509267900b8.txt
+
+
+(
+)
+)
+<<MessageComponent>> RemittanceInformation4
+../../../../webviewer/142.jpg
+class452fb36f0132.htm
+class452fb36f0132.txt
+
+
+(
+Unstructured [1..n]
+../../../../webviewer/33.jpg
+att452fb36f015a.htm
+att452fb36f015a.txt
+
+
+(
+)
+theCreditTransferTransactionInformation5 ( CreditTransferTransactionInformation5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role45092cac031e.htm
+
+
+
+theDirectDebitTransactionInformation4 ( DirectDebitTransactionInformation4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role45104ea50379.htm
+
+
+
+theOriginalTransactionReference5 ( OriginalTransactionReference5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4518367603d3.htm
+
+
+
+theOriginalTransactionReference6 ( OriginalTransactionReference6 )
+../../../../webviewer/82.jpg
+../../../../looseends/role451794810004.htm
+
+
+
+theCreditTransferTransactionInformation7 ( CreditTransferTransactionInformation7 )
+../../../../webviewer/82.jpg
+../../../../looseends/role457f93bc03cf.htm
+
+
+
+theDirectDebitTransactionInformation6 ( DirectDebitTransactionInformation6 )
+../../../../webviewer/82.jpg
+../../../../looseends/role457f971c0255.htm
+
+
+
+theOriginalTransactionReference9 ( OriginalTransactionReference9 )
+../../../../webviewer/82.jpg
+../../../../looseends/role456ea6920284.htm
+
+
+
+theRemittanceInformation ( RemittanceInformation )
+../../../../webviewer/82.jpg
+../../../../looseends/role452fb36f01ad.htm
+
+
+
+Structured ( StructuredRemittanceInformation6 )
+../../../../webviewer/82.jpg
+../../../../looseends/role452fb36f01d3.htm
+
+
+
+theRemittanceInformation1 ( RemittanceInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role452fb78402d9.htm
+
+
+
+<<XOR>> StructuredOrUnstructured
+../../../../webviewer/34.jpg
+op452fb36f022c.htm
+op452fb36f022c.txt
+
+
+(
+)
+)
+Associations
+../../../../webviewer/assoccat.gif
+
+
+
+
+(
+<<SWSTrace>> (theRemittanceInformation:RemittanceInformation) (theStructuredRemittanceInformation4:StructuredRemittanceInformation4)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3fa0dc0001e2.htm
+
+
+
+(
+RemittanceInformation ( theRemittanceInformation )
+../../../../webviewer/82.jpg
+../../../../looseends/role3fa0dc020221.htm
+
+
+
+StructuredRemittanceInformation4 ( theStructuredRemittanceInformation4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3fa0dc020235.htm
+
+
+
+)
+Association (Structured:StructuredRemittanceInformation4) (theRemittanceInformation6Choice:RemittanceInformation6Choice)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3fa0dbba0336.htm
+../../../../looseends/ass3fa0dbba0336.txt
+
+
+(
+StructuredRemittanceInformation4 ( Structured )
+../../../../webviewer/82.jpg
+../../../../looseends/role3fa0dbbc0162.htm
+
+
+
+RemittanceInformation6Choice ( theRemittanceInformation6Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role3fa0dbbc016c.htm
+
+
+
+)
+<<SWSTrace>> (theRemittanceInformation:RemittanceInformation) (theRemittanceInformation6Choice:RemittanceInformation6Choice)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3fa0dbfd03dc.htm
+
+
+
+(
+RemittanceInformation ( theRemittanceInformation )
+../../../../webviewer/82.jpg
+../../../../looseends/role3fa0dbfe027f.htm
+
+
+
+RemittanceInformation6Choice ( theRemittanceInformation6Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role3fa0dbff0014.htm
+
+
+
+)
+Association (Invoicee:GenericParty1Choice) (theStructuredRemittanceInformation4:StructuredRemittanceInformation4)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3ff29f33032d.htm
+
+
+
+(
+GenericParty1Choice ( Invoicee )
+../../../../webviewer/82.jpg
+../../../../looseends/role3ff29f3500ff.htm
+
+
+
+StructuredRemittanceInformation4 ( theStructuredRemittanceInformation4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3ff29f350109.htm
+
+
+
+)
+Association (Invoicer:GenericParty1Choice) (theStructuredRemittanceInformation4:StructuredRemittanceInformation4)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3ff29f37036f.htm
+
+
+
+(
+GenericParty1Choice ( Invoicer )
+../../../../webviewer/82.jpg
+../../../../looseends/role3ff29f390318.htm
+
+
+
+StructuredRemittanceInformation4 ( theStructuredRemittanceInformation4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3ff29f390322.htm
+
+
+
+)
+Association (RemittanceInformation:RemittanceInformation3Choice) (theGenericPaymentTransaction3:GenericPaymentTransaction3)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3eae7a330081.htm
+../../../../looseends/ass3eae7a330081.txt
+
+
+(
+RemittanceInformation3Choice ( RemittanceInformation )
+../../../../webviewer/82.jpg
+../../../../looseends/role3eae7a330320.htm
+
+
+
+GenericPaymentTransaction3 ( theGenericPaymentTransaction3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3eae7a33033e.htm
+
+
+
+)
+Association (RemittanceInformation:(Logical View::4_Messages::ProjectMessageComponents::LargeRemittanceInformation3)) (the(Logical View::4_Messages::ProjectMessageComponents::GenericPaymentTransaction1):(Logical View::4_Messages::ProjectMessageComponents::GenericPaymentTransaction1))
+../../../../webviewer/81.jpg
+../../../../looseends/ass3e6625b7027f.htm
+
+
+
+(
+(Logical View::4_Messages::ProjectMessageComponents::LargeRemittanceInformation3) ( RemittanceInformation )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e6625b70280.htm
+
+
+
+(Logical View::4_Messages::ProjectMessageComponents::GenericPaymentTransaction1) ( the(Logical View::4_Messages::ProjectMessageComponents::GenericPaymentTransaction1) )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e6625b70281.htm
+
+
+
+)
+Association (RemittanceInformation:RemittanceInformation3Choice) (theGenericPaymentTransaction1:GenericPaymentTransaction1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass40508a2c0130.htm
+
+
+
+(
+RemittanceInformation3Choice ( RemittanceInformation )
+../../../../webviewer/82.jpg
+../../../../looseends/role40508a2c0131.htm
+
+
+
+GenericPaymentTransaction1 ( theGenericPaymentTransaction1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role40508a2c0132.htm
+
+
+
+)
+Association (Structured:StructuredRemittanceInformation2) (theRemittanceInformation3Choice:RemittanceInformation3Choice)
+../../../../webviewer/81.jpg
+../../../../looseends/ass405091af0062.htm
+../../../../looseends/ass405091af0062.txt
+
+
+(
+StructuredRemittanceInformation2 ( Structured )
+../../../../webviewer/82.jpg
+../../../../looseends/role405091b0003c.htm
+
+
+
+RemittanceInformation3Choice ( theRemittanceInformation3Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role405091b0005a.htm
+
+
+
+)
+Association (RemittanceInformation:RemittanceInformation3Choice) (theGenericPaymentTransaction2:GenericPaymentTransaction2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass40518df3008c.htm
+
+
+
+(
+RemittanceInformation3Choice ( RemittanceInformation )
+../../../../webviewer/82.jpg
+../../../../looseends/role40518df80133.htm
+
+
+
+GenericPaymentTransaction2 ( theGenericPaymentTransaction2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role40518df80166.htm
+
+
+
+)
+Association (Invoicer:PartyIdentification1) (theStructuredRemittanceInformation2:StructuredRemittanceInformation2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass40449f1300bd.htm
+../../../../looseends/ass40449f1300bd.txt
+
+
+(
+PartyIdentification1 ( Invoicer )
+../../../../webviewer/82.jpg
+../../../../looseends/role40449f130103.htm
+
+
+
+StructuredRemittanceInformation2 ( theStructuredRemittanceInformation2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role40449f130121.htm
+
+
+
+)
+Association (Invoicee:PartyIdentification1) (theStructuredRemittanceInformation2:StructuredRemittanceInformation2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass40449ef400f4.htm
+../../../../looseends/ass40449ef400f4.txt
+
+
+(
+PartyIdentification1 ( Invoicee )
+../../../../webviewer/82.jpg
+../../../../looseends/role40449ef40130.htm
+
+
+
+StructuredRemittanceInformation2 ( theStructuredRemittanceInformation2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role40449ef4014e.htm
+
+
+
+)
+<<SWSTrace>> (theRemittanceInformation:RemittanceInformation) (theStructuredRemittanceInformation2:StructuredRemittanceInformation2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass40af04bb010f.htm
+
+
+
+(
+RemittanceInformation ( theRemittanceInformation )
+../../../../webviewer/82.jpg
+../../../../looseends/role40af04bc01a7.htm
+
+
+
+StructuredRemittanceInformation2 ( theStructuredRemittanceInformation2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role40af04bc01b1.htm
+
+
+
+)
+Association (Structured:StructuredRemittanceInformation5) (theRemittanceInformation7Choice:RemittanceInformation7Choice)
+../../../../webviewer/81.jpg
+../../../../looseends/ass437df8ff0037.htm
+../../../../looseends/ass437df8ff0037.txt
+
+
+(
+StructuredRemittanceInformation5 ( Structured )
+../../../../webviewer/82.jpg
+../../../../looseends/role437df8ff0038.htm
+
+
+
+RemittanceInformation7Choice ( theRemittanceInformation7Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role437df8ff015a.htm
+
+
+
+)
+<<SWSTrace>> (theRemittanceInformation:RemittanceInformation) (theStructuredRemittanceInformation5:StructuredRemittanceInformation5)
+../../../../webviewer/81.jpg
+../../../../looseends/ass437df8a002d8.htm
+
+
+
+(
+RemittanceInformation ( theRemittanceInformation )
+../../../../webviewer/82.jpg
+../../../../looseends/role437df8a00378.htm
+
+
+
+StructuredRemittanceInformation5 ( theStructuredRemittanceInformation5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role437df8a1004e.htm
+
+
+
+)
+<<SWSTrace>> (theRemittanceInformation:RemittanceInformation) (theRemittanceLocation:RemittanceLocation)
+../../../../webviewer/81.jpg
+../../../../looseends/ass437dc65002ba.htm
+
+
+
+(
+RemittanceInformation ( theRemittanceInformation )
+../../../../webviewer/82.jpg
+../../../../looseends/role437dc65101cb.htm
+
+
+
+RemittanceLocation ( theRemittanceLocation )
+../../../../webviewer/82.jpg
+../../../../looseends/role437dc651027f.htm
+
+
+
+)
+Association (RemittanceLocationPostalAddress:NameAndAddress3) (theRemittanceLocation:RemittanceLocation)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4378bd320223.htm
+../../../../looseends/ass4378bd320223.txt
+
+
+(
+NameAndAddress3 ( RemittanceLocationPostalAddress )
+../../../../webviewer/82.jpg
+../../../../looseends/role4378bd320224.htm
+
+
+
+RemittanceLocation ( theRemittanceLocation )
+../../../../webviewer/82.jpg
+../../../../looseends/role4378bd320226.htm
+
+
+
+)
+Association (Invoicer:PartyIdentification7) (theStructuredRemittanceInformation5:StructuredRemittanceInformation5)
+../../../../webviewer/81.jpg
+../../../../looseends/ass437df89e0393.htm
+../../../../looseends/ass437df89e0393.txt
+
+
+(
+PartyIdentification7 ( Invoicer )
+../../../../webviewer/82.jpg
+../../../../looseends/role437df89f002d.htm
+
+
+
+StructuredRemittanceInformation5 ( theStructuredRemittanceInformation5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role437df89f0286.htm
+
+
+
+)
+Association (Invoicee:PartyIdentification7) (theStructuredRemittanceInformation5:StructuredRemittanceInformation5)
+../../../../webviewer/81.jpg
+../../../../looseends/ass437df8a00011.htm
+../../../../looseends/ass437df8a00011.txt
+
+
+(
+PartyIdentification7 ( Invoicee )
+../../../../webviewer/82.jpg
+../../../../looseends/role437df8a0006b.htm
+
+
+
+StructuredRemittanceInformation5 ( theStructuredRemittanceInformation5 )
+../../../../webviewer/82.jpg
+../../../../looseends/role437df8a001ab.htm
+
+
+
+)
+<<SWSTrace>> (theRemittanceInformation:RemittanceInformation) (theRemittanceLocation1:RemittanceLocation1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass44883eaf0156.htm
+
+
+
+(
+RemittanceInformation ( theRemittanceInformation )
+../../../../webviewer/82.jpg
+../../../../looseends/role44883eaf0160.htm
+
+
+
+RemittanceLocation1 ( theRemittanceLocation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role44883eaf019c.htm
+
+
+
+)
+Association (RemittanceLocationPostalAddress:NameAndAddress3) (theRemittanceLocation1:RemittanceLocation1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass44883eaf0278.htm
+../../../../looseends/ass44883eaf0278.txt
+
+
+(
+NameAndAddress3 ( RemittanceLocationPostalAddress )
+../../../../webviewer/82.jpg
+../../../../looseends/role44883eaf0282.htm
+
+
+
+RemittanceLocation1 ( theRemittanceLocation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role44883eaf02e7.htm
+
+
+
+)
+<<SWSTrace>> (theRemittanceInformation:RemittanceInformation) (theRemittanceInformation2:RemittanceInformation2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass447ac40a012b.htm
+
+
+
+(
+RemittanceInformation ( theRemittanceInformation )
+../../../../webviewer/82.jpg
+../../../../looseends/role447ac40a0208.htm
+
+
+
+RemittanceInformation2 ( theRemittanceInformation2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role447ac40b0000.htm
+
+
+
+)
+<<SWSTrace>> (theRemittanceInformation:RemittanceInformation) (theRemittanceInformation1:RemittanceInformation1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass43ec5c0803bc.htm
+
+
+
+(
+RemittanceInformation ( theRemittanceInformation )
+../../../../webviewer/82.jpg
+../../../../looseends/role43ec5c090223.htm
+
+
+
+RemittanceInformation1 ( theRemittanceInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role43ec5c0a00da.htm
+
+
+
+)
+<<SWSTrace>> (theRemittanceInformation:RemittanceInformation) (theStructuredRemittanceInformation6:StructuredRemittanceInformation6)
+../../../../webviewer/81.jpg
+../../../../looseends/ass446c5a0500e5.htm
+
+
+
+(
+RemittanceInformation ( theRemittanceInformation )
+../../../../webviewer/82.jpg
+../../../../looseends/role446c5a0500e6.htm
+
+
+
+StructuredRemittanceInformation6 ( theStructuredRemittanceInformation6 )
+../../../../webviewer/82.jpg
+../../../../looseends/role446c5a050149.htm
+
+
+
+)
+Association (Structured:StructuredRemittanceInformation6) (theRemittanceInformation1:RemittanceInformation1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass43ea09b400bc.htm
+../../../../looseends/ass43ea09b400bc.txt
+
+
+(
+StructuredRemittanceInformation6 ( Structured )
+../../../../webviewer/82.jpg
+../../../../looseends/role43ea09b400bd.htm
+
+
+
+RemittanceInformation1 ( theRemittanceInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role43ea09b400d0.htm
+
+
+
+)
+Association (ReferredDocumentInformation:ReferredDocumentInformation1) (theStructuredRemittanceInformation6:StructuredRemittanceInformation6)
+../../../../webviewer/81.jpg
+../../../../looseends/ass446c5b0b01ec.htm
+../../../../looseends/ass446c5b0b01ec.txt
+
+
+(
+ReferredDocumentInformation1 ( ReferredDocumentInformation )
+../../../../webviewer/82.jpg
+../../../../looseends/role446c5b0c020b.htm
+
+
+
+StructuredRemittanceInformation6 ( theStructuredRemittanceInformation6 )
+../../../../webviewer/82.jpg
+../../../../looseends/role446c5b0c022a.htm
+
+
+
+)
+Association (CreditorReferenceInformation:CreditorReferenceInformation1) (theStructuredRemittanceInformation6:StructuredRemittanceInformation6)
+../../../../webviewer/81.jpg
+../../../../looseends/ass446c6ef50049.htm
+../../../../looseends/ass446c6ef50049.txt
+
+
+(
+CreditorReferenceInformation1 ( CreditorReferenceInformation )
+../../../../webviewer/82.jpg
+../../../../looseends/role446c6ef603a8.htm
+
+
+
+StructuredRemittanceInformation6 ( theStructuredRemittanceInformation6 )
+../../../../webviewer/82.jpg
+../../../../looseends/role446c6ef603c6.htm
+
+
+
+)
+Association (ReferredDocumentType:ReferredDocumentType1) (theReferredDocumentInformation1:ReferredDocumentInformation1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass446c62570163.htm
+../../../../looseends/ass446c62570163.txt
+
+
+(
+ReferredDocumentType1 ( ReferredDocumentType )
+../../../../webviewer/82.jpg
+../../../../looseends/role446c62580146.htm
+
+
+
+ReferredDocumentInformation1 ( theReferredDocumentInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role446c62580165.htm
+
+
+
+)
+<<SWSTrace>> (theRemittanceDocument:RemittanceDocument) (theReferredDocumentInformation1:ReferredDocumentInformation1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass447b885f0244.htm
+
+
+
+(
+RemittanceDocument ( theRemittanceDocument )
+../../../../webviewer/82.jpg
+../../../../looseends/role447b88670141.htm
+
+
+
+ReferredDocumentInformation1 ( theReferredDocumentInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role447b8867017d.htm
+
+
+
+)
+Association (Invoicer:PartyIdentification8) (theStructuredRemittanceInformation6:StructuredRemittanceInformation6)
+../../../../webviewer/81.jpg
+../../../../looseends/ass446c5a050154.htm
+../../../../looseends/ass446c5a050154.txt
+
+
+(
+PartyIdentification8 ( Invoicer )
+../../../../webviewer/82.jpg
+../../../../looseends/role446c5a05015d.htm
+
+
+
+StructuredRemittanceInformation6 ( theStructuredRemittanceInformation6 )
+../../../../webviewer/82.jpg
+../../../../looseends/role446c5a050199.htm
+
+
+
+)
+Association (Invoicee:PartyIdentification8) (theStructuredRemittanceInformation6:StructuredRemittanceInformation6)
+../../../../webviewer/81.jpg
+../../../../looseends/ass446c5a0501ae.htm
+../../../../looseends/ass446c5a0501ae.txt
+
+
+(
+PartyIdentification8 ( Invoicee )
+../../../../webviewer/82.jpg
+../../../../looseends/role446c5a0501af.htm
+
+
+
+StructuredRemittanceInformation6 ( theStructuredRemittanceInformation6 )
+../../../../webviewer/82.jpg
+../../../../looseends/role446c5a0501b1.htm
+
+
+
+)
+<<SWSTrace>> (theRemittanceDocument:RemittanceDocument) (theCreditorReferenceInformation1:CreditorReferenceInformation1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass446c6e860065.htm
+
+
+
+(
+RemittanceDocument ( theRemittanceDocument )
+../../../../webviewer/82.jpg
+../../../../looseends/role446c6e86008d.htm
+
+
+
+CreditorReferenceInformation1 ( theCreditorReferenceInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role446c6e8600e8.htm
+
+
+
+)
+Association (CreditorReferenceType:CreditorReferenceType1) (theCreditorReferenceInformation1:CreditorReferenceInformation1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass446c6e86017e.htm
+../../../../looseends/ass446c6e86017e.txt
+
+
+(
+CreditorReferenceType1 ( CreditorReferenceType )
+../../../../webviewer/82.jpg
+../../../../looseends/role446c6e8601ba.htm
+
+
+
+CreditorReferenceInformation1 ( theCreditorReferenceInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role446c6e860214.htm
+
+
+
+)
+<<SWSTrace>> (theParty:Party) (thePartyIdentification8:PartyIdentification8)
+../../../../webviewer/81.jpg
+../../../../looseends/ass446890cc039f.htm
+
+
+
+(
+Party ( theParty )
+../../../../webviewer/82.jpg
+../../../../looseends/role446890cc03a0.htm
+
+
+
+PartyIdentification8 ( thePartyIdentification8 )
+../../../../webviewer/82.jpg
+../../../../looseends/role446890cd00b2.htm
+
+
+
+)
+<<SWSTrace>> (theRemittanceDocument:RemittanceDocument) (theCreditorReferenceType1:CreditorReferenceType1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass447b888f00e4.htm
+
+
+
+(
+RemittanceDocument ( theRemittanceDocument )
+../../../../webviewer/82.jpg
+../../../../looseends/role447b889003cb.htm
+
+
+
+CreditorReferenceType1 ( theCreditorReferenceType1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role447b889003d5.htm
+
+
+
+)
+<<SWSTrace>> (theRemittanceDocument:RemittanceDocument) (theReferredDocumentType1:ReferredDocumentType1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass447b887a0026.htm
+
+
+
+(
+RemittanceDocument ( theRemittanceDocument )
+../../../../webviewer/82.jpg
+../../../../looseends/role447b887e01f8.htm
+
+
+
+ReferredDocumentType1 ( theReferredDocumentType1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role447b887e0202.htm
+
+
+
+)
+<<SWSTrace>> (theRemittanceInformation:RemittanceInformation) (theRemittanceInformation3:RemittanceInformation3)
+../../../../webviewer/81.jpg
+../../../../looseends/ass45092595029b.htm
+
+
+
+(
+RemittanceInformation ( theRemittanceInformation )
+../../../../webviewer/82.jpg
+../../../../looseends/role45092595029c.htm
+
+
+
+RemittanceInformation3 ( theRemittanceInformation3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role45092595029e.htm
+
+
+
+)
+<<IsDerivedFrom>> (theRemittanceInformation1:RemittanceInformation1) (theRemittanceInformation3:RemittanceInformation3)
+../../../../webviewer/81.jpg
+../../../../looseends/ass450925a40007.htm
+../../../../looseends/ass450925a40007.txt
+
+
+(
+RemittanceInformation1 ( theRemittanceInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role450925a4038c.htm
+
+
+
+RemittanceInformation3 ( theRemittanceInformation3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role450925a403a0.htm
+
+
+
+)
+Association (Structured:StructuredRemittanceInformation6) (theRemittanceInformation3:RemittanceInformation3)
+../../../../webviewer/81.jpg
+../../../../looseends/ass4509259502a6.htm
+../../../../looseends/ass4509259502a6.txt
+
+
+(
+StructuredRemittanceInformation6 ( Structured )
+../../../../webviewer/82.jpg
+../../../../looseends/role4509259502a7.htm
+
+
+
+RemittanceInformation3 ( theRemittanceInformation3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role4509259502a9.htm
+
+
+
+)
+<<SWSTrace>> (theRemittanceInformation:RemittanceInformation) (theRemittanceInformation4:RemittanceInformation4)
+../../../../webviewer/81.jpg
+../../../../looseends/ass452fb36f01aa.htm
+
+
+
+(
+RemittanceInformation ( theRemittanceInformation )
+../../../../webviewer/82.jpg
+../../../../looseends/role452fb36f01ab.htm
+
+
+
+RemittanceInformation4 ( theRemittanceInformation4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role452fb36f01ad.htm
+
+
+
+)
+Association (Structured:StructuredRemittanceInformation6) (theRemittanceInformation4:RemittanceInformation4)
+../../../../webviewer/81.jpg
+../../../../looseends/ass452fb36f01c8.htm
+../../../../looseends/ass452fb36f01c8.txt
+
+
+(
+StructuredRemittanceInformation6 ( Structured )
+../../../../webviewer/82.jpg
+../../../../looseends/role452fb36f01c9.htm
+
+
+
+RemittanceInformation4 ( theRemittanceInformation4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role452fb36f01d3.htm
+
+
+
+)
+<<IsDerivedFrom>> (theRemittanceInformation1:RemittanceInformation1) (theRemittanceInformation4:RemittanceInformation4)
+../../../../webviewer/81.jpg
+../../../../looseends/ass452fb7830025.htm
+../../../../looseends/ass452fb7830025.txt
+
+
+(
+RemittanceInformation1 ( theRemittanceInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role452fb78402a7.htm
+
+
+
+RemittanceInformation4 ( theRemittanceInformation4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role452fb78402d9.htm
+
+
+
+)
+)

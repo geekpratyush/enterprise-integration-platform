@@ -1,0 +1,1 @@
+Describes the parameters of an event which occurred in a system.

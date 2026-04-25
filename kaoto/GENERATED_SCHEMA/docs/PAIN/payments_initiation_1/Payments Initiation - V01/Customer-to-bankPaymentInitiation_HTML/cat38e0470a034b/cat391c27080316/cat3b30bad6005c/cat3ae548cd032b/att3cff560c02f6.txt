@@ -1,0 +1,1 @@
+Document is an invoice claiming payment for the supply of metered services, eg, gas or electricity, supplied to a fixed meter.

@@ -1,0 +1,2 @@
+Order has been completed for the day (either filled or done for day).  Commission or currency settlement details have been calculated and reported in this execution message.
+

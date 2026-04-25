@@ -1,0 +1,1 @@
+Specifies a pending request for action for which the TSU must generate a report.

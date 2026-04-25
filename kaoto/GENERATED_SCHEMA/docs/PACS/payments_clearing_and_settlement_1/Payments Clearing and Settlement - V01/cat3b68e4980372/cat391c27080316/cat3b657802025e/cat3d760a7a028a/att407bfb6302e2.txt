@@ -1,0 +1,6 @@
+Unique and unambiguous identification of remittance information which is sent separately from the payment initiation information.
+
+Usage: the payment remittance identification is used to link separately sent remittance information to the payment transaction information included in the payment initiation.
+
+If the business context requires the use of a creditor's reference or a payment remit identification, and only one identifier can be passed through the end-to-end chain, the creditor's reference or payment remittance identification should be quoted in the end-to-end transaction identification.    
+

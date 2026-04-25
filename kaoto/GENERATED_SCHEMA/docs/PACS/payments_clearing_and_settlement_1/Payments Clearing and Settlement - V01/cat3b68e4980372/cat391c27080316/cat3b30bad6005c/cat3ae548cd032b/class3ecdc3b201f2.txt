@@ -1,0 +1,1 @@
+Specifies further instructions concerning the processing of a payment instruction, provided by the initiating party or sending clearing agent to the first or next agent(s).

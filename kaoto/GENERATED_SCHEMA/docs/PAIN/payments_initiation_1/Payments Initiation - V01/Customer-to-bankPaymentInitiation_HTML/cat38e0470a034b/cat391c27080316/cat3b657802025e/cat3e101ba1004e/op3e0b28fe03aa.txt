@@ -1,0 +1,1 @@
+If CashSettlementDetails is present, then Currency in IndividualExecutionOrderDetails/Amount must be the same in all occurrences of IndividualExecutionOrderDetails.

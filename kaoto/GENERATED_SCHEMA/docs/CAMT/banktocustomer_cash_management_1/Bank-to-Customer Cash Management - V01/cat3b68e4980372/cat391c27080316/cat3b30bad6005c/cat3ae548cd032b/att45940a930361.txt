@@ -1,0 +1,1 @@
+Counterparty has not sent an instructon to receive. Check with counterparty.

@@ -1,0 +1,1 @@
+Information about the interest in an interest entry, such as the calculation method or value of the interest resulting in the interest amount.

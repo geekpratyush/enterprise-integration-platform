@@ -1,0 +1,126 @@
+- route:
+    id: "oracle-kamelet-insert"
+    from:
+      uri: "timer:oracle-trigger-insert?period=10000&repeatCount=5"
+      steps:
+        - setHeader:
+            name: "txnId"
+            simple: "${uuid}"
+        - setBody:
+            constant: "{\"TXN_ID\": \"EXP-SQL-001\", \"STATUS\": \"NEW\", \"PAYLOAD\":
+              \"Initial insertion via SQL Kamelet\"}"
+        - to:
+            uri: "kamelet:eip-sql-sink"
+            parameters:
+              connectionBean: "eip"
+              table: "BUSINESS_DATA"
+              operation: "insert"
+        - wireTap:
+            uri: "direct:oracle-async-audit"
+        - log: ">>> [ORACLE-INSERT] Success: ${body}"
+
+- route:
+    id: "oracle-async-audit"
+    from:
+      uri: "direct:oracle-async-audit"
+      steps:
+        - to: "kamelet:eip-audit-action?encryption=AES"
+        - to:
+            uri: "kamelet:eip-sql-sink"
+            parameters:
+              connectionBean: "eip"
+              table: "AUDIT_EVENTS"
+        - log: ">>> [ORACLE-AUDIT] Asynchronous Audit Captured via Kamelet"
+
+- route:
+    id: "oracle-kamelet-update"
+    from:
+      uri: "timer:oracle-trigger-update?delay=5000&period=60000&repeatCount=1"
+      steps:
+        - setBody:
+            constant: "[{\"TXN_ID\": \"EXP-SQL-001\"}, {\"$set\": {\"STATUS\":
+              \"PROCESSED\"}}]"
+        - to:
+            uri: "kamelet:eip-sql-action"
+            parameters:
+              connectionBean: "eip"
+              table: "BUSINESS_DATA"
+              operation: "update"
+        - log: ">>> [ORACLE-UPDATE] Success: ${body}"
+
+- route:
+    id: "oracle-kamelet-findall"
+    from:
+      uri: "timer:oracle-trigger-findall?delay=15000&period=60000&repeatCount=1"
+      steps:
+        - setBody:
+            constant: "{}"
+        - to:
+            uri: "kamelet:eip-sql-action"
+            parameters:
+              connectionBean: "eip"
+              table: "BUSINESS_DATA"
+              operation: "findAll"
+        - log: ">>> [ORACLE-FIND-ALL] Count: ${body.size()}"
+
+- route:
+    id: "oracle-kamelet-filter"
+    from:
+      uri: "timer:oracle-trigger-filter?delay=20000&period=60000&repeatCount=1"
+      steps:
+        - setBody:
+            constant: |
+              {
+                "TXN_ID": {"$like": "EXP-SQL-%"},
+                "STATUS": ["NEW", "PROCESSED"]
+              }
+        - to:
+            uri: "kamelet:eip-sql-action"
+            parameters:
+              connectionBean: "eip"
+              table: "BUSINESS_DATA"
+              operation: "findAll"
+        - log: ">>> [ORACLE-FILTER] Found via dynamic operators: ${body}"
+
+- route:
+    id: "oracle-kamelet-insert-complex"
+    from:
+      uri: "timer:oracle-trigger-insert-complex?delay=25000&period=60000&repeatCount=1"
+      steps:
+        - setBody:
+            constant: >
+              {
+                "IDENTIFIER": "COMPLEX-001",
+                "NOTIFICATIONS": [
+                  {"type": "email", "active": true},
+                  {"type": "sms", "active": false}
+                ],
+                "ATTACHMENT": {
+                  "$blob": "SGVsbG8sIEJMT0IhIFRoaXMgaXMgYmluYXJ5IGRhdGEu"
+                }
+              }
+        - to:
+            uri: "kamelet:eip-sql-sink"
+            parameters:
+              connectionBean: "eip"
+              table: "COMPLEX_DATA"
+              operation: "insert"
+        - log: ">>> [ORACLE-COMPLEX-INSERT] Success: ${body}"
+
+- route:
+    id: "oracle-kamelet-findall-complex"
+    from:
+      uri: "timer:oracle-trigger-findall-complex?delay=35000&period=60000&repeatCount=1"
+      steps:
+        - setBody:
+            constant: "{}"
+        - to:
+            uri: "kamelet:eip-sql-action"
+            parameters:
+              connectionBean: "eip"
+              table: "COMPLEX_DATA"
+              operation: "findAll"
+        - split:
+            simple: "${body}"
+            steps:
+              - log: ">>> [ORACLE-COMPLEX-FINDALL] Record: ${body}"

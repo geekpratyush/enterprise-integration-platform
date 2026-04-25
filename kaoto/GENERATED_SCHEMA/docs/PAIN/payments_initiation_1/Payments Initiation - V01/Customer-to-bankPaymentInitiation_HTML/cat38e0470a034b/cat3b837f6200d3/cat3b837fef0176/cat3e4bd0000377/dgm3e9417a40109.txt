@@ -1,0 +1,9 @@
+Scenario : statement/advice information in a direct or relay scenario where several 'ordering' parties are involved (eg an initiating party which is different from the debtor).
+
+Several scenarios are possible. It needs to be defined upfront between all parties who will receive what kind of information.
+Example scenario :
+in this relay scenario, the originating party might be a subsidiary of a company, the initiating party, a shared service center and the debtor, the head office of the subsidiary. 
+The debit advice/statement would be sent by the first agent to the debtor, whereas the Status information would be sent by the first agent to the forwarding agent, and then forwarded by the forwarding agent to the initiating party.  This will depend on agreements made between all parties involved in the scheme.
+
+
+

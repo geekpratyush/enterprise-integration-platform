@@ -1,0 +1,6 @@
+UnitsNumber: renamed to SubTotalUnitsNumber.
+TotalAmount: renamed to SubTotalAmount.
+SwitchOutAmount: deleted.
+ExceptionalCashFlowIndicator: changed from mdantory to optional.
+InSpecieAmount: deleted.
+TotalAmountCurrency1Rule: deleted.

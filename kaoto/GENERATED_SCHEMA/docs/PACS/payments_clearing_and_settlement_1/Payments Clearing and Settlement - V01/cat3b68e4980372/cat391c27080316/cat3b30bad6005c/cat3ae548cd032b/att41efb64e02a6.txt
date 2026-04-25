@@ -1,0 +1,1 @@
+Unit of measure that is equal to a 1,000th of a kilo.

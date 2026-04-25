@@ -1,0 +1,1 @@
+Financial instrument information of the individual order or individual order cancellation request for which the status is requested. 

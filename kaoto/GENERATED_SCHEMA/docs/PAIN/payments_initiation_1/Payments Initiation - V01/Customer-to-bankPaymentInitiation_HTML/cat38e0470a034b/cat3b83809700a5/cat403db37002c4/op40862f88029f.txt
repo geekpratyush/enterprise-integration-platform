@@ -1,0 +1,1 @@
+If GroupHeader/Grouping is present and is true (or 1), then one and only one occurrence of PaymentInformation must be present.

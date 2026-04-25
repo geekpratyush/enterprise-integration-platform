@@ -1,0 +1,2 @@
+Estimated cash movements out of the fund as a result of investment funds transactions, eg, redemptions or switch-out.
+

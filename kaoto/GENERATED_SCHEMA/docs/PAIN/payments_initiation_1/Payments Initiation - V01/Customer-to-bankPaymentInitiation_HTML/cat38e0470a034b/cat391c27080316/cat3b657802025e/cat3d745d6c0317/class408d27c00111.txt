@@ -1,0 +1,1 @@
+Additional payment information concerning the payment initation for which the cancellation status is being reported.

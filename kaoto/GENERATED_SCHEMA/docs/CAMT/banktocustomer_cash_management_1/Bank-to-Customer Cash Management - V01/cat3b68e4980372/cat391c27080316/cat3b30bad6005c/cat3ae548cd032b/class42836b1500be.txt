@@ -1,0 +1,1 @@
+Specifies the type of the current year ISA.

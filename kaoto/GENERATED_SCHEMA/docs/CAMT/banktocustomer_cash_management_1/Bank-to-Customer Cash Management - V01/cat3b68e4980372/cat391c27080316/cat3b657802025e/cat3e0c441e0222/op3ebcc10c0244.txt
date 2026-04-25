@@ -1,0 +1,1 @@
+If Amount is not present, then Rate is mandatory. If Amount is present, then Rate is optional.

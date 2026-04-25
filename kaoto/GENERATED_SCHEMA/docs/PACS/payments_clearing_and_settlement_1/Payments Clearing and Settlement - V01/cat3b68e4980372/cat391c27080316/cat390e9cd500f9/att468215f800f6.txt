@@ -1,0 +1,1 @@
+Specifies whether it is allowed to vote in different directions for the entire holding.

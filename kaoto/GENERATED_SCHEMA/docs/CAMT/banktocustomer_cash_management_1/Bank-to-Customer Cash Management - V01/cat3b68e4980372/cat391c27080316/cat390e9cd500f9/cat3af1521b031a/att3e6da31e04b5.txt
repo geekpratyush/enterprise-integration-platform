@@ -1,0 +1,1 @@
+Rate of prepayment speed of the fixed income instrument.

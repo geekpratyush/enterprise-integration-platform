@@ -1,0 +1,1 @@
+Search for an amount with an explicit debit/credit indicator and where the currency may be implied or explicit. 

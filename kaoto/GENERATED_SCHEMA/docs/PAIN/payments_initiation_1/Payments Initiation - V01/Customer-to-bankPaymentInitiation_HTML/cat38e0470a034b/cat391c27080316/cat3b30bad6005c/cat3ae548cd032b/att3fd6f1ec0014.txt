@@ -1,0 +1,1 @@
+Specifies that the order is accepted for further processing but that the execution of the order is pending until there is enough cash in the account to pay the subscription.

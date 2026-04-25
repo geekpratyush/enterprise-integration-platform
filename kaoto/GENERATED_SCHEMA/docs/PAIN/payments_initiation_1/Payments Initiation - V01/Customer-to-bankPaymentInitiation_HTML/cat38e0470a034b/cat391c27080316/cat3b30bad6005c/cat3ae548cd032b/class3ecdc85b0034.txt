@@ -1,0 +1,1 @@
+Specifies the type of payment system that should be used to further transfer the cash.

@@ -1,0 +1,37 @@
+apiVersion: camel.apache.org/v1alpha1
+kind: Kamelet
+metadata:
+  name: eip-mongodb-source
+  labels:
+    camel.apache.org/kamelet.type: "source"
+spec:
+  definition:
+    title: "EIP MongoDB Source"
+    description: "Consume data from a MongoDB collection (Standard or Change Streams) using a named registry bean."
+    required:
+      - database
+      - collection
+    properties:
+      connectionBean:
+        title: "MongoClient Bean Name"
+        description: "The name of the MongoClient bean in the registry"
+        type: "string"
+        default: "mongoClient"
+      database:
+        title: "Database"
+        description: "The MongoDB database name"
+        type: "string"
+      collection:
+        title: "Collection"
+        description: "The MongoDB collection name"
+        type: "string"
+      consumerType:
+        title: "Consumer Type"
+        description: "Consumer type: 'changeStreams' or 'collection' (standard)"
+        type: "string"
+        default: "collection"
+  template:
+    from:
+      uri: "mongodb:{{connectionBean}}?database={{database}}&collection={{collection}}&consumerType={{consumerType}}"
+      steps:
+        - to: "kamelet:sink"

@@ -1,0 +1,1 @@
+Details of the spot leg of the sell-side of a swap.

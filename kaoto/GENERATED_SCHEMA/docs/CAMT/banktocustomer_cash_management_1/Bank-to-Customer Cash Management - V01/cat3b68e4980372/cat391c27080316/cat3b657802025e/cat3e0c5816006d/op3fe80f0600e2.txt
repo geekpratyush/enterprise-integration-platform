@@ -1,0 +1,2 @@
+If PaymentCommonInformation/PaymentInstructionStatus is present, then TransactionReport/Transaction/Payment/InstructionStatus/PaymentInstructionStatus is not allowed.
+If PaymentCommonInformation/PaymentInstructionStatus is not present, then TransactionReport/Transaction/Payment/InstructionStatus/PaymentInstructionStatus is optional.

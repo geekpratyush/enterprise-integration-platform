@@ -1,0 +1,174 @@
+FIToFIPaymentReversalV01Message
+../../../../../webviewer/18.jpg
+dgm437325f90148.htm
+
+
+
+(
+)
+<<Message>> FIToFIPaymentReversalV01
+../../../../../webviewer/141.jpg
+class437326010316.htm
+class437326010316.txt
+
+
+(
+GroupHeader ( GroupHeader9 )
+../../../../../webviewer/82.jpg
+../../../../../looseends/role438488d90130.htm
+
+
+
+OriginalGroupInformation ( OriginalGroupInformation5 )
+../../../../../webviewer/82.jpg
+../../../../../looseends/role438a3de20398.htm
+
+
+
+TransactionInformation ( PaymentTransactionInformation5 )
+../../../../../webviewer/82.jpg
+../../../../../looseends/role438a4b31010c.htm
+
+
+
+<<Textual>> GroupReversalAndTransactionInformationRule
+../../../../../webviewer/36.jpg
+op438f037e013d.htm
+op438f037e013d.txt
+
+
+(
+)
+<<Textual>> ReversalReasonRule
+../../../../../webviewer/36.jpg
+op43941e36017d.htm
+op43941e36017d.txt
+
+
+(
+)
+<<Textual>> InstructedAgentRule
+../../../../../webviewer/36.jpg
+op4497c4bf0128.htm
+op4497c4bf0128.txt
+
+
+(
+)
+<<Textual>> InstructingAgentRule
+../../../../../webviewer/36.jpg
+op4497c4bf015a.htm
+op4497c4bf015a.txt
+
+
+(
+)
+<<Textual>> InterbankSettlementDateRule
+../../../../../webviewer/36.jpg
+op4497c560023b.htm
+op4497c560023b.txt
+
+
+(
+)
+<<Textual>> GroupReversalRule
+../../../../../webviewer/36.jpg
+op449aaed2026f.htm
+op449aaed2026f.txt
+
+
+(
+)
+<<Textual>> TotalReversedInterbankSettlementAmount1Rule
+../../../../../webviewer/36.jpg
+op44fea26d0353.htm
+op44fea26d0353.txt
+
+
+(
+)
+<<Textual>> TotalReversedInterbankSettlementAmount2Rule
+../../../../../webviewer/36.jpg
+op449c0dc00131.htm
+op449c0dc00131.txt
+
+
+(
+)
+<<Textual>> SettlementMethodRule
+../../../../../webviewer/36.jpg
+op44fea37000bb.htm
+op44fea37000bb.txt
+
+
+(
+)
+)
+Associations
+../../../../../webviewer/assoccat.gif
+
+
+
+
+(
+Association (GroupHeader:GroupHeader9) (theFIToFIPaymentReversalV01:FIToFIPaymentReversalV01)
+../../../../../webviewer/81.jpg
+../../../../../looseends/ass438488d801d8.htm
+../../../../../looseends/ass438488d801d8.txt
+
+
+(
+GroupHeader9 ( GroupHeader )
+../../../../../webviewer/82.jpg
+../../../../../looseends/role438488d90126.htm
+
+
+
+FIToFIPaymentReversalV01 ( theFIToFIPaymentReversalV01 )
+../../../../../webviewer/82.jpg
+../../../../../looseends/role438488d90130.htm
+
+
+
+)
+Association (OriginalGroupInformation:OriginalGroupInformation5) (theFIToFIPaymentReversalV01:FIToFIPaymentReversalV01)
+../../../../../webviewer/81.jpg
+../../../../../looseends/ass438a3de103aa.htm
+../../../../../looseends/ass438a3de103aa.txt
+
+
+(
+OriginalGroupInformation5 ( OriginalGroupInformation )
+../../../../../webviewer/82.jpg
+../../../../../looseends/role438a3de2038e.htm
+
+
+
+FIToFIPaymentReversalV01 ( theFIToFIPaymentReversalV01 )
+../../../../../webviewer/82.jpg
+../../../../../looseends/role438a3de20398.htm
+
+
+
+)
+Association (TransactionInformation:PaymentTransactionInformation5) (theFIToFIPaymentReversalV01:FIToFIPaymentReversalV01)
+../../../../../webviewer/81.jpg
+../../../../../looseends/ass438a4b2f0285.htm
+../../../../../looseends/ass438a4b2f0285.txt
+
+
+(
+PaymentTransactionInformation5 ( TransactionInformation )
+../../../../../webviewer/82.jpg
+../../../../../looseends/role438a4b3100f8.htm
+
+
+
+FIToFIPaymentReversalV01 ( theFIToFIPaymentReversalV01 )
+../../../../../webviewer/82.jpg
+../../../../../looseends/role438a4b31010c.htm
+
+
+
+)
+)

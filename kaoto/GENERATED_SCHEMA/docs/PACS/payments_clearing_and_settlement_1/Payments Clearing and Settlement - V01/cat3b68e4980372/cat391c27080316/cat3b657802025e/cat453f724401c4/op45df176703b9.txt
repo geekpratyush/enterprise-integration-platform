@@ -1,0 +1,1 @@
+A specific (non-generic) SubFamily code may only be provided if a specific (non-generic) Family code is present.

@@ -1,0 +1,21 @@
+# docker-sqlserver.yaml
+services:
+  sqlserver-platform:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: sqlserver-platform
+    ports:
+      - "1433:1433"
+    environment:
+      ACCEPT_EULA: "Y"
+      MSSQL_SA_PASSWORD: "Password123!"
+      MSSQL_PID: "Developer"
+    volumes:
+      - ../02_initialization/certs/${MODE}:/etc/ssl/sqlserver:ro
+      - ../02_initialization/certs/${MODE}/mssql.conf:/var/opt/mssql/mssql.conf:ro
+      - ../02_initialization/setup-db.sql:/docker-entrypoint-initdb.d/setup-db.sql:ro
+    networks:
+      - eip-net
+
+networks:
+  eip-net:
+    name: eip-network

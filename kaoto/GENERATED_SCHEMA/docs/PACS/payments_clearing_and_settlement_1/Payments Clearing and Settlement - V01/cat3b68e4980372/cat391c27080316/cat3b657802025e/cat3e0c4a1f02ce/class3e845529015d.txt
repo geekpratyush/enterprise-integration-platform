@@ -1,0 +1,4 @@
+Set of elements used to further identify the type of credit transfer being requested by the initiating party.
+
+Usage : it is up to the initiating party and the recipient to bilaterally agree on the usage of this component.
+CreditTransferType is used by agents in the payment chain to define the instrument and/or processing conditions that will be used to execute the payment.

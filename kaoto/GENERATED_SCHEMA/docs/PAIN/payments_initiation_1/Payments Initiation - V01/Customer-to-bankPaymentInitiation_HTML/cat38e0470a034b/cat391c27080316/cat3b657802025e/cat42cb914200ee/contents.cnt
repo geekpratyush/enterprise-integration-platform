@@ -1,0 +1,130 @@
+FixedRateBond
+../../../../webviewer/18.jpg
+dgm42cbe81b0091.htm
+
+
+
+(
+)
+<<MessageComponent>> FixedRateBond1
+../../../../webviewer/143.jpg
+class3dd4c046024d.htm
+
+
+
+(
+BankQualifiedIndicator
+../../../../webviewer/31.jpg
+att3dd4c05d0337.htm
+
+
+
+(
+)
+InsuredIndicator
+../../../../webviewer/31.jpg
+att3dd4c05d035f.htm
+
+
+
+(
+)
+WeightedAverageCoupon [0..1]
+../../../../webviewer/31.jpg
+att3e3a58720305.htm
+
+
+
+(
+)
+WeightedAverageLife [0..1]
+../../../../webviewer/31.jpg
+att3e3a58720319.htm
+
+
+
+(
+)
+WeightedAverageLoan [0..1]
+../../../../webviewer/31.jpg
+att3e3a5872032d.htm
+
+
+
+(
+)
+WeightedAverageMaturity [0..1]
+../../../../webviewer/31.jpg
+att3e3a58720341.htm
+
+
+
+(
+)
+theFixedRateBond ( FixedRateBond )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e8317be01ee.htm
+
+
+
+AssetBackedFixedRateBond ( AssetBackedFixedRateBond1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role42d7657a0111.htm
+
+
+
+theInterestBearingInstrument1 ( InterestBearingInstrument1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3de4e8d70072.htm
+
+
+
+)
+Associations
+../../../../webviewer/assoccat.gif
+
+
+
+
+(
+<<SWSTrace>> (theFixedRateBond:FixedRateBond) (theFixedRateBond1:FixedRateBond1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3e8317be00df.htm
+
+
+
+(
+FixedRateBond ( theFixedRateBond )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e8317be01e4.htm
+
+
+
+FixedRateBond1 ( theFixedRateBond1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e8317be01ee.htm
+
+
+
+)
+Association (AssetBackedFixedRateBond:AssetBackedFixedRateBond1) (theFixedRateBond1:FixedRateBond1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass42d76578037b.htm
+
+
+
+(
+AssetBackedFixedRateBond1 ( AssetBackedFixedRateBond )
+../../../../webviewer/82.jpg
+../../../../looseends/role42d7657a00df.htm
+
+
+
+FixedRateBond1 ( theFixedRateBond1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role42d7657a0111.htm
+
+
+
+)
+)

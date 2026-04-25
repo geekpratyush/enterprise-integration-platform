@@ -1,0 +1,1210 @@
+HoldingBalance
+../../../../webviewer/18.jpg
+dgm3e10645c0280.htm
+
+
+
+(
+)
+AggregateBalanceInformation1
+../../../../webviewer/18.jpg
+dgm40ab11c00270.htm
+
+
+
+(
+)
+AggregateBalanceInformation1/aggregations
+../../../../webviewer/18.jpg
+dgm40bd85e803ce.htm
+
+
+
+(
+)
+AggregateBalanceInformation2
+../../../../webviewer/18.jpg
+dgm40b1f5d9030b.htm
+
+
+
+(
+)
+AggregateBalanceInformation2 /aggregations
+../../../../webviewer/18.jpg
+dgm40b595b003db.htm
+
+
+
+(
+)
+AggregateBalancePerSafekeepingPlace1
+../../../../webviewer/18.jpg
+dgm40ae05070069.htm
+
+
+
+(
+)
+AggregateBalancePerSafekeepingPlace1/aggregations
+../../../../webviewer/18.jpg
+dgm40b1e2710087.htm
+
+
+
+(
+)
+AggregateBalancePerSafekeepingPlace2
+../../../../webviewer/18.jpg
+dgm40bd94ff0004.htm
+
+
+
+(
+)
+AggregateBalancePerSafekeepingPlace2 aggregations
+../../../../webviewer/18.jpg
+dgm40bd971f033c.htm
+
+
+
+(
+)
+BalanceQuantity1Choice
+../../../../webviewer/18.jpg
+dgm40f7cc0801dd.htm
+
+
+
+(
+)
+<<MessageComponent>> HoldingBalance1
+../../../../webviewer/143.jpg
+class3e0b28ff007c.htm
+
+
+
+(
+TotalUnitsNumber
+../../../../webviewer/31.jpg
+att3e0b28ff0083.htm
+
+
+
+(
+)
+TotalValueInReferenceCurrency[0..1]
+../../../../webviewer/33.jpg
+att3e0b28ff0084.htm
+att3e0b28ff0084.txt
+
+
+(
+)
+TotalValueInFundCurrency[0..1]
+../../../../webviewer/33.jpg
+att3e0b28ff0085.htm
+att3e0b28ff0085.txt
+
+
+(
+)
+theInvestmentAccount9 ( InvestmentAccount9 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e0b28ff00a9.htm
+
+
+
+ValuationDetails ( HoldingValue1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e0b28ff00a2.htm
+
+
+
+ForeignExchangeDetails ( ForeignExchangeTerms2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e0b28ff008b.htm
+
+
+
+theSecuritiesBalance ( SecuritiesBalance )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e1064d900da.htm
+
+
+
+FinancialInstrumentDetails ( FinancialInstrument1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e1afdbb02e1.htm
+
+
+
+<<Textual>> TotalUnitsNumberRule
+../../../../webviewer/36.jpg
+op3e0b28ff007d.htm
+op3e0b28ff007d.txt
+
+
+(
+)
+)
+<<MessageComponent>> AggregateBalanceInformation1
+../../../../webviewer/143.jpg
+class40a3347c00f9.htm
+
+
+
+(
+AggregateQuantity
+../../../../webviewer/31.jpg
+att40a370870139.htm
+att40a370870139.txt
+
+
+(
+)
+AvailableQuantity [0..1]
+../../../../webviewer/31.jpg
+att40a370c10355.htm
+att40a370c10355.txt
+
+
+(
+)
+NotAvailableQuantity [0..1]
+../../../../webviewer/33.jpg
+att40a370ec0260.htm
+att40a370ec0260.txt
+
+
+(
+)
+DaysAccrued [0..1]
+../../../../webviewer/31.jpg
+att40a3720d0369.htm
+
+
+
+(
+)
+HoldingValue [0..n]
+../../../../webviewer/33.jpg
+att40a3729500a1.htm
+att40a3729500a1.txt
+
+
+(
+)
+AccruedInterestAmount [0..1]
+../../../../webviewer/31.jpg
+att40a3729d01d0.htm
+
+
+
+(
+)
+BookValue [0..1]
+../../../../webviewer/31.jpg
+att40a372ac00b1.htm
+
+
+
+(
+)
+SafekeepingPlace [0..1]
+../../../../webviewer/31.jpg
+att40a8b81c0154.htm
+att40a8b81c0154.txt
+
+
+(
+)
+theSubAccountIdentification1 ( SubAccountIdentification1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role40b4624001e7.htm
+
+
+
+theCustodyStatementOfHoldings1 ( CustodyStatementOfHoldings1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role40e94a2e0040.htm
+
+
+
+theSecuritiesBalance ( SecuritiesBalance )
+../../../../webviewer/82.jpg
+../../../../looseends/role40f3e4c1004e.htm
+
+
+
+AdditionalBalanceBreakdownDetails ( AdditionalBalanceInformation )
+../../../../webviewer/82.jpg
+../../../../looseends/role40a337a102ff.htm
+
+
+
+BalanceBreakdownDetails ( SubBalanceInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role40a878900238.htm
+
+
+
+BalanceAtSafekeepingPlace ( AggregateBalancePerSafekeepingPlace1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role40a878510314.htm
+
+
+
+ForeignExchangeDetails ( ForeignExchangeTerms3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role40c07d58027f.htm
+
+
+
+PriceDetails ( PriceInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role40bc88a70117.htm
+
+
+
+FinancialInstrumentDetails ( FinancialInstrument4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role40bc665c0150.htm
+
+
+
+<<Textual>> BalanceAtSafekeepingPlaceRule
+../../../../webviewer/36.jpg
+op40a8b82d0235.htm
+op40a8b82d0235.txt
+
+
+(
+)
+<<Textual>> AggregateQuantityGuideline
+../../../../webviewer/36.jpg
+op40bca3d303ac.htm
+op40bca3d303ac.txt
+
+
+(
+)
+)
+<<MessageComponent>> AggregateBalanceInformation2
+../../../../webviewer/143.jpg
+class40a86a18037d.htm
+
+
+
+(
+AggregateQuantity
+../../../../webviewer/31.jpg
+att40a86cab0186.htm
+att40a86cab0186.txt
+
+
+(
+)
+DaysAccrued [0..1]
+../../../../webviewer/31.jpg
+att40a86cab0280.htm
+
+
+
+(
+)
+HoldingValue [1..n]
+../../../../webviewer/33.jpg
+att40a86cab02b2.htm
+att40a86cab02b2.txt
+
+
+(
+)
+AccruedInterestAmount [0..1]
+../../../../webviewer/31.jpg
+att40a86cab02e4.htm
+
+
+
+(
+)
+BookValue [0..1]
+../../../../webviewer/31.jpg
+att40a86cab033e.htm
+
+
+
+(
+)
+SafekeepingPlace [0..1]
+../../../../webviewer/31.jpg
+att40b58ce3012e.htm
+att40b58ce3012e.txt
+
+
+(
+)
+theSubAccountIdentification2 ( SubAccountIdentification2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role40bc682001a8.htm
+
+
+
+theAccountingStatementOfHoldings1 ( AccountingStatementOfHoldings1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role40e95215036b.htm
+
+
+
+theSecuritiesBalance ( SecuritiesBalance )
+../../../../webviewer/82.jpg
+../../../../looseends/role40bd949c00c8.htm
+
+
+
+AdditionalBalanceBreakdownDetails ( AdditionalBalanceInformation )
+../../../../webviewer/82.jpg
+../../../../looseends/role40b58e12003f.htm
+
+
+
+BalanceBreakdownDetails ( SubBalanceInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role40b58c8a01ba.htm
+
+
+
+BalanceAtSafekeepingPlace ( AggregateBalancePerSafekeepingPlace2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role40bc95c702fe.htm
+
+
+
+ForeignExchangeDetails ( ForeignExchangeTerms3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role40c07d88035b.htm
+
+
+
+PriceDetails ( PriceInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role40bc94420303.htm
+
+
+
+FinancialInstrumentDetails ( FinancialInstrument4 )
+../../../../webviewer/82.jpg
+../../../../looseends/role40bc68ed0147.htm
+
+
+
+<<Textual>> BalanceAtSafekeepingPlaceRule
+../../../../webviewer/36.jpg
+op40f4df4b0086.htm
+op40f4df4b0086.txt
+
+
+(
+)
+)
+<<MessageComponent>> AggregateBalancePerSafekeepingPlace1
+../../../../webviewer/143.jpg
+class40a33bf90394.htm
+class40a33bf90394.txt
+
+
+(
+AggregateQuantity
+../../../../webviewer/31.jpg
+att40a8772b0127.htm
+att40a8772b0127.txt
+
+
+(
+)
+AvailableQuantity [0..1]
+../../../../webviewer/31.jpg
+att40a8772b0163.htm
+att40a8772b0163.txt
+
+
+(
+)
+NotAvailableQuantity [0..1]
+../../../../webviewer/33.jpg
+att40a8772b0195.htm
+att40a8772b0195.txt
+
+
+(
+)
+DaysAccrued [0..1]
+../../../../webviewer/31.jpg
+att40a4fbcf016e.htm
+
+
+
+(
+)
+HoldingValue [0..n]
+../../../../webviewer/33.jpg
+att40a4fbcf01a0.htm
+att40a4fbcf01a0.txt
+
+
+(
+)
+AccruedInterestAmount [0..1]
+../../../../webviewer/31.jpg
+att40a4fbcf01d2.htm
+
+
+
+(
+)
+BookValue [0..1]
+../../../../webviewer/31.jpg
+att40a4fbcf020f.htm
+
+
+
+(
+)
+SafekeepingPlace
+../../../../webviewer/31.jpg
+att40a367ed0091.htm
+att40a367ed0091.txt
+
+
+(
+)
+theAggregateBalanceInformation1 ( AggregateBalanceInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role40a87851030a.htm
+
+
+
+theSecuritiesBalance ( SecuritiesBalance )
+../../../../webviewer/82.jpg
+../../../../looseends/role40f7c0a101a7.htm
+
+
+
+PriceDetails ( PriceInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role40bc93140130.htm
+
+
+
+ForeignExchangeDetails ( ForeignExchangeTerms3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role40c07dd4021b.htm
+
+
+
+BalanceBreakdownDetails ( SubBalanceInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role40a8788000af.htm
+
+
+
+AdditionalBalanceBreakdownDetails ( AdditionalBalanceInformation )
+../../../../webviewer/82.jpg
+../../../../looseends/role40a8794b038c.htm
+
+
+
+<<Textual>> AggregateQuantityGuideline
+../../../../webviewer/36.jpg
+op40bca468009f.htm
+op40bca468009f.txt
+
+
+(
+)
+)
+<<MessageComponent>> AggregateBalancePerSafekeepingPlace2
+../../../../webviewer/143.jpg
+class40bc94d802dc.htm
+class40bc94d802dc.txt
+
+
+(
+AggregateBalance
+../../../../webviewer/31.jpg
+att40bc95100072.htm
+att40bc95100072.txt
+
+
+(
+)
+DaysAccrued [0..1]
+../../../../webviewer/31.jpg
+att40bc9510011c.htm
+
+
+
+(
+)
+HoldingValue [1..n]
+../../../../webviewer/33.jpg
+att40bc95100159.htm
+att40bc95100159.txt
+
+
+(
+)
+AccruedInterestAmount [0..1]
+../../../../webviewer/31.jpg
+att40bc9510018b.htm
+
+
+
+(
+)
+BookValue [0..1]
+../../../../webviewer/31.jpg
+att40bc951001c7.htm
+
+
+
+(
+)
+SafekeepingPlace
+../../../../webviewer/31.jpg
+att40bc951001f9.htm
+att40bc951001f9.txt
+
+
+(
+)
+theAggregateBalanceInformation2 ( AggregateBalanceInformation2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role40bc95c702e0.htm
+
+
+
+theSecuritiesBalance ( SecuritiesBalance )
+../../../../webviewer/82.jpg
+../../../../looseends/role40bd953f0148.htm
+
+
+
+AdditionalBalanceBreakdownDetails ( AdditionalBalanceInformation )
+../../../../webviewer/82.jpg
+../../../../looseends/role40bc958201d9.htm
+
+
+
+BalanceBreakdownDetails ( SubBalanceInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role40bc957c0343.htm
+
+
+
+ForeignExchangeDetails ( ForeignExchangeTerms3 )
+../../../../webviewer/82.jpg
+../../../../looseends/role40c07ded00e2.htm
+
+
+
+PriceDetails ( PriceInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role40bc9576009b.htm
+
+
+
+)
+<<ChoiceComponent>> BalanceQuantity1Choice
+../../../../webviewer/144.jpg
+class40a47206009e.htm
+class40a47206009e.txt
+
+
+(
+Quantity
+../../../../webviewer/31.jpg
+att40a4735a02ce.htm
+
+
+
+(
+)
+QuantityAsDSS
+../../../../webviewer/31.jpg
+att40a4738d00b5.htm
+
+
+
+(
+)
+)
+Associations
+../../../../webviewer/assoccat.gif
+
+
+
+
+(
+Association (ValuationDetails:HoldingValue1) (theHoldingBalance1:HoldingBalance1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3e0b28ff009a.htm
+
+
+
+(
+HoldingValue1 ( ValuationDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e0b28ff009b.htm
+
+
+
+HoldingBalance1 ( theHoldingBalance1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e0b28ff00a2.htm
+
+
+
+)
+Association (theHoldingBalance1:HoldingBalance1) (ForeignExchangeDetails:ForeignExchangeTerms2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3e0b28ff008a.htm
+
+
+
+(
+HoldingBalance1 ( theHoldingBalance1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e0b28ff008b.htm
+
+
+
+ForeignExchangeTerms2 ( ForeignExchangeDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e0b28ff008d.htm
+
+
+
+)
+<<SWSTrace>> (theSecuritiesBalance:SecuritiesBalance) (theHoldingBalance1:HoldingBalance1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3e1064d802de.htm
+
+
+
+(
+SecuritiesBalance ( theSecuritiesBalance )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e1064d900bb.htm
+
+
+
+HoldingBalance1 ( theHoldingBalance1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e1064d900da.htm
+
+
+
+)
+Association (FinancialInstrumentDetails:FinancialInstrument1) (theHoldingBalance1:HoldingBalance1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3e1afdba02f4.htm
+
+
+
+(
+FinancialInstrument1 ( FinancialInstrumentDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e1afdbb0269.htm
+
+
+
+HoldingBalance1 ( theHoldingBalance1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e1afdbb02e1.htm
+
+
+
+)
+<<SWSTrace>> (theSecuritiesBalance:SecuritiesBalance) (theAggregateBalanceInformation1:AggregateBalanceInformation1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass40f3e4c1004c.htm
+
+
+
+(
+SecuritiesBalance ( theSecuritiesBalance )
+../../../../webviewer/82.jpg
+../../../../looseends/role40f3e4c1004d.htm
+
+
+
+AggregateBalanceInformation1 ( theAggregateBalanceInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role40f3e4c1004e.htm
+
+
+
+)
+Association (AdditionalBalanceBreakdownDetails:AdditionalBalanceInformation) (theAggregateBalanceInformation1:AggregateBalanceInformation1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass40a337a10128.htm
+
+
+
+(
+AdditionalBalanceInformation ( AdditionalBalanceBreakdownDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role40a337a102eb.htm
+
+
+
+AggregateBalanceInformation1 ( theAggregateBalanceInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role40a337a102ff.htm
+
+
+
+)
+Association (BalanceBreakdownDetails:SubBalanceInformation1) (theAggregateBalanceInformation1:AggregateBalanceInformation1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass40a8788f00c4.htm
+
+
+
+(
+SubBalanceInformation1 ( BalanceBreakdownDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role40a87890021a.htm
+
+
+
+AggregateBalanceInformation1 ( theAggregateBalanceInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role40a878900238.htm
+
+
+
+)
+Association (BalanceAtSafekeepingPlace:AggregateBalancePerSafekeepingPlace1) (theAggregateBalanceInformation1:AggregateBalanceInformation1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass40a8785101e8.htm
+../../../../looseends/ass40a8785101e8.txt
+
+
+(
+AggregateBalancePerSafekeepingPlace1 ( BalanceAtSafekeepingPlace )
+../../../../webviewer/82.jpg
+../../../../looseends/role40a87851030a.htm
+
+
+
+AggregateBalanceInformation1 ( theAggregateBalanceInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role40a878510314.htm
+
+
+
+)
+Association (ForeignExchangeDetails:ForeignExchangeTerms3) (theAggregateBalanceInformation1:AggregateBalanceInformation1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass40c07d580238.htm
+
+
+
+(
+ForeignExchangeTerms3 ( ForeignExchangeDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role40c07d58026b.htm
+
+
+
+AggregateBalanceInformation1 ( theAggregateBalanceInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role40c07d58027f.htm
+
+
+
+)
+Association (PriceDetails:PriceInformation1) (theAggregateBalanceInformation1:AggregateBalanceInformation1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass40bc88a60224.htm
+../../../../looseends/ass40bc88a60224.txt
+
+
+(
+PriceInformation1 ( PriceDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role40bc88a7009f.htm
+
+
+
+AggregateBalanceInformation1 ( theAggregateBalanceInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role40bc88a70117.htm
+
+
+
+)
+<<SWSTrace>> (theSecuritiesBalance:SecuritiesBalance) (theAggregateBalanceInformation2:AggregateBalanceInformation2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass40bd949a02d8.htm
+
+
+
+(
+SecuritiesBalance ( theSecuritiesBalance )
+../../../../webviewer/82.jpg
+../../../../looseends/role40bd949b03c0.htm
+
+
+
+AggregateBalanceInformation2 ( theAggregateBalanceInformation2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role40bd949c00c8.htm
+
+
+
+)
+Association (AdditionalBalanceBreakdownDetails:AdditionalBalanceInformation) (theAggregateBalanceInformation2:AggregateBalanceInformation2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass40b58e11025a.htm
+
+
+
+(
+AdditionalBalanceInformation ( AdditionalBalanceBreakdownDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role40b58e1103d7.htm
+
+
+
+AggregateBalanceInformation2 ( theAggregateBalanceInformation2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role40b58e12003f.htm
+
+
+
+)
+Association (BalanceBreakdownDetails:SubBalanceInformation1) (theAggregateBalanceInformation2:AggregateBalanceInformation2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass40b58c88037a.htm
+
+
+
+(
+SubBalanceInformation1 ( BalanceBreakdownDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role40b58c8a00f2.htm
+
+
+
+AggregateBalanceInformation2 ( theAggregateBalanceInformation2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role40b58c8a01ba.htm
+
+
+
+)
+Association (BalanceAtSafekeepingPlace:AggregateBalancePerSafekeepingPlace2) (theAggregateBalanceInformation2:AggregateBalanceInformation2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass40bc95c60111.htm
+../../../../looseends/ass40bc95c60111.txt
+
+
+(
+AggregateBalancePerSafekeepingPlace2 ( BalanceAtSafekeepingPlace )
+../../../../webviewer/82.jpg
+../../../../looseends/role40bc95c702e0.htm
+
+
+
+AggregateBalanceInformation2 ( theAggregateBalanceInformation2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role40bc95c702fe.htm
+
+
+
+)
+Association (ForeignExchangeDetails:ForeignExchangeTerms3) (theAggregateBalanceInformation2:AggregateBalanceInformation2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass40c07d880242.htm
+
+
+
+(
+ForeignExchangeTerms3 ( ForeignExchangeDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role40c07d8802d9.htm
+
+
+
+AggregateBalanceInformation2 ( theAggregateBalanceInformation2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role40c07d88035b.htm
+
+
+
+)
+Association (PriceDetails:PriceInformation1) (theAggregateBalanceInformation2:AggregateBalanceInformation2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass40bc944103c0.htm
+../../../../looseends/ass40bc944103c0.txt
+
+
+(
+PriceInformation1 ( PriceDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role40bc9442028b.htm
+
+
+
+AggregateBalanceInformation2 ( theAggregateBalanceInformation2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role40bc94420303.htm
+
+
+
+)
+<<SWSTrace>> (theSecuritiesBalance:SecuritiesBalance) (theAggregateBalancePerSafekeepingPlace1:AggregateBalancePerSafekeepingPlace1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass40f7c0a101a5.htm
+
+
+
+(
+SecuritiesBalance ( theSecuritiesBalance )
+../../../../webviewer/82.jpg
+../../../../looseends/role40f7c0a101a6.htm
+
+
+
+AggregateBalancePerSafekeepingPlace1 ( theAggregateBalancePerSafekeepingPlace1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role40f7c0a101a7.htm
+
+
+
+)
+Association (PriceDetails:PriceInformation1) (theAggregateBalancePerSafekeepingPlace1:AggregateBalancePerSafekeepingPlace1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass40bc931300ca.htm
+../../../../looseends/ass40bc931300ca.txt
+
+
+(
+PriceInformation1 ( PriceDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role40bc931400f4.htm
+
+
+
+AggregateBalancePerSafekeepingPlace1 ( theAggregateBalancePerSafekeepingPlace1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role40bc93140130.htm
+
+
+
+)
+Association (ForeignExchangeDetails:ForeignExchangeTerms3) (theAggregateBalancePerSafekeepingPlace1:AggregateBalancePerSafekeepingPlace1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass40c07dd401e9.htm
+
+
+
+(
+ForeignExchangeTerms3 ( ForeignExchangeDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role40c07dd401fd.htm
+
+
+
+AggregateBalancePerSafekeepingPlace1 ( theAggregateBalancePerSafekeepingPlace1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role40c07dd4021b.htm
+
+
+
+)
+Association (BalanceBreakdownDetails:SubBalanceInformation1) (theAggregateBalancePerSafekeepingPlace1:AggregateBalancePerSafekeepingPlace1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass40a8787f00f3.htm
+
+
+
+(
+SubBalanceInformation1 ( BalanceBreakdownDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role40a87880009b.htm
+
+
+
+AggregateBalancePerSafekeepingPlace1 ( theAggregateBalancePerSafekeepingPlace1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role40a8788000af.htm
+
+
+
+)
+Association (AdditionalBalanceBreakdownDetails:AdditionalBalanceInformation) (theAggregateBalancePerSafekeepingPlace1:AggregateBalancePerSafekeepingPlace1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass40a8794a0358.htm
+../../../../looseends/ass40a8794a0358.txt
+
+
+(
+AdditionalBalanceInformation ( AdditionalBalanceBreakdownDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role40a8794b036e.htm
+
+
+
+AggregateBalancePerSafekeepingPlace1 ( theAggregateBalancePerSafekeepingPlace1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role40a8794b038c.htm
+
+
+
+)
+<<SWSTrace>> (theSecuritiesBalance:SecuritiesBalance) (theAggregateBalancePerSafekeepingPlace2:AggregateBalancePerSafekeepingPlace2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass40bd953e0255.htm
+
+
+
+(
+SecuritiesBalance ( theSecuritiesBalance )
+../../../../webviewer/82.jpg
+../../../../looseends/role40bd953f0075.htm
+
+
+
+AggregateBalancePerSafekeepingPlace2 ( theAggregateBalancePerSafekeepingPlace2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role40bd953f0148.htm
+
+
+
+)
+Association (AdditionalBalanceBreakdownDetails:AdditionalBalanceInformation) (theAggregateBalancePerSafekeepingPlace2:AggregateBalancePerSafekeepingPlace2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass40bc957e03e6.htm
+../../../../looseends/ass40bc957e03e6.txt
+
+
+(
+AdditionalBalanceInformation ( AdditionalBalanceBreakdownDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role40bc95820143.htm
+
+
+
+AggregateBalancePerSafekeepingPlace2 ( theAggregateBalancePerSafekeepingPlace2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role40bc958201d9.htm
+
+
+
+)
+Association (BalanceBreakdownDetails:SubBalanceInformation1) (theAggregateBalancePerSafekeepingPlace2:AggregateBalancePerSafekeepingPlace2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass40bc957b0319.htm
+
+
+
+(
+SubBalanceInformation1 ( BalanceBreakdownDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role40bc957c02b7.htm
+
+
+
+AggregateBalancePerSafekeepingPlace2 ( theAggregateBalancePerSafekeepingPlace2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role40bc957c0343.htm
+
+
+
+)
+Association (ForeignExchangeDetails:ForeignExchangeTerms3) (theAggregateBalancePerSafekeepingPlace2:AggregateBalancePerSafekeepingPlace2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass40c07ded00b9.htm
+
+
+
+(
+ForeignExchangeTerms3 ( ForeignExchangeDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role40c07ded00e1.htm
+
+
+
+AggregateBalancePerSafekeepingPlace2 ( theAggregateBalancePerSafekeepingPlace2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role40c07ded00e2.htm
+
+
+
+)
+Association (PriceDetails:PriceInformation1) (theAggregateBalancePerSafekeepingPlace2:AggregateBalancePerSafekeepingPlace2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass40bc95750049.htm
+../../../../looseends/ass40bc95750049.txt
+
+
+(
+PriceInformation1 ( PriceDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role40bc9576000f.htm
+
+
+
+AggregateBalancePerSafekeepingPlace2 ( theAggregateBalancePerSafekeepingPlace2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role40bc9576009b.htm
+
+
+
+)
+Association (FinancialInstrumentDetails:FinancialInstrument4) (theAggregateBalanceInformation1:AggregateBalanceInformation1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass40bc665b0217.htm
+../../../../looseends/ass40bc665b0217.txt
+
+
+(
+FinancialInstrument4 ( FinancialInstrumentDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role40bc665c005f.htm
+
+
+
+AggregateBalanceInformation1 ( theAggregateBalanceInformation1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role40bc665c0150.htm
+
+
+
+)
+Association (FinancialInstrumentDetails:FinancialInstrument4) (theAggregateBalanceInformation2:AggregateBalanceInformation2)
+../../../../webviewer/81.jpg
+../../../../looseends/ass40bc68ec031c.htm
+../../../../looseends/ass40bc68ec031c.txt
+
+
+(
+FinancialInstrument4 ( FinancialInstrumentDetails )
+../../../../webviewer/82.jpg
+../../../../looseends/role40bc68ed00b0.htm
+
+
+
+AggregateBalanceInformation2 ( theAggregateBalanceInformation2 )
+../../../../webviewer/82.jpg
+../../../../looseends/role40bc68ed0147.htm
+
+
+
+)
+)

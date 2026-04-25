@@ -1,0 +1,1 @@
+Number of individual items contained in the group, i.e. the number of occurrences of transfer.

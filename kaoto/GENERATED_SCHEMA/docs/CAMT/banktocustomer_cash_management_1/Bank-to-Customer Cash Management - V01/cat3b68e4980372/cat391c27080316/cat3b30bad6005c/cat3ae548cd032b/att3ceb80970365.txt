@@ -1,0 +1,1 @@
+Your instruction is pending settlement because the instruction linked to it is pending.

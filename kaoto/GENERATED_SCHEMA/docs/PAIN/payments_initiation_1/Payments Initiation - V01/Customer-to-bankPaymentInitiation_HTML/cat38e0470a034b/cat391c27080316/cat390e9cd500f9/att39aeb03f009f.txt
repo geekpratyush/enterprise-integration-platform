@@ -1,0 +1,2 @@
+Specifies the interest rate applicable to the next interest payment period. 
+

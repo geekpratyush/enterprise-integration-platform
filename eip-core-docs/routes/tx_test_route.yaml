@@ -1,0 +1,15 @@
+- route:
+    id: "tx-test-route"
+    from:
+      # Use a timer to trigger a test message every few seconds
+      uri: "timer:tx-source?period={{env:TX_TEST_PERIOD_MS:5000}}&delay={{env:TX_TEST_DELAY_MS:5000}}"
+      steps:
+        - setBody:
+            constant: "This is a transacted message"
+        - transacted: {}  # MARK: Triggers the JTA/Local transaction manager.
+        - log: "Transaction context active for body: ${body}. Mocking processing..."
+        - delay: 1000 # Simulate work
+        - setBody:
+            simple: "${body} [ID: ${exchangeId}] - Processed"
+        - to: "log:tx-test-sink?level=INFO&showAll=true"
+        - log: "Transaction complete. Committing (if no errors)."

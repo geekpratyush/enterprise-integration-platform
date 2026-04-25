@@ -1,0 +1,1 @@
+If ExchangeRate is not present, then ResultingAmount is not allowed.

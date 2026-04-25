@@ -1,0 +1,1 @@
+Cash settlement takes place before trade date.

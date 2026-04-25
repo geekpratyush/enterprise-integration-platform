@@ -1,0 +1,1 @@
+Specifies that the payment was included in a SWIFT FIN format message eg, MT 103.

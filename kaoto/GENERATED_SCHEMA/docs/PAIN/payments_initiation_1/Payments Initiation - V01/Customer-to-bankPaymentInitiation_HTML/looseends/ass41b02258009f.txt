@@ -1,0 +1,2 @@
+SettlementCurrency: deleted.
+GrossSettlementAmount: renamed to SettlementAmount.

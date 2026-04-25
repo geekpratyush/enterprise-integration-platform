@@ -1,0 +1,1 @@
+Specifies from the root of the message the complete path of the element that violated a rule.

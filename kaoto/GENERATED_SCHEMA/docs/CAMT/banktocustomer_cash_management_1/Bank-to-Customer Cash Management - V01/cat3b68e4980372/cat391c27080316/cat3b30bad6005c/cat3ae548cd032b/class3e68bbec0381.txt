@@ -1,0 +1,6 @@
+Specifies the mode used for settlement.
+
+
+
+
+

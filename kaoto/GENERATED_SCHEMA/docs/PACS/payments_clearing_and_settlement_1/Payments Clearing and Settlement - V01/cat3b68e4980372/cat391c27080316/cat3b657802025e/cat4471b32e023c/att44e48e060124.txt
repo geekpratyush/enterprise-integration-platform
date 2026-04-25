@@ -1,0 +1,1 @@
+Portion of the net amount that is attributed to an order type.

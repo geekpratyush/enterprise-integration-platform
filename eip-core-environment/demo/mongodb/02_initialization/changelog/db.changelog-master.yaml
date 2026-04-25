@@ -1,0 +1,19 @@
+databaseChangeLog:
+  - changeSet:
+      id: "1-mongodb-create-business-data"
+      author: "pratyush"
+      changes:
+        - createCollection:
+            collectionName: "BUSINESS_DATA"
+  - changeSet:
+      id: "2-mongodb-create-audit-events"
+      author: "pratyush"
+      changes:
+        - createCollection:
+            collectionName: "AUDIT_EVENTS"
+  - changeSet:
+      id: "3-mongodb-create-complex-data"
+      author: "pratyush"
+      changes:
+        - createCollection:
+            collectionName: "COMPLEX_DATA"

@@ -1,0 +1,1 @@
+Date and time when the activity occurred.

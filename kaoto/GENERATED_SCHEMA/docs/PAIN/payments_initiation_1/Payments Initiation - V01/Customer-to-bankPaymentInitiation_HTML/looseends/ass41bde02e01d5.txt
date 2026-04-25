@@ -1,0 +1,1 @@
+InstructionBasis: type changed from WaivingInstruction1Code to WaivingType1, which uses WaivingInstruction2Code: code OTHR has been added and the element AdditionalInformation has been added for use with OTHR (code alignment).

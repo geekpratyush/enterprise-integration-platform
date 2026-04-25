@@ -1,0 +1,1 @@
+Gives a name to the query defined by the search criteria. 

@@ -1,0 +1,174 @@
+PaymentCancellationRequestV01Message
+../../../../../webviewer/18.jpg
+dgm43731b700397.htm
+
+
+
+(
+)
+<<Message>> PaymentCancellationRequestV01
+../../../../../webviewer/141.jpg
+class43731b94015e.htm
+class43731b94015e.txt
+
+
+(
+GroupHeader ( GroupHeader7 )
+../../../../../webviewer/82.jpg
+../../../../../looseends/role43848840000c.htm
+
+
+
+OriginalGroupInformation ( OriginalGroupInformation4 )
+../../../../../webviewer/82.jpg
+../../../../../looseends/role438a3eb400fb.htm
+
+
+
+TransactionInformation ( PaymentTransactionInformation3 )
+../../../../../webviewer/82.jpg
+../../../../../looseends/role438ac53c005f.htm
+
+
+
+<<Textual>> InstructedAgentRule
+../../../../../webviewer/36.jpg
+op4497c478032d.htm
+op4497c478032d.txt
+
+
+(
+)
+<<Textual>> InstructingAgentRule
+../../../../../webviewer/36.jpg
+op4497c4780369.htm
+op4497c4780369.txt
+
+
+(
+)
+<<Textual>> ForwardingAgentRule
+../../../../../webviewer/36.jpg
+op449a861c0261.htm
+op449a861c0261.txt
+
+
+(
+)
+<<Textual>> InitiatingPartyRule
+../../../../../webviewer/36.jpg
+op44fea147028c.htm
+op44fea147028c.txt
+
+
+(
+)
+<<Textual>> CreditorAgentRule
+../../../../../webviewer/36.jpg
+op449a861c026b.htm
+op449a861c026b.txt
+
+
+(
+)
+<<Textual>> DebtorAgentRule
+../../../../../webviewer/36.jpg
+op449a861c0275.htm
+op449a861c0275.txt
+
+
+(
+)
+<<Textual>> GroupCancellation1Rule
+../../../../../webviewer/36.jpg
+op449aabf201c1.htm
+op449aabf201c1.txt
+
+
+(
+)
+<<Textual>> GroupCancellation2Rule
+../../../../../webviewer/36.jpg
+op449aac11027b.htm
+op449aac11027b.txt
+
+
+(
+)
+<<Textual>> GroupCancellationAndTransactionInformationRule
+../../../../../webviewer/36.jpg
+op438ec5be0159.htm
+op438ec5be0159.txt
+
+
+(
+)
+)
+Associations
+../../../../../webviewer/assoccat.gif
+
+
+
+
+(
+Association (GroupHeader:GroupHeader7) (thePaymentCancellationRequestV01:PaymentCancellationRequestV01)
+../../../../../webviewer/81.jpg
+../../../../../looseends/ass4384883f001d.htm
+../../../../../looseends/ass4384883f001d.txt
+
+
+(
+GroupHeader7 ( GroupHeader )
+../../../../../webviewer/82.jpg
+../../../../../looseends/role43848840000a.htm
+
+
+
+PaymentCancellationRequestV01 ( thePaymentCancellationRequestV01 )
+../../../../../webviewer/82.jpg
+../../../../../looseends/role43848840000c.htm
+
+
+
+)
+Association (OriginalGroupInformation:OriginalGroupInformation4) (thePaymentCancellationRequestV01:PaymentCancellationRequestV01)
+../../../../../webviewer/81.jpg
+../../../../../looseends/ass438a3eb300db.htm
+../../../../../looseends/ass438a3eb300db.txt
+
+
+(
+OriginalGroupInformation4 ( OriginalGroupInformation )
+../../../../../webviewer/82.jpg
+../../../../../looseends/role438a3eb400f1.htm
+
+
+
+PaymentCancellationRequestV01 ( thePaymentCancellationRequestV01 )
+../../../../../webviewer/82.jpg
+../../../../../looseends/role438a3eb400fb.htm
+
+
+
+)
+Association (TransactionInformation:PaymentTransactionInformation3) (thePaymentCancellationRequestV01:PaymentCancellationRequestV01)
+../../../../../webviewer/81.jpg
+../../../../../looseends/ass438ac53a0014.htm
+../../../../../looseends/ass438ac53a0014.txt
+
+
+(
+PaymentTransactionInformation3 ( TransactionInformation )
+../../../../../webviewer/82.jpg
+../../../../../looseends/role438ac53c005d.htm
+
+
+
+PaymentCancellationRequestV01 ( thePaymentCancellationRequestV01 )
+../../../../../webviewer/82.jpg
+../../../../../looseends/role438ac53c005f.htm
+
+
+
+)
+)

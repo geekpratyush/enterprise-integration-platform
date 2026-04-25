@@ -1,0 +1,1 @@
+Specifies the transfer method that will be used by the first agent to transfer the funds to the creditor.

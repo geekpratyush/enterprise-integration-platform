@@ -1,0 +1,1 @@
+Specifies which party will bear the charges associated with a transfer of cash that has been booked separately.

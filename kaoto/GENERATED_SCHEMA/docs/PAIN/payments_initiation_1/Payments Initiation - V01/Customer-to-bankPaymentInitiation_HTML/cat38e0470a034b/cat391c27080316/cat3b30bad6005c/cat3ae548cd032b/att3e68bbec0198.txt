@@ -1,0 +1,3 @@
+Purchase or sale of a large number of stocks. Originally called program trading when index funds and other institutional
+investors began to embark on large-scale buying and selling campaigns or programs to replicate a target stock index. The
+term includes computer aided stock market buying or selling programs, portfolio insurance and index arbitrage. 

@@ -1,0 +1,1 @@
+Book out all trades on day of execution.

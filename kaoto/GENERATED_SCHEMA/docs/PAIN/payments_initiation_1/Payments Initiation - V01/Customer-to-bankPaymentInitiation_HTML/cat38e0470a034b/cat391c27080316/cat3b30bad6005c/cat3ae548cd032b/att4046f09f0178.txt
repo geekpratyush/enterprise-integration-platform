@@ -1,0 +1,2 @@
+Payment initiation or individual transaction included in the payment initiation is pending.  Further checks and status update will be performed.
+

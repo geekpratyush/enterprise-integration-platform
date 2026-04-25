@@ -1,0 +1,2 @@
+An identifier of a security assigned by the Bloomberg organisation.
+

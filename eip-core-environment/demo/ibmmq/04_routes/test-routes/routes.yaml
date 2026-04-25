@@ -1,0 +1,14 @@
+- from:
+    uri: "timer:test-trigger"
+    parameters:
+      repeatCount: 5
+      period: 2000
+    steps:
+      - setBody:
+          constant: "Hello from EIP Platform Standard Route!"
+      - to: "kamelet:ibmmq-sink"
+
+- from:
+    uri: "kamelet:ibmmq-source/t1"
+    steps:
+      - log: ">>> [MQ-CONSUMER] RECEIVED: ${body}"

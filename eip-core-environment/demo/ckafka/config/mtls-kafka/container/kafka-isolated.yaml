@@ -1,0 +1,40 @@
+# mtls-kafka/container/kafka-isolated.yaml
+version: '3.8'
+services:
+  kafka-mtls:
+    image: confluentinc/cp-kafka:7.6.1
+    container_name: kafka-mtls
+    ports:
+      - "9095:9095"
+    environment:
+      KAFKA_NODE_ID: 1
+      KAFKA_PROCESS_ROLES: 'broker,controller'
+      KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: 'CONTROLLER:PLAINTEXT,SSL:SSL,SSL_HOST:SSL'
+      KAFKA_ADVERTISED_LISTENERS: 'SSL://kafka-mtls:29095,SSL_HOST://127.0.0.1:9095'
+      KAFKA_LISTENERS: 'SSL://:29095,CONTROLLER://:29092,SSL_HOST://:9095'
+      KAFKA_CONTROLLER_QUORUM_VOTERS: '1@kafka-mtls:29092'
+      KAFKA_CONTROLLER_LISTENER_NAMES: 'CONTROLLER'
+      KAFKA_INTER_BROKER_LISTENER_NAME: 'SSL'
+      KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1
+      KAFKA_GROUP_INITIAL_REBALANCE_DELAY_MS: 0
+      KAFKA_TRANSACTION_STATE_LOG_MIN_ISR: 1
+      KAFKA_TRANSACTION_STATE_LOG_REPLICATION_FACTOR: 1
+      KAFKA_LOG_DIRS: '/tmp/kraft-combined-logs'
+      CLUSTER_ID: 'MkU3OEVBNTcwNTJENDM2Qk'
+      # SSL Settings
+      KAFKA_SSL_KEYSTORE_LOCATION: /etc/kafka/secrets/audit-keystore.p12
+      KAFKA_SSL_KEYSTORE_FILENAME: audit-keystore.p12
+      KAFKA_SSL_KEYSTORE_CREDENTIALS: password
+      KAFKA_SSL_KEYSTORE_PASSWORD: password
+      KAFKA_SSL_KEY_CREDENTIALS: password
+      KAFKA_SSL_KEY_PASSWORD: password
+      KAFKA_SSL_KEYSTORE_TYPE: PKCS12
+      KAFKA_SSL_TRUSTSTORE_LOCATION: /etc/kafka/secrets/audit-truststore.p12
+      KAFKA_SSL_TRUSTSTORE_FILENAME: audit-truststore.p12
+      KAFKA_SSL_TRUSTSTORE_CREDENTIALS: password
+      KAFKA_SSL_TRUSTSTORE_PASSWORD: password
+      KAFKA_SSL_TRUSTSTORE_TYPE: PKCS12
+      KAFKA_SSL_CLIENT_AUTH: required
+
+    volumes:
+      - ../certs:/etc/kafka/secrets

@@ -1,0 +1,1 @@
+Either Amount or UnitsNumber must be present, but not both.

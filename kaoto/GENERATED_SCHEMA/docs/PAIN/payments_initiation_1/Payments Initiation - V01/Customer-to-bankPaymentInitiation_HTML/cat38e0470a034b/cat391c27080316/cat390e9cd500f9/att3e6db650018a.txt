@@ -1,0 +1,1 @@
+Identify the type of price an offset is related to. The offset can either be added or subtracted.

@@ -1,0 +1,1 @@
+Specifies whether standing instructions have been applied or not.

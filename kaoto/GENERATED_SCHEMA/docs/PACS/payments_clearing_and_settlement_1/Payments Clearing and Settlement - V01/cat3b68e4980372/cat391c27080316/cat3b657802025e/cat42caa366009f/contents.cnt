@@ -1,0 +1,364 @@
+<<MessageComponent>> SafekeepingPlaceIdentification
+../../../../webviewer/142.jpg
+class3e6f3c44001d.htm
+class3e6f3c44001d.txt
+
+
+(
+SharesHeldElsewhere
+../../../../webviewer/31.jpg
+att3e6f3cc80095.htm
+att3e6f3cc80095.txt
+
+
+(
+)
+LocalCustodian
+../../../../webviewer/31.jpg
+att3e6f3ce203a9.htm
+att3e6f3ce203a9.txt
+
+
+(
+)
+InternationalCentralSecuritiesDepository
+../../../../webviewer/31.jpg
+att3e6f3cf201cc.htm
+att3e6f3cf201cc.txt
+
+
+(
+)
+NationalCentralSecuritiesDepository
+../../../../webviewer/31.jpg
+att3e6f3d0002bc.htm
+att3e6f3d0002bc.txt
+
+
+(
+)
+theMarket ( Market )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e9284170245.htm
+
+
+
+)
+<<ChoiceComponent>> PlaceOfTradeIdentification
+../../../../webviewer/143.jpg
+class3e6f2ac90181.htm
+class3e6f2ac90181.txt
+
+
+(
+StockExchange
+../../../../webviewer/31.jpg
+att3e6f2a88008d.htm
+att3e6f2a88008d.txt
+
+
+(
+)
+MarketTypeIdentification
+../../../../webviewer/33.jpg
+att431c13c80280.htm
+att431c13c80280.txt
+
+
+(
+)
+theMarket ( Market )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e9284150076.htm
+
+
+
+)
+<<MessageComponent>> MarketIdentification1
+../../../../webviewer/142.jpg
+class431c145c021e.htm
+class431c145c021e.txt
+
+
+(
+Identification
+../../../../webviewer/33.jpg
+att431c148301a2.htm
+att431c148301a2.txt
+
+
+(
+)
+MarketType
+../../../../webviewer/31.jpg
+att431c14b8000e.htm
+
+
+
+(
+)
+theMarket ( Market )
+../../../../webviewer/82.jpg
+../../../../looseends/role431c16b20389.htm
+
+
+
+)
+<<ChoiceComponent>> PlaceOfTradeIdentification1Choice
+../../../../webviewer/143.jpg
+class44f2ab710347.htm
+
+
+
+(
+Country
+../../../../webviewer/33.jpg
+att44f2ac2702a0.htm
+att44f2ac2702a0.txt
+
+
+(
+)
+Exchange
+../../../../webviewer/31.jpg
+att44f2ac360374.htm
+att44f2ac360374.txt
+
+
+(
+)
+Party
+../../../../webviewer/33.jpg
+att44f2ad0d0108.htm
+att44f2ad0d0108.txt
+
+
+(
+)
+OverTheCounter
+../../../../webviewer/33.jpg
+att44f2ad7e021a.htm
+att44f2ad7e021a.txt
+
+
+(
+)
+theMarket ( Market )
+../../../../webviewer/82.jpg
+../../../../looseends/role44f2b32b000b.htm
+
+
+
+)
+<<ChoiceComponent>> PlaceOfTradeIdentification2Choice
+../../../../webviewer/143.jpg
+class45c8a2de0036.htm
+class45c8a2de0036.txt
+
+
+(
+MarketIdentification
+../../../../webviewer/31.jpg
+att45c8a32b036b.htm
+att45c8a32b036b.txt
+
+
+(
+)
+theMarket ( Market )
+../../../../webviewer/82.jpg
+../../../../looseends/role45f7e66e0146.htm
+
+
+
+OffMarket ( OffMarket1Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role45dc4fd60215.htm
+
+
+
+)
+<<ChoiceComponent>> OffMarket1Choice
+../../../../webviewer/143.jpg
+class45dc4ee10058.htm
+class45dc4ee10058.txt
+
+
+(
+OffMarketIndicator
+../../../../webviewer/31.jpg
+att45dc4ef90323.htm
+att45dc4ef90323.txt
+
+
+(
+)
+SystematicInternaliser
+../../../../webviewer/31.jpg
+att45c8a32b036c.htm
+att45c8a32b036c.txt
+
+
+(
+)
+theMarket ( Market )
+../../../../webviewer/82.jpg
+../../../../looseends/role45f7e6dd03b3.htm
+
+
+
+thePlaceOfTradeIdentification2Choice ( PlaceOfTradeIdentification2Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role45dc4fd60213.htm
+
+
+
+)
+Associations
+../../../../webviewer/assoccat.gif
+
+
+
+
+(
+<<SWSTrace>> (theMarket:Market) (thePlaceOfTradeIdentification:PlaceOfTradeIdentification)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3e928414020f.htm
+
+
+
+(
+Market ( theMarket )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e9284150058.htm
+
+
+
+PlaceOfTradeIdentification ( thePlaceOfTradeIdentification )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e9284150076.htm
+
+
+
+)
+<<SWSTrace>> (theMarket:Market) (theSafekeepingPlaceIdentification:SafekeepingPlaceIdentification)
+../../../../webviewer/81.jpg
+../../../../looseends/ass3e92841700a1.htm
+
+
+
+(
+Market ( theMarket )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e9284170227.htm
+
+
+
+SafekeepingPlaceIdentification ( theSafekeepingPlaceIdentification )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e9284170245.htm
+
+
+
+)
+<<SWSTrace>> (theMarket:Market) (theMarketIdentification1:MarketIdentification1)
+../../../../webviewer/81.jpg
+../../../../looseends/ass431c16b10078.htm
+
+
+
+(
+Market ( theMarket )
+../../../../webviewer/82.jpg
+../../../../looseends/role431c16b20387.htm
+
+
+
+MarketIdentification1 ( theMarketIdentification1 )
+../../../../webviewer/82.jpg
+../../../../looseends/role431c16b20389.htm
+
+
+
+)
+<<SWSTrace>> (theMarket:Market) (thePlaceOfTradeIdentification1Choice:PlaceOfTradeIdentification1Choice)
+../../../../webviewer/81.jpg
+../../../../looseends/ass44f2b32a023b.htm
+
+
+
+(
+Market ( theMarket )
+../../../../webviewer/82.jpg
+../../../../looseends/role44f2b32a03df.htm
+
+
+
+PlaceOfTradeIdentification1Choice ( thePlaceOfTradeIdentification1Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role44f2b32b000b.htm
+
+
+
+)
+<<SWSTrace>> (theMarket:Market) (thePlaceOfTradeIdentification2Choice:PlaceOfTradeIdentification2Choice)
+../../../../webviewer/81.jpg
+../../../../looseends/ass45f7e66d0230.htm
+
+
+
+(
+Market ( theMarket )
+../../../../webviewer/82.jpg
+../../../../looseends/role45f7e66e0136.htm
+
+
+
+PlaceOfTradeIdentification2Choice ( thePlaceOfTradeIdentification2Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role45f7e66e0146.htm
+
+
+
+)
+<<SWSTrace>> (theMarket:Market) (theOffMarket1Choice:OffMarket1Choice)
+../../../../webviewer/81.jpg
+../../../../looseends/ass45f7e6dd0017.htm
+
+
+
+(
+Market ( theMarket )
+../../../../webviewer/82.jpg
+../../../../looseends/role45f7e6dd03b1.htm
+
+
+
+OffMarket1Choice ( theOffMarket1Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role45f7e6dd03b3.htm
+
+
+
+)
+Association (OffMarket:OffMarket1Choice) (thePlaceOfTradeIdentification2Choice:PlaceOfTradeIdentification2Choice)
+../../../../webviewer/81.jpg
+../../../../looseends/ass45dc4fd6005a.htm
+../../../../looseends/ass45dc4fd6005a.txt
+
+
+(
+OffMarket1Choice ( OffMarket )
+../../../../webviewer/82.jpg
+../../../../looseends/role45dc4fd60213.htm
+
+
+
+PlaceOfTradeIdentification2Choice ( thePlaceOfTradeIdentification2Choice )
+../../../../webviewer/82.jpg
+../../../../looseends/role45dc4fd60215.htm
+
+
+
+)
+)

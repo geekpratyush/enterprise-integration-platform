@@ -1,0 +1,1 @@
+Specifies a proprietary identification (type and value) for a party.

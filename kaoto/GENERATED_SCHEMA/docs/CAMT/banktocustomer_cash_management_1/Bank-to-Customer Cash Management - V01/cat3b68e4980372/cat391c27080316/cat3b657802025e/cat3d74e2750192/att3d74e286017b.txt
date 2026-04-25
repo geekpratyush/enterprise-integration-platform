@@ -1,0 +1,1 @@
+Text string that must not be matched within the text.

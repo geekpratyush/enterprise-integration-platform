@@ -1,0 +1,3 @@
+Unique and unambiguous identification of a transaction, as assigned by the initiating party that will be passed on, unchanged, throughout the entire end-to-end chain. 
+
+Usage: The end-to-end identification is used by end customers to link tasks relating to the transaction and can be included in several related messages to the transaction.

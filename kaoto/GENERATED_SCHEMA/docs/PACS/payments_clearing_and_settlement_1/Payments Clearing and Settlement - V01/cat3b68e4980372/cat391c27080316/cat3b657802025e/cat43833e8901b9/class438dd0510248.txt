@@ -1,0 +1,3 @@
+List of direct debit mandate elements that have been modified.
+
+Usage: OriginalMandateIdentification may also be used to identify a mandate that has been migrated from another direct debit system.

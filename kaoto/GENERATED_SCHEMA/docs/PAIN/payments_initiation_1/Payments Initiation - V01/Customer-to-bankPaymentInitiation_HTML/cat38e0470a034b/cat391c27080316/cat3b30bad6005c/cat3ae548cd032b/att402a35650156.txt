@@ -1,0 +1,1 @@
+Order is accepted and is ready for execution (execution is the moment when pricing is applied).

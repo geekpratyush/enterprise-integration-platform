@@ -1,0 +1,1 @@
+At least TransferReference or TransferConfirmationReference must be present.

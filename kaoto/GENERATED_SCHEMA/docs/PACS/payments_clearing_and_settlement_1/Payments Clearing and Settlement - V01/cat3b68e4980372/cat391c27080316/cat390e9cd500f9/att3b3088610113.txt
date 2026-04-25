@@ -1,0 +1,1 @@
+Specifies the country where a person was born or is legally accepted as belonging to the country.

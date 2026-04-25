@@ -1,0 +1,1 @@
+Institution to which payment is to be made in favour of the beneficiary of money.

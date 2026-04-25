@@ -1,0 +1,1 @@
+Amount of money received from investors as a result of a subscription.

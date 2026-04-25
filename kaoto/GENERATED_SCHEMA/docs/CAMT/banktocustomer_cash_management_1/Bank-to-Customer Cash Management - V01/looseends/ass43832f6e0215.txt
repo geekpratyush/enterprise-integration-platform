@@ -1,0 +1,1 @@
+Account used to process charges associated with a transaction.

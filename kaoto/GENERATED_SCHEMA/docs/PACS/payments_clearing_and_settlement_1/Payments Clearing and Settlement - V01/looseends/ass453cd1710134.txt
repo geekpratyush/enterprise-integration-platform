@@ -1,0 +1,3 @@
+Provides information on the charges included in the entry amount.
+
+Usage : This component (on transaction level) can be used in case the booking is for a single transaction, and charges are included in the entry amount.  It can also be used in case individual charge amounts are applied to individual transactions in case of a batch or aggregate amount booking.   

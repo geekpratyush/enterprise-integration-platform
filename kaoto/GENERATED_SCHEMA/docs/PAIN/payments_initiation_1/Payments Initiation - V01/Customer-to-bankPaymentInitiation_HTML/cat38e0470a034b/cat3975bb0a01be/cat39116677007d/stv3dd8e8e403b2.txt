@@ -1,0 +1,4 @@
+The first agent debits the account stipulated as being the debit account in the payment order.
+
+This includes currency conversion and charges if needed.
+ 

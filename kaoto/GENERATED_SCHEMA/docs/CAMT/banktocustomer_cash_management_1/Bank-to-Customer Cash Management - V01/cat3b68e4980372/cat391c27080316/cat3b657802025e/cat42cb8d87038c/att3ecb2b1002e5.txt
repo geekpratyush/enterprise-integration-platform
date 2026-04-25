@@ -1,0 +1,1 @@
+Identifies categories of different financial instruments that  are not grouped under a specific type of product.

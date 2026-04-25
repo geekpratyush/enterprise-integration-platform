@@ -1,0 +1,19 @@
+- from:
+    uri: "timer:test-trigger"
+    parameters:
+      repeatCount: 5
+      period: 1000
+    steps:
+      - setBody:
+          constant: "Hello from EIP Platform over Native Kafka Non-SSL!"
+      - to:
+          uri: "kamelet:kafka-sink"
+          parameters:
+            topic: "demo-topic"
+
+- from:
+    uri: "kamelet:kafka-source"
+    parameters:
+      topic: "demo-topic"
+    steps:
+      - log: "CONSUMER RECEIVED: ${body}"

@@ -1,0 +1,1 @@
+Indicates whether the events are requested.

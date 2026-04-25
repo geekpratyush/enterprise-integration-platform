@@ -1,0 +1,1 @@
+Part of the investment account to or from which securities entries are made.

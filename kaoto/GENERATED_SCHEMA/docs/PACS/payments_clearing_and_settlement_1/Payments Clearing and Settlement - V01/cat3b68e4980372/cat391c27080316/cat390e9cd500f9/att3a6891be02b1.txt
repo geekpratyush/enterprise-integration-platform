@@ -1,0 +1,1 @@
+Indicates the stamp duty type or exemption reason applicable to the settlement transaction.

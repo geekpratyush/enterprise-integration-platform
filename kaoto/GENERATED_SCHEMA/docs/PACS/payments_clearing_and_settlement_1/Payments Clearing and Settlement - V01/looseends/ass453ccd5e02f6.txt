@@ -1,0 +1,2 @@
+Information on the amount of money, based on terms of corporate action event and balance of underlying securities, entitled to/from the account owner.
+In those situations, this amount may alternatively be called entitled amount.

@@ -1,0 +1,1 @@
+Currency in which a non-deliverable contract is settled.

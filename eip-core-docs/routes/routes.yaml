@@ -1,0 +1,8 @@
+- from:
+    uri: "sftp://{{env:SFTP_HOST:localhost}}:22/in?username={{env:SFTP_USER}}&password={{env:SFTP_PASS}}"
+    steps:
+      - log: "Processing MT103 from SFTP: ${header.CamelFileName}"
+      - setBody:
+          simple: "Transforming MT103 to ISO 20022 pacs.008... Body: ${body}"
+      - log: "Payload: ${body}"
+      - to: "kafka:{{env:KAFKA_TOPIC_TARGET:pacs-008-payments}}"

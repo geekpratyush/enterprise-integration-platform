@@ -1,0 +1,2 @@
+Identifies whether the transaction was a buy or a sell from the perspective of the reporting firm.
+

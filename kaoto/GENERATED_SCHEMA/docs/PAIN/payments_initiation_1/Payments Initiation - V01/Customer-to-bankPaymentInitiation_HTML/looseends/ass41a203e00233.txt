@@ -1,0 +1,1 @@
+Information related to the cash movements reported by pre-defined or user defined criteria.

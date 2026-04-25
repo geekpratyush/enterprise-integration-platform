@@ -1,0 +1,1 @@
+ Defines of the currency query criteria.

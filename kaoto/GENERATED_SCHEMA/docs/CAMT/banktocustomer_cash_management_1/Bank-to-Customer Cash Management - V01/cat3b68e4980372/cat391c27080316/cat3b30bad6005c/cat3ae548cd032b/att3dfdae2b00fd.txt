@@ -1,0 +1,1 @@
+Price is the average price between the bid and offer prices.

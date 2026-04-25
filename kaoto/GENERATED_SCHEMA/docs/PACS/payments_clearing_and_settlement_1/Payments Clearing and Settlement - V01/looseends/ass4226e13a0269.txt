@@ -1,0 +1,1 @@
+Specifies charges associated with the goods in a trade transaction.

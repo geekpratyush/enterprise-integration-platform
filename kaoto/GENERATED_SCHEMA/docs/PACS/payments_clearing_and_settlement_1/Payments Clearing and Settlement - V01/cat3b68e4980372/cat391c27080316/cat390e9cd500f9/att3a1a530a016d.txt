@@ -1,0 +1,1 @@
+Date and time at which an entry is posted to an account on the account servicer's books.

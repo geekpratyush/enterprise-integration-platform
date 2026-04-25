@@ -1,0 +1,2 @@
+Limit fixed by a party A with regard to a specific counterparty B and corresponding to the maximum amount of traffic that party A may send to party B. The bilateral limit can be expressed as a debit limit or a credit limit. 
+With the help of a bilateral limit, the direct participant restricts the use of liquidity when clearing payments with another direct participant.

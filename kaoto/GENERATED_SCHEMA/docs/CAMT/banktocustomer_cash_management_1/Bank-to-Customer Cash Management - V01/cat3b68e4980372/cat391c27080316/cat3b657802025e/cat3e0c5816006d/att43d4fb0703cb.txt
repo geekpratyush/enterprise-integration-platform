@@ -1,0 +1,1 @@
+Proprietary code used to specify an event that occurred in a system.

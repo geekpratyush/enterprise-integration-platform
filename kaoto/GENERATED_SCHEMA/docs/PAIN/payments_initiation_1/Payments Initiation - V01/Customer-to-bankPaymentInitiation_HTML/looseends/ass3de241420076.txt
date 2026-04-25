@@ -1,0 +1,1 @@
+Account credited as a result of a credit entry.

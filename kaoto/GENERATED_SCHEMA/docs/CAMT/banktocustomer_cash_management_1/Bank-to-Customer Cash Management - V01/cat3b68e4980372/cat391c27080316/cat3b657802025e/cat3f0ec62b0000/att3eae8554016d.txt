@@ -1,0 +1,1 @@
+Indicates whether the financial instrument is to be physically  delivered.

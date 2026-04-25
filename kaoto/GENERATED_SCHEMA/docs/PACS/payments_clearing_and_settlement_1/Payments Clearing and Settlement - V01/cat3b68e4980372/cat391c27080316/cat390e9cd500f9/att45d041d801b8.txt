@@ -1,0 +1,1 @@
+Specifies the status of the financing request (e.g. financed. not financed).

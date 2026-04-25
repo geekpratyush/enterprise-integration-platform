@@ -1,0 +1,1 @@
+Type of cross being submitted to a market.

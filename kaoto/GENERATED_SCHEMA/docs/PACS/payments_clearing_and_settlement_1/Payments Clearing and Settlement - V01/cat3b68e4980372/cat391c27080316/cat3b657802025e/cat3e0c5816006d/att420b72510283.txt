@@ -1,0 +1,1 @@
+Sequential number assigned to the error.

@@ -1,0 +1,1 @@
+Indicates whether fractional parts are allowed.

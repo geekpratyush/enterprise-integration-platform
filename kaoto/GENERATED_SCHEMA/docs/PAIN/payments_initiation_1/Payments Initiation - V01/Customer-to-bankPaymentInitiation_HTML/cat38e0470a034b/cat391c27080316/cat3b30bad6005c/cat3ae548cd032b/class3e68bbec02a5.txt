@@ -1,0 +1,2 @@
+Identifies the type of quote. Can be either an indicative, a tradeable or a restricted tradeable quote.
+

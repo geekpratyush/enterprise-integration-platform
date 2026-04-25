@@ -1,0 +1,1 @@
+Identifies a group of related quotes. This can, for example be used to represent an option class.

@@ -1,0 +1,1 @@
+Date on which the financing transaction has been booked in an account.

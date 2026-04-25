@@ -1,0 +1,1 @@
+Additional information about a person that follows a person's name, eg, qualification such as Doctor of Philosophy (PhD).

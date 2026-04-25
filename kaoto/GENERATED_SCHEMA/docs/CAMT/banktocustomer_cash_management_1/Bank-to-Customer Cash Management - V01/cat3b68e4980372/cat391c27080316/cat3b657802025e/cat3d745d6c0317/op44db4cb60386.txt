@@ -1,0 +1,2 @@
+If InstructedAmount is present, then InterbankSettlementAmount is not allowed.
+If InterbankSettlementAmount is present, then InstructedAmount is not allowed.

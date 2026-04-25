@@ -1,0 +1,1 @@
+Status to define if the occurence of the event contained in the notification is confirmed or unconfirmed. 

@@ -1,0 +1,15 @@
+Definition : the clearing agent determines  the next clearing agent or creditor/debtor for the payment.  The clearing agent identification is done by the previous party or selected by the current agent (tables). The last clearing agent is determined by the creditor/debtor's account servicer.
+
+Arguments : 
+-next clearing agent
+
+That information is determined for each individual payment.Technically, that information will be used to re-combine payments from many debtors/creditors. 
+
+Pre-condition: the payment is accepted 
+
+Trigger : the payment must be instructed to the next party
+
+Post-condition : next clearing agent is determined
+
+
+

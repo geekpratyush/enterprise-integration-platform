@@ -1,0 +1,1 @@
+Specifies the condition under which automatic borrowing is allowed.

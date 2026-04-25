@@ -1,0 +1,3 @@
+Payment type that is specific to a user community and is required for use within that specific user community.
+
+Usage: the SubType may complement the clearing channel with domestic codes.  When available, codes provided in rulebooks should be used. 

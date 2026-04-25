@@ -1,0 +1,1 @@
+Status of the security on the sub-balance, eg, pending.

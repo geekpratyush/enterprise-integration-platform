@@ -1,0 +1,1 @@
+Event is the cutoff time after which low value payments can no longer be cancelled.

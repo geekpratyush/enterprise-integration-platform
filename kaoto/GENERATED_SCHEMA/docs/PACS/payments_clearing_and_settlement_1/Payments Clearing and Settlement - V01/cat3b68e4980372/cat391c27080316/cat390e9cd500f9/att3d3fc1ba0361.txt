@@ -1,0 +1,1 @@
+Specifies if the switch order is sell or buy driven.

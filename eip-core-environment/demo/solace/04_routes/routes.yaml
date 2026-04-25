@@ -1,0 +1,14 @@
+- from:
+    uri: "kamelet:solace-source"
+    parameters:
+      queuename: "Q.DEMO.1"
+    steps:
+      - log: ">>> Received Message from Solace: ${body}"
+
+- from:
+    uri: "timer:solace-seed?period=10000"
+    steps:
+      - setBody:
+          simple: "Test Payload #${header.CamelTimerCounter} sent at ${date:now:yyyy-MM-dd HH:mm:ss}"
+      - to: "kamelet:solace-sink?queuename=Q.DEMO.1"
+      - log: ">>> Seeded Solace with: ${body}"

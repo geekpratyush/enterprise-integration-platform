@@ -1,0 +1,1 @@
+Rate used for the exchange of an amount from one currency to another currency. ExchangeRate expresses the ratio between UnitCurrency and QuotedCurrency (ExchangeRate = UnitCurrency/QuotedCurrency).

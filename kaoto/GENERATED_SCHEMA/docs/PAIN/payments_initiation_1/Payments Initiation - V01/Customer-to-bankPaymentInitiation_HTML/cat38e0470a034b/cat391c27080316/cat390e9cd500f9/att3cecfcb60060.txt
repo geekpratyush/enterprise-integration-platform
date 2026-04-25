@@ -1,0 +1,2 @@
+Indicates whether the payment transaction is a debit or credit transaction. 
+

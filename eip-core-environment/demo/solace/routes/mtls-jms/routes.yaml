@@ -1,0 +1,14 @@
+- from:
+    uri: "kamelet:solace-source"
+    parameters:
+      queuename: "Q.DEMO.MTLS"
+    steps:
+      - log: ">>> [mTLS] Received Message from Solace: ${body}"
+
+- from:
+    uri: "timer:solace-mtls-seed?period=15000"
+    steps:
+      - setBody:
+          simple: "mTLS Mutual Auth Message #${header.CamelTimerCounter}"
+      - to: "kamelet:solace-sink?queuename=Q.DEMO.MTLS"
+      - log: ">>> [mTLS] Seeded Solace with: ${body}"

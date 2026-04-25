@@ -1,0 +1,1 @@
+Currency in which a trade should be executed.

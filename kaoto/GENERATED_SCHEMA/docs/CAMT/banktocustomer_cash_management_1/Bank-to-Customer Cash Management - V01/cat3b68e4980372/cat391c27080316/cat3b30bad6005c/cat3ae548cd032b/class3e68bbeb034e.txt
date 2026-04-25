@@ -1,0 +1,3 @@
+Indicates if a Cancel/Replace instruction has caused an order to loose its book priority.
+
+

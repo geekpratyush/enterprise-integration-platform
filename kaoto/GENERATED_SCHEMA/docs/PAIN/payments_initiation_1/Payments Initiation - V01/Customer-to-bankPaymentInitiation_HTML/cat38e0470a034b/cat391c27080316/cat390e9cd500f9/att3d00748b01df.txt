@@ -1,0 +1,1 @@
+Date on which the debtor expects the amount of money to be available to the creditor.

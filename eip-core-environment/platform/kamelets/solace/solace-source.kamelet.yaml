@@ -1,0 +1,169 @@
+apiVersion: camel.apache.org/v1
+kind: Kamelet
+metadata:
+  name: solace-source
+  labels:
+    camel.apache.org/kamelet.type: "source"
+  annotations:
+    camel.apache.org/kamelet.title: "Solace PubSub+ Source (Local-TX)"
+    camel.apache.org/kamelet.version: "4.0.0"
+    camel.apache.org/provider: "EIP Platform"
+    camel.apache.org/kamelet.support.level: "Stable"
+    camel.apache.org/kamelet.group: "JMS"
+    camel.apache.org/kamelet.namespace: "Messaging"
+spec:
+  definition:
+    title: "Solace PubSub+ Source (Local-TX)"
+    description: >
+      Consumes messages from a Solace PubSub+ queue with local JMS transaction support.
+      Supports plain (smf://) and TLS-secured (smfs://) connections.
+      For one-way SSL set ssltruststorepath only.
+      For mutual TLS (mTLS) set both ssltruststorepath and sslkeystorepath.
+      Leave all SSL properties empty for non-SSL connections.
+    required:
+      - queuename
+      - host
+      - vpn
+    type: object
+    properties:
+      queuename:
+        title: Queue Name
+        type: string
+        description: Name of the Solace queue to consume messages from.
+      host:
+        title: Broker Host URL
+        type: string
+        description: >
+          Full Solace broker URL including protocol prefix.
+          Use smf://hostname:55555 for plain or smfs://hostname:55443 for TLS.
+        default: "smf://localhost:55555"
+      vpn:
+        title: Message VPN
+        type: string
+        description: Name of the Solace Message VPN to connect to.
+        default: "default"
+      username:
+        title: Username
+        type: string
+        default: ""
+      password:
+        title: Password
+        type: string
+        format: password
+        default: ""
+      transacted:
+        title: Transacted
+        type: boolean
+        description: Enable local JMS transaction. Must be false when using XA kamelets.
+        default: true
+      concurrentconsumers:
+        title: Concurrent Consumers
+        type: integer
+        default: 5
+      maxconcurrentconsumers:
+        title: Max Concurrent Consumers
+        type: integer
+        default: 0
+      receivetimeout:
+        title: Receive Timeout (ms)
+        type: integer
+        default: 1000
+      cachelevelname:
+        title: Cache Level
+        type: string
+        default: CACHE_AUTO
+      acknowledgmentmode:
+        title: Acknowledgment Mode
+        type: string
+        default: AUTO_ACKNOWLEDGE
+      maxconnections:
+        title: Max Connections
+        type: integer
+        default: 5
+      sslvalidatecertificate:
+        title: SSL Validate Certificate
+        type: boolean
+        description: >
+          Validate the broker SSL certificate against the trust store.
+          Set false only in development when using self-signed certs without a trust store.
+        default: true
+      sslciphersuites:
+        title: SSL Cipher Suites
+        type: string
+        description: Comma-separated list of TLS cipher suites. Leave empty to use Solace defaults.
+        default: ""
+      ssltruststorepath:
+        title: SSL TrustStore Path
+        type: string
+        description: >
+          Absolute path to the TrustStore file (JKS or PKCS12) containing the CA certificate
+          used to verify the Solace broker identity. Required for one-way SSL and mTLS.
+        default: ""
+      ssltruststorepassword:
+        title: SSL TrustStore Password
+        type: string
+        format: password
+        default: ""
+      ssltruststoreformat:
+        title: SSL TrustStore Format
+        type: string
+        description: Format of the TrustStore file. Accepted values are JKS or PKCS12.
+        default: "PKCS12"
+      sslkeystorepath:
+        title: SSL KeyStore Path
+        type: string
+        description: >
+          Absolute path to the KeyStore file (JKS or PKCS12) containing the client certificate
+          and private key for mutual TLS (mTLS) authentication. Leave empty for one-way SSL.
+        default: ""
+      sslkeystorepassword:
+        title: SSL KeyStore Password
+        type: string
+        format: password
+        default: ""
+      sslkeystoreformat:
+        title: SSL KeyStore Format
+        type: string
+        description: Format of the KeyStore file. Accepted values are JKS or PKCS12.
+        default: "PKCS12"
+
+  template:
+    beans:
+      - name: solaceConnectionFactory
+        type: "#class:com.solacesystems.jms.SolJmsUtility"
+        factory-method: "createConnectionFactory"
+        properties:
+          host: '{{host}}'
+          vpn: '{{vpn}}'
+          username: '{{username}}'
+          password: '{{password}}'
+          directTransport: false
+          sslValidateCertificate: '{{sslvalidatecertificate}}'
+          sslCipherSuites: '{{?sslciphersuites}}'
+          sslTrustStore: '{{?ssltruststorepath}}'
+          sslTrustStorePassword: '{{?ssltruststorepassword}}'
+          sslTrustStoreFormat: '{{ssltruststoreformat}}'
+          sslKeyStore: '{{?sslkeystorepath}}'
+          sslKeyStorePassword: '{{?sslkeystorepassword}}'
+          sslKeyStoreFormat: '{{sslkeystoreformat}}'
+
+      - name: solacePoolFactory
+        type: "#class:org.messaginghub.pooled.jms.JmsPoolConnectionFactory"
+        properties:
+          connectionFactory: '#bean:{{solaceConnectionFactory}}'
+          maxConnections: '{{maxconnections}}'
+
+    from:
+      uri: "jms:queue:{{queuename}}"
+      parameters:
+        connectionFactory: "#bean:{{solacePoolFactory}}"
+        transacted: "{{transacted}}"
+        cacheLevelName: "{{cachelevelname}}"
+        acknowledgementModeName: "{{acknowledgmentmode}}"
+        concurrentConsumers: "{{concurrentconsumers}}"
+        maxConcurrentConsumers: "{{maxconcurrentconsumers}}"
+        receiveTimeout: "{{receivetimeout}}"
+        username: "{{?username}}"
+        password: "{{?password}}"
+      steps:
+        - to: "kamelet:sink"

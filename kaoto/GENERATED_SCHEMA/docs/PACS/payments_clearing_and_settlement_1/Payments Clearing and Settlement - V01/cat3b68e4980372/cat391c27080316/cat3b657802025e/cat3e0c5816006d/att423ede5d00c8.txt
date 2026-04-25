@@ -1,0 +1,1 @@
+Indicates whether the Related Reference is requested.

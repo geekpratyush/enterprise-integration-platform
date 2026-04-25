@@ -1,0 +1,1 @@
+Indicator notifying whether the underlying mandate is amended or not.

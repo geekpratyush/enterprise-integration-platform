@@ -1,0 +1,1 @@
+Defines the criteria to be used to extract the account information.

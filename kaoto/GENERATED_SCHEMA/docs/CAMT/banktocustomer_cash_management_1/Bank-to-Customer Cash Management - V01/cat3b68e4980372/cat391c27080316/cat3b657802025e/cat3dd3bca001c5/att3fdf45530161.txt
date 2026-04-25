@@ -1,0 +1,1 @@
+Name and (long) postal address of a person. 

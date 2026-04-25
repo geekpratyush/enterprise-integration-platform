@@ -1,0 +1,1 @@
+Date and time an investment fund order is registered on the books of either the fund or its designated agent, eg, transfer agent.

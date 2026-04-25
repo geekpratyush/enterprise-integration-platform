@@ -1,0 +1,1 @@
+Specifies the message type for which the return is issued.
