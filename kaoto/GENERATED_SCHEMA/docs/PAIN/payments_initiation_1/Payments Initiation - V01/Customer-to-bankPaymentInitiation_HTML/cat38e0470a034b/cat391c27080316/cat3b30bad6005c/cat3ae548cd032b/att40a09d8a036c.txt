@@ -1,1 +1,0 @@
-Payment used by a third party who can collect funds to pay on behalf of consumers, ie credit counseling or bill payment companies.

@@ -1,1 +1,0 @@
-Specifies the reason why the price is different from the current market price.

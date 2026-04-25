@@ -1,1 +1,0 @@
-Person or organization that represents the creditor for settlement of the invoice to be financed.

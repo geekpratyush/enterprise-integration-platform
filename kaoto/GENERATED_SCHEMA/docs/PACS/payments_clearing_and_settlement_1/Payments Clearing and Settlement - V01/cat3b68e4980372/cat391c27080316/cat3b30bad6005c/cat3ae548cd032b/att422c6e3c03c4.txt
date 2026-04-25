@@ -1,1 +1,0 @@
-Reason for time-out is the reaching of latest shipment date.

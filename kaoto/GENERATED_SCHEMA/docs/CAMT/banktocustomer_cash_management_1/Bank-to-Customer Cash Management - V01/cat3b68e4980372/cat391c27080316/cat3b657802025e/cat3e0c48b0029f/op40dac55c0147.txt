@@ -1,1 +1,0 @@
-If PaymentInformation/PaymentTransaction/ChequeInstruction/DeliveryMethod is present and is CRFA or MLFA or PUFA or RGFA, then DeliverTo may only be present if different than PaymentInformation/Creditor.

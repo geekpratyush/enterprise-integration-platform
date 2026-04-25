@@ -1,1 +1,0 @@
-Account is used for safekeeping, ie, the receipt/delivery of securities.

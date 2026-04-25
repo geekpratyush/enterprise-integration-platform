@@ -1,1 +1,0 @@
-Agent between the debtor's agent and the creditor's agent.

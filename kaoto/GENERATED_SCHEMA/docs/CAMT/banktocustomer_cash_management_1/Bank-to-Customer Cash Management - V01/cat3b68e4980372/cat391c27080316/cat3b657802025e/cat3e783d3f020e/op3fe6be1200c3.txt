@@ -1,2 +1,0 @@
-If at least one occurrence of EntryAmount/ImpliedCurrencyAndAmountRange/CreditDebitIndicator is present, then CreditDebitIndicator is not allowed.
-If EntryAmount/ImpliedCurrencyAndAmountRange/CreditDebitIndicator is not present, then CreditDebitIndicator is optional.

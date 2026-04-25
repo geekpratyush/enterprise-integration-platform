@@ -1,1 +1,0 @@
-Price is a gross execution price. The price is an all inclusive price, ie, including all charges, fees, and taxes.

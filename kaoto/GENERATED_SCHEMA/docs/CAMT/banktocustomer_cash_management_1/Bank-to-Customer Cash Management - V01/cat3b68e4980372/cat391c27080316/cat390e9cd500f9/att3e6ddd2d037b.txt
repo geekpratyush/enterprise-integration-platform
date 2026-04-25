@@ -1,2 +1,0 @@
-For good till orders, the order quantity less all quantity (adjusted for stock splits) that traded on previous days. 
-

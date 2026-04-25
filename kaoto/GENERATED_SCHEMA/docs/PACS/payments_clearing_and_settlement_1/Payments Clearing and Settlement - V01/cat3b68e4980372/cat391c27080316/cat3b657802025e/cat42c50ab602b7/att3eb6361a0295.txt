@@ -1,1 +1,0 @@
-Assigned by the party that originates the order. Can be used to provide the ClientOrderIdentification used by an exchange or executing system.

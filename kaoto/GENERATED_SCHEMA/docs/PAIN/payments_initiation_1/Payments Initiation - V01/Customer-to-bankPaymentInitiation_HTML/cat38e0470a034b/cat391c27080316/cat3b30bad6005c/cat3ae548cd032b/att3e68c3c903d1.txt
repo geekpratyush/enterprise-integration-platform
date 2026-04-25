@@ -1,1 +1,0 @@
-An Order that if not executed, expires at the end of the specified expiry date.

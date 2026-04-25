@@ -1,1 +1,0 @@
-Commission that combines soft dollar and step-out commission characteristics.

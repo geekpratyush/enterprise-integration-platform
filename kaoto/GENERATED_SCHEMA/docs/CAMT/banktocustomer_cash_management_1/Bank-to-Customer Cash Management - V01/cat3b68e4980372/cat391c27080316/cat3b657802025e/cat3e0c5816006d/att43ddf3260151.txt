@@ -1,1 +1,0 @@
-Indicates whether instructions must be resent (in case of modification of the parameters of a meeting for which instructions have already been sent).

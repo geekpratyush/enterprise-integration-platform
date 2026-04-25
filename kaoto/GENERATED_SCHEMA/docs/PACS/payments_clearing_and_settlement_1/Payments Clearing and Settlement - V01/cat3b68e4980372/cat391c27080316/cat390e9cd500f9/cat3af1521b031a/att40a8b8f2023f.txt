@@ -1,1 +1,0 @@
-Data Universal Numbering System. A unique identification number provided by Dun & Bradstreet to identify an organization.

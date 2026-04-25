@@ -1,1 +1,0 @@
-Indicates whether the market price is unknown.

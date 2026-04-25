@@ -1,1 +1,0 @@
-Percentage of beneficial ownership of the shares/units in the account. All of the subsequent subscriptions and or redemptions will be allocated using the same percentage.

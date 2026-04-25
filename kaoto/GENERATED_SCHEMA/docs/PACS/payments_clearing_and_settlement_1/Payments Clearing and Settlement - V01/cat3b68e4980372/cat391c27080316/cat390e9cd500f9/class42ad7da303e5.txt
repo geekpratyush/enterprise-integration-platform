@@ -1,2 +1,0 @@
-List of registered attendees to the meeting.
-The attendance registry is used for traceability purposes.

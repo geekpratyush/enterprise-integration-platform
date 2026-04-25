@@ -1,1 +1,0 @@
-If GroupHeader/TotalReversedInterbankSettlementAmount is present, then all occurrences of TransactionInformation/ReversedInterbankSettlementAmount must have the same currency as the currency of  GroupHeader/TotalReversedInterbankSettlementAmount.

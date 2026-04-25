@@ -1,1 +1,0 @@
-Identifies a document by a unique identification and a date of issue.

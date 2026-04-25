@@ -1,1 +1,0 @@
-Party that charges a commission to a client for executing an order.

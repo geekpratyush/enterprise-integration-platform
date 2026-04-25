@@ -1,1 +1,0 @@
-Indicates whether the estimated cash flow out is exceptional.

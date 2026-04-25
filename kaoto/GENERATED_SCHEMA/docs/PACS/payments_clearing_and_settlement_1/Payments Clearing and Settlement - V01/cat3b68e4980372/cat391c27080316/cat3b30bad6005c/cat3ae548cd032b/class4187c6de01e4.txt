@@ -1,1 +1,0 @@
-Indicates the reason for rejecting a modification.

@@ -1,1 +1,0 @@
-Expresses the validity date and time of the Quote.

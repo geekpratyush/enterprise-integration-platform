@@ -1,1 +1,0 @@
-Provides information on the charges included in the entry amount.

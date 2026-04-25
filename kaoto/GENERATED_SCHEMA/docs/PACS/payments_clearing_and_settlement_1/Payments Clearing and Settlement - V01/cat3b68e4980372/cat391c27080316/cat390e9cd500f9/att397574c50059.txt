@@ -1,1 +1,0 @@
-Cash amount to be settled in the second part of the repurchase agreement.

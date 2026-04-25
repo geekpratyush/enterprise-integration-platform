@@ -1,1 +1,0 @@
-Specifies how a party votes for each agenda item or for the entirety of the agenda.

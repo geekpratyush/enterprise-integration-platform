@@ -1,1 +1,0 @@
-Specifies the number of occurrences of a particular event and the maximum number of times this event may occur.

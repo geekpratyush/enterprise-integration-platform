@@ -1,1 +1,0 @@
-The source of the account identifier is the instruction database of the Depository Trust Company.

@@ -1,2 +1,0 @@
-Specifies the nature of the identifier.
-Usage: IdentificationType is used to specify what kind of identifier is used. It should be used in case the identifier is different from the identifiers listed in the pre-defined identifier list.

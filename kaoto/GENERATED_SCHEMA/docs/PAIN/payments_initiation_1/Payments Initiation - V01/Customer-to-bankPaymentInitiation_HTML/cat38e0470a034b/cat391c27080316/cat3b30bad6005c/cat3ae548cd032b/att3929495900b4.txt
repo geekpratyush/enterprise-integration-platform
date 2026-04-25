@@ -1,1 +1,0 @@
-Price  is a rounded average price.

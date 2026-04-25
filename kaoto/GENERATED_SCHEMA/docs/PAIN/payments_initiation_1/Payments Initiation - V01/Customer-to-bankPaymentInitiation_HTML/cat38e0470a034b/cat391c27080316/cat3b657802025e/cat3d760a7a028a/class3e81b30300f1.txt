@@ -1,1 +1,0 @@
-Amount of money to be transferred between the debtor and creditor, expressed in debtor's account currency or converted in another currency.

@@ -1,1 +1,0 @@
-If StreetName is not present, then PostOfficeBox is mandatory. If StreetName is present, then PostOfficeBox is optional.

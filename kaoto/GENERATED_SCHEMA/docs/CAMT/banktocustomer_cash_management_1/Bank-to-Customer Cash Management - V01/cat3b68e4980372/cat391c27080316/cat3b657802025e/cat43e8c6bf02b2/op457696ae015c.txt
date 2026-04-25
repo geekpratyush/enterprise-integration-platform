@@ -1,1 +1,0 @@
-AccumulationPeriod must be present if CumulativeCorporateActionFactor is present.

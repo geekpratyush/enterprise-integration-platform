@@ -1,1 +1,0 @@
-Specifies the number of days from trade date that the counterparty on the other side of the trade should "given up" or divulged.

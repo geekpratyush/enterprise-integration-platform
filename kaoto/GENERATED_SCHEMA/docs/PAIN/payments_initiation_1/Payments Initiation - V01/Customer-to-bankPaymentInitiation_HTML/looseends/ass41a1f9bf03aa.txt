@@ -1,6 +1,0 @@
-CashOutBreakdownDetails: new.
-Structural change: SwitchInAmount and InSpecieAmount deleted and now part of CashOutBreakdownDetails/CashOutTypeDetails/TransactionOutType4Code list.
-UnitsNumber: renamed to SubTotalUnitsNumber.
-TotalAmount: renamed to SubTotalAmount.
-ExceptionalCashFlowIndicator: changed from mdantory to optional.
-TotalAmountCurrency1Rule: deleted.

@@ -1,1 +1,0 @@
-In the financial institution to financial institution instructions, the ServiceLevel must use the service level defined in the bilateral agreement between the agents exchanging the payment instruction.

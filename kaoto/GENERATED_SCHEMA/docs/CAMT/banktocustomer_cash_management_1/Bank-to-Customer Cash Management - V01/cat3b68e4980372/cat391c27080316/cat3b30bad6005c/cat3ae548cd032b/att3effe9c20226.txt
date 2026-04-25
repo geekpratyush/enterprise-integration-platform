@@ -1,2 +1,0 @@
-Amount specified in transaction/message has been blocked by regulatory authorities.
-

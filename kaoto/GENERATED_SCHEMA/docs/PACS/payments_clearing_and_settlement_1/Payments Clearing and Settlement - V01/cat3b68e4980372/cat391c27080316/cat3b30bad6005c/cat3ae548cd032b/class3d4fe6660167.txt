@@ -1,1 +1,0 @@
-Specifies the balance of transactions with a certain status.

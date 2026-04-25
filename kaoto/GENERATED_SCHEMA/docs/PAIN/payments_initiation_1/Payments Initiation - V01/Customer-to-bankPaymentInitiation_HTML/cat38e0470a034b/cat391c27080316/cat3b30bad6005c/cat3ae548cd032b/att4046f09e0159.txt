@@ -1,1 +1,0 @@
-Payment initiation or individual transaction included in the payment initiation has been rejected.

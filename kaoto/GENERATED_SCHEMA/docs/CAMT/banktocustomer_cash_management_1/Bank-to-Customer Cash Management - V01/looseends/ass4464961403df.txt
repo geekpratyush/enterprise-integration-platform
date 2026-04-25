@@ -1,1 +1,0 @@
-Wrapper for a specific product or a specific sub-product owned by a set of beneficial owners.

@@ -1,1 +1,0 @@
-Modified value of the commission applied on the order (the commission in the original individual order that has been repaired so that the order can be accepted).

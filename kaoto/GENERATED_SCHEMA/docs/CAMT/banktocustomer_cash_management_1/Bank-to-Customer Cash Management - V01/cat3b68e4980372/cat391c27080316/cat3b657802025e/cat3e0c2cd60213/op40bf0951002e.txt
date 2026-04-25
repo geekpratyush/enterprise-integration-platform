@@ -1,1 +1,0 @@
-If StatementGeneralDetails/ActivityIndicator is "true" or "1" (Yes), then either TransactionOnAccount or SubAccountDetails must be present. If StatementGeneralDetails/ActivityIndicator is "false" or "0" (No), then TransactionOnAccount and SubAccountDetails are not allowed.

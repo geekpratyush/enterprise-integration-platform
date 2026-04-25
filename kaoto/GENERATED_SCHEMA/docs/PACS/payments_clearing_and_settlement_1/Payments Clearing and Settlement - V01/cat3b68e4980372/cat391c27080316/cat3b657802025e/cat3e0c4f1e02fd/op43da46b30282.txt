@@ -1,1 +1,0 @@
-If Type is not NonAdjustedUnpublished, then CalculationBasis is not allowed. If Type is NonAdjustedUnpublished, then CalculationBasis may be present.

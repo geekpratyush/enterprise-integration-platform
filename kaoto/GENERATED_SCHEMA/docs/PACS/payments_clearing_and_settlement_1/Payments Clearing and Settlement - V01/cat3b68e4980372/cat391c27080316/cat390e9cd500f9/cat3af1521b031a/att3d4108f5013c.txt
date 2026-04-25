@@ -1,1 +1,0 @@
-Subsidiary of the subscriber identifier, which allows contact of a specific party within the subscriber structure. It is often a suffix replacing the end of the subscriber identifier.

@@ -1,1 +1,0 @@
-Identifies the meeting for which the proxy is assigned

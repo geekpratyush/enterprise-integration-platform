@@ -1,1 +1,0 @@
-Account which holds an investment fund.

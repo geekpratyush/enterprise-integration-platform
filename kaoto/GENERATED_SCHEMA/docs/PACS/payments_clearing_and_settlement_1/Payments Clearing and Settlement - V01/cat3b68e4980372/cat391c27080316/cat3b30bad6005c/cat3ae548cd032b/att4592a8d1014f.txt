@@ -1,1 +1,0 @@
-Transaction is rejected by the executing party, the rejection is final therefore the order is cancelled in the system.

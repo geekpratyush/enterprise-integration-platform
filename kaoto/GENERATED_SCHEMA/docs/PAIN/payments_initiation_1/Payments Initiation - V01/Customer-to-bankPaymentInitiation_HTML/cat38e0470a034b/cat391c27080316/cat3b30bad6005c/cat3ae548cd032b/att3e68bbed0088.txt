@@ -1,1 +1,0 @@
-The CD equivalent yield when the remaining time to maturity is less than two years.

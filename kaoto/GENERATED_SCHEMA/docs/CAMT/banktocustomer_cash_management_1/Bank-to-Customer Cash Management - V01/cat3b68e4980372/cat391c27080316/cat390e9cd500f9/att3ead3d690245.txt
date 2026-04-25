@@ -1,1 +1,0 @@
-Source used for determining the fixing rate, as provided by various financial publishing organisations.

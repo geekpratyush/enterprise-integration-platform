@@ -1,1 +1,0 @@
-Balance representing the total of the payments that have been rejected.

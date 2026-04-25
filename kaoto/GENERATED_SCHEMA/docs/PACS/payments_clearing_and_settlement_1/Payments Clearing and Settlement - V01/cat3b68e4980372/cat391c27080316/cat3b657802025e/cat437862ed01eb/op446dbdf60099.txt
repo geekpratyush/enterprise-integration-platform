@@ -1,2 +1,0 @@
-If ServiceLevel is present then ClearingChannel must is not allowed.
-If ClearingChannel is present then ServiceLevel must is not allowed.

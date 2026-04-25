@@ -1,1 +1,0 @@
-Information about a sum of money paid or to be paid to the government in accordance with the law according to various pre-defined parameters such as thresholds and type of account.

@@ -1,1 +1,0 @@
-Number distinguishing two or more payment cards with the same account number.

@@ -1,3 +1,0 @@
-Set of elements providing details on the interest amount included in the entry amount.
-
-Usage : This component is used on entry level in case of batch or aggregate bookings.

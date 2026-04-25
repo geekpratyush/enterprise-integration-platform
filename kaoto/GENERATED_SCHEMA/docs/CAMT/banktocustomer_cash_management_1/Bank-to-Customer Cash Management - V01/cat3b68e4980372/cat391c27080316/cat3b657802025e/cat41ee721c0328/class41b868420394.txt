@@ -1,1 +1,0 @@
-Indicates that the claim for non receipt is effectively a missing cover.

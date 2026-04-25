@@ -1,1 +1,0 @@
-Identifies a proxy that has been assigned by the issuer of the meeting.

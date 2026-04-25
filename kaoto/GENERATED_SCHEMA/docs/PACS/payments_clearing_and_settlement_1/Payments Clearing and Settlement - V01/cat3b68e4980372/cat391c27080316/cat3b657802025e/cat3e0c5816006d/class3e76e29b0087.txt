@@ -1,1 +1,0 @@
-Specifies the error resulting from the processing of a request.

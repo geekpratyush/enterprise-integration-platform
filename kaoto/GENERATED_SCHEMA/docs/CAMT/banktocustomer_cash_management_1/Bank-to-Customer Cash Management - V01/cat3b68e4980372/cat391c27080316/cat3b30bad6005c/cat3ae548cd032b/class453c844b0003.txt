@@ -1,1 +1,0 @@
-List of business areas defined for the underlying bank transaction.

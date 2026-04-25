@@ -1,1 +1,0 @@
-Specifies the amounts of the non deliverable trade which is reported.

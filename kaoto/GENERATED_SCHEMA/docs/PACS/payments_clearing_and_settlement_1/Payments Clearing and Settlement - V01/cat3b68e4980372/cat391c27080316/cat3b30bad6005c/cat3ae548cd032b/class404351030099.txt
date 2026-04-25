@@ -1,1 +1,0 @@
-Specifies the method to be used in delivering a cheque to a party.

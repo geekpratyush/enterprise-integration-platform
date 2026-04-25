@@ -1,1 +1,0 @@
-Balance of a specific limit value, eg, a bilateral balance is calculated in relation to a given bilateral limit.

@@ -1,1 +1,0 @@
-Direct debit instruction where the debtor's authorisation is used for regular direct debit transactions initiated by the creditor. 

@@ -1,1 +1,0 @@
-Identifies the lot constituting the asset backed or mortgage backed security issue.

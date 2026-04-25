@@ -1,1 +1,0 @@
-Type of price, expressed as a code.

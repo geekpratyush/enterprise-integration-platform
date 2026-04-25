@@ -1,1 +1,0 @@
-Transaction relates to collateral in the form of securities.

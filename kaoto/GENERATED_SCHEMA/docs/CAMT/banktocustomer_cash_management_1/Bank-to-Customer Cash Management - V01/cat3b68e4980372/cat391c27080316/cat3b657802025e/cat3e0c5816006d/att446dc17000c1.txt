@@ -1,1 +1,0 @@
-Total net amount accepted by a data set submission.

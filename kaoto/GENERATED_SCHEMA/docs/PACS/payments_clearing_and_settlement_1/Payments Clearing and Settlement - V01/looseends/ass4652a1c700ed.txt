@@ -1,1 +1,0 @@
-Specifies totals related to the invoice, such as total invoice amount and total tax amount.

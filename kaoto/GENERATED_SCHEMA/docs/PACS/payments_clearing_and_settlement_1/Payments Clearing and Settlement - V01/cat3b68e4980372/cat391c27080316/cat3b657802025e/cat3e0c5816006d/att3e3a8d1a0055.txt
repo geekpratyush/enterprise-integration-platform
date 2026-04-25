@@ -1,1 +1,0 @@
-Absolute value determined with a number.

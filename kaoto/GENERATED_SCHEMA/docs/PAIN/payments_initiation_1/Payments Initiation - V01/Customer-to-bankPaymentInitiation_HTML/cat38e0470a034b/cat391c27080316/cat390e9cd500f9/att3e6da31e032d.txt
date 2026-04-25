@@ -1,1 +1,0 @@
-Identifies the price of the benchmark security.

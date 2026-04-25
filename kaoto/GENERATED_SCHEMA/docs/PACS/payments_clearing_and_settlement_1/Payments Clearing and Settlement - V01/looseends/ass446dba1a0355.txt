@@ -1,1 +1,0 @@
-Identification of the account of the debtor to which a debit entry will be made to execute the transfer.

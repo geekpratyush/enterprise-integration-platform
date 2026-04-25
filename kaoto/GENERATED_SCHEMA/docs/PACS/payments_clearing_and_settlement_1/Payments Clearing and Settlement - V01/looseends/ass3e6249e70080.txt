@@ -1,1 +1,0 @@
-Execution of an investment fund order that results in a cash flow.

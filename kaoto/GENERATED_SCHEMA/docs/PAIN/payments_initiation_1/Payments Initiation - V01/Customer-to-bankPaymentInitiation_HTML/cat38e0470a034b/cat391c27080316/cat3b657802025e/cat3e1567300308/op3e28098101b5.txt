@@ -1,1 +1,0 @@
-If SubscriptionLegDetails/FinancialInstrumentQuantityChoice/PercentageOfTotalRedemptionAmount  is present , then TotalRedemptionAmount  must also be present.

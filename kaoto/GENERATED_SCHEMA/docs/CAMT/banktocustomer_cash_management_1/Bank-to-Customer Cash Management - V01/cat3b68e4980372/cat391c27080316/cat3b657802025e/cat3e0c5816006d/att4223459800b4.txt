@@ -1,1 +1,0 @@
-Unambiguous identification of the version of a set of data. Example: Version 1.0.

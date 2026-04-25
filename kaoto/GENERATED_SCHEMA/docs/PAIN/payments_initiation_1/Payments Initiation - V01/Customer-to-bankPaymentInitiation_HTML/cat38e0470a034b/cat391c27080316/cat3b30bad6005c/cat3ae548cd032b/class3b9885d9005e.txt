@@ -1,1 +1,0 @@
-Specifies the type of market in which transactions take place, eg, primary or secondary.

@@ -1,1 +1,0 @@
-Identifies a type of bid based on a common characteristic (the index) of all securities of a list.

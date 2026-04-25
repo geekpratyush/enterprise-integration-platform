@@ -1,1 +1,0 @@
-Specifies the type of instruction requested by the submitter by means of a code.  

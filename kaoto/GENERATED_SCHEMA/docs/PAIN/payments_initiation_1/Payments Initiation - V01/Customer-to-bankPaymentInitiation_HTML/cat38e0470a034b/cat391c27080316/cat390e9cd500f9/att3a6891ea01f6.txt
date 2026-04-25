@@ -1,1 +1,0 @@
-Indicates whether the standing arrangement for registration has to be overridden or not.

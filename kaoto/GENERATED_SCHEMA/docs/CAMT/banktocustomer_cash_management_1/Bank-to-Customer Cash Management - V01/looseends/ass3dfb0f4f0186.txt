@@ -1,1 +1,0 @@
-Rounding method used to determine the quantity of investment fund units.

@@ -1,1 +1,0 @@
-Indicates that the entry/transaction is due to the emission/reception of an MT 204 SWIFT message type. This value is specific to the EBA context.

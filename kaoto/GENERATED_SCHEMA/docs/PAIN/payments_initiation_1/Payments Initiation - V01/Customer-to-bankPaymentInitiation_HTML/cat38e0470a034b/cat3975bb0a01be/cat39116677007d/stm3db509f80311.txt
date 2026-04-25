@@ -1,5 +1,0 @@
-In the scope of the project : Send payment order, Send rejection of payment, Send acceptance confirmation. 
-
-Out of scope of the project : Send debit advice, Send debit booking confirmation.
-
-

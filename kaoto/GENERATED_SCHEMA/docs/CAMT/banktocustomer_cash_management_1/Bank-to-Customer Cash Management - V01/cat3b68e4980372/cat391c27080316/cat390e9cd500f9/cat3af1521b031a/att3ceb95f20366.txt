@@ -1,2 +1,0 @@
-Reason the deliver or receipt instruction is failing. Settlement on the instructed settlement date is no longer possible.
-

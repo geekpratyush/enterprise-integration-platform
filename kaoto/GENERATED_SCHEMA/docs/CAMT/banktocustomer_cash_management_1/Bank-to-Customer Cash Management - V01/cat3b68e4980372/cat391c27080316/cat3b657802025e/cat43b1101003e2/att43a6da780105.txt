@@ -1,1 +1,0 @@
-Refers to the identification of a previous event in the life of a trade which is amended or cancelled. 

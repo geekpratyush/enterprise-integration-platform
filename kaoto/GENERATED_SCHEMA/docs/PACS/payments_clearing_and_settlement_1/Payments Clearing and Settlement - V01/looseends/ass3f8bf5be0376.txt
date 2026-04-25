@@ -1,2 +1,0 @@
-Party that receives an amount of money from the debtor. In the context of the payment model, the creditor is also the credit account owner. 
-

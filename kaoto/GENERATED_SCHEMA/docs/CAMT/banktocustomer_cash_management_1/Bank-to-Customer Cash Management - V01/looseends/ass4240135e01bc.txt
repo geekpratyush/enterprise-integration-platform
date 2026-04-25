@@ -1,1 +1,0 @@
-Defines the party fields used to search for a payment.

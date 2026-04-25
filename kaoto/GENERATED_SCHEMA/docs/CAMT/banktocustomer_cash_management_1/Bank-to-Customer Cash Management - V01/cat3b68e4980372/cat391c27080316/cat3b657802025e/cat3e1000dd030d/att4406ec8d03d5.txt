@@ -1,2 +1,0 @@
-Amount of money resulting from the redemption before deduction of  charges, commissions and taxes.
-[Quantity * Price]

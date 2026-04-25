@@ -1,1 +1,0 @@
-It is recommended that when computing the allocation with the use of average price, each AllocationAccount should have the same AllocatedAveragePrice, as is the case in the US and European model.

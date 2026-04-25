@@ -1,1 +1,0 @@
-Time at which the time span starts.

@@ -1,1 +1,0 @@
-Address for the Universal Resource Locator (URL), eg, used over the www (HTTP) service.

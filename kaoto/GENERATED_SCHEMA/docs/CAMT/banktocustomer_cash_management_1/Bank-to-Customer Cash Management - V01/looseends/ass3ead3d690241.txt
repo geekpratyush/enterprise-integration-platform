@@ -1,1 +1,0 @@
-Parameters used at fixing time to determine the observed rate.

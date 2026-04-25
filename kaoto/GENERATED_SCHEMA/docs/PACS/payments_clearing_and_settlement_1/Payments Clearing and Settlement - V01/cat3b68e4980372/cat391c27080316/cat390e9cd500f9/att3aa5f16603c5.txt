@@ -1,1 +1,0 @@
-Total quantity of financial instrument involved in a block trade. 

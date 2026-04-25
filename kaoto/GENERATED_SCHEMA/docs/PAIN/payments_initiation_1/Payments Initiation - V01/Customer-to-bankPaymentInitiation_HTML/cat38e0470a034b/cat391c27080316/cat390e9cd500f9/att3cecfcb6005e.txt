@@ -1,1 +1,0 @@
-Date and time at which the originator's financial institution accepts the payment transaction for processing, ie, all conditions for execution are fulfilled and adequate financial cover is available.(EC Directive 97/5.).

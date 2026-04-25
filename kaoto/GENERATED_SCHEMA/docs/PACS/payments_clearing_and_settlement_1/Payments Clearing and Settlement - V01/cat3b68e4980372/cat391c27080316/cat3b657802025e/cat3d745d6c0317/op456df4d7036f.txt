@@ -1,2 +1,0 @@
-If OriginalMessageIdentification is present, then NetworkFileName is not allowed.
-If NetworkFileName is present, then OriginalMessageIdentification is not allowed.

@@ -1,2 +1,0 @@
-Priority given to an order based on its price and/or time specification.
-

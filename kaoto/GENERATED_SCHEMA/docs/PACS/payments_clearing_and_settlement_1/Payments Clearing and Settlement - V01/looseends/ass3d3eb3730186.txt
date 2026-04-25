@@ -1,1 +1,0 @@
-Investment fund class related to an order.

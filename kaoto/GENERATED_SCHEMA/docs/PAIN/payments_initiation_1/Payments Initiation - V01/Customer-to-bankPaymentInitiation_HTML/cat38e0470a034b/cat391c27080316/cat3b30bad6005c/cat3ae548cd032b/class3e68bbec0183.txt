@@ -1,1 +1,0 @@
-Code containing the operator used to indicate the relationship between a variable and a fixed value.

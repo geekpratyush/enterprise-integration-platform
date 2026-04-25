@@ -1,1 +1,0 @@
-Reference to a linked message that was previously sent and optionally the reference of one or more individual orders within the previously sent message.

@@ -1,1 +1,0 @@
-Set of additional elements to provide detailed information on the number of transactions that are reported with a specific transaction status.

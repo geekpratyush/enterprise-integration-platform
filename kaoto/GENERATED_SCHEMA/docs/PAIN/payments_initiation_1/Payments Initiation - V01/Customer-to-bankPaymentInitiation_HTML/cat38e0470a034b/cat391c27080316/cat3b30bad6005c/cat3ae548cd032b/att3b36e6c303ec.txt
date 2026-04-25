@@ -1,2 +1,0 @@
-Balance of securities pending delivery, eg, orders to sell securities have been executed but settlement of the open transactions has not been confirmed.
-

@@ -1,2 +1,0 @@
-Reference and status information concerning the individual payment transactions, included in the payment initiation,  to which the cancellation message applies.
-

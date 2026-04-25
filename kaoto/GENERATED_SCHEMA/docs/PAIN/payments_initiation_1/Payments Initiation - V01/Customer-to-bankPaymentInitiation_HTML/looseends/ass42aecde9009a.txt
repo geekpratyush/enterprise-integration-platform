@@ -1,1 +1,0 @@
-Information related to the institution to which the financial instrument is to be deposited.

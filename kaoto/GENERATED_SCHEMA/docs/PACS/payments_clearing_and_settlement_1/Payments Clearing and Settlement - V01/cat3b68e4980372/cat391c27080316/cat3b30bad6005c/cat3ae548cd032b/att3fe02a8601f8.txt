@@ -1,1 +1,0 @@
-Transaction is a payment resulting from travellers cheques.

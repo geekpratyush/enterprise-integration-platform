@@ -1,1 +1,0 @@
-If Structured is OTHR, then AdditionalInformation is mandatory..

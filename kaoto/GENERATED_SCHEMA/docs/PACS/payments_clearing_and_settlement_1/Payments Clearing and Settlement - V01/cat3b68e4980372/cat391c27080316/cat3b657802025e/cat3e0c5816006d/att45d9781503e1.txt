@@ -1,1 +1,0 @@
-Number of individual entries included in the report.

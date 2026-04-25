@@ -1,1 +1,0 @@
-Place at which the Over-the-Counter (OTC) transaction is executed.

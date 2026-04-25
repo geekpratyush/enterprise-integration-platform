@@ -1,1 +1,0 @@
-The party that receives information from other parties about transactions that are being processed, and performs functions such as regulatory oversight and accounting.

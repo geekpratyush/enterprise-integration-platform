@@ -1,1 +1,0 @@
-Indicates an order that is good till crossed.

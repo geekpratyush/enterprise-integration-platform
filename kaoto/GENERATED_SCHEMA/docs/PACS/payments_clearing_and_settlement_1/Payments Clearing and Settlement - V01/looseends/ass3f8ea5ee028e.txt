@@ -1,1 +1,0 @@
-Payment instrument used to provide additional money in the framework of a switch order.

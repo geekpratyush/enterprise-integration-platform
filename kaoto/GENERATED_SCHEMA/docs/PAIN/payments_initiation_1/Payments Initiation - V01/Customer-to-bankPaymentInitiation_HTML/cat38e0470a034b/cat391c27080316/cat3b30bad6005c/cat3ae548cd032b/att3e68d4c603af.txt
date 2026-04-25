@@ -1,1 +1,0 @@
-An order to be executed at a limit price, with a round-lot (or board-lot) sales; valid only for odd lot orders.

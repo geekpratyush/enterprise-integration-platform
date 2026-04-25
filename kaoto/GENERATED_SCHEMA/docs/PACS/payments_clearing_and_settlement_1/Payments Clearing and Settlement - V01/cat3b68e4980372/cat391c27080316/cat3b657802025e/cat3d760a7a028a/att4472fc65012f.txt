@@ -1,1 +1,0 @@
-Original identification of a transaction, as assigned by the first instructing agent and passed on, unchanged, throughout the entire interbank chain. 

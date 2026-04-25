@@ -1,2 +1,0 @@
-Identifies the reference source for benchmark interest rates used to price/re-price fixed 
-income instruments.

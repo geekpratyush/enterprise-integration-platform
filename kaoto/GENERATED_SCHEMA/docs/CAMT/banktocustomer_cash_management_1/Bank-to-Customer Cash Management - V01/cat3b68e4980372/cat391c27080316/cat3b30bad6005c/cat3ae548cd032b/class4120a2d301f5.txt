@@ -1,1 +1,0 @@
-Specifies the reason for a transfer or settlement instruction settlement pending status.

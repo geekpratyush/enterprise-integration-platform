@@ -1,1 +1,0 @@
-String of characters that uniquely identifies a message.

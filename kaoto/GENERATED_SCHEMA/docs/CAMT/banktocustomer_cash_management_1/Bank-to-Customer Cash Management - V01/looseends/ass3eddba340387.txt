@@ -1,1 +1,0 @@
-Investment fund to which a cash flow is related.

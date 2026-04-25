@@ -1,1 +1,0 @@
-Type of criterion is a currency, eg, the euro.

@@ -1,1 +1,0 @@
-Identifies current status of order. 

@@ -1,1 +1,0 @@
-Used when receiving a ResolutionOfInvestigation or a DebitAuthorisation for an unknown case. It could be used as well when a party rejects a case status request.

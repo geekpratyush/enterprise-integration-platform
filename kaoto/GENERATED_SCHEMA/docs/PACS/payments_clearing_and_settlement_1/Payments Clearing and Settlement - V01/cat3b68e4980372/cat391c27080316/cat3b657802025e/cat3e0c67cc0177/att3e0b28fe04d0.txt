@@ -1,2 +1,0 @@
-Total value of the charges for a specific order.
-

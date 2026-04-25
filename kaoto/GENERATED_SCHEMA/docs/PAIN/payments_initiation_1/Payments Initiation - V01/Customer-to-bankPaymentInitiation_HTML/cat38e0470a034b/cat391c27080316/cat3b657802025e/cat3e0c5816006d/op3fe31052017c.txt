@@ -1,4 +1,0 @@
-Rule rationale:
-Either the status is chosen from a code list and there is no reason to provide with it or the status is 'rejected' and a reason is mandatory.
-Rule description:
-Either Status or Rejected must be present, but not both.

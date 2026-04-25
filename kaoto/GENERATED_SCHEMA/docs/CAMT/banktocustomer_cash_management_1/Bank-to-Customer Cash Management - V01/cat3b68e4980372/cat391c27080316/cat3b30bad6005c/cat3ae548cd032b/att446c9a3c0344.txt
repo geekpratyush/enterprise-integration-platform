@@ -1,1 +1,0 @@
-Indicates that for each occurrences of the payment information block, exactly one occurrence of the payment transaction block is present.

@@ -1,1 +1,0 @@
-Set of elements providing information specific to the individual transaction(s) included in the message.

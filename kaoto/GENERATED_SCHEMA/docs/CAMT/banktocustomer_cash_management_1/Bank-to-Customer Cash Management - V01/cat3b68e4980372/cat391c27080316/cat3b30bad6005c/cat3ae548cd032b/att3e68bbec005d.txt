@@ -1,1 +1,0 @@
-An all or none market order that is to be executed at the mid price spread of the security on the exchange.  If the execution cannot be made under this condition, the order is to be treated as cancelled.

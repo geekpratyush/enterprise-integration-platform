@@ -1,1 +1,0 @@
-Structured information supplied to fully identify the documents referred to in the remittance information.  

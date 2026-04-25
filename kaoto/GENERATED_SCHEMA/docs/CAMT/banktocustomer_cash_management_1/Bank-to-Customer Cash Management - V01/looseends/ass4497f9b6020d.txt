@@ -1,1 +1,0 @@
-Unique Identification assigned by the TSU to the baseline included in the transaction.

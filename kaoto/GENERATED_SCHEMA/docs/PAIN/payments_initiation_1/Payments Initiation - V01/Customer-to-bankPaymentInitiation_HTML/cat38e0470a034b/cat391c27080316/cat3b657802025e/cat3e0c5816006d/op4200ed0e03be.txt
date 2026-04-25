@@ -1,2 +1,0 @@
-If a bilateral limit regarding specific members in the system is required, then the identification of the bilateral counterpart should be given.
-By default, if there is no identification of the bilateral counterpart and the current or default bilateral limit is required, then all the bilateral limits with the relevant counterpart identifications are returned

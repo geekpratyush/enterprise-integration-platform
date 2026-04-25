@@ -1,1 +1,0 @@
-Indicates whether the information serves as the final and legal confirmation.

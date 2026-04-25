@@ -1,1 +1,0 @@
-Instruction to push full baseline information to the correspondent.

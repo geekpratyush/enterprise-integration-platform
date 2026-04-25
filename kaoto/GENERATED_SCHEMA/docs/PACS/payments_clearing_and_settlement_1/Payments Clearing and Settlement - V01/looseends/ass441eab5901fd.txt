@@ -1,1 +1,0 @@
-Identifies a contact person by a name, a given name and an address.

@@ -1,1 +1,0 @@
-System that processes only cash transfers.

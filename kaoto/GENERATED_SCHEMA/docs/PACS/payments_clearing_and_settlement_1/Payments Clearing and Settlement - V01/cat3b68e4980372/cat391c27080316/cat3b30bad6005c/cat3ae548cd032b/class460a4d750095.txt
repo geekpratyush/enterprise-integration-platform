@@ -1,1 +1,0 @@
-Reason for which an instruction, request, report message is rejected.

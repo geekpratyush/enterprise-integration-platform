@@ -1,1 +1,0 @@
-Specifies if the movement on a securities account results from a deliver or a receive instruction, and if the instruction was free or against payment.

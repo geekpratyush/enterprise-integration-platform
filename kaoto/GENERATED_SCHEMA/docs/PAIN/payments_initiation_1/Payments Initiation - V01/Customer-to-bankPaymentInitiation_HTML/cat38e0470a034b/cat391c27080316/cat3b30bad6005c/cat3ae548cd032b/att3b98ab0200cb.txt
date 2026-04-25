@@ -1,1 +1,0 @@
-Transaction relates to a buy sell back opening leg.

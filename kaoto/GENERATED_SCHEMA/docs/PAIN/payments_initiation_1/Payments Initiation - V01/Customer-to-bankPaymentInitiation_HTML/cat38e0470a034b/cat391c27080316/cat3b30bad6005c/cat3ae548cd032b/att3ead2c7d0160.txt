@@ -1,1 +1,0 @@
-The date will be the first preceding day that is a business day.

@@ -1,1 +1,0 @@
-Currency in ByPredefinedTimePeriods/HighestPriceValue12Months/Amount, ByPredefinedTimePeriods/LowestPriceValue12Months/Amount, ByPredefinedTimePeriods/OneYearPriceChange/Amount, ByPredefinedTimePeriods/ThreeYearPriceChange/Amount and ByPredefinedTimePeriods/FiveYearPriceChange/Amount must be the same as Currency.

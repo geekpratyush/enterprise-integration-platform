@@ -1,1 +1,0 @@
-Accounting information related to a security.

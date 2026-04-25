@@ -1,1 +1,0 @@
-Type of service for which a charge is asked or paid.

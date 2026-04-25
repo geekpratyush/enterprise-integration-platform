@@ -1,2 +1,0 @@
-Unique identifier for an order, as assigned by the sell-side. The identifier must be unique within a single trading day.
-

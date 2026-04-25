@@ -1,1 +1,0 @@
-If Incoterms is present, then Incoterms is not allowed within each occurrence of LineItemDetails.  If Incoterms is not present, then Incoterms is allowed within each occurrence of LineItemDetails.

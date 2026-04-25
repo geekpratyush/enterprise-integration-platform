@@ -1,1 +1,0 @@
-Identifier issued to a person for which no specific identifier has been defined.

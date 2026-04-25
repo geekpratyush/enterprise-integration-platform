@@ -1,1 +1,0 @@
-Choice between different statuses of an investigation case.

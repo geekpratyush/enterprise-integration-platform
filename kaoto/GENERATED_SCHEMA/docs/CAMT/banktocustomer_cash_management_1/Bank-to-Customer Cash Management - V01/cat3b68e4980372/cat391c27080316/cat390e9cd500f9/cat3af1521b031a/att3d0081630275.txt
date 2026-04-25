@@ -1,2 +1,0 @@
-Amount of money remitted for the referred document.
-

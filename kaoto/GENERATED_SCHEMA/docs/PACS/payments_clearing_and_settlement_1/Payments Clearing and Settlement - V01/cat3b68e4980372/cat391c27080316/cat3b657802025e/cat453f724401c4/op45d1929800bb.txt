@@ -1,2 +1,0 @@
-If Domain is absent, then Proprietary must be present.
-

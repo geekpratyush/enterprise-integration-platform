@@ -1,1 +1,0 @@
-Total executed quantity of a good till order as of the beginning of a trading date.

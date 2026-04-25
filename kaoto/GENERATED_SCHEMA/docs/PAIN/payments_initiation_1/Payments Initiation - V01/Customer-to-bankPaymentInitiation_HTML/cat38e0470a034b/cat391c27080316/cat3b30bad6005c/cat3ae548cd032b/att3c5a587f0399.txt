@@ -1,1 +1,0 @@
-Indicates that the trade is to close a position.

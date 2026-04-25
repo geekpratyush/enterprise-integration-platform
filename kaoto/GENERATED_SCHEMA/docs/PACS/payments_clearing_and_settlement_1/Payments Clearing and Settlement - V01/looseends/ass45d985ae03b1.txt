@@ -1,4 +1,0 @@
-Set of elements providing details on batched transactions.
-
-Usage : this element can be repeated in case more than one batch is included in the entry, eg, in lockbox scenarios, to specify the ID and number of transactions included in each of the batches.
-

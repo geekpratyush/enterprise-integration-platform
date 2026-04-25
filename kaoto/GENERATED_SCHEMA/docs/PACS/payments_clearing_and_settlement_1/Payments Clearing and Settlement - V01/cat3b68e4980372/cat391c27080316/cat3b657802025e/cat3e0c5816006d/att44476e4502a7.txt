@@ -1,1 +1,0 @@
-Status to define the completeness of information contained in the notification.

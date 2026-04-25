@@ -1,3 +1,0 @@
-Indicates if a Cancel/Replace has caused an order to lose book priority.
-
-

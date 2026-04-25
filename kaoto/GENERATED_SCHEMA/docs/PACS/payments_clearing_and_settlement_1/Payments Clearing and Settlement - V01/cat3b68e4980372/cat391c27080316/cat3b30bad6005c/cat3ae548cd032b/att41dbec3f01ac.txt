@@ -1,1 +1,0 @@
-Code for payment on receipt of invoice.

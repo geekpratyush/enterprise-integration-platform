@@ -1,1 +1,0 @@
-The CreditDebitIndicator may be omitted for optimisation reason if the CreditDebitIndicator is used in the search criteria of the related query.

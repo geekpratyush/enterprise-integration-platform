@@ -1,1 +1,0 @@
-Indicates the role a clearing agent plays in a payment instruction.

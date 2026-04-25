@@ -1,3 +1,0 @@
-Settlement on the debtor's account has been completed. 
-
-Usage : this can be used by the first agent to report to the debtor that the transaction has been completed. Warning : this status is provided for transaction status reasons, not for financial information. It can only be used after bilateral agreement 

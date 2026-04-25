@@ -1,1 +1,0 @@
-Sub-total amount of the cash flow out, expressed as an amount of money.

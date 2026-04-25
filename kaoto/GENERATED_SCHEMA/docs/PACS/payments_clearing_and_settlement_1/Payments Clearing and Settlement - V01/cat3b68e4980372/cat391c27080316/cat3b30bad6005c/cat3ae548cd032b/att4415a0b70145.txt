@@ -1,1 +1,0 @@
-Scheme code for UK (United Kingdom) - CHAPS Sterling RTGS.

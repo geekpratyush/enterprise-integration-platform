@@ -1,1 +1,0 @@
-Date and optionally the time, at which this transaction was processed by the party identified in this sequence.

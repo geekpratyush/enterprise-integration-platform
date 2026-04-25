@@ -1,1 +1,0 @@
-Account is used when financing is done by the broker.

@@ -1,1 +1,0 @@
-Indicates if the debit authorisation is granted or not.

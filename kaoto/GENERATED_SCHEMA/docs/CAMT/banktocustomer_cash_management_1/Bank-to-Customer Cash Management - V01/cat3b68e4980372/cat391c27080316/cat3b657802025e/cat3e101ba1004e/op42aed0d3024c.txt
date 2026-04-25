@@ -1,1 +1,0 @@
-TotalAmountYearToDate must be equal to the sum of EquityComponent and CashComponent.

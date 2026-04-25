@@ -1,1 +1,0 @@
-Status and information concerning the individual transactions, included in the payment, to which the status message reports.

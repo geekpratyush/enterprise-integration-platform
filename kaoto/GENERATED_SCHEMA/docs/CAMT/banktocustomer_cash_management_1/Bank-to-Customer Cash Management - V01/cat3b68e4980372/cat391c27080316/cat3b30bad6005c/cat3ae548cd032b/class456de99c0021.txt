@@ -1,1 +1,0 @@
-EPC Technical validation subset restricted to MS02 and MS03 codes.

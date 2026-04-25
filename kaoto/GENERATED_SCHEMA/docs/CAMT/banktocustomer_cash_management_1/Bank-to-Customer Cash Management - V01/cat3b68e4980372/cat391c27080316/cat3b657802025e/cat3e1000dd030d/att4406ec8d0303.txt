@@ -1,2 +1,0 @@
-Amount of money paid to the investor as a result of the redemption after deduction of charges, commissions and taxes.
-[(Quantity * Price) - (Charges + Commissions +Taxes)]

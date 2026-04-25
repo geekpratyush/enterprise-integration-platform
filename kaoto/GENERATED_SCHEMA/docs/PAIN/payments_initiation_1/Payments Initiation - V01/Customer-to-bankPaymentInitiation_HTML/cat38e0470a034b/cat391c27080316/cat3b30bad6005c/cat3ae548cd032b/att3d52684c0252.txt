@@ -1,1 +1,0 @@
-Collective reference identifying a set of messages.

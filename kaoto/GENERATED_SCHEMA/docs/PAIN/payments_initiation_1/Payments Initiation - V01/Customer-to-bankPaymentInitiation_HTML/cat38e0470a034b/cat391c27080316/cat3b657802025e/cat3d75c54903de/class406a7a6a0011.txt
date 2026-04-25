@@ -1,1 +1,0 @@
-Reference information concerning the payment initiation for which the cancellation is requested.

@@ -1,1 +1,0 @@
-Constrains a range of business values.

@@ -1,1 +1,0 @@
-Number of objects represented as an integer.

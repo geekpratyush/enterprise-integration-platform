@@ -1,1 +1,0 @@
-Specifies whether a resolution is accepted or not and details the number of votes and their status.

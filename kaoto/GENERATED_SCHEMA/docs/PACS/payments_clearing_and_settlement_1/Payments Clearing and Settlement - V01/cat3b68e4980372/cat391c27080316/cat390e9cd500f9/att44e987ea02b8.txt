@@ -1,1 +1,0 @@
-Other quoted price than the one at which the order was executed.

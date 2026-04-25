@@ -1,1 +1,0 @@
-External reference to the document, containing agreement clauses, where it is stored.

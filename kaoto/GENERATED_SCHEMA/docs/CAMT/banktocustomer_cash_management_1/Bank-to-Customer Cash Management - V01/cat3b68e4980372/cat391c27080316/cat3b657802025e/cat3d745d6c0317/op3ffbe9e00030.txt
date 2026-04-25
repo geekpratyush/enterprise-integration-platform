@@ -1,1 +1,0 @@
-If at least one occurrence of InterbankSettlementAmount/ImpliedCurrencyAndAmountRange/CreditDebitIndicator is present, then CreditDebitIndicator is not allowed. If InterbankSettlementAmount/ImpliedCurrencyAndAmountRange/CreditDebitIndicator is not present, then CreditDebitIndicator is optional.

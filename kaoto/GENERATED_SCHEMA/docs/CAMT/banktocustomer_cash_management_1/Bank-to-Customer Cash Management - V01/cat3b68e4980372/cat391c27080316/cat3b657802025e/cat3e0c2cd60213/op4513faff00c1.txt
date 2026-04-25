@@ -1,1 +1,0 @@
-If ActivityIndicator is "true" or "1" (Yes), then TransactionOnSubAccount must be present. If ActivityIndicator is "false" or "0" (No), then TransactionOnSubAccount is not allowed.

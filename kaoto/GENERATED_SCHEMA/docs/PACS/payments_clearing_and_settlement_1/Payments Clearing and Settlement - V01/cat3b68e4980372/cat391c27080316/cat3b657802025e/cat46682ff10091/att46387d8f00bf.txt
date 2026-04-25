@@ -1,2 +1,0 @@
-Number of single invoice financing requests included in the global request.
-

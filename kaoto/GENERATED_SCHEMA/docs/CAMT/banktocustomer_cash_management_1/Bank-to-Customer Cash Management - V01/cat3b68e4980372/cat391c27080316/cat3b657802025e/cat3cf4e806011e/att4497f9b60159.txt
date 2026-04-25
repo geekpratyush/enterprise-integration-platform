@@ -1,1 +1,0 @@
-Country of the buyer bank.

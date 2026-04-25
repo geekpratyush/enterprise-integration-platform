@@ -1,2 +1,0 @@
-Choice between specification of a phone number in structured or free text format.
-

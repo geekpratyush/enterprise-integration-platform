@@ -1,1 +1,0 @@
-Specifies how allocation details must be handled.

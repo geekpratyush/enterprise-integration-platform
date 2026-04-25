@@ -1,1 +1,0 @@
-Currency in EstimatedTotalAmount must be the same as Currency in EstimatedSwitchOutAmount.

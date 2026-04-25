@@ -1,1 +1,0 @@
-Previous date and time at which a price was applied.

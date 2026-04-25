@@ -1,1 +1,0 @@
-Set of elements providing the total sum of entries.

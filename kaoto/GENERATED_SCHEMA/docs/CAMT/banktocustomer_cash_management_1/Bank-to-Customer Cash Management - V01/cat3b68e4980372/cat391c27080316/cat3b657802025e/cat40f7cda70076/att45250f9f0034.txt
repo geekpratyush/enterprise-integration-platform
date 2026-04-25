@@ -1,2 +1,0 @@
-Certificate representing the security that is delivered.
-

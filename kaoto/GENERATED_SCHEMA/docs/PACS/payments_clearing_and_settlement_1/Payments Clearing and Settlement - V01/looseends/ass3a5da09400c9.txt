@@ -1,1 +1,0 @@
-Parameters used to execute the settlement of a securities allocation.

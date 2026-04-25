@@ -1,2 +1,0 @@
-Amount: renamed to NetAmount.
-GrossAmount: new.

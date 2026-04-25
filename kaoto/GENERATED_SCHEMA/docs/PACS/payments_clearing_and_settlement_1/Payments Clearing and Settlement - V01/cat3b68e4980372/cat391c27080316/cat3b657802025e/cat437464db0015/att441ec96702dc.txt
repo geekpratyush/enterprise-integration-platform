@@ -1,1 +1,0 @@
-Vote options allowed at the resolution level. When specified, it supersedes the vote options given for the meeting.

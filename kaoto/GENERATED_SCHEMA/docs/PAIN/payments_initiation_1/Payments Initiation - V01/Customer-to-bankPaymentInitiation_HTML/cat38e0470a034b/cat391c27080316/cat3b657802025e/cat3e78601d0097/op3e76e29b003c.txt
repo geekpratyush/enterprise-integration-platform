@@ -1,2 +1,0 @@
-If at least one occurrence of BalanceType is present and is MULT, then no occurrence of CounterpartyIdentification is allowed.
-If BalanceType is not present, then any occurrence of CounterpartyIdentification is optional.

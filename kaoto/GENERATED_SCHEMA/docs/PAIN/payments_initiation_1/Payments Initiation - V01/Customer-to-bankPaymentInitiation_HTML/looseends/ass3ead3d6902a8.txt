@@ -1,1 +1,0 @@
-Financial institution from which cash will be transferred.

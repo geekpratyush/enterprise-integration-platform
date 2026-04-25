@@ -1,1 +1,0 @@
-Fund is not calculating the taxable interest per share with the NAV.

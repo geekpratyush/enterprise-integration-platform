@@ -1,2 +1,0 @@
-Specified transaction/message amount is greater than allowed maximum.
-

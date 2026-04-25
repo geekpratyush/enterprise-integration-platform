@@ -1,1 +1,0 @@
-Specifies the time at which the previous status was assigned.

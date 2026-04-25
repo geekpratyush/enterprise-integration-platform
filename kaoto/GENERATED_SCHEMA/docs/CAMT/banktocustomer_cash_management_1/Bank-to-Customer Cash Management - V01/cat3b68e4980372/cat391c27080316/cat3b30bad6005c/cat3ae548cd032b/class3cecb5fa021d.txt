@@ -1,1 +1,0 @@
-Specifies the type, or nature, of the payment.

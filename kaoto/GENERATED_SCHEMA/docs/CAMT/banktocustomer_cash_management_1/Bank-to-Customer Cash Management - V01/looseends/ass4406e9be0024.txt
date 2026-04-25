@@ -1,1 +1,0 @@
-Parameters used to execute the settlement of an investment fund order.

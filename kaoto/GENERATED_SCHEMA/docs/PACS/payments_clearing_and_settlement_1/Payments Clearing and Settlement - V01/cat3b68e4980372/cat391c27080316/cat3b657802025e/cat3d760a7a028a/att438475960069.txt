@@ -1,1 +1,0 @@
-Identifies whether a single entry per individual transaction or a batch entry for the sum of the amounts of all transactions in the message is requested. 

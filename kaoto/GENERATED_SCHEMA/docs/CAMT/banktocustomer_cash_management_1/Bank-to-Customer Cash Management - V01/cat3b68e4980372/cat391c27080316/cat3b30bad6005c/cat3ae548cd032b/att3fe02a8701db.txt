@@ -1,1 +1,0 @@
-Transaction reverses a previously incorrectly value dated entry.

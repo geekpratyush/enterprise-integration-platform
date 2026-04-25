@@ -1,1 +1,0 @@
-Indicates a range delimited by two variables.

@@ -1,1 +1,0 @@
-ChequeFrom may only be present if different from PaymentInformation/PaymentTransaction/OriginatingParty or PaymentInformation/Debtor.

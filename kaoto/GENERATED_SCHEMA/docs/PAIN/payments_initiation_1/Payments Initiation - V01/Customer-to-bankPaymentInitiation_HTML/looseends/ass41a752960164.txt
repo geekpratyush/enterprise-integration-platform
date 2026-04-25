@@ -1,5 +1,0 @@
-Identification: renamed to AccountIdentification (alignment).
-Name: renamed to AccountName (alignment).
-Designation: renamed to AccountDesignation (alignment).
-OwnerIdentification: type changed from PartyIdentification1Choice to PartyIdentification2Choice.
-AccountServicer: type changed from PartyIdentification1Choice to PartyIdentification2Choice.

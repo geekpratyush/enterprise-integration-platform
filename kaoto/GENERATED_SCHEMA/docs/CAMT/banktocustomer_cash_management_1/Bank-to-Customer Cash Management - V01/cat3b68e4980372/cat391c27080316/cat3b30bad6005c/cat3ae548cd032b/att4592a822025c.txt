@@ -1,1 +1,0 @@
-The cancellation request has been rejected since more than one instruction match to the cancellation criteria.

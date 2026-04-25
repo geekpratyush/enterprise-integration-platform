@@ -1,2 +1,0 @@
-Range of time between a start date and time and an end date and time.
-

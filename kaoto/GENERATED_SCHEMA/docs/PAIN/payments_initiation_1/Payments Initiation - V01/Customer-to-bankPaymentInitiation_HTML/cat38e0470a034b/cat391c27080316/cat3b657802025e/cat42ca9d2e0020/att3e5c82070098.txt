@@ -1,1 +1,0 @@
-Assigned by the party that accepts the order. Can be used to provide the execution identification used by an exchange or executing system.

@@ -1,1 +1,0 @@
-Units representing equity ownership in a public company. Common stock also gives the holder voting rights, profits via dividends or capital appreciation.

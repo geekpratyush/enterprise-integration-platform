@@ -1,1 +1,0 @@
-Specifies the amount to debit when the amount is lower than the amount of the underlying transaction.

@@ -1,3 +1,0 @@
-Pagination of the message.
-
-Usage: the pagination of the message is only allowed when agreed between the parties.

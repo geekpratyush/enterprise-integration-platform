@@ -1,1 +1,0 @@
-Indicates whether the interest bearing instrument can be amortised or not.

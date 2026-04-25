@@ -1,1 +1,0 @@
-Transaction is a payment of rent.

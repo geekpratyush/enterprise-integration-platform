@@ -1,1 +1,0 @@
-Underlying reason for the payment transaction, eg, a charity payment, or a commercial agreement between the creditor and the debtor.

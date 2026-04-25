@@ -1,1 +1,0 @@
-Chain of parties involved in settlement of a securities trade on the client side.

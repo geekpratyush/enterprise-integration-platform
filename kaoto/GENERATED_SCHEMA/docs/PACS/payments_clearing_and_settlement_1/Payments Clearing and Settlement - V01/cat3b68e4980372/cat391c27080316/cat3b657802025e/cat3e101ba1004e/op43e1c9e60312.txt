@@ -1,2 +1,0 @@
-Either IndividualExecutionDetails/CashSettlementDetails or BulkCashSettlementDetails may be present, but not both.
-

@@ -1,1 +1,0 @@
-Negotiation details associated with a securities transaction.

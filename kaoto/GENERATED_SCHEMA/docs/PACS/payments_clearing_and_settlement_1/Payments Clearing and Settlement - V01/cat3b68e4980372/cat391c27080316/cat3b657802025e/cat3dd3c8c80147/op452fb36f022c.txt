@@ -1,2 +1,0 @@
-If Structured is present, then Unstructured is not allowed.
-If Unstructured is present, then Structured is not allowed.

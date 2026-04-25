@@ -1,1 +1,0 @@
-Currency in which a security is issued or redenominated.

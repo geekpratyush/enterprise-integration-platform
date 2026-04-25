@@ -1,1 +1,0 @@
-Reports either on the business information or on a business error.

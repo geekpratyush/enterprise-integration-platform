@@ -1,1 +1,0 @@
-Execution of a foreign exchange trade. The execution is a result of successful negotiation between the two trading parties.

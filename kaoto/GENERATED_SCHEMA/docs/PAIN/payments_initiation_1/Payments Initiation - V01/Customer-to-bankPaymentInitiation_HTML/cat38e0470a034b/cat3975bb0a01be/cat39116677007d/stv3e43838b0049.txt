@@ -1,1 +1,0 @@
-The final agent provides account information for the creditor (eg credit advice, statement) as agreed with the creditor.

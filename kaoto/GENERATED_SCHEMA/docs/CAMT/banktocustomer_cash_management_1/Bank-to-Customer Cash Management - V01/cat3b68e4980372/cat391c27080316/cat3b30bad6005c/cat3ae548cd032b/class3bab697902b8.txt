@@ -1,1 +1,0 @@
-Austrian Bankleitzahl. Identifies Austrian financial institutions on the Austrian national clearing system.

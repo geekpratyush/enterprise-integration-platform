@@ -1,1 +1,0 @@
-Either RequestedSettlementDate or RequestedSettlementDateCode must be present, not both.

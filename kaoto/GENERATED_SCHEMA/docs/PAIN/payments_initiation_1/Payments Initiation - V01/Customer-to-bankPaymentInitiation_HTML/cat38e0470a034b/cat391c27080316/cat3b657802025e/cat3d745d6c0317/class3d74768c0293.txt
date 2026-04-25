@@ -1,1 +1,0 @@
-Choice between ways of identifying a payment instruction by its references and business identification.

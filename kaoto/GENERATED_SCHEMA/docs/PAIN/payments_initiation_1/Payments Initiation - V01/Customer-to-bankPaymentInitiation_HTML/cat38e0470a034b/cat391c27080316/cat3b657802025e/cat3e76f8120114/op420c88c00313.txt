@@ -1,2 +1,0 @@
-If MultilateralBalance is not present, then at least one occurrence of CurrentBilateralLimit/BilateralBalance must be present.
-If MultilateralBalance is present, then any occurrence of CurrentBilateralLimit/BilateralBalance is optional.

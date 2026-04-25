@@ -1,1 +1,0 @@
-Identifies the service requested by the submitter by means of a code. 

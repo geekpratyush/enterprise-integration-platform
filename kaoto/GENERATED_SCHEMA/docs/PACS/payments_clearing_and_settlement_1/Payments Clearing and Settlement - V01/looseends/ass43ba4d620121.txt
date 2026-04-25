@@ -1,1 +1,0 @@
-Specifies the premium paid by the buyer of a currency option.

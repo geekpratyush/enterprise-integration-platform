@@ -1,1 +1,0 @@
-Specifies the payment instrument used or the underlying financial transaction that resulted in a payment transaction.

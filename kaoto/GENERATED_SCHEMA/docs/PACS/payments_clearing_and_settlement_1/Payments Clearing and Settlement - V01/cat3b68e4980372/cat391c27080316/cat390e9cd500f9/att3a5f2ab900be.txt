@@ -1,1 +1,0 @@
-Indicates the status of an order at a specific point in time.

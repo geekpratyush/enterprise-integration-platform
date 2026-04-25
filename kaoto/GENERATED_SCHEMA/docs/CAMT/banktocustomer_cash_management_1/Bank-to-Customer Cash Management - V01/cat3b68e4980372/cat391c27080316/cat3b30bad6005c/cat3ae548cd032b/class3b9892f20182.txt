@@ -1,1 +1,0 @@
-Specifies if there is a pre-confirmation of cash or securities.

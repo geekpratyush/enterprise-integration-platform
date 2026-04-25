@@ -1,1 +1,0 @@
-Specifies the format under which the payment that generated the entry was transmitted.

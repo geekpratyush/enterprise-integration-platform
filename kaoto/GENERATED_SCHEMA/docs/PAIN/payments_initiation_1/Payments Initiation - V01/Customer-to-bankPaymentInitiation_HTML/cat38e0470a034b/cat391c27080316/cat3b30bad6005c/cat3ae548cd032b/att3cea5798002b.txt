@@ -1,1 +1,0 @@
-Event is the cutoff time for the Euro1 system, ie, the deadline for processing Euro1 transactions.

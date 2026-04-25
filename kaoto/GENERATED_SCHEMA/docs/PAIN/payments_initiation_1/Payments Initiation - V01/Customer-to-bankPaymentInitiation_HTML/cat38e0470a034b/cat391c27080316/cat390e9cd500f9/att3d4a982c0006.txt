@@ -1,1 +1,0 @@
-Year and month the card expires.

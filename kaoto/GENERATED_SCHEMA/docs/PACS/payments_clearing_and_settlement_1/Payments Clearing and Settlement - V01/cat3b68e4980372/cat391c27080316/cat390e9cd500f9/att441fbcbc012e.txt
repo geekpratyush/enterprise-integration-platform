@@ -1,1 +1,0 @@
-Number of securities admitted to the vote, expressed as an amount and a currency.

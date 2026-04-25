@@ -1,1 +1,0 @@
-Amount of the reservation, expressed in an eligible currency.

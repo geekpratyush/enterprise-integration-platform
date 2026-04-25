@@ -1,1 +1,0 @@
-If CashSettlementDetails is present, then Currency in IndividualOrderDetails/Amount must be the same in all occurrences of IndividualOrderDetails.

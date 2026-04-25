@@ -1,2 +1,0 @@
-Reference that identifies the transfer in transaction. 
-

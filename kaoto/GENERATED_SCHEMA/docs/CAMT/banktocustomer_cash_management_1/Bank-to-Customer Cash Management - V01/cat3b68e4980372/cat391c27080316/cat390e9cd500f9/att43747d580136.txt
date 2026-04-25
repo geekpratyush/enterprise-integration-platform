@@ -1,1 +1,0 @@
-Indicates whether the resolution has been submitted by the security holder. If absent or set to false, the security has been submitted by the issuer.

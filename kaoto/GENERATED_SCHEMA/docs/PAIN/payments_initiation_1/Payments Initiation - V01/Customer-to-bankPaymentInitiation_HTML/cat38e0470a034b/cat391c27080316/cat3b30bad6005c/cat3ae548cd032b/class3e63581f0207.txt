@@ -1,2 +1,0 @@
-Time represented by hh :mm :ss (ISO 8601).
-

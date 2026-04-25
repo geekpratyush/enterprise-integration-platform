@@ -1,1 +1,0 @@
-Number of votes for which no action has been taken.

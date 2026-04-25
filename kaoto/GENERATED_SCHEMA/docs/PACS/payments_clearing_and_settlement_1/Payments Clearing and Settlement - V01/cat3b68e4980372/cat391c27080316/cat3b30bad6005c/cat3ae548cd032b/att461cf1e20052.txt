@@ -1,1 +1,0 @@
-Sub-agent appointed to execute the payment for the corporate action event on behalf of the issuer company/offeror.

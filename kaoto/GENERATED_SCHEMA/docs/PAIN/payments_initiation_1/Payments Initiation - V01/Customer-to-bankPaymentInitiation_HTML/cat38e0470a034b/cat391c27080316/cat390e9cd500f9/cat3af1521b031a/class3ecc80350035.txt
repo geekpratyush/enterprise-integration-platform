@@ -1,1 +1,0 @@
-Underlying business reason for a credit transfer, eg, salary payment or cash management operation.

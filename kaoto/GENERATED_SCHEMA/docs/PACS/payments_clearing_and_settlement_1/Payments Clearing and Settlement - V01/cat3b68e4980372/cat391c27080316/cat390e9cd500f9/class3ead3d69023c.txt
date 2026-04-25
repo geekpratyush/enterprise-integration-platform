@@ -1,1 +1,0 @@
-Foreign exchange contract where one of the exchanged amounts is specified in a non-deliverable currency.

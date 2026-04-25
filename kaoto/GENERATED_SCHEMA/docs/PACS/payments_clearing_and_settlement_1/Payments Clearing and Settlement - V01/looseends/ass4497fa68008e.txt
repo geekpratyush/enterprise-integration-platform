@@ -1,1 +1,0 @@
-Financial institution that is the counterparty to the trade transaction.

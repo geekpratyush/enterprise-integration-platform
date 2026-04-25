@@ -1,1 +1,0 @@
-Amount in its original currency when conversion from/into euro has occurred.

@@ -1,1 +1,0 @@
-Indicates that the order is based on a historic price.

@@ -1,2 +1,0 @@
-The forwarding agent forwards to the initiating party the acceptance acknowledgement received from the first agent.
-

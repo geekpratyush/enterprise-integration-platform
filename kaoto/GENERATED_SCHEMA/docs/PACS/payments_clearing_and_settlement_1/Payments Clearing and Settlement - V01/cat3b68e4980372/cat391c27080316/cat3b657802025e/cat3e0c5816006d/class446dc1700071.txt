@@ -1,1 +1,0 @@
-Calculation of the current situation of a baseline as a result of the submission of a commercial data set.

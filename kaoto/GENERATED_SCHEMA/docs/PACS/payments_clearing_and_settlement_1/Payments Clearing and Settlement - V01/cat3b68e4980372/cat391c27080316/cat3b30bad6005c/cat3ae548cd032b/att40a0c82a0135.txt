@@ -1,3 +1,0 @@
-Cheque drawn on the account of the debtor, and debited on the debtor's account when the cheque is cashed. Synonym is 'corporate cheque'. 
-
-

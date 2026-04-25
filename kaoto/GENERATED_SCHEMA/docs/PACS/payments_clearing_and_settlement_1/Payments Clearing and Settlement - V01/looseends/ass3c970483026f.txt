@@ -1,2 +1,0 @@
-Current information about a standing instruction for a subscription payment.
-

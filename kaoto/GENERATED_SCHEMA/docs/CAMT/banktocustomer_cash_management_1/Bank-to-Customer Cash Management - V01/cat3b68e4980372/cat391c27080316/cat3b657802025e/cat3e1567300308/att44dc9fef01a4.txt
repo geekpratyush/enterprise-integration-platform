@@ -1,1 +1,0 @@
-Unique and unambiguous identifier for an order cancellation, as assigned by the instructing party.

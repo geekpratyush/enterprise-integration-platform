@@ -1,1 +1,0 @@
-Defines proprietary reason  to reject a transaction.

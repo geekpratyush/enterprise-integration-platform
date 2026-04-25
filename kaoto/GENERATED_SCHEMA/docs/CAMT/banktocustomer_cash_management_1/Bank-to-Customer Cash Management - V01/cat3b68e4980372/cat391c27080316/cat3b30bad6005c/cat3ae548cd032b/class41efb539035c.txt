@@ -1,1 +1,0 @@
-Identifies the unit of measure by means of a code.

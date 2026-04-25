@@ -1,1 +1,0 @@
-Description of the parameters under which an order must be handled on the floor.

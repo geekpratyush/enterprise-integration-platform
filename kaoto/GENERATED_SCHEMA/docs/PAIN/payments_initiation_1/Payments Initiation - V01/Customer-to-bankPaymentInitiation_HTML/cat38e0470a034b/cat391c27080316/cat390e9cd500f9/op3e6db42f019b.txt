@@ -1,1 +1,0 @@
-For each (pre-)allocation of a trade, the same method must be applied.

@@ -1,1 +1,0 @@
-Indicates if the cash settlement information must be selected.

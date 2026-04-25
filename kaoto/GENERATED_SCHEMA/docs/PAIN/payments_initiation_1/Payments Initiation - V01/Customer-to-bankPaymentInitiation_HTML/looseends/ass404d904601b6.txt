@@ -1,2 +1,0 @@
-Financial institution that receives the payment transaction on behalf of an account owner, and posts the transaction to the account.
-Usage : in a credit transfer context, the final agent is the account servicer of the creditor. In a direct debit context, the final agent is the account servicer of the debtor.  

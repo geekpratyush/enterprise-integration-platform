@@ -1,1 +1,0 @@
-Specifies the means of payment that will be used to move the amount of money.

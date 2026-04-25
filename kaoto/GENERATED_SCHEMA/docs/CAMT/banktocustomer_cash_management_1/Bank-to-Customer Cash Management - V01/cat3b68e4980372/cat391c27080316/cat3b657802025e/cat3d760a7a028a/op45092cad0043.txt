@@ -1,1 +1,0 @@
-The repetitive ChargesInformation should contain all separate information on charges amount and which party has taken the charges for all agents along the payment chain.

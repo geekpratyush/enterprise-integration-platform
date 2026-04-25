@@ -1,2 +1,0 @@
-Indicates the extent to which a financial instrument is actively traded 
-or traded in large volumes.

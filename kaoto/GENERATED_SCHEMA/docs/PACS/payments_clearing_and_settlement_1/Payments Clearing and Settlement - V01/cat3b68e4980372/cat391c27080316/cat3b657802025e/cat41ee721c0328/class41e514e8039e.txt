@@ -1,1 +1,0 @@
-Provides the reason for rejecting a RequestToCancelPayment.

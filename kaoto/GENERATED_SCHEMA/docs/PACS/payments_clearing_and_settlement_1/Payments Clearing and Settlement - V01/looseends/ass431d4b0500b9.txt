@@ -1,1 +1,0 @@
-Party responsible for keeping track of the owners of securities.

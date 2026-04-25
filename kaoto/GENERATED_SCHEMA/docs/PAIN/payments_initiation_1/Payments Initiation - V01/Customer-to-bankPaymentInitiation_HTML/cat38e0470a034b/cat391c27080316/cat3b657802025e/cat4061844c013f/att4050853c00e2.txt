@@ -1,1 +1,0 @@
-Date and time at which the credit transfer initiation was created by the initiating party.

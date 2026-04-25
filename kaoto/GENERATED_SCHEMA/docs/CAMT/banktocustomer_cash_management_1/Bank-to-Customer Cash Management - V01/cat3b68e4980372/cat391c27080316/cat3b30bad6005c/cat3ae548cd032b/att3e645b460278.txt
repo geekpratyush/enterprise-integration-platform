@@ -1,1 +1,0 @@
-Average of the daily balances on the account used to fulfil the reserve requirements calculated from the beginning of the maintenance period.

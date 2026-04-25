@@ -1,1 +1,0 @@
-Information important for the users of the message/service, which cannot be captured in any other message component/element. For example: Warehouse number.  

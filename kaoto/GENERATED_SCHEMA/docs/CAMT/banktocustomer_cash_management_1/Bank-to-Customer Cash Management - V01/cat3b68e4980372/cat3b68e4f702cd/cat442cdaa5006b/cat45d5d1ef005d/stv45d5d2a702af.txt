@@ -1,1 +1,0 @@
-The account owner's reconciliation system matches the information from the internal accounting system with the information received from the external feed (ie the account servicer). It identifies items which are not matched. These mismatched items may trigger an investigation process.

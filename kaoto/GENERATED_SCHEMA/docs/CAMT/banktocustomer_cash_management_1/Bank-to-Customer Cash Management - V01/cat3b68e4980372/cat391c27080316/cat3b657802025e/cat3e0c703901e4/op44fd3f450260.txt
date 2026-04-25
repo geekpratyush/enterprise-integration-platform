@@ -1,1 +1,0 @@
-At least one occurrence of one message element in the list (OwnerIdentification, AccountIdentification, AccountName) must be present. If an element in the list is repetitive, more than one occurence of this message element may be present. More than one message element in the list may be present.

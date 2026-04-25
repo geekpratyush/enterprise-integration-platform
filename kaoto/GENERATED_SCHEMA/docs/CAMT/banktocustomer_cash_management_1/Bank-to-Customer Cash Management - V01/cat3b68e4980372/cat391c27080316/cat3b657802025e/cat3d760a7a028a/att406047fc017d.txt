@@ -1,1 +1,0 @@
-Payment transaction purpose that is specific to a user community and is required for use within that user community.

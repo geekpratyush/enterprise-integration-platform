@@ -1,1 +1,0 @@
-Specifies instructions for order handling on the broker trading floor.

@@ -1,2 +1,0 @@
-Total amount of money transferred between instructing agent and instructed agent.
-

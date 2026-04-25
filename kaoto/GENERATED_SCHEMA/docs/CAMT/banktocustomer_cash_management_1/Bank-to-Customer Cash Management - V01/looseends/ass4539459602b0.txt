@@ -1,1 +1,0 @@
-Notifies debit and credit entries for the account.

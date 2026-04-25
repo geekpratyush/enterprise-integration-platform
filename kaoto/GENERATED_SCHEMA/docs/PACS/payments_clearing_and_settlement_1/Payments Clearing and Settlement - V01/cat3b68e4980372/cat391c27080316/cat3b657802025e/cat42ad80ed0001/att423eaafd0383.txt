@@ -1,1 +1,0 @@
-Correspondent of the Instructing Agent that sends the payment instruction.

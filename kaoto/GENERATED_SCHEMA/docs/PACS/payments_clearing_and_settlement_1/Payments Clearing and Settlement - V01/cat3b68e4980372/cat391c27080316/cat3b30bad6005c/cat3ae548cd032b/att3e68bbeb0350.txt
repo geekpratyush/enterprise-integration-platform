@@ -1,1 +1,0 @@
-Indicates that the book priority is lost as a result of an order change.

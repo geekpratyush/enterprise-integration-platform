@@ -1,1 +1,0 @@
-If LatestShipmentDate is present, then LatestShipmentDate is not allowed within each occurrence of LineItemDetails.  If LatestShipmentDate is not present, then LatestShipmentDate is allowed within each occurrence of LineItemDetails.

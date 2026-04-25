@@ -1,1 +1,0 @@
-Pre-determined price at which the holder of a warrant is entitled to buy the underlying instrument.

@@ -1,1 +1,0 @@
-Information concerning the original group of transactions, to which the status report message refers.

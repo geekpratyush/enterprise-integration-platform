@@ -1,1 +1,0 @@
-Specific place to deliver mail within a pre-defined postal address.

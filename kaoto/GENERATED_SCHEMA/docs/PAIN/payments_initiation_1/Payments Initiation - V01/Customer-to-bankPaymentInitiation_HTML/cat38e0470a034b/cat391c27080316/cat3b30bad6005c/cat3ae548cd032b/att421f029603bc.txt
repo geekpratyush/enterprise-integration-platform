@@ -1,1 +1,0 @@
-Unit of measure that is equal to 1,000 meters.

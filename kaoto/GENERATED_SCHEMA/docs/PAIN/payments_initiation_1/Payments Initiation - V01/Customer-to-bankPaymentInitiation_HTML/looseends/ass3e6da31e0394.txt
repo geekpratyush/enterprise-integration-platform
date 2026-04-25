@@ -1,1 +1,0 @@
-Securities account used for the trade of a disclosed list of securities, eg, in basket or program trading.

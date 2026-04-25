@@ -1,1 +1,0 @@
-Type of leg involved in a swap whose purpose is to exchange price volatility.

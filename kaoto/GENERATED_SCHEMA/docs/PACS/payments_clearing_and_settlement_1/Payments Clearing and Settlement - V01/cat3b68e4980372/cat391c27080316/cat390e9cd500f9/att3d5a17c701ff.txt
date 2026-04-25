@@ -1,1 +1,0 @@
-Specifies the ratio or multiply factor used to convert the depositary receipt to shares.

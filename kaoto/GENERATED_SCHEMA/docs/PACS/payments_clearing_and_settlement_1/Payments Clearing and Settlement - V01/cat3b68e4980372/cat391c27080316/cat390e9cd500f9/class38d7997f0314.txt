@@ -1,1 +1,0 @@
-Entity involved in an activity.

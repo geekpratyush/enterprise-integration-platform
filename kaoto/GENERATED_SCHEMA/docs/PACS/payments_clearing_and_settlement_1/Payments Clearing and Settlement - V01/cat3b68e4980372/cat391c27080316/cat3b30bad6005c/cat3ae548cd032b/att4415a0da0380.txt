@@ -1,1 +1,0 @@
-Scheme code for TZ (Tanzania) - Tanzania Interbank Settlement System (TISS).

@@ -1,1 +1,0 @@
-Commercial details of a trade transaction between a buyer and a seller.

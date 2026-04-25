@@ -1,1 +1,0 @@
-If MidSide is present then MinimumQuantity, MaximumQuantity,  Quantity and MarketPrice must not be present.

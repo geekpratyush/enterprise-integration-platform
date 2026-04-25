@@ -1,1 +1,0 @@
-Scheme code for Columbia (CO) - Colombian ACH CENIT Central Bank Payment System.

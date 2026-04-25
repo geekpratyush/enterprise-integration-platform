@@ -1,1 +1,0 @@
-Network address through which a voting party can cast its vote via a structured message.

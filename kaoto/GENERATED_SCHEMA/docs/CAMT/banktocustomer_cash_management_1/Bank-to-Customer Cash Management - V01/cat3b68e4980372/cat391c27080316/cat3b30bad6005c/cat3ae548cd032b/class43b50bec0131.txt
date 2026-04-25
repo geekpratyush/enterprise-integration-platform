@@ -1,1 +1,0 @@
-Indicates how an option trade is settled.

@@ -1,2 +1,0 @@
-Specified message amount is in an non processable currency outside of existing agreement.
-

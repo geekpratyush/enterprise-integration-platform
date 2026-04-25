@@ -1,2 +1,0 @@
-Order cancellation request is pending, The order cancellation request has been received but this does not indicate the order has been cancelled.
-

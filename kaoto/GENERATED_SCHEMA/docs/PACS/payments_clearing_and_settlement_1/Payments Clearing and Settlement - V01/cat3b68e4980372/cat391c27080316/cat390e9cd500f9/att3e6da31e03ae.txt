@@ -1,1 +1,0 @@
-Indicates the monetary value in either direction (buy or sell) without revealing whether it is the intention to buy or sell.

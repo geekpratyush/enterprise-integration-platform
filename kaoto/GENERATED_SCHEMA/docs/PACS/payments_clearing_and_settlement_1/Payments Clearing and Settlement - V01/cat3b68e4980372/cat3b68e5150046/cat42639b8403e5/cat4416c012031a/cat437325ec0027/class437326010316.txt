@@ -1,1 +1,0 @@
-The FIToFIPaymentReversalV01 message is sent by an agent to the next party in the payment chain. It is used to reverse a payment previously executed. 

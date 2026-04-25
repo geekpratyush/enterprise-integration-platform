@@ -1,1 +1,0 @@
-Package containing the requirements, organised in one Requirements Use Case Diagram sub-package.

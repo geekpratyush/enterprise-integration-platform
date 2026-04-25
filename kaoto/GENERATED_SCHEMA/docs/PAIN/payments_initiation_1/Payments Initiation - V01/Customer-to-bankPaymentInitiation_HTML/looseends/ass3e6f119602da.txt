@@ -1,1 +1,0 @@
-Broker or trader that executes a trade.

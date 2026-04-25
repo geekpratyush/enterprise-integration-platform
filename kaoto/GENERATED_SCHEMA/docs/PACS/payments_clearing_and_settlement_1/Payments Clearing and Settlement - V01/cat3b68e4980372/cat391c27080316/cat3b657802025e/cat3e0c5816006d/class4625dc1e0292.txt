@@ -1,1 +1,0 @@
-Provides the related report identification and its status. If the status is rejected, a reason for this status must be given.

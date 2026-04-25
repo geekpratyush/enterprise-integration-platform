@@ -1,1 +1,0 @@
-Unknown whether the dividend is in or out of the scope of the directive.

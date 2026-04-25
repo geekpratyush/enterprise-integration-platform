@@ -1,1 +1,0 @@
-Interest amount included in the entry amount.

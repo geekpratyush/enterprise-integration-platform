@@ -1,2 +1,0 @@
-Indicates on which entry amount(s) the query is performed.
-

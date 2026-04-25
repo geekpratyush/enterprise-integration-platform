@@ -1,2 +1,0 @@
-Line items total amount accepted by a data set submission(s).
-

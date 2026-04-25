@@ -1,2 +1,0 @@
-If SubscriptionLegDetails/FinancialInstrumentQuantityChoice is not present, then RedemptionLegDetails/FinancialInstrumentQuantityChoice is mandatory in each occurrence of RedemptionLegDetails .
-If SubscriptionLegDetails/FinancialInstrumentQuantityChoice is present, then it must be present in each occurrence of SubscriptionLegDetails.

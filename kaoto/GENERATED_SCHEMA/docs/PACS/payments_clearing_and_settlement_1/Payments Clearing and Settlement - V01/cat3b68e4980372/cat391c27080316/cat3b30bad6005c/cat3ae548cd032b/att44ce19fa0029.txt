@@ -1,1 +1,0 @@
-Used when a payment instruction (eg. MT103) has been initiated to resolve a case.

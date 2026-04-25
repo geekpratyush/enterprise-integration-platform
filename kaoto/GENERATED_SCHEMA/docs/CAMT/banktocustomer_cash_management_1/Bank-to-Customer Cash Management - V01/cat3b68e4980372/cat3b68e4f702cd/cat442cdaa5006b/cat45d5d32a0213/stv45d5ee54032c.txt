@@ -1,1 +1,0 @@
-"	Interbank clearing and settlement : an account owner that initiated a transaction may want to know whether the transaction has already been settled in a clearing system, as the counterparty requests this information from the initiating account owner.  

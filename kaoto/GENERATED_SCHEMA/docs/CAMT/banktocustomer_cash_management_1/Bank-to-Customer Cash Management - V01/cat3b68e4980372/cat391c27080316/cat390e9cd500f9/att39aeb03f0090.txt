@@ -1,1 +1,0 @@
-Computation method of accrued interest of the related financial instrument.

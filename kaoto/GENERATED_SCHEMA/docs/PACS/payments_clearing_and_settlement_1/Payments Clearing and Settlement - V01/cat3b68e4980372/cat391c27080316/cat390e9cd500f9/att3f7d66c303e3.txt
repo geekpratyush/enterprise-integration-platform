@@ -1,2 +1,0 @@
-Version number of the option contract or tranche of
-the related financial instrument.

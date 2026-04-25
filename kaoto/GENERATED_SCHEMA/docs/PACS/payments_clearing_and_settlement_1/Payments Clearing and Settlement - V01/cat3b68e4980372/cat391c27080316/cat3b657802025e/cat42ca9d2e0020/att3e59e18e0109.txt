@@ -1,3 +1,0 @@
-Driver and part of a trade in the event that the security master file was wrong at the point of entry.
-
-A 'Yes' value means 'traded flat', a 'No' value means 'not traded flat'.

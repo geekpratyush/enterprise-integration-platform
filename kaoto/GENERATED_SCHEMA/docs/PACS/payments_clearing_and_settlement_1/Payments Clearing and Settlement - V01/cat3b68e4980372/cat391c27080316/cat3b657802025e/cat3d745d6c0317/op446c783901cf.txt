@@ -1,1 +1,0 @@
-If ChargesAccountAgent is present, it must contain a branch of the DebtorAgent. It must not contain a completely different financial institution.

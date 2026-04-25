@@ -1,1 +1,0 @@
-Specifies the date at which the next certification check will be performed.

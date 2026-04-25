@@ -1,1 +1,0 @@
-Specifies whether the confirmation is an intention to execute the transfer or an actual confirmation of a transfer.

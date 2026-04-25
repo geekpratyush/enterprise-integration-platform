@@ -1,1 +1,0 @@
-Regularity with which payment instructions are to be created and processed as a result of the standing order, eg, daily, weekly, or monthly.

@@ -1,1 +1,0 @@
-Either AllPreviousYears or one or more occurrences of SpecificPreviousYears must be present, but not both.

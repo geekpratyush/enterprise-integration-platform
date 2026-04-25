@@ -1,1 +1,0 @@
-Date must only be present if DateCode is not present or if DateCode contains the value FUTU (FutureDate) or WHIF (WhenAndIfIssued) or SELL (SellersOption).

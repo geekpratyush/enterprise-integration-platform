@@ -1,1 +1,0 @@
-Investment fund class to which an investment fund order execution is related.

@@ -1,1 +1,0 @@
-Reference of a linked trade, eg, reference to a previous event in the life of a trade, or reference to a securities trade.

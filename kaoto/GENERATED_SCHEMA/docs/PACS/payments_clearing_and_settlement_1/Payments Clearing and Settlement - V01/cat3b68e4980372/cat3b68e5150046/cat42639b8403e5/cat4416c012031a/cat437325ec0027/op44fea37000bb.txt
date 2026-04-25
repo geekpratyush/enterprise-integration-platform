@@ -1,1 +1,0 @@
-GroupHeader/SettlementInformation/SettlementMethod/COVE is not allowed when returning direct debit transactions.

@@ -1,2 +1,0 @@
-Indicates whether the income peference assigned to an investment account should be deleted.
-

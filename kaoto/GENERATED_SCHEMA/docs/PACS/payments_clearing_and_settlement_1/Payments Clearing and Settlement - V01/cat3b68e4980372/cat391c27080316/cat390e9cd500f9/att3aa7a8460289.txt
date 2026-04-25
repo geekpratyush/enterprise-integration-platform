@@ -1,1 +1,0 @@
-Amount of accrued interest for the second leg.

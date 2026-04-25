@@ -1,2 +1,0 @@
-If OriginalGroupInformationAndStatus/GroupStatus is present and is equal to RCVD, then TransactionInformationAndStatus/TransactionStatus is not allowed.
-

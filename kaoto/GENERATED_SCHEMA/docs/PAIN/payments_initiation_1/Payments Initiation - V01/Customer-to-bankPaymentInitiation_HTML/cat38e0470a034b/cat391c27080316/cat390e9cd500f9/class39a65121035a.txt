@@ -1,1 +1,0 @@
-Amount of money debited and credited on the books of an account servicer.

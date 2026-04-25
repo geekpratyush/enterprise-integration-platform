@@ -1,1 +1,0 @@
-An order where the executing broker or investment manager decides on the quantity or price.

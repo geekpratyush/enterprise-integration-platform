@@ -1,1 +1,0 @@
-Reference to the identification of a transaction of a user, for which the TSU must generate a report.

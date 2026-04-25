@@ -1,1 +1,0 @@
-Identifies a point on a benchmark curve. The point can be stated via a combination of maturity month/year and coupon.

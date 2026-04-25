@@ -1,1 +1,0 @@
-Specifies that the category of a product may be indicated by a code or by free text.

@@ -1,1 +1,0 @@
-If Amount is present, then AmountSign is optional. If Amount is not present, then AmountSign is not allowed.

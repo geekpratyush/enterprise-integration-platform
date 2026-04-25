@@ -1,1 +1,0 @@
-If ChargesInformation/ChargesAmount is present, then InstructedAmount must be present.

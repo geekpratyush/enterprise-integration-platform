@@ -1,1 +1,0 @@
-Counterparty disagrees with the security/issue, eg, ISIN or a financial instrument attribute differs.

@@ -1,1 +1,0 @@
-Party that is not part of the trade or trade transaction but that must receive a copy of the message, eg, a trustee, an insurer.

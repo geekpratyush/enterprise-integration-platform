@@ -1,2 +1,0 @@
-Specifies the date the interest rate of a floating rate note will be/was 
-calculated and reset, according to the terms of the issue.

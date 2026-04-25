@@ -1,1 +1,0 @@
-Indicates whether a penalty might be imposed to the borrower of a mortgage in case of prepayments occurring during the lockout period.

@@ -1,3 +1,0 @@
-Indicates whether the firm executing the order is held to best execution requirements and may be able to make some discretionary decisions.
-
-

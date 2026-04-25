@@ -1,1 +1,0 @@
-Origin of the payment (be it a member or a system or both).

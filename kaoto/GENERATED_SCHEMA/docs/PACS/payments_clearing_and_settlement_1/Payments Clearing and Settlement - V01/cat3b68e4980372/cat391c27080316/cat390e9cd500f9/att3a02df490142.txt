@@ -1,1 +1,0 @@
-Allocated quantity of security multiplied by the allocated price.

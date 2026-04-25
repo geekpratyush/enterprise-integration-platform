@@ -1,3 +1,0 @@
-The first agent or instructed agent acting as a forwarding agent (in a relay scenario) undertakes the necessary checks before processing the payment order further. 
-These checks include e.g. syntactical validation. 
-

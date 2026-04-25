@@ -1,1 +1,0 @@
-If Amount is present, then GrossAmountIndicator is mandatory. If Amount is not present, then GrossAmountIndicator is not allowed.

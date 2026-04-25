@@ -1,1 +1,0 @@
-Speed of unscheduled partial of complete payment of the principal amount outstanding on a debt obligation before its due date.

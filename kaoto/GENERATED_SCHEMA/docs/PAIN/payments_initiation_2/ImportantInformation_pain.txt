@@ -1,6 +1,0 @@
-﻿IMPORTANT:
-
-Second version of Payments Initiation messages
-
-Please note that the PaymentCancellationRequestV01 (pain.006.001.01) was replaced by the CustomerPaymentCancellationRequestV01 (camt.055.001.01).
-

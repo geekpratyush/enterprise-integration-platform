@@ -1,1 +1,0 @@
-Acknowledge only negative or erroneous messages

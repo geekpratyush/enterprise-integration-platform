@@ -1,1 +1,0 @@
-If TimeInForce contains the value GTHD (GoodThroughDate) or the value GTCA (GoodUntilCancelled) then OrderExpiryDate must be present.

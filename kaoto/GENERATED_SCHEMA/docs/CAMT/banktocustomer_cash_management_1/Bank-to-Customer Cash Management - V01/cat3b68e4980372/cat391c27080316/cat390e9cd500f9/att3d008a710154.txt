@@ -1,1 +1,0 @@
-Unique and unambiguous identification assigned by a provider to identify its customers. The identification can be used as a search criteria for reconciliation of accounts payable/receivable or any other communication between the two parties. 

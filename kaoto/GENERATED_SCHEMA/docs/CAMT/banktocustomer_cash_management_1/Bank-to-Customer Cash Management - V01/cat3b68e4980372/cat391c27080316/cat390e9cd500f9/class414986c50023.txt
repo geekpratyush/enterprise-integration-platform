@@ -1,8 +1,0 @@
-Occurs when the instructing party requests to cancel a previously instructed payment.
-
-This case is initially assigned by an instructing party to an instructed party. The assigned case can be forwarded through the payment chain.
-
-The potential outcome of such a case is:
-
-- the cancellation request is rejected. This happens if the creditor refuses to reimburse the funds.
-- the cancellation is accepted. The effective return of funds needs to be handled through specific instructions.

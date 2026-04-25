@@ -1,1 +1,0 @@
-Rounding may only be present if PortfolioTransferOutRate is present.

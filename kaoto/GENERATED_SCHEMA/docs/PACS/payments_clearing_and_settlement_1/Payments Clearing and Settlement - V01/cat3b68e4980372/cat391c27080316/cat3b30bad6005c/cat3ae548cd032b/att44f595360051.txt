@@ -1,1 +1,0 @@
-Balance representing the total outgoing payments that have been processed and are waiting for settlement.

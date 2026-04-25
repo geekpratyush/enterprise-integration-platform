@@ -1,1 +1,0 @@
-Set of elements further identifying the type of credit transfer being requested by the initiating party.

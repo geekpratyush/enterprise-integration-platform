@@ -1,2 +1,0 @@
-Choice of identification of a party. The party can be identified by providing a BIC/BEI or a proprietary code.
-Optionally, the client account number can also be provided.

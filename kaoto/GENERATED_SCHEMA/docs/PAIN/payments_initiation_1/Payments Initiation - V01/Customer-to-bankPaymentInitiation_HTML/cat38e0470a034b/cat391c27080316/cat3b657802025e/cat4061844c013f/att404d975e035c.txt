@@ -1,1 +1,0 @@
-Date and time at which the status message was created by the sending party.

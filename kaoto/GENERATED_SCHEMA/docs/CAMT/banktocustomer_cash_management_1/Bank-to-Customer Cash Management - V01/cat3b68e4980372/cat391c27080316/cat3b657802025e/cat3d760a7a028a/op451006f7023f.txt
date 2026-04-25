@@ -1,1 +1,0 @@
-A customer reference that must be passed on in the end-to-end chain. In the event that no reference is given, NONREF must be used.

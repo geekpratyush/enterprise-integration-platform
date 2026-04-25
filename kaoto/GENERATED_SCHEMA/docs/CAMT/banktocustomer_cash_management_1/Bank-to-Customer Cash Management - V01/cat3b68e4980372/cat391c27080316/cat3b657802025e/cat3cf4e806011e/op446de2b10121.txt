@@ -1,1 +1,0 @@
-One and only one of the following elements must be present: Name, BEI, OtherScheme.

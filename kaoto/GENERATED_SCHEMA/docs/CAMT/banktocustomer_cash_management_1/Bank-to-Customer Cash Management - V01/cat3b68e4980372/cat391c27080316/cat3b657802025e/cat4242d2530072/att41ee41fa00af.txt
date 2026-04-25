@@ -1,1 +1,0 @@
-Identifies the location where the goods are received for transportation.

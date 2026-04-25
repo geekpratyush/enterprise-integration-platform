@@ -1,5 +1,0 @@
-PreviousEstimatedTotalNAV: new.
-PreviousEstimatedTotalUnitsNumber: new.
-EstimatedNetCashForecastDetails: new.
-ExceptionalCashFlowIndicatorRule: new.
-

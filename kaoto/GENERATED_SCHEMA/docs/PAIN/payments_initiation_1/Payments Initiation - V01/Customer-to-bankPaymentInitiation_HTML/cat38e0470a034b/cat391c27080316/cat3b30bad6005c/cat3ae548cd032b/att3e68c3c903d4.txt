@@ -1,1 +1,0 @@
-Indicates an order that is good until the end of next month.

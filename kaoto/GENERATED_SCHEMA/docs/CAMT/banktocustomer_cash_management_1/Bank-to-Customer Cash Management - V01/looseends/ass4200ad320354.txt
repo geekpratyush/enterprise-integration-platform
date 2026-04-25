@@ -1,1 +1,0 @@
-Deletion of the current element.

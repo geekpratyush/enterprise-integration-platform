@@ -1,3 +1,0 @@
-Party that assigns the case to another party. This is also the sender of the message.
-
-

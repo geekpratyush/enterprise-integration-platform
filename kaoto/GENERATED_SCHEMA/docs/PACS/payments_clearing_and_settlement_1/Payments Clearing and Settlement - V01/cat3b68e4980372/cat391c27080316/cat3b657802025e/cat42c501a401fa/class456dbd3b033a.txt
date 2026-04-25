@@ -1,1 +1,0 @@
-Status of a transfer cancellation instruction and the reason for the status.

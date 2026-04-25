@@ -1,1 +1,0 @@
-Scheme code for LU (Luxemburg) - Luxembourg RTGS (LIPS).

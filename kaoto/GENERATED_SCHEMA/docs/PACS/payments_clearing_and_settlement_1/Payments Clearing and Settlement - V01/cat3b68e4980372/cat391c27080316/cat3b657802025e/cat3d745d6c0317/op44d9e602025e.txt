@@ -1,3 +1,0 @@
-If InstructedAmount is present, then RequestedExecutionDate is mandatory.
-If InstructedAmount is not present, then RequestedExecutionDate is not allowed.
-

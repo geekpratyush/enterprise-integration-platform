@@ -1,1 +1,0 @@
-Specifies possible agreement clauses related to invoice financing.

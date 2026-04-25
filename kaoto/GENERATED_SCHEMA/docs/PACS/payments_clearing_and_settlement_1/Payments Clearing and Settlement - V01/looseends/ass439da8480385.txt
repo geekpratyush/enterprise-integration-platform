@@ -1,1 +1,0 @@
-Set of elements that further specifies the type of transaction.

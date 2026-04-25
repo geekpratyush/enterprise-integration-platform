@@ -1,2 +1,0 @@
-Minimum quantity of financial instrument to be bought or sold if the 
-entire order cannot be executed. 

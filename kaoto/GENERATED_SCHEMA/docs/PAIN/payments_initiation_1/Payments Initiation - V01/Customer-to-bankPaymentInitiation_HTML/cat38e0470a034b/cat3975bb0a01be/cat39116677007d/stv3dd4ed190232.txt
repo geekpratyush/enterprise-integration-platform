@@ -1,1 +1,0 @@
-The forwarding agent forwards to the initiating party a status report for the payment order received from the first agent.

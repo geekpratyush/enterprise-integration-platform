@@ -1,4 +1,0 @@
-If TaxIncluded is "yes", then TaxAmount is mandatory.
-If TaxIncluded is "No", then TaxAmount is optional, and taxes may be provided for information.
-
-

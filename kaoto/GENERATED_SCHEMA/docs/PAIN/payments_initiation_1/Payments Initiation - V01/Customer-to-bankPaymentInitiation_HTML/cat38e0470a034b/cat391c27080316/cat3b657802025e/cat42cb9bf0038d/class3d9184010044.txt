@@ -1,1 +1,0 @@
-Trading session identified with its code, name or type.

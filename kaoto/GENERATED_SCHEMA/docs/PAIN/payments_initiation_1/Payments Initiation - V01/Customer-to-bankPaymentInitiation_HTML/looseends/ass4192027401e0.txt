@@ -1,5 +1,0 @@
-CancellationRight: type changed from CancellationRight1Code to CancellationRight1 (code alignment).
-IndividualExecutionOrderDetails: renamed to IndividualExecutionDetails.
-CashSettlementDetails: renamed to BulkCashSettlementDetails (alignment).
-SettlementCurrency3Rule: modified.
-BulkCashSettlementDetails4Rule: new.

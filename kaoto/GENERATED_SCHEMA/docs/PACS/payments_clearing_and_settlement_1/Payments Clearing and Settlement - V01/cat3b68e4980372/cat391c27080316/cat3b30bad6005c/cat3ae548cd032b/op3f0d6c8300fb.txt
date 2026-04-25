@@ -1,3 +1,0 @@
-Only Business Entity Identifiers registered with the ISO 9362 Registration Authority and consisting of 8 or 11 contiguous characters comprising the first three or all four of the following components: BANK CODE, COUNTRY CODE, LOCATION CODE, BRANCH CODE, are valid BEIs.
-
-

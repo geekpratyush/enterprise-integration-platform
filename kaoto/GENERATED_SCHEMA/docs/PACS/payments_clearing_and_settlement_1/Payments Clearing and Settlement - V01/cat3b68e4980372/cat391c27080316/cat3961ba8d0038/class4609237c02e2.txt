@@ -1,1 +1,0 @@
-Party which is member of a cash settlement system and which submits trades to be settled between members.

@@ -1,1 +1,0 @@
-Choice between various text based selection criteria.

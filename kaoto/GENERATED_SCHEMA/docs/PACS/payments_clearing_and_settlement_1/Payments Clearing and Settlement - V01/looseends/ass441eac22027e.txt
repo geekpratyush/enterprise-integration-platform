@@ -1,1 +1,0 @@
-Identifies the organisation which is represented by a person or for which a person works.

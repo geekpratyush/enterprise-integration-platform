@@ -1,1 +1,0 @@
-Specifies a numeric string with a maximum length of 15 digits and may be prefixed with a plus sign.

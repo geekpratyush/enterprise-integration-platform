@@ -1,1 +1,0 @@
-If RegistrationAddressIndicator contains the value true or 1 (Yes), then MailingIndicator must contain the value true or 1 (Yes). 

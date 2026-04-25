@@ -1,1 +1,0 @@
-Account used for payment of income if different from the current cash account. 

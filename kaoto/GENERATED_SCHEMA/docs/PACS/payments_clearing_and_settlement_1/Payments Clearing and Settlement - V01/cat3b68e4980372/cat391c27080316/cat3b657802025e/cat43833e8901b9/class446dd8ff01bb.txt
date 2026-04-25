@@ -1,1 +1,0 @@
-Set of elements providing specific information on the direct debit transaction and the related mandate.

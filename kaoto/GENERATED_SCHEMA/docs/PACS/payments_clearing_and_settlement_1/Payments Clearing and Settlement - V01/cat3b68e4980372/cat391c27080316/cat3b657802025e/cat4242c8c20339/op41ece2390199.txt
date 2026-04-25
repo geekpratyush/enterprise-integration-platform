@@ -1,1 +1,0 @@
-If Rate is present, then Amount is not allowed. If Rate is not present, then Amount is mandatory.

@@ -1,1 +1,0 @@
-Information identifying the investor, ie name, address social security number and date of birth.. 

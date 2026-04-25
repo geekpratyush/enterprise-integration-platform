@@ -1,2 +1,0 @@
-Specifies the date/time on which the trade was executed.
-

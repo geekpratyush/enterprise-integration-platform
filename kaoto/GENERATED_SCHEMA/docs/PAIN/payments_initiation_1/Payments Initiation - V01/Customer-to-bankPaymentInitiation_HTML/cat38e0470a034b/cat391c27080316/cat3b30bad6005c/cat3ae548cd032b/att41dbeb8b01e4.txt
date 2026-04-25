@@ -1,1 +1,0 @@
-Code for payment at end of period after delivery.

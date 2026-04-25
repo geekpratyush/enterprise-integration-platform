@@ -1,1 +1,0 @@
-Number of days after which the payment must be effected.

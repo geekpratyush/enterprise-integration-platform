@@ -1,1 +1,0 @@
-Indicates if the information about the intermediaries must be selected.

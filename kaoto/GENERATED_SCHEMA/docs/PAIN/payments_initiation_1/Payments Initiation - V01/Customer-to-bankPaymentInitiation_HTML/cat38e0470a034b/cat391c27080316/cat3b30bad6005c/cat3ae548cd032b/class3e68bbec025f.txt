@@ -1,1 +1,0 @@
-Indicates the side of the quote request, from the buy-side perspective.

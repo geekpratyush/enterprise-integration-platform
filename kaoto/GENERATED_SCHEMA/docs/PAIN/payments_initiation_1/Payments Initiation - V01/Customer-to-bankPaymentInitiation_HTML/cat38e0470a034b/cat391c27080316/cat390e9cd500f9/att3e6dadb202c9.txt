@@ -1,1 +1,0 @@
-Indicates whether the issuer has the right to pay the bond prior to maturity.

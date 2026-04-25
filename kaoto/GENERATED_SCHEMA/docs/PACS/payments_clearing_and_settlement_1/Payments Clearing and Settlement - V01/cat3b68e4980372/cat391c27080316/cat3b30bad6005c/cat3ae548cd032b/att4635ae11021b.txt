@@ -1,1 +1,0 @@
-Unrecognised event number or identification (eg corporate action event number, a meeting identification)

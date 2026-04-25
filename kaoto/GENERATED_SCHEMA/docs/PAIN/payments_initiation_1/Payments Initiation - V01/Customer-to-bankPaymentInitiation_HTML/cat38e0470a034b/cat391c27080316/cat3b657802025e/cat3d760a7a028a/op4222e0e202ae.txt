@@ -1,1 +1,0 @@
-If Percentage is present, then Amount is not allowed. If Percentage is not present, then Amount is mandatory.

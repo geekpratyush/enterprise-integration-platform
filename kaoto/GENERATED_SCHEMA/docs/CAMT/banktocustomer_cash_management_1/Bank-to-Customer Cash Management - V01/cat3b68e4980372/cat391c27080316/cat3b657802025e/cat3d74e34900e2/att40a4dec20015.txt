@@ -1,1 +1,0 @@
-Entity that assigns the information.

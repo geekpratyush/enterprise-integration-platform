@@ -1,1 +1,0 @@
-Status that can be reported just up to the moment the execution will take place; it signifies that the payment initiation has been accepted for execution.

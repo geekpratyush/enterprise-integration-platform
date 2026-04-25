@@ -1,1 +1,0 @@
-Identifies the status of a case resulting from an investigation assignment.

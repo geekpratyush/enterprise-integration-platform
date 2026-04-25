@@ -1,1 +1,0 @@
-The payment has been settled or stopped.

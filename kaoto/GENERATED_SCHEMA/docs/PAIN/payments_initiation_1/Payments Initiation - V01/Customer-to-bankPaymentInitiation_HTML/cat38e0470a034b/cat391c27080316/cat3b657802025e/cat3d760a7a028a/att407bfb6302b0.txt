@@ -1,4 +1,0 @@
-Unique and unambiguous identifier for a payment instruction assigned by the initiating party.
-
-Usage: the instruction identification can be used between the initiating party and the receiving agent to refer to the individual instruction. It can be used in several messages, eg, status messages, debit advices or account statement messages.
-

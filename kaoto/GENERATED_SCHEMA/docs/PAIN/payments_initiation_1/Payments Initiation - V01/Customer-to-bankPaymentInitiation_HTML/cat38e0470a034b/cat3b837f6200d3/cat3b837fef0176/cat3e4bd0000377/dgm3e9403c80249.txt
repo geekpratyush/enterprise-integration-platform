@@ -1,7 +1,0 @@
-Scenario : statement/advice information in a direct scenario - Status : reject/return - by agent other than first agent.
-
-In this scenario, the checks by the first agent were OK, and he may have sent a status message with status : 'accepted : pending settlement' to the initiating party.
-It is possible that, once the execution date is reached, the first agent will already debit the account of the debtor - and inform the debtor of this debit through a customer debit advice/statement.
-
-The first agent sends the payment in the interbank chain. The final agent rejects/returns the interbank payment message, as he does not recognize the creditor. In this case, the first agent will credit the account of the debtor and advise the debtor of this credit by means of a customer credit advice/statement. 
-

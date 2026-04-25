@@ -1,1 +1,0 @@
-Changed type of PaymentType from PaymentType1Code to PaymentType2Choice

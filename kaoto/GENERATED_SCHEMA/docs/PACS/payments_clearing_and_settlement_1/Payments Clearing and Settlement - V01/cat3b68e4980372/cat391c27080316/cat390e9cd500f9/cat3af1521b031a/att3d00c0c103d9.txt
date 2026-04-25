@@ -1,1 +1,0 @@
-Period of time during which the status of the system is valid. 

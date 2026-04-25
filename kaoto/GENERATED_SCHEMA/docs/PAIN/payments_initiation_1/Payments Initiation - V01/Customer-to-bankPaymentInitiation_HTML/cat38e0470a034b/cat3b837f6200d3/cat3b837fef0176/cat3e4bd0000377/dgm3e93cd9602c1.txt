@@ -1,8 +1,0 @@
-Scenario : acceptance of group by first agent
-
-In this scenario, the first agent receives a group with multiple single transactions. 
-The first agent does all the checks (authentication/technical validation/assess static and dynamic risk) and confirms acceptance of the group 'for execution'. This is translated into the acceptance status :'pending settlement'. The first agent will then move on to do the booking/settlement on the debtor's account and send the payment order in the interbank chain. 
-
-Information needed by the initiating party to reconcile the accept with payment order sent :
-Group ID, requested execution date, possibly payment type identification details and name of message type sent, debtor's account details and debtor identification.
-

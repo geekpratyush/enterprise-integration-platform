@@ -1,1 +1,0 @@
-Event is the cutoff for the daytime cycle of the securities settlement system.

@@ -1,1 +1,0 @@
-Business Entity Identifier. Code allocated to non-financial institutions by the ISO 9362 Registration Authority. The Business Entity Identifier (BEI) has the same format as the BIC code (8 up to 11 characters) as stipulated in the standard ISO 9362 Banking (Banking Telecommunication Messages, Bank Identifier Codes, BIC).

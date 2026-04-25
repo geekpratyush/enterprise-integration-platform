@@ -1,2 +1,0 @@
-Type of event, expressed as free text or a bilaterally agreed code.
-

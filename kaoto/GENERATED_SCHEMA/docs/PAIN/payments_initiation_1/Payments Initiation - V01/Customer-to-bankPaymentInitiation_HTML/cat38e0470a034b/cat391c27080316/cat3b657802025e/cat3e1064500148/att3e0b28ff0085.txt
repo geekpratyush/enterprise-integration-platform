@@ -1,2 +1,0 @@
-Total value of a balance of the securities account for a specific financial instrument, expressed in the official/main currency of the fund as per the prospectus.
-

@@ -1,3 +1,0 @@
-Set of elements providing details information on the original amount.
-
-Usage: This component (on transaction level) should be used in case booking is for a single transaction and the original amount is different from the entry amount.  It can also be used in case individual original amounts are provided in case of a batch or aggregate booking.

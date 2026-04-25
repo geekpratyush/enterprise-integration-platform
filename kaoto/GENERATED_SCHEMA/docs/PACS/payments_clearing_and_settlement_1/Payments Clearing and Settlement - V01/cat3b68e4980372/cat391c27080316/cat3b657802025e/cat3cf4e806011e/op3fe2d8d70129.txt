@@ -1,2 +1,0 @@
-If Identification/FinancialInstitution/BIC is present, then CountryOfResidence is not allowed.
-If Identification/FinancialInstitution/BIC is not present, then CountryOfResidence is optional.

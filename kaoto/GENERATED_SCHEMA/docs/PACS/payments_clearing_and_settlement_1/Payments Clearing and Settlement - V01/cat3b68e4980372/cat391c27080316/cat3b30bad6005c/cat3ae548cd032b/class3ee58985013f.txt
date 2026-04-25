@@ -1,1 +1,0 @@
-Identifies the proprietary code in the case where a single institution issues more than one proprietary code for the same business purpose. This code must be used in combination with IssuerCode. 

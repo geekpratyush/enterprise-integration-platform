@@ -1,1 +1,0 @@
-An order pegged against the mid price, which is the average between the offer and bid prices.

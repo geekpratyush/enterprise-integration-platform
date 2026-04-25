@@ -1,1 +1,0 @@
-The instruction for the cash settlement between two clearing agents.

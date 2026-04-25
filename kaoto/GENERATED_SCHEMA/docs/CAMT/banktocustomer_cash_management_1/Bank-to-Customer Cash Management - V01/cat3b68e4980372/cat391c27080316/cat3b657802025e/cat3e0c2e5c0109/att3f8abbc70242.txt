@@ -1,2 +1,0 @@
-Place where the settlement of transaction will take place. 
-In the context of the investement funds,  the place of settlement is the Transfer Agent or an (I)CSD.

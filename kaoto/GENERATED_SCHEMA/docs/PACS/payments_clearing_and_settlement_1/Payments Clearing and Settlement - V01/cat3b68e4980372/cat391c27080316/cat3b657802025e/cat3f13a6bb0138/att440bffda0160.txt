@@ -1,1 +1,0 @@
-Breakdown of the cash movements into a fund by transaction type, eg, subscription, switch-in.

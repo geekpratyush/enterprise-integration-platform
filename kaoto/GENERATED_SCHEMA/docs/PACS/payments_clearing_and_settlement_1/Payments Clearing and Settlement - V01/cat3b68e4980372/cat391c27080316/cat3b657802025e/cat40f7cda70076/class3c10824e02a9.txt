@@ -1,1 +1,0 @@
-Choice between a unit in decimal number or a face amount in currency and amount.

@@ -1,1 +1,0 @@
-Indicates whether the standing arrangement to settle through an RTGS or a non RTGS system for securities is overridden or not.

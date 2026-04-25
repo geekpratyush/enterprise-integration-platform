@@ -1,1 +1,0 @@
-Describes an activity that took place during a period.

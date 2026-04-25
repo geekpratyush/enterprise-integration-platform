@@ -1,1 +1,0 @@
-Identifies the instruction for which a status is confirmed.

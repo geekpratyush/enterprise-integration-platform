@@ -1,4 +1,0 @@
-DrawerIdentification: type changed from PartyIdentification1Choice to PartyIdentification2Choice.
-DraweeIdentification: type changed from FinancialInstitutionIdentification1Choice to FinancialInstitutionIdentification3Choice.
-PayeeIdentification: type changed from PartyIdentification1Choice to PartyIdentification2Choice.
-

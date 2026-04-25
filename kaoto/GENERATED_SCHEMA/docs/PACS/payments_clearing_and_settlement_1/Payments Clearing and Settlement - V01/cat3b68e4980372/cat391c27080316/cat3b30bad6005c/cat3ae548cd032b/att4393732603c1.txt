@@ -1,2 +1,0 @@
-Specified charges amount is not as agreed between sender and receiver.
-

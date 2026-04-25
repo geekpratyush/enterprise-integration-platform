@@ -1,1 +1,0 @@
-The yield of a bond to its maturity date.

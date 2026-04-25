@@ -1,1 +1,0 @@
-Order type, expressed as a code.

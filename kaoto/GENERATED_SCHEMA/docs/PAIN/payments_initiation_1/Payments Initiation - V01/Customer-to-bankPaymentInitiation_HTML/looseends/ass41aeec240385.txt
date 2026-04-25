@@ -1,2 +1,0 @@
-GrossSettlementAmount: renamed to SettlementAmount. 
-PaymentInstrumentChoice: renamed to PaymentInstrument (correction).

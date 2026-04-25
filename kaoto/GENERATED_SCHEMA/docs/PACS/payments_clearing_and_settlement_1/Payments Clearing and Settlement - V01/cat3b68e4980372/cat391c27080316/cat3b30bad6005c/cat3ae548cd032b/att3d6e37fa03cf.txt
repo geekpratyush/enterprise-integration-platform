@@ -1,1 +1,0 @@
-Transaction causes the 'Receiver multilateral limit' to be exceeded and cannot currently be processed.

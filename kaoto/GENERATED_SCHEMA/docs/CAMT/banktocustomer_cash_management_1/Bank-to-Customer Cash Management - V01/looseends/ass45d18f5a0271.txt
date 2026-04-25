@@ -1,1 +1,0 @@
-Specifies the family and the sub-family of the bank transaction code, within a specific domain, in a structured and hierarchical format.

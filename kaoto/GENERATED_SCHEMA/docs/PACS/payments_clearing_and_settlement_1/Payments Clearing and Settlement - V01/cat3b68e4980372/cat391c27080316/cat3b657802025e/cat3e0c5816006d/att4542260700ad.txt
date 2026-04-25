@@ -1,1 +1,0 @@
-Reference assigned by a sending party to unambiguously identify a payment information block within a payment message.

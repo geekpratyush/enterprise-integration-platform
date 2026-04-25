@@ -1,1 +1,0 @@
-Currency to buy in relation to the trade.

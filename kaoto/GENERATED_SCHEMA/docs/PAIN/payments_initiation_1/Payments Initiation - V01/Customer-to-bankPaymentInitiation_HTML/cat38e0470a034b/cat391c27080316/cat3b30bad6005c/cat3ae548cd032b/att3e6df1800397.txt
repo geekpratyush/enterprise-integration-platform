@@ -1,1 +1,0 @@
-Identifies that the initiating party requests a single entry for each of the transactions in the initiation. 

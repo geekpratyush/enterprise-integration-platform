@@ -1,1 +1,0 @@
-Indicates the rounding direction when an amount is to be spread over several funds.

@@ -1,1 +1,0 @@
-Specifies if the account opening instruction is about a newly created account or a supplementary account.

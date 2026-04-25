@@ -1,1 +1,0 @@
-Information on the processing of one instruction.

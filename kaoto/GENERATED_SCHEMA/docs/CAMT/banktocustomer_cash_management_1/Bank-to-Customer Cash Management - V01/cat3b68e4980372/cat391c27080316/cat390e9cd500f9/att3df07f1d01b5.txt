@@ -1,1 +1,0 @@
-Price at which the order was executed.

@@ -1,1 +1,0 @@
-Quantity of a product on a line.

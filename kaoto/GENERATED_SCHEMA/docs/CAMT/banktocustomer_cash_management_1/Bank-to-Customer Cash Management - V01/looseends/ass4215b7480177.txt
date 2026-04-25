@@ -1,1 +1,0 @@
-Calculated information about the goods of the underlying transaction.

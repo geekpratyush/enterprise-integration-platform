@@ -1,1 +1,0 @@
-A (indirect) bilateral limit is defined between a participant and one other (indirect) participant.

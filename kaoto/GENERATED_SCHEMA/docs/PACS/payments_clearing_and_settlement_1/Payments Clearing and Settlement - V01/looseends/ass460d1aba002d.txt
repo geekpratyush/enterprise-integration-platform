@@ -1,1 +1,0 @@
-Includes details about a single instalment within an invoice, such as identification and amount.

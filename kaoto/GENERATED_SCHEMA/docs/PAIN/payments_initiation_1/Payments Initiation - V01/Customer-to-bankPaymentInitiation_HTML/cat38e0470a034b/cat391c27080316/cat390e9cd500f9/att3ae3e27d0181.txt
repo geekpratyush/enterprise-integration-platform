@@ -1,1 +1,0 @@
-Indicates the type of transaction of which the order is a component.

@@ -1,2 +1,0 @@
-Information that locates and identifies a specific address, as defined by postal services.
-

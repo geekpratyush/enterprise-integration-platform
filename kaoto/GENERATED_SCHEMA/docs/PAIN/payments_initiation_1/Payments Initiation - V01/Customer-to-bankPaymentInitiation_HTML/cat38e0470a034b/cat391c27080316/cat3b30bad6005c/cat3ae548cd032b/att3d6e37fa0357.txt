@@ -1,2 +1,0 @@
-Transaction eligible for immediate settlement, has failed to settle.  
-

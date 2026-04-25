@@ -1,1 +1,0 @@
-Sequential number of the statement.

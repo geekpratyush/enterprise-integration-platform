@@ -1,3 +1,0 @@
-The account owner's reconciliation system matches the information from the internal accounting system with the information received from the external feed (ie the account servicer). It identifies items which are not matched. These mismatched items may trigger an investigation process.
-
-Note : in case the cash movement information sent by the account servicer contains aggregate amounts, a "Financial Reconciliation Process" finally analyzes total amounts paid according to the initial cash movement information provided by the account servicer (eg in a statement),  with the specifications provided in information reports provided by the account servicer that provide detailed, individual information.

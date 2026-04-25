@@ -1,1 +1,0 @@
-The transaction is a receive against payment.

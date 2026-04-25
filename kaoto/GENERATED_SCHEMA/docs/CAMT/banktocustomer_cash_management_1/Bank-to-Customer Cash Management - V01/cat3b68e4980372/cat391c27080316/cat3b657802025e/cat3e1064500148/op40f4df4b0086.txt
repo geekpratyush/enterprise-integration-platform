@@ -1,1 +1,0 @@
-If SafekeepingPlace is present, then BalanceAtSafekeepingPlace is not allowed.

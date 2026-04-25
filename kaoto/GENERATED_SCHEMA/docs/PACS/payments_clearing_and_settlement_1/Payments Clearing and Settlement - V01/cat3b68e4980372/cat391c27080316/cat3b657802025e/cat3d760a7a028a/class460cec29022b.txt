@@ -1,1 +1,0 @@
-Details about a single instalment (financed or not) within an invoice.

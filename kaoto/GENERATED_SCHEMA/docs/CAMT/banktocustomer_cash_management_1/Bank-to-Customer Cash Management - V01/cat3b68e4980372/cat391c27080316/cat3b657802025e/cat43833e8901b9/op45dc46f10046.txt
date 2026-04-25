@@ -1,2 +1,0 @@
-If AmendmentIndicator is true, then AmendementInformationDetails must be present, with amended mandate information.
-

@@ -1,1 +1,0 @@
-Specifies the code of corporate action event, in free-text format.

@@ -1,1 +1,0 @@
-Unique identifier affixed by manufacturer to a chassis for identification purposes.

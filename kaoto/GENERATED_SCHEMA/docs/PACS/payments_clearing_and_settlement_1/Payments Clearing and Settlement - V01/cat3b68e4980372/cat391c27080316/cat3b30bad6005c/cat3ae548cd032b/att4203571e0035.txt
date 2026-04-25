@@ -1,1 +1,0 @@
-State of the baseline when two baselines have been submitted and they do not match.

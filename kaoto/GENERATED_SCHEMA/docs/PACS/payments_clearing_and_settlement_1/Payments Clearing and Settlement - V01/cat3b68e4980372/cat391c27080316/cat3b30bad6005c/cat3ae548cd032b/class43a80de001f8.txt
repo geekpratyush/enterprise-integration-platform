@@ -1,1 +1,0 @@
-Polish National Clearing Code Identifier. Identifies Polish financial institutions on the Polish national clearing system.

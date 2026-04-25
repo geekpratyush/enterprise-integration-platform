@@ -1,1 +1,0 @@
-Indicates that if the limit conditions are not satisfied, it should not be executed.

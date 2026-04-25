@@ -1,2 +1,0 @@
-Total of all individual amounts included in the message, irrespective of currencies.
-

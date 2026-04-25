@@ -1,2 +1,0 @@
-If PaymentCommonInformation/PaymentMessageType is present, then TransactionReport/Transaction/Payment/PaymentMessageType is not allowed.
-If PaymentCommonInformation/PaymentMessageType is not present, then TransactionReport/Transaction/Payment/PaymentMessageType is optional.

@@ -1,1 +1,0 @@
-If ExceptionalNetCashFlowIndicator is "true" or "1" (Yes) , then either SortingCriteriaDetails/ForecastBreakdownDetails/CashInForecastDetails/ExceptionalCashFlowIndicator or SortingCriteriaDetails/ForecastBreakdownDetails/CashOutForecastDetails/ExceptionalCashFlowIndicator, or both, must be present.

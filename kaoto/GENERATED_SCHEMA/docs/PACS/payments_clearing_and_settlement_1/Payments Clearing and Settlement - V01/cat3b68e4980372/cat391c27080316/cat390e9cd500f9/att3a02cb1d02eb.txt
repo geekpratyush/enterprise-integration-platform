@@ -1,1 +1,0 @@
-Unique and unambiguous identification for the account between the account owner and the account servicer.

@@ -1,3 +1,0 @@
-Indicates the type of quote is an indicative quote. 
-
-An indicative quote is used to inform a counterparty of a market. An indicative quote does not result directly in a trade.

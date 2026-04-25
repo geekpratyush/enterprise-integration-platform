@@ -1,1 +1,0 @@
-Specifies the state of a payment.

@@ -1,1 +1,0 @@
-Specifies the type of message and/or the instrument that originated the entry.

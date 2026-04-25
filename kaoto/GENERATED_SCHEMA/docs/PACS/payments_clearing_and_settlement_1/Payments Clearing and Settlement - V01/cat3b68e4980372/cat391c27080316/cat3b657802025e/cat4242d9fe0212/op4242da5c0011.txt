@@ -1,1 +1,0 @@
-If Code is present, then Other is not allowed. If Code is not present, then Other is mandatory.

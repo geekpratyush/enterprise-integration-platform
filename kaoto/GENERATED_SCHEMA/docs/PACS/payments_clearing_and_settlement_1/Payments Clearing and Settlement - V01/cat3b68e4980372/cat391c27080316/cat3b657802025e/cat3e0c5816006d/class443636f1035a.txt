@@ -1,1 +1,0 @@
-Status applying to individual instructions of a MeetingInstruction.

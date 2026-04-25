@@ -1,1 +1,0 @@
-Payment method that will be used to transfer the funds to the creditor.

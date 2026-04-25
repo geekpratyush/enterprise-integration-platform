@@ -1,1 +1,0 @@
-Specifies the number of days used for calculating the accrued interest amount.

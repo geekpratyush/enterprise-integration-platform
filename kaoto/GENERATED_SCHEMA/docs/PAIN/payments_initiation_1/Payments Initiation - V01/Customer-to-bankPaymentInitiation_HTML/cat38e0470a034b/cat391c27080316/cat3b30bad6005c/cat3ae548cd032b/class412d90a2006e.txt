@@ -1,1 +1,0 @@
-Specifies the underlying reason for the cancellation of the associated transaction.

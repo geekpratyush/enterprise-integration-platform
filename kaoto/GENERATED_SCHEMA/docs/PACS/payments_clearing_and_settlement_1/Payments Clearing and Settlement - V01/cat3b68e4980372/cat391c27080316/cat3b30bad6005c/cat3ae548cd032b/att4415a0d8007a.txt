@@ -1,1 +1,0 @@
-Scheme code for TH (Thailand) - Thailand Payment System (Bahtnet/2).

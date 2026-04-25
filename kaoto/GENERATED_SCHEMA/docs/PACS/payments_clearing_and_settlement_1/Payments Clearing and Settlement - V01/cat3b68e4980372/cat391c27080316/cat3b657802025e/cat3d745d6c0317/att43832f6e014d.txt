@@ -1,3 +1,0 @@
-Specifies the payment method to be used.
-
-Usage: in a direct debit scenario, one code only must be used, i.e. , DD.

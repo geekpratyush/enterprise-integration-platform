@@ -1,1 +1,0 @@
-Indicates whether the cancellation applies to a whole group of transactions or to individual transactions.

@@ -1,1 +1,0 @@
-The account owner's accounting system will feed the reconciliation system with information on the ledger entries described under Book Cash Movement.

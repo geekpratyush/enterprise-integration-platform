@@ -1,2 +1,0 @@
-A number of transactions have been accepted, whereas another number of transactions have not yet achieved 'accepted' status. 
-

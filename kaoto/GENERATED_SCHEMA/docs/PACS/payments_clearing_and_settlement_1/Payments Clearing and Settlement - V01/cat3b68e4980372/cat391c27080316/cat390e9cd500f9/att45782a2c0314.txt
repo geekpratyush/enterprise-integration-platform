@@ -1,1 +1,0 @@
-Indicates whether the certificate type has been obtained and verified.

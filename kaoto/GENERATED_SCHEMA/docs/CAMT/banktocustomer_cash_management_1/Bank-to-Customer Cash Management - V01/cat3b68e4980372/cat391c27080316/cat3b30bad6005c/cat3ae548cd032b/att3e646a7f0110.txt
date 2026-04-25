@@ -1,1 +1,0 @@
-Event is the expected resume time for a TARGET component.

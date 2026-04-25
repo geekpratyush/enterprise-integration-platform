@@ -1,1 +1,0 @@
-Category of the investment fund order, expressed as a code.

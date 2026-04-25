@@ -1,1 +1,0 @@
-Pre-allocate according to the amounts shown in a linked allocation instruction.

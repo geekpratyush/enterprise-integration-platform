@@ -1,1 +1,0 @@
-Transaction/instruction is cancelled following a cancellation instruction/request made by the system.

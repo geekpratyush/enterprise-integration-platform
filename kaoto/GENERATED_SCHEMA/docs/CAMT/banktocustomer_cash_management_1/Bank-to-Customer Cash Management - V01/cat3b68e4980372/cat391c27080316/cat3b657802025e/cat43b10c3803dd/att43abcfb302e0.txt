@@ -1,1 +1,0 @@
-Refers to the identification of a notification assigned by the trading side.

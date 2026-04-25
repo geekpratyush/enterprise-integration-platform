@@ -1,1 +1,0 @@
-Settlement does not match: counterparty's instruction is for physical settlement, your instruction is not, or vice versa.

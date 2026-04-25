@@ -1,1 +1,0 @@
-An odd-lot order to be executed at the closing price on the market.

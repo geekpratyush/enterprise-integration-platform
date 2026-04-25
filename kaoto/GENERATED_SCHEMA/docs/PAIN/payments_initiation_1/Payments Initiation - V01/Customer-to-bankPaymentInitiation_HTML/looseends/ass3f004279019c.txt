@@ -1,1 +1,0 @@
-Indicates that the quote details are indicated as an offer of a security, commodity, currency.

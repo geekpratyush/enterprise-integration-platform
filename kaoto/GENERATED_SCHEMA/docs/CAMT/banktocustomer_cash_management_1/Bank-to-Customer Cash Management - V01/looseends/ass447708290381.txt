@@ -1,2 +1,0 @@
-Identifies the name and address of a financial institution. 
-

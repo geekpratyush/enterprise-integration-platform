@@ -1,2 +1,0 @@
-Unique and unambiguous identifier of the account opening or account modification instruction at application level.
-

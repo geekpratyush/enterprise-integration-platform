@@ -1,1 +1,0 @@
-Settlement is done by the agent instructing and forwarding the payment to the next party in the payment chain.

@@ -1,1 +1,0 @@
-Indicates whether the financial instrument repays the principal amount in parts during the life cycle of the security.

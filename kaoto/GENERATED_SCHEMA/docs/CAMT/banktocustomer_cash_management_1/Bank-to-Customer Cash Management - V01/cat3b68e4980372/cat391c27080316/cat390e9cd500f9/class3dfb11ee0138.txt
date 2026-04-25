@@ -1,1 +1,0 @@
-Parameters of a physical delivery.

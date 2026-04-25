@@ -1,1 +1,0 @@
-At least one reference should present to identify the underlying transaction(s).

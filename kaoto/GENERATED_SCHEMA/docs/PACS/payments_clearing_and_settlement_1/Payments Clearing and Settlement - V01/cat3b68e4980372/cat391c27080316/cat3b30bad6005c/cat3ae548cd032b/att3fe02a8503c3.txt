@@ -1,1 +1,0 @@
-Transaction is the payment of a specific amount of money lent by a creditor/lender.

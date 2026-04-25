@@ -1,1 +1,0 @@
-Common transaction status for all individual transactions reported with the same status.

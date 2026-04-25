@@ -1,5 +1,0 @@
-Type: type changed from TypeOfPrice2Code to PriceType1, which used TypeOfPrice7Code: new codes have been added, eg, DDVR, OTHR
-and the element AdditionalInformation has been added for use with OTHR.
-NumberOfDaysAccrued: new.
-TaxableIncomePerShare: new.
-TaxableIncomePerShareCalculated: new.

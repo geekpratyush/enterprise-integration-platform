@@ -1,1 +1,0 @@
-Bank Identification Code or identification of an account by its source.

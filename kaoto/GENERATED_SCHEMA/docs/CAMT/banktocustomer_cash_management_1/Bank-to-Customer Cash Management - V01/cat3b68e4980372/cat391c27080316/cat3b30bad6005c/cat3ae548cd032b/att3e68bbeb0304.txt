@@ -1,1 +1,0 @@
-Value weighted average price through a morning session.

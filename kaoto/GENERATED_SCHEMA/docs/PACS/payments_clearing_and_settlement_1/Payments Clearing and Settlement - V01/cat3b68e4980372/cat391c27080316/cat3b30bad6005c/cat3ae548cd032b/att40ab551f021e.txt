@@ -1,1 +1,0 @@
-Scheme code for NZ (New Zealand) - New Zealand Assured Value Payments.

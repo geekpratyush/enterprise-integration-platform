@@ -1,1 +1,0 @@
-Minimum number of days notice a counterparty needs for terminating the repurchase agreement.

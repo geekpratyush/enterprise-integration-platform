@@ -1,1 +1,0 @@
-If the MinimumQuantity element in QuoteSide is present, then the Quantity element is not allowed.

@@ -1,1 +1,0 @@
-Either ChargeBasis or ExtendedChargeBasis may be present, but not both. 

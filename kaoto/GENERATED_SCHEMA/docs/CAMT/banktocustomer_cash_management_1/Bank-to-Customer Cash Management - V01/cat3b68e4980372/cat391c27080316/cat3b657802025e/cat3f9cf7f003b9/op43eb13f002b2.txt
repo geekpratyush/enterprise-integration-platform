@@ -1,1 +1,0 @@
-Either EUCapitalGain or ExtendedEUCapitalGain may be present, but not both. 

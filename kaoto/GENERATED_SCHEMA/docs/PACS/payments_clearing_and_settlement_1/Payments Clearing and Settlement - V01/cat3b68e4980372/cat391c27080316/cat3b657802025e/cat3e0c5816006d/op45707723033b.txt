@@ -1,3 +1,0 @@
-If PrimaryIndividualInvestor is present, then SecondaryIndividualInvestor may be present. If PrimaryIndividualInvestor is not present, then SecondaryIndividualInvestor is not allowed.
-
-If PrimaryIndividualInvestor is present, then OtherIndividualInvestor may be present. If PrimaryIndividualInvestor is not present, then OtherIndividualInvestor is not allowed.

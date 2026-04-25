@@ -1,2 +1,0 @@
-Identifies whether the freight charges associated with the goods are "prepaid" or "collect".
-

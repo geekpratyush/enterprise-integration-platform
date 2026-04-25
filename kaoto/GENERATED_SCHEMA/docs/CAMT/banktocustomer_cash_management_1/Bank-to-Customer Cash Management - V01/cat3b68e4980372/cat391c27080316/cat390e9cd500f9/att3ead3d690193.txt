@@ -1,1 +1,0 @@
-Information on the type of foreign exchange trade or processing that has an impact on the booking of the trade, eg, spot.

@@ -1,1 +1,0 @@
-Price expressed as a number of percentage points above par, eg, a premium price of 2.0% equals a price of 102 when par is 100. 

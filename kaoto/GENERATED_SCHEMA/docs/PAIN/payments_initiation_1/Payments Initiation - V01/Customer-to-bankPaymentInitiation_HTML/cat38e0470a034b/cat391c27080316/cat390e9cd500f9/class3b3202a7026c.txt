@@ -1,1 +1,0 @@
-Information for the executing party about the price to be obtained for an order. It is expressed as an offset from a reference price such as the market price or last trade price.

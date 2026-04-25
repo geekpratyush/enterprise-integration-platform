@@ -1,1 +1,0 @@
-Specifies that a proprietary code must be indicated.

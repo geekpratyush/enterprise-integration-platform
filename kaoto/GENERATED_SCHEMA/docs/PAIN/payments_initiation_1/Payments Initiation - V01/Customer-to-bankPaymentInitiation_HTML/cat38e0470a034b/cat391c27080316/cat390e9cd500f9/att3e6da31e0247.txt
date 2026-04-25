@@ -1,1 +1,0 @@
-Method used to compute the accrued interest of a financial instrument.

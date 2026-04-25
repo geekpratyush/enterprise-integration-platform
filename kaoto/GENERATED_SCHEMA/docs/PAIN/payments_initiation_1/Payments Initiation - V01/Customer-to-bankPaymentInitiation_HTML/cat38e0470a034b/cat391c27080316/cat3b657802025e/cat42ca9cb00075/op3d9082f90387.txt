@@ -1,1 +1,0 @@
-It is recommended that Quantity is not used with MinimumQuantity and/or with MaximumQuantity.

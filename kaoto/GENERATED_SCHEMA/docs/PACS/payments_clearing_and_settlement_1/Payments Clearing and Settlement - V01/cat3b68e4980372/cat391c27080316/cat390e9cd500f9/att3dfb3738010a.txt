@@ -1,1 +1,0 @@
-Regularity at which a statement is issued.

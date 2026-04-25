@@ -1,2 +1,0 @@
-If GroupReversal is true, then ControlSum and NumberOfTransactions are not allowed.
-If GroupReversal is false, then ControlSum and NumberOfTransactions may be present.

@@ -1,3 +1,0 @@
-Indicates the side of the bid in the case of a disclosed bidding process. Used instead of buy and sell side.
-True = Side 1
-False = Side 2

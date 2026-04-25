@@ -1,1 +1,0 @@
-Indicates if the investor was referred by a placement agent.

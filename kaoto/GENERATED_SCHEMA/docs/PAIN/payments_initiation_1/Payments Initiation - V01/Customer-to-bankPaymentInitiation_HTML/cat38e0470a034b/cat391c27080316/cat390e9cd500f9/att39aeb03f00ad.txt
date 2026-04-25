@@ -1,1 +1,0 @@
-Indicates whether the underlying financial instrument of an option is owned by the writer of the option.

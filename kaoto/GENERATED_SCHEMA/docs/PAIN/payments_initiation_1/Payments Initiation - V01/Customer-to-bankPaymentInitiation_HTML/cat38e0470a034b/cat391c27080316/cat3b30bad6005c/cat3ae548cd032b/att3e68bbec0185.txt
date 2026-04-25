@@ -1,1 +1,0 @@
-Smaller or equal to.

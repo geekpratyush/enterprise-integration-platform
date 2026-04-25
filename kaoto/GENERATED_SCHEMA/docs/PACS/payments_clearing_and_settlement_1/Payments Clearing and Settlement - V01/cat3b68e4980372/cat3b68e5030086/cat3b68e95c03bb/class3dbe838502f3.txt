@@ -1,1 +1,0 @@
-Messaging application used by an automated system.

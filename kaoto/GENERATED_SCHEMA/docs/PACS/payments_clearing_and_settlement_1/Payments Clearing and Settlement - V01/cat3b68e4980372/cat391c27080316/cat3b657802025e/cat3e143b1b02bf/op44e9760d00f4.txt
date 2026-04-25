@@ -1,1 +1,0 @@
-Either CashSettlementDate is present or all occurences of IndividualOrderDetails/CashSettlementDate are present, but not both.

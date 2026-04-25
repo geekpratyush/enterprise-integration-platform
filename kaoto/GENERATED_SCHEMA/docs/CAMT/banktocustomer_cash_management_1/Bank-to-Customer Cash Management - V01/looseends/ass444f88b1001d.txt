@@ -1,1 +1,0 @@
-Payment instrument for the cash-in flow.

@@ -1,1 +1,0 @@
-Currency in which the interbank settlement amount is expressed.

@@ -1,1 +1,0 @@
-Ask yield based on semi-annual coupons compounding in all periods and actual/actual calendar.

@@ -1,2 +1,0 @@
-Specifies the currency and price at which the trade has been executed, excluding commission or accrued interest.
-

@@ -1,1 +1,0 @@
-Indicates whether an amount is a gross amount (including all charges, commissions and tax), or a net amount.

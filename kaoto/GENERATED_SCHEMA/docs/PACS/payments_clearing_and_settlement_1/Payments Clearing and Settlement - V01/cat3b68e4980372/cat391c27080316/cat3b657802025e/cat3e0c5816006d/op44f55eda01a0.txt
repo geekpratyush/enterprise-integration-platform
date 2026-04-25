@@ -1,1 +1,0 @@
-If this message is not solicited by the receiver, then the value of the OrderReference element in every occurrence of BulkExecutionDetails/IndividualExecutionDetails must be UNSOLICITED.

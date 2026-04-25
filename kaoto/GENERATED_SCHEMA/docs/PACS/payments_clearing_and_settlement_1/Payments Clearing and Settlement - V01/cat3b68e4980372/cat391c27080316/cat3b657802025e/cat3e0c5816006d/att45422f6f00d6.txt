@@ -1,1 +1,0 @@
-Sequential number of the report, assigned by the account servicer. It is increased incrementally for each report sent electronically.

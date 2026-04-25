@@ -1,1 +1,0 @@
-Scheme code for FI (Finland) - RTGS (BOF).

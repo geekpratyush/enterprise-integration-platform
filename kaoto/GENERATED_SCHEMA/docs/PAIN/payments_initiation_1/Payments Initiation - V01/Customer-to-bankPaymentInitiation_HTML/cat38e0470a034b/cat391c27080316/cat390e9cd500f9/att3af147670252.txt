@@ -1,1 +1,0 @@
-Identifies a pegged order, ie, an limit order, except that the limit price fluctuates relative to another quantity.

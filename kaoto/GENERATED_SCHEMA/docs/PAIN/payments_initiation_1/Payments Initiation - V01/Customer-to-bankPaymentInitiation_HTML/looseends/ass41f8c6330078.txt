@@ -1,2 +1,0 @@
-Changed the type of InstructionCopy from Max2000Text to Max20000Text.
-Added PaymentInstructionReference, InterbankValueDate, RelatedReference.

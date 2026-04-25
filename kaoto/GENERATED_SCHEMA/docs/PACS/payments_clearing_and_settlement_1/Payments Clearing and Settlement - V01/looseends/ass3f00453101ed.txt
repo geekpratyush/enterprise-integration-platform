@@ -1,1 +1,0 @@
-Indicates that the quote details are indicated as a mid of a security, commodity, currency (an average of the offer and the bid).

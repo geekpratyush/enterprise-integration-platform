@@ -1,1 +1,0 @@
-The yield of a bond based on the closing price 1 day ago.

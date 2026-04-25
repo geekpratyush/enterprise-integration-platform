@@ -1,1 +1,0 @@
-Indicates that the request has been correctly received and the thecnical validation was successful.

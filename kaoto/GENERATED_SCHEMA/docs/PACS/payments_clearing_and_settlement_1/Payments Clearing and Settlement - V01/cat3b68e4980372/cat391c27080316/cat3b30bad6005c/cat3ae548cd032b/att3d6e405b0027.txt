@@ -1,1 +1,0 @@
-Indicates that the entry/transaction is due to the emission/reception of an MT 100 SWIFT message type.

@@ -1,1 +1,0 @@
-Service for which a charge is asked or paid, eg, brokerage fees, expressed as a code.

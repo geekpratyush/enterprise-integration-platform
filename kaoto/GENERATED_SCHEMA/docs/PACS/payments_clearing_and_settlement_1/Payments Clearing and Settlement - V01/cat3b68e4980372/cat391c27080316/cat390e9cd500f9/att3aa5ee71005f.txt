@@ -1,2 +1,0 @@
-Quantity of financial instrument executed by the trading party, either as a single trade transaction or several trade transactions.
-

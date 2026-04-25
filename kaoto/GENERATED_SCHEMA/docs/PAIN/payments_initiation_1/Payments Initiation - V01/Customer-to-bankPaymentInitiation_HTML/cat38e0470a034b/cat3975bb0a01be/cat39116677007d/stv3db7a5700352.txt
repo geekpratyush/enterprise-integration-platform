@@ -1,3 +1,0 @@
-The first agent sends a confirmation to the initiating party or to the forwarding agent (relay scenario) that the payment is executed i.e. that the account is debited. 
-
-

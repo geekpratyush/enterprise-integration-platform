@@ -1,1 +1,0 @@
-Foreign Exchange domain provides the bank transaction codes of all operations that are related to the cash market in foreign currencies made by large banks. Often abbreviated as FOREX.

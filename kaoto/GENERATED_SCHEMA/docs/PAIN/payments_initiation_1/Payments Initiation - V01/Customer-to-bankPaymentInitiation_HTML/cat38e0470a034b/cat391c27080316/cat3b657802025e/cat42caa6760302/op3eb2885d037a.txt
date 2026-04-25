@@ -1,1 +1,0 @@
-ProgressPeriodInterval may only be present if ProgressReport contains the value "true" or "1" (Yes).

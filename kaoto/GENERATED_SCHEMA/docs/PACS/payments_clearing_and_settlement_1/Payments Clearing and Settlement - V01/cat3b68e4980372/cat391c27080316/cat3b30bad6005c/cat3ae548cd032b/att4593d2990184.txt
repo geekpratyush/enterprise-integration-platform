@@ -1,1 +1,0 @@
-Party that transmits the order to the order executing party, if it is not identified in the Investment Account Owner element.

@@ -1,1 +1,0 @@
-Specifies the product for which the status of the confirmation is reported.

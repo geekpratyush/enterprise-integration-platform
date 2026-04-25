@@ -1,1 +1,0 @@
-Indicates the average price of the allocation and is always expressed as a percentage of par. For foreign exchange orders, this should be the all in rate, i.e. the spot rate adjusted for forward points.

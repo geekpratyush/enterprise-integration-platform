@@ -1,1 +1,0 @@
-Event is the time at which the members will be provided with the report corresponding to the processing of low value payments.

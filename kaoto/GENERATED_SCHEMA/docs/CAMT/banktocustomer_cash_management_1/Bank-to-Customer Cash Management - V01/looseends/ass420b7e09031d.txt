@@ -1,1 +1,0 @@
-Uniquely identifies the financial institution which has issued the identification of the set of data by using a BIC. 

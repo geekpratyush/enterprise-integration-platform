@@ -1,1 +1,0 @@
-Either Reason or ExtendedReason must be present, but not both.

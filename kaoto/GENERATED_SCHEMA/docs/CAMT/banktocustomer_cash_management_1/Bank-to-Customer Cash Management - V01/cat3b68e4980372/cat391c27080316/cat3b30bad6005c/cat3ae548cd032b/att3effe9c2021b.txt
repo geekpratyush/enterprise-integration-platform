@@ -1,2 +1,0 @@
-Amount of funds available to cover specified transaction/message amount is insufficient.
-

@@ -1,1 +1,0 @@
-Indicates whether the person is a legal minor. It may depend on the nationality, the domicile country or the transaction in which the person is involved.

@@ -1,2 +1,0 @@
-Order has been stopped at the exchange. Used when guranteeing or protecting a price and quantity.
-

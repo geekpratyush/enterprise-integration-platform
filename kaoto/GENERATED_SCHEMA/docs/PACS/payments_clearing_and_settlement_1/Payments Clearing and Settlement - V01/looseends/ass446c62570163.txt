@@ -1,1 +1,0 @@
-Provides the type of the referred document.

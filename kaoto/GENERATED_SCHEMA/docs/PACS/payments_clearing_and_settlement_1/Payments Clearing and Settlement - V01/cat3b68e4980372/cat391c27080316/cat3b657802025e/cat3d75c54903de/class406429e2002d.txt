@@ -1,1 +1,0 @@
-Reference and status information concerning the payment initiation for which the cancellation status message is being reported.

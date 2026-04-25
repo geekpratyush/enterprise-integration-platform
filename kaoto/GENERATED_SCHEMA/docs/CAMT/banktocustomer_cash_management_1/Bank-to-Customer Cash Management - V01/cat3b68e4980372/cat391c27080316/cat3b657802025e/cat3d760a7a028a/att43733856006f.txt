@@ -1,1 +1,0 @@
-A specific purpose account used to post debit and credit entries as a result of transactions cleared or settled onto a specific clearing and settlement system.

@@ -1,1 +1,0 @@
-Indicates whether standing instruction have been applied or not.

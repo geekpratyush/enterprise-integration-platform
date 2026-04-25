@@ -1,3 +1,0 @@
-Quantity of financial instrument confirmed by the 
-trading party either at block level or per individual 
-allocation.

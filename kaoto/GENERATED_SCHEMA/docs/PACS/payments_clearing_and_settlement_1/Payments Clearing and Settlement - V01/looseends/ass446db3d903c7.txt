@@ -1,1 +1,0 @@
-Financial institution of the seller, uniquely identified by its BIC. 

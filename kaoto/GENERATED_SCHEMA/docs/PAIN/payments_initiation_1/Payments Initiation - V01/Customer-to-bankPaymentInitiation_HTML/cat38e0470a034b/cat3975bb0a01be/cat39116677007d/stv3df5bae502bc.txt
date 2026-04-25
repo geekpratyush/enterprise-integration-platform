@@ -1,3 +1,0 @@
-Depending on the type of cheque requested by the initiating party in the payment instrument/method (and offered by the first agent), the first agent will determine the type of cheque to be issued.
-Types of cheques are not further defined here, as there seem to be quite some differences in types of cheques and how they are labelled in a lot of regions/countries.
-

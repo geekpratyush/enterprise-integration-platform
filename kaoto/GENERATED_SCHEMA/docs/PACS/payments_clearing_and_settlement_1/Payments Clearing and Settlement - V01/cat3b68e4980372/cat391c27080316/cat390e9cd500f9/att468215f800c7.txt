@@ -1,1 +1,0 @@
-Number of securities admitted to the vote, expressed as a number of securities.

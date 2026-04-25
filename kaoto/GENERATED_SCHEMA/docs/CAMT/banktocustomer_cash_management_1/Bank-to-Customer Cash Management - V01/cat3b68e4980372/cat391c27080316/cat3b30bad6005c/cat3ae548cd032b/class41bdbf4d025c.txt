@@ -1,2 +1,0 @@
-Specifies the form of the rebate when commission is waived.
-

@@ -1,1 +1,0 @@
-Refers to the identification of a trade assigned by the trading side of a non deliverable forward trade.

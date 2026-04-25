@@ -1,1 +1,0 @@
-Repurchase agreement details associated with a securities order.

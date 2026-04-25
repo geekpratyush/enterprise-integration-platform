@@ -1,2 +1,0 @@
-Provides details of the person/organisation that has the power of attorney. 
-

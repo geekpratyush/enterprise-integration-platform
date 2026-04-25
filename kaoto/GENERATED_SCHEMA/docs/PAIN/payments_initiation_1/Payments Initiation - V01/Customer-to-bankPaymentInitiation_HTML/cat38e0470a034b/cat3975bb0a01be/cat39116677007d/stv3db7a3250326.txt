@@ -1,7 +1,0 @@
-The payment orders are sent.
-This can happen at 3 phases in the activity diagram :
-> by the initiating party to the forwarding agent (if any)
-> by the forwarding agent to the first agent
-> by the first agent into the interbank chain.
-If there is no forwarding agent, the initiating party sends the payment orders to the first agent.
-

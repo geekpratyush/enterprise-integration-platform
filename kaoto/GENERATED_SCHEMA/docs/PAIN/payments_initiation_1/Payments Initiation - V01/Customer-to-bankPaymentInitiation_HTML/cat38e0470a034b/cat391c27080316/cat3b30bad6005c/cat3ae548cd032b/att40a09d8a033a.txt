@@ -1,1 +1,0 @@
-Transaction is related to transfer of loan to borrower.

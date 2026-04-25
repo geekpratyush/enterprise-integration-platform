@@ -1,1 +1,0 @@
-Indicates the swap spread details of an indication of interest.

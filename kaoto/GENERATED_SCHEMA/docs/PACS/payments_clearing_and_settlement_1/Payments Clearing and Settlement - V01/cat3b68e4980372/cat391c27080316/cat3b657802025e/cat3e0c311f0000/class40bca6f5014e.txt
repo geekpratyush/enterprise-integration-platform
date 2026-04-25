@@ -1,1 +1,0 @@
-Choice between specification of the balance type in structured or free text format.

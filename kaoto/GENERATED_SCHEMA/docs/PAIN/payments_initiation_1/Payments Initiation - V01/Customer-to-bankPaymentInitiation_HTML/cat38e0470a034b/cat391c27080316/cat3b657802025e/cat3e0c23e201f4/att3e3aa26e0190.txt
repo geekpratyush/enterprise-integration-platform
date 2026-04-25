@@ -1,2 +1,0 @@
-Name and address to/from which the physical delivery/receipt of the financial instrument must take place.
-

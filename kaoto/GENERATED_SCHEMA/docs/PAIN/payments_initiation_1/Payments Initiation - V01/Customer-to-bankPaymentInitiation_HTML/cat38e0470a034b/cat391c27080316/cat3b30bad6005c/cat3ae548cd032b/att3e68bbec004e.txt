@@ -1,2 +1,0 @@
-An order to trade stocks, options, or futures as close as possible to the market close.
-

@@ -1,1 +1,0 @@
-Information used to book the executions of a trade.

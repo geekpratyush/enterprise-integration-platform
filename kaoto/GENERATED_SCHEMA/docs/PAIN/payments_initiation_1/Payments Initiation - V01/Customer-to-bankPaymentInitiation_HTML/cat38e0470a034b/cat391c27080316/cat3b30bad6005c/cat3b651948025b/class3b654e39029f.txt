@@ -1,1 +1,0 @@
-A list of  exactly two mutually exclusive values that express the only two possible states of an instance of an object.

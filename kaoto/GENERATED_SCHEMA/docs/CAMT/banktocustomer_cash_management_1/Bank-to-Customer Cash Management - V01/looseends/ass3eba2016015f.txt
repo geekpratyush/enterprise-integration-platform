@@ -1,1 +1,0 @@
-Indicates the bid spread to benchmark details.

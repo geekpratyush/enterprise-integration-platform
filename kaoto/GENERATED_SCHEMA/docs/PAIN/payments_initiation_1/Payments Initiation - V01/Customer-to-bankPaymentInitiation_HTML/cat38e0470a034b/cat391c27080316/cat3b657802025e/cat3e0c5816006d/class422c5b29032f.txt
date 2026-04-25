@@ -1,1 +1,0 @@
-Allows the sender of the rejection message to indicate only one rejection reason that applies to the entire rejected message.

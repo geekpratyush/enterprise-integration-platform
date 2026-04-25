@@ -1,2 +1,0 @@
-If ReturnedInstructedAmount is present and the currency is the same as the currency in InterbankSettlementAmount, then ExchangeRate is not allowed.
-

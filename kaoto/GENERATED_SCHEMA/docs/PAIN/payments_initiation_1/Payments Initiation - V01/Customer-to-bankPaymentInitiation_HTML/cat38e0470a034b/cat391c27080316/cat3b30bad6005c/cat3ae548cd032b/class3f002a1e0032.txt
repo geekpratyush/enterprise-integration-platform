@@ -1,1 +1,0 @@
-Indicates whether the settlement is partial.

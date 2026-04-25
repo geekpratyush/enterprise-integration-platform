@@ -1,1 +1,0 @@
-First payment date of an interest bearing financial instrument.

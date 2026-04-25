@@ -1,1 +1,0 @@
-Account used to post debits and credits when no specific account has been nominated.

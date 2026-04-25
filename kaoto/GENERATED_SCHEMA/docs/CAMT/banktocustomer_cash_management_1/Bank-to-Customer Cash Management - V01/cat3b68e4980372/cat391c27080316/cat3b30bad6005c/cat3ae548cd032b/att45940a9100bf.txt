@@ -1,1 +1,0 @@
-Account must already be opened in order to process the transfer.

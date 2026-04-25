@@ -1,1 +1,0 @@
-Account information of the individual order confirmation for which the status is given. 

@@ -1,1 +1,0 @@
-Single direct debit payment limit not to be exceeded by any single direct debit transaction by a customer.

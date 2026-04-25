@@ -1,1 +1,0 @@
-A choice between payment status reasons.

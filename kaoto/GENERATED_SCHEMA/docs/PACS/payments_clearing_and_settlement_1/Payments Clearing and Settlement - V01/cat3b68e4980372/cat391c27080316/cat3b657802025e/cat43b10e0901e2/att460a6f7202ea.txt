@@ -1,1 +1,0 @@
-Reference to the latest trade identification of the NDF opening trade.

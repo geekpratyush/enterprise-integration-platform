@@ -1,1 +1,0 @@
-Specifies the type of modification to be applied on a set of information.

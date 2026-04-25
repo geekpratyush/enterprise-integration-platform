@@ -1,1 +1,0 @@
-Indicates whether the cash flow is an item that did not appear on the previously sent report, eg, because it was received close to cut-off time.

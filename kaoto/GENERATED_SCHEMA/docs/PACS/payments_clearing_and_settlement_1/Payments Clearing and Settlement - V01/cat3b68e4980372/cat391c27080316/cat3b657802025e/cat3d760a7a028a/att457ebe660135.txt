@@ -1,1 +1,0 @@
-Amount of money asked or paid as compensation for the processing of the instruction.

@@ -1,1 +1,0 @@
-Payment code does not match. The counterparty's instruction is for free settlement, and yours is for settlement against payment, or vice versa.

@@ -1,1 +1,0 @@
-Reports either on a limit  or on a business error.

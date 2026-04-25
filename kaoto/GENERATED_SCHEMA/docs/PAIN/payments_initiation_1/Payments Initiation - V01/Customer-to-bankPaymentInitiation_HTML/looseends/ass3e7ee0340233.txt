@@ -1,1 +1,0 @@
-Reports either member information or a business error.

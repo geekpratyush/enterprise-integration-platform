@@ -1,1 +1,0 @@
-Deal price multiplied by the quantity of a financial instrument traded for the specific trade transaction i.e. the partially filled quantity.

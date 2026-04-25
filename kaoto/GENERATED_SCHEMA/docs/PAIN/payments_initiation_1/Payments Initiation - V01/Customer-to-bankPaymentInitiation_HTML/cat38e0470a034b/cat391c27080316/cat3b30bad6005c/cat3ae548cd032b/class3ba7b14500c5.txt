@@ -1,1 +1,0 @@
-Date and time within a particular calendar year represented by YYYY-MM-DDThh :mm :ss (ISO 8601).

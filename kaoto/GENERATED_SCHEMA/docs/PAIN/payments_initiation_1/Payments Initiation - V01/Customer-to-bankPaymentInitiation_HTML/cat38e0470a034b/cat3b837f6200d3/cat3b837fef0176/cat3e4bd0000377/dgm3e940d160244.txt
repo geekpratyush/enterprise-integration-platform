@@ -1,6 +1,0 @@
-In this scenario, the checks by the forwarding and first agent were OK, and they may have sent/forwarded all the status messages to the initiating party, indicating a 'positive acceptance' status.
-It may be that the first agent will debit the debtor and inform the initiating party through the forwarding agent of this debit by means of a customer debit advice/statement.
-
-The first agent sends the payment in the interbank chain. The final agent rejects/returns the message, as he does not recognize the creditor. In this case, the first agent will reverse the original debit and credit the account of the debtor and needs to advise the debtor of this credit by means of a customer credit advice/statement. The first agent forwards the customer credit advice/statement to the forwarding agent. Theforwarding agent will forward the customer credit advice/statement to the initiating party.
-Note : the order in which the messages above are exchanged reflects a certain logical sequence in the message exchange. Banks implementing these messages should take care to define this chronological sequence depending on the type of status messages they will exchange with their customers.  
-

@@ -1,1 +1,0 @@
-Specifies the content of the user information.

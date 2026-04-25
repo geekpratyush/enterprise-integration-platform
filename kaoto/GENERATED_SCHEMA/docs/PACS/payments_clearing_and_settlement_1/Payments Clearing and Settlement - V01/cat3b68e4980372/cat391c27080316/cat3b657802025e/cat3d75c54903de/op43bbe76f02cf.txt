@@ -1,2 +1,0 @@
-If GroupStatus is present and is equal to OTHR, then AdditionalStatusReasonInformation must be present.
-

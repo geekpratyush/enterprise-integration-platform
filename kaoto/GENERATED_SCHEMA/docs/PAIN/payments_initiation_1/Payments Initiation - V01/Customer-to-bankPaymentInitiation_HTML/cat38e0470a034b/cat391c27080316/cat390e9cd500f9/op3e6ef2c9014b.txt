@@ -1,1 +1,0 @@
-In TradeTransaction, the elements DayOrderQuantity, DayCumQuantity and DayAveragePrice must only be present when it concerns a good till order.

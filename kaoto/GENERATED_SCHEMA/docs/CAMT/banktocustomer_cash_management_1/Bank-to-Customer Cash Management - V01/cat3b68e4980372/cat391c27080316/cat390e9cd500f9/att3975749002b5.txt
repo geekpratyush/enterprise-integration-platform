@@ -1,1 +1,0 @@
-Rate to be used to recalculate the repurchase amount.

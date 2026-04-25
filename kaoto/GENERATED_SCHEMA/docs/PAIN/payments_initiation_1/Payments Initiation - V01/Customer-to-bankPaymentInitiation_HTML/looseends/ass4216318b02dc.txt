@@ -1,2 +1,0 @@
-Information related to price variations, expressed using pre-defined periods.
-

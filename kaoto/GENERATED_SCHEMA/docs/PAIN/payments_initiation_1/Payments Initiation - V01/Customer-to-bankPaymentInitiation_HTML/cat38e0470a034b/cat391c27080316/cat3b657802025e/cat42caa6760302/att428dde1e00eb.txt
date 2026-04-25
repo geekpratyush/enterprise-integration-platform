@@ -1,1 +1,0 @@
-Expected total number of tickets/allocations to be fully executed.

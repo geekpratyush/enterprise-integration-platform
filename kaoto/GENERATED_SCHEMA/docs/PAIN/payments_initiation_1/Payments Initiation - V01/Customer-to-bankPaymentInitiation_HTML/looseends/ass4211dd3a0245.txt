@@ -1,1 +1,0 @@
-Changed type of Status from SystemStatus1Code to systemStatus2Code.

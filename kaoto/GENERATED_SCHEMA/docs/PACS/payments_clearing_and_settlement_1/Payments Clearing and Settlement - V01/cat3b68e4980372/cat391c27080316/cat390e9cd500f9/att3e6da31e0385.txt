@@ -1,2 +1,0 @@
-Time at which current market prices are used to determine the value of a basket.
-

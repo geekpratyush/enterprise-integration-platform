@@ -1,5 +1,0 @@
-AdditionalCashIn: changed from mandatory to optional.
-ResultingCashOut: changed from mandatory to optional.
-RequestedSettlementCurrency: deleted.
-RequestedNAVCurrency: deleted.
-

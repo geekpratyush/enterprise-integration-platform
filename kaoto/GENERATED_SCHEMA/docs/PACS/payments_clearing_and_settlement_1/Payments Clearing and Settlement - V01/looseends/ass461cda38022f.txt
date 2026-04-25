@@ -1,1 +1,0 @@
-Person or organization that represents the debtor for the invoice to be financed.

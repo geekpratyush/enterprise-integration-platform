@@ -1,3 +1,0 @@
-Urgency or order of importance that the originator would like the recipient of the payment instruction to apply to the processing of the payment instruction.
-Usage: This priority relates to queue processing and queue management by forwarding or first agent.
-

@@ -1,1 +1,0 @@
-Reference to the unique identification assigned to a trade by a central matching system.

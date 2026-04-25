@@ -1,1 +1,0 @@
-Specifies a rejection reason for each individual element of a report.

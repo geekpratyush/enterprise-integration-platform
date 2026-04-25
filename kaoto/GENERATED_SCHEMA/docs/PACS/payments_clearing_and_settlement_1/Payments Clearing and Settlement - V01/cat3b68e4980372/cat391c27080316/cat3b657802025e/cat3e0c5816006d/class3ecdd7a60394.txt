@@ -1,1 +1,0 @@
-Used to subscribe or unsubscribe for the receipt of a certain message.

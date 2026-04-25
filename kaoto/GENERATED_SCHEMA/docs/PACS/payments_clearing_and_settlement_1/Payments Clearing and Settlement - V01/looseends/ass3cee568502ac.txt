@@ -1,1 +1,0 @@
-Party that debits an account on its books for a payment to be made.

@@ -1,1 +1,0 @@
-Reason provided for the status of a transfer.

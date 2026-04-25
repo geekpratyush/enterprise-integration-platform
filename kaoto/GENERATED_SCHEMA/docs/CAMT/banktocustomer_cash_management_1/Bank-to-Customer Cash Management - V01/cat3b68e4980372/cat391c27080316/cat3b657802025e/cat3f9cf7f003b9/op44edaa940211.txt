@@ -1,1 +1,0 @@
-Either EUDividendStatus or ExtendedEUDividendStatus may be present, but not both. 

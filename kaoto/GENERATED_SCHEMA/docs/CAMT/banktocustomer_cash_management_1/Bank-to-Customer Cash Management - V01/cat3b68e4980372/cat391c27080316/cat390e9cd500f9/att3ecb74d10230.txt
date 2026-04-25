@@ -1,1 +1,0 @@
-Identifies the type of cross trade which is submitted to the market.

@@ -1,1 +1,0 @@
-Specifies the new status of a trade.

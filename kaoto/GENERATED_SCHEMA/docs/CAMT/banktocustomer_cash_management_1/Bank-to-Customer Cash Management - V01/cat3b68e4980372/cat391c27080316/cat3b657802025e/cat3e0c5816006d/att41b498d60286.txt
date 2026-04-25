@@ -1,1 +1,0 @@
-Original receiver of the message, if this message is a copy.

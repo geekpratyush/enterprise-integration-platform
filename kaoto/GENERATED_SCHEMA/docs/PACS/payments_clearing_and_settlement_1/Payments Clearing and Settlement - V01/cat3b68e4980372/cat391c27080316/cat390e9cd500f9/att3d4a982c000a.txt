@@ -1,1 +1,0 @@
-Number that identifies the merchant to the card issuer.

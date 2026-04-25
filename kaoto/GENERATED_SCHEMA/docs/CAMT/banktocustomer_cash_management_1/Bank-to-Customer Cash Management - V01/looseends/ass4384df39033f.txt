@@ -1,1 +1,0 @@
-Set of elements that further identifies the type of direct debit being requested by the initiating party.

@@ -1,1 +1,0 @@
-Payment initiation has been received by the receiving agent.

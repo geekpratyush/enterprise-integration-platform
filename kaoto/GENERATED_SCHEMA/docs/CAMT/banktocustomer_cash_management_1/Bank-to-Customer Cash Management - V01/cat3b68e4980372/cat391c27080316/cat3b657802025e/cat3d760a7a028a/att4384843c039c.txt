@@ -1,1 +1,0 @@
-Reference assigned by a sending party to unambiguously identify the group of individual cancellation requests being sent.

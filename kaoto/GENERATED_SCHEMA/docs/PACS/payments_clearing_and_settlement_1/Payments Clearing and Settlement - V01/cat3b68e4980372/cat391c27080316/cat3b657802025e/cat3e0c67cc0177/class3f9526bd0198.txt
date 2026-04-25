@@ -1,1 +1,0 @@
-Information about charges booked separately from a transfer amount.

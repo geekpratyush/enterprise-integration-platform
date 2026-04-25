@@ -1,1 +1,0 @@
-Specifies the conditions under which a payment should be processed, in free format text, when the information cannot be coded.

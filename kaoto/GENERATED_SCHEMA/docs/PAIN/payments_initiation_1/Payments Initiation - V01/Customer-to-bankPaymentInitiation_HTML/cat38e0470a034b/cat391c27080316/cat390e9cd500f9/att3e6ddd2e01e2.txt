@@ -1,1 +1,0 @@
-Indicates that an order has been generated in response to an advertisement or an indication of interest.

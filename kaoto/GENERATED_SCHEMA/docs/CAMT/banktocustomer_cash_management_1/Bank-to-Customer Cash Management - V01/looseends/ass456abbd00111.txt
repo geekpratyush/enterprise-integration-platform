@@ -1,1 +1,0 @@
-Financial instrument information of the individual order cancellation for which the status is given.

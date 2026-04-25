@@ -1,1 +1,0 @@
-Either all adjustments, freight charges and taxes must be entered at this level only, or all adjustments, freight charges and taxes must be entered at line item level only.

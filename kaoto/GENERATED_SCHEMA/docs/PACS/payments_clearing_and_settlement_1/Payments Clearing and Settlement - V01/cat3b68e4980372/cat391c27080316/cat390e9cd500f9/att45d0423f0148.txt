@@ -1,1 +1,0 @@
-Indicates the reasons that have determined the result of the single request.

@@ -1,1 +1,0 @@
-If Status is pending, BookingDate is not allowed.

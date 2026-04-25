@@ -1,1 +1,0 @@
-Financial institution that receives the request from the financing requestor and forwards it to the first agent for execution.

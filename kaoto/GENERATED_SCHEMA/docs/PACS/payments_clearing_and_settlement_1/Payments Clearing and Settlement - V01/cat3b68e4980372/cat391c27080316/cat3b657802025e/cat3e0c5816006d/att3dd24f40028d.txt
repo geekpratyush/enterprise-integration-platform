@@ -1,1 +1,0 @@
-Provides the reason for which a quote or a quote request has been rejected.

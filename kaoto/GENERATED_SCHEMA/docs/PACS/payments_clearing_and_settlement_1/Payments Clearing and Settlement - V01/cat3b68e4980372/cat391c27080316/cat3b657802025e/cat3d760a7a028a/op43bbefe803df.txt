@@ -1,2 +1,0 @@
-If GroupCancellation is true, then NumberOfTransactions is not allowed.
-If GroupCancellation is false, then NumberOfTransactions may be present.

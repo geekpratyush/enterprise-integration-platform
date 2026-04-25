@@ -1,1 +1,0 @@
-Information related to the cash flow reported by pre-defined or user defined criteria.

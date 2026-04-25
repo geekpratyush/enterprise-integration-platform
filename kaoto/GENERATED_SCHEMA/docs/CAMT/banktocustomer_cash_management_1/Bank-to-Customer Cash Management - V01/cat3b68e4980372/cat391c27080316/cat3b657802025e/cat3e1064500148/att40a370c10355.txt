@@ -1,1 +1,0 @@
-Total quantity of financial instrument for the referenced holding that is available.

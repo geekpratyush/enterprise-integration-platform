@@ -1,1 +1,0 @@
-Specifies if this document is a copy, a duplicate, or a duplicate of a copy.

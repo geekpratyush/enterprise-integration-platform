@@ -1,1 +1,0 @@
-Premium calculation is based on a percentage of the call amount.

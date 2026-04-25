@@ -1,1 +1,0 @@
-Either TotalUnitsNumber or PortfolioTransferOutRate must be present, but not both.

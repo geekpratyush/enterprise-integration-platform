@@ -1,1 +1,0 @@
-Either InvestmentAccountDetails or (all occurrences of SubscriptionLegDetails/InvestmentAccountDetails and of RedemptionLegDetails/InvestmentAccountDetails) must be present, but not both.

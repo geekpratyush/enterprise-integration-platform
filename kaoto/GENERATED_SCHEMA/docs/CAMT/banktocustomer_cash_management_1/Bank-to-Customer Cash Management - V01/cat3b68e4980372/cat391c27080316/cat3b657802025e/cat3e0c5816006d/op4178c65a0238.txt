@@ -1,1 +1,0 @@
-Either FinalClosingBalance or IntermediaryClosingBalance may be present, but not both.

@@ -1,2 +1,0 @@
-Unique technical identifier for an instance of a fund cash forecast within a fund cash forecast report as assigned by the issuer of the report. 
-

@@ -1,2 +1,0 @@
-This party forwards meeting information and meeting results to the Investor, checks position with the Custodian and collects voting instructions from the Investor and forwards to the next.
- 

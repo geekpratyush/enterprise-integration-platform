@@ -1,1 +1,0 @@
-Transaction is related to the payment of payroll.

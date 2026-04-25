@@ -1,1 +1,0 @@
-Set of key elements of the original transaction being referred to.

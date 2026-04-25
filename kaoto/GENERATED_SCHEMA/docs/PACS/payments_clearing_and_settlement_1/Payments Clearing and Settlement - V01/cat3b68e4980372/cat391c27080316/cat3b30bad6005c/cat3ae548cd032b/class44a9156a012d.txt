@@ -1,2 +1,0 @@
-The collection of information which identifies a specific phone or FAX number as defined by telecom services.
-It consists of a "+" followed by the country code (from 1 to 3 characters) then any combination of numbers, "(", ")", space and "-" (up to 31 characters).

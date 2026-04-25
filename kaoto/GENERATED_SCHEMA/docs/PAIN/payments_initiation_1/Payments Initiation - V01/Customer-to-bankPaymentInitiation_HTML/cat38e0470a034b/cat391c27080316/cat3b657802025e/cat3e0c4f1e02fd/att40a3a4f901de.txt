@@ -1,1 +1,0 @@
-Source of price quotation is the market, expressed as a Market Identifier Code (MIC).

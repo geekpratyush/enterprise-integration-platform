@@ -1,1 +1,0 @@
-If SecondaryOwner is present, then all occurences of SecondaryOwner/Organisation/Address/RegistrationAddressIndicator or of SecondaryOwner/IndividualPerson/Address/RegistrationAddressIndicator must be "false" or "0" (No).

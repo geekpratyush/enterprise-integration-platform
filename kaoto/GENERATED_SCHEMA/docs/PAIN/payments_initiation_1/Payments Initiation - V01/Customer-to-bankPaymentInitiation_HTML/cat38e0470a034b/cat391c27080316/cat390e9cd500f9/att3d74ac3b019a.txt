@@ -1,1 +1,0 @@
-Unique and unambiguous identification of a member within a system, assigned using the member identification scheme of the system.

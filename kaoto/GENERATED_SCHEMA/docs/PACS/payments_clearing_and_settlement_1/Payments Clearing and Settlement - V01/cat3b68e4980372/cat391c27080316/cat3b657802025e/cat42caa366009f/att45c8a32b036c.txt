@@ -1,1 +1,0 @@
-Provides the BIC code of the systematic internaliser.

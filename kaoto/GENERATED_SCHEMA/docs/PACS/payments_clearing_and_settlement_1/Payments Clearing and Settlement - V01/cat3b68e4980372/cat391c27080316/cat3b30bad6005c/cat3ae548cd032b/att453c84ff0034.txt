@@ -1,1 +1,0 @@
-Loans, Deposits & Syndications domain provides the bank transaction codes of all operations that are related to loans, deposits and syndications management.

@@ -1,1 +1,0 @@
-Either BuyAmount or SellAmount must be present but not both.

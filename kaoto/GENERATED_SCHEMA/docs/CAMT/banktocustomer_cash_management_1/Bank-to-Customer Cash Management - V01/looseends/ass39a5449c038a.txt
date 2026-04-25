@@ -1,1 +1,0 @@
-Trade transaction originating from the matching of two counterparties orders.

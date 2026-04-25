@@ -1,1 +1,0 @@
-Balance corresponding to transactions that have been executed, but not yet settled.

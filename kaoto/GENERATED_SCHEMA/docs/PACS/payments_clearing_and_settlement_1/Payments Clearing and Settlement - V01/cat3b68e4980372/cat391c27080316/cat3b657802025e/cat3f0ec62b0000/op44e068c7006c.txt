@@ -1,1 +1,0 @@
-TotalUnitsNumber must be the sum of all occurences of UnitsDetails/UnitsNumber

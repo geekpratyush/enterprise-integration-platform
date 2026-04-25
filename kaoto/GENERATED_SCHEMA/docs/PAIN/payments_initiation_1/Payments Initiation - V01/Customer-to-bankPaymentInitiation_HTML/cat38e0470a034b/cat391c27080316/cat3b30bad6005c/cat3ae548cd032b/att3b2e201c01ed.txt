@@ -1,1 +1,0 @@
-Indicates that cross trades, whereby buy and sell orders are offset without recording the trade on the exchange, are not allowed.

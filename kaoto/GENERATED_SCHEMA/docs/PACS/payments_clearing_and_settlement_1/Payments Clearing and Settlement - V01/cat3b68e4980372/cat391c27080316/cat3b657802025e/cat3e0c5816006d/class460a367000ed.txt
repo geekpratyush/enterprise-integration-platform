@@ -1,1 +1,0 @@
-Reason for which a cancellation is rejected.

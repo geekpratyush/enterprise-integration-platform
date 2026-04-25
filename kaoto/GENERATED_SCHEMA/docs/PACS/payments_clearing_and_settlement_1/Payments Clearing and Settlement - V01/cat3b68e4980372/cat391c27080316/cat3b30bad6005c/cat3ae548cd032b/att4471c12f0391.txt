@@ -1,1 +1,0 @@
-Unit of count defining the number of items regarded as separate units.

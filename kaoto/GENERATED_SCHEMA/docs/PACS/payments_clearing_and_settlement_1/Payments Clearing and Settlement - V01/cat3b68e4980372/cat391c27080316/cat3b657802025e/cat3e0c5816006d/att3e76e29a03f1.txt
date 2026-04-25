@@ -1,1 +1,0 @@
-Indicates whether the payment message type is requested.

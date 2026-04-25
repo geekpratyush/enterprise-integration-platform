@@ -1,1 +1,0 @@
-Amount of money in its original currency when conversion from/into another currency has occurred.

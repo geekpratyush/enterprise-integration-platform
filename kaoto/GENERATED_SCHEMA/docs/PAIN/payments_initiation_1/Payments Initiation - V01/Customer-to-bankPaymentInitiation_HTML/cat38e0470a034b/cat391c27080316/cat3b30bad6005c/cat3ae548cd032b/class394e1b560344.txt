@@ -1,1 +1,0 @@
-Specifies the state of payment of a security at a particular time.

@@ -1,1 +1,0 @@
-Total number of settlement instructions that are linked together.

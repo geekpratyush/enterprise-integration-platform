@@ -1,1 +1,0 @@
-Indicates the registration status of investment fund unit/share.

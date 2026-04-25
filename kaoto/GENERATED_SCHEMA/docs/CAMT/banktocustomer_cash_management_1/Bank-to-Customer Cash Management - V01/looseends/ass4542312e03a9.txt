@@ -1,3 +1,0 @@
-Date and time assets become available to the account owner (in a credit entry), or cease to be available to the account owner (in a debit entry).
-
-Usage : For entries which are subject to availability/float (and for which availability information is present), value date must not be used, as the availability component identifies the number of availability days.

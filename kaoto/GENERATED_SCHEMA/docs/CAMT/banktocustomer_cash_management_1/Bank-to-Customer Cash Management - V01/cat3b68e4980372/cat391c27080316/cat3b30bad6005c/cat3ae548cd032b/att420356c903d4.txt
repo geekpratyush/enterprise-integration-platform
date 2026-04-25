@@ -1,1 +1,0 @@
-Final state of a baseline, in which only reporting is allowed.

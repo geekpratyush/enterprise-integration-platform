@@ -1,1 +1,0 @@
-Price expressed as a currency and value.

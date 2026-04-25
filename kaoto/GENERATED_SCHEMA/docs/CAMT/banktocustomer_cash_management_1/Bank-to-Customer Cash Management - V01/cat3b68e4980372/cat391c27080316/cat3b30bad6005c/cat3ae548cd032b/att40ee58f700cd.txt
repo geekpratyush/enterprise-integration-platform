@@ -1,1 +1,0 @@
-Cancellation instruction has been rejected for further processing.

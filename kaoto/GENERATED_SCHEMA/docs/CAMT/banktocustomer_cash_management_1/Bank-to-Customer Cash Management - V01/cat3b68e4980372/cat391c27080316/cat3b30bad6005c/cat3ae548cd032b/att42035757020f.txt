@@ -1,1 +1,0 @@
-State of the baseline when two baselines have been submitted and they match, or initial state of a baseline in the lodge model.

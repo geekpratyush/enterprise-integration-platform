@@ -1,1 +1,0 @@
-forecasted balance is reconciled with actual balance information received from the bank.

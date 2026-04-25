@@ -1,1 +1,0 @@
-Provides the relationship between a variable and a fixed value. 

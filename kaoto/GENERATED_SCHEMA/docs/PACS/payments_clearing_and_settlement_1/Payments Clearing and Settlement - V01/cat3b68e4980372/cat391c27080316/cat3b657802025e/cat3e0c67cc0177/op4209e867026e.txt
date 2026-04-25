@@ -1,1 +1,0 @@
-If Type is present, then OtherChargesType is not allowed. If Type is not present, then OtherChargesType is mandatory.

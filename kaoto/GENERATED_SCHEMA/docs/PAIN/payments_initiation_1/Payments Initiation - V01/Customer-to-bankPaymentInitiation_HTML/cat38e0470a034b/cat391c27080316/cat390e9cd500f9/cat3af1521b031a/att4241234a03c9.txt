@@ -1,1 +1,0 @@
-Specifies the unit of measurement. For example: kilo, tons.

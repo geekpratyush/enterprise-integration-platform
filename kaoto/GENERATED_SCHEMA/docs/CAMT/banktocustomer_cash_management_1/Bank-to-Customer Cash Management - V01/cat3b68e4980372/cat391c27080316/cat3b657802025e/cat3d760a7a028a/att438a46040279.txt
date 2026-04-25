@@ -1,3 +1,0 @@
-Transaction charges to be paid by the charge bearer for the return transaction.
-
-Usage: the ChargeAmount is applying to the PaymentReturn message, not to the original instruction. 

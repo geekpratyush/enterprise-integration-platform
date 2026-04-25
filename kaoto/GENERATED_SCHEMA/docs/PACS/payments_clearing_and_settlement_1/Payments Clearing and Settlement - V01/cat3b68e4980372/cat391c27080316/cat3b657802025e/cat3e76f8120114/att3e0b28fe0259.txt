@@ -1,2 +1,0 @@
-Qualifies  the current state of an account, e.g. enabled, disabled, deleted, etc. 
-

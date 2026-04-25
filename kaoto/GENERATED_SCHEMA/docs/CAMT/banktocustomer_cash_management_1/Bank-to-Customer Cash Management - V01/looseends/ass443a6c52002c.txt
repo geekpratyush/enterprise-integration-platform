@@ -1,1 +1,0 @@
-Specifies the elements required to assign a proxy.

@@ -1,2 +1,0 @@
-StatusReason may only be present when the GroupStatus is present and is equal to RJCT, PDNG or OTHR.
-

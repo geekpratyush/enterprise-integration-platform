@@ -1,1 +1,0 @@
-An order pegged against the current market price. Relative to the offering if buying and relative to the bid if selling.

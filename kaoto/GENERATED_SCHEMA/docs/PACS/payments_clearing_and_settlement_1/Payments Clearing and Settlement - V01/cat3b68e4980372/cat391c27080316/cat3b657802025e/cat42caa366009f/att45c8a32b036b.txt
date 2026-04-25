@@ -1,1 +1,0 @@
-Exchange or Multilateral Trading Facility (MTF) on which the transaction is executed.

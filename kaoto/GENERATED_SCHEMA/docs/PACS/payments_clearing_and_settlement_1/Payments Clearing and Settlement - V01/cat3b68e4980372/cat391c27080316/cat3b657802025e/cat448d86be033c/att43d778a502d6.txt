@@ -1,1 +1,0 @@
-Proprietary clearing system service selected for a transaction.

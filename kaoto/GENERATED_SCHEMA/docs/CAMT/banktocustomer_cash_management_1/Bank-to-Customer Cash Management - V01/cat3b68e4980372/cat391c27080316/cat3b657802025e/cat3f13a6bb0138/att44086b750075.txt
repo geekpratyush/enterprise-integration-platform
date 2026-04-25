@@ -1,1 +1,0 @@
-Amount of cash flow out, expressed as an amount of money.

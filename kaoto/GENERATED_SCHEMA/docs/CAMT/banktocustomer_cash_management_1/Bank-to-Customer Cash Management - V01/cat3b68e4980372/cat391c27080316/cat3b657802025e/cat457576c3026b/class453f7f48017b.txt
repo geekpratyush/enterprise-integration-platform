@@ -1,1 +1,0 @@
-Indicates when the amount of money will become available.

@@ -1,1 +1,0 @@
-If IntermediaryAgent1 is present, then CreditorAgent must be present.

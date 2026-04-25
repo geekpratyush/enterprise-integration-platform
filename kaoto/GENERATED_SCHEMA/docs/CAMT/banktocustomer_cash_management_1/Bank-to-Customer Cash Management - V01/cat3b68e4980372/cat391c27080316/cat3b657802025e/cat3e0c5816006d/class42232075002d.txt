@@ -1,1 +1,0 @@
-Information about the message that is associated with the activity.

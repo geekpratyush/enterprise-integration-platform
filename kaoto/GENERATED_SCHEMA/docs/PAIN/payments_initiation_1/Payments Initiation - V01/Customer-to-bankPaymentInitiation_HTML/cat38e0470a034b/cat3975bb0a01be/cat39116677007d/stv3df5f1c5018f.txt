@@ -1,3 +1,0 @@
-The initiating party has received a payment status report where invalid/unsuccessful payment orders have been rejected by the first agent or forwarding agent (for either technical or business reason or at the request of the initiating party itself). A repair is possible on these payment orders meaning that it is possible to eliminate the reason of the reject - but they will have to be re-sent by the initiating party to the forwarding - if any- or first agent.
-Upon receipt of a transaction status of "repaired" from the first or forwarding agent, the initiating party or the debtor applies a correction in their masterdata according to the changes that have been applied by the agents, in order to prevent repairs for future payments.
-

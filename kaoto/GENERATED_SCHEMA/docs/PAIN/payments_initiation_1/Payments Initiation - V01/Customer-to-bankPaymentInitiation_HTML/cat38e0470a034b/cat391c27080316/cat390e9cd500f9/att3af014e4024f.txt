@@ -1,1 +1,0 @@
-Last price (buying price and selling price) recorded at the end of a day's trading session.

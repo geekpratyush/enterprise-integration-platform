@@ -1,1 +1,0 @@
-Identifies the different types of freight charges associated with the goods.

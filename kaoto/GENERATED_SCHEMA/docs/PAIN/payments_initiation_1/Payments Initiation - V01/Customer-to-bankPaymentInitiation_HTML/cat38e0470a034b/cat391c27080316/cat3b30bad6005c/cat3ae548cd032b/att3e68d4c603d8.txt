@@ -1,1 +1,0 @@
-For CIV orders - indicates that the Investor prefers that the order be dealt at the unit price determined at the immediately preceding Valuation Point, a.k.a. a Historic price. (This can be overridden by the constitution of the fund or, in certain circumstances, by the Fund Manager.)

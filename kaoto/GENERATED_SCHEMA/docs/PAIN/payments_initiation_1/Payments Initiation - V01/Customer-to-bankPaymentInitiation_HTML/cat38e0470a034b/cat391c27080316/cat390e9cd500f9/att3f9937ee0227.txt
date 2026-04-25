@@ -1,1 +1,0 @@
-Amount of money and currency that may need to be reported for regulatory and statutory requirements.

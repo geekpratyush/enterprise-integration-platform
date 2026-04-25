@@ -1,1 +1,0 @@
-If BulkCashSettlementDetails is present, then Currency in IndividualExecutionDetails/NetAmount and GrossAmount must be the same as IndividualExecutionDetails/RequestedSettlementCurrency in all occurrences of IndividualExecutionDetails.

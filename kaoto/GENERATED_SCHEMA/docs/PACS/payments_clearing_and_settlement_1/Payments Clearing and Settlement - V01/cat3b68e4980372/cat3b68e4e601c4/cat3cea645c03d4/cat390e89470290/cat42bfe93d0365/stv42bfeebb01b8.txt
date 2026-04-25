@@ -1,1 +1,0 @@
-The PaymentClearingAgent acknowledges receipt of the payment order (technical) and proceeds to next step.

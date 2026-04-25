@@ -1,1 +1,0 @@
-Specifies the type of counterparty for which the balance is calculated.

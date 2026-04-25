@@ -1,1 +1,0 @@
-Total reversed amount of money transferred between the instructing agent and the instructed agent in the reversal message.

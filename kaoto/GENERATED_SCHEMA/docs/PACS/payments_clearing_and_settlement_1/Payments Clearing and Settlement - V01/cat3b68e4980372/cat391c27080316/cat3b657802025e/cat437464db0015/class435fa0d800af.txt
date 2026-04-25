@@ -1,1 +1,0 @@
-Specifies the parameters, such as dates, used to calculate the entitlement to vote at a general meeting.

@@ -1,1 +1,0 @@
-Transaction relates to a block trade parent.

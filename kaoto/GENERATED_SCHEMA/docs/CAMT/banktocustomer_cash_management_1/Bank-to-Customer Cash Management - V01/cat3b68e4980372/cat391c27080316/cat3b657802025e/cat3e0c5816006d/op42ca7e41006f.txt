@@ -1,1 +1,0 @@
-RejectedReason must be present if OrderStatus1Code equals "Rejected".

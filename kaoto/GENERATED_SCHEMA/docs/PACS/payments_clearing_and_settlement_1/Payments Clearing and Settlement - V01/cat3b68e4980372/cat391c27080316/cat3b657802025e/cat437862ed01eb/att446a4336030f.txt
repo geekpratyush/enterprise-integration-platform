@@ -1,1 +1,0 @@
-Specifies the local instrument published in an external local instrument code list.

@@ -1,2 +1,0 @@
-ReferredPlacementAgent may only be present if Referred is equal to the code value Referred (REFR). 
-

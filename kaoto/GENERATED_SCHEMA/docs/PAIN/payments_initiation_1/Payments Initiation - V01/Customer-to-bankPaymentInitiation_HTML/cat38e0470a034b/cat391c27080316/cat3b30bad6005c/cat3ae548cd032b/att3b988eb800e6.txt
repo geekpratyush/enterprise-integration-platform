@@ -1,1 +1,0 @@
-Orders that are traded in regularly occuring auctions: orders are accumulated and executed on basis of defined algorithms.

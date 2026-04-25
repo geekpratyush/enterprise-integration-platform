@@ -1,1 +1,0 @@
-Proprietary price specification of the underlying transaction.

@@ -1,1 +1,0 @@
-Status of all the orders in the order message is rejected. This status is used for orders that have not been accepted or entered in an order book.

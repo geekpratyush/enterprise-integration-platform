@@ -1,1 +1,0 @@
-Trading process where orders are executed directly against each others as they hit the marketplace.

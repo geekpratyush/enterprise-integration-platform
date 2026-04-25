@@ -1,3 +1,0 @@
-Further information related to the processing of the payment instruction, that may need to be acted upon by the first agent, depending on agreement between customer and the first agent.  The instruction can relate to a level of service between the first agent and the customer, can be an instruction that has to be executed by the first agent, or can be information required by the first agent. 
-
-Usage: the information contained in the instruction for first agent must not be further transported in the payment chain.

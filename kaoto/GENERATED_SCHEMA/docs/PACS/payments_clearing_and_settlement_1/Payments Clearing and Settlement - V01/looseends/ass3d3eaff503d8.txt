@@ -1,1 +1,0 @@
-Party related to an investment fund order, eg, an intermediary.

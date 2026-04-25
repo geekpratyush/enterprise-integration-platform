@@ -1,1 +1,0 @@
-If GroupHeader/GroupReversal is true, then OriginalGroupInformation/ReversalReasonInformation/ReversalReason must present.

@@ -1,1 +1,0 @@
-Indicates whether the twin baseline is submitted for the first time or whether it is a resubmission of a previous baseline.

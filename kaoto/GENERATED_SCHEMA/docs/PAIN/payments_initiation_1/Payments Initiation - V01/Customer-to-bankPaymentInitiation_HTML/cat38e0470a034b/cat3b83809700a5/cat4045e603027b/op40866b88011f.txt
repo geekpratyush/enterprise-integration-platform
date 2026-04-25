@@ -1,2 +1,0 @@
-If OriginalGroupReferenceInformationAndStatus/GroupStatus is present and is PDNG, then OriginalPaymentInformation/OriginalTransactionReferenceInformationAndStatus/TransactionStatus must be different from RJCT.
-

@@ -1,2 +1,0 @@
-Reason for time-out is the lack of action from the user side.
-

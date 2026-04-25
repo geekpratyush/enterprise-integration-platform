@@ -1,1 +1,0 @@
-Limit not to be exceeded for direct debit operations.

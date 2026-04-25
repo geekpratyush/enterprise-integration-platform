@@ -1,3 +1,0 @@
-Amount: renamed to NetAmount.
-GrossAmount: new.
-PortfolioRedemptionRate: renamed to HoldingsRedemptionRate (alignment).

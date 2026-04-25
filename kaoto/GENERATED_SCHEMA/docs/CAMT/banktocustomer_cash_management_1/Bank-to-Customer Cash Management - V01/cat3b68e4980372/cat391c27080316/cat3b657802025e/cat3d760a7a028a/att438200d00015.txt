@@ -1,3 +1,0 @@
-Further details on purpose in an uncoded form.
-
-Usage: the extended purpose is used to provide further information, when no predefined code is available to describe the purpose.

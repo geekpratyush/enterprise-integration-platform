@@ -1,3 +1,0 @@
-Party that sent the file for which the status has been generated.
-
-Usage: this field will only be used when the content of the message could not be decoded at the receiving side.

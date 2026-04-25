@@ -1,1 +1,0 @@
-Specifies whether the payment of the coupon (interest) on a bond is off the normal schedule.

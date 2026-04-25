@@ -1,1 +1,0 @@
-Specifies if the status request refers to an earlier account opening or modification instruction message.

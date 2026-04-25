@@ -1,1 +1,0 @@
-Information used for identifying an account.

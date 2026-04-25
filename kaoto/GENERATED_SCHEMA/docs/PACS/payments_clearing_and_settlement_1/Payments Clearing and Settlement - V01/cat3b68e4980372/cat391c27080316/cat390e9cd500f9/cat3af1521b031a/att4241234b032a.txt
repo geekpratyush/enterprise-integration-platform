@@ -1,1 +1,0 @@
-Multiplication factor of measurement values. For example: 36 pieces.

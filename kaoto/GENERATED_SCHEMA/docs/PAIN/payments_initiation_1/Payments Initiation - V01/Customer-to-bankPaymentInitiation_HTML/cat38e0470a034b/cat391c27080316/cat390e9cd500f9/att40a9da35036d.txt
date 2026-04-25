@@ -1,2 +1,0 @@
-Unique and unambiguous reference assigned by the creditor to refer to the payment transaction.
-

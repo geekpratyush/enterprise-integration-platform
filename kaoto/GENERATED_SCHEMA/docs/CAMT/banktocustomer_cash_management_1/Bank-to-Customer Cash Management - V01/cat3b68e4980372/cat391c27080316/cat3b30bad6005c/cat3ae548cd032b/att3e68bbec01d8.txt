@@ -1,2 +1,0 @@
-Cancelled order with or without executions.
-

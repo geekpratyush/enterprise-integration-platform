@@ -1,1 +1,0 @@
-System is closed (eg. normal closure of an RTGS)

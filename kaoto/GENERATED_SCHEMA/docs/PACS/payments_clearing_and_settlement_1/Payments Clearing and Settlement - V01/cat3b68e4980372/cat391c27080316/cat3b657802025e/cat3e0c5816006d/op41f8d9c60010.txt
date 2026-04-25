@@ -1,3 +1,0 @@
-If PaymentCommonInformation/TransferValueDate is present, then TransactionReport/Transaction/Payment/TransferValueDate is not allowed.
-If PaymentCommonInformation/TransferValueDate is not present, then TransactionReport/Transaction/Payment/TransferValueDate is optional.
-

@@ -1,1 +1,0 @@
-Yield to Longest Average (Sinking Fund Bonds) - The yield assuming only mandatory sinks are taken.  This results in a slower paydown of debt; the yield is then calculated to the final payment date.

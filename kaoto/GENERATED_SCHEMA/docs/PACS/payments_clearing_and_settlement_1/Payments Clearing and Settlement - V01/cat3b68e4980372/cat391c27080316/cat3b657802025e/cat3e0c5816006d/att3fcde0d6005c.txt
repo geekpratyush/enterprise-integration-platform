@@ -1,1 +1,0 @@
-Specification of data for which there isn't a structured form.

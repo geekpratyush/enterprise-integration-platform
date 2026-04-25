@@ -1,1 +1,0 @@
-A flag indicating a True or False value.

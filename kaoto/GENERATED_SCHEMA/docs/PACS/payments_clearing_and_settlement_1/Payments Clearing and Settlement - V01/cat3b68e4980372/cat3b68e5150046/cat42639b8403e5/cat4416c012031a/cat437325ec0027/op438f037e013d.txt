@@ -1,2 +1,0 @@
-If GroupHeader/GroupReversal is true, then TransactionInformation is not allowed.
-If GroupHeader/GroupReversal is false, then at least one occurrence of TransactionInformation must be present.

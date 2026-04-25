@@ -1,1 +1,0 @@
-Indicates whether the interest bearing instrument is convertible into another type of financial instrument or not.

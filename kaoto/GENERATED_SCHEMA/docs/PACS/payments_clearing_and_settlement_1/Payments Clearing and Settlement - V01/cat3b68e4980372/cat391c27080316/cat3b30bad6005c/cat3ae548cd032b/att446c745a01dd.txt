@@ -1,1 +1,0 @@
-Document is a structured communication reference provided by the creditor to identify the referred transaction.

@@ -1,3 +1,0 @@
-Reference assigned by a sending party to unambiguously identify a group of individual returns being sent.
-
-Usage: this reference is used between the sending party and the receiving party to refer to the group of returned transactions being sent.

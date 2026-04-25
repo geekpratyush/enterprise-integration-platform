@@ -1,1 +1,0 @@
-Describes the error that is the cause of the rejection.

@@ -1,1 +1,0 @@
-Specifies the financing method related to invoice financing (eg collection mandate).

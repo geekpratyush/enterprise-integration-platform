@@ -1,1 +1,0 @@
-Transaction has been successfully processed by the clearing agent. Settlement will take place outside of the system.

@@ -1,1 +1,0 @@
-Derivatives domain provides the bank transaction codes for the derivatives related transactions, i.e. a financial instrument derived from a cash market commodity, futures contract, or other financial instrument.  Derivatives can be traded on regulated exchanges as listed derivatives or over-the-counter.

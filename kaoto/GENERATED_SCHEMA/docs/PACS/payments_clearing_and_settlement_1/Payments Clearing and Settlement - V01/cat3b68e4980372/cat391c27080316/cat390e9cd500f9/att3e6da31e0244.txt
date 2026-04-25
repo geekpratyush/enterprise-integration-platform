@@ -1,1 +1,0 @@
-Range of time during which a swap is in effect.

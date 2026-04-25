@@ -1,1 +1,0 @@
-Either Role or ExtendedRole may be present, but not both.

@@ -1,1 +1,0 @@
-Specifies the clearing channel for the routing of the transaction, as part of the payment type identification.

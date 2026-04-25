@@ -1,1 +1,0 @@
-Specifies whether the current submission of data sets is the last submission for the transaction identified by the TSU transaction identification.

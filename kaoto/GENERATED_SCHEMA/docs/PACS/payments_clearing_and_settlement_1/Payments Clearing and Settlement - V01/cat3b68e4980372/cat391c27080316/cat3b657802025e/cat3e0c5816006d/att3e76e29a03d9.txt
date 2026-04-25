@@ -1,1 +1,0 @@
-Indicates whether the entry date is requested.

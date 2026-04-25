@@ -1,1 +1,0 @@
-Interest type is a textual expression. 

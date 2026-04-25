@@ -1,1 +1,0 @@
-Contains a list of owners and the quantity of securities they own.

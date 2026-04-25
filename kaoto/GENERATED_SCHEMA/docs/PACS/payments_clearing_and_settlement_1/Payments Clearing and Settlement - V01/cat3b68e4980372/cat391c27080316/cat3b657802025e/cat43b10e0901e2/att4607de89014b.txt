@@ -1,1 +1,0 @@
-Specifies the currency in which the non deliverable trade has to be settled ie the deliverable currency.

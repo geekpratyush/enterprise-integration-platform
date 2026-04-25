@@ -1,1 +1,0 @@
-The clearing agent that is charged to execute a payment instruction.

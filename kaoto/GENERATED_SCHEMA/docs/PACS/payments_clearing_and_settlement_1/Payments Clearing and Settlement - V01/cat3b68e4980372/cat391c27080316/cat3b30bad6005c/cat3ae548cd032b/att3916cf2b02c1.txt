@@ -1,1 +1,0 @@
-A basket trade, i.e. a unit of 15 or more financial instruments used in program trading.

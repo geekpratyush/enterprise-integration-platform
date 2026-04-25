@@ -1,1 +1,0 @@
-Price multiplied by the accepted quantity for a line.

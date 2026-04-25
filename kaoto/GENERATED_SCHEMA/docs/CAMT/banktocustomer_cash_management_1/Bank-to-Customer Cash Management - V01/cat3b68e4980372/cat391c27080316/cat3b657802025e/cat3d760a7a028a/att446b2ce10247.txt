@@ -1,1 +1,0 @@
-Original amount of money as moved between the instructing agent and the instructed agent in the original transaction.

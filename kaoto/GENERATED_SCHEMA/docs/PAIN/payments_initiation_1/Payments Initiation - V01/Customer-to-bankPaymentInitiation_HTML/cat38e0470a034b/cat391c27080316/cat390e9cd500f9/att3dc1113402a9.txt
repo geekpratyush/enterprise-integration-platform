@@ -1,1 +1,0 @@
-Quantity of financial instrument that is being advised, following the execution of a trade order.

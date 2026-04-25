@@ -1,1 +1,0 @@
-Specifies the type and the number of underlying assets for the PEP or ISA.

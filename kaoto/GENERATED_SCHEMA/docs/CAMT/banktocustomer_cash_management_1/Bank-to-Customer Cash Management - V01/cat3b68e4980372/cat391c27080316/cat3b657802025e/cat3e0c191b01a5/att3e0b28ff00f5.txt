@@ -1,1 +1,0 @@
-Set of  functions performed by an intermediary in a given situation.

@@ -1,1 +1,0 @@
-Is the concatenation of the name of a party and their postal address. 

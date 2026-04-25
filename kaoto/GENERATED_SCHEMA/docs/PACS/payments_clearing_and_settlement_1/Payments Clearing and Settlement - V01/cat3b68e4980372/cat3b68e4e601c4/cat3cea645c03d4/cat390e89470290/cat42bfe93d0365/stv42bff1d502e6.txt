@@ -1,1 +1,0 @@
-The PaymentClearingAgent reformats/supplements the original payment order for re-submission to the appropriate clearing channel/PaymentClearingAgent.

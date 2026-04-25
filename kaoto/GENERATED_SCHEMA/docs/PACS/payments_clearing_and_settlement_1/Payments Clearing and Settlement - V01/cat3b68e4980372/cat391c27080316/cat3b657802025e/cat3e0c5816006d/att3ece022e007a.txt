@@ -1,1 +1,0 @@
-Identifies whether or not the AllocationLinkIdentification is used for foreign exchange swaps or not.

@@ -1,5 +1,0 @@
-Information about the attendance card which is issued for the requestor, for its underlying client or for the appointed proxy person or meeting attendee when an attendance request is included in the meeting instruction. 
-
-The instructing party can specify which information must be indicated on the attendance card and to which location the attendance card must be delivered. 
-
-

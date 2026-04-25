@@ -1,1 +1,0 @@
-If GroupReversal is true, then ControlSum is not allowed.

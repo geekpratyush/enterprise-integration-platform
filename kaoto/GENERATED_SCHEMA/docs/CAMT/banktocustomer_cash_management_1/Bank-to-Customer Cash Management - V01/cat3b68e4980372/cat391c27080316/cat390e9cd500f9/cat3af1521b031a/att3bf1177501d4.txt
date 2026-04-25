@@ -1,1 +1,0 @@
-German Bankleitzahl - identifies German financial institutions on the German national clearing systems.

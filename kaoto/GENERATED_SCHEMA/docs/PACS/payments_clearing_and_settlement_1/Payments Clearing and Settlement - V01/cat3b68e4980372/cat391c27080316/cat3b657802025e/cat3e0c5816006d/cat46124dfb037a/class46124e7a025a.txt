@@ -1,1 +1,0 @@
-The Any element without further validation processing.

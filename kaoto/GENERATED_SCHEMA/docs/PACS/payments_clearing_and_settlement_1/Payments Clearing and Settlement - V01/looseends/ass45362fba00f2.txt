@@ -1,2 +1,0 @@
-Range of time between a start date and an end date for the calculation of the interest.
-

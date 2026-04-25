@@ -1,1 +1,0 @@
-The subscription leg of a switch instruction.

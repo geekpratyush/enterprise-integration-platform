@@ -1,2 +1,0 @@
-Date/time on which the order was placed by the investor with the 
-trading party.

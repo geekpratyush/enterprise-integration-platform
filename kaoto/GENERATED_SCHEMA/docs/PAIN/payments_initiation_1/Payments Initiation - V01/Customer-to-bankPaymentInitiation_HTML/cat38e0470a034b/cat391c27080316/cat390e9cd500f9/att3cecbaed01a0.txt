@@ -1,2 +1,0 @@
-Date and time the originator (debtor or creditor) requests the clearing agent to process the payment instruction.
-

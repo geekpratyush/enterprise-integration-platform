@@ -1,1 +1,0 @@
-Unique status applying to a meeting instruction message and therefore to each instruction contained in the message.

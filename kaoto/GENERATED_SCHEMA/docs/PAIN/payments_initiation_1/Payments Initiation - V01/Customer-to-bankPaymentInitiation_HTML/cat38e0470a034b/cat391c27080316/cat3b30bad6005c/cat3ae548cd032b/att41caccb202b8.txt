@@ -1,1 +1,0 @@
-Investment fund that contains more than one investment fund class.

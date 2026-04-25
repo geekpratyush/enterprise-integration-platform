@@ -1,1 +1,0 @@
-Type of leg involved in a swap whose purpose is to increase the credit quality and reduce the default risk. Also known as quality swap.

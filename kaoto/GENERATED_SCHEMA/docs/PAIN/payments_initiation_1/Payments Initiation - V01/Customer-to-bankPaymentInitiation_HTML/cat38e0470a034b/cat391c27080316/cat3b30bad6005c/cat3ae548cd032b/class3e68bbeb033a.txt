@@ -1,1 +1,0 @@
-Description of the method used to book single or grouped executions.

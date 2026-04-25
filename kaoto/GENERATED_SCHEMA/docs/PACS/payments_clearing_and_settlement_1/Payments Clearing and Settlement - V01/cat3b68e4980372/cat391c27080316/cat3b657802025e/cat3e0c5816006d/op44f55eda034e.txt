@@ -1,1 +1,0 @@
-Either RelatedPartiesDetails or BulkExecutionDetails/IndividualExecutionDetails/RelatedPartiesDetails may be present, but not both.

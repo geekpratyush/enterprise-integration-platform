@@ -1,1 +1,0 @@
-Buyer (receiver) or seller (deliverer) does not match.

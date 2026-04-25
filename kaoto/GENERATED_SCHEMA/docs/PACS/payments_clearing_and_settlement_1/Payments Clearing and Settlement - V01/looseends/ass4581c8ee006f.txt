@@ -1,1 +1,0 @@
-Creation of the Technical Validation Subset messages following EPC Implementation Guidelines v2.2.

@@ -1,1 +1,0 @@
-Indicates the state of a payment at the clearing agent side is pending.

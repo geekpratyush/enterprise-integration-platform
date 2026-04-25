@@ -1,2 +1,0 @@
-Amount of money invested in a specific financial instrument by an investor, after deduction of charges, commissions and taxes.
-[Quantity * Price]

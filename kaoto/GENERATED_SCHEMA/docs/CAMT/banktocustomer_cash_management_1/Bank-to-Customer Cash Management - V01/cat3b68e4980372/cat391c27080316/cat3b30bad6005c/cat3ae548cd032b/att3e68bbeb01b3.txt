@@ -1,1 +1,0 @@
-Loan that has been paid or replaced by a new loan.

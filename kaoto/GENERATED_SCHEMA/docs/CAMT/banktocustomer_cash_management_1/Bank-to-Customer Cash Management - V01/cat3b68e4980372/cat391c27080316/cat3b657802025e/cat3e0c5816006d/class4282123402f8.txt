@@ -1,1 +1,0 @@
-Choice between a unique account identification and a set of account selection criteria.

@@ -1,1 +1,0 @@
-Creation date and time of the report generation.

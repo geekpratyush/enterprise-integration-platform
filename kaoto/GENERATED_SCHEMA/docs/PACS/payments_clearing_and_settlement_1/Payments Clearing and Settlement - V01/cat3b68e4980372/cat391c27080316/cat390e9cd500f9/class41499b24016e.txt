@@ -1,2 +1,0 @@
-Status of a case resulting from a case assignment.
-

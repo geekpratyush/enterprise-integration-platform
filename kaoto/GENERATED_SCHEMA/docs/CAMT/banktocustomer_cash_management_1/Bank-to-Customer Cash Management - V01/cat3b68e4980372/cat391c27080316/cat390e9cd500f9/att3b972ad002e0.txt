@@ -1,1 +1,0 @@
-Unique and unambiguous identification of an image file in a payment system that uses image files to complement the information exchanged in the settlement chain.

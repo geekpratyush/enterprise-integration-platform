@@ -1,1 +1,0 @@
-The FinancialInstitutionCreditTransferV01 message is sent by a debtor financial institution to a creditor financial institution, directly or through other agents and/or a payment clearing and settlement system. It is used to move funds from a debtor's account to a creditor, where both debtor and creditor are financial institutions. 

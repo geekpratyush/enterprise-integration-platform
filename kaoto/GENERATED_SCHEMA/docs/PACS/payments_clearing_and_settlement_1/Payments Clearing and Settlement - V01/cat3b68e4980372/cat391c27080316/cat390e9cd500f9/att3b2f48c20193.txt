@@ -1,1 +1,0 @@
-Indicates the possible options or choices available to account owner (for investment funds).

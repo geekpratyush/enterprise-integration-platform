@@ -1,1 +1,0 @@
-The RelatedPriceType element in Discretion must be present if the Offset element is specified.

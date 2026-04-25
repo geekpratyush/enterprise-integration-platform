@@ -1,1 +1,0 @@
-Specifies that the query requests that only new matching items since the last similar query be returned.

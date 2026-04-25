@@ -1,1 +1,0 @@
-If Type is not MRKT, then Value may not be expressed with UnknownIndicator.

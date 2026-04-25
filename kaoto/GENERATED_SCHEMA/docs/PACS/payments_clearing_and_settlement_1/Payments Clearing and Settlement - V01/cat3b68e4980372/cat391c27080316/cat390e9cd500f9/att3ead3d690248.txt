@@ -1,1 +1,0 @@
-Convention used for adjusting a date when it is not a business day.

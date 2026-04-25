@@ -1,2 +1,0 @@
-Party that receives an amount of money from the debtor. The creditor is also the credit account owner. 
-

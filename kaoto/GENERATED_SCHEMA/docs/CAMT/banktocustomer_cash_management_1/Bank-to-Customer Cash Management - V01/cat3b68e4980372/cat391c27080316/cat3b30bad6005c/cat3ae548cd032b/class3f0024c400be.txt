@@ -1,1 +1,0 @@
-Specifies if income is to be paid out (distributed) or retained (accumulated).

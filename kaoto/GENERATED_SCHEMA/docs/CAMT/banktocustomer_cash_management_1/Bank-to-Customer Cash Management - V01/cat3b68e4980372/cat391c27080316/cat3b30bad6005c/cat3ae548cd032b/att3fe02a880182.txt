@@ -1,1 +1,0 @@
-Transaction is a payment offsetting the net cash balance owed/due in a retail payment system.

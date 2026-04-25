@@ -1,1 +1,0 @@
-Balance is calculated with regard to many members in the system.

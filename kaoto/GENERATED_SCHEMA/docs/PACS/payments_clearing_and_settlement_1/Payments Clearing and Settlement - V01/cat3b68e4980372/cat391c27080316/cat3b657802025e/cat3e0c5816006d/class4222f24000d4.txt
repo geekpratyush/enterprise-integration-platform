@@ -1,1 +1,0 @@
-Specifies the event that require an action from one of the parties to the trade transaction.

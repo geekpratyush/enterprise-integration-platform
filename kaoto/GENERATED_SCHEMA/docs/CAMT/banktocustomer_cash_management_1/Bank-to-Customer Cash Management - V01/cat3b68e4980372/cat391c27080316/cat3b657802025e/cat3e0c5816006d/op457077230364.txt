@@ -1,3 +1,0 @@
-If ProductTransfer\ISA or ProductTransfer\PEP is present, then ClientAccount\Designation is not allowed.
-
-If ProductTransfer\Portfolio  is present, then ClientAccount\Designation is allowed.

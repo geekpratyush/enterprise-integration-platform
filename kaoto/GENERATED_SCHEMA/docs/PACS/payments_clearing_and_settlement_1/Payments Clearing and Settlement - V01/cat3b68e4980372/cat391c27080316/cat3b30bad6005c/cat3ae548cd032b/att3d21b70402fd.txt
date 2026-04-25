@@ -1,1 +1,0 @@
-The clearing agent that prepares the payment instruction and forwards it to the next party in the payment chain.

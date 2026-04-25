@@ -1,1 +1,0 @@
-Indicates whether or not details should be communicated to broker of credit (i.e. step-in broker).

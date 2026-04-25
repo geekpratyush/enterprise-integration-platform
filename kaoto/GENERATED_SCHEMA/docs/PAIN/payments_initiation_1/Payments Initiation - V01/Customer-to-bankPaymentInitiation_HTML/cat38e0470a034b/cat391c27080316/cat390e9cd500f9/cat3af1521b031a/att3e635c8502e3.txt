@@ -1,1 +1,0 @@
-Period of time when the system is closed/not operating.

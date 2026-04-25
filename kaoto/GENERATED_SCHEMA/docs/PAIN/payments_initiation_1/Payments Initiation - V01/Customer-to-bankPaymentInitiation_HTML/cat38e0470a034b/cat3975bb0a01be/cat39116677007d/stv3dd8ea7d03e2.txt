@@ -1,1 +1,0 @@
-The first agent debits the internal account where the provision blocked for further processing of the payment order has been blocked and credits the creditor's account in its books.

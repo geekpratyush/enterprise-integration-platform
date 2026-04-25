@@ -1,3 +1,0 @@
-Indicates that the trade is executed cum-dividend or cum-coupon and a due bill is required. 
-A due bill is a contractual agreement to pay the dividend along with the delivery of 
-the financial instrument.

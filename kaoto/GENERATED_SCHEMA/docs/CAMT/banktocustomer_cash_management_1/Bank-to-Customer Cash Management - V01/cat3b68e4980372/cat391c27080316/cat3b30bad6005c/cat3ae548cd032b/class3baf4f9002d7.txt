@@ -1,1 +1,0 @@
-Identifies the rating values that may be assigned to a security by a rating agency.

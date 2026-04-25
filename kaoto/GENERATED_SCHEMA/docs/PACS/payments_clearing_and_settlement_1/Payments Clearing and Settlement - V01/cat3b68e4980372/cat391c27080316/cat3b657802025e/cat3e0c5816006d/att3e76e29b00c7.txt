@@ -1,1 +1,0 @@
-Reason why the payment status is unmatched.

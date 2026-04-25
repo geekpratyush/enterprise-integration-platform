@@ -1,1 +1,0 @@
-Minimum quantity of securities, expressed as a percentage, required to hold a meeting.

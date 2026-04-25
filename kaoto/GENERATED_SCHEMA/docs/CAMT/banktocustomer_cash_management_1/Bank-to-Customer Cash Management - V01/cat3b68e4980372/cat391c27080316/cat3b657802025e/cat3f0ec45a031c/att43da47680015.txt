@@ -1,2 +1,0 @@
-Lowest price for the referenced period.
-

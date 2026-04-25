@@ -1,9 +1,0 @@
-Definition : an initiating party orders to its financial institution a payment related and possible referring to the underlying business transactions (eg invoices).
- 
-The payment will result in cash transfers between debtors and creditors through clearing agents and settlement agents. 
-
- Pre-condition : there is an agreement (explicit or implicit in case of gift)  that requests a cash transfer between an initiating  party (which may or may not be equal to the debtor) and a final party (which may or may not be equal to the creditor).The agreement (purchase and/or payment) may include conditions (purchase and/or payment) and/or assurance terms (purchase and/or payment).
-
-Trigger: decision has been made to make a payment.
-
-Post-condition : the payment transaction is settled ie the final party has received the cash.

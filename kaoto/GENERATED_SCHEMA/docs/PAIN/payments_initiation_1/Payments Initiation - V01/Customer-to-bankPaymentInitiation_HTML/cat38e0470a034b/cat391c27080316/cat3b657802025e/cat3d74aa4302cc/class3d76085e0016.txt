@@ -1,1 +1,0 @@
-Provides dertails about a system and about a member of a system.

@@ -1,2 +1,0 @@
-Net amount of money paid to the investor as a result of the redemption.
-

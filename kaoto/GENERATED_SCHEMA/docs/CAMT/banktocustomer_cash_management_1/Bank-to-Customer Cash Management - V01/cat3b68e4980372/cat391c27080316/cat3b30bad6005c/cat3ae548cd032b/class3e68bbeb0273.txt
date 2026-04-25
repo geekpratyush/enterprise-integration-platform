@@ -1,1 +1,0 @@
-Identifies categories of securities issued by states and local governments.

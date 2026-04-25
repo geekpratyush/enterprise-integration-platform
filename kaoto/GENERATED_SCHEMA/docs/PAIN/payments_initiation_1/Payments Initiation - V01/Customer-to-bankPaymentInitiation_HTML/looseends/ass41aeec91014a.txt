@@ -1,3 +1,0 @@
-PaymentCardDetails: new.
-ChequeDetails: new.
-AccountDetails: new.

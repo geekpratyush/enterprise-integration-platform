@@ -1,2 +1,0 @@
-Payment is made to transfer liquidity to/from the settlement account of a member, to/from the current account held at the central institution or any other institution.
-

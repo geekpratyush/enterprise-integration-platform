@@ -1,1 +1,0 @@
-Currency to sell in relation to the trade.

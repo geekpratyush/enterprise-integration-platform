@@ -1,1 +1,0 @@
-Date and time at which the (group of) cancellation request(s) was created by the instructing party.

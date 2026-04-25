@@ -1,2 +1,0 @@
-Indicates the date and time of the agreement in principal between counter-parties prior to actual trade date.
-Used with fixed income for municipal new issue markets.

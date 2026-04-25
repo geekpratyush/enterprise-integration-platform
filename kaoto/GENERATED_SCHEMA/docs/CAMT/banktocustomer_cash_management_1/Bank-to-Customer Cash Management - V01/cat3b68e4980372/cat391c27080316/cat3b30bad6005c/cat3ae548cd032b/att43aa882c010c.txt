@@ -1,1 +1,0 @@
-Clearing channel is a real-time net settlement system.

@@ -1,1 +1,0 @@
-The OrderHandlingInstruction element should be present for equity orders.

@@ -1,3 +1,0 @@
-The report is calculated on the basis of a dataset matched with a baseline.
-
-

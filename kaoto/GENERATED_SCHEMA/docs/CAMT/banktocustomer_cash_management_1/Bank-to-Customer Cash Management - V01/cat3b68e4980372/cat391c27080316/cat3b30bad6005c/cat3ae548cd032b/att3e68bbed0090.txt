@@ -1,1 +1,0 @@
-Yield Value Of 1/32 - The amount that the yield will change for a 1/32nd change in price.

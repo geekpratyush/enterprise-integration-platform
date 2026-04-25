@@ -1,1 +1,0 @@
-Loan that allows the borrower to borrow, repay and re-borrow, as needed over the life of the loan facility.

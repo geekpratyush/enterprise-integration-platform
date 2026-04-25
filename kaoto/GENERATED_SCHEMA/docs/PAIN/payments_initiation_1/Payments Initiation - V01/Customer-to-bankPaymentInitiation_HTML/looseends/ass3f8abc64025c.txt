@@ -1,2 +1,0 @@
-Party that receives securities from the delivering agent via the place of settlement, eg, securities central depository.
-

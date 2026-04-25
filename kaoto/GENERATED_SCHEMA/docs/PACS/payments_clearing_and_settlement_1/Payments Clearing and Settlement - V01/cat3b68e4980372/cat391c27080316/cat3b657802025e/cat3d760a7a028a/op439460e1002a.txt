@@ -1,2 +1,0 @@
-If Code is equal to OTHR, then ExtendedPurpose is mandatory.
-Extended Purpose must only be used when Code equals 'OTHR'.

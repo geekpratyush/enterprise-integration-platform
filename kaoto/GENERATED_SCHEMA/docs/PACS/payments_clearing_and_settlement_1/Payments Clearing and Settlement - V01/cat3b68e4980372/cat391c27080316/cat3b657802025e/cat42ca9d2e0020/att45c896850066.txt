@@ -1,2 +1,0 @@
-Identifies the trading capacity of the firm reporting the transaction, eg  Agent or Principal.
-

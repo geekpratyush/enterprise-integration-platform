@@ -1,1 +1,0 @@
-The option can be exercised on multiple discrete dates prior to, or on expiry date.

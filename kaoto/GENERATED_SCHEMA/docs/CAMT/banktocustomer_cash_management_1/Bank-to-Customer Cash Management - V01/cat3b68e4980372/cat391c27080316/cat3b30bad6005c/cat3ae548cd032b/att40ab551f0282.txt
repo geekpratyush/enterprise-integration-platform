@@ -1,1 +1,0 @@
-Scheme code for FR (France) - French RTGS (TBF).

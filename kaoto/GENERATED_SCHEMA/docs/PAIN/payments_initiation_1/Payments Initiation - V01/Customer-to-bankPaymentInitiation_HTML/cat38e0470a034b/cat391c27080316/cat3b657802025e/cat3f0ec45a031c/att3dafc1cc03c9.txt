@@ -1,2 +1,0 @@
-Highest price for the referenced period.
-

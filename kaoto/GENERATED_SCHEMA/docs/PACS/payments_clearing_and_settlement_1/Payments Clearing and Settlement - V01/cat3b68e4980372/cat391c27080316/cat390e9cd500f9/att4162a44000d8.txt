@@ -1,3 +1,0 @@
-Uniquely identifies the case assignment.
-
-

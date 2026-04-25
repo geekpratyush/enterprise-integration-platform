@@ -1,3 +1,0 @@
-The debit advice, prepared by the first agent, notifies the initiating party that the settlement has been performed i.e. that the debit entry has been passed on the account of the debtor/initiating party. The initiating party uses it for the reconciliation of entries vis-à-vis payment orders received/remitted.
-
-

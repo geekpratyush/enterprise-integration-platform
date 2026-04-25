@@ -1,1 +1,0 @@
-Price used for municipal bonds when quoted in terms of yield (yield-to-maturity or yield-to-call).

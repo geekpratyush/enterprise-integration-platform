@@ -1,2 +1,0 @@
-If GroupHeader/PaymentTypeInformation is present, then DirectDebitTransactionInformation/PaymentTypeInformation is not allowed. 
-

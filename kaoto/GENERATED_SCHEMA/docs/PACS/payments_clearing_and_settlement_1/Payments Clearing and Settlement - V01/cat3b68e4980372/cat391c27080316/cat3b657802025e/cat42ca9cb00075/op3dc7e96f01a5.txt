@@ -1,1 +1,0 @@
-Either Quantity or LegSwapType must be present but not both.

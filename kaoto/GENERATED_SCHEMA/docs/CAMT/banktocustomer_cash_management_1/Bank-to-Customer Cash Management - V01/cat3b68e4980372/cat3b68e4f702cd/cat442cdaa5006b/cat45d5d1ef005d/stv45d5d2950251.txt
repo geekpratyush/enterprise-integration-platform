@@ -1,1 +1,0 @@
-The accounting system of the account owner will book an entry in the internal ledger for the operations described under Book Cash Movement.

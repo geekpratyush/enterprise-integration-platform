@@ -1,1 +1,0 @@
-Credit transfer is to be processed according to the SWIFTPay Service Level.

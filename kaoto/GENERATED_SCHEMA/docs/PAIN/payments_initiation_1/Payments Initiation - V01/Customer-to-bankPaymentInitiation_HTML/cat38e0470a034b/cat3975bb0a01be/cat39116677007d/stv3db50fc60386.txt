@@ -1,4 +1,0 @@
-The payment order is not valid but the first agent (or the forwarding agent in a relay) can repair it.  
-In this case, the payment orders need not be rejected to the initiating party, but wil be further processed by the forwarding/first agent.
-Repair can mean either redress of some information (re-formatting, translation of a textual information such as Name and Address into a coded form e.g. BIC code for financial institutions) as well as enrichment, i.e. adding necessary parties to reach the creditor's banks.
-

@@ -1,1 +1,0 @@
-Transaction has an origin and a destination in the same country.

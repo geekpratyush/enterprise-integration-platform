@@ -1,1 +1,0 @@
-A quantity or amount measured with respect to another measured quantity or amount e.g. US Dollars per hour, US Dollars per EURO. The resulting ratio must be expressed explicitly through the RateBase property.

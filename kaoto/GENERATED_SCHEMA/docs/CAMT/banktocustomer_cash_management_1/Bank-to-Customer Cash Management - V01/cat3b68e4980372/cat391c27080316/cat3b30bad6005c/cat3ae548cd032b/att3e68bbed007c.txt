@@ -1,1 +1,0 @@
-Most Recent Closing Yield - The last available yield stored in history, computed using price.

@@ -1,3 +1,0 @@
-If GroupHeader/InstructingAgent is present, then TransactionInformationAndStatus/InstructingAgent is not allowed.
-
-

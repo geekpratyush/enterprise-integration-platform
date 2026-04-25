@@ -1,1 +1,0 @@
-PlaceOfSettlementDetails/AccountIdentification is not allowed.

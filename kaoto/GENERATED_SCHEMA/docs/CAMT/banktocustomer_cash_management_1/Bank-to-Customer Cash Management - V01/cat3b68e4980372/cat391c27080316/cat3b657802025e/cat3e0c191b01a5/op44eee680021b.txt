@@ -1,1 +1,0 @@
-OrderOriginatorEligibility may only be present if Role is either UCL1 or UCL2.

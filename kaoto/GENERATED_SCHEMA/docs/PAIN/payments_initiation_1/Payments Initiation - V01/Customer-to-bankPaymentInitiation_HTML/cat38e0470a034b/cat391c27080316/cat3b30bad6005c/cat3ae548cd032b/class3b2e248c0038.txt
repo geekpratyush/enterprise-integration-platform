@@ -1,1 +1,0 @@
-Indicates whether an automatic routing system is involved.

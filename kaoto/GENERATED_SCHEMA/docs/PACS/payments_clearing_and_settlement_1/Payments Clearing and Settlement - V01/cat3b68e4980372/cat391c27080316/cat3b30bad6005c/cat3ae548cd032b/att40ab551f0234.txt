@@ -1,1 +1,0 @@
-Scheme code for GB (UK) - British Euro RTGS (CHAPS).

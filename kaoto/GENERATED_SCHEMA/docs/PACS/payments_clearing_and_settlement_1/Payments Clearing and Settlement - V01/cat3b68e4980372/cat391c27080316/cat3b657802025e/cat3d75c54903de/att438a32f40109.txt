@@ -1,3 +1,0 @@
-Original reference assigned by a sending party to unambiguously identify a group of individual transfers.
-
-Usage: this reference is used between the initiating party and the forwarding or first agent to refer to the group of transactions sent. It can be used in status messages, statements and advices between the forwarding or first agent and the initiating party.

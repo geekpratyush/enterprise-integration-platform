@@ -1,1 +1,0 @@
-Party that gives the first payment instruction to make a transfer.  

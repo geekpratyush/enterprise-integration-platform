@@ -1,1 +1,0 @@
-Party that instructs the trading party to negotiate and execute a treasury trade on its behalf.

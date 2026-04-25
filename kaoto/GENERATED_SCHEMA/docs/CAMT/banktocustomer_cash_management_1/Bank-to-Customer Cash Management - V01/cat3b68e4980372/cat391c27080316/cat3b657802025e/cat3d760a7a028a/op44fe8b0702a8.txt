@@ -1,1 +1,0 @@
-If GroupReturn is true, then ControlSum is not allowed.

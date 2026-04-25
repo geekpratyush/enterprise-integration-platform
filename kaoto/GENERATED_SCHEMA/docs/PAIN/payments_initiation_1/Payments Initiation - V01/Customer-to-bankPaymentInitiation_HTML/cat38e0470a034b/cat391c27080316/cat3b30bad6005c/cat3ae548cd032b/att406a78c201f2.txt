@@ -1,2 +1,0 @@
-All preceding checks such as technical validation and customer profile were successful. Dynamic risk assessment is now also successful and therefore the payment initiation has been accepted for execution.
-

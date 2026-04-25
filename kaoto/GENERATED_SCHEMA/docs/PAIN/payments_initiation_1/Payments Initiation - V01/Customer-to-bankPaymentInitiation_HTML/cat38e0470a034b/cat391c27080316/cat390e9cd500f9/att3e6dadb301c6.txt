@@ -1,1 +1,0 @@
-Price based on which the yield is computed.

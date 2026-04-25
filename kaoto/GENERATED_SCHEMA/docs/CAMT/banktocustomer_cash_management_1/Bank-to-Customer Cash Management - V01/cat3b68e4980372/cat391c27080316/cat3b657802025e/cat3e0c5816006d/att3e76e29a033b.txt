@@ -1,1 +1,0 @@
-Indicates whether the number of payment is requested.

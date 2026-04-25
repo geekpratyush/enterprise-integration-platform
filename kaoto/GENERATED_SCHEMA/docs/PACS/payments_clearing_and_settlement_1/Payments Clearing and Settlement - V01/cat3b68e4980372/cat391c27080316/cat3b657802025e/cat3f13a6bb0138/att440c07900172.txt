@@ -1,1 +1,0 @@
-Breakdown of the cash movements out of a fund by transaction type, eg, redemption, switch-out.

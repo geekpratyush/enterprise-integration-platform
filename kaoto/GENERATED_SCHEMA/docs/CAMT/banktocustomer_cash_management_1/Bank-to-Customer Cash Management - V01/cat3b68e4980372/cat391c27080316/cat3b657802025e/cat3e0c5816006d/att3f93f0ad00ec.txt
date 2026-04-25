@@ -1,2 +1,0 @@
-Indicates whether this estimated report contains the last estimations after the cut-off time and is the final estimated report for a specific trade date.
-

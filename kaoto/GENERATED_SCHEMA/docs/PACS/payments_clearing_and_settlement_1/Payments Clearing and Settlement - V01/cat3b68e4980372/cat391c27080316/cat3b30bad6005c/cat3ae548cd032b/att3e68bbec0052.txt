@@ -1,1 +1,0 @@
-An order to buy a stock at or below a specified price, or to sell a stock at or above a specified price.  The customer specifies a price, and the order can be executed only if the market reaches or betters that price.  A conditional trading order designed to avoid the danger of adverse unexpected price movements.

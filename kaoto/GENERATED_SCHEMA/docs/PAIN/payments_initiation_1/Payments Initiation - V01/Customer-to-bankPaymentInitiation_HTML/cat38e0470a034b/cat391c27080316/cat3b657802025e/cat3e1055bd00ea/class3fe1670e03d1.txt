@@ -1,1 +1,0 @@
-Expected trade date and expected settlement date of the order execution.

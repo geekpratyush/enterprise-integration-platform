@@ -1,1 +1,0 @@
-An amount range where the interest rate is applicable

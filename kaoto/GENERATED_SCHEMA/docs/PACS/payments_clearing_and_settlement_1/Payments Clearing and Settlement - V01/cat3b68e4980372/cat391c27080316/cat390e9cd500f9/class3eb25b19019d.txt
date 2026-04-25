@@ -1,1 +1,0 @@
-Clearing system that processes only cash transfers.

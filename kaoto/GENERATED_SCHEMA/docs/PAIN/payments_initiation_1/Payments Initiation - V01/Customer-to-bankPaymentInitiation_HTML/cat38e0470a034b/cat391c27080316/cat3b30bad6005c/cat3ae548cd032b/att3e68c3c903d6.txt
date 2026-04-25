@@ -1,1 +1,0 @@
-A market or limit order to be executed in whole or in part as soon as it is submitted; any portion not so executed is to be cancelled.

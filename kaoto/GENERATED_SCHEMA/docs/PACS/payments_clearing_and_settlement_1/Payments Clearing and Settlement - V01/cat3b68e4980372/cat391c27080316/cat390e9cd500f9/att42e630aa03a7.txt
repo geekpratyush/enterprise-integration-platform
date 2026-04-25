@@ -1,1 +1,0 @@
-Identifies the type of product to which the transfer relates.

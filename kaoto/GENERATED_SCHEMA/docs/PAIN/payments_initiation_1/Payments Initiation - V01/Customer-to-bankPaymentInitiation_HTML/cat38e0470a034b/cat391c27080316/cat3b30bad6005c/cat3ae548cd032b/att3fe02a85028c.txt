@@ -1,1 +1,0 @@
-Transaction is a priority payment that has an origin in one country and a destination in another and is made in the currency of either the origin or destination country.

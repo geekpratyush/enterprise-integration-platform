@@ -1,1 +1,0 @@
-Name of the supplier related to the invoice.

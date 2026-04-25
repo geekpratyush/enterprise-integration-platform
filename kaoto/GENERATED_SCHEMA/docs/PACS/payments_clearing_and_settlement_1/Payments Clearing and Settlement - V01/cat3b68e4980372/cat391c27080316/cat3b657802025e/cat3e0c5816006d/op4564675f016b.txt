@@ -1,1 +1,0 @@
-If PreviousReference/MessageName is present, it must contain 515 or must start with setr.003, setr.006, setr.009, setr.012, setr.015, setr.047, setr.048, setr.049, setr.050, setr.051, setr.052, setr.053, setr.054, setr.055 or setr.056 and PreviousReference/Reference must contain the reference of a message in this list.

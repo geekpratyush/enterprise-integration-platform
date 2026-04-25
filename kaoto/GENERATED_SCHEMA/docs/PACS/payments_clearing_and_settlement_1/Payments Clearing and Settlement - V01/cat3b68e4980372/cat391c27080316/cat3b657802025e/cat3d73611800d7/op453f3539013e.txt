@@ -1,2 +1,0 @@
-If Date is present, then DateTime is not allowed.
-If DateTime is present, then Date is not allowed.

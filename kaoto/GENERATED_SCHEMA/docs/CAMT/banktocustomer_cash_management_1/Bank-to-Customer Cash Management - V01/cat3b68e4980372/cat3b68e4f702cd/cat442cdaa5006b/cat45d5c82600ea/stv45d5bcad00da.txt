@@ -1,1 +1,0 @@
-the prior position is updated with the information collected : new closing ledger, available and forward balance positions are set.

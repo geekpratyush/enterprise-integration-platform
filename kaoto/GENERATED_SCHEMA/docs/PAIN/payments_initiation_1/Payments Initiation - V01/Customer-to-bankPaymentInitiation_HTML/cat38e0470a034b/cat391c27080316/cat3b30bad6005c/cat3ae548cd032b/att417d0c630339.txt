@@ -1,1 +1,0 @@
-The identification number which uniquely distinguishes one vehicle from another through the lifespan of the vehicle.

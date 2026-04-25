@@ -1,1 +1,0 @@
-Confirmation is recognised by the Receiver because the message reference is identified, but the order reference is not the same as instructed.

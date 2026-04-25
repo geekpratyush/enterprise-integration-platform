@@ -1,1 +1,0 @@
-Chain of parties that are involved in settlement of the payment transaction.

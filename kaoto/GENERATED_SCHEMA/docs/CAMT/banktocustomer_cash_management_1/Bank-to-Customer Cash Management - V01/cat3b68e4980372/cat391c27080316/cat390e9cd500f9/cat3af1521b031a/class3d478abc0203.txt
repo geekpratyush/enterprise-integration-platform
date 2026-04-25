@@ -1,1 +1,0 @@
-Phone number expressed in a structured way, generally according to the country's telecommunications services standards.

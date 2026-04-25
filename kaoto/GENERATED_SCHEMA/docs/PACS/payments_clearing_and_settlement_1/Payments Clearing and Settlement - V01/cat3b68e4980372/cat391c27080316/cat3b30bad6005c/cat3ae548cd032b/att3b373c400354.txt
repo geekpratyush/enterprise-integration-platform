@@ -1,1 +1,0 @@
-Transaction relates to the settlement of a trade.

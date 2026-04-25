@@ -1,1 +1,0 @@
-Date and time at which the current factor will be changed to the next factor.

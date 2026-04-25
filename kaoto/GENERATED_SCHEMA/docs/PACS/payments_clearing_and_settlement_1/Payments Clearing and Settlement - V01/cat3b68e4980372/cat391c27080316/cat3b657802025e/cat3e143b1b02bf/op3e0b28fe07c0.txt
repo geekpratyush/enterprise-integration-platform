@@ -1,1 +1,0 @@
-BulkCashSettlementDetails and CashSettlementDetails are mutually exclusive.

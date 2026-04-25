@@ -1,1 +1,0 @@
-Sub-name or number assigned by an entity to enable recognition of that entity.

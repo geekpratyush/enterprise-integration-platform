@@ -1,2 +1,0 @@
-Party who initiated the transaction/message is not recognised by the Beneficiary.
-

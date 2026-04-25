@@ -1,1 +1,0 @@
-Transaction has been rejected by the clearing agent.

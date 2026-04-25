@@ -1,1 +1,0 @@
-Insufficient deliverable securities in the counterparty's account, or counterparty does not hold the securities.

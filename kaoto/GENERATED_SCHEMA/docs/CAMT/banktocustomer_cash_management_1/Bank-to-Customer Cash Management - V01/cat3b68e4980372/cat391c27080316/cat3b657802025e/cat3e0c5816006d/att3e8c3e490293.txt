@@ -1,1 +1,0 @@
-Indicator defining if a statement type report is requested or not. 

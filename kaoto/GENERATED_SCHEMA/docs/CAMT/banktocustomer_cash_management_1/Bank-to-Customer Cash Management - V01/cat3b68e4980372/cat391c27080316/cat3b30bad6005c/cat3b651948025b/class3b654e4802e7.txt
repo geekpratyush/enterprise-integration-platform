@@ -1,1 +1,0 @@
-A character string used to distinguish uniquely one instance of an object within an identification scheme from all other instances of the objects within the same scheme.

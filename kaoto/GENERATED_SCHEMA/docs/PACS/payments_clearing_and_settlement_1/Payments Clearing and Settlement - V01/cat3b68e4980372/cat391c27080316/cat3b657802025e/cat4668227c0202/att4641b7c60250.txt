@@ -1,1 +1,0 @@
-Specifies the identification sequence number for a specific couple sender/receiver. 

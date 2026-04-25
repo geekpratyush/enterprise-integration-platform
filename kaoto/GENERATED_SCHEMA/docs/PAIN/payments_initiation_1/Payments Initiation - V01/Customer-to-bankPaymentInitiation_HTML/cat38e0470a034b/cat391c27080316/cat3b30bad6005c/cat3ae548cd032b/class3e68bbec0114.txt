@@ -1,1 +1,0 @@
-Identifies a related type of pre-trade message.

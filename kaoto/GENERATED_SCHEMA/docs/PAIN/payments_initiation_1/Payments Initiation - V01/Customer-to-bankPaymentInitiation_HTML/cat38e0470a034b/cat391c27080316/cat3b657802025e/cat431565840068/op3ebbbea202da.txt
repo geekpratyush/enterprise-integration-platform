@@ -1,1 +1,0 @@
-It is recommended that when computing the allocation with the use of AllocatedPrice, each AllocationAccount should have its own AllocatedPrice, as is the case in the US and European model.

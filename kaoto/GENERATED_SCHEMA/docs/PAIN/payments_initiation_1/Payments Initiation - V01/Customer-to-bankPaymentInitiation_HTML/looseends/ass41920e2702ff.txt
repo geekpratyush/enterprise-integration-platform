@@ -1,9 +1,0 @@
-LegIdentification: changed from mandatory to optional.
-Amount: renamed to NetAmount. 
-Gross Amount: new. 
-GrossAmountIndicator: deleted.
-InterimProfitAmount: type changed from ActiveCurrencyAnd13DecimalAmount to ProfitAndLoss1Choice.
-RequestedSettlementCurrency: new.
-RequestedNAVCurrency: new.
-
-

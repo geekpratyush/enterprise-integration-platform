@@ -1,3 +1,0 @@
-Amount that the agreement parties, ie, buyer and seller, agree to pay. The payment may be dependent on one or more conditions.
-
-

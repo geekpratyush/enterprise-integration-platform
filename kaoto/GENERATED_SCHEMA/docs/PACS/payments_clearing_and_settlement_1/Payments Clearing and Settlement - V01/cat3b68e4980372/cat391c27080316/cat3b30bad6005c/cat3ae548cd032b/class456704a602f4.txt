@@ -1,1 +1,0 @@
-Specifies the reason for a partially settled status.

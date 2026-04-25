@@ -1,1 +1,0 @@
-Indicates whether the price is based on the Treasury Eurodollar Spread (TED) (spread between the active 3-month treasury bill futures contract and the 3-month Eurodollar futures contract, used as a measure of investor confidence in the US markets).

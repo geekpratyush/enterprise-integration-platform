@@ -1,1 +1,0 @@
-Specifies the party which is the buyer or the seller.

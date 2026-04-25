@@ -1,2 +1,0 @@
-Payment has an origin and a destination in the same country, and is made in the currency of that country.
-

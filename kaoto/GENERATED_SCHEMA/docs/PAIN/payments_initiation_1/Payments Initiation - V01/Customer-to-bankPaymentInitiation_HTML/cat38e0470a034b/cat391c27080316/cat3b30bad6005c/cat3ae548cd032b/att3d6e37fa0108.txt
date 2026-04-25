@@ -1,1 +1,0 @@
-Transaction has been accepted by the clearing agent.

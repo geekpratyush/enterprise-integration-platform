@@ -1,1 +1,0 @@
-Original group information concerning the group of transactions, to which the message refers to.

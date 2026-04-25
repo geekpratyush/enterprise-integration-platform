@@ -1,1 +1,0 @@
-Indicates the average price of the allocation and is always expressed as a percentage of par.

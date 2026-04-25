@@ -1,1 +1,0 @@
-Information about entries resulting from a payment.

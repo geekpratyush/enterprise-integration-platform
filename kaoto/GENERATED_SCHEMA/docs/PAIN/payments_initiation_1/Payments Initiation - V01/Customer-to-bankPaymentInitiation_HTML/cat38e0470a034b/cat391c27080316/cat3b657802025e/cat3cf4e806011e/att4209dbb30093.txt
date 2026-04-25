@@ -1,1 +1,0 @@
-Country of the financial institution which is the other party to the trade.

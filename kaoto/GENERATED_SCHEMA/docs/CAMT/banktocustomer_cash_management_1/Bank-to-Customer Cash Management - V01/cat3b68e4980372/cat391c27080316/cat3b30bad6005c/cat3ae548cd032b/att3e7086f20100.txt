@@ -1,1 +1,0 @@
-Board lots, not set for odd lots (UK specific).

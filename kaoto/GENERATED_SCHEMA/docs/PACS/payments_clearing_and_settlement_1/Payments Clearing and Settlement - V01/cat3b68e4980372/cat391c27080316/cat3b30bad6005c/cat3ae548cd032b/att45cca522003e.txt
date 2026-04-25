@@ -1,1 +1,0 @@
-Indicates there was error in the reception of the request or the thenical validation was not successful.

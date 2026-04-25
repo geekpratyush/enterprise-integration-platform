@@ -1,1 +1,0 @@
-Indicates the status of an instruction, request or report message.

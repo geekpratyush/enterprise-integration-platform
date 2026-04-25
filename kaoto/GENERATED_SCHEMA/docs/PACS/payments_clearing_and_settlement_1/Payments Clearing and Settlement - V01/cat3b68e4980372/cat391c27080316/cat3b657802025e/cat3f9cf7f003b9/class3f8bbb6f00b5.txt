@@ -1,2 +1,0 @@
-Tax related to an investment fund order.
-

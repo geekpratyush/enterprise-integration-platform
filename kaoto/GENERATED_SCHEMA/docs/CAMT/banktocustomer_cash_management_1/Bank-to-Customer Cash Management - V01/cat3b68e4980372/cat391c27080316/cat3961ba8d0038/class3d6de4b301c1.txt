@@ -1,5 +1,0 @@
-The party that is a member, and granted full access to the functions of the system transaction administrator. A direct member owns an account with the system transaction administrator and is entitled to input transactions on its own behalf and on behalf of sponsored indirect members or customers.
-It is ultimately responsible for any financial liability due to its membership level. All business processes performed by the system transaction administrator are made under the financial responsibility of the direct members.
-
-
-

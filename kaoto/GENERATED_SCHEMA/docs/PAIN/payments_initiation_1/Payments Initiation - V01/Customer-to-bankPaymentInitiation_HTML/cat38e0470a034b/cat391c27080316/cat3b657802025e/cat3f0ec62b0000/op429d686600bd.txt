@@ -1,1 +1,0 @@
-SpecificPreviousYears must not contain the current year.

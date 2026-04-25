@@ -1,1 +1,0 @@
-Price is a net price, ie, net of all charges, fees and taxes.

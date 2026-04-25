@@ -1,1 +1,0 @@
-If TimeInForce contains the value GTHD (GoodThroughDate) then OrderExpiryDate must be present.

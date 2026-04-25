@@ -1,2 +1,0 @@
-If GroupHeader/GroupCancellation is true, then OriginalGroupInformation/CancellationReasonInformation/CancellationReason must present.
-

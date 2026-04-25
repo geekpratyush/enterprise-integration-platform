@@ -1,1 +1,0 @@
-Counterparty indicates a settlement via RTGS system and you indicate non-RTGS settlement, or vice versa.

@@ -1,2 +1,0 @@
-If RequestedExecutionDate is present, then RequestedCollectionDate is not allowed.
-If RequestedCollectionDate is present, then RequestedExecutionDate is not allowed.

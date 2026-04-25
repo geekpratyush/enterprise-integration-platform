@@ -1,1 +1,0 @@
-Original amount which should be settled. This information should be provided when the trade is partially settled or when the settlement is rejected.

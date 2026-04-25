@@ -5,7 +5,8 @@
 *.zip
 *.tar.gz
 *.swp
-
+.camel-jbang/
+.vscode/
 # Gradle
 .gradle/
 build/
@@ -26,3 +27,8 @@ bin/
 
 # Docker
 **/data/
+
+# Heavy Workspaces
+kaoto/
+eip-transformer-ui/node_modules/
+eip-transformer-ui/build/

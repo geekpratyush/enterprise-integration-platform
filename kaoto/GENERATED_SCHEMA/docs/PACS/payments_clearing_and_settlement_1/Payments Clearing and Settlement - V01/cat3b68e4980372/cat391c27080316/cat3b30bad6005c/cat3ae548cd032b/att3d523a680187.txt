@@ -1,1 +1,0 @@
-Account request is to open a new account.

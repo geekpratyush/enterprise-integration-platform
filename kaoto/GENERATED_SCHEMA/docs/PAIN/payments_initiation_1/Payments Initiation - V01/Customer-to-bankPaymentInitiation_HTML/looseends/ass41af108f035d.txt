@@ -1,4 +1,0 @@
-GrossSettlementAmount: renamed to SettlementAmount.
-PaymentInstrument7Choice: new.
-CreditTransferDetails moved to PaymentInstrument7Choice.
-PaymentInstrumentChoice: renamed to PaymentInstrument (correction).

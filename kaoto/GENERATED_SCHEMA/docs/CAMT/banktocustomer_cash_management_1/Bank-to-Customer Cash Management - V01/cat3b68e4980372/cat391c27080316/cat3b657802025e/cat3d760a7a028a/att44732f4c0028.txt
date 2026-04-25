@@ -1,3 +1,0 @@
-Specifies if the creditor and/or debtor will bear the charges associated with the processing of the payment transaction.
-
-Usage: The ChargeBearer applies to the reversal message, not to the original instruction. 

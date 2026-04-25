@@ -1,1 +1,0 @@
-Swap composed of at least one set of payments determined by a stock or an index return.

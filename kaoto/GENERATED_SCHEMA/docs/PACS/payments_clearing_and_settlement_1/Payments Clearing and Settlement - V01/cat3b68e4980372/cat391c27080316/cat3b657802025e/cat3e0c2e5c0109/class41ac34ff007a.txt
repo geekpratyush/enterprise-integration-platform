@@ -1,2 +1,0 @@
-Parameters applied to the settlement of a security.
-

@@ -1,1 +1,0 @@
-Indicates whether the derivative product is covered or not by an underlying financial instrument position.

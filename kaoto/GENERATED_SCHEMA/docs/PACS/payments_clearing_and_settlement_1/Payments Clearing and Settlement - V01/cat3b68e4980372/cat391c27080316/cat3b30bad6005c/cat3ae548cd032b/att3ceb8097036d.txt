@@ -1,1 +1,0 @@
-Processing batch differs in the counterparty's instruction, eg, day time/real time versus overnight.

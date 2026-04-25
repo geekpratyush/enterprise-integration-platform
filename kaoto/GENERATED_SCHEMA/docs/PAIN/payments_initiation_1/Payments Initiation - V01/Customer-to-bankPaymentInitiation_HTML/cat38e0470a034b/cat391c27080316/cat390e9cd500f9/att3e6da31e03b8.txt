@@ -1,2 +1,0 @@
-Accepted value of stocks composing an index located outside its country of origin.
-

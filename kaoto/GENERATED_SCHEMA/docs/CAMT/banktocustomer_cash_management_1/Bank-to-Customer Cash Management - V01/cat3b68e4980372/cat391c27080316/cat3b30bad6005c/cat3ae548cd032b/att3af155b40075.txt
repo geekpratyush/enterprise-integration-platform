@@ -1,1 +1,0 @@
-An order pegged against the volume weighted average price for the day.

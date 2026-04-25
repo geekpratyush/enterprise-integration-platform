@@ -1,1 +1,0 @@
-Coded identification of the matching rule that is violated by the contents of each baseline.

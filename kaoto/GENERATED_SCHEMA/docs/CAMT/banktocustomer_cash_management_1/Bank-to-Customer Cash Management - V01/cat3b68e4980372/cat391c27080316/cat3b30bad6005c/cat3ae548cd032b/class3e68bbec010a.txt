@@ -1,1 +1,0 @@
-Identifies an order related type of pre trade message.

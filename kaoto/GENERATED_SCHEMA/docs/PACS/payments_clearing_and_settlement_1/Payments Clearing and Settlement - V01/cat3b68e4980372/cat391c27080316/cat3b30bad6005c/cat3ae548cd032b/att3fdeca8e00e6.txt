@@ -1,1 +1,0 @@
-Credit entry used to reverse a previously booked debit entry.

@@ -1,1 +1,0 @@
-If RequestedSettlementCurrency is present, it must be the same Currency as in all occurrences of IndividualOrderDetails/SettlementAmount, if present.

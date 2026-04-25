@@ -1,1 +1,0 @@
-Information that enables the matching, i.e., reconciliation, of a payment with the items that the payment is intended to settle, eg, commercial invoices in an account receivable system.

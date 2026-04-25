@@ -1,2 +1,0 @@
-Outstanding order with executions and remaining quantity.
-

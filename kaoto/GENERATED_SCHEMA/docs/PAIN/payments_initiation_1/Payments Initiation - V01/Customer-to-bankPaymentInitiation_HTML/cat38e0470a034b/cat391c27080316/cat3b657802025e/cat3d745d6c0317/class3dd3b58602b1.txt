@@ -1,1 +1,0 @@
-Set of characteristics shared by the repetitive occurrences of transfer in the message. Depending on the scenario of use, the set of grouped elements may vary.

@@ -1,1 +1,0 @@
-The final agent - if any- and first agent receive the payment orders from the previous party in the chain.

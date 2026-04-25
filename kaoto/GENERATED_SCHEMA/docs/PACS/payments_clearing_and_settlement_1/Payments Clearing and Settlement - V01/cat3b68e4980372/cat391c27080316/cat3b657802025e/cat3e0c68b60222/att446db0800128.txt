@@ -1,1 +1,0 @@
-Specifies types of tax not present in a code list.

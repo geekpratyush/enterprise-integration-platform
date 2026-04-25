@@ -1,1 +1,0 @@
-Liquidity transfer origin or destination account within the pool of accounts under management of the requestor.

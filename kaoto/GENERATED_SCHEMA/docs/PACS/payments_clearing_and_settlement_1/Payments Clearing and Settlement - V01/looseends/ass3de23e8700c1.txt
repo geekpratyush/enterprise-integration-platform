@@ -1,1 +1,0 @@
-Materialisation of a transfer of cash credited to an account.

@@ -1,1 +1,0 @@
-Provide information about the type of request or instruction which triggered this confirmation.

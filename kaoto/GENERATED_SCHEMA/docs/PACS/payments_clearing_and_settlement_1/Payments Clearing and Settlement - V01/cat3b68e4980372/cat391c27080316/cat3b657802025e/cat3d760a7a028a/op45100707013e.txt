@@ -1,1 +1,0 @@
-TransactionIdentification must contain a reference that is meaningful to the sending bank and is unique over time.

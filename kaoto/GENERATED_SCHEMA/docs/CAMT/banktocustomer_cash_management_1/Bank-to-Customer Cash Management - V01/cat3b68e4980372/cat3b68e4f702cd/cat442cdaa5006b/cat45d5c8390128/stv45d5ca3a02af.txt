@@ -1,3 +1,0 @@
-The account owner initiates the financial leg of an underlying transaction with the account servicer.
-This can be any type of transaction. The underlying transaction can be concluded with a third party, or with the account servicer.  
-

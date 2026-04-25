@@ -1,1 +1,0 @@
-Redemption leg of a switch order execution.

@@ -1,2 +1,0 @@
-Total quantity of securities settled.
-

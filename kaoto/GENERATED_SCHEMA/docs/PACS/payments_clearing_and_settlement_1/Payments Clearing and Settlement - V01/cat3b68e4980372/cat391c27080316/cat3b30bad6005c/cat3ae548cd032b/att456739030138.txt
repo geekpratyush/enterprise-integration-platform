@@ -1,1 +1,0 @@
-Status of the order cancellation request is completed. The cancellation request has been accepted and processed; the order has been cancelled.

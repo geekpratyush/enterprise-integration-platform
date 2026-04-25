@@ -1,1 +1,0 @@
-Currency exchange related to a settlement operation.

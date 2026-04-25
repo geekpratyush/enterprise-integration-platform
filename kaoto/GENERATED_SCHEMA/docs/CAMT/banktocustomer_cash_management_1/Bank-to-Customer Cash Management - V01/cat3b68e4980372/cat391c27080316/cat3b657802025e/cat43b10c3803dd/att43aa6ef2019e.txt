@@ -1,1 +1,0 @@
-Currency and amount sold in a foreign exchange trade.

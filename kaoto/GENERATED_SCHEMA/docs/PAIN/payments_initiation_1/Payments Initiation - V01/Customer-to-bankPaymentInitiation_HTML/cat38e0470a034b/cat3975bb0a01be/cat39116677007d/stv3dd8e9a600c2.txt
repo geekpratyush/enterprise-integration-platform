@@ -1,1 +1,0 @@
-The first agent, after having successfully debited the debtor's account, credits internal accounts in order to transfer the provision necessary to process the payment order further.

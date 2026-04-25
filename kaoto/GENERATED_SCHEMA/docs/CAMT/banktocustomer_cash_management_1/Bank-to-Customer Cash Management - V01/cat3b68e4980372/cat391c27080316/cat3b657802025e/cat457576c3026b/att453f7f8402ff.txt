@@ -1,1 +1,0 @@
-Indicates the number of float days attached to the balance.

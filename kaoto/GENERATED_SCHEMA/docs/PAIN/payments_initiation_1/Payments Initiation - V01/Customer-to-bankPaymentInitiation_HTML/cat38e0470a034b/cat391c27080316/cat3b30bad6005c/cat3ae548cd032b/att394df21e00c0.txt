@@ -1,1 +1,0 @@
-Interest computation method is Actual/365.

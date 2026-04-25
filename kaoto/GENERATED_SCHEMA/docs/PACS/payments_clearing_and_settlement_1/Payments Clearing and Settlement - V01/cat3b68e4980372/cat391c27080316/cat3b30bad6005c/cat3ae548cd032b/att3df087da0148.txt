@@ -1,1 +1,0 @@
-Price is the calculated bid price of a dual-priced fund (offer-bid prices), ie, the selling price of the units for the investor.

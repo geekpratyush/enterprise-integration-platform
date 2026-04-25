@@ -1,1 +1,0 @@
-Investment fund transactions for a specific financial instrument.

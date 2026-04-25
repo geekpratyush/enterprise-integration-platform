@@ -1,1 +1,0 @@
-Identifies the counterparty for which the balance is calculated.

@@ -1,1 +1,0 @@
-Address to use over the www (HTTP) service where addtional information on the meeting may be found.

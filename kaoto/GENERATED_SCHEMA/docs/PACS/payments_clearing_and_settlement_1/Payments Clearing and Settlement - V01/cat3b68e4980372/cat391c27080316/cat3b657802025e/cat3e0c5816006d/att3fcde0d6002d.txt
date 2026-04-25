@@ -1,1 +1,0 @@
-Specification of data in a structured form.

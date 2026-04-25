@@ -1,1 +1,0 @@
-Information concerning the original transactions, to which the return message refers.

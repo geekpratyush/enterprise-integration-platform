@@ -1,1 +1,0 @@
-Used to inform of cancellation and request a new payment instruction. This should only be used if an agent does not want to modify a pending payment.

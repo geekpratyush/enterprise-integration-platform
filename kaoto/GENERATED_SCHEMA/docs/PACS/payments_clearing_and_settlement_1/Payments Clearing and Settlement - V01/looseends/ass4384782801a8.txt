@@ -1,1 +1,0 @@
-Agent that instructs the next party in the chain to carry out the (set of) instructions.

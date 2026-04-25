@@ -1,3 +1,0 @@
-Package containing the business processes and activity diagrams according to the "Business_process_modelling_guidelines" v1.0
-
-

@@ -1,1 +1,0 @@
-Securities parameters used for the settlement of a securities transaction.

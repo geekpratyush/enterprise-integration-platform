@@ -1,2 +1,0 @@
-Specifies the reference rate for fixed income instruments where the 
-price of the instrument is indexed to the price of an underlying benchmark.

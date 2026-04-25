@@ -1,1 +1,0 @@
-Defines the criteria which are used to report on the payment status.

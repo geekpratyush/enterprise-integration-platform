@@ -1,2 +1,0 @@
-Account specified is blocked, prohibiting posting of transactions against it.
-

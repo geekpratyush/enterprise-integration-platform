@@ -1,1 +1,0 @@
-Either DeMinimusApplicable Or DeMinimusNotApplicable maybe present, but not both.

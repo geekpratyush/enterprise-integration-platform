@@ -1,1 +1,0 @@
-Indicates whether beneficiary details (eg name and address) must be supplied in order to take part to a meeting.

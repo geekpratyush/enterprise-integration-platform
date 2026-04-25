@@ -1,1 +1,0 @@
-FundDetails may be present if a single investment fund is associated to the  investment account. If several investment funds are associated to the investment account, the FundFamilyName only should be specified.

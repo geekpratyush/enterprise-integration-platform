@@ -1,1 +1,0 @@
-Detailed information about a currency exchange related to a transfer.

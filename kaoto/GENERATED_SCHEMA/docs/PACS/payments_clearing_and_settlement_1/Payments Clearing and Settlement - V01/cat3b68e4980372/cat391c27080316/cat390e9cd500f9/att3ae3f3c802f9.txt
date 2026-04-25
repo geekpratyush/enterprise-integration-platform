@@ -1,1 +1,0 @@
-Specifies how the transaction is to be settled, eg, against payment.

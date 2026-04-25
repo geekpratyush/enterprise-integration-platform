@@ -1,1 +1,0 @@
-Certificate number is not recognised or is invalid.

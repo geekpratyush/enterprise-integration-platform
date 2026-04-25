@@ -1,1 +1,0 @@
-Amount of money moved between the instructing agent and the instructed agent in the reversed transaction.

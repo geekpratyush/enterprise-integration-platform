@@ -1,1 +1,0 @@
-Returned when a transfer of funds has been modified (a cover payment) to resolve a case.

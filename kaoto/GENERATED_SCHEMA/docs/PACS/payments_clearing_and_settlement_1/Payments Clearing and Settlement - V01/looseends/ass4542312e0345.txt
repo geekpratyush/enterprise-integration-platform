@@ -1,1 +1,0 @@
-Indicates whether the underlying transaction details are provided through a separate message, eg in case of aggregate bookings.

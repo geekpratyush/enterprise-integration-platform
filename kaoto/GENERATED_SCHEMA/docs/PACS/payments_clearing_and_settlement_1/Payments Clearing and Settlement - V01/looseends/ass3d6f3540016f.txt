@@ -1,1 +1,0 @@
-Standing order causes a payment instruction at regular intervals, eg, as specified by its frequency. 

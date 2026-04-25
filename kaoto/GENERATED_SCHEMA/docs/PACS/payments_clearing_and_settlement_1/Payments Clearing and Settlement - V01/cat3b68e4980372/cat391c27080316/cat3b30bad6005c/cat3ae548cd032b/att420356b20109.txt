@@ -1,1 +1,0 @@
-Initial state of a baseline in the push-through model.

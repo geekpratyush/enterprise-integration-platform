@@ -1,2 +1,0 @@
-Indicates the type of quote is a tradeable quote. 
-A tradeable quote is submitted to a market and will result directly in a trade against other orders and quotes in a market.

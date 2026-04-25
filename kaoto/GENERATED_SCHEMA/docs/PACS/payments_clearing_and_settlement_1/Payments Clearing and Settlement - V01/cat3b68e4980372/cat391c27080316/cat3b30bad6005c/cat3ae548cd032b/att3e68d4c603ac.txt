@@ -1,1 +1,0 @@
-An order to buy at the indicated price limit or lower or an order to sell at the indicated limit price or higher.

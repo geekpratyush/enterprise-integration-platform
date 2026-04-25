@@ -1,1 +1,0 @@
-Transfer or settlement instruction is fully executed and the confirmation is sent.

@@ -1,3 +1,0 @@
-Date on which a financed amount has been credited.
- 
-

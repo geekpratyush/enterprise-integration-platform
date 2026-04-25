@@ -1,1 +1,0 @@
-If PreviousReference/MessageName is present, it must contain 502 or must start with ifds.001 or ifds.002 or ifds.004 or ifds.005 or ifds.007 or ifds.008 or ifds.010 or ifds.011 or ifds.013 or ifds.014 and Reference must contain the business reference of a message in this list.

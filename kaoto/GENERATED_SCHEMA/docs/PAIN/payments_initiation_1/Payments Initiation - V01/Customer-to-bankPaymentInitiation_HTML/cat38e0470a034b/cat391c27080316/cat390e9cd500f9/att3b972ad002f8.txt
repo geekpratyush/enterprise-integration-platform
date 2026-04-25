@@ -1,1 +1,0 @@
-Reference identifying the nature of tax levied, eg, Value Added Tax (VAT).

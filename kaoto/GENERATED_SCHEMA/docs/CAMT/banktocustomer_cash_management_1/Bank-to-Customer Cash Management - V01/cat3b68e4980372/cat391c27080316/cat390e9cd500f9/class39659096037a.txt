@@ -1,1 +1,0 @@
-Record of orders to buy and sell a financial instrument.

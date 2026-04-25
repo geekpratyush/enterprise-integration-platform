@@ -1,2 +1,0 @@
-The PaymentClearingagent sends out the payment instruction to the selected channel/PaymentClearingAgent.
-

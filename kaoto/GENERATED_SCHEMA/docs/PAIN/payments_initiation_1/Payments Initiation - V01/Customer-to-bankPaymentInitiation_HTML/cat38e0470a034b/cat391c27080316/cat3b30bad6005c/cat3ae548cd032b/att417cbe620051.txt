@@ -1,1 +1,0 @@
-The unique EAN (European Article Number) code.

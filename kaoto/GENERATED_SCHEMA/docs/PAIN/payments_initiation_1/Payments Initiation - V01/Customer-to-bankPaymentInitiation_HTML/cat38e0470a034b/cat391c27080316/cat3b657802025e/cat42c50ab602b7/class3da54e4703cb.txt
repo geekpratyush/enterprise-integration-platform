@@ -1,1 +1,0 @@
-The quantity, amount or price of a financial instrument to be ordered.

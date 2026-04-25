@@ -1,2 +1,0 @@
-Account to or from which a cash entry is made.
-

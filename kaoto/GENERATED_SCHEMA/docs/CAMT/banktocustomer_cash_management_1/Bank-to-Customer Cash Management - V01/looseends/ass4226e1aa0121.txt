@@ -1,1 +1,0 @@
-Specifies and identifies a product in a trade transaction.

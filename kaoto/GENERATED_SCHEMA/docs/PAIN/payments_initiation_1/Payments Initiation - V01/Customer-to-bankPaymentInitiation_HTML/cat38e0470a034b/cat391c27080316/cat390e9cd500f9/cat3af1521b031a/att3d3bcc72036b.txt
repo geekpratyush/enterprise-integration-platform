@@ -1,1 +1,0 @@
-Name or number assigned by an entity to enable recognition of that entity, eg, account identifier.

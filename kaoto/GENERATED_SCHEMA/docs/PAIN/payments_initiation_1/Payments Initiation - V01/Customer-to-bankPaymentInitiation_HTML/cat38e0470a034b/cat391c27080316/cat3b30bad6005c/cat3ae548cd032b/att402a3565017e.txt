@@ -1,1 +1,0 @@
-Order has been received, ie, technical validation of the message is ok, and the message is now at the receiving side. 

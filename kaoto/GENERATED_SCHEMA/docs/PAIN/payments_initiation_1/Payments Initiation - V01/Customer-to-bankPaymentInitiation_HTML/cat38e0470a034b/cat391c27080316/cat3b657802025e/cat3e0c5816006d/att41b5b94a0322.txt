@@ -1,1 +1,0 @@
-Coded identification of the rule that is violated by the rejected message.

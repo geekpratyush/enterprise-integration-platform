@@ -1,1 +1,0 @@
-TotalNumber must be the sum of Group1Number and Group2Number.

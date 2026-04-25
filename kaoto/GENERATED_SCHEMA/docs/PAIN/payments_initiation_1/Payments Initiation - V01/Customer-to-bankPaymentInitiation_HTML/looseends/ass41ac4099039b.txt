@@ -1,9 +1,0 @@
-DebtorAccountIdentification: type changed from AccountIdentification1Choice to CashAccountIdentification1Choice.
-DebtorIdentification: changed from mandatory to optional.
-DebtorIdentification: type changed from PartyIdentification1Choice to PartyIdentification2Choice.
-CreditorIdentification: type changed from PartyIdentification1Choice to PartyIdentification2Choice.
-CreditorIdentification: changed from mandatory to optional.
-FirstAgent: type changed from FinancialInstitutionIdentification1Choice to FinancialInstitutionIdentification3Choice.
-FinalAgent changed from FinancialInstitutionIdentification1Choice to FinancialInstitutionIdentification3Choice.
-
-

@@ -1,2 +1,0 @@
-If PaymentMethodBy FirstAgent is CHK and if PaymentTransaction/ChequeInstruction/DeliveryMethod is present and is MLFA, CRFA, RGFA or PUFA, then PaymentTransaction/FinalAgent is mandatory.
-If PaymentMethodBy FirstAgent is CHK and if PaymentTransaction/ChequeInstruction/DeliveryMethod is not present or is not MLFA, CRFA, RGFA or PUFA, then PaymentTransaction/FinalAgent is not allowed.

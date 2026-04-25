@@ -1,1 +1,0 @@
-Frequency at which the sold financial instrument is being returned.

@@ -1,1 +1,0 @@
-Charge paid in relation to a currency exchange operation.

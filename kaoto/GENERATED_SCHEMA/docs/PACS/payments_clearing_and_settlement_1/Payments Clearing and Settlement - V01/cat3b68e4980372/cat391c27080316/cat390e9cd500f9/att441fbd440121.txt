@@ -1,1 +1,0 @@
-Date by which the information on proxy assignment must be received by the intermediary (STP mode).

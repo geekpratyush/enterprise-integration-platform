@@ -1,1 +1,0 @@
-Extract of trade data for an investment fund order.

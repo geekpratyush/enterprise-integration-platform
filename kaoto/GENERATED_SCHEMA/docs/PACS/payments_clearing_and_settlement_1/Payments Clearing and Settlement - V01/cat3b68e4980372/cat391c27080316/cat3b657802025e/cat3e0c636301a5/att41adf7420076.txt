@@ -1,2 +1,0 @@
-Total value of the commissions for a specific order.
-

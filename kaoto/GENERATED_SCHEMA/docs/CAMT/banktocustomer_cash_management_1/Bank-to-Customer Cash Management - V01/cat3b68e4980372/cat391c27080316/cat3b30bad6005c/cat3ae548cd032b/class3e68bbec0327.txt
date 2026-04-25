@@ -1,1 +1,0 @@
-Level of response requested from the Receiver of the message.

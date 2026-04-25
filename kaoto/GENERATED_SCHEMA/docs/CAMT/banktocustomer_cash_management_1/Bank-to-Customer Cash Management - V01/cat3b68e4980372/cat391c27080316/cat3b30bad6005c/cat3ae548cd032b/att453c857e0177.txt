@@ -1,1 +1,0 @@
-Trade Services domain provides the bank transaction codes related to all of the trade services operations that need to be reported in the statements.

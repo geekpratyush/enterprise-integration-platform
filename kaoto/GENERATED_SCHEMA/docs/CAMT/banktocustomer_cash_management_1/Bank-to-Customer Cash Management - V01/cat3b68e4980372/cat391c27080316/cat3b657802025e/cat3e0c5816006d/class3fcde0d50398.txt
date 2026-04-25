@@ -1,1 +1,0 @@
-Choice between the specification of the data in a structured or unstructured form.

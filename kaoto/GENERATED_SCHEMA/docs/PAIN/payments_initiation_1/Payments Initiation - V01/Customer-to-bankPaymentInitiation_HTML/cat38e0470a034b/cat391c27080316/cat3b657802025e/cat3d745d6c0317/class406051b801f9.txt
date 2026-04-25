@@ -1,1 +1,0 @@
-Additional payment information concerning the payment initation for which the status is being reported.

@@ -1,3 +1,0 @@
-Set of elements providing information on the original amount.
-
-Usage : This component (on entry level) should be used when a total original batch or aggregate amount has to be provided. (If required, the individual original amounts can be included in the same component on transaction details level). 

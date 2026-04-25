@@ -1,1 +1,0 @@
-Either TransactionType or ExtendedTransactionType or CorporateActionEventType or ExtendedCorporateActionEventType must be present but not more than one.

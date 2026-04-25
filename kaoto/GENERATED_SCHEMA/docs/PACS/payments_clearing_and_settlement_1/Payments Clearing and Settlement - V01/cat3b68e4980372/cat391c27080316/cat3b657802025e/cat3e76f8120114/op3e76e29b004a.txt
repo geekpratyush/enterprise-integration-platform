@@ -1,1 +1,0 @@
-If the account identification identifies a group of accounts with different types or in different currencies, the currency and/or the account type can be used as additional search criteria.

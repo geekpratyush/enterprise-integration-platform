@@ -1,3 +1,0 @@
-If ProductTransfer\Portfolio is present, then one or more message elements in the list (PrimaryIndividualInvestor, SecondaryIndividualInvestor, OtherIndividualInvestor) may be present
-
-If ProductTransfer\Portfolio is present, then one or more message elements in the list (PrimaryCorporateInvestor,  SecondaryCorporateInvestor, OtherCorporateInvestor) may be present.

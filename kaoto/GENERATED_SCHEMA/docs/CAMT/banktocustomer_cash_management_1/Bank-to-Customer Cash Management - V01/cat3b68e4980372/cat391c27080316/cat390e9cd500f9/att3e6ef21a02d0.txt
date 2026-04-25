@@ -1,1 +1,0 @@
-Quantity open for execution as of the beginning of the trading date for a good till order.

@@ -1,1 +1,0 @@
-Set of dates (eg book date, credit date) related to the crediting of the financed amount.

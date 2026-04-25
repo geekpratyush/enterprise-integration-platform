@@ -1,1 +1,0 @@
-Specifies the parameters to calculate the local reporting time. 

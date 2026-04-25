@@ -1,1 +1,0 @@
-Used when sender wants to respond to an assignment with an Unable To Apply workflow.

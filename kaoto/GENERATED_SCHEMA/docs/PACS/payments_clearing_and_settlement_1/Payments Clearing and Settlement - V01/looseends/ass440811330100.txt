@@ -1,1 +1,0 @@
-Functional copy of the original transaction with all the data elements of the original transaction.

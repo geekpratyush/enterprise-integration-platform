@@ -1,1 +1,0 @@
-Transaction is related to a hedging operation.

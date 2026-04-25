@@ -1,1 +1,0 @@
-Document is a remittance advice sent separately from the current transaction.

@@ -1,1 +1,0 @@
-Free format text that may contain valuation information such as the place, the time or the source of the rate.

@@ -1,1 +1,0 @@
-Specifies the local instrument as a proprietary code.

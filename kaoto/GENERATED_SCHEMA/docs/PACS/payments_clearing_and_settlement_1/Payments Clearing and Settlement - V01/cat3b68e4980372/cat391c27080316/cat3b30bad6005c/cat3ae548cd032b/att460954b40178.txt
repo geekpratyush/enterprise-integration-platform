@@ -1,1 +1,0 @@
-Trade was executed off-exchange because the instrument is not admitted to trade on an exchange.

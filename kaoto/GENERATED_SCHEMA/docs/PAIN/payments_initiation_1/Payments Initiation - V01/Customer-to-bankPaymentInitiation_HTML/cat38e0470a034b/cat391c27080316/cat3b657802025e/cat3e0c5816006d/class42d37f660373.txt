@@ -1,1 +1,0 @@
-Indicates if the transfer relates to an PEP or ISA product

@@ -1,1 +1,0 @@
-Indicates the factors that are/were applied in the event of pre-allocation.

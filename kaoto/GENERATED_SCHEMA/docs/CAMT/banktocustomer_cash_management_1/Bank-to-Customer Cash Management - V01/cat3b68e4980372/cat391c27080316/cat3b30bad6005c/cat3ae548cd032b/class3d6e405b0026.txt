@@ -1,1 +1,0 @@
-Indicates the FIN payment message that includes a payment instruction.

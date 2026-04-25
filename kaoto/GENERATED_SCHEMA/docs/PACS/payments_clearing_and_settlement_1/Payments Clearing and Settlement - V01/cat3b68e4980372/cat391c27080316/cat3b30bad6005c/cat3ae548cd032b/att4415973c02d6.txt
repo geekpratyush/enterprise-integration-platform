@@ -1,1 +1,0 @@
-Scheme code for BB (Barbados) - Barbados RTGS (CBRTGS).

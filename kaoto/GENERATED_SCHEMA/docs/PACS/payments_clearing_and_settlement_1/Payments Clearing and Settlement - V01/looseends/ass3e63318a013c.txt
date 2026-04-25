@@ -1,1 +1,0 @@
-Account from which a charge is debited.

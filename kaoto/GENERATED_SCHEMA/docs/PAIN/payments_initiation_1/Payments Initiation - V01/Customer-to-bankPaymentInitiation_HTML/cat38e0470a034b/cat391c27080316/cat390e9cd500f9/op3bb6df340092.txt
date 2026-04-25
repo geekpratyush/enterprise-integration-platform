@@ -1,1 +1,0 @@
-1 UnitCurrency = ExchangeRate/ConversionRate * QuotedCurrency

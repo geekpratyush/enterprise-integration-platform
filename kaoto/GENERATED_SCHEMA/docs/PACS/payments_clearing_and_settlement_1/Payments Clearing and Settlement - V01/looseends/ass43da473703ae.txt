@@ -1,1 +1,0 @@
-The information related to the price variations of a financial instrument.

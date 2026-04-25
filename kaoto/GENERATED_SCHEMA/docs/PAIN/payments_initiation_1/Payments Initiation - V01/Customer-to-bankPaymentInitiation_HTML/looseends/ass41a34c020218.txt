@@ -1,2 +1,0 @@
-StatusInitiator: changed type from PartyIdentification1Choice to PartyIdentification2Choice.
-StatusOrRejectedRule: modified.

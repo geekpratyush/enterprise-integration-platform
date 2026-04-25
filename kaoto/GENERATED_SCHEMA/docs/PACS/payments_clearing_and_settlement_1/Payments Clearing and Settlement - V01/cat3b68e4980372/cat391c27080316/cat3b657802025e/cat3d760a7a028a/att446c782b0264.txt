@@ -1,1 +1,0 @@
-Indicates whether common accounting information in the transaction is included once for all transactions or repeated for each single transaction.

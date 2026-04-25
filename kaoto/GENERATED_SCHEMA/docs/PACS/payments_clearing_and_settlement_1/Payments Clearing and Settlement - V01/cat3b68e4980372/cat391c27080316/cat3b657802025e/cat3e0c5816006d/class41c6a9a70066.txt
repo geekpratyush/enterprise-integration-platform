@@ -1,1 +1,0 @@
-Specifies a sequence number or a total.

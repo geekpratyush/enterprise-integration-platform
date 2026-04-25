@@ -1,3 +1,0 @@
-It is recommended that ISIN be used in Identification or in UnderlyingInstrumentIdentification.
-If Identification/ISIN is not present, then Identification/InstrumentDescription/ClassificationType  or InstrumentDescription/ClassificationType should be present.
-If UnderlyingInstrumentIdentification is present but UnderlyingInstrumentIdentification/ISIN is not present, then UnderlyingInstrumentIdentification/InstrumentDescription/ClassificationType  or InstrumentDescription/ClassificationType should be present.

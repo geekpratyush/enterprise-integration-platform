@@ -1,1 +1,0 @@
-Payment transfer resulting from the payment instruction.

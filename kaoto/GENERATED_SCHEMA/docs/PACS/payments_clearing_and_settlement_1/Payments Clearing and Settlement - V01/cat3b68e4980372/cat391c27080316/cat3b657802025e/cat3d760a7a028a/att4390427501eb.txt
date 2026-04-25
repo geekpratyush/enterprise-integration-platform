@@ -1,3 +1,0 @@
-Information about the charge amount that is settled through direct account relationship. This amount will be further reflected on a statement.
-
-Usage: Charges information is used to inform the receiver of the message about the charge amount that will be settled through direct account relationship by his correspondent. This amount will be further reflected in a statement. Charges information is to be used in case of a rejection only.

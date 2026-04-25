@@ -1,1 +1,0 @@
-A code to identify a product based on applicable commercial conditions.

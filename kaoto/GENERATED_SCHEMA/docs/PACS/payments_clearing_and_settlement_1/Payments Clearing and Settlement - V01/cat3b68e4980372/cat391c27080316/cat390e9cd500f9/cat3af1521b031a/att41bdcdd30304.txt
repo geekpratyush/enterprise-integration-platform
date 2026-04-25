@@ -1,1 +1,0 @@
-Ratio applied on the non-adjusted price.

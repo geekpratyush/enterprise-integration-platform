@@ -1,1 +1,0 @@
-The StopPrice element in SecuritiesOrder must be present if the OrderType element in SecuritiesOrderParameters contains the value STOP (stop order) or STLI (stop limit order).

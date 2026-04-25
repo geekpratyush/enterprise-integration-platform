@@ -1,1 +1,0 @@
-Indicates if the CommercialAgreementReference is a new reference or not.

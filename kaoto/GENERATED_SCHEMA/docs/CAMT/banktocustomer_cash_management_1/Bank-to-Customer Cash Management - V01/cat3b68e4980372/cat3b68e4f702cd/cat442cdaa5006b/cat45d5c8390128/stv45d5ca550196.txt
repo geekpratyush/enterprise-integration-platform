@@ -1,1 +1,0 @@
-The account servicer will do all necessary checks related to the acceptance of the transaction of the account owner and will process the transaction.  

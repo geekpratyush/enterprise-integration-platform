@@ -1,1 +1,0 @@
-Set of integrated applications that provides centralised services such as clearing, netting, reconciliation, trading and/or settlement.

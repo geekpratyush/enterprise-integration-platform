@@ -1,1 +1,0 @@
-Further detailed information on the exchange rate specified in the payment transaction.

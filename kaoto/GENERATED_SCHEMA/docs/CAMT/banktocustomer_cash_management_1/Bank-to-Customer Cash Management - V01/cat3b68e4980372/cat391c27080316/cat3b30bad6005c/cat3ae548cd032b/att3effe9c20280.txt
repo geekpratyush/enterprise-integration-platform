@@ -1,2 +1,0 @@
-Bank Operation code specified in the transaction/message is not valid for Receiver.
-

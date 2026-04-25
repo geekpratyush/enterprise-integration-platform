@@ -1,2 +1,0 @@
-Choice between specification of the tax type in structured or free text format.
-

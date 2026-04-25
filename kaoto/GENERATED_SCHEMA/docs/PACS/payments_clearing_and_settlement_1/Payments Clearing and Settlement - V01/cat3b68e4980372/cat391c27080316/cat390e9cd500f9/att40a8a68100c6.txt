@@ -1,1 +1,0 @@
-Regional area in which the cheque can be cleared, when a country has no nation-wide cheque clearing organisation.

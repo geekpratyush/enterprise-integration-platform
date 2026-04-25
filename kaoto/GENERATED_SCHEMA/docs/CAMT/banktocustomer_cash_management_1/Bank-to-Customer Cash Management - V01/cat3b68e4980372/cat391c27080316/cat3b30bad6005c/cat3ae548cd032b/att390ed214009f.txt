@@ -1,1 +1,0 @@
-Price is a net price, ie, net only of local broker's commission, local fees and local taxes.

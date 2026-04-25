@@ -1,1 +1,0 @@
-Residential status of an individual, for example, non-pernament resident.

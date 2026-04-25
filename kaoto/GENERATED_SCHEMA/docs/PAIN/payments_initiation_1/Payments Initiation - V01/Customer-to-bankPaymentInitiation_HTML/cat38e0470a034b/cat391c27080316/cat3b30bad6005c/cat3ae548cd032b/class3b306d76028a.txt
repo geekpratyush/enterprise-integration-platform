@@ -1,2 +1,0 @@
-Market Identifier Code. The identification of a financial market, as stipulated in the norm ISO 10383 'Codes for exchanges and market identifications'. 
-

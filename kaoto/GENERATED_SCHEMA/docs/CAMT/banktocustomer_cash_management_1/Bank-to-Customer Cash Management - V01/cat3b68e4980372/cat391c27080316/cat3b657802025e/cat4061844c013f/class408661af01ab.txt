@@ -1,1 +1,0 @@
-Contains reference information concerning the cancellation status message, eg identification or creation date and time.  

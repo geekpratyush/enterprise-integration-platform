@@ -1,1 +1,0 @@
-Transaction is a purchase or sale of metals.

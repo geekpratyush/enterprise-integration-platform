@@ -1,1 +1,0 @@
-Cash transfer that results from a payment instruction.

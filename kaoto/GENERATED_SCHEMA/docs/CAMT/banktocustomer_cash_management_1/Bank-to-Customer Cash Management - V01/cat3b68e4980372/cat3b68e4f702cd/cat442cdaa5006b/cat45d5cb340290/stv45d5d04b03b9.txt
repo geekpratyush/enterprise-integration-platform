@@ -1,1 +1,0 @@
-The counterparty initiates a transaction with the account owner. This can be any type of transaction (eg securities, trade, purchase of goods, etc). The counterparty will also initiate the financial leg of the transaction with its account servicer. The counterparty's account servicer may be or may not be equal to the account servicer of the account owner. 

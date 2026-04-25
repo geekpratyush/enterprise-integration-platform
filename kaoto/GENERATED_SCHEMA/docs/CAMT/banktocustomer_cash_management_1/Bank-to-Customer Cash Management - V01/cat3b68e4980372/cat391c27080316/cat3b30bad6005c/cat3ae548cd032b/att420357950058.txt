@@ -1,1 +1,0 @@
-State of a baseline, after establishment, when all match instructions have been processed, and no such instruction is allowed anymore.

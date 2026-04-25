@@ -1,1 +1,0 @@
-Specifies the SWIFT service level that applies to the payment instruction.

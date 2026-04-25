@@ -1,1 +1,0 @@
-Total value of positions reported in this statement (a statement may comprise one or more messages).

@@ -1,1 +1,0 @@
-If OriginalGroupReferenceInformationAndStatus/GroupStatus is present and is RJCT, then OriginalPaymentInformation/OriginalTransactionReferenceInformationAndStatus/TransactionStatus must be different from ACTC, ACCP, ACSP, ACSC or PDNG. 

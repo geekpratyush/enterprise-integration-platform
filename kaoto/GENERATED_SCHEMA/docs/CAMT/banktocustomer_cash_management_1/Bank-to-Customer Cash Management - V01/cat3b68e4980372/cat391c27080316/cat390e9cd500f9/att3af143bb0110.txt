@@ -1,1 +1,0 @@
-An order that may participate in a transaction initiated by another party, but may not initiate a transaction.

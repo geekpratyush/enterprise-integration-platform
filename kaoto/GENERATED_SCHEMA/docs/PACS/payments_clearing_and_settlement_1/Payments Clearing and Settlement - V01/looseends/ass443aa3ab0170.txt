@@ -1,1 +1,0 @@
-Specifies how a party has voted for each agenda item.

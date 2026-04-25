@@ -1,1 +1,0 @@
-Transaction is a payment to or from a government department.

@@ -1,1 +1,0 @@
-Type of payment that created the entry.

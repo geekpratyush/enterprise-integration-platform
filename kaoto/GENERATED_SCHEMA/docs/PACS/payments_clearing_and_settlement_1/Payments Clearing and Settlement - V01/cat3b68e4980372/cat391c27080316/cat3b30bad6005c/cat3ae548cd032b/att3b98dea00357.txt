@@ -1,2 +1,0 @@
-Confirmation is for the remaining part of an instruction that was previously partially confirmed.
-

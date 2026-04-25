@@ -1,1 +1,0 @@
-Corporate action event type in a structured format.

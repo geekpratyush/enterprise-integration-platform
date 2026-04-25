@@ -1,1 +1,0 @@
-The settlement transaction is dirty, ie, non-tax exempt, status bonds are to be settled (as it is the case with Japanese government bonds).

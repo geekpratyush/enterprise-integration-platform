@@ -1,1 +1,0 @@
-Specifies additional information relative to the processing of the trade.

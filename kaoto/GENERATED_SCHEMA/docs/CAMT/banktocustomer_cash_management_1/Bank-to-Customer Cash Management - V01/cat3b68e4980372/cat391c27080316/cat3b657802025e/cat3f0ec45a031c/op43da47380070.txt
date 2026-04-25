@@ -1,1 +1,0 @@
-Currency in ByUserDefinedTimePeriod/HighestPriceValue/Amount, ByUserDefinedTimePeriod/LowestPriceValue/Amount and ByUserDefinedTimePeriod/PriceChange/Amount must be the same as Currency.

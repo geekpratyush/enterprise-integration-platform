@@ -1,1 +1,0 @@
-Current par or nominal value printed on the face of a security, typically used for asset or mortgage backed securities, which repay capital during the life of the security and as a result the face amount is decreased.

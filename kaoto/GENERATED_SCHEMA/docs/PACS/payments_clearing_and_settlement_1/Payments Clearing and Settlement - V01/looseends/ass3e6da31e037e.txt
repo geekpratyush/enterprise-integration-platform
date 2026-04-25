@@ -1,1 +1,0 @@
-Order list containing the details of the individual orders within the program.

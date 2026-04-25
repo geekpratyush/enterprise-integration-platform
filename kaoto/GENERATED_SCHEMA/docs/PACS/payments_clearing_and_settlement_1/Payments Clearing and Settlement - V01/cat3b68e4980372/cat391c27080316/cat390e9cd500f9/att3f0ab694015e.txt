@@ -1,1 +1,0 @@
-Country in which the system is located.

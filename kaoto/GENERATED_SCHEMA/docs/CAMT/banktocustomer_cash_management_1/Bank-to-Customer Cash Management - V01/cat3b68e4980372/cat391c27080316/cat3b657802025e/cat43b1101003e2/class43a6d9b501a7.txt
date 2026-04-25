@@ -1,1 +1,0 @@
-Date and identification of a trade together with references to previous events in its life.

@@ -1,1 +1,0 @@
-Number of votes expressed as abstain for one resolution.

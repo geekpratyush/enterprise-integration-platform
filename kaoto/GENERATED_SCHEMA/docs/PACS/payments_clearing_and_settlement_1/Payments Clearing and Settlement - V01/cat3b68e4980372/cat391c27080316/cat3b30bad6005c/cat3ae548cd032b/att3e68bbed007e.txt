@@ -1,1 +1,0 @@
-Closing Yield Most Recent Quarter - The yield of a bond based on the closing price as of the most recent quarter's end.

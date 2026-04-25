@@ -1,1 +1,0 @@
-Yield calculated using the price including accrued interest, where coupon dates are moved from holidays and weekends to the next trading day.

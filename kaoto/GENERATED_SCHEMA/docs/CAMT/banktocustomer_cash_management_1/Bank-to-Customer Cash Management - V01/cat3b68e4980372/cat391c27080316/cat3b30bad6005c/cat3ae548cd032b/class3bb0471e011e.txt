@@ -1,1 +1,0 @@
-Specifies the gender of a person.

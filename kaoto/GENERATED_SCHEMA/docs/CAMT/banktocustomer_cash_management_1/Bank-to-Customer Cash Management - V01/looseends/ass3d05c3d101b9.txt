@@ -1,1 +1,0 @@
-Account to be debited as a result of an instruction.

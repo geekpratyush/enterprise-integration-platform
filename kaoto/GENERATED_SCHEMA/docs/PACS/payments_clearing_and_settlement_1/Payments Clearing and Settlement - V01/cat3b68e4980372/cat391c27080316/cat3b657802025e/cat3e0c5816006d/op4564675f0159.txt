@@ -1,1 +1,0 @@
-OtherReference should be used to reference an order confirmation, order confirmation cancellation or order confirmation amendment  'message' sent in a proprietary way or used for a system reference. If OtherReference is present, OtherReference/MessageName must contain 'fax' or 'phone' or 'email', etc.

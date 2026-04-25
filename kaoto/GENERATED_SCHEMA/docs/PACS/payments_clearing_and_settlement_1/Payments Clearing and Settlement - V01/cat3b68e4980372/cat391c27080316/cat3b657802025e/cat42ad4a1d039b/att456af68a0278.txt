@@ -1,1 +1,0 @@
-Indicates whether the ISA contains a cash component asset for transfer.

@@ -1,1 +1,0 @@
-Account information for which the status of an account management instruction is requested.

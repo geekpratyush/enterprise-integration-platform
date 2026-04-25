@@ -1,7 +1,0 @@
-The first agent has to issue certified and non certified cheques. 
-It has been decided not to further define 'certified' and 'uncertified' cheques, as practices vary widely in different regions/countries. The process of issuing cheques will be further detailed in the activity diagram, insofar as it differs from executing an ordinary credit transfer order.
-
-Principles that seem to be common in Europe :
-For certified cheque, the initiating party is debited before the cheque is issued. 
-
-For non-certified cheque, the initiating party is only debited after cashing of the cheque by the final party.  

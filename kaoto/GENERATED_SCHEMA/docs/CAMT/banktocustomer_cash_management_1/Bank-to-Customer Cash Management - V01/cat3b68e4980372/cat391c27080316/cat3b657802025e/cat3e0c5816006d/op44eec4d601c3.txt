@@ -1,1 +1,0 @@
-Each ModifyLimit message can only modify one type of limit. 

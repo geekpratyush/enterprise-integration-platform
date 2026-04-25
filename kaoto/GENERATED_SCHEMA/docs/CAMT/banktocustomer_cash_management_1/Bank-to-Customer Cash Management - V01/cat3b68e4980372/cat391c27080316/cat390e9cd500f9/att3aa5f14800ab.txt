@@ -1,2 +1,0 @@
-Date/time on which the financial instrument of the block trade is
-to be exchanged.

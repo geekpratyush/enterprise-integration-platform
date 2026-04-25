@@ -1,3 +1,0 @@
-Further information related to the processing of the payment instruction that may need to be acted upon by the debtor's agent.  
-
-Usage: The instruction can relate to a level of service, can be an instruction to be executed by the debtor's agent, or can be information required by the debtor's agent to process the instruction.

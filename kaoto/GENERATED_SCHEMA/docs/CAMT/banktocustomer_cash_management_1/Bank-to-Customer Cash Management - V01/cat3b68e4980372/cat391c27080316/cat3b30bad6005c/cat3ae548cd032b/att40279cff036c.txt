@@ -1,1 +1,0 @@
-Settlement currency requested is not supported.

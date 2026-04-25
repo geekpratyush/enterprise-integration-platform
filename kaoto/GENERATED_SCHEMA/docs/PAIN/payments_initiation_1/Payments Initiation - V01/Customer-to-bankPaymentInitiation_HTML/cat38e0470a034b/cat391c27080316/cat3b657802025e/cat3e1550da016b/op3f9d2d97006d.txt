@@ -1,1 +1,0 @@
-If element FinancialInstrumentQuantityChoice/Amount is present, then GrossAmountIndicator is mandatory.

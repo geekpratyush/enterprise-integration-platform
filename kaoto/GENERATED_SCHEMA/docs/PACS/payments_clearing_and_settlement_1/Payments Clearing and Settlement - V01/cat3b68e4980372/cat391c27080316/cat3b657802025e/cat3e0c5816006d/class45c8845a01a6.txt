@@ -1,1 +1,0 @@
-Includes general information of invoice financing status report.

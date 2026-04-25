@@ -1,3 +1,0 @@
-Indicates the request to receive a report on the progress of the order or not.
-Yes means to receive periodical ListStatus
-No means no request to receive periodical ListStatus, they will be requested by a StatusRequest. However, a ListStatus with status 'done' could be sent in an unsolicited fashion.

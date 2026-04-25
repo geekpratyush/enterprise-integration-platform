@@ -1,1 +1,0 @@
-If Capacity is Agent (AGEN), then Client must be present.

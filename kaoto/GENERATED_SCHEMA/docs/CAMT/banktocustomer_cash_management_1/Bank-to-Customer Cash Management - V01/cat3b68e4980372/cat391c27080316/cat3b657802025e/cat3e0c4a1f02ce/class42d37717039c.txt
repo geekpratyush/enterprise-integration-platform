@@ -1,1 +1,0 @@
-Describes the type of account and the assets to be transferred.

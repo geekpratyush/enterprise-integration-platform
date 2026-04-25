@@ -1,1 +1,0 @@
-Balance representing the total of the payments that were put on hold because the limits have been exceeded.

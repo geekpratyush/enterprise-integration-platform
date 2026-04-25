@@ -1,1 +1,0 @@
-The yield of a bond to the next possible call date.

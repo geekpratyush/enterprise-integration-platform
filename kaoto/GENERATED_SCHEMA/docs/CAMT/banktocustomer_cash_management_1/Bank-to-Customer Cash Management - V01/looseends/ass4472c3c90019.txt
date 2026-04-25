@@ -1,1 +1,0 @@
-Information about a switch leg that is rejected or repaired.

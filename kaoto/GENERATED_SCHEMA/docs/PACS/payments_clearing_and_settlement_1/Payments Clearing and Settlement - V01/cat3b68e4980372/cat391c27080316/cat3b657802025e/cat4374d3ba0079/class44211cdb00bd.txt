@@ -1,1 +1,0 @@
-Specifies the number of votes for an agenda item.

@@ -1,1 +1,0 @@
-If PhysicalTransferDetails is present, then SettlementPartiesDetails/ReceiversCustodianDetails is not allowed.

@@ -1,1 +1,0 @@
-Any occurrence of InformativePriceDetails/PriceDifferenceReason may not be present.

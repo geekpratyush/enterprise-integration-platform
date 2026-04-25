@@ -1,1 +1,0 @@
-The party that interacts with counterparties in the context of a market (ie, an exchange, network, or over-the-counter network), to execute trades.

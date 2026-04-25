@@ -1,4 +1,0 @@
-The first agent notifies the initiating party (possibly through the forwarding agent - if any) that the settlement (i.e. debit of the debit account) has taken place. 
-
-
-

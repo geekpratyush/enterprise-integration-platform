@@ -1,1 +1,0 @@
-Name and address and Alternative Identifier of a party.

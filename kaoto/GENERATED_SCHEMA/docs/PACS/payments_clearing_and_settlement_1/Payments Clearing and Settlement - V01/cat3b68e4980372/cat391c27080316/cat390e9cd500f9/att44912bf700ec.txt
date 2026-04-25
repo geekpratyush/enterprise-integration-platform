@@ -1,1 +1,0 @@
-Method used to settle the (batch of) payment instructions.

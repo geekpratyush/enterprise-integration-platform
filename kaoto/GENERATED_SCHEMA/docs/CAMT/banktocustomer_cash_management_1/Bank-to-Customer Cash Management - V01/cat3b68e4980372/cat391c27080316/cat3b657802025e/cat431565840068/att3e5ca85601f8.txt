@@ -1,1 +1,0 @@
-The amount to be allocated to each account, net of commissions, fees and accrued interest.

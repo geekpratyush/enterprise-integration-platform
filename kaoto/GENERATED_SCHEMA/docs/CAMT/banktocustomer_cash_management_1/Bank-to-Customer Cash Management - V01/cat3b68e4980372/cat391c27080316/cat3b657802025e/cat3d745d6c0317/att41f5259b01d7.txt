@@ -1,1 +1,0 @@
-Specifies the instructed amount(s) on which the query is performed.

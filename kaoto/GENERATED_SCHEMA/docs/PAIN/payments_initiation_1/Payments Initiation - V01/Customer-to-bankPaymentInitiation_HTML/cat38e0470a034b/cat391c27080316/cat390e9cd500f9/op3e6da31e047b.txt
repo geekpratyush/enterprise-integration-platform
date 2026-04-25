@@ -1,1 +1,0 @@
-If the MaximumQuantity element in QuoteSide is present, then the Quantity element is not allowed.

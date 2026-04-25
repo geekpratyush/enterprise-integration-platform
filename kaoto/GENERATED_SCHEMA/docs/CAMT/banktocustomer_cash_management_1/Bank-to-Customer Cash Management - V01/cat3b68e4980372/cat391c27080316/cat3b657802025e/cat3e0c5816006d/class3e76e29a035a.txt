@@ -1,1 +1,0 @@
-Specification of a risk management type current limit or a liquidity management type current limit. 

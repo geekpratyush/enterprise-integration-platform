@@ -1,1 +1,0 @@
-Date and time at which the securities are to be delivered or received.

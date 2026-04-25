@@ -1,1 +1,0 @@
-Amount by which the price has changed.

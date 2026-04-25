@@ -1,1 +1,0 @@
-Make the order active until notified.

@@ -1,1 +1,0 @@
-Document is a statement of the transactions posted to the debtor's account at the supplier.

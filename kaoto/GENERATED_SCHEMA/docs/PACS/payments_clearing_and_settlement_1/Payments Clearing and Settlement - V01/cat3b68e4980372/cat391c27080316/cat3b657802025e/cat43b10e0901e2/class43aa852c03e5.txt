@@ -1,1 +1,0 @@
-Set of data which contains the link to the opening of the non deliverable trade and supplementary information on its valuation.

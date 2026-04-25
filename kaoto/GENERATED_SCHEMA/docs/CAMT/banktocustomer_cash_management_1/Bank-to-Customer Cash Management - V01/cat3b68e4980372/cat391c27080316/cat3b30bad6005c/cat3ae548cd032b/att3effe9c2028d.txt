@@ -1,1 +1,0 @@
-Transaction reference is not unique within the message.

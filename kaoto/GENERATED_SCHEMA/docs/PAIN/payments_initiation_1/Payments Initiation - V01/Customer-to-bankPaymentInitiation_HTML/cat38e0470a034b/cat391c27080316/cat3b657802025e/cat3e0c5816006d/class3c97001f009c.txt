@@ -1,2 +1,0 @@
-Updates investment account information. Provides current and updated information.
-

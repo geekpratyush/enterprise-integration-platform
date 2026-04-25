@@ -1,3 +1,0 @@
-If InterbankSettlementAmount is present, then InterbankSettlementDate is mandatory.
-If InterbankSettlementAmount is not present, then InterbankSettlementDate is not allowed.
-

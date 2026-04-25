@@ -1,1 +1,0 @@
-Account impacted by a security transaction.

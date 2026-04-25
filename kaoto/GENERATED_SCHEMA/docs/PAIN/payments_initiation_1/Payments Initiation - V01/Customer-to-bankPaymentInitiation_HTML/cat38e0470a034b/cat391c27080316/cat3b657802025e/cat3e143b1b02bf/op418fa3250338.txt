@@ -1,1 +1,0 @@
-Either NetAmount or UnitsNumber must be present, but not both.

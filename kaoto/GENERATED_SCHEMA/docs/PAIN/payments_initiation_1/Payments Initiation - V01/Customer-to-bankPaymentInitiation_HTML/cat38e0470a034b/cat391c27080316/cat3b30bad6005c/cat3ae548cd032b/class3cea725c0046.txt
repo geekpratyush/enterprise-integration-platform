@@ -1,1 +1,0 @@
-Specifies the live status of a member of a system.

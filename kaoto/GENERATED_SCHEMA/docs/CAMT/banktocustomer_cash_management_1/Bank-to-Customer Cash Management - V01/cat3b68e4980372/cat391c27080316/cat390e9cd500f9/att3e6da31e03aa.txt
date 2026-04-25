@@ -1,4 +1,0 @@
-Identifies a type of bid based on a common characteristic (the currency) of all securities of a list.
-
-
-

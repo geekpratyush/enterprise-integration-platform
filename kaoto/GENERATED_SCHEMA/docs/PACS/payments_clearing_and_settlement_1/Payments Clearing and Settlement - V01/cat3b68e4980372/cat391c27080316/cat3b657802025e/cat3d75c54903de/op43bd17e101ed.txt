@@ -1,3 +1,0 @@
-If StatusReason is equal to 'OTHR', then AddititionalStatusReasonInformation must be present.
-If StatusReason is different from 'OTHR',  then AdditionalStatusReasonInformation is optional.
-

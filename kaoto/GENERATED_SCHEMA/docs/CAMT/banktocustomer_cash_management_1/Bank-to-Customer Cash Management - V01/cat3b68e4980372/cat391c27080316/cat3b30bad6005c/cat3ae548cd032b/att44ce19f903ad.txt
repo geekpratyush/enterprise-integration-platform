@@ -1,1 +1,0 @@
-Used when a requested cancellation is successful.

@@ -1,1 +1,0 @@
-The code is checked against the list of country names obtained from the United Nations (ISO 3166, Alpha-2 code).

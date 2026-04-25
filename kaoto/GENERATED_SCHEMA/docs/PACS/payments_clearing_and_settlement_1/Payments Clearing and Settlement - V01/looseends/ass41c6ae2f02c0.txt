@@ -1,1 +1,0 @@
-Specifies the type of data set required in order to complete the transaction, as per the underlying commercial agreement.

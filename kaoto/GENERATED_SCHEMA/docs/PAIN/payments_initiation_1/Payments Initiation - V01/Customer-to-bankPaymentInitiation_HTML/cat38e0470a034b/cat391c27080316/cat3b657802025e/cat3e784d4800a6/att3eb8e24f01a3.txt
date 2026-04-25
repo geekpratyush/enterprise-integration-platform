@@ -1,1 +1,0 @@
-Percentage of program that crosses in Currency.

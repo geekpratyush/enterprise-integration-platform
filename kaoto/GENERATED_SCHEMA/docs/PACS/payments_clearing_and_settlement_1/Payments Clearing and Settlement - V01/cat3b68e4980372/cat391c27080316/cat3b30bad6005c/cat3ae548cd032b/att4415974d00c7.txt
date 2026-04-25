@@ -1,1 +1,0 @@
-Scheme code for KE (Kenya) - Kenyan Electronic Payment Settlement System.

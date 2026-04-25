@@ -1,1 +1,0 @@
-Indicates that the quote is an offer.

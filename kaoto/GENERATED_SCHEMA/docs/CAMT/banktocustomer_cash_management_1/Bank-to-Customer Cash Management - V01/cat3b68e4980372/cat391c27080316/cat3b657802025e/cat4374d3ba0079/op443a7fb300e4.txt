@@ -1,1 +1,0 @@
-Either VoteInstruction or Shareholder must be present but not both.

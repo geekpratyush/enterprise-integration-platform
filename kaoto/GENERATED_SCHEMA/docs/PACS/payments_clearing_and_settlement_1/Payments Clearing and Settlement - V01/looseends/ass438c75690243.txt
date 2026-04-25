@@ -1,1 +1,0 @@
-Indicates the different methods that can be used to vote.

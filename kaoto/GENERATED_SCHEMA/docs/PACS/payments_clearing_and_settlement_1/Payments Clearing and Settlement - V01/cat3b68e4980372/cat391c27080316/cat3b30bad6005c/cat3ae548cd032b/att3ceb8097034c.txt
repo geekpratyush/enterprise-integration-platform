@@ -1,1 +1,0 @@
-Securities have been delivered, but the settlement amount has not been received from the counterparty.

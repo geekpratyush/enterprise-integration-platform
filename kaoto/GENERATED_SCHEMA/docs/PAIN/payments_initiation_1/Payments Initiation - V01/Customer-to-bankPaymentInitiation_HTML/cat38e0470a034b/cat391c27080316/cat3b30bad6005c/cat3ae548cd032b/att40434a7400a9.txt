@@ -1,1 +1,0 @@
-Cheque is to be sent through mail services to final agent.

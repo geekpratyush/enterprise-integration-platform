@@ -1,1 +1,0 @@
-Currency and amount to be exchanged against another amount in the counter currency.

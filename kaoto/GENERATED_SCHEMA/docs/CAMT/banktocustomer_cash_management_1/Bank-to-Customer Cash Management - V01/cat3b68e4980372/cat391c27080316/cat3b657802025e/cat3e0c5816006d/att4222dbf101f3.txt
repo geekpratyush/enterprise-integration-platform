@@ -1,1 +1,0 @@
-Sequence number that allows to easily identify the element that is rejected.

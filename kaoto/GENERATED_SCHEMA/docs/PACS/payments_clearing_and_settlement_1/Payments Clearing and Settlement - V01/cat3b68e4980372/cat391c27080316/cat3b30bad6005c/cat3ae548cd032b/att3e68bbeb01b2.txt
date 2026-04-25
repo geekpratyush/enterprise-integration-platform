@@ -1,2 +1,0 @@
-Loan that is disbursed against a security.
-

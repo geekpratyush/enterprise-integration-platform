@@ -1,1 +1,0 @@
-Charge for the execution of an order.

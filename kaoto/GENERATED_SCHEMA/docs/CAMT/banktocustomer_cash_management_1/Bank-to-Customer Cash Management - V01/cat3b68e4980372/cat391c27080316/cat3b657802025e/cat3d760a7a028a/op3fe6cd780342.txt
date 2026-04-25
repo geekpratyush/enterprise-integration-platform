@@ -1,2 +1,0 @@
-Rule usage guideline: For a debit entry, the creditor information must be present. For a credit entry, the debtor information must be present. Both may not be present.
-Rule description: Either Debtor or Creditor must be present, but not both.

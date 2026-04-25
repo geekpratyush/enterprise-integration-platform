@@ -1,1 +1,0 @@
-The yield calculated with coupon dates moved from a weekend or holiday to the next valid settlement date.

@@ -1,1 +1,0 @@
-Specifies the party which is the owner of the securities listed in one register entry.

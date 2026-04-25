@@ -1,1 +1,0 @@
-Indicates whether the entry reference is requested.

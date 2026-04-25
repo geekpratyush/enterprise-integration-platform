@@ -1,2 +1,0 @@
-Updates information about an account related party (different from an account owner) such as power of attorney. Provides current and updated information.
-

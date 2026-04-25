@@ -1,1 +1,0 @@
-Settlement date or transfer date is not recognised or is invalid.

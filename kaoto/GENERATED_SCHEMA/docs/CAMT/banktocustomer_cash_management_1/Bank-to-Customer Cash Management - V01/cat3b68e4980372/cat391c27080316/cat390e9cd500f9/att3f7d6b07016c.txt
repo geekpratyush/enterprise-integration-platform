@@ -1,1 +1,0 @@
-Indicates whether a security is interchangeable, ie, the security is allowed to be replaced by another security, without loss of value.

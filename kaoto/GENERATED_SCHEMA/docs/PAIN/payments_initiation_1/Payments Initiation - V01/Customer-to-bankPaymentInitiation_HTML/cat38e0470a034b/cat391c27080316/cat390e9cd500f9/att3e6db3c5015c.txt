@@ -1,2 +1,0 @@
-Total amount of accrued interest for convertible bonds and fixed income instruments.
-

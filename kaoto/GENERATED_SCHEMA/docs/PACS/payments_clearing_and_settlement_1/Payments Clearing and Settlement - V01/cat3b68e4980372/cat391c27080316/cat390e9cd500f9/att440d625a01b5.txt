@@ -1,1 +1,0 @@
-Algebraical sum of charges related to the invoice.

@@ -1,1 +1,0 @@
-Specifies an alternative identification of an individual person, for example, national registration identification number, passport number.

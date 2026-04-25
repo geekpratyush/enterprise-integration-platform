@@ -1,1 +1,0 @@
-Identification of an account owned by the investor to which a cash entry is made based on the transfer of asset(s).

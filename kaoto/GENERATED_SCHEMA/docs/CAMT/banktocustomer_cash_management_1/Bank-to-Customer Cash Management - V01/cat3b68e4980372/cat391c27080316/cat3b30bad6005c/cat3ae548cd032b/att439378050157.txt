@@ -1,2 +1,0 @@
-File format incorrect in terms of grouping indicator.
-

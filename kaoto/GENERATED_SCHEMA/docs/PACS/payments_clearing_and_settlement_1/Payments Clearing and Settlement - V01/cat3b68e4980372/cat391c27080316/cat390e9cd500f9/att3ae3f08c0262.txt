@@ -1,1 +1,0 @@
-Indicates the conditions under which the order/trade is to be/was executed.

@@ -1,1 +1,0 @@
-Underlying reason related to the creation of a transaction.

@@ -1,1 +1,0 @@
-Specifies the final result of a single financing request.

@@ -1,1 +1,0 @@
-In the customer initiation, the ServiceLevel must use the service name defined between the agent and its customer.

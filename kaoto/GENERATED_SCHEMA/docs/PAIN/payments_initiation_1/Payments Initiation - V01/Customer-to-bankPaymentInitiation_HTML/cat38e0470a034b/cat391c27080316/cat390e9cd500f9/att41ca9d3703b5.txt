@@ -1,1 +1,0 @@
-Value of the dividend expressed as an amount.

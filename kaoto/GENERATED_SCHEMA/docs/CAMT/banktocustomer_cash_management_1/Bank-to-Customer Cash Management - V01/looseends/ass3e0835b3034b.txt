@@ -1,1 +1,0 @@
-Specification of the system to be used for cash settlement.

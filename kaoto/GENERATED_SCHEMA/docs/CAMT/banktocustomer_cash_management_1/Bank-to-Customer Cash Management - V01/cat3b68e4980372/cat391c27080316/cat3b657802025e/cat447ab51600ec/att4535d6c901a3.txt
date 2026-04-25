@@ -1,3 +1,0 @@
-Further details on the status reason.
-
-Usage: Additional information can be used for several purposes, e.g. to report repaired information, or to further detail the status reason.

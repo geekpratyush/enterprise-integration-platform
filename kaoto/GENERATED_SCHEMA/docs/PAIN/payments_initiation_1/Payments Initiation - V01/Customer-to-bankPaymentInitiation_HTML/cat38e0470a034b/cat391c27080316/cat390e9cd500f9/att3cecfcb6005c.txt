@@ -1,1 +1,0 @@
-Amount of money to be transferred between the debtor and creditor, before charges.

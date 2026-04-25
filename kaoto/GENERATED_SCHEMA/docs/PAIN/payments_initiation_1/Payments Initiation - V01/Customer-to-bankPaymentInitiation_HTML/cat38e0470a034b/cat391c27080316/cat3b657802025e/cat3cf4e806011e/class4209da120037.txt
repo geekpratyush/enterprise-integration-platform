@@ -1,1 +1,0 @@
-Specifies the parameters for which a transaction report must be generated.

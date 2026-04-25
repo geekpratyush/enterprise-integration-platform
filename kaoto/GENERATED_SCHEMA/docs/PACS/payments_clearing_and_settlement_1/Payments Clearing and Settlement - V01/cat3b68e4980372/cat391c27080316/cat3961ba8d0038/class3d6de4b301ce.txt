@@ -1,2 +1,0 @@
-The party that is sponsored by a direct member, and has limited access to the system transaction administrator functions. An indirect member does not own an account with the system transaction administrator, and can only submit transactions for settlement on its direct member account. Access to information and functions offered by the system transaction administrator are dependent upon the system considered.
-

@@ -1,1 +1,0 @@
-ConvertibleBond must not be present if ConvertibleIndicator contains the value "False" or "0" (No).

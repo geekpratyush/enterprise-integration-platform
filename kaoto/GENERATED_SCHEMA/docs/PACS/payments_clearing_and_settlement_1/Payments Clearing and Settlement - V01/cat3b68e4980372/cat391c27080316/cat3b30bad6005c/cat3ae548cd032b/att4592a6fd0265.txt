@@ -1,1 +1,0 @@
-Order confirmation received from agent is invalid.

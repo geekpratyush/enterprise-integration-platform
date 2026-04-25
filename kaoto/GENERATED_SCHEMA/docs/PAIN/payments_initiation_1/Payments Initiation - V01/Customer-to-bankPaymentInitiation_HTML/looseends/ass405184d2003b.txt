@@ -1,4 +1,0 @@
-Agent that services a charges account.  
-
-Usage : charges account agent should only be used when the charges account agent is different from the first agent.  
-

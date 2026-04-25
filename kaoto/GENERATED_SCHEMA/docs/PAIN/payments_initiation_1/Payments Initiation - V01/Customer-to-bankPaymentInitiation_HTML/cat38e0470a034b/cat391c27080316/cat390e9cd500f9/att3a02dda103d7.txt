@@ -1,2 +1,0 @@
-Specifies the number of basis points used in calculating the price 
-(over an underlying benchmark) of a fixed income instrument.

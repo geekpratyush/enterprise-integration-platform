@@ -1,1 +1,0 @@
-Quantity of units or amount of money in the order is too low for a subscription.

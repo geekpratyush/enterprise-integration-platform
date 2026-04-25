@@ -1,1 +1,0 @@
-The repetitive ChargeAmount should contain all separate charge amounts taken by all agents along the payment chain starting from the creditor's side.

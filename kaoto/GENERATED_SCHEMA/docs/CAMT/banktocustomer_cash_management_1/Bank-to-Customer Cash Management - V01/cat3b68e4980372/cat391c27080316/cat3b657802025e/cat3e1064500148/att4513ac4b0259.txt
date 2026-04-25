@@ -1,1 +1,0 @@
-Indicates whether the accrued interest is a positive or negative amount.

@@ -1,1 +1,0 @@
-Indicates how the amount of the investment plan is split amongst the funds.

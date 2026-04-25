@@ -1,1 +1,0 @@
-Total net amount for which a mismatched data set has been submitted and has not yet been accepted or rejected.

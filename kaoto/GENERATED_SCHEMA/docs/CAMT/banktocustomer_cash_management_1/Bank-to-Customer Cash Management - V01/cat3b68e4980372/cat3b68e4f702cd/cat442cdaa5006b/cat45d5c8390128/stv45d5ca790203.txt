@@ -1,1 +1,0 @@
-The account owner's reconciliation system receives the cash movement information, both from the external feed (ie the account servicer) and the internal accounting system.

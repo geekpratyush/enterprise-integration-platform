@@ -1,1 +1,0 @@
-The change in the yield since the previous day's closing yield.

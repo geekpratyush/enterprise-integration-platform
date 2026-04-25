@@ -1,1 +1,0 @@
-Transaction reconciliation for transactions initiated by the account servicer

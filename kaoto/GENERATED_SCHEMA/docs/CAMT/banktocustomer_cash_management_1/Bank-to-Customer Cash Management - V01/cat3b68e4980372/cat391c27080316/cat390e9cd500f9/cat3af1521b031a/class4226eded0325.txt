@@ -1,1 +1,0 @@
-Specifies the quantity of a product in a trade transaction. 

@@ -1,1 +1,0 @@
-Set of elements identifying the agents related to the underlying transaction.

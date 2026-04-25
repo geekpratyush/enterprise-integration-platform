@@ -1,1 +1,0 @@
-The yield to the date at which the bond holder can next put the bond to the issuer.

@@ -1,1 +1,0 @@
-Calculation of the net asset value of an investment fund/fund class.

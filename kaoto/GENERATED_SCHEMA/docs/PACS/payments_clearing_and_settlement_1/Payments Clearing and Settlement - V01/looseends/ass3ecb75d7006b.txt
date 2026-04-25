@@ -1,1 +1,0 @@
-Transaction where either the buying and selling are the same, or the buying and selling broker belong to the same firm.

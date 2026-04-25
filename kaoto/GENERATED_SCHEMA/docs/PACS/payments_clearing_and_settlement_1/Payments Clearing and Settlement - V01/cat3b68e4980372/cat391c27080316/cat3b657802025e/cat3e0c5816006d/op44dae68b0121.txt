@@ -1,1 +1,0 @@
-If PreviousReference/MessageName is present, it must start with acmt.001 or acmt.003 and Reference must contain the business reference of a message in this list.

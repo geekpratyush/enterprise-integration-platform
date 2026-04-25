@@ -1,1 +1,0 @@
-The account owner will book the movement of cash, which is the result of the submitted transaction, in its internal books.

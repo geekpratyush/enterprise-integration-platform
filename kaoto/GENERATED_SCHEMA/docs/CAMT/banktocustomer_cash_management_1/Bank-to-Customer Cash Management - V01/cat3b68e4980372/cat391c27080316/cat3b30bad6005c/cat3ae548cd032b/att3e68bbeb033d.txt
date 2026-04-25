@@ -1,1 +1,0 @@
-Aggregate executions for this symbol, side and settlement date.

@@ -1,1 +1,0 @@
-Specifies whether it is allowed to only vote on a part of the entire holding, leaving part of the position un-voted.

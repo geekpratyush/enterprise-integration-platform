@@ -1,1 +1,0 @@
-Transaction is a subscription leg of a switch order execution.

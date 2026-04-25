@@ -1,1 +1,0 @@
-Used when the payment instruction has been cancelled.

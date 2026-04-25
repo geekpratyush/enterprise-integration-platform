@@ -1,1 +1,0 @@
-Specifies whether the fund calculates a taxable interest per share (TIS).

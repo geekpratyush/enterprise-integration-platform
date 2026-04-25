@@ -1,1 +1,0 @@
-Specifies the beneficiary's account information for the settlement of a purchase of goods or services.

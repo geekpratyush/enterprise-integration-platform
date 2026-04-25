@@ -1,1 +1,0 @@
-The repurchase relates a transaction with a triparty agent.

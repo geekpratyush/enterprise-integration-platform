@@ -1,1 +1,0 @@
-Specifies the party that will bear the charges associated with a transfer.

@@ -1,1 +1,0 @@
-Details of a specific trading session associated with a quote.

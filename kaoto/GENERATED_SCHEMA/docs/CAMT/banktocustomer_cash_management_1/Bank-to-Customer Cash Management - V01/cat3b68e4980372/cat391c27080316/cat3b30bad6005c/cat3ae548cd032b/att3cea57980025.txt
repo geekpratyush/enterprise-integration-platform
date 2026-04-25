@@ -1,1 +1,0 @@
-Event is the cutoff time for low value payments processed by the system.

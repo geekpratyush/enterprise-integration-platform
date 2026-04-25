@@ -1,6 +1,0 @@
-The initiating party optionally receives the acceptance acknowledgement from the first agent, possibly through the forwarding agent (if any).
-
-This acceptance acknowledgement signifies that the payment order (subject to prior information received through the various payment status reports) will be processed by the first agent and will trigger accounting entries on the debtor/initiating party account maintained at the first agent. 
-
-
-

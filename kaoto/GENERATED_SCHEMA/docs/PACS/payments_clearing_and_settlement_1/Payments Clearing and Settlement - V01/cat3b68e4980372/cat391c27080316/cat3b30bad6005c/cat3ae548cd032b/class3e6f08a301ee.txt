@@ -1,1 +1,0 @@
-Indicates how the third party, receiving an allocation instruction, should handle/process the details.

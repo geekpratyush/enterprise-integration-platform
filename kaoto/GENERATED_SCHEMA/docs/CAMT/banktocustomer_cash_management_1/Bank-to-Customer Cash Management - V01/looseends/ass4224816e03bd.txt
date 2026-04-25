@@ -1,1 +1,0 @@
-Financial instrument to which an indication of interest is related.

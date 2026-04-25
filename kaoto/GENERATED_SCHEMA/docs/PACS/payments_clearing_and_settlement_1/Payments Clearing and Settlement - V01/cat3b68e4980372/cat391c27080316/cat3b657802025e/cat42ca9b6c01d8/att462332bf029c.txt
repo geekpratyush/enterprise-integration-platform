@@ -1,1 +1,0 @@
-Maturity date/time at which an interest bearing security becomes due.

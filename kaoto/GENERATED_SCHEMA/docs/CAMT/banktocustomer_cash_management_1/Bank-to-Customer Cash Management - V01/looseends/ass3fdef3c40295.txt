@@ -1,1 +1,0 @@
-Intermediary party in the settlement chain, eg, a party from which the Sender received the cash, when other than the originator.

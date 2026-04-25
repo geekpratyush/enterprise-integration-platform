@@ -1,2 +1,0 @@
-Indicates whether the payment instruction is a debit or a credit.
-

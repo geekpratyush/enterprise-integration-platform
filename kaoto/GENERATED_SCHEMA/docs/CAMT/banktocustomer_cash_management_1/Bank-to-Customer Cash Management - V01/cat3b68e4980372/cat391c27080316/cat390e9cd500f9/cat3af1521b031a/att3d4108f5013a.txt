@@ -1,1 +1,0 @@
-Telephone identifier for a geographical area within a country.

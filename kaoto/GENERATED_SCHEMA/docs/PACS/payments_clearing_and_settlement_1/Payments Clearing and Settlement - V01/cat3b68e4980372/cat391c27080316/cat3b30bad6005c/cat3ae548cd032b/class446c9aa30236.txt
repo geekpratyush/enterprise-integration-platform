@@ -1,1 +1,0 @@
-Specifies the grouping options of the payment transaction.

@@ -1,1 +1,0 @@
-Cash account debited as a result of a cash transfer.

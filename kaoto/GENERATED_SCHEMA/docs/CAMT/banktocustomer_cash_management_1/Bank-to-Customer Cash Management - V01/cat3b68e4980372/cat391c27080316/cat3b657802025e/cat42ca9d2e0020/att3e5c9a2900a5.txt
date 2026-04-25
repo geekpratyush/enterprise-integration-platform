@@ -1,1 +1,0 @@
-Total amount due as the result of the transaction (e.g. for Buy order: principal + commission + fees) reported in currency of execution. It is the sum of all AllocatedNetAmount fields.

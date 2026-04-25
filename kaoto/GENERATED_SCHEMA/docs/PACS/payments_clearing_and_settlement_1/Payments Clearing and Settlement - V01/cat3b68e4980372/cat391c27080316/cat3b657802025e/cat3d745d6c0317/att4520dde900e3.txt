@@ -1,1 +1,0 @@
-Specifies the original message name identifier to which the message refers, eg, pacs.003.001.01 or MT103.

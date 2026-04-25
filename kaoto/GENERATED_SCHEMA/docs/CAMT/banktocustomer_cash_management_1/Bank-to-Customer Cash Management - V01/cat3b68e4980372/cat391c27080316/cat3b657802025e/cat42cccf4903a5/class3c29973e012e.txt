@@ -1,1 +1,0 @@
-Firms or vendor maintained list of identifiers for the purpose of message routing.

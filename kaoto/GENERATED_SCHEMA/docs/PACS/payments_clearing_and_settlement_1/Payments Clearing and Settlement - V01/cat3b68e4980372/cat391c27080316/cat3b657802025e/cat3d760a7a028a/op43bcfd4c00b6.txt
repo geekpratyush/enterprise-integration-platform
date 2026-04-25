@@ -1,2 +1,0 @@
-The OriginalInterbankSettlementAmount must be identical to the interbank settlement amount of the original transaction.
-

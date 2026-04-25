@@ -1,2 +1,0 @@
-Choice between types of payment instrument, ie, cheque, credit transfer or investment account.
-

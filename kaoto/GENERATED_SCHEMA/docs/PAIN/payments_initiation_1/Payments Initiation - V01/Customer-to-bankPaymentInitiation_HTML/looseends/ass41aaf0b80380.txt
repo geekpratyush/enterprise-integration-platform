@@ -1,2 +1,0 @@
-Address: type changed from LongPostalAddress1Choice to PostalAddress1.
-Name: type changed from Max35Text to Max350Text (alignment).

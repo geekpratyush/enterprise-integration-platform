@@ -1,1 +1,0 @@
-Only the bank details of an intermediary is concerned by the change.

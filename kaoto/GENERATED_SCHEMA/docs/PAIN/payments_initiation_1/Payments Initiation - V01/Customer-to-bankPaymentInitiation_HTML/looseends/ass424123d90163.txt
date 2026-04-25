@@ -1,1 +1,0 @@
-Amount of money per unit or per set of units for which a product is sold.

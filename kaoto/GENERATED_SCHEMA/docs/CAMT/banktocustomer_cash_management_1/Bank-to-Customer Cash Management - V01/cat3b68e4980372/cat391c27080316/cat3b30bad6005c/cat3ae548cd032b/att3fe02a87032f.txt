@@ -1,2 +1,0 @@
-Payment is made under the recovery procedure to move liquidity to/from the settlement account of a member according to the specifications of the system.
-

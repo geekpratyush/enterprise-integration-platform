@@ -1,1 +1,0 @@
-Transaction is a redemption of an investment fund.

@@ -1,1 +1,0 @@
-Indicates whether a confirmation amendment message will follow the confirmation cancellation instruction or not.

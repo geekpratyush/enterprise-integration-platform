@@ -1,3 +1,0 @@
-If SettlementMethod is equal to CLRG then:
-- SettlementAccount is not allowed;
-- ClearingSystem must be present.

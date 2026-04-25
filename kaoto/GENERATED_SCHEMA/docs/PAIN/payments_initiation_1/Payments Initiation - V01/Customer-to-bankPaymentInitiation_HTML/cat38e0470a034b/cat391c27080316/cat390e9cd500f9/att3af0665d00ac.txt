@@ -1,1 +1,0 @@
-Specifies the minimum ratio or multiply factor used to convert from contracts to shares.

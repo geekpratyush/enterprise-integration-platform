@@ -1,1 +1,0 @@
-Indicates either of two variables is valid, but not both.

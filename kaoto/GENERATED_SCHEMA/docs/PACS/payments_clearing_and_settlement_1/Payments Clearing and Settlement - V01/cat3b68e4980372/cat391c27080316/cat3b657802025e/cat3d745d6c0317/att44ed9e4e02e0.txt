@@ -1,3 +1,0 @@
-An optional qualifier providing additional system specific information about the entry.
-
-Usage:

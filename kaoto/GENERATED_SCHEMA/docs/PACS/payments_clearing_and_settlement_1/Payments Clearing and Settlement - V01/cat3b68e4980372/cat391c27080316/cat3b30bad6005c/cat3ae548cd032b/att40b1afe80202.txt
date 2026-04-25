@@ -1,1 +1,0 @@
-Balance of securities, before ex-date, that are involved in a corporate action (CA). Securities blocked due to a CA, eg, proxi, in escrow, are to be identified in the BLOK sub-balance.

@@ -1,1 +1,0 @@
-Trade is a partial closing of another trade, for the same pair of currencies, and for the same value date.

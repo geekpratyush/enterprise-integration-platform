@@ -1,1 +1,0 @@
-Party that executes a cash transfer received via a clearing agent or on request of an agreement party.

@@ -1,1 +1,0 @@
-Date when a bond is called away/redeemed before its scheduled maturity date.

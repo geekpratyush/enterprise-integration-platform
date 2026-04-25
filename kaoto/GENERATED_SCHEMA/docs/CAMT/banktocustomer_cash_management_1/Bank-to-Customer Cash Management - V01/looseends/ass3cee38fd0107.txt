@@ -1,1 +1,0 @@
-Payment transaction resulting from a payment agreement.

@@ -1,1 +1,0 @@
-Unique and unambiguous identification of the remittance, which is sent separately from the payment initiation information.

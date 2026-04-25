@@ -1,1 +1,0 @@
-System which provides cash settlement for trades submitted by its members.

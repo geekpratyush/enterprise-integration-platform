@@ -1,1 +1,0 @@
-Provides reference to the transaction for the financial institution that submits the data set.

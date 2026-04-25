@@ -1,1 +1,0 @@
-Quantity of financial instrument, in relative size, to which the indication applies.

@@ -1,1 +1,0 @@
-Party that owes an amount of money to the creditor. In the context of the payment model, the debtor is also the debit account owner. 

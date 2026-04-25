@@ -1,1 +1,0 @@
-Specifies the dividend policy of the financial instrument.

@@ -1,2 +1,0 @@
-The first agent sends to the initiating party (possibly through the forwarding agent, if any) an acceptance acknowledgement for the payment order.
-

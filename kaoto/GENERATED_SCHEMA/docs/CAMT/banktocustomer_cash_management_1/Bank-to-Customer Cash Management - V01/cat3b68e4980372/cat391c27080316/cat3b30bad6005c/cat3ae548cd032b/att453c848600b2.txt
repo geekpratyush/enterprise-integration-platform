@@ -1,1 +1,0 @@
-Liquidity Management domain provides the bank transaction codes for liquidity management activities that relate to own account management, i.e. cash concentration, zero balancing or topping of accounts, or pooling activities. The underlying objective of these techniques is the coverage of funds deficits in one area with surpluses in another. 

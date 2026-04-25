@@ -1,2 +1,0 @@
-Index or support rate used together with the spread to calculate the
-repurchase rate.

@@ -1,1 +1,0 @@
-If RoundingDirection contains a value and if RoundingModulus does not contain a value, the number to be rounded must be rounded to the closest whole number.

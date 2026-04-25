@@ -1,1 +1,0 @@
-If DataSetRequired/RequiredTransportDataSet is TRUE, then Goods/TransShipment is mandatory. If DataSetRequired/RequiredTransportDataSet is FALSE, then Goods/TransShipment is optional.

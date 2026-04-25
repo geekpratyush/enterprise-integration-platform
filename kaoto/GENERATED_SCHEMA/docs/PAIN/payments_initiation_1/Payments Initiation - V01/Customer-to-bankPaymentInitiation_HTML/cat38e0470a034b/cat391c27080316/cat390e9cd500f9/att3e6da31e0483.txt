@@ -1,1 +1,0 @@
-Indicates that the sell-side is requested to calculate the quantity based on the opposite leg and is used instead of giving a quantity.

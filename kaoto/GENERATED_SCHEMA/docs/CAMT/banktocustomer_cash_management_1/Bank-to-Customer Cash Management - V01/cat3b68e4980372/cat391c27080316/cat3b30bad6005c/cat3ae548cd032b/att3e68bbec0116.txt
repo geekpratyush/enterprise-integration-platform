@@ -1,1 +1,0 @@
-Quote message (single instrument or multileg).

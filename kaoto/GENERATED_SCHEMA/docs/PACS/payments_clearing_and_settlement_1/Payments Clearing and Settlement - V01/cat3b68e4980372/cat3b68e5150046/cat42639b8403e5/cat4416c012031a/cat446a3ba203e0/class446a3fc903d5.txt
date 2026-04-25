@@ -1,1 +1,0 @@
-The FIToFICustomerDirectDebitV01 message is sent by the creditor's agent to the debtor's agent, directly or through other agents and/or a payment clearing and settlement system. It is used to collect funds from a debtor's account for a creditor. 

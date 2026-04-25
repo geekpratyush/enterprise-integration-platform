@@ -1,1 +1,0 @@
-Source of a price quotation when it is not the local market.

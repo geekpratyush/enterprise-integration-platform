@@ -1,2 +1,0 @@
-Investment fund class for which the net asset value is calculated.
-

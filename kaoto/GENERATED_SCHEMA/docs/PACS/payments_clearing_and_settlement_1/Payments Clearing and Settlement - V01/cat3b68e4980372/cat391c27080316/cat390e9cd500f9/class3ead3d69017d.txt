@@ -1,2 +1,0 @@
-Combination of two foreign exchange trades, in opposite directions, for different value dates and for the same pair(s) of currencies.
-

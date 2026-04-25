@@ -1,1 +1,0 @@
-Specifies the status of a single payment transaction or of a group of payment transactions for which a cancellation request has been received.

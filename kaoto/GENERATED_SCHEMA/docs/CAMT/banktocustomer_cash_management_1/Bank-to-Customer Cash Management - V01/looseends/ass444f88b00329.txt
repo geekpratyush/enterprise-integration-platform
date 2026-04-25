@@ -1,2 +1,0 @@
-Payment instrument for the cash-out flow.
-

@@ -1,1 +1,0 @@
-Balance corresponding to transactions that have been executed and settled, but not yet fully registered on the books of the registrar.

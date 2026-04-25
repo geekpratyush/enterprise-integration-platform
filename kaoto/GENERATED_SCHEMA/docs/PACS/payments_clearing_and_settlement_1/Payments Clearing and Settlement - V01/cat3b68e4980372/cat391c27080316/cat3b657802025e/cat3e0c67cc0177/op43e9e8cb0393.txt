@@ -1,1 +1,0 @@
-Either CalculationBasis or ExtendedCalculationBasis may be present, but not both. 

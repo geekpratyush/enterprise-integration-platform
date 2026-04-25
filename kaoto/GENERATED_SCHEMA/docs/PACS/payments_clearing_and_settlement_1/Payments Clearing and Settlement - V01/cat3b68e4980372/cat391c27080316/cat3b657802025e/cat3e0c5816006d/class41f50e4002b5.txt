@@ -1,1 +1,0 @@
-Choice beween a payment type from a predefined list and a proprietary payment type.

@@ -1,2 +1,0 @@
-Value given to a positive or negative price change.
-

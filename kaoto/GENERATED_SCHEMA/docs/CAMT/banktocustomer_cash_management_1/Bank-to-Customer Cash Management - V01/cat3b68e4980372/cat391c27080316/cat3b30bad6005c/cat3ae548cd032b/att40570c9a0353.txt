@@ -1,1 +1,0 @@
-Indicates that there is only one occurrence of the PaymentInformation block and several occurrences of the PaymentTransaction block.

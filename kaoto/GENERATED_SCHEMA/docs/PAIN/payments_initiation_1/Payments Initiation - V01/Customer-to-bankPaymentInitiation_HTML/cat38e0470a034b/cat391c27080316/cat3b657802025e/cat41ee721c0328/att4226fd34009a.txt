@@ -1,1 +1,0 @@
-Value date for debiting the amount.

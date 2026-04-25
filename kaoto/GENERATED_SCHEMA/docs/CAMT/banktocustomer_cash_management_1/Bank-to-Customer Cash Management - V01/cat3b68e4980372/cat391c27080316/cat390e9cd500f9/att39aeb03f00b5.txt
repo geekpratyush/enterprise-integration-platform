@@ -1,1 +1,0 @@
-Minimum nominal quantity of securities that must be purchased/sold.

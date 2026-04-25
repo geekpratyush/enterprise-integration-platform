@@ -1,1 +1,0 @@
-Return on capital which is invested.

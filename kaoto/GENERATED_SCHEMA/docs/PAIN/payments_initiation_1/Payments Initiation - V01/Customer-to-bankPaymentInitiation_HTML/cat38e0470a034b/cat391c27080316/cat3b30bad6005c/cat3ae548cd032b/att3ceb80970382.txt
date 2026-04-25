@@ -1,1 +1,0 @@
-Transaction suspended. Because the suspension period is finished, the cancellation or confirmation of instructions is required.

@@ -1,2 +1,0 @@
-Unique and unambiguous identifier for a payment instruction, as assigned by the clearing agent or the initiating party.
-

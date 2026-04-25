@@ -1,1 +1,0 @@
-The shares are held elsewhere. Used for certain financial instruments, e.g. US mutual funds, where settlement is internal only, i.e. there is no external movement of securities.

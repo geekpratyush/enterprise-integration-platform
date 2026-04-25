@@ -1,1 +1,0 @@
-Date used for the correction of the value date of a cash pool movement that has been posted with a different value date.

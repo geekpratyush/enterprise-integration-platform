@@ -1,1 +1,0 @@
-Provides detailed payment instruction information.

@@ -1,1 +1,0 @@
-Accounts header used to return information on the accounts. 

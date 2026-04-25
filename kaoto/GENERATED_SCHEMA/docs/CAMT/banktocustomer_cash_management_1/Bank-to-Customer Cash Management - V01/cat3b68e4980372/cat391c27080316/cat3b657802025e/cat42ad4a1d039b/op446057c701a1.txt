@@ -1,1 +1,0 @@
-If CurrentYearType or ExtendedCurrentYearType is not present then PreviousYears must be present. If CurrentYearType  or ExtendedCurrentYearType  is present then PreviousYears may be present.

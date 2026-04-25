@@ -1,1 +1,0 @@
-The party that is a customer of either a direct or indirect system member. It is not known by the system transaction administrator, and does not have any liability nor rights, vis-a-vis the system.

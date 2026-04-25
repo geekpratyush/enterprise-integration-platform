@@ -1,1 +1,0 @@
-Type of price from which the change is calculated, eg, bid, offer, or single.

@@ -1,1 +1,0 @@
-If ChargesInformation/ChargesAmount is present at least once, then ReturnedInstructedAmount must be present.

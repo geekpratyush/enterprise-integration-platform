@@ -1,1 +1,0 @@
-Identifies an airport by its location and by its name.

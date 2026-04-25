@@ -1,3 +1,0 @@
-User identification or any user oriented key that allows to check if the initiating party is allowed to pay from the account specified in the initiation.
-
-Usage: the content is not of a technical nature, but reflects the organisational structure at the initiating side. The authorisation element can typically be used in relay scenarios or payment initiations that are initiated  on behalf  of a different party than the initiating party.

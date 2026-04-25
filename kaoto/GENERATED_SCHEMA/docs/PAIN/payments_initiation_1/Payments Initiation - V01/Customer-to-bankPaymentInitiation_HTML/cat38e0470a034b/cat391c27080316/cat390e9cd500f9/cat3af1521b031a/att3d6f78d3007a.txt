@@ -1,1 +1,0 @@
-Lower boundary of a range of amount values.

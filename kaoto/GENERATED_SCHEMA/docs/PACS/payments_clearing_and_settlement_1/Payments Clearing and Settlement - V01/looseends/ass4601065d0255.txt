@@ -1,1 +1,0 @@
-Specifies the rate of exchange at which the foreign exchange option has been struck.

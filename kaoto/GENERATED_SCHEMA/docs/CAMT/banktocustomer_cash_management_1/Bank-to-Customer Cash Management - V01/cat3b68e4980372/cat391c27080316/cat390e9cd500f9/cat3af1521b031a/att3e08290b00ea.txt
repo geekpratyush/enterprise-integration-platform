@@ -1,1 +1,0 @@
-Indicates whether the address is the official address of the party.

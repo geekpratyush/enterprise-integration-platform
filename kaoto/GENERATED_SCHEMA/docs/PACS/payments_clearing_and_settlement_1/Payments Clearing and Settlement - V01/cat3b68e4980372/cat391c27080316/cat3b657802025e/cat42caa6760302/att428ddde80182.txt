@@ -1,1 +1,0 @@
-Total number of distinct financial instruments for which the bid is applicable.

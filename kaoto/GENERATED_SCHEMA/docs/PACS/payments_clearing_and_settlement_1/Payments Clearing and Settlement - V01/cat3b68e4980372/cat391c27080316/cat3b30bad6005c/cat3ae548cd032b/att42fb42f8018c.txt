@@ -1,1 +1,0 @@
-Party that is the counterparty in a trade.

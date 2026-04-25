@@ -1,1 +1,0 @@
-Net amount of money invested in a specific financial instrument by an investor, expressed in the currency requested by the investor.

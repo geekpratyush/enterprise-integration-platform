@@ -1,1 +1,0 @@
-Currency against which the amount of the order is exchanged.

@@ -1,1 +1,0 @@
-Account Management domain provides the bank transaction codes for operations on one account. Those transactions imply cash movements related to activities between the financial institution servicing the account and the customer owner of the account.

@@ -1,3 +1,0 @@
-Identification of the currency in which the debtor's account is held. 
-
-Usage: Currency should only be used in case one and the same debtor's account number covers several currencies and the initiating party needs to identify which currency needs to be used for settlement on the account.

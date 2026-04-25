@@ -1,1 +1,0 @@
-Details about the processing of an order.

@@ -1,1 +1,0 @@
-Details of a single instalment related to an invoice settlement (amount, payment due date).

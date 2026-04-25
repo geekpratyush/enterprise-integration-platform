@@ -1,1 +1,0 @@
-Unique identifier of execution message as assigned by sellside (broker, exchange,Electronic Confirmation Network). Uniqueness must be guaranteed within a single trading day or the life of a multi-day order. Firms that accept multi-day orders should consider embedding a date within the ExecutionIdentification element to assure uniqueness across days.

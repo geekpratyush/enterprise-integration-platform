@@ -1,2 +1,0 @@
-Transaction has been suspended by the clearing agent.
-

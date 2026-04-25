@@ -1,1 +1,0 @@
-If GroupHeader/TotalInterbankSettlementAmount is present, then all occurrences of  DirectDebitTransactionInformation/InterbankSettlementAmount must have the same currency as the currency of GroupHeader/TotalInterbankSettlementAmount.

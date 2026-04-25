@@ -1,1 +1,0 @@
-Swap composed of two foreign exchange contracts in opposite directions for different value dates.

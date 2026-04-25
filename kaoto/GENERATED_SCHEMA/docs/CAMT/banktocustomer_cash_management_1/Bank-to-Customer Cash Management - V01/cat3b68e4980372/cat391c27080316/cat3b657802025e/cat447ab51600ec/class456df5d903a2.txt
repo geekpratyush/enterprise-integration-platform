@@ -1,1 +1,0 @@
-|Further information on the status reason of the transaction.

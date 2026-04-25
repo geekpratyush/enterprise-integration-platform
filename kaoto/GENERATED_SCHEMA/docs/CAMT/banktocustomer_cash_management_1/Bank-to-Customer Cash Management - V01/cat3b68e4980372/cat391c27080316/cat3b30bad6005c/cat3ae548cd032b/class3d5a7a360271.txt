@@ -1,1 +1,0 @@
-Specifies the processing status of an investment fund transaction.

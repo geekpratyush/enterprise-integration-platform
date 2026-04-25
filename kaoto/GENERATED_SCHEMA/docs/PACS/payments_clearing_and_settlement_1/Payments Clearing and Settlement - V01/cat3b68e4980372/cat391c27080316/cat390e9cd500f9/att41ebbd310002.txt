@@ -1,1 +1,0 @@
-Code expressing the decision taken by the account owner relative to the request for debit authorization.

@@ -1,1 +1,0 @@
-Information related to the handling of the remittance information by any of the agents in the transaction processing chain.

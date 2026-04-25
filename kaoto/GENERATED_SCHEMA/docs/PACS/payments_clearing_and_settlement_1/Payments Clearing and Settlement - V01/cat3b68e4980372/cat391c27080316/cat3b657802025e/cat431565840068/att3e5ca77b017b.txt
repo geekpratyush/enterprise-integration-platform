@@ -1,1 +1,0 @@
-Instructions related to the way an allocation has to be handled.

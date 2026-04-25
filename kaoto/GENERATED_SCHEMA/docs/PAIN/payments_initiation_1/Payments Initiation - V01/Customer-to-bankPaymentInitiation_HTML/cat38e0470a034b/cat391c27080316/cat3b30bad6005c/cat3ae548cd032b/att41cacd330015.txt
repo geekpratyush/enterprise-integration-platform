@@ -1,1 +1,0 @@
-Investment fund that contains only one investment fund class.

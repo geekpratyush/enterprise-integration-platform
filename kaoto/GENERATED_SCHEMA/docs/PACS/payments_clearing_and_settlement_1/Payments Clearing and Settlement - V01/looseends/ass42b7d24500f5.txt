@@ -1,1 +1,0 @@
-Cash management feature defining liquidity set aside by the account owner for specific purposes. It determines the amount that the account owner wants to make available for the settlement of specific types of operations such as commercial payments.

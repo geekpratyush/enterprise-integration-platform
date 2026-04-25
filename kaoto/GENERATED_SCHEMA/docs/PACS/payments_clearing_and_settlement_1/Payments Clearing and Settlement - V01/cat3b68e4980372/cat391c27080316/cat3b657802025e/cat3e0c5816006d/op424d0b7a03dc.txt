@@ -1,1 +1,0 @@
-If RequiredCommercialDataSet is FALSE, then RequiredTransportDataSet must be FALSE. If RequiredCommercialDataSet is TRUE, then RequiredTransportDataSet may be FALSE or TRUE.

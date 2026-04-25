@@ -1,2 +1,0 @@
-Type of parameter used for grouping the information in a report, eg, country code, currency code, BIC or a user defined parameter.
-

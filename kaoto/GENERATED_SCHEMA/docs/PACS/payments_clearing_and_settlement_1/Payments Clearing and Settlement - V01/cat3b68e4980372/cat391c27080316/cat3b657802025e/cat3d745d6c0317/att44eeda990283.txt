@@ -1,1 +1,0 @@
-Underlying reason for the payment transaction.

@@ -1,4 +1,0 @@
-The forwarding agent forwards to the initiating party a notification received from the first agent that the debit entry has been passed on the account of the debtor/initiating party.
-
-This debit advice will be further used by the initiating party for the reconciliation of entries vis-à-vis payment orders received/remitted.
-

@@ -1,1 +1,0 @@
-Minimum quantity of financial instrument or lot of rights/warrants that must be exercised.

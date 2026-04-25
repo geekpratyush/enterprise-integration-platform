@@ -1,1 +1,0 @@
-If InstrumentDescription is present, then InstrumentDescription/Description must be present.

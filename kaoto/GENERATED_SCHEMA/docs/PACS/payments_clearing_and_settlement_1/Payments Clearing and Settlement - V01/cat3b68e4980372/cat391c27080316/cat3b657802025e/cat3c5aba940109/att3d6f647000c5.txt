@@ -1,1 +1,0 @@
-Value that an amount must not match to be considered valid.

@@ -1,1 +1,0 @@
-Price of the last trade.

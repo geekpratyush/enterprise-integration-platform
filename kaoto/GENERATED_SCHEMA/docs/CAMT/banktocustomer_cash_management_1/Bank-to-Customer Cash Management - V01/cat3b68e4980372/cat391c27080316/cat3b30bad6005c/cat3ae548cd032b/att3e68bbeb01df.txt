@@ -1,1 +1,0 @@
-Contract for the purchase or sale of a mortgage backed security to be delivered at an agreed-upon future date.  A To Be Announced (TBA) Mortgage does not include a specified pool number, number of pools or the precise amount to be delivered.

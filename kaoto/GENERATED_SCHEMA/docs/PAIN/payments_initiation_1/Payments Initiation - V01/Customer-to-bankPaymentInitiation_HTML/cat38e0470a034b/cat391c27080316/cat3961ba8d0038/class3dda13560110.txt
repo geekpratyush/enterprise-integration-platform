@@ -1,1 +1,0 @@
-The party that receives the cash. In the payment chain, it may be an agent or the creditor.  Furthermore, for each pair of consecutive parties in the payment chain, one party always plays the role of the debit party, and the other, the role of the credit party.

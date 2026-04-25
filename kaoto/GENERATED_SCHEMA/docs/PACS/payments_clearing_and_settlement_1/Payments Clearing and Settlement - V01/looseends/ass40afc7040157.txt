@@ -1,1 +1,0 @@
-Set of characteristics related to a cheque instruction, eg, cheque type or cheque number 

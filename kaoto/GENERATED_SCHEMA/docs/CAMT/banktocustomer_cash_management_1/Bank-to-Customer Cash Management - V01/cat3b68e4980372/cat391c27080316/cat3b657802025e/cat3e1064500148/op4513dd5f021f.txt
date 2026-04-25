@@ -1,1 +1,0 @@
-If AccruedInterestAmount is present, then AccruedInterestAmountSign must be present. If AccruedInterestAmount is not present, then AccruedInterestAmountSign may not be present.

@@ -1,1 +1,0 @@
-Technical control representing the total of all the individual amounts included in the message, without taking into account the currencies.

@@ -1,1 +1,0 @@
-The initiating party optionally receives an execution status report from the first agent (possibly through the forwarding agent - if any). For a description of the 'execution status' activity, please see the 'forward execution status' activity.

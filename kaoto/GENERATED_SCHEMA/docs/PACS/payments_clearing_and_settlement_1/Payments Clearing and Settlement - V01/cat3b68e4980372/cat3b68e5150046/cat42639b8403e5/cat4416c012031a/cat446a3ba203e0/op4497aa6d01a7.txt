@@ -1,3 +1,0 @@
-If GroupHeader/InstructingAgent is present, then DirectDebitTransactionInformation/InstructingAgent is not allowed.
-
-

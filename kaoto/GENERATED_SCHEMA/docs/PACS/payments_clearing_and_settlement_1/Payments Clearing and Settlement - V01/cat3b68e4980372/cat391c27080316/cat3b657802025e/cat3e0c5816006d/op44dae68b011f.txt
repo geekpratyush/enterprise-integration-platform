@@ -1,2 +1,0 @@
-OtherReference should be used for an account opening or an account modification instruction sent by proprietary way or for system references. 
-If OtherReference is present, OtherReference/MessageName must contain 'fax' or 'phone' or 'email', etc.

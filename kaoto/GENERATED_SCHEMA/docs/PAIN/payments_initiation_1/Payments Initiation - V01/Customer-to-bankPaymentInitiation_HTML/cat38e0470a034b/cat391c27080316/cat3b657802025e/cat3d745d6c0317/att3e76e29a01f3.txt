@@ -1,1 +1,0 @@
-Date and time at which a payment has been credited at the transaction administrator. In the case of TARGET, the time at which the payment has been credited at the receiving central bank, expressed in Central European Time (CET).

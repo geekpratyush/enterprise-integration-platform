@@ -1,3 +1,0 @@
-If at least one occurrence of RiskManagementDefaultLimitType is present and is MULT, then no occurrence of BilateralLimitCounterpartyIdentification is allowed.
-If no occurrence of RiskManagementDefaultLimitType is MULT, then any occurrence of BilateralLimitCounterpartyIdentification is optional.
-If RiskManagementDefaultLimitType is not present, then any occurrence of BilateralLimitCounterpartyIdentification is optional.

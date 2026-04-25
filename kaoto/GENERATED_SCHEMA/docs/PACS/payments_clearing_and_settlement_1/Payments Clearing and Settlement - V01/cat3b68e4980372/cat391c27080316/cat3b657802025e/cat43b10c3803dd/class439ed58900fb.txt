@@ -1,1 +1,0 @@
-Specifies the value date and the amounts traded in a foreign exchange transaction.

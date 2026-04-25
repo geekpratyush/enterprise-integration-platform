@@ -1,1 +1,0 @@
-Identifies the classification and thus the restrictions associated with an order (for regulatory purposes).

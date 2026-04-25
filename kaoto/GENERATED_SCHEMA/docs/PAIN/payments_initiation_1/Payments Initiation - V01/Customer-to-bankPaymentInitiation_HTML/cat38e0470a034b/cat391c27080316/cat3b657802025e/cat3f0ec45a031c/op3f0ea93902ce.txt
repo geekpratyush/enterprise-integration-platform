@@ -1,1 +1,0 @@
-If present, Currency in HighestPriceValue, LowestPriceValue and PriceChange must be the same.

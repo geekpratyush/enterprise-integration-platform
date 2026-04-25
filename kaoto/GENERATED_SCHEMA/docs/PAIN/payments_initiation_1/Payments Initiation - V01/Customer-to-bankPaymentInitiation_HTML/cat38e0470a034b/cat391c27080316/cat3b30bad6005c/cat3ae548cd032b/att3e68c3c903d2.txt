@@ -1,1 +1,0 @@
-An order that, if not executed, expires at the end of the month on which the order is entered.

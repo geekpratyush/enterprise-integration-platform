@@ -1,2 +1,0 @@
-Updates information about an intermediary. Provides current and updated information.
-

@@ -1,1 +1,0 @@
-Specifies the status of a settlement eg rejected, settled or awaiting authorisation.

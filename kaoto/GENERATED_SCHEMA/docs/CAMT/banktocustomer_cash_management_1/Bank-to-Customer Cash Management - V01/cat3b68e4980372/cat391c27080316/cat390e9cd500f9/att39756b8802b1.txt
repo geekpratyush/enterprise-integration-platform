@@ -1,1 +1,0 @@
-Closing date/time or maturity date/time of the repo transaction.

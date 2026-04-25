@@ -1,1 +1,0 @@
-Value of a security, as booked in an account. Book value is often different from the current market value of the security.

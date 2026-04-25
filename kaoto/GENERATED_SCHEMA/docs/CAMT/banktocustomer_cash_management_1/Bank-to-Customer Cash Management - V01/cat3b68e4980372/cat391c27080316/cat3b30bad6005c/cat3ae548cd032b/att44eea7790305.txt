@@ -1,1 +1,0 @@
-Retail client - MiFID classification of counterparty. Retail customers are the least sophisticated level of investor.

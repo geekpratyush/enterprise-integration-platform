@@ -1,1 +1,0 @@
-Provides information on an event that happened in a system.

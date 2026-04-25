@@ -1,2 +1,0 @@
-Indicates that the state of the order has not changed since the request was issued.This is provided to support markets similar to Eurex and A/C/E.
-

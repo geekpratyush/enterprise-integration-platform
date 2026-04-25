@@ -1,1 +1,0 @@
-Currency in TotalAmount must be the same as Currency in SwitchInAmount.

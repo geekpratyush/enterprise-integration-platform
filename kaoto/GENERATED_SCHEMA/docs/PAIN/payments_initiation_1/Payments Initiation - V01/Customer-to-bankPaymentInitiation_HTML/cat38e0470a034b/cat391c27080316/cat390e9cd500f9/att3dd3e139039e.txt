@@ -1,2 +1,0 @@
-Date and time at which the payment instruction was created by the instructing agent.
-

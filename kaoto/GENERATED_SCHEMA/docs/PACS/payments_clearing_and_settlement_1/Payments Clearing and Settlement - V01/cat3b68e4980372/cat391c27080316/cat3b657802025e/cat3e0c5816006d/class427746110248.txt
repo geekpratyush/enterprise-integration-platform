@@ -1,2 +1,0 @@
-Settlement instructions to be used to transfer cash from the Debtor to the Creditor.
-

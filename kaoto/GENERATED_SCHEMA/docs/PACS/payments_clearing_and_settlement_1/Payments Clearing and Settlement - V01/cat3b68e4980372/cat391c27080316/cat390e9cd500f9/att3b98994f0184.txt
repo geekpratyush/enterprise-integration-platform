@@ -1,1 +1,0 @@
-Proportion of the commission that is waived, ie, if  the commission is 5% and half is waived, 2.5% should be stated in this field.

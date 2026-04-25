@@ -1,1 +1,0 @@
-The payment order (either the entire order or some of the individual transactions contained in the order) is rejected because of the technical reasons as defined by the technical rules which are applied to validate the payment orders.  

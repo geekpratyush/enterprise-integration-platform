@@ -1,2 +1,0 @@
-If PaymentCommonInformation/CreditDebitIndicator is present, then TransactionReport/Transaction/CreditDebitIndicator  is not allowed.
-If PaymentCommonInformation/CreditDebitIndicator is not present, then TransactionReport/Transaction/CreditDebitIndicator  is optional.

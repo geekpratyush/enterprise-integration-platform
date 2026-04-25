@@ -1,1 +1,0 @@
-Quantity of cash resulting from the calculation of the tax.

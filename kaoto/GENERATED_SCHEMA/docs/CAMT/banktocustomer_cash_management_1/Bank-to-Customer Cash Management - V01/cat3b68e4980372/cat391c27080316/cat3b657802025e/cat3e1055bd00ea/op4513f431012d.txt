@@ -1,1 +1,0 @@
-If TransactionType is SWII or SWIO, then LegExecutionIdentification is optional.  If TransactionType is neither SWII nor SWIO, then LegExecutionIdentification is not allowed.

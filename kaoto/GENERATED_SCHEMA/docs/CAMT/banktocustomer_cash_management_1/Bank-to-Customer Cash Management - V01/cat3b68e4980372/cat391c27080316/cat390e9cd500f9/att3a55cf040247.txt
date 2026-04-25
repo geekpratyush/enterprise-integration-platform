@@ -1,1 +1,0 @@
-Date and time at which the cash is at the disposal of the credit account owner, or ceases to be at the disposal of the debit account owner.

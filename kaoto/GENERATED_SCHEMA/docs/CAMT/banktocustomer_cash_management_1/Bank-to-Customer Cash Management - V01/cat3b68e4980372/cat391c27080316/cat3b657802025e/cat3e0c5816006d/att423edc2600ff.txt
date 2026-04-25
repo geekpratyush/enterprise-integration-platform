@@ -1,1 +1,0 @@
-Indicates whether the transfer value date is requested.

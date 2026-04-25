@@ -1,1 +1,0 @@
-Set of element providing summary information on entries.

@@ -1,5 +1,0 @@
-﻿IMPORTANT:
-
-First version of Payments Clearing and Settlement messages
-
-Please note that the PaymentCancellationRequestV01 (pacs.006.001.01) was replaced by the FIToFIPaymentCancellationRequestV01(camt.056.001.01).

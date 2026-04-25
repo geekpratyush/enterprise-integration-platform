@@ -1,3 +1,0 @@
-- If ChargeDeducted = "Yes", then the ChargeAmount is mandatory, 
-- If ChargeDeducted = "No", then ChargeAmount is optional. Charges may be given for information.
-- If no charge indicator, then ChargeAmount is not allowed.

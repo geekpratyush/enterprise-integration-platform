@@ -1,1 +1,0 @@
-Improvement of the value of a previously estimated price.

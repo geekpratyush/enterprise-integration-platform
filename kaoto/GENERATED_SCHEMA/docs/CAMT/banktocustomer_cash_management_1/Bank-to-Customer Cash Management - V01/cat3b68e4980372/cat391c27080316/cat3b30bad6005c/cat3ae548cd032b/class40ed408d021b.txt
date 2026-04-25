@@ -1,1 +1,0 @@
-Specifies a type of value of the price.

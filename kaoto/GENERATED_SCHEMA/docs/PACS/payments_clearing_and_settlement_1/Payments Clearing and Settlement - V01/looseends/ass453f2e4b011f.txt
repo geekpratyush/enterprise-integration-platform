@@ -1,1 +1,0 @@
-Proprietary reference of an underlying transaction.

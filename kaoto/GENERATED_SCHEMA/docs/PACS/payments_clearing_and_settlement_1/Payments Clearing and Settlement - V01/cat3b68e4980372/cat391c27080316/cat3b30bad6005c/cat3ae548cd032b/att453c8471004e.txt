@@ -1,1 +1,0 @@
-Payments domain provides the bank transaction codes for all payments activities that relate transfer of an amount of money between different parties.

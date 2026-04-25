@@ -1,1 +1,0 @@
-Specifies the message type for which the cancellation request has been issued.

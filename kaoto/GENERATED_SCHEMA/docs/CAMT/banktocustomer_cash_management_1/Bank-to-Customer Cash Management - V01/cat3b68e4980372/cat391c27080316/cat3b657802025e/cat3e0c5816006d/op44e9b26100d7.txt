@@ -1,1 +1,0 @@
-If ModificationScopeIndication is INSE, then at least one occurence of Organisation/ModifiedAddress or IndividualPerson/ModifiedAddress must be present with Organisation/ModifiedAddress/ModificationScopeIndication being INSE or IndividualPerson/ModifiedAddres/ModificationScopeIndication being INSE respectively.

@@ -1,3 +1,0 @@
-If in SettlementChain there is a DeliverersIntermediary, then the element position specifies the position of the DeliverersIntermediary between the DeliverersCustodian and DeliveringAgent.  A DeliverersIntermediary in 'Position' 1 either has an account with the DeliveringAgent, or the party specified as the DeliverersIntermediary in 'Position' 2. The DeliverersIntermediary in 'Position' 2 either has an account with the DeliveringAgent, or the party specified as the DeliverersIntermediary in 'Position' 3, and so on.
-
-

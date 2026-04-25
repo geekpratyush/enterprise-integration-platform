@@ -1,1 +1,0 @@
-This party provides custody services for shares affected by proxy voting, ie, share blocking and unblocking, share registration, position keeping, securities lending services.

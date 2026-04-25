@@ -1,1 +1,0 @@
-Represents the assignment of a case to an assignee.

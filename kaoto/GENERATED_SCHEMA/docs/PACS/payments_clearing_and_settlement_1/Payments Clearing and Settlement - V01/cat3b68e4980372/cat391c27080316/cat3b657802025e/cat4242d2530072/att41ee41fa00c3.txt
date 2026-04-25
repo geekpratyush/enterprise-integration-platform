@@ -1,1 +1,0 @@
-Identifies the port where the goods are loaded on board the ship.

@@ -1,3 +1,0 @@
-Price computed after a trading halt.
-
-

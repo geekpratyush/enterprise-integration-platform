@@ -1,1 +1,0 @@
-Identifies the currency used for the benchmark curve.

@@ -1,2 +1,0 @@
-Unit of volume that is equal to 473 cubic centimetres.
-

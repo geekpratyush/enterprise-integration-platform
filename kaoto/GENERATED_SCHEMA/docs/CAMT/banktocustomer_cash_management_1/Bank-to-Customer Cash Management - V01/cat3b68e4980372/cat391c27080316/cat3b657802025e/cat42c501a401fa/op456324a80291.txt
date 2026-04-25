@@ -1,1 +1,0 @@
-If PreviousReference/MessageName is present, it must contain 540 or 542 or must start with sese.001, sese.002, sese.005 or sese.006 and and PreviousReference/Reference must contain the reference of a message in this list.

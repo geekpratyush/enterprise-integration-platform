@@ -1,1 +1,0 @@
-Status of the payment of a security at a particular time, as agreed with the issuer.

@@ -1,1 +1,0 @@
-The PaymentClearingAgent applies techncial validation on the payment order. Techncial validation may comprise syntactic validation (conformance of the payment order with its technical definition), semantical validation ( message, through to o technical content consistency

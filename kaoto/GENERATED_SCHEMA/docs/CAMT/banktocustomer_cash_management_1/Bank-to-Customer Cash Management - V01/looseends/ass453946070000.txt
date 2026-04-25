@@ -1,1 +1,0 @@
-Reports on booked entries and balances for a cash account.

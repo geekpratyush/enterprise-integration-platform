@@ -1,1 +1,0 @@
-An order which becomes a market order once the market price is reached.

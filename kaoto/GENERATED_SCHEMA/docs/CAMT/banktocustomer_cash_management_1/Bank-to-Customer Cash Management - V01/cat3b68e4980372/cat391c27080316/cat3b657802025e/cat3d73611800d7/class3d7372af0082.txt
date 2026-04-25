@@ -1,1 +1,0 @@
-Choice between search criteria based on date time and date time ranges.

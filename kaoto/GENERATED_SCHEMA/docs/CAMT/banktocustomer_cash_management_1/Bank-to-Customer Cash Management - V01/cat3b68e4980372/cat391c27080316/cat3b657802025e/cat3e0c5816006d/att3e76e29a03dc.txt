@@ -1,1 +1,0 @@
-Indicates whether the account type is requested.

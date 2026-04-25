@@ -1,1 +1,0 @@
-Identification of the status of a quote acknowledgement.

@@ -1,3 +1,0 @@
-Specifies the elements of an entry in the report.
-
-Usage: At least one reference must be provided to identify the entry and its underlying transaction(s).

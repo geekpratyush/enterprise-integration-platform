@@ -1,1 +1,0 @@
-Transaction is an uncrossed cheque that can be cashed at the bank of origin.

@@ -1,1 +1,0 @@
-Information on the occurred settlement time(s) of the payment transaction.

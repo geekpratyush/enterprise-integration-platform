@@ -1,1 +1,0 @@
-Buy side of the repurchase agreement transaction.

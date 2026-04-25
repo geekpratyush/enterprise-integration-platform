@@ -1,1 +1,0 @@
-Party that negotiates and executes treasury transactions on behalf of the counterparty.

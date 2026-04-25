@@ -1,1 +1,0 @@
-Charge from the original individual order details that has been repaired so that the order can be accepted.

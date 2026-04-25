@@ -1,1 +1,0 @@
-Specifies what the requested account details change concerns, eg, the party.

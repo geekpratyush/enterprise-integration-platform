@@ -1,2 +1,0 @@
-Price multiplied by the pending quantity for a line.
-

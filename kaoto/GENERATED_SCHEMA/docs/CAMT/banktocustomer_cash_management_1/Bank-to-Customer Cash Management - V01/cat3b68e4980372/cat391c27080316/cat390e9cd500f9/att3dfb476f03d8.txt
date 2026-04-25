@@ -1,1 +1,0 @@
-Currency associated with the payment instrument.

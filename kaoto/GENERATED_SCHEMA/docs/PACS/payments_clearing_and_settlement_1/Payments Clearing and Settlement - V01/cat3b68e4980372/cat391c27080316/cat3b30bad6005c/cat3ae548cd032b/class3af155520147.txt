@@ -1,1 +1,0 @@
-Indicates a type of instruction to a broker or dealer to buy or sell a financial instrument which is pegged against a certain value.

@@ -1,2 +1,0 @@
-Specifies what information is to be deleted.
-

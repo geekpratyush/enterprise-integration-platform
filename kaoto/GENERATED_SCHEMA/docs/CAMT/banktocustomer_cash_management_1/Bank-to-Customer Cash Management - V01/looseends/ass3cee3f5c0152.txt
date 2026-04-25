@@ -1,1 +1,0 @@
-Information that describes the payment to be settled.

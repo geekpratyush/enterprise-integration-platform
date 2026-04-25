@@ -1,1 +1,0 @@
-If the OrderPrice element in SecuritiesOrder is present for foreign exchange orders or if the OrderType element in SecuritiesOrderParameters contains the value FXSW (foreign exchange swap order), then the OrderPrice element should be the all-in rate, ie, spot rate adjusted for forward points.

@@ -1,1 +1,0 @@
-Individual payment transaction reference and status information, included in the original payment instruction, to which the cancellation request message applies.

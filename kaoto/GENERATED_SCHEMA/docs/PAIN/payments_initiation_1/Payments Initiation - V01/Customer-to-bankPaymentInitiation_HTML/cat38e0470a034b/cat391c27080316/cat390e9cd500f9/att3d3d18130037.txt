@@ -1,1 +1,0 @@
-Language for all communication concerning the account.

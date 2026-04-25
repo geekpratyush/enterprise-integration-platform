@@ -1,1 +1,0 @@
-Indicates whether the member type is requested.

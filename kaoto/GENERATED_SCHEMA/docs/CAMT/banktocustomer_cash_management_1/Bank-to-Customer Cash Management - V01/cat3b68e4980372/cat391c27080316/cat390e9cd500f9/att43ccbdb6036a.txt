@@ -1,1 +1,0 @@
-Indicates whether physical participation to a general meeting is required in order to be allowed to vote.

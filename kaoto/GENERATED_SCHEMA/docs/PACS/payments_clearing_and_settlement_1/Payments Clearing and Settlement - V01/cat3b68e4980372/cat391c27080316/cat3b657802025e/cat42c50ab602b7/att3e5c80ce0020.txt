@@ -1,1 +1,0 @@
-Identifier to aid in the management of multiple lists derived from a single, master list.

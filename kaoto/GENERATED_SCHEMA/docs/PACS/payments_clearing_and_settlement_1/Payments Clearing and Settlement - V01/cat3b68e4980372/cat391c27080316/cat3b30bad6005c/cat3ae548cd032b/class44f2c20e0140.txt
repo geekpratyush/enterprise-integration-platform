@@ -1,1 +1,0 @@
-Specifies whether best execution rules as defined in the EU MiFID directive were followed for a transaction.

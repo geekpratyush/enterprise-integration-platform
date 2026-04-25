@@ -1,1 +1,0 @@
-Proprietary reference specification related to the underlying transaction.

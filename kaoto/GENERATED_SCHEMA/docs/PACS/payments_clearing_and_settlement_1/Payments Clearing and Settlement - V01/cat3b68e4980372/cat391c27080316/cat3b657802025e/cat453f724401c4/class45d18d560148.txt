@@ -1,1 +1,0 @@
-Set of elements to fully identify a proprietary bank transaction code.

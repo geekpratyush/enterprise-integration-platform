@@ -1,2 +1,0 @@
-Indicates whether the trade is executed  with a special cum 
-dividend, ie, buying after the ex date and getting the dividend.

@@ -1,1 +1,0 @@
-Indicates the price of the instrument, applicable to the indication of interest.

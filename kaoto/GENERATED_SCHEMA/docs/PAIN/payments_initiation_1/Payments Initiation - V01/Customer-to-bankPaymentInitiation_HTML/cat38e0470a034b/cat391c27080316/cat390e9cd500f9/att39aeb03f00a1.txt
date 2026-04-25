@@ -1,1 +1,0 @@
-Number of a specific coupon that is attached to a security.

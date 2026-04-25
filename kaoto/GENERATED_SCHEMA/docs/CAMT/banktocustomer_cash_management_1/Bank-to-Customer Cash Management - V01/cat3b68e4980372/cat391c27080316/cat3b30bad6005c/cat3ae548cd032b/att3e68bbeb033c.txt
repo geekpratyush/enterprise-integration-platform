@@ -1,1 +1,0 @@
-Aggregate partial executions on this order, and book one trade per order.

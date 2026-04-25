@@ -1,1 +1,0 @@
-Reference assigned to the individual order of a redemption or subscription order.

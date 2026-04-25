@@ -1,1 +1,0 @@
-Exact value an amount must match to be considered valid.

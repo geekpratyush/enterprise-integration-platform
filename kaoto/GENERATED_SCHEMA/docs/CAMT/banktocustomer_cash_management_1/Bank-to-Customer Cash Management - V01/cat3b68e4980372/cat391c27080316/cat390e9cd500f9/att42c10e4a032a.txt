@@ -1,1 +1,0 @@
-Specifies whether split vote is allowed or not.

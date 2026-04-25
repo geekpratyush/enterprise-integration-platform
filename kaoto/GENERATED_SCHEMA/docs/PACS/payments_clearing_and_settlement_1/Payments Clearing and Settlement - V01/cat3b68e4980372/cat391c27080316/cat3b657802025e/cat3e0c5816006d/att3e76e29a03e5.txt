@@ -1,2 +1,0 @@
-Indicates whether the member identification is requested.
-

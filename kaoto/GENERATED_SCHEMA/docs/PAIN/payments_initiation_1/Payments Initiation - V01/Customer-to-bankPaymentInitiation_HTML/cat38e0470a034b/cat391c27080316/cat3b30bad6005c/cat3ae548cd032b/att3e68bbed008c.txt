@@ -1,1 +1,0 @@
-The yield of a bond assuming no reinvestment of coupon payments. (Act/360 day count).

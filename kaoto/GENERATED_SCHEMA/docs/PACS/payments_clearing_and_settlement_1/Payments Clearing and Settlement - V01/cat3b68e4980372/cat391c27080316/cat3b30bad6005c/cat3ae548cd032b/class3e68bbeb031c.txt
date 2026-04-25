@@ -1,1 +1,0 @@
-Identifies a benchmark curve name.

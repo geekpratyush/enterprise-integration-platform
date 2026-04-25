@@ -1,1 +1,0 @@
-Removed InterbankSettlementAmount, PaymentMethod and InstructedAgentIdentification.

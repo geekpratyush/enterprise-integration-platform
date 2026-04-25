@@ -1,3 +1,0 @@
-Original unique instruction identification as assigned by an instructing party for an instructed party to unambiguously identify the original instruction.
-
-Usage: the original instruction identification is the original point to point reference used between the instructing party and the instructed party to refer to the original instruction.

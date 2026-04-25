@@ -1,1 +1,0 @@
-Transaction causes the bilateral limit fixed between Sender and Receiver to be exceeded and cannot currently be processed.

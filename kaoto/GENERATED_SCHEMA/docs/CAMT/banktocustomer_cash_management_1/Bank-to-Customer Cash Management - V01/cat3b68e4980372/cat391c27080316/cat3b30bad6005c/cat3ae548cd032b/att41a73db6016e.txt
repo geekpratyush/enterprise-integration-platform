@@ -1,1 +1,0 @@
-Indicates the payment instruction (MT103) is missing. 

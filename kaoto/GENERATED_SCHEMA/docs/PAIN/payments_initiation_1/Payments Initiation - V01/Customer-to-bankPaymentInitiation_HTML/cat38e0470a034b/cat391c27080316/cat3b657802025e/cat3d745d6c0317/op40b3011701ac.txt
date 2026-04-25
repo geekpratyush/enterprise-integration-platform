@@ -1,1 +1,0 @@
-PaymentTransaction/OriginatingParty may only be present if different than Debtor.

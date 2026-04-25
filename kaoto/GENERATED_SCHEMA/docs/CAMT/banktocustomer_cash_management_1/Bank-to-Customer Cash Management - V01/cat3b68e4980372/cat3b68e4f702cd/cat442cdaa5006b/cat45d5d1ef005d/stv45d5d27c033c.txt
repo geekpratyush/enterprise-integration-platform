@@ -1,1 +1,0 @@
-The account servicer will send information related to the cash movements that have been booked to the account, to the account owner.

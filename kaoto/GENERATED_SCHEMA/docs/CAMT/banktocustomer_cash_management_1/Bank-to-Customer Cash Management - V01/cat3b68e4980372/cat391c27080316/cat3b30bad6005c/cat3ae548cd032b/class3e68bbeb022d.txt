@@ -1,1 +1,0 @@
-Identifies categories of short-term debt securities maturing in less than one year.

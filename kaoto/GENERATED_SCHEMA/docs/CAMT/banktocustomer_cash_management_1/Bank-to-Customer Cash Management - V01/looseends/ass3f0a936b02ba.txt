@@ -1,1 +1,0 @@
-Required information about cheque details, provided by the drawer of the cheque.

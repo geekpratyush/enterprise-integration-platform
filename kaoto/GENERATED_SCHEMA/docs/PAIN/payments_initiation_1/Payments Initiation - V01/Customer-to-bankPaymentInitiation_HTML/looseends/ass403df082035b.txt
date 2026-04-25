@@ -1,3 +1,0 @@
-An agent between the first and final agent.  
-
-Usage : This information is provided by the initiating party, based on information provided by the creditor or final party. How this information is handled by the first agent will depend on the service level/business practice between initiating party and first agent.

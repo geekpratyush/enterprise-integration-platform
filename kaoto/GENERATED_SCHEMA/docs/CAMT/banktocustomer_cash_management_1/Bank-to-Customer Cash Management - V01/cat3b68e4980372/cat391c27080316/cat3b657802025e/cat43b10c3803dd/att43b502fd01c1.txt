@@ -1,1 +1,0 @@
-Put amount and currency of a foreign exchange option trade. 

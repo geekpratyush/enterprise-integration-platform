@@ -1,1 +1,0 @@
-A benchmark curve used for municipals based on the best credit rating for municipal market debt.

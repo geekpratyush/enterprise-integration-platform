@@ -1,1 +1,0 @@
-Identifies a collateral transaction linked to the settlement transaction.

@@ -1,4 +1,0 @@
-Redemption leg, or switch-out, of a switch transaction.
-
-
-

@@ -1,2 +1,0 @@
-If at least one occurrence of InstructedAmount/CurrencyAndAmountRange is present, then no occurrence of InstructedAmountCurrency is allowed.
-If InstructedAmount/CurrencyAndAmountRange is not present, then any occurrence of InstructedAmountCurrency is optional.

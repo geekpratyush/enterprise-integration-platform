@@ -1,2 +1,0 @@
-If ChargeAccountAgent is present, then ChargeAccount is mandatory. 
-If ChargeAccountAgent is not present, then ChargeAccount is optional.

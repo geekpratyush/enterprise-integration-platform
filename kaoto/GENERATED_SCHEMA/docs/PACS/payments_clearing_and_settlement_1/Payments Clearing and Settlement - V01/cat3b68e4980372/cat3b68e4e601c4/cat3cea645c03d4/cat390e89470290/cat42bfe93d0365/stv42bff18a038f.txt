@@ -1,1 +1,0 @@
-The PaymentClearingAgent assesses the reject reason code  provided by the rejecting PaymentClearingAgent.

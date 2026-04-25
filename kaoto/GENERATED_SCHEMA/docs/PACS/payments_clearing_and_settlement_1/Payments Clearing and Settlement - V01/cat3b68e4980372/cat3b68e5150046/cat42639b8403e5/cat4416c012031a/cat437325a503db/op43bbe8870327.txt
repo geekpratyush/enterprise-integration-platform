@@ -1,2 +1,0 @@
-If OriginalGroupInformationAndStatus/GroupStatus is present and is equal to ACTC, ACCP, ACSP or ACSC, ACCR or ACWC, then TransactionInformationAndStatus/TransactionStatus must be different from RJCT.
-

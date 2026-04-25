@@ -1,1 +1,0 @@
-Entities involved in the trade/trade transaction.

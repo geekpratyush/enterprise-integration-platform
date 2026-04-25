@@ -1,1 +1,0 @@
-Either EntitlementRatio or EntitlementDescription must be present, but not both.

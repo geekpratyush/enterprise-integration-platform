@@ -1,1 +1,0 @@
-Reported when the cancellation cannot be accepted because of an agent refuses to cancel.

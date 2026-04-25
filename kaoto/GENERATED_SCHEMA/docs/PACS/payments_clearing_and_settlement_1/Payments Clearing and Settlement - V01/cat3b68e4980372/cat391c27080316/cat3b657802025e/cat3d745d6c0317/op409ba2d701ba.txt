@@ -1,4 +1,0 @@
-If PaymentMethodByFirstAgent is present and is CHK, then PaymentTransaction/CreditorAccount is not allowed.
-If PaymentMethodByFirstAgent is present and is different from CHK, then PaymentTransaction/CreditorAccount is optional.
-If PaymentMethodByFirstAgent is not present, then PaymentTransaction/CreditorAccount is optional.
-

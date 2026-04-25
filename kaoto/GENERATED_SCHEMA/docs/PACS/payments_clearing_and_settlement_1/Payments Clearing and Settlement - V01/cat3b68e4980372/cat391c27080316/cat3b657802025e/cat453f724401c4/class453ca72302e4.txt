@@ -1,1 +1,0 @@
-Set of elements to fully identify the type of the bank transaction entry.

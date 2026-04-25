@@ -1,4 +1,0 @@
-Further information related to the processing of the payment instruction that may need to be acted upon by the next agent. 
-
-Usage: The next agent may not be the creditor agent.
-The instruction can relate to a level of service, can be an instruction that has to be executed by the agent, or can be information required by the next agent.

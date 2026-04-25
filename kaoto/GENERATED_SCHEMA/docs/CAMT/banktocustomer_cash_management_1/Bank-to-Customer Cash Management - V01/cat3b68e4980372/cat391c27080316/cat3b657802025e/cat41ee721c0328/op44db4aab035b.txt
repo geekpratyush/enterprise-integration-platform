@@ -1,1 +1,0 @@
-If the InvestigationStatus is NOT a Confirmation with value MODI or CNCL, then ReturnInformation is not allowed.

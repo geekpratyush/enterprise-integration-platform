@@ -1,3 +1,0 @@
-Reference assigned by a sending party to unambiguously identify a group of individual reversals being sent.
-
-Usage: This reference is used between the sending party and the receiving party to refer to the group of reversed transactions being sent.

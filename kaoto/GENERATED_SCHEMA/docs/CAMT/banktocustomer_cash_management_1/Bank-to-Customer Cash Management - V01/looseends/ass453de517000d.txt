@@ -1,1 +1,0 @@
-Proprietary quantities specification defined in the underlying transaction.

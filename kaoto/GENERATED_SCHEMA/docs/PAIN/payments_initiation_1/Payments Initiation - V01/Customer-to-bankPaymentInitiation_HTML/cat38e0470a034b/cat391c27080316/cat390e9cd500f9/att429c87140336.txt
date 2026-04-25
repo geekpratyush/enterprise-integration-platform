@@ -1,1 +1,0 @@
-Number of pre-paid instalment periods at the time the investment plan is created.

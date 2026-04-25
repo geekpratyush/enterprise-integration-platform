@@ -1,1 +1,0 @@
-Identifies the party which assigned a status to a treasury trade.

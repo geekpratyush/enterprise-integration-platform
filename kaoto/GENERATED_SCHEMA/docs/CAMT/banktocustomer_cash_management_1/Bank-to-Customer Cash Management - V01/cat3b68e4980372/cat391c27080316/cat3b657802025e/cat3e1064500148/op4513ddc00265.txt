@@ -1,1 +1,0 @@
-The AggregateQuantity should be the sum of AvailableQuantity and NotAvailableQuantity if AvailableQuantityand NotAvailableQuantity are both present.

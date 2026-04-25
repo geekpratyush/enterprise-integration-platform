@@ -1,2 +1,0 @@
-Set of characteristics that unambiguously identify an invoice financing transaction.
-

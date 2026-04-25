@@ -1,4 +1,0 @@
-If PaymentMethod is CHK, then CreditTransferTransactionInformation/ChequeInstruction is optional.
-If PaymentMethod is different from CHK, then CreditTransferTransactionInformation/ChequeInstruction is not allowed. 
-
-Rule rationale: ChequeInstructionDetails may be present if the payment method is Cheque. It must not be present if the payment method is 'Transfer'.

@@ -1,1 +1,0 @@
-Balance representing the forecast of the total of all cash legs of transactions traded in exchanges.
