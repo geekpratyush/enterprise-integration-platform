@@ -1,0 +1,28 @@
+*.class
+*.log
+*.jar
+*.war
+*.zip
+*.tar.gz
+*.swp
+
+# Gradle
+.gradle/
+build/
+bin/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# EIP Specific
+**/certs/ssl-*
+**/certs/mtls-*
+**/certs/https-*
+**/certs/non-ssl-*
+.env
+**/.env
+
+# Docker
+**/data/
