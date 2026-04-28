@@ -4,8 +4,8 @@
 # ======================================================================
 
 set -e
-BASE_DIR="/home/pratyush/software/eip-core-integration/eip-core-environment/demo/mongodb"
-LIQUIBASE_JAR="/home/pratyush/software/eip-core-integration/eip-core-liquibase/build/libs/eip-core-liquibase.jar"
+BASE_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+LIQUIBASE_JAR="$(cd "$(dirname "${BASH_SOURCE[0]}")/../../../../eip-core-liquibase" && pwd)/build/libs/eip-core-liquibase.jar"
 
 echo ">>> MONGODB: Initializing Collections and Indexes via Liquibase..."
 
@@ -28,7 +28,36 @@ DB_URL="${QUARKUS_MONGODB_CLIENT1_CONNECTION_STRING}"
 
 echo "    >>> Using target: ${DB_URL}"
 
+# PHASE 2.1: Wait for Primary (Replica Set support)
+if [[ "$DB_URL" == *"replSet"* ]] || [[ "$MODE" == *"change-stream"* ]]; then
+    echo "    >>> Detected Replica Set scenario. Waiting for PRIMARY election..."
+    # Determine container name based on scenario
+    if [[ "$MODE" == *"change-stream"* ]]; then
+        CONTAINER="mongo-change-stream"
+    else
+        CONTAINER="mongo-eip"
+    fi
+
+    # Loop until isMaster/isPrimary returns true
+    # We use a simple ping and check for isWritablePrimary or isMaster
+    RETRIES=10
+    while [ $RETRIES -gt 0 ]; do
+        IS_PRIMARY=$(docker exec $CONTAINER mongosh --quiet --eval "db.hello().isWritablePrimary || db.isMaster().ismaster" | tr -d '\n' | tr -d '\r')
+        if [ "$IS_PRIMARY" == "true" ]; then
+            echo "    >>> PRIMARY node found. Proceeding with migration."
+            break
+        fi
+        echo "    >>> Waiting for PRIMARY election ($RETRIES attempts left)..."
+        RETRIES=$((RETRIES-1))
+        sleep 3
+    done
+    if [ $RETRIES -eq 0 ]; then
+        echo "WARNING: Could not confirm PRIMARY status. Liquibase might fail if node is SECONDARY."
+    fi
+fi
+
 # Execute Liquibase update
+echo "    >>> Running Liquibase..."
 java $JAVA_OPTS -jar $LIQUIBASE_JAR \
     --search-path=${BASE_DIR}/02_initialization/changelog \
     --changelog-file=db.changelog-master.yaml \

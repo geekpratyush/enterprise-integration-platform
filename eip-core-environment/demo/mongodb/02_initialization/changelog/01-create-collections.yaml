@@ -7,13 +7,11 @@ databaseChangeLog:
             collectionName: "operations"
         - createIndex:
             collectionName: "operations"
-            index:
-              keys: "{ 'timestamp': 1 }"
-              options: "{ 'name': 'idx_timestamp' }"
+            keys: "{ 'timestamp': 1 }"
+            options: "{ 'name': 'idx_timestamp' }"
         - createCollection:
             collectionName: "business_data"
         - createIndex:
             collectionName: "business_data"
-            index:
-              keys: "{ 'txnId': 1 }"
-              options: "{ 'unique': true, 'name': 'idx_txnId_unique' }"
+            keys: "{ 'txnId': 1 }"
+            options: "{ 'unique': true, 'name': 'idx_txnId_unique' }"

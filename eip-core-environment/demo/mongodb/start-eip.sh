@@ -112,10 +112,27 @@ echo -e "\n>>> MongoDB is READY."
 if [[ "$EIP_MONGO_CMD_ARGS" == *"replSet"* ]]; then
     echo ">>> Initiating Replica Set [rs0]..."
     docker exec $CONTAINER_NAME sh -c "mongosh $AUTH_PART $TLS_PART --port 27017 --quiet --eval 'rs.initiate({_id:\"rs0\", members:[{_id:0, host:\"127.0.0.1:27017\"}]})'" > /dev/null 2>&1 || true
-    sleep 3
+    
+    echo -n ">>> Waiting for PRIMARY node to be elected..."
+    RETRIES=15
+    while [ $RETRIES -gt 0 ]; do
+        IS_PRIMARY=$(docker exec $CONTAINER_NAME sh -c "mongosh $AUTH_PART $TLS_PART --port 27017 --quiet --eval 'db.hello().isWritablePrimary || db.isMaster().ismaster'" | tr -d '\n' | tr -d '\r')
+        if [ "$IS_PRIMARY" == "true" ]; then
+            echo -e "\n>>> PRIMARY node is READY."
+            break
+        fi
+        echo -n "."
+        RETRIES=$((RETRIES-1))
+        sleep 2
+    done
 fi
 
-# 3.1 Schema Initialization (Liquibase)
+# 3.1 Pre-provision Mandatory Collections (Safety Net)
+echo ">>> Pre-provisioning mandatory collections in 'eip_db'..."
+docker exec $CONTAINER_NAME sh -c "mongosh $AUTH_PART $TLS_PART --port 27017 --quiet --eval \"db.getSiblingDB('eip_db').createCollection('operations')\"" > /dev/null 2>&1 || true
+docker exec $CONTAINER_NAME sh -c "mongosh $AUTH_PART $TLS_PART --port 27017 --quiet --eval \"db.getSiblingDB('eip_db').createCollection('business_data')\"" > /dev/null 2>&1 || true
+
+# 3.2 Schema Industrialization (Liquibase)
 export MODE=$SCENARIO
 bash "$EIP_SCRIPT_DIR/02_initialization/setup-db.sh"
 

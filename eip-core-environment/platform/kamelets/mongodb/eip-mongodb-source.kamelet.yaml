@@ -27,43 +27,46 @@ spec:
         type: string
       consumerType:
         title: Consumer Type
-        description: "Mechanism for consuming changes (Change Streams require a replica set)."
+        description: "Mechanism for consuming changes (Change Streams require a replica
+          set)."
         type: string
         default: "changeStreams"
         enum: [ "changeStreams", "tailable" ]
       streamFilter:
         title: Stream Filter
-        description: "JSON String representing the aggregation pipeline to apply to the change stream (e.g. [{$match: { 'fullDocument.status': 'CRITICAL' }}])."
+        description: "JSON String representing the aggregation pipeline to apply to the
+          change stream (e.g. [{$match: { 'fullDocument.status': 'CRITICAL'
+          }}])."
         type: string
   template:
     from:
       uri: "mongodb:{{connectionBean}}?database={{database}}&collection={{collection}}\
-        }&consumerType={{consumerType}}&createCollection=true&streamFilter={{?streamFilter}}"
+        &consumerType={{consumerType}}&createCollection=true&streamFilter={{?streamFilter}}"
       steps:
         - script:
             groovy: |
-                import java.time.ZoneOffset
-                import java.time.format.DateTimeFormatter
-                def traverseAndEncode;
-                traverseAndEncode = { val ->
-                    if (val instanceof byte[]) {
-                        return ['$blob': val.encodeBase64().toString()]
-                    } else if (val?.getClass()?.getName() == 'org.bson.types.Binary') {
-                        return ['$blob': val.getData().encodeBase64().toString()]
-                    } else if (val instanceof java.util.Date) {
-                        return val.toInstant().atOffset(ZoneOffset.UTC).format(DateTimeFormatter.ISO_INSTANT)
-                    } else if (val instanceof Map) {
-                        def newMap = [:]
-                        val.each { k, v -> newMap[k] = traverseAndEncode(v) }
-                        return newMap
-                    } else if (val instanceof Iterable) {
-                        def newList = []
-                        val.each { v -> newList.add(traverseAndEncode(v)) }
-                        return newList
-                    }
-                    return val
-                }
-                if (request.body != null) {
-                    request.body = traverseAndEncode(request.body)
-                }
+              import java.time.ZoneOffset
+              import java.time.format.DateTimeFormatter
+              def traverseAndEncode;
+              traverseAndEncode = { val ->
+                  if (val instanceof byte[]) {
+                      return ['$blob': val.encodeBase64().toString()]
+                  } else if (val?.getClass()?.getName() == 'org.bson.types.Binary') {
+                      return ['$blob': val.getData().encodeBase64().toString()]
+                  } else if (val instanceof java.util.Date) {
+                      return val.toInstant().atOffset(ZoneOffset.UTC).format(DateTimeFormatter.ISO_INSTANT)
+                  } else if (val instanceof Map) {
+                      def newMap = [:]
+                      val.each { k, v -> newMap[k] = traverseAndEncode(v) }
+                      return newMap
+                  } else if (val instanceof Iterable) {
+                      def newList = []
+                      val.each { v -> newList.add(traverseAndEncode(v)) }
+                      return newList
+                  }
+                  return val
+              }
+              if (request.body != null) {
+                  request.body = traverseAndEncode(request.body)
+              }
         - to: "kamelet:sink"

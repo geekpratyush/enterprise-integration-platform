@@ -1,4 +1,6 @@
 databaseChangeLog:
+  - include:
+      file: "01-create-collections.yaml"
   - changeSet:
       id: "1-mongodb-create-business-data"
       author: "pratyush"

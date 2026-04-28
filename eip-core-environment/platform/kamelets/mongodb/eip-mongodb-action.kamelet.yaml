@@ -40,10 +40,23 @@ spec:
             "aggregate",
             "bulkWrite",
           ]
+      upsert:
+        title: Upsert
+        description: "If true, MongoDB will insert a new document if no documents match the update query. Only used with 'update' operation."
+        type: boolean
+        default: false
+      filter:
+        title: Filter Criteria
+        description: "JSON string representing the query filter/criteria (e.g., {'_id': '123'}). Used for update, remove, and find operations. If provided, it overrides the body-based criteria."
+        type: string
+        default: ""
   template:
     from:
       uri: "kamelet:source"
       steps:
+        - setProperty:
+            name: "originalBody"
+            simple: "${body}"
         - choice:
             when:
               - simple: "${body} is 'java.lang.String' && ${body} != ''"
@@ -51,6 +64,12 @@ spec:
                   - unmarshal:
                       json:
                         library: "Jackson"
+        - setHeader:
+            name: "EIP_MONGO_FILTER"
+            simple: "{{?filter}}"
+        - setHeader:
+            name: "EIP_MONGO_UPSERT"
+            simple: "{{upsert}}"
         - script:
             groovy: |
               import org.bson.Document
@@ -77,6 +96,19 @@ spec:
               if (request.body != null) {
                   request.body = traverseAndDecode(request.body)
               }
+              def filterStr = request.headers['EIP_MONGO_FILTER']
+              if (filterStr != null && !filterStr.trim().isEmpty()) {
+                  request.headers['CamelMongoDbCriteria'] = Document.parse(filterStr)
+              } else {
+                  request.headers.remove('CamelMongoDbCriteria')
+              }
+              if ("{{operation}}" == "update") {
+                  request.headers['CamelMongoDbUpsert'] = Boolean.valueOf(request.headers['EIP_MONGO_UPSERT'])
+              } else {
+                  request.headers.remove('CamelMongoDbUpsert')
+              }
+              request.headers.remove('EIP_MONGO_FILTER')
+              request.headers.remove('EIP_MONGO_UPSERT')
         - to: "mongodb:{{connectionBean}}?database={{database}}&collection={{collection}}\
             &operation={{operation}}"
         - script:

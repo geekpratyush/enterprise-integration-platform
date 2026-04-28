@@ -49,7 +49,9 @@ public class UiFuelRegistrar {
 
         // Register the Vert.x Static Handler
         // This is much faster than JAX-RS and handles index.html, ETag, and Ranges automatically.
-        router.route("/fuel-ui/*").handler(StaticHandler.create(actualPath)
+        router.route("/fuel-ui/*").handler(StaticHandler.create()
+                .setAllowRootFileSystemAccess(true)
+                .setWebRoot(actualPath)
                 .setDefaultContentEncoding("UTF-8")
                 .setIncludeHidden(false)
                 .setDirectoryListing(false)

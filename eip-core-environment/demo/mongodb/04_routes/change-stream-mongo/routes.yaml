@@ -26,7 +26,7 @@
       uri: "timer:trigger-update?delay=5000&period=60000&repeatCount=1"
       steps:
         - setBody:
-            constant: "[{\"messageId\": \"STRM-001\"}, {\"$set\": {\"status\": \"MUTATED\"}}]"
+            constant: "{\"$set\": {\"status\": \"MUTATED\"}}"
         - to:
             uri: "kamelet:eip-mongodb-action"
             parameters:
@@ -34,7 +34,29 @@
               database: "eip_db"
               collection: "operations"
               operation: "update"
+              filter: "{\"messageId\": \"STRM-001\"}"
         - log: ">>> [SEED] Triggered update for record: STRM-001"
+
+# ==========================================
+# 2b. UPSERT (Kamelet Sink)
+# ==========================================
+- route:
+    id: "mongo-kam-stream-upsert"
+    from:
+      uri: "timer:trigger-upsert?delay=10000&period=60000&repeatCount=1"
+      steps:
+        - setBody:
+            constant: "{\"$set\": {\"status\": \"UPSERTED\", \"source\": \"timer\"}}"
+        - to:
+            uri: "kamelet:eip-mongodb-sink"
+            parameters:
+              connectionBean: "client1"
+              database: "eip_db"
+              collection: "operations"
+              operation: "update"
+              upsert: true
+              filter: "{\"messageId\": \"STRM-UPSERT-01\"}"
+        - log: ">>> [SEED] Triggered Upsert for record: STRM-UPSERT-01"
 
 # ==========================================
 # 3. CHANGE STREAM (Kamelet Source)
@@ -47,5 +69,7 @@
         connectionBean: "client1"
         database: "eip_db"
         collection: "operations"
+        # Only capture 'update' operations where status becomes 'MUTATED'
+        streamFilter: "{ $match: { 'operationType': 'update', 'updateDescription.updatedFields.status': 'MUTATED' } }"
       steps:
         - log: ">>> [OBSERVER] Mutation Captured! Event: ${body}"
