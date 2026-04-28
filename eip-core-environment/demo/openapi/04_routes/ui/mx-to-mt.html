@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MX to MT Designer | Fuel Station</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=JetBrains+Mono&display=swap"
+        rel="stylesheet">
+    <style>
+        :root {
+            --bg-dark: #0f172a;
+            --bg-card: rgba(30, 41, 59, 0.7);
+            --border: rgba(51, 65, 85, 0.5);
+            --primary: #38bdf8;
+            --accent: #f59e0b;
+            --glass: rgba(15, 23, 42, 0.8);
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            background: radial-gradient(circle at top right, #1e293b, #0f172a);
+            color: #f1f5f9;
+            font-family: 'Inter', sans-serif;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
+
+        header {
+            height: 70px;
+            background: var(--glass);
+            backdrop-filter: blur(12px);
+            border-bottom: 1px solid var(--border);
+            display: flex;
+            align-items: center;
+            padding: 0 32px;
+            justify-content: space-between;
+            z-index: 100;
+        }
+
+        .logo {
+            font-weight: 800;
+            font-size: 22px;
+            color: var(--primary);
+            letter-spacing: -1px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .main-container {
+            flex: 1;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            padding: 20px;
+            background: transparent;
+        }
+
+        .editor-card {
+            background: var(--bg-card);
+            backdrop-filter: blur(8px);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.2);
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .editor-card:hover {
+            border-color: var(--primary);
+            transform: translateY(-4px);
+            box-shadow: 0 0 20px rgba(56, 189, 248, 0.15);
+        }
+
+        .card-header {
+            padding: 12px 20px;
+            background: rgba(51, 65, 85, 0.3);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .card-title {
+            font-size: 12px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            color: #94a3b8;
+        }
+
+        select {
+            background: #0f172a;
+            color: var(--primary);
+            border: 1px solid var(--border);
+            border-radius: 6px;
+            font-size: 12px;
+            padding: 4px 10px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .monaco-host {
+            flex: 1;
+            min-height: 0;
+            padding-top: 8px;
+        }
+
+        .footer {
+            height: 120px;
+            padding: 10px 32px;
+            background: var(--glass);
+            border-top: 1px solid var(--border);
+            overflow-y: auto;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 11px;
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+            scroll-behavior: smooth;
+        }
+
+        .log-entry {
+            display: flex;
+            gap: 10px;
+            animation: fadeIn 0.3s ease;
+            line-height: 1.4;
+        }
+
+        .log-time { color: #64748b; min-width: 80px; }
+        .log-info { color: #38bdf8; }
+        .log-success { color: #34d399; font-weight: 600; }
+        .log-error { color: #f87171; font-weight: 600; }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(5px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">EIP <span style="color: white; font-weight: 400;">Fuel Station</span></div>
+        <div style="display: flex; gap: 10px; align-items: center;">
+            <button onclick="runTransform()"
+                style="background: #10b981; color: white; border: none; padding: 6px 16px; border-radius: 6px; font-weight: 800; font-size: 11px; cursor: pointer; box-shadow: 0 0 15px rgba(16, 185, 129, 0.4);">
+                EXECUTE TRANSFORMATION ⚡
+            </button>
+            <span style="color: var(--border);">|</span>
+            <div
+                style="font-size: 11px; background: #fbbf24; color: black; padding: 4px 12px; border-radius: 99px; font-weight: 600;">
+                MX to MT Mission</div>
+            <a href="mt-to-mx.html"
+                style="font-size: 11px; color: #94a3b8; text-decoration: none; padding: 4px 12px; border: 1px solid var(--border); border-radius: 99px;">Switch
+                to MT to MX</a>
+        </div>
+    </header>
+
+    <div class="main-container">
+        <!-- Field 1: Source ISO MX -->
+        <div class="editor-card">
+            <div class="card-header">
+                <span class="card-title">Source MX Message (Well-formed)</span>
+                <select disabled>
+                    <option value="xml" selected>XML</option>
+                </select>
+            </div>
+            <div id="editor-0" class="monaco-host"></div>
+        </div>
+
+        <!-- Field 2: XSLT Logic -->
+        <div class="editor-card">
+            <div class="card-header">
+                <span class="card-title">XSLT Mapping (MX to MT)</span>
+                <select disabled>
+                    <option value="xml" selected>XSLT (XML)</option>
+                </select>
+            </div>
+            <div id="editor-1" class="monaco-host"></div>
+        </div>
+
+        <!-- Field 3: Target SWIFT MT -->
+        <div class="editor-card">
+            <div class="card-header">
+                <span class="card-title">Target SWIFT MT (Read-Only)</span>
+                <select disabled>
+                    <option value="swift-mt" selected>SWIFT MT</option>
+                </select>
+            </div>
+            <div id="editor-2" class="monaco-host"></div>
+        </div>
+    </div>
+
+<div class="footer" id="event-log">
+    <div class="log-entry"><span class="log-time">[${new Date().toLocaleTimeString()}]</span> <span class="log-info">SYSTEM</span> <span>READY. MX-to-MT Orchestrator Active.</span></div>
+</div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/monaco-editor/0.45.0/min/vs/loader.min.js"></script>
+    <script>
+        let editors = [];
+
+        require.config({ paths: { vs: 'https://cdnjs.cloudflare.com/ajax/libs/monaco-editor/0.45.0/min/vs' } });
+        require(['vs/editor/editor.main'], function () {
+
+            // Register SWIFT MT
+            monaco.languages.register({ id: 'swift-mt' });
+            monaco.languages.setMonarchTokensProvider('swift-mt', {
+                tokenizer: {
+                    root: [
+                        [/^:[0-9]{2}[A-Z]?:/, 'keyword'],
+                        [/{[0-9]:/, 'tag'], [/^}/, 'tag'], [/[A-Z0-9]{8,11}/, 'string'], [/[0-9]+,[0-9]*/, 'number']
+                    ]
+                }
+            });
+
+            monaco.editor.defineTheme('eip-theme', {
+                base: 'vs-dark',
+                inherit: true,
+                rules: [
+                    { token: 'keyword', foreground: '38bdf8', fontStyle: 'bold' },
+                    { token: 'tag', foreground: 'fbbf24' },
+                    { token: 'string', foreground: '34d399' }
+                ],
+                colors: { 'editor.background': '#1e293b' }
+            });
+
+            const initialContent = [
+`<?xml version="1.0" encoding="UTF-8"?>
+<Document xmlns="urn:iso:std:iso:20022:tech:xsd:pacs.008.001.08" 
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <FIToFICstmrCdtTrf>
+        <GrpHdr>
+            <MsgId>KONDUCTOR-REF-9876543210</MsgId>
+            <CreDtTm>2026-04-28T10:30:00Z</CreDtTm>
+            <NbOfTxs>1</NbOfTxs>
+            <SttlmInf>
+                <SttlmMtd>INDA</SttlmMtd>
+                <SttlmAcct>
+                    <Id>
+                        <IBAN>US12345678901234567890</IBAN>
+                    </Id>
+                </SttlmAcct>
+            </SttlmInf>
+        </GrpHdr>
+
+        <CdtTrfTxInf>
+            <PmtId>
+                <InstrId>INSTR-ID-001</InstrId>
+                <EndToEndId>E2E-REF-ABC-123</EndToEndId>
+                <TxId>TX-REF-XYZ-789</TxId>
+                <UETR>eb0064f2-9599-4d69-873b-5a63967d6438</UETR>
+            </PmtId>
+
+            <PmtTpInf>
+                <SvcLvl>
+                    <Cd>URGP</Cd>
+                </SvcLvl>
+                <LclInstrm>
+                    <Prtry>CRED</Prtry>
+                </LclInstrm>
+                <CtgyPurp>
+                    <Cd>CASH</Cd>
+                </CtgyPurp>
+            </PmtTpInf>
+
+            <IntrBkSttlmAmt Ccy="USD">125450.75</IntrBkSttlmAmt>
+            <IntrBkSttlmDt>2026-04-28</IntrBkSttlmDt>
+
+            <XchgRate>1.085</XchgRate>
+
+            <ChrgBr>SHA</ChrgBr>
+            <ChrgsInf>
+                <Amt Ccy="USD">25.00</Amt>
+                <Agt>
+                    <FinInstnId>
+                        <BICFI>BANKINBBAXXX</BICFI>
+                    </FinInstnId>
+                </Agt>
+            </ChrgsInf>
+
+            <Dbtr>
+                <Nm>PRATYUSH RANJAN MISHRA</Nm>
+                <PstlAdr>
+                    <Dept>IT ARCHITECTURE</Dept>
+                    <StrtNm>ODISHA LANE</StrtNm>
+                    <BldgNb>123</BldgNb>
+                    <TwnNm>BHUBANESWAR</TwnNm>
+                    <Ctry>IN</Ctry>
+                </PstlAdr>
+            </Dbtr>
+            <DbtrAcct>
+                <Id>
+                    <Othr>
+                        <Id>987654321</Id>
+                    </Othr>
+                </Id>
+            </DbtrAcct>
+
+            <DbtrAgt>
+                <FinInstnId>
+                    <BICFI>SNDRBBXXXXX</BICFI>
+                </FinInstnId>
+            </DbtrAgt>
+
+            <PrvsInstgAgt1>
+                <FinInstnId>
+                    <BICFI>PREVBBXXXXX</BICFI>
+                </FinInstnId>
+            </PrvsInstgAgt1>
+
+            <IntrmyAgt1>
+                <FinInstnId>
+                    <BICFI>INTMBBXXXXX</BICFI>
+                </FinInstnId>
+            </IntrmyAgt1>
+
+            <CdtrAgt>
+                <FinInstnId>
+                    <BICFI>RECVBBXXXXX</BICFI>
+                </FinInstnId>
+            </CdtrAgt>
+
+            <Cdtr>
+                <Nm>BENEFICIARY CORP LTD</Nm>
+                <PstlAdr>
+                    <AdrLine>WALL STREET 42</AdrLine>
+                    <AdrLine>NEW YORK, 10005</AdrLine>
+                    <Ctry>US</Ctry>
+                </PstlAdr>
+            </Cdtr>
+            <CdtrAcct>
+                <Id>
+                    <Othr>
+                        <Id>87654321</Id>
+                    </Othr>
+                </Id>
+            </CdtrAcct>
+
+            <Purp>
+                <Cd>GDDS</Cd>
+            </Purp>
+            <RgltryRptg>
+                <Dtls>
+                    <Cd>INV</Cd>
+                    <Inf>REGULATORY REPORT: EXPORT PROCEEDS FOR Q2</Inf>
+                </Dtls>
+            </RgltryRptg>
+
+            <RmtInf>
+                <Ustrd>INVOICE INV-2026-ABC SHIPMENT OF INDUSTRIAL PARTS</Ustrd>
+                <Strd>
+                    <RfrdDocInf>
+                        <Tp>
+                            <CdOrPrtry>
+                                <Cd>CINV</Cd>
+                            </CdOrPrtry>
+                        </Tp>
+                        <Nb>INV-2026-ABC</Nb>
+                        <RltdDt>2026-04-01</RltdDt>
+                    </RfrdDocInf>
+                </Strd>
+            </RmtInf>
+        </CdtTrfTxInf>
+    </FIToFICstmrCdtTrf>
+</Document>`,
+`<?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet version="2.0" 
+    xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+
+    <xsl:output method="text" encoding="UTF-8"/>
+
+    <xsl:template match="/*">
+        <!-- Target the core transaction info block -->
+        <xsl:variable name="tx" select="(//*[local-name()='CdtTrfTxInf'])[1]"/>
+        
+        <xsl:text>{1:F01</xsl:text>
+        <xsl:value-of select="substring(concat(normalize-space(string((//*[local-name()='Fr']//*[local-name()='BICFI'])[1])), 'XXXXXXXXXXXX'), 1, 12)"/>
+        <xsl:text>0000000000}{2:I103</xsl:text>
+        <xsl:value-of select="substring(concat(normalize-space(string((//*[local-name()='To']//*[local-name()='BICFI'])[1])), 'XXXXXXXXXXXX'), 1, 12)"/>
+        <xsl:text>N}{3:{121:</xsl:text>
+        <xsl:value-of select="normalize-space(string(($tx//*[local-name()='UETR'])[1]))"/>
+        <xsl:text>}}{4:&#10;</xsl:text>
+        
+        <xsl:text>:20:</xsl:text>
+        <xsl:value-of select="substring(normalize-space(string(($tx//*[local-name()='InstrId'])[1])), 1, 16)"/>
+        <xsl:text>&#10;</xsl:text>
+
+        <xsl:text>:23B:CRED&#10;</xsl:text>
+
+        <xsl:text>:32A:</xsl:text>
+        <xsl:variable name="date" select="normalize-space(string(($tx//*[local-name()='IntrBkSttlmDt'])[1]))"/>
+        <xsl:value-of select="concat(substring($date, 3, 2), substring($date, 6, 2), substring($date, 9, 2))"/>
+        <xsl:value-of select="normalize-space(string(($tx//*[local-name()='IntrBkSttlmAmt'])[1]/@Ccy))"/>
+        <xsl:value-of select="translate(normalize-space(string(($tx//*[local-name()='IntrBkSttlmAmt'])[1])), '.', ',')"/>
+        <xsl:text>&#10;</xsl:text>
+
+        <xsl:text>:50K:/</xsl:text>
+        <!-- Targeting the ultimate leaf ID explicitly to avoid cardinality errors -->
+        <xsl:variable name="dbtrId" select="$tx//*[local-name()='DbtrAcct']//*[local-name()='Othr']/*[local-name()='Id']"/>
+        <xsl:value-of select="normalize-space(string(($dbtrId)[1]))"/>
+        <xsl:text>&#10;</xsl:text>
+        <xsl:call-template name="wrapText">
+            <xsl:with-param name="text" select="normalize-space(string(($tx//*[local-name()='Dbtr']/*[local-name()='Nm'])[1]))"/>
+        </xsl:call-template>
+
+        <xsl:text>:57A:</xsl:text>
+        <xsl:value-of select="normalize-space(string(($tx//*[local-name()='CdtrAgt']//*[local-name()='BICFI'])[1]))"/>
+        <xsl:text>&#10;</xsl:text>
+
+        <xsl:text>:59:/</xsl:text>
+        <xsl:variable name="cdtrId" select="$tx//*[local-name()='CdtrAcct']//*[local-name()='Othr']/*[local-name()='Id']"/>
+        <xsl:value-of select="normalize-space(string(($cdtrId)[1]))"/>
+        <xsl:text>&#10;</xsl:text>
+        <xsl:call-template name="wrapText">
+            <xsl:with-param name="text" select="normalize-space(string(($tx//*[local-name()='Cdtr']/*[local-name()='Nm'])[1]))"/>
+        </xsl:call-template>
+
+        <xsl:text>:71A:</xsl:text>
+        <xsl:value-of select="normalize-space(string(($tx//*[local-name()='ChrgBr'])[1]))"/>
+        <xsl:text>&#10;-}</xsl:text>
+    </xsl:template>
+
+    <xsl:template name="wrapText">
+        <xsl:param name="text"/>
+        <xsl:variable name="cleanText" select="normalize-space(string($text))"/>
+        <xsl:if test="string-length($cleanText) > 0">
+            <xsl:value-of select="substring($cleanText, 1, 35)"/>
+            <xsl:text>&#10;</xsl:text>
+            <xsl:if test="string-length($cleanText) > 35">
+                <xsl:call-template name="wrapText">
+                    <xsl:with-param name="text" select="substring($cleanText, 36)"/>
+                </xsl:call-template>
+            </xsl:if>
+        </xsl:if>
+    </xsl:template>
+
+</xsl:stylesheet>`,
+                '<!-- Generated Target Payload -->'
+            ];
+
+            const initialLangs = ['xml', 'xml', 'swift-mt'];
+
+            for (let i = 0; i < 3; i++) {
+                editors[i] = monaco.editor.create(document.getElementById(`editor-${i}`), {
+                    value: initialContent[i],
+                    language: initialLangs[i],
+                    theme: 'eip-theme',
+                    readOnly: i === 2, 
+                    automaticLayout: true,
+                    minimap: { enabled: false },
+                    fontSize: 14,
+                    fontFamily: "'JetBrains Mono', monospace"
+                });
+
+                if (i !== 2) {
+                    editors[i].onDidChangeModelContent(() => debouncedTransform());
+                }
+            }
+        });
+
+        let transformTimeout;
+        function debouncedTransform() {
+            clearTimeout(transformTimeout);
+            transformTimeout = setTimeout(runTransform, 500);
+        }
+
+        function logEvent(msg, type = 'info') {
+            const log = document.getElementById('event-log');
+            const entry = document.createElement('div');
+            entry.className = 'log-entry';
+            const time = new Date().toLocaleTimeString();
+            entry.innerHTML = `<span class="log-time">[${time}]</span> <span class="log-${type}">${type.toUpperCase()}</span> <span>${msg}</span>`;
+            log.appendChild(entry);
+            log.scrollTop = log.scrollHeight;
+        }
+
+        async function runTransform() {
+            logEvent('Executing MX to MT Transformation...', 'info');
+
+            const payload = {
+                source: editors[0].getValue(),
+                mapping: editors[1].getValue()
+            };
+
+            try {
+                const response = await fetch('/fuel-engine/play-transform', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(payload)
+                });
+                const result = await response.text();
+                if (response.ok) {
+                    editors[2].setValue(result);
+                    logEvent('Transformation successful. Result delivered.', 'success');
+                } else {
+                    editors[2].setValue('ENGINE ERROR: ' + result);
+                    logEvent(`Engine Error: HTTP ${response.status}`, 'error');
+                }
+            } catch (err) {
+                logEvent(`Connection Error: ${err.message}`, 'error');
+            }
+        }
+    </script>
+</body>
+</html>

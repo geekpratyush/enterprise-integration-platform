@@ -1,0 +1,93 @@
+# --- EIP MISSION: UNIVERSAL TRANSFORMER ENGINE ---
+
+# 1. REST Configuration & API Discovery
+- restConfiguration:
+    component: "platform-http"
+    enableCORS: true
+    apiContextPath: "/api-doc"
+    apiProperty:
+      - key: "api.title"
+        value: "EIP Universal Transformer API"
+      - key: "api.version"
+        value: "2.0.0"
+      - key: "cors"
+        value: "true"
+
+# 2. REST API Handlers
+- rest:
+    path: "/fuel-engine"
+    post:
+      - path: "/parse-mt"
+        id: "api-fuel-parse-mt"
+        consumes: "text/plain"
+        produces: "application/xml"
+        to: "direct:parse-mt"
+        param:
+          - name: "body"
+            type: "body"
+            required: true
+            description: "Raw SWIFT MT message text"
+
+      - path: "/play-transform"
+        id: "api-fuel-transform"
+        consumes: "application/json"
+        produces: "application/xml"
+        to: "direct:play-transform"
+        param:
+          - name: "body"
+            type: "body"
+            required: true
+            description: "JSON object containing 'source' (XML) and 'mapping' (XSLT)"
+
+- rest:
+    path: "/fuel-engine"
+    post:
+      - path: "/transform"
+        id: "api-smooks-bypass"
+        description: "Bypass for Smooks Designer fallback"
+        consumes: "application/json"
+        to: "direct:play-transform"
+        param:
+          - name: "body"
+            type: "body"
+            required: true
+            description: "JSON object containing 'source' (XML) and 'mapping' (XSLT)"
+
+- rest:
+    path: "/api"
+    post:
+      - path: "/parse-mt"
+        id: "api-core-parse-mt"
+        description: "Standard API to Parse SWIFT MT"
+        consumes: "text/plain"
+        produces: "application/xml"
+        to: "direct:parse-mt"
+
+# 3. Main Business Logic
+# Universal Transformation Mission: Straight-Through XSLT Execution
+- from:
+    uri: "direct:play-transform"
+    steps:
+      - log: ">>> Universal Transformer: Executing Mapping [Size:
+          ${header.Content-Length}]..."
+
+      # 1. Pipeline Extraction (Source XML + XSLT Mapping)
+      - setHeader:
+          name: "CamelXsltStylesheet"
+          jsonpath: "$.mapping"
+      - setBody:
+          jsonpath: "$.source"
+      - convertBodyTo: "java.lang.String"
+
+      # 2. Execution Stage: XSLT Mapping
+      - to: "xslt-saxon:dummy?allowTemplateFromHeader=true&contentCache=false"
+
+      - log: ">>> Transformation Complete. Result Delivered. <<<"
+
+# --- HELPER: RAW SWIFT PARSER ---
+- from:
+    uri: "direct:parse-mt"
+    steps:
+      - log: ">>> Stage 1: Parsing Raw MT Message..."
+      - unmarshal: { swiftMt: {} }
+      - setBody: { simple: "${body.xml}" }

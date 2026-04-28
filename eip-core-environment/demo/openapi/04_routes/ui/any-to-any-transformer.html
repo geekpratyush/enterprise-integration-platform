@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Any-to-Any Transformer | Fuel Station</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=JetBrains+Mono&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-dark: #0f172a;
+            --bg-card: rgba(30, 41, 59, 0.7);
+            --border: rgba(139, 92, 246, 0.4); 
+            --primary: #a78bfa; 
+            --glass: rgba(15, 23, 42, 0.8);
+        }
+
+        * { box-sizing: border-box; }
+        body {
+            margin: 0; padding: 0;
+            background: radial-gradient(circle at top right, #2e1065, #0f172a);
+            color: #f1f5f9;
+            font-family: 'Inter', sans-serif;
+            height: 100vh;
+            display: flex; flex-direction: column;
+            overflow: hidden;
+        }
+
+        header {
+            height: 70px; background: var(--glass); backdrop-filter: blur(12px);
+            border-bottom: 1px solid var(--border);
+            display: flex; align-items: center; padding: 0 32px; justify-content: space-between;
+            z-index: 100;
+        }
+
+        .logo { font-weight: 800; font-size: 22px; color: var(--primary); letter-spacing: -1px; display: flex; align-items: center; gap: 12px; }
+
+        .main-container {
+            flex: 1; display: grid; grid-template-columns: repeat(3, 1fr);
+            gap: 20px; padding: 20px;
+        }
+
+        .editor-card {
+            background: var(--bg-card); backdrop-filter: blur(8px);
+            border: 1px solid var(--border); border-radius: 16px;
+            display: flex; flex-direction: column; overflow: hidden;
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.3);
+            transition: all 0.3s ease;
+        }
+
+        .editor-card:hover { border-color: var(--primary); transform: translateY(-4px); box-shadow: 0 0 25px rgba(167, 139, 250, 0.2); }
+
+        .card-header {
+            padding: 12px 20px; background: rgba(139, 92, 246, 0.1);
+            display: flex; justify-content: space-between; align-items: center;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .card-title { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 1.5px; color: #c4b5fd; }
+
+        select {
+            background: #0f172a; color: var(--primary); border: 1px solid var(--border);
+            border-radius: 6px; font-size: 11px; padding: 4px 10px; font-weight: 600; cursor: pointer;
+        }
+
+        .monaco-host { flex: 1; min-height: 0; padding-top: 8px; }
+
+        .footer {
+            height: 120px;
+            padding: 10px 32px;
+            background: var(--glass);
+            border-top: 1px solid var(--border);
+            overflow-y: auto;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 11px;
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+            scroll-behavior: smooth;
+        }
+
+        .log-entry {
+            display: flex;
+            gap: 10px;
+            animation: fadeIn 0.3s ease;
+            line-height: 1.4;
+        }
+
+        .log-time { color: #64748b; min-width: 80px; }
+        .log-info { color: #a78bfa; }
+        .log-success { color: #34d399; font-weight: 600; }
+        .log-error { color: #f87171; font-weight: 600; }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(5px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="logo">EIP <span style="color: white; font-weight: 400;">Fuel Station</span></div>
+    <div style="display: flex; gap: 10px; align-items: center;">
+        <button onclick="runTransform()" style="background: #8b5cf6; color: white; border: none; padding: 6px 16px; border-radius: 6px; font-weight: 800; font-size: 11px; cursor: pointer; box-shadow: 0 0 15px rgba(139, 92, 246, 0.4);">EXECUTE SMARTSHAPER 🔮</button>
+        <span style="color: var(--border);">|</span>
+        <div style="font-size: 11px; background: #8b5cf6; color: white; padding: 4px 12px; border-radius: 99px; font-weight: 600;">Any-to-Any Mission</div>
+        <a href="mt-to-mx.html" style="font-size: 11px; color: #94a3b8; text-decoration: none; padding: 4px 12px; border: 1px solid var(--border); border-radius: 99px;">Switch to MT/MX</a>
+    </div>
+</header>
+
+<div class="main-container">
+    <div class="editor-card">
+        <div class="card-header">
+            <span class="card-title">Source Data (Any Type)</span>
+            <select onchange="updateLang(0, this.value)">
+                <option value="plaintext" selected>Plain Text</option>
+                <option value="csv">CSV / Flat-file</option>
+                <option value="xml">XML / HTML</option>
+                <option value="json">JSON</option>
+            </select>
+        </div>
+        <div id="editor-0" class="monaco-host"></div>
+    </div>
+
+    <div class="editor-card">
+        <div class="card-header">
+            <span class="card-title">Mapping Schema</span>
+            <select onchange="updateLang(1, this.value)">
+                <option value="xml" selected>XSLT / Smooks XML</option>
+            </select>
+        </div>
+        <div id="editor-1" class="monaco-host"></div>
+    </div>
+
+    <div class="editor-card" style="border-color: var(--primary);">
+        <div class="card-header" style="background: rgba(139, 92, 246, 0.2);">
+            <span class="card-title" style="color: white;">Target Result (Read-Only)</span>
+            <select disabled>
+                <option value="xml" selected>XML</option>
+                <option value="json">JSON</option>
+            </select>
+        </div>
+        <div id="editor-2" class="monaco-host"></div>
+    </div>
+</div>
+
+<div class="footer" id="event-log">
+    <div class="log-entry"><span class="log-time">[${new Date().toLocaleTimeString()}]</span> <span class="log-info">SYSTEM</span> <span>Universal Any-to-Any Transformer ready.</span></div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/monaco-editor/0.45.0/min/vs/loader.min.js"></script>
+<script>
+    let editors = [];
+
+    function logEvent(msg, type = 'info') {
+        const log = document.getElementById('event-log');
+        const entry = document.createElement('div');
+        entry.className = 'log-entry';
+        const time = new Date().toLocaleTimeString();
+        entry.innerHTML = `<span class="log-time">[${time}]</span> <span class="log-${type}">${type.toUpperCase()}</span> <span>${msg}</span>`;
+        log.appendChild(entry);
+        log.scrollTop = log.scrollHeight;
+    }
+
+    require.config({ paths: { vs: 'https://cdnjs.cloudflare.com/ajax/libs/monaco-editor/0.45.0/min/vs' } });
+    require(['vs/editor/editor.main'], function () {
+        
+        monaco.editor.defineTheme('any-theme', {
+            base: 'vs-dark', inherit: true,
+            rules: [
+                { token: 'keyword', foreground: 'a78bfa', fontStyle: 'bold' },
+                { token: 'comment', foreground: '6d28d9' }
+            ],
+            colors: { 'editor.background': '#1e1b4b' }
+        });
+
+        const initialContent = [
+            'HDR|2026-04-27|PART001\nLINE|ITEM001|10|50.00\nLINE|ITEM002|5|100.00\nFTR|SUM|1000.00',
+            '<?xml version="1.0" encoding="UTF-8"?>\n<!-- XSLT or Smooks Mapping Configuration -->\n<xsl:stylesheet version="2.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">\n  <xsl:template match="/">\n    <Result>\n       <Status>Ready for Any-to-Any Mission</Status>\n    </Result>\n  </xsl:template>\n</xsl:stylesheet>',
+            '<?xml version="1.0" encoding="UTF-8"?>\n<!-- Final Result -->'
+        ];
+
+        for(let i=0; i<3; i++) {
+            editors[i] = monaco.editor.create(document.getElementById(`editor-${i}`), {
+                value: initialContent[i],
+                language: i === 0 ? 'plaintext' : 'xml',
+                theme: 'any-theme',
+                readOnly: i === 2,
+                automaticLayout: true,
+                minimap: { enabled: false },
+                fontSize: 13,
+                fontFamily: "'JetBrains Mono', monospace"
+            });
+
+            if (i !== 2) {
+                editors[i].onDidChangeModelContent(() => debouncedTransform());
+            }
+        }
+    });
+
+    let transformTimeout;
+    function debouncedTransform() {
+        clearTimeout(transformTimeout);
+        transformTimeout = setTimeout(runTransform, 800); 
+    }
+
+    async function runTransform() {
+        logEvent('Executing Any-to-Any Transformation pipeline...', 'info');
+
+        const payload = {
+            source: editors[0].getValue(),
+            mapping: editors[1].getValue()
+        };
+
+        try {
+            const response = await fetch('/fuel-engine/play-transform', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(payload)
+            });
+            const result = await response.text();
+            if (response.ok) {
+                editors[2].setValue(result);
+                logEvent('Transformation Successful. Result shaped.', 'success');
+            } else {
+                editors[2].setValue('ENGINE ERROR: ' + result);
+                logEvent(`Engine Error: ${response.status}`, 'error');
+            }
+        } catch (err) {
+            logEvent(`Connection Error: ${err.message}`, 'error');
+        }
+    }
+
+    function updateLang(index, lang) {
+        if (editors[index]) { monaco.editor.setModelLanguage(editors[index].getModel(), lang); }
+    }
+</script>
+</body>
+</html>

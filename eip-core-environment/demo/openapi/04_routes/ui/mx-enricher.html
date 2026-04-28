@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MX Enricher Designer | Fuel Station</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=JetBrains+Mono&display=swap"
+        rel="stylesheet">
+    <style>
+        :root {
+            --bg-dark: #0f172a;
+            --bg-card: rgba(30, 41, 59, 0.7);
+            --border: rgba(51, 65, 85, 0.5);
+            --primary: #a855f7;
+            --accent: #f59e0b;
+            --glass: rgba(15, 23, 42, 0.8);
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            background: radial-gradient(circle at top right, #2e1065, #0f172a);
+            color: #f1f5f9;
+            font-family: 'Inter', sans-serif;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
+
+        header {
+            height: 70px;
+            background: var(--glass);
+            backdrop-filter: blur(12px);
+            border-bottom: 1px solid var(--border);
+            display: flex;
+            align-items: center;
+            padding: 0 32px;
+            justify-content: space-between;
+            z-index: 100;
+        }
+
+        .logo {
+            font-weight: 800;
+            font-size: 22px;
+            color: var(--primary);
+            letter-spacing: -1px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .main-container {
+            flex: 1;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .column {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .editor-card {
+            background: var(--bg-card);
+            backdrop-filter: blur(8px);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.2);
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            flex: 1;
+        }
+
+        .editor-card:hover {
+            border-color: var(--primary);
+            transform: translateY(-4px);
+            box-shadow: 0 0 20px rgba(168, 85, 247, 0.15);
+        }
+
+        .card-header {
+            padding: 12px 20px;
+            background: rgba(168, 85, 247, 0.1);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .card-title {
+            font-size: 11px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            color: #d8b4fe;
+        }
+
+        select {
+            background: #0f172a;
+            color: var(--primary);
+            border: 1px solid var(--border);
+            border-radius: 6px;
+            font-size: 11px;
+            padding: 4px 8px;
+            font-weight: 600;
+            cursor: pointer;
+        }
+
+        .monaco-host {
+            flex: 1;
+            min-height: 0;
+            padding-top: 8px;
+        }
+
+        .footer {
+            height: 120px;
+            padding: 10px 32px;
+            background: var(--glass);
+            border-top: 1px solid var(--border);
+            overflow-y: auto;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 11px;
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+            scroll-behavior: smooth;
+        }
+
+        .log-entry {
+            display: flex;
+            gap: 10px;
+            animation: fadeIn 0.3s ease;
+            line-height: 1.4;
+        }
+
+        .log-time { color: #64748b; min-width: 80px; }
+        .log-info { color: #a855f7; }
+        .log-success { color: #34d399; font-weight: 600; }
+        .log-error { color: #f87171; font-weight: 600; }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(5px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">EIP <span style="color: white; font-weight: 400;">Fuel Station</span></div>
+        <div style="display: flex; gap: 10px; align-items: center;">
+            <button onclick="runEnrichTransform()"
+                style="background: #a855f7; color: white; border: none; padding: 6px 16px; border-radius: 6px; font-weight: 800; font-size: 11px; cursor: pointer; box-shadow: 0 0 15px rgba(168, 85, 247, 0.4);">
+                ENRICH MESSAGE 🔮
+            </button>
+            <span style="color: var(--border);">|</span>
+            <div
+                style="font-size: 11px; background: #fbbf24; color: black; padding: 4px 12px; border-radius: 99px; font-weight: 600;">
+                MX Enrichment Mission</div>
+            <a href="mx-to-mt.html"
+                style="font-size: 11px; color: #94a3b8; text-decoration: none; padding: 4px 12px; border: 1px solid var(--border); border-radius: 99px;">Designer Track</a>
+        </div>
+    </header>
+
+    <div class="main-container">
+        <!-- Left Column: Both Sources -->
+        <div class="column">
+            <div class="editor-card">
+                <div class="card-header">
+                    <span class="card-title">Original MX Source (Full)</span>
+                    <select disabled><option value="xml">XML</option></select>
+                </div>
+                <div id="editor-0" class="monaco-host"></div>
+            </div>
+            <div class="editor-card">
+                <div class="card-header">
+                    <span class="card-title">Truncated MX Source</span>
+                    <select disabled><option value="xml">XML</option></select>
+                </div>
+                <div id="editor-1" class="monaco-host"></div>
+            </div>
+        </div>
+
+        <!-- Middle Column: XSLT -->
+        <div class="column">
+            <div class="editor-card">
+                <div class="card-header">
+                    <span class="card-title">XSLT Enricher Logic</span>
+                    <select disabled><option value="xml">XSLT (XML)</option></select>
+                </div>
+                <div id="editor-2" class="monaco-host"></div>
+            </div>
+        </div>
+
+        <!-- Right Column: Result -->
+        <div class="column">
+            <div class="editor-card" style="border-color: var(--primary);">
+                <div class="card-header" style="background: rgba(168, 85, 247, 0.2);">
+                    <span class="card-title" style="color: white;">Enriched MX Message (Result)</span>
+                    <select disabled><option value="xml">XML</option></select>
+                </div>
+                <div id="editor-3" class="monaco-host"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer" id="event-log">
+        <div class="log-entry"><span class="log-time">[${new Date().toLocaleTimeString()}]</span> <span class="log-info">SYSTEM</span> <span>Enricher Orchestrator Ready.</span></div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/monaco-editor/0.45.0/min/vs/loader.min.js"></script>
+    <script>
+        let editors = [];
+
+        require.config({ paths: { vs: 'https://cdnjs.cloudflare.com/ajax/libs/monaco-editor/0.45.0/min/vs' } });
+        require(['vs/editor/editor.main'], function () {
+
+            monaco.editor.defineTheme('enrich-theme', {
+                base: 'vs-dark',
+                inherit: true,
+                rules: [
+                    { token: 'keyword', foreground: 'd8b4fe', fontStyle: 'bold' },
+                    { token: 'tag', foreground: 'fbbf24' },
+                    { token: 'string', foreground: '34d399' }
+                ],
+                colors: { 'editor.background': '#1e293b' }
+            });
+
+            const initialContent = [
+`<iso:Document xmlns:iso="urn:iso:std:iso:20022:tech:xsd:pacs.008.001.08">
+    <iso:FIToFICstmrCdtTrf>
+        <iso:GrpHdr>
+            <iso:MsgId>KONDUCTOR-ORIG-2026-001</iso:MsgId>
+            <iso:CreDtTm>2026-04-28T10:00:00Z</iso:CreDtTm>
+            <iso:NbOfTxs>1</iso:NbOfTxs>
+            <iso:SttlmInf>
+                <iso:SttlmMtd>IND</iso:SttlmMtd>
+            </iso:SttlmInf>
+        </iso:GrpHdr>
+        <iso:CdtTrfTxInf>
+            <iso:PmtId>
+                <iso:InstructionId>INSTR-ID-9999</iso:InstructionId>
+                <iso:EndToEndId>E2E-REF-9999</iso:EndToEndId>
+                <iso:UETR>550e8400-e29b-41d4-a716-446655440000</iso:UETR>
+            </iso:PmtId>
+            <iso:PmtTpInf>
+                <iso:SvcLvl><iso:Cd>SDVA</iso:Cd></iso:SvcLvl>
+                <iso:LclInstrm><iso:Prtry>LOCAL-PROPRIETARY-CODE</iso:Prtry></iso:LclInstrm>
+                <iso:CtgyPurp><iso:Cd>CASH</iso:Cd></iso:CtgyPurp>
+            </iso:PmtTpInf>
+            <iso:IntrBkSttlmAmt Ccy="USD">150000.00</iso:IntrBkSttlmAmt>
+            <iso:ChrgBr>DEBT</iso:ChrgBr>
+            <iso:UltmtDbtr>
+                <iso:Nm>Global Parent Corp Ltd</iso:Nm>
+                <iso:Id>
+                    <iso:OrgId>
+                        <iso:AnyBIC>GPCLXXBB</iso:AnyBIC>
+                    </iso:OrgId>
+                </iso:Id>
+            </iso:UltmtDbtr>
+            <iso:Dbtr>
+                <iso:Nm>Pratyush Ranjan Mishra</iso:Nm>
+                <iso:PstlAdr>
+                    <iso:StrtNm>Tech Park Plaza</iso:StrtNm>
+                    <iso:BldgNb>Level 5</iso:BldgNb>
+                    <iso:PstCd>751001</iso:PstCd>
+                    <iso:TwnNm>Bhubaneswar</iso:TwnNm>
+                    <iso:Ctry>IN</iso:Ctry>
+                </iso:PstlAdr>
+            </iso:Dbtr>
+            <iso:DbtrAgt>
+                <iso:FinInstnId><iso:BICFI>CITIINBX</iso:BICFI></iso:FinInstnId>
+            </iso:DbtrAgt>
+            <iso:CdtrAgt>
+                <iso:FinInstnId><iso:BICFI>CHASEUS33</iso:BICFI></iso:FinInstnId>
+            </iso:CdtrAgt>
+            <iso:Cdtr>
+                <iso:Nm>International Vendor Services</iso:Nm>
+                <iso:PstlAdr>
+                    <iso:Dept>Treasury</iso:Dept>
+                    <iso:StrtNm>Wall Street</iso:StrtNm>
+                    <iso:TwnNm>New York</iso:TwnNm>
+                    <iso:Ctry>US</iso:Ctry>
+                </iso:PstlAdr>
+            </iso:Cdtr>
+            <iso:RgltryRptg>
+                <iso:Dtls>
+                    <iso:Cd>INV</iso:Cd>
+                    <iso:Inf>Investment Inward Remittance</iso:Inf>
+                </iso:Dtls>
+            </iso:RgltryRptg>
+            <iso:Purp><iso:Cd>GDDS</iso:Cd></iso:Purp>
+            <iso:RmtInf>
+                <iso:Strd>
+                    <iso:RfrdDocInf>
+                        <iso:Tp><iso:OrgnlDocNm>INV-2026-XF</iso:OrgnlDocNm></iso:Tp>
+                        <iso:Nb>987654321</iso:Nb>
+                    </iso:RfrdDocInf>
+                </iso:Strd>
+            </iso:RmtInf>
+        </iso:CdtTrfTxInf>
+    </iso:FIToFICstmrCdtTrf>
+</iso:Document>`,
+`<iso:Document xmlns:iso="urn:iso:std:iso:20022:tech:xsd:pacs.008.001.08">
+    <iso:FIToFICstmrCdtTrf>
+        <iso:CdtTrfTxInf>
+            <iso:PmtId>
+                <iso:UETR>550e8400-e29b-41d4-a716-446655440000</iso:UETR>
+            </iso:PmtId>
+            <iso:IntrBkSttlmAmt Ccy="USD">150000.00</iso:IntrBkSttlmAmt>
+            <iso:Dbtr><iso:Nm>Pratyush Ranjan Mishra</iso:Nm></iso:Dbtr>
+            <iso:Cdtr><iso:Nm>International Vendor Services</iso:Nm></iso:Cdtr>
+            <iso:InstrForNxtAgt>
+                <iso:InstrInf>URGENT_CLEARING_REQUIRED</iso:InstrInf>
+            </iso:InstrForNxtAgt>
+        </iso:CdtTrfTxInf>
+    </iso:FIToFICstmrCdtTrf>
+</iso:Document>`,
+`<?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet version="2.0" 
+    xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+    xmlns:iso="urn:iso:std:iso:20022:tech:xsd:pacs.008.001.08"
+    exclude-result-prefixes="iso">
+
+    <xsl:output method="xml" indent="yes"/>
+
+    <xsl:variable name="orig" select="/fuel/original/iso:Document"/>
+    <xsl:variable name="trnc" select="/fuel/truncated/iso:Document"/>
+
+    <xsl:template match="/">
+        <xsl:apply-templates select="$trnc"/>
+    </xsl:template>
+
+    <xsl:template match="@*|node()">
+        <xsl:copy>
+            <xsl:apply-templates select="@*|node()"/>
+        </xsl:copy>
+    </xsl:template>
+
+    <xsl:template match="iso:CdtTrfTxInf">
+        <xsl:variable name="vUETR" select="iso:PmtId/iso:UETR"/>
+        <xsl:variable name="vOrigTx" select="$orig//iso:CdtTrfTxInf[iso:PmtId/iso:UETR = $vUETR]"/>
+
+        <xsl:copy>
+            <xsl:apply-templates select="node()"/>
+
+            <xsl:if test="not(iso:PmtTpInf) and $vOrigTx/iso:PmtTpInf">
+                <xsl:copy-of select="$vOrigTx/iso:PmtTpInf"/>
+            </xsl:if>
+
+            <xsl:if test="not(iso:UltmtDbtr) and $vOrigTx/iso:UltmtDbtr">
+                <xsl:copy-of select="$vOrigTx/iso:UltmtDbtr"/>
+            </xsl:if>
+
+            <xsl:if test="not(iso:RgltryRptg) and $vOrigTx/iso:RgltryRptg">
+                <xsl:copy-of select="$vOrigTx/iso:RgltryRptg"/>
+            </xsl:if>
+
+            <xsl:if test="not(iso:Purp) and $vOrigTx/iso:Purp">
+                <xsl:copy-of select="$vOrigTx/iso:Purp"/>
+            </xsl:if>
+
+            <xsl:if test="not(iso:RmtInf/iso:Strd) and $vOrigTx/iso:RmtInf/iso:Strd">
+                <xsl:choose>
+                    <xsl:when test="iso:RmtInf">
+                        <xsl:message>Adding Structured Remittance to existing block</xsl:message>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <xsl:copy-of select="$vOrigTx/iso:RmtInf"/>
+                    </xsl:otherwise>
+                </xsl:choose>
+            </xsl:if>
+        </xsl:copy>
+    </xsl:template>
+
+    <xsl:template match="iso:Dbtr | iso:Cdtr">
+        <xsl:variable name="vUETR" select="ancestor::iso:CdtTrfTxInf/iso:PmtId/iso:UETR"/>
+        <xsl:variable name="vType" select="local-name()"/>
+        <xsl:variable name="vOrigParty" select="$orig//iso:CdtTrfTxInf[iso:PmtId/iso:UETR = $vUETR]/*[local-name()=$vType]"/>
+        
+        <xsl:copy>
+            <xsl:apply-templates select="node()"/>
+            <xsl:if test="not(iso:PstlAdr) and $vOrigParty/iso:PstlAdr">
+                <xsl:copy-of select="$vOrigParty/iso:PstlAdr"/>
+            </xsl:if>
+        </xsl:copy>
+    </xsl:template>
+
+</xsl:stylesheet>`,
+                '<!-- Final Enriched Result -->'
+            ];
+
+            const initialLangs = ['xml', 'xml', 'xml', 'xml'];
+
+            for (let i = 0; i < 4; i++) {
+                editors[i] = monaco.editor.create(document.getElementById(`editor-${i}`), {
+                    value: initialContent[i],
+                    language: initialLangs[i],
+                    theme: 'enrich-theme',
+                    readOnly: i === 3,
+                    automaticLayout: true,
+                    minimap: { enabled: false },
+                    fontSize: 13,
+                    fontFamily: "'JetBrains Mono', monospace"
+                });
+
+                if (i !== 3) {
+                    editors[i].onDidChangeModelContent(() => debouncedTransform());
+                }
+            }
+        });
+
+        let transformTimeout;
+        function debouncedTransform() {
+            clearTimeout(transformTimeout);
+            transformTimeout = setTimeout(runEnrichTransform, 800);
+        }
+
+        function cleanXml(str) {
+            return str.replace(/<\?xml.*\?>/g, '').trim();
+        }
+
+        function logEvent(msg, type = 'info') {
+            const log = document.getElementById('event-log');
+            const entry = document.createElement('div');
+            entry.className = 'log-entry';
+            const time = new Date().toLocaleTimeString();
+            entry.innerHTML = `<span class="log-time">[${time}]</span> <span class="log-${type}">${type.toUpperCase()}</span> <span>${msg}</span>`;
+            log.appendChild(entry);
+            log.scrollTop = log.scrollHeight;
+        }
+
+        async function runEnrichTransform() {
+            logEvent('Orchestrating Dual-Source Enrichment...', 'info');
+
+            const combinedSource = `<?xml version="1.0" encoding="UTF-8"?>
+<fuel>
+<original>
+${cleanXml(editors[0].getValue())}
+</original>
+<truncated>
+${cleanXml(editors[1].getValue())}
+</truncated>
+</fuel>`;
+
+            const payload = {
+                source: combinedSource,
+                mapping: editors[2].getValue()
+            };
+
+            try {
+                const response = await fetch('/fuel-engine/play-transform', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(payload)
+                });
+                const result = await response.text();
+                if (response.ok) {
+                    editors[3].setValue(result);
+                    logEvent('Enrichment Mission Successful.', 'success');
+                } else {
+                    editors[3].setValue('ENRICHER ERROR: ' + result);
+                    logEvent(`Engine Error: ${response.status}`, 'error');
+                }
+            } catch (err) {
+                logEvent(`Connection Error: ${err.message}`, 'error');
+            }
+        }
+    </script>
+</body>
+
+</html>

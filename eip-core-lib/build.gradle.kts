@@ -24,6 +24,8 @@ dependencies {
     api("org.apache.camel:camel-support:4.18.1")
     api("org.apache.camel.quarkus:camel-quarkus-mongodb")
     api("org.apache.camel.quarkus:camel-quarkus-microprofile-health")
+    api("io.quarkus:quarkus-resteasy")
+    api("io.quarkus:quarkus-reactive-routes")
 
     // Spring transaction abstraction
     api("org.springframework:spring-tx")

@@ -1,21 +1,47 @@
-- route:
-    id: "kafka-producer-high-freq"
-    from:
-      uri: "timer:kafka-trigger?period=1000&repeatCount=10&delay=5000"
-      steps:
-        - loop:
-            constant: 10
-            steps:
-              - setBody:
-                  constant: "{\"event\": \"EIP-KAFKA-STRESS\", \"index\":
-                    \"${exchangeProperty.CamelLoopIndex}\", \"sec\":
-                    \"{{CAMEL_KAMELET_KAFKA_SINK_SECURITY_PROTOCOL}}\"}"
-              - to: "kamelet:kafka-sink"
-        - log: ">>> [KAFKA-PRODUCER] Sent burst of 10 messages to Kafka."
+# advanced-routes.yaml
+# Demonstrating Zero-Code technical metadata via Environment Profiles
 
 - route:
-    id: "kafka-consumer-magic"
+    id: "manual-commit-flow"
     from:
-      uri: "kamelet:kafka-source"
+      # Topic is mandatory in the Kamelet template; SSL/Bootstrap are auto-wired from env.
+      uri: "kamelet:kafka-source?topic=audit_log&consumerGroup=manual-commit-group&al\
+        lowManualCommit=true"
       steps:
-        - log: ">>> [KAFKA-CONSUMER] Received event from Kafka: ${body}"
+        - log: ">>> Processing message manually: ${body}"
+        - to: "direct:complex-logic"
+        - to: "kamelet:kafka-manual-commit-action"
+        - log: ">>> Offset committed successfully."
+
+- route:
+    id: "batch-processing-flow"
+    from:
+      # Topic is mandatory; SSL/Bootstrap are auto-wired from CAMEL_KAMELET_KAFKA_BATCH_SOURCE_...
+      uri: "kamelet:kafka-batch-source?topic=telemetry&batchSize=50&consumerGroup=bat\
+        ch-consumer-group"
+      steps:
+        - log: ">>> Received batch of ${header.CamelKafkaBatchSize} messages"
+        - split:
+            simple: "${body}"
+            steps:
+              - log: ">>> Processing item in batch: ${body}"
+        - to: "kamelet:kafka-batch-manual-commit-action"
+        - log: ">>> Batch offset committed."
+
+- route:
+    id: "complex-logic"
+    from:
+      uri: "direct:complex-logic"
+      steps:
+        - setBody:
+            simple: "PROCESSED: ${body}"
+
+- route:
+    id: "timer-to-kafka"
+    from:
+      uri: "timer:tick?period=1000"
+      steps:
+        - setBody:
+            simple: "Testing Kafka Audit Log message at ${date:now:yyyy-MM-dd HH:mm:ss}"
+        - to: "kamelet:kafka-sink?topic=audit_log"
+        - log: ">>> Sent message to Kafka: ${body}"

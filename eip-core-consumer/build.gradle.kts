@@ -43,6 +43,7 @@ dependencies {
     implementation("org.apache.camel.quarkus:camel-quarkus-cassandraql")
     implementation("org.apache.camel.quarkus:camel-quarkus-redis")
     implementation("org.apache.camel:camel-spring-redis")
+    implementation("org.apache.camel.quarkus:camel-quarkus-swift")
 
     // implementation("org.apache.groovy:groovy:5.0.5")
     implementation("io.quarkiverse.groovy:quarkus-groovy:3.34.3")
@@ -86,6 +87,10 @@ dependencies {
     implementation("org.apache.camel.quarkus:camel-quarkus-groovy")
     implementation("org.apache.camel.quarkus:camel-quarkus-http")
     implementation("org.apache.camel.quarkus:camel-quarkus-rest")
+    implementation("org.apache.camel.quarkus:camel-quarkus-platform-http")
+    implementation("org.apache.camel.quarkus:camel-quarkus-openapi-java")
+    implementation("org.apache.camel.quarkus:camel-quarkus-xpath")
+    implementation("org.apache.camel.quarkus:camel-quarkus-xslt-saxon")
     implementation("com.ibm.mq:com.ibm.mq.jakarta.client:9.4.5.0")
     // implementation("io.hawt:hawtio-quarkus:5.0.1")
 
@@ -113,8 +118,11 @@ java {
 // Required for Netty's direct buffer cleaners to work on modern JDKs.
 val modularityOpens = listOf(
     "--add-opens=java.base/java.nio=ALL-UNNAMED",
-    "--add-opens=java.base/jdk.internal.ref=ALL-UNNAMED",
-    "--add-opens=java.base/sun.nio.ch=ALL-UNNAMED"
+    "--add-opens=java.base/jdk.internal.misc=ALL-UNNAMED",
+    "--add-opens=java.base/sun.nio.ch=ALL-UNNAMED",
+    "--add-opens=java.base/java.lang=ALL-UNNAMED",
+    "--add-opens=java.base/java.util=ALL-UNNAMED",
+    "--add-opens=java.base/jdk.internal.ref=ALL-UNNAMED"
 )
 
 tasks.withType<io.quarkus.gradle.tasks.QuarkusDev> {
@@ -122,6 +130,7 @@ tasks.withType<io.quarkus.gradle.tasks.QuarkusDev> {
     jvmArguments.addAll(
         "-Dquarkus.console.enabled=true",
         "-Dquarkus.console.color=true",
-        "-Dquarkus.console.basic=false"
+        "-Dquarkus.console.basic=false",
+        "-Dio.netty.tryReflectionSetAccessible=true"
     )
 }

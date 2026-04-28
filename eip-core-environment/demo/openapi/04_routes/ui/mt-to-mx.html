@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MT to MX Designer | Fuel Station</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=JetBrains+Mono&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-dark: #0f172a;
+            --bg-card: rgba(30, 41, 59, 0.7);
+            --border: rgba(51, 65, 85, 0.5);
+            --primary: #38bdf8;
+            --accent: #f59e0b;
+            --glass: rgba(15, 23, 42, 0.8);
+        }
+
+        * { box-sizing: border-box; }
+        body {
+            margin: 0; padding: 0;
+            background: radial-gradient(circle at top right, #1e293b, #0f172a);
+            color: #f1f5f9;
+            font-family: 'Inter', sans-serif;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
+
+        header {
+            height: 70px;
+            background: var(--glass);
+            backdrop-filter: blur(12px);
+            border-bottom: 1px solid var(--border);
+            display: flex;
+            align-items: center;
+            padding: 0 32px;
+            justify-content: space-between;
+            z-index: 100;
+        }
+
+        .logo { font-weight: 800; font-size: 22px; color: var(--primary); letter-spacing: -1px; display: flex; align-items: center; gap: 12px; }
+
+        .main-container {
+            flex: 1;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .column { display: flex; flex-direction: column; gap: 20px; }
+
+        .editor-card {
+            background: var(--bg-card);
+            backdrop-filter: blur(8px);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.2);
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            flex: 1;
+        }
+
+        .editor-card:hover { border-color: var(--primary); transform: translateY(-4px); box-shadow: 0 0 20px rgba(56, 189, 248, 0.15); }
+
+        .card-header {
+            padding: 12px 20px;
+            background: rgba(51, 65, 85, 0.3);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .card-title { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 1.5px; color: #94a3b8; }
+
+        select {
+            background: #0f172a; color: var(--primary); border: 1px solid var(--border);
+            border-radius: 6px; font-size: 11px; padding: 4px 8px; font-weight: 600; cursor: pointer;
+        }
+
+        .monaco-host { flex: 1; min-height: 0; padding-top: 8px; }
+
+        .footer {
+            height: 120px;
+            padding: 10px 32px;
+            background: var(--glass);
+            border-top: 1px solid var(--border);
+            overflow-y: auto;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 11px;
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+            scroll-behavior: smooth;
+        }
+
+        .log-entry {
+            display: flex;
+            gap: 10px;
+            animation: fadeIn 0.3s ease;
+            line-height: 1.4;
+        }
+
+        .log-time { color: #64748b; min-width: 80px; }
+        .log-info { color: #38bdf8; }
+        .log-success { color: #34d399; font-weight: 600; }
+        .log-error { color: #f87171; font-weight: 600; }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(5px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="logo">EIP <span style="color: white; font-weight: 400;">Fuel Station</span></div>
+    <div style="display: flex; gap: 10px; align-items: center;">
+        <button onclick="runTransform()" style="background: #10b981; color: white; border: none; padding: 6px 16px; border-radius: 6px; font-weight: 800; font-size: 11px; cursor: pointer; box-shadow: 0 0 15px rgba(16, 185, 129, 0.4);">EXECUTE TRANSFORMATION ⚡</button>
+        <span style="color: var(--border);">|</span>
+        <div style="font-size: 11px; background: #0ea5e9; color: white; padding: 4px 12px; border-radius: 99px; font-weight: 600;">MT to MX Mission</div>
+        <a href="mx-to-mt.html" style="font-size: 11px; color: #94a3b8; text-decoration: none; padding: 4px 12px; border: 1px solid var(--border); border-radius: 99px;">Switch to MX to MT</a>
+    </div>
+</header>
+
+<div class="main-container">
+    <!-- Left Column (Split Vertically) -->
+    <div class="column">
+        <div class="editor-card">
+            <div class="card-header">
+                <span class="card-title">SWIFT MT Source</span>
+                <select onchange="updateLang(0, this.value)">
+                    <option value="swift-mt" selected>SWIFT MT</option>
+                </select>
+            </div>
+            <div id="editor-0" class="monaco-host"></div>
+        </div>
+        <div class="editor-card">
+            <div class="card-header">
+                <span class="card-title">Enrichment Context</span>
+                <select onchange="updateLang(1, this.value)">
+                    <option value="xml" selected>XML</option>
+                    <option value="json">JSON</option>
+                </select>
+            </div>
+            <div id="editor-1" class="monaco-host"></div>
+        </div>
+    </div>
+
+    <!-- Middle Column -->
+    <div class="column">
+        <div class="editor-card">
+            <div class="card-header">
+                <span class="card-title">XSLT Mapping (MT to MX)</span>
+                <select onchange="updateLang(2, this.value)">
+                    <option value="xml" selected>XSLT (XML)</option>
+                </select>
+            </div>
+            <div id="editor-2" class="monaco-host"></div>
+        </div>
+    </div>
+
+    <!-- Right Column -->
+    <div class="column">
+        <div class="editor-card">
+            <div class="card-header">
+                <span class="card-title">Target ISO MX (Read-Only)</span>
+                <select disabled>
+                    <option value="xml" selected>XML</option>
+                </select>
+            </div>
+            <div id="editor-3" class="monaco-host"></div>
+        </div>
+    </div>
+</div>
+
+<div class="footer" id="event-log">
+    <div class="log-entry"><span class="log-time">[${new Date().toLocaleTimeString()}]</span> <span class="log-info">SYSTEM</span> <span>READY. MT-to-MX Orchestrator Active.</span></div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/monaco-editor/0.45.0/min/vs/loader.min.js"></script>
+<script>
+    let editors = [];
+
+    require.config({ paths: { vs: 'https://cdnjs.cloudflare.com/ajax/libs/monaco-editor/0.45.0/min/vs' } });
+    require(['vs/editor/editor.main'], function () {
+        
+        monaco.languages.register({ id: 'swift-mt' });
+        monaco.languages.setMonarchTokensProvider('swift-mt', {
+            tokenizer: {
+                root: [
+                    [/^:[0-9]{2}[A-Z]?:/, 'keyword'],
+                    [/{[0-9]:/, 'tag'], [/^}/, 'tag'], [/[A-Z0-9]{8,11}/, 'string'], [/[0-9]+,[0-9]*/, 'number']
+                ]
+            }
+        });
+
+        monaco.editor.defineTheme('eip-theme', {
+            base: 'vs-dark', inherit: true,
+            rules: [
+                { token: 'keyword', foreground: '38bdf8', fontStyle: 'bold' },
+                { token: 'tag', foreground: 'fbbf24' },
+                { token: 'string', foreground: '34d399' }
+            ],
+            colors: { 'editor.background': '#1e293b' }
+        });
+
+        const initialContent = [
+            '{1:F01BANKINBBAXXX0000000000}{2:I103BANKUS33XXXXN}{4:\n:20:REF9876543210\n:23B:CRED\n:32A:260427USD125450,75\n:50K:/987654321\nPRATYUSH RANJAN MISHRA\n123 ODISHALANE\nBHUBANESWAR, IN\n:52A:/11223344\nSNDRBBXXXXX\n:57A:/99001122\nRECVBBXXXXX\n:59:/87654321\nBENEFICIARY CORP LTD\nWALL STREET 42\nNEW YORK, US\n:70:INVOICE INV-2026-ABC SHIPMENT OF INDUSTRIAL PARTS\n:71A:SHA\n:77B:REGULATORY REPORT: EXPORT PROCEEDS\n-}',
+            '<message>\n    <field>\n        <name>20</name>\n        <component number="1">REF9876543210</component>\n    </field>\n    <field>\n        <name>121</name>\n        <component number="1">eb618b7a-6211-4475-8025-0d0407f29053</component>\n    </field>\n    <field>\n        <name>23B</name>\n        <component number="1">CRED</component>\n    </field>\n    <field>\n        <name>32A</name>\n        <component number="2">USD</component>\n        <component number="3">125450,75</component>\n    </field>\n    <field>\n        <name>36</name>\n        <component number="1">1,0855</component>\n    </field>\n    <field>\n        <name>50K</name>\n        <component number="2">PRATYUSH RANJAN MISHRA</component>\n        <component number="3">123 ODISHALANE</component>\n    </field>\n    <field>\n        <name>52A</name>\n        <component number="3">SNDRBBXXXXX</component>\n    </field>\n    <field>\n        <name>57A</name>\n        <component number="3">RECVBBXXXXX</component>\n    </field>\n    <field>\n        <name>59</name>\n        <component number="2">BENEFICIARY CORP LTD</component>\n        <component number="1">/87654321</component>\n    </field>\n    <field>\n        <name>71A</name>\n        <component number="1">SHA</component>\n    </field>\n    <field>\n        <name>70</name>\n        <component number="1">INVOICE INV-2026-ABC</component>\n    </field>\n</message>',
+            '<?xml version="1.0" encoding="UTF-8"?>\n<xsl:stylesheet version="2.0" \n    xmlns:xsl="http://www.w3.org/1999/XSL/Transform"\n    xmlns:iso="urn:iso:std:iso:20022:tech:xsd:pacs.008.001.08"\n    exclude-result-prefixes="iso">\n\n    <xsl:output method="xml" indent="yes" encoding="UTF-8"/>\n    <xsl:key name="fieldByName" match="field" use="name"/>\n\n    <xsl:template match="/message">\n        <iso:Document>\n            <iso:FIToFICstmrCdtTrf>\n                <iso:GrpHdr>\n                    <iso:MsgId><xsl:value-of select="key(\'fieldByName\', \'20\')/component[@number=\'1\']"/></iso:MsgId>\n                    <iso:CreDtTm>2026-04-27T21:50:00Z</iso:CreDtTm>\n                    <iso:NbOfTxs>1</iso:NbOfTxs>\n                    <iso:SttlmInf>\n                        <iso:SttlmMtd>INDA</iso:SttlmMtd>\n                    </iso:SttlmInf>\n                </iso:GrpHdr>\n\n                <iso:CdtTrfTxInf>\n                    <iso:PmtId>\n                        <iso:InstrId><xsl:value-of select="key(\'fieldByName\', \'20\')/component[@number=\'1\']"/></iso:InstrId>\n                        <iso:EndToEndId><xsl:value-of select="key(\'fieldByName\', \'20\')/component[@number=\'1\']"/></iso:EndToEndId>\n                        <iso:UETR><xsl:value-of select="key(\'fieldByName\', \'121\')/component[@number=\'1\']"/></iso:UETR>\n                    </iso:PmtId>\n\n                    <iso:PmtTpInf>\n                        <iso:SvcLvl>\n                            <iso:Cd><xsl:value-of select="key(\'fieldByName\', \'23B\')/component[@number=\'1\']"/></iso:Cd>\n                        </iso:SvcLvl>\n                        <xsl:if test="key(\'fieldByName\', \'23E\')">\n                            <iso:LclInstrm>\n                                <iso:Prtry><xsl:value-of select="key(\'fieldByName\', \'23E\')/component[@number=\'1\']"/></iso:Prtry>\n                            </iso:LclInstrm>\n                        </xsl:if>\n                    </iso:PmtTpInf>\n\n                    <iso:IntrBkSttlmAmt>\n                        <xsl:attribute name="Ccy"><xsl:value-of select="key(\'fieldByName\', \'32A\')/component[@number=\'2\']"/></xsl:attribute>\n                        <xsl:value-of select="translate(key(\'fieldByName\', \'32A\')/component[@number=\'3\'], \',\', \'.\')"/>\n                    </iso:IntrBkSttlmAmt>\n                    \n                    <xsl:if test="key(\'fieldByName\', \'36\')">\n                        <iso:XchgRate><xsl:value-of select="translate(key(\'fieldByName\', \'36\')/component[@number=\'1\'], \',\', \'.\')"/></iso:XchgRate>\n                    </xsl:if>\n\n                    <iso:ChrgBr><xsl:value-of select="key(\'fieldByName\', \'71A\')/component[@number=\'1\']"/></iso:ChrgBr>\n\n                    <xsl:if test="key(\'fieldByName\', \'51A\')">\n                        <iso:PrvsInstgAgt1>\n                            <iso:FinInstnId><iso:BICFI><xsl:value-of select="key(\'fieldByName\', \'51A\')/component[@number=\'1\']"/></iso:BICFI></iso:FinInstnId>\n                        </iso:PrvsInstgAgt1>\n                    </xsl:if>\n\n                    <iso:Dbtr>\n                        <iso:Nm><xsl:value-of select="key(\'fieldByName\', \'50K\')/component[@number=\'2\']"/></iso:Nm>\n                        <iso:PstlAdr>\n                            <iso:AdrLine><xsl:value-of select="key(\'fieldByName\', \'50K\')/component[@number=\'3\']"/></iso:AdrLine>\n                        </iso:PstlAdr>\n                    </iso:Dbtr>\n\n                    <iso:DbtrAgt>\n                        <iso:FinInstnId>\n                            <iso:BICFI><xsl:value-of select="key(\'fieldByName\', \'52A\')/component[@number=\'3\']"/></iso:BICFI>\n                        </iso:FinInstnId>\n                    </iso:DbtrAgt>\n\n                    <xsl:if test="key(\'fieldByName\', \'53A\')">\n                        <iso:InstgRmbrsmntAgt>\n                            <iso:FinInstnId><iso:BICFI><xsl:value-of select="key(\'fieldByName\', \'53A\')/component[@number=\'3\']"/></iso:BICFI></iso:FinInstnId>\n                        </iso:InstgRmbrsmntAgt>\n                    </xsl:if>\n\n                    <xsl:if test="key(\'fieldByName\', \'54A\')">\n                        <iso:InstdRmbrsmntAgt>\n                            <iso:FinInstnId><iso:BICFI><xsl:value-of select="key(\'fieldByName\', \'54A\')/component[@number=\'3\']"/></iso:BICFI></iso:FinInstnId>\n                        </iso:InstdRmbrsmntAgt>\n                    </xsl:if>\n\n                    <xsl:if test="key(\'fieldByName\', \'56A\')">\n                        <iso:IntrmyAgt1>\n                            <iso:FinInstnId><iso:BICFI><xsl:value-of select="key(\'fieldByName\', \'56A\')/component[@number=\'3\']"/></iso:BICFI></iso:FinInstnId>\n                        </iso:IntrmyAgt1>\n                    </xsl:if>\n\n                    <iso:CdtrAgt>\n                        <iso:FinInstnId>\n                            <iso:BICFI><xsl:value-of select="key(\'fieldByName\', \'57A\')/component[@number=\'3\']"/></iso:BICFI>\n                        </iso:FinInstnId>\n                    </iso:CdtrAgt>\n\n                    <iso:Cdtr>\n                        <iso:Nm><xsl:value-of select="key(\'fieldByName\', \'59\')/component[@number=\'2\']"/></iso:Nm>\n                    </iso:Cdtr>\n                    <iso:CdtrAcct>\n                        <iso:Id><iso:Othr><iso:Id><xsl:value-of select="substring-after(key(\'fieldByName\', \'59\')/component[@number=\'1\'], \'/\')"/></iso:Id></iso:Othr></iso:Id>\n                    </iso:CdtrAcct>\n\n                    <xsl:if test="key(\'fieldByName\', \'70\')">\n                        <iso:RmtInf>\n                            <iso:Ustrd><xsl:value-of select="key(\'fieldByName\', \'70\')/component[@number=\'1\']"/></iso:Ustrd>\n                        </iso:RmtInf>\n                    </xsl:if>\n\n                    <xsl:if test="key(\'fieldByName\', \'77B\')">\n                        <iso:RgltryRptg>\n                            <iso:Dtls>\n                                <iso:Inf><xsl:value-of select="key(\'fieldByName\', \'77B\')/component[@number=\'1\']"/></iso:Inf>\n                            </iso:Dtls>\n                        </iso:RgltryRptg>\n                    </xsl:if>\n                </iso:CdtTrfTxInf>\n            </iso:FIToFICstmrCdtTrf>\n        </iso:Document>\n    </xsl:template>\n</xsl:stylesheet>',
+            '<?xml version="1.0" encoding="UTF-8"?>\n<!-- Final ISO 20022 Target Result -->'
+        ];
+
+        const initialLangs = ['swift-mt', 'xml', 'xml', 'xml'];
+
+        for(let i=0; i<4; i++) {
+            editors[i] = monaco.editor.create(document.getElementById(`editor-${i}`), {
+                value: initialContent[i],
+                language: initialLangs[i],
+                theme: 'eip-theme',
+                readOnly: i === 1 || i === 3,
+                automaticLayout: true,
+                minimap: { enabled: false },
+                fontSize: 13,
+                fontFamily: "'JetBrains Mono', monospace"
+            });
+
+            // Dual-Stage Orchestration Logic
+            if (i === 0) {
+                // MT change triggers Stage 1 (Analyze) live as user types
+                editors[i].onDidChangeModelContent(() => debouncedAnalyze());
+            } else if (i === 1 || i === 2) {
+                // Context or XSLT change triggers Stage 2 (Transform) live
+                editors[i].onDidChangeModelContent(() => debouncedTransform());
+            }
+        }
+    });
+
+    let analyzeTimeout, transformTimeout;
+
+    function debouncedAnalyze() {
+        clearTimeout(analyzeTimeout);
+        analyzeTimeout = setTimeout(runAnalyze, 600); 
+    }
+
+    function debouncedTransform() {
+        clearTimeout(transformTimeout);
+        transformTimeout = setTimeout(runTransform, 500); 
+    }
+
+    function logEvent(msg, type = 'info') {
+        const log = document.getElementById('event-log');
+        const entry = document.createElement('div');
+        entry.className = 'log-entry';
+        const time = new Date().toLocaleTimeString();
+        entry.innerHTML = `<span class="log-time">[${time}]</span> <span class="log-${type}">${type.toUpperCase()}</span> <span>${msg}</span>`;
+        log.appendChild(entry);
+        log.scrollTop = log.scrollHeight;
+    }
+
+    async function runAnalyze() {
+        logEvent('STAGE 1: Parsing Raw MT Message...', 'info');
+        try {
+            const response = await fetch('/fuel-engine/parse-mt', {
+                method: 'POST',
+                headers: { 'Content-Type': 'text/plain' },
+                body: editors[0].getValue()
+            });
+            const result = await response.text();
+            if (response.ok) {
+                editors[1].setValue(result);
+                logEvent('MT Parse Successful. Canonical XML populated.', 'success');
+            } else {
+                logEvent(`Parse Stage Failed: HTTP ${response.status}`, 'error');
+            }
+        } catch (err) {
+            logEvent(`Connection Error: ${err.message}`, 'error');
+        }
+    }
+
+    async function runTransform() {
+        logEvent('STAGE 2: Executing XSLT Mapping...', 'info');
+
+        const payload = {
+            source: editors[1].getValue(), // Use Parsed XML box as source for Stage 2
+            mapping: editors[2].getValue()
+        };
+
+        try {
+            const response = await fetch('/fuel-engine/play-transform', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(payload)
+            });
+
+            const result = await response.text();
+
+            if (response.ok) {
+                editors[3].setValue(result);
+                logEvent('Mission Complete. Target ISO message generated.', 'success');
+            } else {
+                if (result.includes('<html')) {
+                    editors[3].setValue('ENGINE ERROR (' + response.status + '): Check Camel logs.');
+                } else {
+                    editors[3].setValue(result);
+                }
+                statusEl.innerText = 'STAGE 2 FAILED: ' + response.statusText;
+            }
+        } catch (err) {
+            statusEl.innerText = 'CONNECTION ERROR: ' + err.message;
+        }
+    }
+
+    function updateLang(index, lang) {
+        if (editors[index]) { monaco.editor.setModelLanguage(editors[index].getModel(), lang); }
+    }
+</script>
+</body>
+</html>
