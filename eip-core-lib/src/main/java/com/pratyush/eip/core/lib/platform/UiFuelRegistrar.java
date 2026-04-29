@@ -47,15 +47,25 @@ public class UiFuelRegistrar {
 
         LOG.infof(">>> [INDUSTRIALIZED] Serving Fuel Assets from: %s", actualPath);
 
-        // Register the Vert.x Static Handler
-        // This is much faster than JAX-RS and handles index.html, ETag, and Ranges automatically.
+        // 1. Pretty URL Handler: Map /fuel-ui/mx-to-mt to /fuel-ui/mx-to-mt.html
+        router.route("/fuel-ui/:page").handler(ctx -> {
+            String page = ctx.pathParam("page");
+            // Only reroute if page is not empty, has no extension, and is not 'index'
+            if (page != null && !page.isEmpty() && !page.contains(".") && !page.equals("index")) {
+                ctx.reroute("/fuel-ui/" + page + ".html");
+            } else {
+                ctx.next();
+            }
+        });
+
+        // 2. Register the Vert.x Static Handler
         router.route("/fuel-ui/*").handler(StaticHandler.create()
                 .setAllowRootFileSystemAccess(true)
                 .setWebRoot(actualPath)
                 .setDefaultContentEncoding("UTF-8")
                 .setIncludeHidden(false)
                 .setDirectoryListing(false)
-                .setIndexPage("mt-to-mx.html") // Smart fallback for mission start
+                .setIndexPage("index.html")
         );
     }
 }

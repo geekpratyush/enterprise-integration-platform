@@ -90,6 +90,7 @@ dependencies {
     implementation("org.apache.camel.quarkus:camel-quarkus-platform-http")
     implementation("org.apache.camel.quarkus:camel-quarkus-openapi-java")
     implementation("org.apache.camel.quarkus:camel-quarkus-xpath")
+    implementation("org.apache.camel.quarkus:camel-quarkus-validator")
     implementation("org.apache.camel.quarkus:camel-quarkus-xslt-saxon")
     implementation("com.ibm.mq:com.ibm.mq.jakarta.client:9.4.5.0")
     // implementation("io.hawt:hawtio-quarkus:5.0.1")

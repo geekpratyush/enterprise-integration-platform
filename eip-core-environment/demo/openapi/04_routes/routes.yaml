@@ -63,7 +63,39 @@
         produces: "application/xml"
         to: "direct:parse-mt"
 
+      - path: "/validate"
+        id: "api-fuel-validate"
+        description: "Industrial Schema Validator"
+        consumes: "application/json"
+        produces: "text/plain"
+        to: "direct:validate"
+        param:
+          - name: "body"
+            type: "body"
+            required: true
+            description: "JSON containing 'source' (XML) and 'schema' (XSD)"
+
 # 3. Main Business Logic
+# Validation Mission: Catch-all Schema Auditing
+- from:
+    uri: "direct:validate"
+    steps:
+      - log: ">>> Validation Lab: Auditing Message against Schema..."
+      - doTry:
+          steps:
+            - script:
+                groovy: |
+                  def factory = javax.xml.validation.SchemaFactory.newInstance(javax.xml.XMLConstants.W3C_XML_SCHEMA_NS_URI)
+                  def schema = factory.newSchema(new javax.xml.transform.stream.StreamSource(new java.io.StringReader(request.headers.CamelXmlValidatorSchema)))
+                  schema.newValidator().validate(new javax.xml.transform.stream.StreamSource(new java.io.StringReader(body)))
+            - setBody: { constant: "VALIDATION SUCCESS: Message is strictly compliant with the provided schema." }
+          doCatch:
+            - exception:
+                - "java.lang.Exception"
+              steps:
+                - setBody: { simple: "VALIDATION FAILURE:\n${exception.message}" }
+      - log: ">>> Validation Complete. Results Delivered. <<<"
+
 # Universal Transformation Mission: Straight-Through XSLT Execution
 - from:
     uri: "direct:play-transform"

@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EIP Mission Control | Dashboard</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --sidebar-width: 280px;
+            --sidebar-mini-width: 80px;
+            --bg-dark: #0f172a;
+            --sidebar-bg: #1e293b;
+            --primary: #38bdf8;
+            --accent: #818cf8;
+            --success: #34d399;
+            --text-main: #f8fafc;
+            --text-dim: #94a3b8;
+            --glass: rgba(15, 23, 42, 0.9);
+            --gradient: linear-gradient(135deg, #38bdf8 0%, #818cf8 100%);
+        }
+
+        * { box-sizing: border-box; }
+        body {
+            margin: 0; padding: 0;
+            background: var(--bg-dark);
+            color: var(--text-main);
+            font-family: 'Inter', sans-serif;
+            display: flex;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        /* Sidebar Styling */
+        #sidebar {
+            width: var(--sidebar-width);
+            background: var(--sidebar-bg);
+            border-right: 1px solid rgba(255,255,255,0.05);
+            display: flex;
+            flex-direction: column;
+            transition: width 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            position: relative;
+            z-index: 1000;
+        }
+
+        #sidebar.mini { width: var(--sidebar-mini-width); }
+
+        .sidebar-header {
+            height: 80px;
+            display: flex;
+            align-items: center;
+            padding: 0 24px;
+            overflow: hidden;
+            white-space: nowrap;
+        }
+
+        .logo-box {
+            width: 42px; height: 42px;
+            background: var(--gradient);
+            border-radius: 12px;
+            display: flex; align-items: center; justify-content: center;
+            flex-shrink: 0;
+            box-shadow: 0 8px 20px rgba(56, 189, 248, 0.4);
+            animation: pulse 3s infinite;
+        }
+
+        @keyframes pulse {
+            0% { box-shadow: 0 0 0 0 rgba(56, 189, 248, 0.4); }
+            70% { box-shadow: 0 0 0 10px rgba(56, 189, 248, 0); }
+            100% { box-shadow: 0 0 0 0 rgba(56, 189, 248, 0); }
+        }
+
+        .logo-text {
+            margin-left: 16px;
+            font-family: 'Outfit', sans-serif;
+            font-size: 22px; font-weight: 800;
+            letter-spacing: -0.5px;
+            background: var(--gradient);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            opacity: 1; transition: opacity 0.2s;
+        }
+
+        #sidebar.mini .logo-text { opacity: 0; pointer-events: none; }
+
+        .nav-section { flex: 1; padding: 24px 16px; overflow-y: auto; }
+        .nav-label {
+            font-size: 11px; font-weight: 700; color: var(--text-dim);
+            text-transform: uppercase; letter-spacing: 2px;
+            margin: 28px 0 12px 12px;
+            opacity: 1; transition: opacity 0.2s;
+        }
+        #sidebar.mini .nav-label { opacity: 0; }
+
+        .nav-item {
+            height: 52px;
+            display: flex; align-items: center;
+            padding: 0 16px;
+            border-radius: 14px;
+            cursor: pointer;
+            color: var(--text-dim);
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            margin-bottom: 6px;
+            white-space: nowrap;
+            overflow: hidden;
+            border: 1px solid transparent;
+        }
+
+        .nav-item:hover { 
+            background: rgba(255,255,255,0.05); 
+            color: var(--text-main);
+            transform: translateX(5px);
+        }
+        .nav-item.active { 
+            background: var(--gradient); 
+            color: #fff; 
+            font-weight: 700;
+            box-shadow: 0 4px 15px rgba(56, 189, 248, 0.2);
+        }
+        .nav-item.active .nav-icon { color: #fff; }
+
+        .nav-icon { width: 24px; font-size: 20px; text-align: center; flex-shrink: 0; display: flex; align-items: center; justify-content: center; }
+        .nav-text { margin-left: 16px; font-size: 14px; font-weight: 600; }
+
+        /* Main Content */
+        #content { flex: 1; display: flex; flex-direction: column; position: relative; background: #0b0f1a; }
+
+        #top-bar {
+            height: 80px;
+            background: var(--glass);
+            backdrop-filter: blur(20px);
+            border-bottom: 1px solid rgba(255,255,255,0.05);
+            display: flex; align-items: center;
+            padding: 0 40px;
+            justify-content: space-between;
+            z-index: 900;
+        }
+
+        .view-title { font-family: 'Outfit', sans-serif; font-size: 26px; font-weight: 700; letter-spacing: -0.5px; }
+
+        .status-badge {
+            display: flex; align-items: center; gap: 8px;
+            background: rgba(52, 211, 153, 0.1);
+            padding: 6px 16px;
+            border-radius: 99px;
+            border: 1px solid rgba(52, 211, 153, 0.2);
+            color: var(--success);
+            font-size: 12px; font-weight: 700;
+            text-transform: uppercase; letter-spacing: 1px;
+        }
+
+        .status-dot { width: 8px; height: 8px; background: var(--success); border-radius: 50%; box-shadow: 0 0 10px var(--success); }
+
+        .action-btn {
+            background: var(--gradient);
+            color: #fff;
+            border: none;
+            padding: 12px 28px;
+            border-radius: 12px;
+            font-weight: 800;
+            font-size: 13px;
+            cursor: pointer;
+            box-shadow: 0 8px 20px rgba(56, 189, 248, 0.3);
+            display: none; 
+            align-items: center; gap: 10px;
+            transition: all 0.3s;
+        }
+
+        .action-btn:hover { transform: translateY(-2px); box-shadow: 0 12px 25px rgba(56, 189, 248, 0.4); }
+
+        #view-container { flex: 1; position: relative; }
+
+        iframe { width: 100%; height: 100%; border: none; }
+
+        /* Home Overlay */
+        #home-overlay {
+            position: absolute; inset: 0;
+            background: radial-gradient(circle at 70% 30%, rgba(56, 189, 248, 0.1), transparent), 
+                        radial-gradient(circle at 30% 70%, rgba(129, 140, 248, 0.1), transparent),
+                        var(--bg-dark);
+            display: flex; flex-direction: column; align-items: center; justify-content: center;
+            z-index: 10;
+        }
+
+        .hero-title { font-family: 'Outfit', sans-serif; font-size: 72px; font-weight: 800; margin: 0; text-align: center; letter-spacing: -2px; }
+        .hero-subtitle { color: var(--text-dim); font-size: 20px; margin-top: 24px; max-width: 700px; text-align: center; line-height: 1.6; font-weight: 300; }
+
+        .grid-launchpad {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 24px;
+            margin-top: 60px;
+            width: 100%; max-width: 900px;
+            padding: 0 40px;
+        }
+
+        .launch-card {
+            background: rgba(255,255,255,0.03);
+            border: 1px solid rgba(255,255,255,0.06);
+            padding: 40px;
+            border-radius: 32px;
+            cursor: pointer;
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            display: flex; flex-direction: column; gap: 16px;
+            backdrop-filter: blur(10px);
+        }
+
+        .launch-card:hover { 
+            background: rgba(255,255,255,0.06); 
+            border-color: var(--primary); 
+            transform: translateY(-10px) scale(1.02); 
+            box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+        }
+        .launch-card h3 { margin: 0; font-size: 20px; color: var(--primary); font-family: 'Outfit', sans-serif; }
+        .launch-card p { margin: 0; font-size: 15px; color: var(--text-dim); line-height: 1.5; }
+
+    </style>
+</head>
+<body>
+
+    <!-- Sidebar -->
+    <aside id="sidebar">
+        <div class="sidebar-header">
+            <div class="logo-box">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+            </div>
+            <span class="logo-text">FUEL CONTROL</span>
+        </div>
+
+        <div class="nav-section">
+            <div class="nav-label">Core Platform</div>
+            <div class="nav-item active" onclick="navigate('home')">
+                <div class="nav-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></div>
+                <div class="nav-text">Home Console</div>
+            </div>
+
+            <div class="nav-label">Fuel Transformers</div>
+            <div class="nav-item" onclick="navigate('mt-to-mx')">
+                <div class="nav-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg></div>
+                <div class="nav-text">MT to ISO 20022</div>
+            </div>
+            <div class="nav-item" onclick="navigate('mx-to-mt')">
+                <div class="nav-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg></div>
+                <div class="nav-text">ISO 20022 to MT</div>
+            </div>
+            <div class="nav-item" onclick="navigate('mx-enricher')">
+                <div class="nav-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"/></svg></div>
+                <div class="nav-text">MX Message Enricher</div>
+            </div>
+            <div class="nav-item" onclick="navigate('any-to-any-transformer')">
+                <div class="nav-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><line x1="12" y1="8" x2="12" y2="16"/><line x1="8" y1="12" x2="16" y2="12"/></svg></div>
+                <div class="nav-text">Any-to-Any Universal</div>
+            </div>
+
+            <div class="nav-label">Documentation</div>
+            <div class="nav-item" onclick="navigate('docs')">
+                <div class="nav-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg></div>
+                <div class="nav-text">API Explorer</div>
+            </div>
+        </div>
+        
+        <div style="padding: 24px; border-top: 1px solid rgba(255,255,255,0.05); cursor: pointer;" onclick="toggleSidebar()">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+        </div>
+    </aside>
+
+    <!-- Content -->
+    <main id="content">
+        <div id="top-bar">
+            <div style="display: flex; align-items: center; gap: 24px;">
+                <div class="view-title" id="current-view-title">Mission Control</div>
+                <div class="status-badge">
+                    <div class="status-dot"></div>
+                    Engine Live
+                </div>
+            </div>
+            <button id="execute-btn" class="action-btn" onclick="triggerIframeAction()">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+                EXECUTE ACTION
+            </button>
+        </div>
+
+        <div id="view-container">
+            <!-- Home Overlay -->
+            <div id="home-overlay">
+                <h1 class="hero-title">Fuel <span style="background: var(--gradient); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Station</span></h1>
+                <p class="hero-subtitle">The centralized orchestration deck for your Enterprise Integration Platform. Deploy, transform, and validate your payment messages with zero-code infrastructure.</p>
+                
+                <div class="grid-launchpad">
+                    <div class="launch-card" onclick="navigate('mt-to-mx')">
+                        <h3>MT to ISO 20022</h3>
+                        <p>Bidirectional SWIFT transformation with full block generation and canonical enrichment.</p>
+                    </div>
+                    <div class="launch-card" onclick="navigate('any-to-any-transformer')">
+                        <h3>Universal Transformer</h3>
+                        <p>Generic XSLT-based engine for flatpack, XML, and JSON multi-protocol translation.</p>
+                    </div>
+                    <div class="launch-card" onclick="navigate('mx-enricher')">
+                        <h3>Message Enricher</h3>
+                        <p>Reconstruct truncated ISO 20022 fragments into full compliant messages.</p>
+                    </div>
+                    <div class="launch-card" onclick="navigate('docs')">
+                        <h3>API Specification</h3>
+                        <p>Explore the underlying JAX-RS endpoints and Camel route metadata via Swagger.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Iframe for Tools -->
+            <iframe id="main-frame" src="about:blank"></iframe>
+        </div>
+    </main>
+
+    <script>
+        // --- Navigation Logic ---
+        const VIEWS = {
+            'home': { title: 'Mission Control', type: 'overlay' },
+            'mt-to-mx': { title: 'MT to ISO 20022', type: 'designer' },
+            'mx-to-mt': { title: 'ISO 20022 to MT', type: 'designer' },
+            'mx-enricher': { title: 'MX Message Enricher', type: 'designer' },
+            'any-to-any-transformer': { title: 'Universal Transformer', type: 'designer' },
+            'docs': { title: 'API Explorer', type: 'docs' }
+        };
+
+        function toggleSidebar() {
+            document.getElementById('sidebar').classList.toggle('mini');
+        }
+
+        function navigate(viewId) {
+            if (!VIEWS[viewId]) viewId = 'home';
+            window.location.hash = viewId;
+        }
+
+        function loadViewFromHash() {
+            const hash = window.location.hash.replace('#', '') || 'home';
+            const view = VIEWS[hash] || VIEWS['home'];
+            
+            const frame = document.getElementById('main-frame');
+            const overlay = document.getElementById('home-overlay');
+            const titleEl = document.getElementById('current-view-title');
+            const execBtn = document.getElementById('execute-btn');
+            
+            // Update Sidebar Active State
+            document.querySelectorAll('.nav-item').forEach(el => {
+                el.classList.remove('active');
+                if (el.getAttribute('onclick') && el.getAttribute('onclick').includes(`'${hash}'`)) {
+                    el.classList.add('active');
+                }
+            });
+
+            titleEl.innerText = view.title;
+
+            if (hash === 'home') {
+                frame.style.display = 'none';
+                overlay.style.display = 'flex';
+                execBtn.style.display = 'none';
+                frame.src = 'about:blank';
+            } else {
+                overlay.style.display = 'none';
+                frame.style.display = 'block';
+                
+                if (hash === 'docs') {
+                    execBtn.style.display = 'none';
+                    frame.src = '/docs';
+                } else {
+                    execBtn.style.display = 'flex';
+                    frame.src = hash + '.html';
+                }
+
+                if (window.innerWidth < 1024) {
+                    document.getElementById('sidebar').classList.add('mini');
+                }
+            }
+        }
+
+        function triggerIframeAction() {
+            const frame = document.getElementById('main-frame');
+            if (frame && frame.contentWindow && typeof frame.contentWindow.runTransform === 'function') {
+                frame.contentWindow.runTransform();
+            }
+        }
+
+        // --- Lifecycle ---
+        window.addEventListener('hashchange', loadViewFromHash);
+        window.onload = loadViewFromHash;
+
+        // Legacy compatibility
+        function loadView(view, title) {
+            navigate(view);
+        }
+    </script>
+</body>
+</html>

@@ -55,6 +55,8 @@ echo "    >>> Environmental state purged."
 # PHASE 1: PROVISIONING
 echo -e "\033[34m>>> PHASE 1: PROVISIONING\033[0m"
 export SCENARIO=$SCENARIO
+# Pre-create the scenario directory so it's not created by root during volume mount
+mkdir -p "$EIP_SCRIPT_DIR/02_initialization/certs/$SCENARIO"
 docker compose -f "$EIP_SCRIPT_DIR/01_provisioning/docker-isolated.yaml" up -d --remove-orphans
 
 # PHASE 2: INITIALIZATION (Smart Policy Application)
