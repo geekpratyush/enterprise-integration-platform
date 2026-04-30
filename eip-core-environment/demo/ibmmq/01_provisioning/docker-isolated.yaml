@@ -12,4 +12,4 @@ services:
       - "9443:9443"
     volumes:
       # Use scenario-specific sub-folder for isolation
-      - ../02_initialization/certs/${SCENARIO}:/var/mqm/ssl-certs:rw
+      - ~/.eip/certs/ibmmq/${SCENARIO}:/var/mqm/ssl-certs:rw

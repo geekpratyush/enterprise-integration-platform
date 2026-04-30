@@ -1,0 +1,28 @@
+# POSTGRES mTLS PROFILE
+QUARKUS_DATASOURCE_EIP_JDBC_URL: "jdbc:postgresql://127.0.0.1:5432/eip_db?ssl=true&sslmode=verify-ca&sslrootcert=${EIP_CERT_DIR}/ca-cert.pem&sslcert=${EIP_CERT_DIR}/client-cert.pem&sslkey=${EIP_CERT_DIR}/client-key.pk8"
+QUARKUS_DATASOURCE_EIP_USERNAME: "eip_user"
+QUARKUS_DATASOURCE_EIP_PASSWORD: "eip_password"
+QUARKUS_DATASOURCE_EIP_DB_KIND: "postgresql"
+
+QUARKUS_LIQUIBASE_EIP_MIGRATE_AT_START: "true"
+QUARKUS_LIQUIBASE_EIP_ENABLED: "true"
+QUARKUS_LIQUIBASE_EIP_CHANGE_LOG: "filesystem:${EIP_BASE_DIR}/eip-core-environment/demo/postgres/02_initialization/changelog/db.changelog-master.yaml"
+
+QUARKUS_DATASOURCE_EIP_JDBC_ADDITIONAL_JDBC_PROPERTIES_javax_net_ssl_trustStore: "${EIP_CERT_DIR}/postgres-truststore.p12"
+QUARKUS_DATASOURCE_EIP_JDBC_ADDITIONAL_JDBC_PROPERTIES_javax_net_ssl_trustStorePassword: "changeit"
+QUARKUS_DATASOURCE_EIP_JDBC_ADDITIONAL_JDBC_PROPERTIES_javax_net_ssl_trustStoreType: "PKCS12"
+
+QUARKUS_DATASOURCE_EIP_JDBC_ADDITIONAL_JDBC_PROPERTIES_javax_net_ssl_keyStore: "${EIP_CERT_DIR}/client-keystore.p12"
+QUARKUS_DATASOURCE_EIP_JDBC_ADDITIONAL_JDBC_PROPERTIES_javax_net_ssl_keyStorePassword: "changeit"
+QUARKUS_DATASOURCE_EIP_JDBC_ADDITIONAL_JDBC_PROPERTIES_javax_net_ssl_keyStoreType: "PKCS12"
+
+EIP_IGNORE_INFRA: "ibmmq,kafka,mongodb,redis"
+EIP_LIQUIBASE_ENABLED: "true"
+CAMEL_MAIN_ROUTES_INCLUDE_PATTERN: "file:${EIP_SCRIPT_DIR}/04_routes/**/*.yaml"
+CAMEL_MAIN_DUMP_ROUTES: "true"
+EIP_BOOTSTRAP_DISABLED: "true"
+QUARKUS_LOG_LEVEL: "INFO"
+QUARKUS_IBMMQ_ENABLED: "false"
+QUARKUS_MONGODB_ENABLED: "false"
+QUARKUS_REDIS_ENABLED: "false"
+QUARKUS_ELASTICSEARCH_ENABLED: "false"

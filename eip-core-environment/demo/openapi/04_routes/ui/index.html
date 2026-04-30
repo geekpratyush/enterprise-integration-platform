@@ -3,391 +3,661 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EIP Mission Control | Dashboard</title>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <title>EIP Mission Control | ISO 20022 Knowledge Base</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=JetBrains+Mono:wght@400;700&family=Outfit:wght@400;700;900&display=swap" rel="stylesheet">
     <style>
         :root {
-            --sidebar-width: 280px;
-            --sidebar-mini-width: 80px;
-            --bg-dark: #0f172a;
-            --sidebar-bg: #1e293b;
             --primary: #38bdf8;
-            --accent: #818cf8;
-            --success: #34d399;
+            --primary-glow: rgba(56, 189, 248, 0.5);
+            --bg-dark: #0f172a;
+            --bg-card: rgba(30, 41, 59, 0.7);
             --text-main: #f8fafc;
             --text-dim: #94a3b8;
-            --glass: rgba(15, 23, 42, 0.9);
-            --gradient: linear-gradient(135deg, #38bdf8 0%, #818cf8 100%);
+            --accent: #818cf8;
+            --border: rgba(255, 255, 255, 0.1);
         }
 
-        * { box-sizing: border-box; }
         body {
-            margin: 0; padding: 0;
+            margin: 0;
+            padding: 0;
             background: var(--bg-dark);
             color: var(--text-main);
             font-family: 'Inter', sans-serif;
-            display: flex;
             height: 100vh;
             overflow: hidden;
+            display: flex;
         }
 
         /* Sidebar Styling */
-        #sidebar {
-            width: var(--sidebar-width);
-            background: var(--sidebar-bg);
-            border-right: 1px solid rgba(255,255,255,0.05);
+        .sidebar {
+            width: 300px;
+            background: rgba(15, 23, 42, 0.98);
+            border-right: 1px solid var(--border);
             display: flex;
             flex-direction: column;
-            transition: width 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            padding: 24px;
+            z-index: 100;
+            transition: width 0.4s cubic-bezier(0.4, 0, 0.2, 1);
             position: relative;
-            z-index: 1000;
         }
 
-        #sidebar.mini { width: var(--sidebar-mini-width); }
+        .sidebar.collapsed {
+            width: 72px;
+            padding: 24px 12px;
+        }
 
-        .sidebar-header {
-            height: 80px;
+        .logo-area {
             display: flex;
             align-items: center;
-            padding: 0 24px;
+            gap: 12px;
+            margin-bottom: 48px;
             overflow: hidden;
             white-space: nowrap;
-        }
-
-        .logo-box {
-            width: 42px; height: 42px;
-            background: var(--gradient);
-            border-radius: 12px;
-            display: flex; align-items: center; justify-content: center;
-            flex-shrink: 0;
-            box-shadow: 0 8px 20px rgba(56, 189, 248, 0.4);
-            animation: pulse 3s infinite;
-        }
-
-        @keyframes pulse {
-            0% { box-shadow: 0 0 0 0 rgba(56, 189, 248, 0.4); }
-            70% { box-shadow: 0 0 0 10px rgba(56, 189, 248, 0); }
-            100% { box-shadow: 0 0 0 0 rgba(56, 189, 248, 0); }
         }
 
         .logo-text {
-            margin-left: 16px;
-            font-family: 'Outfit', sans-serif;
-            font-size: 22px; font-weight: 800;
+            transition: opacity 0.3s ease, transform 0.3s ease;
+            font-family: 'Outfit', sans-serif; 
+            font-size: 20px; 
+            font-weight: 800; 
             letter-spacing: -0.5px;
-            background: var(--gradient);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            opacity: 1; transition: opacity 0.2s;
         }
 
-        #sidebar.mini .logo-text { opacity: 0; pointer-events: none; }
+        .sidebar.collapsed .logo-text {
+            opacity: 0;
+            transform: translateX(-10px);
+            pointer-events: none;
+        }
 
-        .nav-section { flex: 1; padding: 24px 16px; overflow-y: auto; }
+        .nav-section { margin-bottom: 32px; }
         .nav-label {
-            font-size: 11px; font-weight: 700; color: var(--text-dim);
-            text-transform: uppercase; letter-spacing: 2px;
-            margin: 28px 0 12px 12px;
-            opacity: 1; transition: opacity 0.2s;
+            font-size: 11px;
+            font-weight: 800;
+            color: var(--text-dim);
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            margin-bottom: 16px;
+            display: block;
+            transition: opacity 0.3s ease;
+            overflow: hidden;
+            white-space: nowrap;
         }
-        #sidebar.mini .nav-label { opacity: 0; }
+
+        .sidebar.collapsed .nav-label {
+            opacity: 0;
+        }
 
         .nav-item {
-            height: 52px;
-            display: flex; align-items: center;
-            padding: 0 16px;
-            border-radius: 14px;
-            cursor: pointer;
-            color: var(--text-dim);
-            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-            margin-bottom: 6px;
-            white-space: nowrap;
-            overflow: hidden;
-            border: 1px solid transparent;
-        }
-
-        .nav-item:hover { 
-            background: rgba(255,255,255,0.05); 
-            color: var(--text-main);
-            transform: translateX(5px);
-        }
-        .nav-item.active { 
-            background: var(--gradient); 
-            color: #fff; 
-            font-weight: 700;
-            box-shadow: 0 4px 15px rgba(56, 189, 248, 0.2);
-        }
-        .nav-item.active .nav-icon { color: #fff; }
-
-        .nav-icon { width: 24px; font-size: 20px; text-align: center; flex-shrink: 0; display: flex; align-items: center; justify-content: center; }
-        .nav-text { margin-left: 16px; font-size: 14px; font-weight: 600; }
-
-        /* Main Content */
-        #content { flex: 1; display: flex; flex-direction: column; position: relative; background: #0b0f1a; }
-
-        #top-bar {
-            height: 80px;
-            background: var(--glass);
-            backdrop-filter: blur(20px);
-            border-bottom: 1px solid rgba(255,255,255,0.05);
-            display: flex; align-items: center;
-            padding: 0 40px;
-            justify-content: space-between;
-            z-index: 900;
-        }
-
-        .view-title { font-family: 'Outfit', sans-serif; font-size: 26px; font-weight: 700; letter-spacing: -0.5px; }
-
-        .status-badge {
-            display: flex; align-items: center; gap: 8px;
-            background: rgba(52, 211, 153, 0.1);
-            padding: 6px 16px;
-            border-radius: 99px;
-            border: 1px solid rgba(52, 211, 153, 0.2);
-            color: var(--success);
-            font-size: 12px; font-weight: 700;
-            text-transform: uppercase; letter-spacing: 1px;
-        }
-
-        .status-dot { width: 8px; height: 8px; background: var(--success); border-radius: 50%; box-shadow: 0 0 10px var(--success); }
-
-        .action-btn {
-            background: var(--gradient);
-            color: #fff;
-            border: none;
-            padding: 12px 28px;
+            padding: 12px 16px;
             border-radius: 12px;
-            font-weight: 800;
-            font-size: 13px;
+            color: var(--text-dim);
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            transition: all 0.2s ease;
+            margin-bottom: 4px;
             cursor: pointer;
-            box-shadow: 0 8px 20px rgba(56, 189, 248, 0.3);
-            display: none; 
-            align-items: center; gap: 10px;
-            transition: all 0.3s;
+            font-weight: 500;
+            overflow: hidden;
+            white-space: nowrap;
         }
 
-        .action-btn:hover { transform: translateY(-2px); box-shadow: 0 12px 25px rgba(56, 189, 248, 0.4); }
+        .nav-item span {
+            transition: opacity 0.3s ease;
+        }
 
-        #view-container { flex: 1; position: relative; }
+        .sidebar.collapsed .nav-item span {
+            opacity: 0;
+            pointer-events: none;
+        }
 
-        iframe { width: 100%; height: 100%; border: none; }
+        .sidebar.collapsed .nav-item {
+            justify-content: center;
+            padding: 12px 0;
+        }
 
-        /* Home Overlay */
+        .sidebar.collapsed .nav-item svg {
+            margin: 0;
+        }
+
+        /* Toggle Button */
+        .sidebar-toggle {
+            position: absolute;
+            bottom: 24px;
+            left: 24px;
+            right: 24px;
+            height: 40px;
+            background: rgba(255,255,255,0.05);
+            border: 1px solid var(--border);
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            color: var(--text-dim);
+        }
+
+        .sidebar-toggle:hover {
+            background: rgba(255,255,255,0.1);
+            color: #fff;
+        }
+
+        .sidebar.collapsed .sidebar-toggle {
+            left: 12px;
+            right: 12px;
+        }
+
+        .nav-item:hover {
+            background: rgba(255, 255, 255, 0.05);
+            color: #fff;
+        }
+
+        .nav-item.active {
+            background: rgba(56, 189, 248, 0.1);
+            color: var(--primary);
+        }
+
+        /* Main Workspace */
+        .workspace {
+            flex: 1;
+            position: relative;
+            background: #020617;
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* Home Page Content */
         #home-overlay {
-            position: absolute; inset: 0;
-            background: radial-gradient(circle at 70% 30%, rgba(56, 189, 248, 0.1), transparent), 
-                        radial-gradient(circle at 30% 70%, rgba(129, 140, 248, 0.1), transparent),
-                        var(--bg-dark);
-            display: flex; flex-direction: column; align-items: center; justify-content: center;
+            position: absolute;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background: radial-gradient(circle at 50% 0%, rgba(56, 189, 248, 0.1) 0%, transparent 50%);
+            display: flex;
+            flex-direction: column;
+            padding: 60px;
+            overflow-y: auto;
             z-index: 10;
         }
 
-        .hero-title { font-family: 'Outfit', sans-serif; font-size: 72px; font-weight: 800; margin: 0; text-align: center; letter-spacing: -2px; }
-        .hero-subtitle { color: var(--text-dim); font-size: 20px; margin-top: 24px; max-width: 700px; text-align: center; line-height: 1.6; font-weight: 300; }
+        .hero-title {
+            font-family: 'Outfit', sans-serif;
+            font-size: 56px;
+            font-weight: 900;
+            margin: 0 0 16px 0;
+            background: linear-gradient(to bottom right, #fff 30%, var(--text-dim));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .hero-subtitle {
+            font-size: 18px;
+            color: var(--text-dim);
+            max-width: 600px;
+            line-height: 1.6;
+            margin-bottom: 48px;
+        }
 
         .grid-launchpad {
             display: grid;
-            grid-template-columns: repeat(2, 1fr);
+            grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
             gap: 24px;
-            margin-top: 60px;
-            width: 100%; max-width: 900px;
-            padding: 0 40px;
         }
 
         .launch-card {
-            background: rgba(255,255,255,0.03);
-            border: 1px solid rgba(255,255,255,0.06);
-            padding: 40px;
-            border-radius: 32px;
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            padding: 32px;
+            border-radius: 24px;
             cursor: pointer;
-            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-            display: flex; flex-direction: column; gap: 16px;
-            backdrop-filter: blur(10px);
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            position: relative;
+            overflow: hidden;
         }
 
-        .launch-card:hover { 
-            background: rgba(255,255,255,0.06); 
-            border-color: var(--primary); 
-            transform: translateY(-10px) scale(1.02); 
+        .launch-card:hover {
+            transform: translateY(-8px);
+            border-color: var(--primary);
             box-shadow: 0 20px 40px rgba(0,0,0,0.4);
         }
-        .launch-card h3 { margin: 0; font-size: 20px; color: var(--primary); font-family: 'Outfit', sans-serif; }
-        .launch-card p { margin: 0; font-size: 15px; color: var(--text-dim); line-height: 1.5; }
 
+        .launch-card h3 {
+            font-family: 'Outfit', sans-serif;
+            font-size: 24px;
+            margin: 0 0 12px 0;
+            color: #fff;
+        }
+
+        .launch-card p {
+            color: var(--text-dim);
+            line-height: 1.6;
+            margin: 0;
+        }
+
+        /* ISO Catalog Overlay Styling */
+        .iso-catalog {
+            display: none;
+            flex-direction: column;
+            padding-top: 40px;
+        }
+
+        .catalog-section { margin-bottom: 60px; }
+        .catalog-section h2 { 
+            font-family: 'Outfit', sans-serif; 
+            font-size: 28px; 
+            color: var(--primary); 
+            margin-bottom: 8px;
+        }
+        .catalog-section p { color: var(--text-dim); margin-bottom: 24px; }
+
+        .iso-table {
+            width: 100%;
+            border-collapse: collapse;
+            background: rgba(0,0,0,0.2);
+            border-radius: 16px;
+            overflow: hidden;
+            border: 1px solid var(--border);
+        }
+
+        .iso-table th {
+            text-align: left;
+            padding: 16px 24px;
+            background: rgba(255,255,255,0.03);
+            font-size: 11px;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: var(--primary);
+        }
+
+        .iso-table td {
+            padding: 16px 24px;
+            border-bottom: 1px solid var(--border);
+            font-size: 14px;
+        }
+
+        .msg-code { font-family: 'JetBrains Mono', monospace; font-weight: 700; color: #fff; }
+
+        .example-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin-top: 16px;
+        }
+
+        .code-snippet {
+            background: #080c14;
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .snippet-header {
+            padding: 12px 20px;
+            background: rgba(255,255,255,0.03);
+            border-bottom: 1px solid var(--border);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .snippet-title { font-size: 11px; font-weight: 800; text-transform: uppercase; color: var(--text-dim); }
+        .snippet-lang { font-size: 10px; color: var(--primary); font-weight: 700; }
+
+        .snippet-body {
+            padding: 20px;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 12px;
+            line-height: 1.5;
+            color: #cbd5e1;
+            white-space: pre;
+            overflow-x: auto;
+        }
+
+        .code-hl { color: var(--primary); font-weight: 700; }
+        .code-tag { color: #818cf8; }
+
+        /* Scrollbar Styling */
+        #home-overlay::-webkit-scrollbar { width: 6px; }
+        #home-overlay::-webkit-scrollbar-track { background: transparent; }
+        #home-overlay::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.1); border-radius: 10px; }
+        #home-overlay::-webkit-scrollbar-thumb:hover { background: var(--primary); }
+
+        iframe {
+            flex: 1;
+            border: none;
+            width: 100%;
+            height: 100%;
+            display: none;
+        }
     </style>
 </head>
 <body>
 
-    <!-- Sidebar -->
-    <aside id="sidebar">
-        <div class="sidebar-header">
-            <div class="logo-box">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+    <div class="sidebar" id="sidebar">
+        <div class="logo-area">
+            <div class="logo-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5">
+                    <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/>
+                </svg>
             </div>
-            <span class="logo-text">FUEL CONTROL</span>
+            <span class="logo-text">MISSION CTRL</span>
         </div>
 
         <div class="nav-section">
-            <div class="nav-label">Core Platform</div>
+            <span class="nav-label">Core Platform</span>
             <div class="nav-item active" onclick="navigate('home')">
-                <div class="nav-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></div>
-                <div class="nav-text">Home Console</div>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+                <span>Dashboard Hub</span>
             </div>
+        </div>
 
-            <div class="nav-label">Fuel Transformers</div>
+        <div class="nav-section">
+            <span class="nav-label">Designers & Labs</span>
             <div class="nav-item" onclick="navigate('mt-to-mx')">
-                <div class="nav-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg></div>
-                <div class="nav-text">MT to ISO 20022</div>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+                <span>MT to MX Designer</span>
             </div>
             <div class="nav-item" onclick="navigate('mx-to-mt')">
-                <div class="nav-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg></div>
-                <div class="nav-text">ISO 20022 to MT</div>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 16l-4-4 4-4M3 12h18"/><polyline points="10 18 4 12 10 6"/></svg>
+                <span>MX to MT Designer</span>
             </div>
             <div class="nav-item" onclick="navigate('mx-enricher')">
-                <div class="nav-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"/></svg></div>
-                <div class="nav-text">MX Message Enricher</div>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+                <span>MX Message Enricher</span>
             </div>
-            <div class="nav-item" onclick="navigate('any-to-any-transformer')">
-                <div class="nav-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><line x1="12" y1="8" x2="12" y2="16"/><line x1="8" y1="12" x2="16" y2="12"/></svg></div>
-                <div class="nav-text">Any-to-Any Universal</div>
-            </div>
-
-            <div class="nav-label">Documentation</div>
-            <div class="nav-item" onclick="navigate('docs')">
-                <div class="nav-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg></div>
-                <div class="nav-text">API Explorer</div>
+            <div class="nav-item" onclick="navigate('mission-forge')">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+                <span>Mission Forge Lab</span>
             </div>
         </div>
-        
-        <div style="padding: 24px; border-top: 1px solid rgba(255,255,255,0.05); cursor: pointer;" onclick="toggleSidebar()">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
-        </div>
-    </aside>
 
-    <!-- Content -->
-    <main id="content">
-        <div id="top-bar">
-            <div style="display: flex; align-items: center; gap: 24px;">
-                <div class="view-title" id="current-view-title">Mission Control</div>
-                <div class="status-badge">
-                    <div class="status-dot"></div>
-                    Engine Live
-                </div>
+        <div class="nav-section">
+            <span class="nav-label">ISO Knowledge</span>
+            <div class="nav-item" onclick="navigate('iso-payments')">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="5" width="20" height="14" rx="2"/><line x1="2" y1="10" x2="22" y2="10"/></svg>
+                <span>Payments & Clearing</span>
             </div>
-            <button id="execute-btn" class="action-btn" onclick="triggerIframeAction()">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
-                EXECUTE ACTION
-            </button>
+            <div class="nav-item" onclick="navigate('iso-cash')">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12V7H5a2 2 0 0 1 0-4h14v4"/><path d="M3 5v14a2 2 0 0 0 2 2h16v-5"/><path d="M18 12a2 2 0 0 0 0 4h4v-4Z"/></svg>
+                <span>Cash Management</span>
+            </div>
+            <div class="nav-item" onclick="navigate('iso-ei')">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+                <span>Exceptions & (E&I)</span>
+            </div>
         </div>
 
-        <div id="view-container">
-            <!-- Home Overlay -->
-            <div id="home-overlay">
-                <h1 class="hero-title">Fuel <span style="background: var(--gradient); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Station</span></h1>
-                <p class="hero-subtitle">The centralized orchestration deck for your Enterprise Integration Platform. Deploy, transform, and validate your payment messages with zero-code infrastructure.</p>
+        <div class="sidebar-toggle" onclick="toggleSidebar()">
+            <svg id="toggle-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="15 18 9 12 15 6"/>
+            </svg>
+        </div>
+    </div>
+
+    <div class="workspace">
+        <div id="home-overlay">
+            <div style="flex: 0 0 auto;">
+                <h1 class="hero-title">EIP Mission Control</h1>
+                <p class="hero-subtitle">Industrial-grade orchestration for legacy-to-ISO transformation missions. Monitor, design, and validate your financial messaging fabric.</p>
                 
                 <div class="grid-launchpad">
                     <div class="launch-card" onclick="navigate('mt-to-mx')">
-                        <h3>MT to ISO 20022</h3>
-                        <p>Bidirectional SWIFT transformation with full block generation and canonical enrichment.</p>
+                        <h3>MT to MX Designer</h3>
+                        <p>Analyze SWIFT MT messages and design high-fidelity ISO 20022 transformation maps.</p>
                     </div>
-                    <div class="launch-card" onclick="navigate('any-to-any-transformer')">
-                        <h3>Universal Transformer</h3>
-                        <p>Generic XSLT-based engine for flatpack, XML, and JSON multi-protocol translation.</p>
+                    <div class="launch-card" onclick="navigate('mx-to-mt')">
+                        <h3>MX to MT Designer</h3>
+                        <p>Down-translate ISO 20022 messages to legacy MT formats with truncation handling.</p>
                     </div>
                     <div class="launch-card" onclick="navigate('mx-enricher')">
-                        <h3>Message Enricher</h3>
+                        <h3>MX Message Enricher</h3>
                         <p>Reconstruct truncated ISO 20022 fragments into full compliant messages.</p>
                     </div>
-                    <div class="launch-card" onclick="navigate('docs')">
-                        <h3>API Specification</h3>
-                        <p>Explore the underlying JAX-RS endpoints and Camel route metadata via Swagger.</p>
+                    <div class="launch-card" onclick="navigate('mission-forge')">
+                        <h3>Mission Forge Lab</h3>
+                        <p>Advanced multi-protocol playground for EDI, CSV, and complex industrial missions.</p>
+                    </div>
+                    <div class="launch-card" onclick="navigate('iso-payments')">
+                        <h3>ISO 20022 Knowledge</h3>
+                        <p>Explore high-fidelity MT to MX mapping guidelines and CBPR+ examples.</p>
+                    </div>
+                </div>
+
+                <!-- ISO Catalog Content -->
+                <div id="iso-catalog-overlay" class="iso-catalog">
+                    <div id="iso-intro-section" style="margin-bottom: 30px; border-bottom: 1px solid rgba(255, 255, 255, 0.05); padding-bottom: 20px;">
+                        <p style="font-size: 15px; line-height: 1.6; color: var(--text-main); opacity: 0.9;">
+                            The transition from legacy SWIFT MT (Message Type) formats to the ISO 20022 MX (XML) standard is one of the most significant overhauls in global financial messaging. 
+                            While MT and MX messages can often be translated back and forth, they are not strictly 1-to-1. MX messages are much larger and data-rich, 
+                            meaning MX-to-MT (down-translation) often results in data truncation, whereas MT-to-MX (up-translation) usually requires filling mandatory MX fields with default values if the MT lacks the data.
+                        </p>
+                    </div>
+
+                    <div class="catalog-section" id="cat-payments">
+                        <h2>1. Payments & Clearing (Customer & Interbank)</h2>
+                        <p>Driven by CBPR+ guidelines. Core messages for moving money globally.</p>
+                        <table class="iso-table">
+                            <thead><tr><th>Legacy SWIFT MT</th><th>ISO 20022 MX</th><th>Message Name / Purpose</th></tr></thead>
+                            <tbody>
+                                <tr><td class="msg-code">MT 101</td><td class="msg-code">pain.001</td><td>Customer Credit Transfer Initiation (Corporate to Bank)</td></tr>
+                                <tr><td class="msg-code">MT 103</td><td class="msg-code">pacs.008</td><td>Customer Credit Transfer (Bank to Bank, on behalf of a customer)</td></tr>
+                                <tr><td class="msg-code">MT 103 RETURN</td><td class="msg-code">pacs.004</td><td>Payment Return (Returning a customer transfer)</td></tr>
+                                <tr><td class="msg-code">MT 104</td><td class="msg-code">pain.008</td><td>Customer Direct Debit Initiation</td></tr>
+                                <tr><td class="msg-code">MT 202 / 205</td><td class="msg-code">pacs.009</td><td>General Financial Institution Credit Transfer (Bank to Bank)</td></tr>
+                                <tr><td class="msg-code">MT 202 COV / 205 COV</td><td class="msg-code">pacs.009 (COV)</td><td>FI Credit Transfer with Cover (Underlying customer details included)</td></tr>
+                                <tr><td class="msg-code">MT 202 RETURN</td><td class="msg-code">pacs.004</td><td>Payment Return (Returning an interbank transfer)</td></tr>
+                                <tr><td class="msg-code">MT 210</td><td class="msg-code">camt.057</td><td>Notification to Receive (Notice of an incoming fund transfer)</td></tr>
+                            </tbody>
+                        </table>
+
+                        <!-- MT 101 to pain.001 -->
+                        <div style="margin-top: 40px; border-top: 1px solid rgba(255,255,255,0.05); padding-top: 30px;">
+                            <h3 style="font-family: 'Outfit', sans-serif; font-size: 18px; color: #fff;">Industrial Forge Blueprint: MT 101 ➔ pain.001.001.09 (CBPR+)</h3>
+                            <div class="example-grid">
+                                <div class="code-snippet">
+                                    <div class="snippet-header"><span class="snippet-title">Production Source MT 101</span><span class="snippet-lang">SWIFT MT</span></div>
+                                    <div class="snippet-body">{1:F01BANKBEBBAXXX0000000000}{2:I101BANKDEFFXXXXN}{3:{108:MT101_REF_2026}}{4:
+<span class="code-hl">:20:</span>CUST-TRANS-8822
+<span class="code-hl">:28D:</span>1/1
+<span class="code-hl">:30:</span>260501
+<span class="code-hl">:32B:</span>EUR12500,50
+<span class="code-hl">:50L:</span>/88776655
+GLOBAL LOGISTICS CORP
+123 INDUSTRIAL BLVD
+FRANKFURT, DE
+<span class="code-hl">:52A:</span>DEUTDEFFXXX
+<span class="code-hl">:57A:</span>CITIUS33XXX
+<span class="code-hl">:59:</span>/BE12345678901234
+EUROPEAN PARTS AG
+BRUSSELS, BE
+<span class="code-hl">:70:</span>INVOICE INV-2026-9900 PARTS SUPPLY
+<span class="code-hl">:71A:</span>SHA
+- }</div>
+                                </div>
+                                <div class="code-snippet">
+                                    <div class="snippet-header"><span class="snippet-title">Industrial XSLT Mapping Logic</span><span class="snippet-lang">XSLT 2.0 (Full CBPR+)</span></div>
+                                    <div class="snippet-body"><span class="code-tag">&lt;xsl:template</span> match="block4"<span class="code-tag">&gt;</span>
+  <span class="code-tag">&lt;CstmrCdtTrfInitn&gt;</span>
+    <span class="code-tag">&lt;GrpHdr&gt;</span>
+      <span class="code-tag">&lt;MsgId&gt;</span><span class="code-tag">&lt;xsl:value-of</span> select="Tag20"<span class="code-tag">/&gt;</span><span class="code-tag">&lt;/MsgId&gt;</span>
+      <span class="code-tag">&lt;CreDtTm&gt;</span>2026-05-01T09:00:00Z<span class="code-tag">&lt;/CreDtTm&gt;</span>
+      <span class="code-tag">&lt;NbOfTxs&gt;</span>1<span class="code-tag">&lt;/NbOfTxs&gt;</span>
+      <span class="code-tag">&lt;InitgPty&gt;</span>
+        <span class="code-tag">&lt;Nm&gt;</span><span class="code-tag">&lt;xsl:value-of</span> select="Tag50L/Name"<span class="code-tag">/&gt;</span><span class="code-tag">&lt;/Nm&gt;</span>
+      <span class="code-tag">&lt;/InitgPty&gt;</span>
+    <span class="code-tag">&lt;/GrpHdr&gt;</span>
+    <span class="code-tag">&lt;PmtInf&gt;</span>
+      <span class="code-tag">&lt;PmtInfId&gt;</span>INF-<span class="code-tag">&lt;xsl:value-of</span> select="Tag20"<span class="code-tag">/&gt;</span><span class="code-tag">&lt;/PmtInfId&gt;</span>
+      <span class="code-tag">&lt;PmtMtd&gt;</span>TRF<span class="code-tag">&lt;/PmtMtd&gt;</span>
+      <span class="code-tag">&lt;ReqdExctnDt&gt;</span><span class="code-tag">&lt;Dt&gt;</span>2026-05-01<span class="code-tag">&lt;/Dt&gt;</span><span class="code-tag">&lt;/ReqdExctnDt&gt;</span>
+      <span class="code-tag">&lt;Dbtr&gt;</span><span class="code-tag">&lt;Nm&gt;</span><span class="code-tag">&lt;xsl:value-of</span> select="Tag50L/Name"<span class="code-tag">/&gt;</span><span class="code-tag">&lt;/Nm&gt;</span><span class="code-tag">&lt;/Dbtr&gt;</span>
+      <span class="code-tag">&lt;DbtrAcct&gt;</span><span class="code-tag">&lt;Id&gt;</span><span class="code-tag">&lt;Othr&gt;</span><span class="code-tag">&lt;Id&gt;</span><span class="code-tag">&lt;xsl:value-of</span> select="Tag50L/Account"<span class="code-tag">/&gt;</span><span class="code-tag">&lt;/Id&gt;</span><span class="code-tag">&lt;/Othr&gt;</span><span class="code-tag">&lt;/Id&gt;</span><span class="code-tag">&lt;/DbtrAcct&gt;</span>
+      <span class="code-tag">&lt;DbtrAgt&gt;</span><span class="code-tag">&lt;FinInstnId&gt;</span><span class="code-tag">&lt;BICFI&gt;</span><span class="code-tag">&lt;xsl:value-of</span> select="Tag52A"<span class="code-tag">/&gt;</span><span class="code-tag">&lt;/BICFI&gt;</span><span class="code-tag">&lt;/FinInstnId&gt;</span><span class="code-tag">&lt;/DbtrAgt&gt;</span>
+      <span class="code-tag">&lt;CdtTrfTxInf&gt;</span>
+        <span class="code-tag">&lt;PmtId&gt;</span><span class="code-tag">&lt;EndToEndId&gt;</span><span class="code-tag">&lt;xsl:value-of</span> select="Tag20"<span class="code-tag">/&gt;</span><span class="code-tag">&lt;/EndToEndId&gt;</span><span class="code-tag">&lt;/PmtId&gt;</span>
+        <span class="code-tag">&lt;Amt&gt;</span><span class="code-tag">&lt;InstdAmt</span> Ccy="EUR"<span class="code-tag">&gt;</span>12500.50<span class="code-tag">&lt;/InstdAmt&gt;</span><span class="code-tag">&lt;/Amt&gt;</span>
+        <span class="code-tag">&lt;CdtrAgt&gt;</span><span class="code-tag">&lt;FinInstnId&gt;</span><span class="code-tag">&lt;BICFI&gt;</span><span class="code-tag">&lt;xsl:value-of</span> select="Tag57A"<span class="code-tag">/&gt;</span><span class="code-tag">&lt;/BICFI&gt;</span><span class="code-tag">&lt;/FinInstnId&gt;</span><span class="code-tag">&lt;/CdtrAgt&gt;</span>
+        <span class="code-tag">&lt;Cdtr&gt;</span><span class="code-tag">&lt;Nm&gt;</span><span class="code-tag">&lt;xsl:value-of</span> select="Tag59/Name"<span class="code-tag">/&gt;</span><span class="code-tag">&lt;/Nm&gt;</span><span class="code-tag">&lt;/Cdtr&gt;</span>
+        <span class="code-tag">&lt;CdtrAcct&gt;</span><span class="code-tag">&lt;Id&gt;</span><span class="code-tag">&lt;IBAN&gt;</span><span class="code-tag">&lt;xsl:value-of</span> select="Tag59/Account"<span class="code-tag">/&gt;</span><span class="code-tag">&lt;/IBAN&gt;</span><span class="code-tag">&lt;/Id&gt;</span><span class="code-tag">&lt;/CdtrAcct&gt;</span>
+        <span class="code-tag">&lt;RmtInf&gt;</span><span class="code-tag">&lt;Ustrd&gt;</span><span class="code-tag">&lt;xsl:value-of</span> select="Tag70"<span class="code-tag">/&gt;</span><span class="code-tag">&lt;/Ustrd&gt;</span><span class="code-tag">&lt;/RmtInf&gt;</span>
+      <span class="code-tag">&lt;/CdtTrfTxInf&gt;</span>
+    <span class="code-tag">&lt;/PmtInf&gt;</span>
+  <span class="code-tag">&lt;/CstmrCdtTrfInitn&gt;</span>
+<span class="code-tag">&lt;/xsl:template&gt;</span></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- pain.001 to MT 101 -->
+                        <div style="margin-top: 40px;">
+                            <h3 style="font-family: 'Outfit', sans-serif; font-size: 18px; color: #fff;">Industrial Forge Blueprint: pain.001.001.09 ➔ MT 101 (Down-Translation)</h3>
+                            <div class="example-grid">
+                                <div class="code-snippet">
+                                    <div class="snippet-header"><span class="snippet-title">Production Source pain.001</span><span class="snippet-lang">ISO 20022 XML</span></div>
+                                    <div class="snippet-body"><span class="code-tag">&lt;CstmrCdtTrfInitn&gt;</span>
+  <span class="code-tag">&lt;GrpHdr&gt;</span><span class="code-tag">&lt;MsgId&gt;</span>EIP-ISO-9988776655<span class="code-tag">&lt;/MsgId&gt;</span><span class="code-tag">&lt;/GrpHdr&gt;</span>
+  <span class="code-tag">&lt;PmtInf&gt;</span>
+    <span class="code-tag">&lt;Dbtr&gt;</span><span class="code-tag">&lt;Nm&gt;</span>GLOBAL LOGISTICS CORP<span class="code-tag">&lt;/Nm&gt;</span><span class="code-tag">&lt;/Dbtr&gt;</span>
+    <span class="code-tag">&lt;DbtrAcct&gt;</span><span class="code-tag">&lt;Id&gt;</span><span class="code-tag">&lt;Othr&gt;</span><span class="code-tag">&lt;Id&gt;</span>88776655<span class="code-tag">&lt;/Id&gt;</span><span class="code-tag">&lt;/Othr&gt;</span><span class="code-tag">&lt;/Id&gt;</span><span class="code-tag">&lt;/DbtrAcct&gt;</span>
+    <span class="code-tag">&lt;CdtTrfTxInf&gt;</span>
+      <span class="code-tag">&lt;Amt&gt;</span><span class="code-tag">&lt;InstdAmt</span> Ccy="EUR"<span class="code-tag">&gt;</span>12500.50<span class="code-tag">&lt;/InstdAmt&gt;</span><span class="code-tag">&lt;/Amt&gt;</span>
+      <span class="code-tag">&lt;Cdtr&gt;</span><span class="code-tag">&lt;Nm&gt;</span>EUROPEAN PARTS AG<span class="code-tag">&lt;/Nm&gt;</span><span class="code-tag">&lt;/Cdtr&gt;</span>
+      <span class="code-tag">&lt;CdtrAcct&gt;</span><span class="code-tag">&lt;Id&gt;</span><span class="code-tag">&lt;IBAN&gt;</span>BE12345678901234<span class="code-tag">&lt;/IBAN&gt;</span><span class="code-tag">&lt;/Id&gt;</span><span class="code-tag">&lt;/CdtrAcct&gt;</span>
+    <span class="code-tag">&lt;/CdtTrfTxInf&gt;</span>
+  <span class="code-tag">&lt;/PmtInf&gt;</span>
+<span class="code-tag">&lt;/CstmrCdtTrfInitn&gt;</span></div>
+                                </div>
+                                <div class="code-snippet">
+                                    <div class="snippet-header"><span class="snippet-title">Industrial Down-Translation Logic</span><span class="snippet-lang">XSLT 2.0 (Truncation Aware)</span></div>
+                                    <div class="snippet-body"><span class="code-tag">&lt;xsl:template</span> match="CstmrCdtTrfInitn"<span class="code-tag">&gt;</span>
+<span class="code-hl">:20:</span><span class="code-tag">&lt;xsl:value-of</span> select="substring(GrpHdr/MsgId, 1, 16)"<span class="code-tag">/&gt;</span>
+<span class="code-hl">:32B:</span><span class="code-tag">&lt;xsl:value-of</span> select="PmtInf/CdtTrfTxInf/Amt/InstdAmt/@Ccy"<span class="code-tag">/&gt;</span>
+<span class="code-tag">&lt;xsl:value-of</span> select="translate(format-number(PmtInf/CdtTrfTxInf/Amt/InstdAmt, '#.00'), '.', ',')"<span class="code-tag">/&gt;</span>
+<span class="code-hl">:50L:</span>/<span class="code-tag">&lt;xsl:value-of</span> select="PmtInf/DbtrAcct/Id/Othr/Id"<span class="code-tag">/&gt;</span>
+<span class="code-tag">&lt;xsl:value-of</span> select="substring(PmtInf/Dbtr/Nm, 1, 35)"<span class="code-tag">/&gt;</span>
+<span class="code-hl">:59:</span>/<span class="code-tag">&lt;xsl:value-of</span> select="PmtInf/CdtTrfTxInf/CdtrAcct/Id/IBAN"<span class="code-tag">/&gt;</span>
+<span class="code-tag">&lt;xsl:value-of</span> select="substring(PmtInf/CdtTrfTxInf/Cdtr/Nm, 1, 35)"<span class="code-tag">/&gt;</span>
+<span class="code-tag">&lt;/xsl:template&gt;</span></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="catalog-section" id="cat-cash" style="display:none;">
+                        <h2>2. Cash Management & Statements</h2>
+                        <p>Driven by CBPR+ and local guidelines. Reporting balances and statements.</p>
+                        <table class="iso-table">
+                            <thead><tr><th>Legacy SWIFT MT</th><th>ISO 20022 MX</th><th>Message Name / Purpose</th></tr></thead>
+                            <tbody>
+                                <tr><td class="msg-code">MT 940</td><td class="msg-code">camt.053</td><td>Customer Statement (End-of-Day)</td></tr>
+                                <tr><td class="msg-code">MT 942</td><td class="msg-code">camt.052</td><td>Interim Transaction Report (Intraday)</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div class="catalog-section" id="cat-ei" style="display:none;">
+                        <h2>3. Exceptions & Investigations (E&I)</h2>
+                        <p>Managing payment inquiries, tracking, and cancellations.</p>
+                        <table class="iso-table">
+                            <thead><tr><th>Legacy SWIFT MT</th><th>ISO 20022 MX</th><th>Message Name / Purpose</th></tr></thead>
+                            <tbody>
+                                <tr><td class="msg-code">MT 192 / 292</td><td class="msg-code">camt.056</td><td>Request for Cancellation</td></tr>
+                                <tr><td class="msg-code">MT 195 / 295</td><td class="msg-code">camt.027</td><td>Query / Claim for Non-Receipt</td></tr>
+                            </tbody>
+                        </table>
                     </div>
                 </div>
             </div>
-
-            <!-- Iframe for Tools -->
-            <iframe id="main-frame" src="about:blank"></iframe>
         </div>
-    </main>
+        
+        <iframe id="main-frame" name="main-frame"></iframe>
+    </div>
 
     <script>
-        // --- Navigation Logic ---
         const VIEWS = {
-            'home': { title: 'Mission Control', type: 'overlay' },
-            'mt-to-mx': { title: 'MT to ISO 20022', type: 'designer' },
-            'mx-to-mt': { title: 'ISO 20022 to MT', type: 'designer' },
+            'home': { title: 'Dashboard Hub', type: 'home' },
+            'mt-to-mx': { title: 'MT to MX Designer', type: 'designer' },
+            'mx-to-mt': { title: 'MX to MT Designer', type: 'designer' },
             'mx-enricher': { title: 'MX Message Enricher', type: 'designer' },
-            'any-to-any-transformer': { title: 'Universal Transformer', type: 'designer' },
-            'docs': { title: 'API Explorer', type: 'docs' }
+            'mission-forge': { title: 'Mission Forge Lab', type: 'designer' },
+            'iso-payments': { title: 'Payments & Clearing (ISO 20022)', type: 'catalog' },
+            'iso-cash': { title: 'Cash Management (ISO 20022)', type: 'catalog' },
+            'iso-ei': { title: 'Exceptions & Investigations (ISO 20022)', type: 'catalog' }
         };
 
         function toggleSidebar() {
-            document.getElementById('sidebar').classList.toggle('mini');
+            const sb = document.getElementById('sidebar');
+            const icon = document.getElementById('toggle-icon');
+            sb.classList.toggle('collapsed');
+            
+            if (sb.classList.contains('collapsed')) {
+                icon.style.transform = 'rotate(180deg)';
+            } else {
+                icon.style.transform = 'rotate(0deg)';
+            }
         }
 
-        function navigate(viewId) {
-            if (!VIEWS[viewId]) viewId = 'home';
-            window.location.hash = viewId;
-        }
+        function navigate(hash) {
+            const view = VIEWS[hash];
+            if (!view) return;
 
-        function loadViewFromHash() {
-            const hash = window.location.hash.replace('#', '') || 'home';
-            const view = VIEWS[hash] || VIEWS['home'];
-            
-            const frame = document.getElementById('main-frame');
-            const overlay = document.getElementById('home-overlay');
-            const titleEl = document.getElementById('current-view-title');
-            const execBtn = document.getElementById('execute-btn');
-            
-            // Update Sidebar Active State
-            document.querySelectorAll('.nav-item').forEach(el => {
-                el.classList.remove('active');
-                if (el.getAttribute('onclick') && el.getAttribute('onclick').includes(`'${hash}'`)) {
-                    el.classList.add('active');
-                }
+            // Update UI State
+            document.querySelectorAll('.nav-item').forEach(item => {
+                item.classList.remove('active');
+                if (item.innerText.includes(view.title.split(' (')[0])) item.classList.add('active');
             });
 
-            titleEl.innerText = view.title;
+            const overlay = document.getElementById('home-overlay');
+            const frame = document.getElementById('main-frame');
 
-            if (hash === 'home') {
-                frame.style.display = 'none';
+            if (view.type === 'home') {
                 overlay.style.display = 'flex';
-                execBtn.style.display = 'none';
-                frame.src = 'about:blank';
+                document.getElementById('iso-catalog-overlay').style.display = 'none';
+                document.querySelector('.grid-launchpad').style.display = 'grid';
+                document.querySelector('.hero-subtitle').style.display = 'block';
+                frame.style.display = 'none';
             } else {
                 overlay.style.display = 'none';
                 frame.style.display = 'block';
                 
-                if (hash === 'docs') {
-                    execBtn.style.display = 'none';
-                    frame.src = '/docs';
+                if (view.type === 'catalog') {
+                    overlay.style.display = 'flex';
+                    const catalog = document.getElementById('iso-catalog-overlay');
+                    catalog.style.display = 'flex';
+                    document.querySelector('.grid-launchpad').style.display = 'none';
+                    document.querySelector('.hero-subtitle').style.display = 'none';
+                    frame.style.display = 'none';
+
+                    // Exclusive Content Mode
+                    document.getElementById('cat-payments').style.display = (hash === 'iso-payments') ? 'block' : 'none';
+                    document.getElementById('cat-cash').style.display = (hash === 'iso-cash') ? 'block' : 'none';
+                    document.getElementById('cat-ei').style.display = (hash === 'iso-ei') ? 'block' : 'none';
+                    
+                    // Reset scroll to top
+                    overlay.scrollTop = 0;
                 } else {
-                    execBtn.style.display = 'flex';
                     frame.src = hash + '.html';
                 }
-
-                if (window.innerWidth < 1024) {
-                    document.getElementById('sidebar').classList.add('mini');
-                }
             }
+
+            // Update URL without hash for root, with hash for others
+            const url = hash === 'home' ? '/fuel-ui/' : `/fuel-ui/#${hash}`;
+            history.pushState(null, '', url);
         }
 
-        function triggerIframeAction() {
-            const frame = document.getElementById('main-frame');
-            if (frame && frame.contentWindow && typeof frame.contentWindow.runTransform === 'function') {
-                frame.contentWindow.runTransform();
-            }
-        }
+        // Initial Load handling
+        window.addEventListener('load', () => {
+            const hash = window.location.hash.replace('#', '') || 'home';
+            navigate(hash);
+        });
 
-        // --- Lifecycle ---
-        window.addEventListener('hashchange', loadViewFromHash);
-        window.onload = loadViewFromHash;
-
-        // Legacy compatibility
-        function loadView(view, title) {
-            navigate(view);
-        }
+        // Handle Back/Forward
+        window.addEventListener('popstate', () => {
+            const hash = window.location.hash.replace('#', '') || 'home';
+            navigate(hash);
+        });
     </script>
 </body>
 </html>

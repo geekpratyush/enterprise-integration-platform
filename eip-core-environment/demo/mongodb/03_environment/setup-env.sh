@@ -1,34 +1,35 @@
 #!/bin/bash
-# 03_environment/setup-env.sh - DYNAMIC PROFILE LOADER
-
-EIP_SETUP_DIR=$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)
 SCENARIO="${1:-non-ssl-mongo}"
-PROFILE_DIR="$EIP_SETUP_DIR/profiles"
+export EIP_SCRIPT_DIR=$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)
+export EIP_BASE_DIR=$(cd "$EIP_SCRIPT_DIR/../../.." && pwd)
+export PROFILE_FILE="$EIP_SCRIPT_DIR/03_environment/profiles/${SCENARIO}.yaml"
 
-# Resolve Profile
-PROFILE="${SCENARIO}.env"
-if [[ ! -f "$PROFILE_DIR/$PROFILE" ]]; then
-    echo -e "\033[31mERROR: Scenario '$SCENARIO' not found in $PROFILE_DIR\033[0m"
-    return 1
-fi
+# 1. Base Framework Paths
+export EIP_CERT_DIR=~/.eip/certs/mongodb/${SCENARIO}
+export CAMEL_MAIN_ROUTES_INCLUDE_PATTERN="file:$EIP_SCRIPT_DIR/04_routes/test-routes/**/*.yaml"
 
-ENV_FILE="$PROFILE_DIR/$PROFILE"
-echo ">>> Loading dynamic profile: $PROFILE"
+# 2. Bridge YAML to Shell (Industrialized Parser)
+while IFS= read -r line || [[ -n "$line" ]]; do
+    [[ "$line" =~ ^#.*$ ]] && continue
+    [[ -z "$line" ]] && continue
+    
+    # Split only at the first colon
+    key="${line%%:*}"
+    value="${line#*:}"
+    
+    # Strip leading/trailing whitespace and legacy 'export'
+    clean_key=$(echo "$key" | sed -e 's/^export //' -e 's/[[:space:]]*$//')
+    clean_value=$(echo "$value" | sed -e 's/^[[:space:]]*//' -e 's/^[ \"'\'']*//' -e 's/[ \"'\'']*$//')
+    
+    # Resolve variables
+    resolved_value=${clean_value//\~/$HOME}
+    resolved_value=${resolved_value//\$\{HOME\}/$HOME}
+    resolved_value=${resolved_value//\$\{EIP_BASE_DIR\}/$EIP_BASE_DIR}
+    
+    export "$clean_key=$resolved_value"
+    
+    # DEBUG TRACE
+done < "$PROFILE_FILE"
 
-# 1. Establish Absolute Base Paths FIRST
-# eip-core-environment/demo/mongodb/03_environment -> eip-core-integration root
-export EIP_BASE_DIR=$(realpath "$EIP_SETUP_DIR/../../../..")
-# Isolation: Each scenario gets its own cert sub-folder
-export EIP_CERT_DIR=$(realpath "$EIP_SETUP_DIR/../02_initialization/certs/$SCENARIO")
-export EIP_ROUTES_DIR=$(realpath "$EIP_SETUP_DIR/../04_routes/test-routes")
-
-# 2. Export Variables from Profile
-while read -r line || [[ -n "$line" ]]; do
-  [[ "$line" =~ ^#.*$ ]] && continue
-  [[ -z "$line" ]] && continue
-  # Expand variables during export (allows ${EIP_CERT_DIR} usage in .env files)
-  export "$(eval echo $line)"
-done < "$ENV_FILE"
-
-echo ">>> [SANDBOX] Certified Assets: $EIP_CERT_DIR"
-echo ">>> [SYSTEM] EIP_ROUTE_DIR=$EIP_ROUTES_DIR"
+export SMALLRYE_CONFIG_LOCATIONS="file://$PROFILE_FILE"
+echo ">>> [SYSTEM] MongoDB Connectivity Profile: ${SCENARIO}.yaml"

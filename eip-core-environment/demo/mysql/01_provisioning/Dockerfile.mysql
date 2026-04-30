@@ -1,0 +1,44 @@
+# Dockerfile.mysql - Industrialized MySQL with Pre-Baked SSL Profiles
+ARG MYSQL_VERSION=8.0
+FROM mysql:${MYSQL_VERSION}
+
+# Metadata for the Mission Control
+LABEL platform="EIP"
+LABEL component="mysql-resource"
+
+# Environment defaults for the secure track
+ENV MYSQL_DATABASE=eip_db
+ENV MYSQL_USER=eip_user
+ENV MYSQL_PASSWORD=eip_password
+ENV MYSQL_ROOT_PASSWORD=eip_root_password
+
+# 1. Prepare secure directory structure
+RUN mkdir -p /etc/mysql/certs && \
+    chown -R mysql:mysql /etc/mysql/certs && \
+    chmod 700 /etc/mysql/certs
+
+# 2. Copy profile-specific certificates 
+# Standardizing on ca-cert.pem naming to match the EIP PKI track
+ARG CERT_PATH=./certs
+COPY ${CERT_PATH}/ca-cert.pem /etc/mysql/certs/ca-cert.pem
+COPY ${CERT_PATH}/server-cert.pem /etc/mysql/certs/server-cert.pem
+COPY ${CERT_PATH}/server-key.pem /etc/mysql/certs/server-key.pem
+
+# 3. Harden permissions
+RUN chown mysql:mysql /etc/mysql/certs/* && \
+    chmod 644 /etc/mysql/certs/ca-cert.pem /etc/mysql/certs/server-cert.pem && \
+    chmod 600 /etc/mysql/certs/server-key.pem
+
+# 4. Global MySQL Security Configuration
+# Using multiple echo calls to avoid \n interpretation issues across different shells
+RUN echo "[mysqld]" > /etc/mysql/conf.d/eip-security.cnf && \
+    echo "ssl-ca=/etc/mysql/certs/ca-cert.pem" >> /etc/mysql/conf.d/eip-security.cnf && \
+    echo "ssl-cert=/etc/mysql/certs/server-cert.pem" >> /etc/mysql/conf.d/eip-security.cnf && \
+    echo "ssl-key=/etc/mysql/certs/server-key.pem" >> /etc/mysql/conf.d/eip-security.cnf && \
+    echo "require_secure_transport=ON" >> /etc/mysql/conf.d/eip-security.cnf && \
+    echo "default-authentication-plugin=mysql_native_password" >> /etc/mysql/conf.d/eip-security.cnf
+
+# Ensure the config is owned by mysql
+RUN chown mysql:mysql /etc/mysql/conf.d/eip-security.cnf
+
+EXPOSE 3306

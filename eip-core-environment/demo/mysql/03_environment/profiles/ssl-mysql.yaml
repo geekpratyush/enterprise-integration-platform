@@ -1,0 +1,36 @@
+# MYSQL mTLS PROFILE
+QUARKUS_DATASOURCE_JDBC_URL: "jdbc:mysql://127.0.0.1:3306/eip_db?sslMode=VERIFY_CA&useSSL=true&allowPublicKeyRetrieval=true&sslHostnameVerification=false&trustCertificateKeyStoreUrl=file:${EIP_CERT_DIR}/mysql-truststore.p12&trustCertificateKeyStorePassword=changeit&trustCertificateKeyStoreType=PKCS12&clientCertificateKeyStoreUrl=file:${EIP_CERT_DIR}/mysql-keystore.p12&clientCertificateKeyStorePassword=changeit&clientCertificateKeyStoreType=PKCS12&enabledTLSProtocols=TLSv1.2,TLSv1.3"
+QUARKUS_DATASOURCE_USERNAME: "eip_user"
+QUARKUS_DATASOURCE_PASSWORD: "eip_password"
+QUARKUS_DATASOURCE_DB_KIND: "mysql"
+
+# MySQL Server Options (Mandatory for mTLS Handshake)
+# Aligned with Dockerfile paths for ca-cert.pem
+MYSQL_OPTS: "--ssl-ca=/etc/mysql/certs/ca-cert.pem --ssl-cert=/etc/mysql/certs/server-cert.pem --ssl-key=/etc/mysql/certs/server-key.pem --require_secure_transport=ON"
+
+QUARKUS_LIQUIBASE_MIGRATE_AT_START: "true"
+QUARKUS_LIQUIBASE_ENABLED: "true"
+QUARKUS_LIQUIBASE_CHANGE_LOG: "filesystem:${EIP_BASE_DIR}/eip-core-environment/demo/mysql/02_initialization/changelog/db.changelog-master.yaml"
+
+# MySQL Specific JDBC SSL Properties (Bypasses system property ambiguity)
+QUARKUS_DATASOURCE_JDBC_ADDITIONAL_JDBC_PROPERTIES_trustCertificateKeyStoreUrl: "file:${EIP_CERT_DIR}/mysql-truststore.p12"
+QUARKUS_DATASOURCE_JDBC_ADDITIONAL_JDBC_PROPERTIES_trustCertificateKeyStorePassword: "changeit"
+QUARKUS_DATASOURCE_JDBC_ADDITIONAL_JDBC_PROPERTIES_trustCertificateKeyStoreType: "PKCS12"
+
+QUARKUS_DATASOURCE_JDBC_ADDITIONAL_JDBC_PROPERTIES_clientCertificateKeyStoreUrl: "file:${EIP_CERT_DIR}/mysql-keystore.p12"
+QUARKUS_DATASOURCE_JDBC_ADDITIONAL_JDBC_PROPERTIES_clientCertificateKeyStorePassword: "changeit"
+QUARKUS_DATASOURCE_JDBC_ADDITIONAL_JDBC_PROPERTIES_clientCertificateKeyStoreType: "PKCS12"
+
+# JAVA_OPTS: The "Master Key" for both Liquibase and Quarkus
+JAVA_OPTS: "-Djavax.net.ssl.trustStore=${EIP_CERT_DIR}/mysql-truststore.p12 -Djavax.net.ssl.trustStorePassword=changeit -Djavax.net.ssl.keyStore=${EIP_CERT_DIR}/mysql-keystore.p12 -Djavax.net.ssl.keyStorePassword=changeit"
+
+EIP_IGNORE_INFRA: "ibmmq,kafka,mongodb,redis"
+EIP_LIQUIBASE_ENABLED: "true"
+CAMEL_MAIN_ROUTES_INCLUDE_PATTERN: "file:${EIP_SCRIPT_DIR}/04_routes/**/*.yaml"
+CAMEL_MAIN_DUMP_ROUTES: "true"
+EIP_BOOTSTRAP_DISABLED: "true"
+QUARKUS_LOG_LEVEL: "INFO"
+QUARKUS_IBMMQ_ENABLED: "false"
+QUARKUS_MONGODB_ENABLED: "false"
+QUARKUS_REDIS_ENABLED: "false"
+QUARKUS_ELASTICSEARCH_ENABLED: "false"

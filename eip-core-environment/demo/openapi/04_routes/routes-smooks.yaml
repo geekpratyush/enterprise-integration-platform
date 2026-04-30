@@ -1,0 +1,34 @@
+- from:
+      uri: "platform-http:///fuel-engine/transform/smooks"
+      steps:
+          - unmarshal:
+                json: {}
+          - setBody:
+                groovy: |
+                    import org.smooks.Smooks
+                    import org.smooks.io.source.StringSource
+                    import org.smooks.io.sink.StringSink
+                    import org.smooks.api.io.Source
+                    import org.smooks.api.io.Sink
+
+                    try {
+                        def configXml = body.mapping
+                        def sourceData = body.source
+                        System.setProperty("org.smooks.xml.validate", "false")
+                        Smooks smooks = new Smooks()
+                        smooks.addResourceConfigs(new java.io.ByteArrayInputStream(configXml.getBytes("UTF-8")))
+                        try {
+                            Source source = new StringSource(sourceData)
+                            Sink sink = new StringSink()
+                            smooks.filterSource(source, sink)
+                            return sink.getResult()
+                        } finally {
+                            smooks.close()
+                        }
+                    } catch (Exception e) {
+                        e.printStackTrace()
+                        return "SMOOKS ERROR: " + e.getMessage() + (e.getCause() ? " (Cause: " + e.getCause().getMessage() + ")" : "")
+                    }
+          - setHeader:
+                name: "Content-Type"
+                constant: "application/xml"

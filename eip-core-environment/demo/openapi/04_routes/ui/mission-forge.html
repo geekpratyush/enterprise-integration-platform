@@ -1,0 +1,779 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Mission Forge | Fuel Station</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=JetBrains+Mono&display=swap"
+        rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        :root {
+            --bg-dark: #0f172a;
+            --bg-card: rgba(30, 41, 59, 0.7);
+            --border: rgba(56, 189, 248, 0.2);
+            --primary: #38bdf8;
+            --accent: #818cf8;
+            --glass: rgba(15, 23, 42, 0.9);
+            --gradient: linear-gradient(135deg, #38bdf8 0%, #818cf8 100%);
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            background: radial-gradient(circle at top right, #1e293b, #0f172a) !important;
+            color: #f1f5f9;
+            font-family: 'Inter', sans-serif;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
+
+        header {
+            height: 70px;
+            background: var(--glass);
+            backdrop-filter: blur(12px);
+            border-bottom: 1px solid var(--border);
+            display: flex;
+            align-items: center;
+            padding: 0 32px;
+            justify-content: space-between;
+            z-index: 100;
+            flex-shrink: 0;
+        }
+
+        .logo {
+            font-weight: 800;
+            font-size: 22px;
+            color: var(--primary);
+            letter-spacing: -1px;
+        }
+
+        .logo span {
+            color: white;
+            font-weight: 300;
+        }
+
+        .main-workspace {
+            flex: 1;
+            display: grid;
+            grid-template-columns: var(--sidebar-width, 240px) 1fr 1fr 1fr;
+            gap: 20px;
+            padding: 20px;
+            overflow: hidden;
+            min-height: 0;
+            transition: grid-template-columns 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .main-workspace.collapsed {
+            --sidebar-width: 70px;
+            gap: 12px;
+        }
+
+        /* Sidebar - Blueprints */
+        .sidebar {
+            background: var(--bg-card);
+            backdrop-filter: blur(8px);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            padding: 24px;
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+            overflow-y: auto;
+        }
+
+        .section-label {
+            font-size: 10px;
+            font-weight: 800;
+            text-transform: uppercase;
+            color: #64748b;
+            letter-spacing: 2px;
+        }
+
+        .template-btn {
+            background: rgba(56, 189, 248, 0.05);
+            border: 1px solid transparent;
+            color: #94a3b8;
+            padding: 12px 16px;
+            border-radius: 12px;
+            font-size: 11px;
+            font-weight: 600;
+            text-align: left;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .template-btn:hover {
+            background: rgba(56, 189, 248, 0.1);
+            border-color: var(--primary);
+            color: white;
+            transform: translateX(5px);
+        }
+
+        .template-btn.active {
+            background: var(--gradient);
+            color: #fff;
+            box-shadow: 0 0 15px rgba(56, 189, 248, 0.2);
+        }
+
+        /* Column / Card Layout */
+        .column {
+            display: flex;
+            flex-direction: column;
+            min-width: 0;
+            min-height: 0;
+        }
+
+        .editor-card {
+            background: var(--bg-card);
+            backdrop-filter: blur(8px);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.2);
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            flex: 1;
+            min-height: 0;
+        }
+
+        .editor-card:hover {
+            min-height: 0;
+        }
+
+        .editor-card:hover {
+            border-color: var(--primary);
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(56, 189, 248, 0.1);
+        }
+
+        .card-header {
+            padding: 12px 20px;
+            background: rgba(51, 65, 85, 0.2);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .card-title {
+            font-size: 10px;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: #64748b;
+        }
+
+        .tab-bar {
+            display: flex;
+            gap: 16px;
+        }
+
+        .mini-tab {
+            font-size: 10px;
+            font-weight: 800;
+            color: #64748b;
+            cursor: pointer;
+            padding: 4px 0;
+            border-bottom: 2px solid transparent;
+            transition: 0.2s;
+            letter-spacing: 2px;
+        }
+
+        .mini-tab:hover {
+            color: var(--primary);
+        }
+
+        .mini-tab.active {
+            color: var(--primary);
+            border-color: var(--primary);
+        }
+
+        .monaco-host {
+            flex: 1;
+            min-height: 0;
+            padding-top: 8px;
+        }
+
+        footer {
+            height: 120px;
+            padding: 10px 32px;
+            background: var(--glass);
+            flex-shrink: 0;
+            border-top: 1px solid var(--border);
+            overflow-y: auto;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 11px;
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+        }
+
+        .log-entry {
+            display: flex;
+            gap: 10px;
+            animation: fadeIn 0.3s ease;
+            line-height: 1.4;
+        }
+
+        .log-time {
+            color: #64748b;
+            min-width: 80px;
+        }
+
+        .log-info {
+            color: var(--primary);
+        }
+
+        .log-success {
+            color: #34d399;
+            font-weight: 600;
+        }
+
+        .log-error {
+            color: #f87171;
+            font-weight: 600;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(5px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Status Bar removed for Footer integration */
+
+        /* Buttons */
+        .btn-forge {
+            background: var(--gradient);
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 10px;
+            font-weight: 800;
+            font-size: 11px;
+            cursor: pointer;
+            box-shadow: 0 4px 15px rgba(56, 189, 248, 0.3);
+            transition: 0.3s;
+        }
+
+        .btn-forge:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 20px rgba(56, 189, 248, 0.4);
+        }
+
+        .btn-validate {
+            background: transparent;
+            border: 1px solid var(--primary);
+            color: var(--primary);
+            padding: 10px 20px;
+            border-radius: 10px;
+            font-weight: 800;
+            font-size: 11px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .btn-validate:hover {
+            background: rgba(56, 189, 248, 0.1);
+            transform: translateY(-2px);
+        }
+
+        .btn-secondary {
+            background: transparent;
+            border: 1px solid var(--border);
+            color: #94a3b8;
+            padding: 10px 20px;
+            border-radius: 10px;
+            font-weight: 600;
+            font-size: 11px;
+            cursor: pointer;
+        }
+
+        .btn-icon {
+            background: rgba(56, 189, 248, 0.1);
+            border: 1px solid var(--border);
+            color: var(--primary);
+            width: 36px;
+            height: 36px;
+            border-radius: 10px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: 0.3s;
+        }
+
+        .btn-icon:hover {
+            background: var(--primary);
+            color: #0f172a;
+        }
+
+        /* Loading Shield */
+        #loading-shield {
+            position: absolute;
+            inset: 0;
+            background: #0f172a;
+            z-index: 1000;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .spinner {
+            width: 50px;
+            height: 50px;
+            border: 5px solid rgba(56, 189, 248, 0.2);
+            border-top-color: var(--primary);
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            to {
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="loading-shield">
+        <div class="spinner"></div>
+        <div style="font-size: 12px; font-weight: 800; color: var(--primary); letter-spacing: 3px;">INITIALIZING FORGE
+            ENGINE</div>
+    </div>
+
+    <header>
+        <div style="display: flex; align-items: center; gap: 15px;">
+            <button class="btn-icon" onclick="toggleSidebar()"><i data-lucide="menu"></i></button>
+            <div class="logo"><i data-lucide="zap"></i> Mission <span>Forge</span></div>
+        </div>
+        <div style="display: flex; gap: 15px;">
+            <button class="btn-secondary" onclick="exportMission()">EXPORT</button>
+            <button class="btn-validate" onclick="runValidate()">VALIDATE SCHEMA 🛡️</button>
+            <button class="btn-forge" onclick="runForge()">EXECUTE TRANSFORM ⚡</button>
+            <a href="index.html"
+                style="text-decoration: none; font-size: 11px; color: #94a3b8; border: 1px solid var(--border); padding: 10px 20px; border-radius: 10px;">DASHBOARD</a>
+        </div>
+    </header>
+
+    <div class="main-workspace" id="workspace-grid">
+        <!-- Sidebar Blueprints -->
+        <div class="sidebar">
+            <div class="section-label">Blueprints</div>
+            <button class="template-btn active" id="btn-xslt-mapper" onclick="loadTemplate('xslt-mapper')"><i
+                    data-lucide="file-code"></i> <span>XSLT Mapper</span></button>
+            <button class="template-btn" id="btn-jslt-shaper" onclick="loadTemplate('jslt-shaper')"><i
+                    data-lucide="layers"></i> <span>JSLT Shaper</span></button>
+            <button class="template-btn" id="btn-flatpack-fixed" onclick="loadTemplate('flatpack-fixed')"><i
+                    data-lucide="align-left"></i> <span>Flatpack (Fixed)</span></button>
+            <button class="template-btn" id="btn-csv-mapper" onclick="loadTemplate('csv-mapper')"><i
+                    data-lucide="table"></i> <span>CSV Mapper</span></button>
+            <button class="template-btn" id="btn-smooks-csv" onclick="loadTemplate('smooks-csv')"><i
+                    data-lucide="database"></i> <span>Smooks (CSV)</span></button>
+            <button class="template-btn" id="btn-smooks-edi" onclick="loadTemplate('smooks-edi')"><i
+                    data-lucide="cpu"></i> <span>Smooks (EDI)</span></button>
+            <button class="template-btn" id="btn-smooks-logic" onclick="loadTemplate('smooks-templating')"><i
+                    data-lucide="code"></i> <span>Smooks (Templating)</span></button>
+            <button class="template-btn" id="btn-smooks-xml" onclick="loadTemplate('smooks-xml')"><i
+                    data-lucide="layout"></i> <span>Smooks (XML)</span></button>
+        </div>
+
+        <!-- Column 1: Input/Schema Card -->
+        <div class="column">
+            <div class="editor-card">
+                <div class="card-header">
+                    <div class="tab-bar">
+                        <div class="mini-tab active" id="tab-input" onclick="switchInputTab('input')">SAMPLE</div>
+                        <div class="mini-tab" id="tab-schema" onclick="switchInputTab('schema')">SCHEMA</div>
+                    </div>
+                    <div style="font-size: 10px; color: var(--primary); font-weight: 800;" id="input-lang-label">XML
+                    </div>
+                </div>
+                <div id="editor-input" class="monaco-host"></div>
+                <div id="editor-schema" class="monaco-host" style="display:none"></div>
+            </div>
+        </div>
+
+        <!-- Column 2: Forge & Integration Card (Split 75/25) -->
+        <div class="column" style="display: flex; flex-direction: column; gap: 20px;">
+            <div class="editor-card" style="flex: 75;">
+                <div class="card-header">
+                    <div class="control-group" style="display: flex; gap: 10px; align-items: center;">
+                        <div id="forge-lang-label" style="font-size: 10px; font-weight: 800; color: var(--primary);">
+                            XSLT</div>
+                        <button class="btn-secondary" style="padding: 4px 8px; font-size: 9px;"
+                            onclick="saveForgeContent()">SAVE 💾</button>
+                    </div>
+                </div>
+                <div id="editor-forge" class="monaco-host"></div>
+            </div>
+            <div class="editor-card" style="flex: 25;">
+                <div class="card-header">
+                    <div class="logo" style="font-size: 10px; letter-spacing: 0; opacity: 0.8;"><i data-lucide="share-2"
+                            style="width: 12px; height: 12px;"></i> Camel <span>Blueprint</span></div>
+                    <div class="control-group" style="display: flex; gap: 5px;">
+                        <button class="btn-secondary" style="padding: 2px 6px; font-size: 8px;"
+                            onclick="copyCamel()">COPY 📋</button>
+                        <button class="btn-secondary" style="padding: 2px 6px; font-size: 8px;"
+                            onclick="saveCamelRoute()">SAVE 💾</button>
+                    </div>
+                </div>
+                <div id="editor-camel" class="monaco-host"></div>
+            </div>
+        </div>
+
+        <!-- Column 3: Result Card -->
+        <div class="column">
+            <div class="editor-card">
+                <div class="card-header">
+                    <span class="card-title">Target Result</span>
+                    <span id="exec-time" style="font-size: 10px; color: #64748b;">0ms</span>
+                </div>
+                <div id="editor-result" class="monaco-host"></div>
+            </div>
+        </div>
+    </div>
+
+    <footer id="forge-logs">
+        <div class="log-entry">
+            <span class="log-time">[16:42:00]</span>
+            <span class="log-info">SYSTEM</span>
+            <span>Forge Engine Initialized. Multi-protocol dispatcher active.</span>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/monaco-editor@0.45.0/min/vs/loader.js"></script>
+    <script>
+        let editors = [];
+        let activeInputTab = 'input';
+        let currentMissionType = 'xslt';
+
+        function logForge(msg, type = 'info') {
+            const footer = document.getElementById('forge-logs');
+            const time = new Date().toLocaleTimeString([], { hour12: false });
+            const entry = document.createElement('div');
+            entry.className = 'log-entry';
+            entry.innerHTML = `<span class="log-time">[${time}]</span><span class="log-${type}">${type.toUpperCase()}</span><span>${msg}</span>`;
+            footer.appendChild(entry);
+            footer.scrollTop = footer.scrollHeight;
+        }
+
+        const templates = {
+            'xslt-mapper': {
+                forge: { lang: 'xml', content: `<?xml version="1.0" encoding="UTF-8"?>\n<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">\n  <xsl:template match="/">\n    <TransformationResult>\n      <Identity>\n        <Id>FORGED-<xsl:value-of select="//MsgId"/></Id>\n        <Status>PROCESSED</Status>\n      </Identity>\n    </TransformationResult>\n  </xsl:template>\n</xsl:stylesheet>` },
+                input: { lang: 'xml', content: `<?xml version="1.0" encoding="UTF-8"?>\n<Document>\n  <MsgId>MISSION-ALPHA-101</MsgId>\n  <Amount>5000.00</Amount>\n</Document>` },
+                schema: { lang: 'xml', content: `<?xml version="1.0" encoding="UTF-8"?>\n<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">\n  <xs:element name="Document">\n    <xs:complexType><xs:sequence>\n        <xs:element name="MsgId" type="xs:string"/>\n        <xs:element name="Amount" type="xs:decimal"/>\n      </xs:sequence></xs:complexType>\n  </xs:element>\n</xs:schema>` },
+                camel: `- from:\n    uri: "direct:xslt-industrial-mission"\n    steps:\n      - to: "xslt:transformation.xsl?failOnTransformerError=true"\n      - log: "Industrial XSLT Complete: \${body}"`
+            },
+            'flatpack-fixed': {
+                forge: { lang: 'xml', content: `<?xml version="1.0" encoding="UTF-8"?>\n<!-- Finance-Standard PZMAP Definition -->\n<pzmap>\n  <column name="RECORD_TYPE" length="4" />\n  <column name="ACCOUNT_NUMBER" length="12" />\n  <column name="AMOUNT" length="10" />\n  <column name="CURRENCY" length="3" />\n  <column name="STATUS" length="1" />\n</pzmap>` },
+                input: { lang: 'plaintext', content: `AC011234567890000000050000USDY\nAC019876543210000000125025EURN\nAC015555666677770000000890GBPY\nAC011111222233330000000045CHFY\nAC014444555566660000000210JPYN` },
+                schema: { lang: 'plaintext', content: `(Fixed Length Map: 4, 12, 10, 3, 1)` },
+                camel: `- from:\n    uri: "direct:flatpack-fixed-mission"\n    steps:\n      - to: "flatpack:fixed:mapping.pzmap.xml?allowShortLines=true"\n      - log: "Industrial Flatpack Complete"`
+            },
+            'jslt-shaper': {
+                forge: { lang: 'json', content: `{\n  "mission": "RESTRUCTURED",\n  "meta": { "id": .source_id, "timestamp": now() },\n  "payload": [for (.records) { "label": .name, "priority": if (.value > 100) "HIGH" else "NORMAL" }]\n}` },
+                input: { lang: 'json', content: `{\n  "source_id": "FUEL-99",\n  "records": [ {"name": "Engine Core", "value": 150}, {"name": "Coolant", "value": 45} ]\n}` },
+                schema: { lang: 'json', content: `{ "type": "object", "required": ["source_id", "records"] }` },
+                camel: `- from:\n    uri: "direct:jslt-shaper-mission"\n    steps:\n      - to: "jslt:shaper.jslt"\n      - log: "Industrial JSLT Complete"`
+            },
+            'csv-mapper': {
+                forge: { lang: 'xml', content: `<?xml version="1.0" encoding="UTF-8"?>\n<smooks-resource-list xmlns="https://www.smooks.org/xsd/smooks-2.0.xsd"\n                      xmlns:csv="https://www.smooks.org/xsd/smooks/csv-1.7.xsd">\n\n    <!-- Your CSV reader configuration goes here -->\n    <csv:reader fields="transactionId,customerName,amount" \n                rootElementName="transactions" \n                recordElementName="transaction" />\n\n</smooks-resource-list>` },
+                input: { lang: 'plaintext', content: `TXN001,John Doe,1250.50\nTXN002,Jane Smith,850.00` },
+                schema: { lang: 'xml', content: `(High-Level CSV Mapping)` },
+                camel: `- from:\n    uri: "direct:smooks-csv-mission"\n    steps:\n      - to: "smooks:csv-config.xml"\n      - log: "Industrial Smooks CSV Complete"`
+            },
+            'smooks-csv': {
+                forge: { lang: 'xml', content: `<?xml version="1.0" encoding="UTF-8"?>\n<smooks-resource-list xmlns="https://www.smooks.org/xsd/smooks-2.0.xsd">\n\n    <!-- Class-based CSV Reader Configuration -->\n    <resource-config selector="org.xml.sax.driver">\n        <resource>org.smooks.cartridges.flatfile.FlatFileReader</resource>\n        <param name="parserFactory">org.smooks.cartridges.csv.CSVRecordParserFactory</param>\n        <param name="fields">transactionId,customerName,amount</param>\n        <param name="rootElementName">Transactions</param>\n        <param name="recordElementName">Transaction</param>\n    </resource-config>\n\n</smooks-resource-list>` },
+                input: { lang: 'plaintext', content: `TXN001,John Doe,1250.50\nTXN002,Jane Smith,850.00` },
+                schema: { lang: 'xml', content: `(High-Level CSV Mapping)` },
+                camel: `- from:\n    uri: "direct:smooks-csv-alt"\n    steps:\n      - to: "smooks:smooks-csv-config.xml"\n      - log: "Industrial Smooks CSV (Alt) Complete"`
+            },
+            'smooks-edi': {
+                forge: { lang: 'xml', content: `<?xml version="1.0" encoding="UTF-8"?>\n<smooks-resource-list xmlns="https://www.smooks.org/xsd/smooks-2.0.xsd">\n\n  <!-- Segment-Based EDI Reader -->\n  <resource-config selector="org.xml.sax.driver">\n    <resource>org.smooks.cartridges.flatfile.FlatFileReader</resource>\n    <param name="parserFactory">org.smooks.cartridges.csv.CSVRecordParserFactory</param>\n    <param name="separator">*</param>\n    <param name="recordTerminator">~</param>\n    <param name="fields">segment,field1,field2,field3</param>\n  </resource-config>\n\n  <resource-config selector="flatfile-record">\n    <resource>org.smooks.engine.delivery.dom.serialize.GhostElementSerializationUnit</resource>\n    <param name="name">Entry</param>\n  </resource-config>\n\n</smooks-resource-list>` },
+                input: { lang: 'plaintext', content: `HDR*ORD-9932*20260430~\nLIN*1*Widget A*500~\nLIN*2*Widget B*150~` },
+                schema: { lang: 'xml', content: `(Segment-Based Mapping)` },
+                camel: `- from:\n    uri: "direct:smooks-edi-mission"\n    steps:\n      - to: "smooks:edi-config.xml"\n      - log: "Industrial Smooks EDI Complete"`
+            },
+            'smooks-templating': {
+                forge: { lang: 'xml', content: `<?xml version="1.0" encoding="UTF-8"?>\n<smooks-resource-list xmlns="https://www.smooks.org/xsd/smooks-2.0.xsd">\n\n    <!-- 1. Class-based CSV Reader -->\n    <resource-config selector="org.xml.sax.driver">\n        <resource>org.smooks.cartridges.flatfile.FlatFileReader</resource>\n        <param name="parserFactory">org.smooks.cartridges.csv.CSVRecordParserFactory</param>\n        <param name="fields">InvoiceID,AgentName,BaseAmount,TaxRate,Status</param>\n        <param name="skipLines">1</param>\n        <param name="rootElementName">InboundCSV</param>\n        <param name="recordElementName">InboundRecord</param>\n    </resource-config>\n\n    <!-- 2. Suppress Raw Reader Output -->\n    <resource-config selector="InboundCSV,InboundRecord">\n        <resource>org.smooks.engine.delivery.dom.serialize.GhostElementSerializationUnit</resource>\n    </resource-config>\n\n    <!-- 3. Class-based JavaBean Binding: ArrayList -->\n    <resource-config selector="InboundCSV">\n        <resource>org.smooks.cartridges.javabean.BeanPopulator</resource>\n        <param name="beanId">csvRecords</param>\n        <param name="beanClass">java.util.ArrayList</param>\n        <param name="onElement">InboundCSV</param>\n        <param name="bindings">\n            <binding property="add" beanIdRef="csvRecord" />\n        </param>\n    </resource-config>\n\n    <!-- 4. Class-based JavaBean Binding: HashMap -->\n    <resource-config selector="InboundRecord">\n        <resource>org.smooks.cartridges.javabean.BeanPopulator</resource>\n        <param name="beanId">csvRecord</param>\n        <param name="beanClass">java.util.HashMap</param>\n        <param name="onElement">InboundRecord</param>\n        <param name="bindings">\n            <binding property="InvoiceID" data="InboundRecord/InvoiceID" />\n            <binding property="AgentName" data="InboundRecord/AgentName" />\n            <binding property="BaseAmount" data="InboundRecord/BaseAmount" />\n            <binding property="TaxRate" data="InboundRecord/TaxRate" />\n            <binding property="Status" data="InboundRecord/Status" />\n        </param>\n    </resource-config>\n\n    <!-- 5. Class-based FreeMarker Templating -->\n    <resource-config selector="InboundCSV">\n        <resource>org.smooks.cartridges.freemarker.FreeMarkerTemplateProcessor</resource>\n        <param name="template"><![CDATA[\n<ProcessedInvoices>\n    <#list csvRecords as record>\n    <#assign baseAmt = (record.BaseAmount?trim)?number>\n    <#assign taxRate = (record.TaxRate?trim)?number>\n    <#assign total = baseAmt + (baseAmt * taxRate)>\n    <Invoice id="\${record.InvoiceID?trim}">\n        <Agent>\${record.AgentName?trim?upper_case}</Agent>\n        <TotalAmount>\${total?string("0.00")}</TotalAmount>\n        <RequiresFollowUp><#if record.Status?trim == "REJECTED">true<#else>false</#if></RequiresFollowUp>\n        <SystemProcessedTag>PROD-SYS-99</SystemProcessedTag>\n    </Invoice>\n    </#list>\n</ProcessedInvoices>\n        ]]></param>\n    </resource-config>\n\n</smooks-resource-list>` },
+                input: { lang: 'plaintext', content: `InvoiceID,AgentName,BaseAmount,TaxRate,Status\nINV-100,alice cooper,1000.00,0.05,PENDING\nINV-101,bob dylan,500.50,0.10,APPROVED\nINV-102,charlie chaplin,200.00,0.00,REJECTED` },
+                schema: { lang: 'xml', content: `(Industrial JavaBean + FreeMarker Mapping)` },
+                camel: `- from:\n    uri: "direct:smooks-industrial-templating"\n    steps:\n      - to: "smooks:templating-config.xml"\n      - log: "Industrial Smooks Templating Complete"`
+            },
+            'smooks-xml': {
+                forge: { lang: 'xml', content: `<?xml version="1.0" encoding="UTF-8"?>\n<smooks-resource-list xmlns="https://www.smooks.org/xsd/smooks-2.0.xsd">\n\n  <!-- XML-to-JSON Logic -->\n  <resource-config selector="order-item">\n    <resource>org.smooks.engine.delivery.dom.serialize.GhostElementSerializationUnit</resource>\n    <param name="name">Item</param>\n  </resource-config>\n\n</smooks-resource-list>` },
+                input: { lang: 'xml', content: `<order>\n  <order-item id="1">Laptop</order-item>\n  <order-item id="2">Mouse</order-item>\n</order>` },
+                schema: { lang: 'xml', content: `(XML Normalization)` },
+                camel: `- from:\n    uri: "direct:smooks-xml-normalization"\n    steps:\n      - to: "smooks:xml-config.xml"\n      - log: "Industrial Smooks XML Complete"`
+            }
+        };
+
+        // UI Fail-safe: Ensure shield hides even if CDN is slow
+        const hideShield = () => {
+            const shield = document.getElementById('loading-shield');
+            if (shield && shield.style.display !== 'none') {
+                shield.style.opacity = '0';
+                setTimeout(() => shield.style.display = 'none', 500);
+            }
+        };
+        window.addEventListener('load', hideShield);
+        setTimeout(hideShield, 1000);
+
+        require.config({ paths: { vs: 'https://unpkg.com/monaco-editor@0.45.0/min/vs' } });
+        require(['vs/editor/editor.main'], function () {
+            monaco.editor.defineTheme('fuel-dark', {
+                base: 'vs-dark', inherit: true,
+                rules: [
+                    { token: 'comment', foreground: '64748b' },
+                    { token: 'comment', foreground: '64748b', fontStyle: 'italic' },
+                    { token: 'keyword', foreground: '38bdf8' },
+                    { token: 'string', foreground: '34d399' },
+                    { token: 'number', foreground: 'fbbf24' },
+                    { token: 'tag', foreground: '38bdf8' },
+                    { token: 'attribute.name', foreground: '818cf8' }
+                ],
+                colors: {
+                    'editor.background': '#0f172a',
+                    'editor.foreground': '#f1f5f9',
+                    'editor.lineHighlightBackground': '#1e293b',
+                    'editorCursor.foreground': '#38bdf8',
+                    'editorIndentGuide.background': '#334155',
+                    'editor.selectionBackground': '#334155'
+                }
+            });
+
+            const hostIds = ['editor-input', 'editor-schema', 'editor-forge', 'editor-result', 'editor-camel'];
+            hostIds.forEach(id => {
+                const i = hostIds.indexOf(id);
+                editors[i] = monaco.editor.create(document.getElementById(id), {
+                    value: '', language: (id === 'editor-camel') ? 'yaml' : 'plaintext', theme: 'fuel-dark',
+                    fontSize: 12, fontFamily: 'JetBrains Mono', fontWeight: '500',
+                    minimap: { enabled: false }, automaticLayout: true, readOnly: (i === 3 || i === 4),
+                    lineNumbers: 'on', renderLineHighlight: 'all',
+                    padding: { top: 16 }
+                });
+            });
+
+            loadTemplate('xslt-mapper');
+            lucide.createIcons();
+
+            document.getElementById('loading-shield').style.opacity = '0';
+            setTimeout(() => {
+                document.getElementById('loading-shield').style.display = 'none';
+                editors.forEach(e => e.layout());
+            }, 500);
+        });
+
+        function toggleSidebar() {
+            document.getElementById('workspace-grid').classList.toggle('collapsed');
+            setTimeout(() => {
+                editors.forEach(e => e.layout());
+            }, 410);
+        }
+
+        function switchInputTab(tab) {
+            activeInputTab = tab;
+            document.getElementById('editor-input').style.display = tab === 'input' ? 'block' : 'none';
+            document.getElementById('editor-schema').style.display = tab === 'schema' ? 'block' : 'none';
+            document.getElementById('tab-input').classList.toggle('active', tab === 'input');
+            document.getElementById('tab-schema').classList.toggle('active', tab === 'schema');
+            if (editors[tab === 'input' ? 0 : 1]) setTimeout(() => editors[tab === 'input' ? 0 : 1].layout(), 10);
+        }
+
+        function loadTemplate(id) {
+            const t = templates[id] || templates['xslt-mapper'];
+            document.querySelectorAll('.template-btn').forEach(btn => btn.classList.remove('active'));
+            const activeBtn = document.getElementById('btn-' + id);
+            if (activeBtn) activeBtn.classList.add('active');
+
+            // Set the explicit mission type for the engine
+            currentMissionType = 'xslt'; // Default
+            if (id.includes('smooks') || id === 'csv-mapper') currentMissionType = 'smooks';
+            else if (id.includes('jslt')) currentMissionType = 'jslt';
+            else if (id.includes('flatpack')) currentMissionType = 'flatpack';
+            else if (id.includes('csv')) currentMissionType = 'csv';
+
+            const setVal = (idx, val, lang) => {
+                if (editors[idx]) {
+                    editors[idx].setValue(val);
+                    monaco.editor.setModelLanguage(editors[idx].getModel(), lang);
+                }
+            };
+
+            setVal(0, t.input.content, t.input.lang);
+            setVal(1, t.schema.content, t.input.lang);
+            setVal(2, t.forge.content, t.forge.lang);
+            setVal(4, t.camel || '', 'yaml');
+
+            document.getElementById('input-lang-label').innerText = t.input.lang.toUpperCase();
+            document.getElementById('forge-lang-label').innerText = t.forge.lang.toUpperCase();
+            runForge();
+        }
+
+        function copyCamel() {
+            const val = editors[4].getValue();
+            navigator.clipboard.writeText(val);
+            logForge("Camel Route Blueprint copied to clipboard", "success");
+        }
+
+        function saveCamelRoute() {
+            const content = editors[4].getValue();
+            const blob = new Blob([content], { type: 'text/yaml' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url; a.download = 'camel-route-mission.yaml'; a.click();
+            logForge("Camel Route Blueprint saved to disk", "success");
+        }
+
+        async function runForge() {
+            const start = performance.now();
+            logForge("Executing Transformation Mission...", "info");
+
+            const missionType = currentMissionType;
+
+            const payload = {
+                source: editors[0].getValue(),
+                mapping: editors[2].getValue(),
+                type: missionType
+            };
+
+            let targetLang = (missionType === 'jslt' || missionType === 'csv') ? 'json' : 'xml';
+
+            try {
+                // CALL INDIVIDUAL SPECIALIST ROUTES
+                const endpoint = `/fuel-engine/transform/${missionType}`;
+                const response = await fetch(endpoint, {
+                    method: 'POST', headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(payload)
+                });
+                let result = await response.text();
+
+                // Industrial Beautifier: Detect and Indent XML/JSON
+                const trimmed = result.trim();
+                if (trimmed.startsWith("{") || trimmed.startsWith("[")) {
+                    try {
+                        result = JSON.stringify(JSON.parse(result), null, 2);
+                        targetLang = 'json';
+                    } catch (e) { /* Not JSON, ignore */ }
+                } else if (trimmed.startsWith("<")) {
+                    try {
+                        // Robust XML Formatter
+                        let formatted = '';
+                        let reg = /(>)(<)(\/*)/g;
+                        let xml = trimmed.replace(reg, '$1\r\n$2$3');
+                        let pad = 0;
+                        xml.split('\r\n').forEach(node => {
+                            let indent = 0;
+                            if (node.match(/.+<\/\w[^>]*>$/)) indent = 0;
+                            else if (node.match(/^<\/\/\w/)) { if (pad != 0) pad -= 1; }
+                            else if (node.match(/^<\/\w/)) { if (pad != 0) pad -= 1; }
+                            else if (node.match(/^<\w[^>]*[^\/]>.*$/)) indent = 1;
+                            else indent = 0;
+
+                            let padding = '';
+                            for (let i = 0; i < pad; i++) padding += '  ';
+                            formatted += padding + node + '\r\n';
+                            pad += indent;
+                        });
+                        result = formatted.trim();
+                        targetLang = 'xml';
+                    } catch (e) { console.warn("XML Beautify failed", e); }
+                }
+
+                monaco.editor.setModelLanguage(editors[3].getModel(), targetLang);
+                editors[3].setValue(result);
+
+                const elapsed = Math.round(performance.now() - start);
+                document.getElementById('exec-time').innerText = elapsed + 'ms';
+
+                if (response.ok) {
+                    logForge(`Transformation Successful (${elapsed}ms)`, "success");
+                } else {
+                    logForge("Engine Execution Error", "error");
+                }
+            } catch (err) {
+                editors[3].setValue("ERROR: " + err.message);
+                logForge("Critical Network/JS Error", "error");
+            }
+        }
+
+        async function runValidate() {
+            const start = performance.now();
+            logForge("Starting Schema Validation Audit...", "info");
+
+            const payload = { source: editors[0].getValue(), schema: editors[1].getValue() };
+            try {
+                const response = await fetch('/fuel-engine/validate', {
+                    method: 'POST', headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(payload)
+                });
+                const result = await response.text();
+                editors[3].setValue(result);
+
+                const elapsed = Math.round(performance.now() - start);
+                document.getElementById('exec-time').innerText = elapsed + 'ms';
+
+                if (result.includes("SUCCESS")) {
+                    logForge("Validation Audit: PASSED", "success");
+                } else {
+                    logForge("Validation Audit: FAILED", "error");
+                }
+            } catch (err) {
+                editors[3].setValue("ERROR: " + err.message);
+                logForge("Validation Pipeline Error", "error");
+            }
+        }
+
+        async function saveForgeContent() {
+            const content = editors[2].getValue();
+            const lang = document.getElementById('forge-lang-label').innerText.toLowerCase();
+            const ext = lang === 'xml' ? '.xsl' : (lang === 'json' ? '.jslt' : '.txt');
+
+            if (window.showSaveFilePicker) {
+                try {
+                    const handle = await window.showSaveFilePicker({
+                        suggestedName: 'forged_mission' + ext,
+                        types: [{ description: 'Mission Fuel', accept: { 'text/plain': [ext] } }]
+                    });
+                    const writable = await handle.createWritable();
+                    await writable.write(content);
+                    await writable.close();
+                    document.getElementById('forge-status').innerText = 'MISSION SAVED';
+                } catch (err) { console.warn("Save cancelled or failed:", err); }
+            } else {
+                // Fallback for browsers without File System API
+                const blob = new Blob([content], { type: 'text/plain' });
+                const url = URL.createObjectURL(blob);
+                const a = document.createElement('a');
+                a.href = url; a.download = 'forged_mission' + ext; a.click();
+            }
+        }
+
+        function exportMission() {
+            // Forward to specific forge save for consistency
+            saveForgeContent();
+        }
+    </script>
+</body>
+
+</html>

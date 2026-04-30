@@ -1,0 +1,129 @@
+plugins {
+    id 'java'
+    id 'io.quarkus' version '3.34.0'
+}
+
+group = 'com.pratyush.eip'
+version = '1.0.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+    mavenLocal()
+}
+
+configurations.all {
+    resolutionStrategy.eachDependency { details ->
+        if (details.requested.group == 'org.springframework') {
+            details.useVersion '6.1.13'
+            details.because 'Enforcing consistent Spring version to prevent NoSuchMethodErrors between core and jdbc'
+        }
+    }
+}
+
+dependencies {
+
+    implementation enforcedPlatform('io.quarkus:quarkus-bom:3.34.0')
+    implementation enforcedPlatform('org.apache.camel.quarkus:camel-quarkus-bom:3.33.0')
+    implementation platform("org.springframework:spring-framework-bom:${springVersion}")
+
+    implementation 'com.pratyush.eip:eip-core-lib:1.0.0-SNAPSHOT'
+    implementation 'org.apache.camel.quarkus:camel-quarkus-yaml-dsl'
+    implementation 'org.apache.camel.quarkus:camel-quarkus-kafka'
+    implementation 'org.apache.camel.quarkus:camel-quarkus-ftp'
+    implementation('org.apache.camel.quarkus:camel-quarkus-sql') {
+        exclude group: 'io.quarkus', module: 'quarkus-resteasy'
+    }
+    implementation 'org.apache.camel.quarkus:camel-quarkus-elasticsearch'
+    implementation 'org.apache.camel.quarkus:camel-quarkus-mongodb'
+    implementation 'org.apache.camel.quarkus:camel-quarkus-jsonpath'
+    implementation 'org.apache.camel.quarkus:camel-quarkus-cassandraql'
+    implementation 'org.apache.camel.quarkus:camel-quarkus-redis'
+    implementation 'org.apache.camel:camel-spring-redis'
+    implementation 'org.apache.camel.quarkus:camel-quarkus-swift'
+    implementation 'io.quarkiverse.groovy:quarkus-groovy:3.34.3'
+    implementation 'org.apache.camel.quarkus:camel-quarkus-joor'
+    implementation 'org.apache.camel.quarkus:camel-quarkus-datasonnet'
+    implementation 'com.solacesystems:sol-jms-jakarta:10.29.1'
+    implementation 'io.quarkus:quarkus-jdbc-postgresql'
+    implementation 'io.quarkus:quarkus-jdbc-mysql'
+    implementation 'io.quarkus:quarkus-jdbc-mssql'
+    implementation 'io.quarkus:quarkus-jdbc-oracle'
+    implementation 'io.quarkus:quarkus-tls-registry:3.34.3'
+    implementation('com.datasonnet:datasonnet-mapper:3.0.1.1') {
+        exclude group: 'ch.qos.logback', module: 'logback-classic'
+        exclude group: 'ch.qos.logback', module: 'logback-core'
+    }
+    implementation 'org.apache.camel.quarkus:camel-quarkus-log'
+    implementation 'org.apache.camel.quarkus:camel-quarkus-file'
+
+    implementation 'org.apache.camel.quarkus:camel-quarkus-bean'
+    implementation 'org.apache.camel.quarkus:camel-quarkus-microprofile-health'
+    implementation 'org.apache.activemq:artemis-jakarta-client:2.36.0'
+
+    implementation 'org.apache.camel.quarkus:camel-quarkus-jms'
+    implementation 'org.apache.camel.quarkus:camel-quarkus-jta'
+    implementation 'org.apache.camel.quarkus:camel-quarkus-jackson'
+    implementation 'org.apache.camel.quarkus:camel-quarkus-timer'
+    implementation 'org.apache.camel.quarkus:camel-quarkus-kamelet'
+    implementation 'org.apache.camel.kamelets:camel-kamelets'
+    implementation 'org.apache.camel.quarkus:camel-quarkus-catalog'
+    implementation 'org.apache.camel.quarkus:camel-quarkus-direct'
+    implementation 'org.apache.camel.quarkus:camel-quarkus-seda'
+    implementation 'org.apache.camel.quarkus:camel-quarkus-microprofile-fault-tolerance'
+    implementation 'org.apache.camel.quarkus:camel-quarkus-groovy'
+    implementation 'org.apache.camel.quarkus:camel-quarkus-http'
+    implementation 'org.apache.camel.quarkus:camel-quarkus-platform-http'
+    implementation 'org.apache.camel.quarkus:camel-quarkus-rest'
+    implementation 'org.apache.camel.quarkus:camel-quarkus-openapi-java'
+    implementation 'org.apache.camel.quarkus:camel-quarkus-xpath'
+    implementation 'org.apache.camel.quarkus:camel-quarkus-validator'
+    implementation 'org.apache.camel.quarkus:camel-quarkus-xslt-saxon'
+    implementation 'org.apache.camel.quarkus:camel-quarkus-jslt'
+    implementation 'org.apache.camel.quarkus:camel-quarkus-csv'
+    implementation 'org.apache.camel.quarkus:camel-quarkus-jacksonxml'
+    implementation 'org.apache.camel.quarkus:camel-quarkus-flatpack'
+    implementation 'org.apache.camel.quarkus:camel-quarkus-freemarker'
+    implementation 'com.ibm.mq:com.ibm.mq.jakarta.client:9.4.5.0'
+    implementation 'org.apache.commons:commons-dbcp2:2.12.0'
+    implementation 'org.messaginghub:pooled-jms:3.1.2'
+    implementation 'org.springframework:spring-expression'
+    implementation 'org.springframework:spring-context'
+    implementation 'org.springframework.data:spring-data-redis:3.3.4'
+    implementation 'org.apache.camel.quarkus:camel-quarkus-smooks'
+    implementation 'org.apache.groovy:groovy-json:4.0.24'
+    implementation 'org.smooks:smooks-core:2.2.1'
+    implementation 'org.smooks.cartridges:smooks-javabean-cartridge:2.0.3'
+    implementation 'org.smooks.cartridges:smooks-csv-cartridge:2.0.3'
+    implementation 'org.smooks.cartridges:smooks-templating-cartridge:2.1.2'
+    testImplementation 'io.quarkus:quarkus-junit5'
+}
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_17
+    targetCompatibility = JavaVersion.VERSION_17
+}
+
+def modularityOpens = [
+    "--add-opens=java.base/java.nio=ALL-UNNAMED",
+    "--add-opens=java.base/jdk.internal.misc=ALL-UNNAMED",
+    "--add-opens=java.base/sun.nio.ch=ALL-UNNAMED",
+    "--add-opens=java.base/java.lang=ALL-UNNAMED",
+    "--add-opens=java.base/java.util=ALL-UNNAMED",
+    "--add-opens=java.base/jdk.internal.ref=ALL-UNNAMED"
+]
+
+tasks.withType(io.quarkus.gradle.tasks.QuarkusDev).configureEach {
+    jvmArguments.addAll(modularityOpens)
+    jvmArguments.addAll([
+        "-Dquarkus.console.enabled=true",
+        "-Dquarkus.console.color=true",
+        "-Dquarkus.console.basic=false",
+        "-Dio.netty.tryReflectionSetAccessible=true"
+    ])
+    // Propagate all platform system properties to the dev process correctly
+    System.getProperties().each { key, value ->
+        if (key.toString().startsWith("quarkus.") || key.toString().startsWith("camel.") || key.toString().startsWith("eip.")) {
+            jvmArguments.add("-D${key}=${value}")
+        }
+    }
+}

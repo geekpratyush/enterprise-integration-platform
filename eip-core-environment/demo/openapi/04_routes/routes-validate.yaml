@@ -1,0 +1,21 @@
+- from:
+    uri: "platform-http:///fuel-engine/validate"
+    steps:
+      - setHeader:
+          name: "source_data"
+          jsonpath: "$.source"
+      - setHeader:
+          name: "schema_data"
+          jsonpath: "$.schema"
+      - setBody:
+          simple: "${header.source_data}"
+      - choice:
+          when:
+            - simple: "${header.schema_data} contains '{'"
+              steps:
+                - setBody:
+                    constant: "SUCCESS: JSON Schema Audit Passed (Simulated)"
+          otherwise:
+            steps:
+              - setBody:
+                  constant: "SUCCESS: XML/XSD Schema Audit Passed (Simulated)"

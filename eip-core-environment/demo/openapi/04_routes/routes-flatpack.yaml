@@ -1,0 +1,29 @@
+- from:
+    uri: "platform-http:///fuel-engine/transform/flatpack"
+    steps:
+      - unmarshal:
+          json: {}
+      - setBody:
+          groovy: |
+            try {
+                def cleanBody = body.source.replaceAll("\r\n", "\n").replaceAll("\r", "\n")
+                def reader = new java.io.StringReader(cleanBody)
+                def mapContent = body.mapping
+                def mapReader = new java.io.StringReader(mapContent)
+                def factory = net.sf.flatpack.DefaultParserFactory.getInstance()
+                def ds = factory.newFixedLengthParser(mapReader, reader).parse()
+                def results = []
+                while (ds.next()) {
+                    def row = [:]
+                    ds.getColumns().each { col -> row[col] = ds.getString(col) }
+                    results << row
+                }
+                return ["records": results]
+            } catch (Exception e) {
+                return ["ERROR": "Engine Failure", "MSG": e.getMessage()]
+            }
+      - marshal:
+          jackson-xml: {}
+      - setHeader:
+          name: "Content-Type"
+          constant: "application/xml"

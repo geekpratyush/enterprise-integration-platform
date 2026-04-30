@@ -6,8 +6,8 @@
 set -e
 
 # Master Directory Reference
-BASE_DIR="/home/pratyush/software/eip-core-integration/eip-core-environment/demo/oracle"
-PROJECT_DIR="/home/pratyush/software/eip-core-integration/eip-core-consumer"
+BASE_DIR=$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)
+PROJECT_DIR=$(cd "${BASE_DIR}/../../../eip-core-consumer" && pwd)
 
 clear
 echo "======================================================================"
@@ -94,6 +94,15 @@ bash ${BASE_DIR}/02_initialization/setup-db.sh
 
 # PHASE 4: LAUNCHING CONSUMER (GRADLE)
 echo ">>> PHASE 4: LAUNCHING CONSUMER (GRADLE)"
-
 cd $PROJECT_DIR
-./gradlew clean quarkusDev
+
+# Collect all EIP/QUARKUS/CAMEL variables into an array for Gradle
+declare -a EXTRA_OPTS
+for var in $(env | grep -E "^(QUARKUS_|CAMEL_|EIP_)" | cut -d= -f1); do
+    # Convert ENV_VAR_NAME to quarkus.dot.notation
+    prop_name=$(echo "$var" | tr '[:upper:]' '[:lower:]' | tr '_' '.')
+    # Add to array
+    EXTRA_OPTS+=("-D$prop_name=${!var}")
+done
+
+./gradlew clean quarkusDev "${EXTRA_OPTS[@]}"

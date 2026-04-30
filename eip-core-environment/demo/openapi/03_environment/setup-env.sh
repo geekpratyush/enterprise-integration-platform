@@ -24,11 +24,11 @@ ENV_FILE="$PROFILE_DIR/$PROFILE"
 echo ">>> Loading dynamic profile: $PROFILE"
 
 # 1. Base Framework Paths
-export EIP_BASE_DIR=$(realpath "${EIP_BASE_DIR:-../../../}")
+export EIP_BASE_DIR=$(cd "${EIP_BASE_DIR:-../../../}" && pwd)
 export EIP_SCRIPT_DIR=$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)
-export EIP_INIT_DIR=$(realpath "${EIP_INIT_DIR:-$EIP_SCRIPT_DIR/02_initialization}")
-export EIP_ROUTES_DIR=$(realpath "${EIP_ROUTES_DIR:-$EIP_SCRIPT_DIR/04_routes}")
-export EIP_CERT_DIR=$(realpath "$EIP_INIT_DIR/certs")
+export EIP_INIT_DIR="${EIP_INIT_DIR:-$EIP_SCRIPT_DIR/02_initialization}"
+export EIP_ROUTES_DIR=$(cd "${EIP_ROUTES_DIR:-$EIP_SCRIPT_DIR/04_routes}" && pwd 2>/dev/null || echo "$EIP_SCRIPT_DIR/04_routes")
+export EIP_CERT_DIR="$EIP_INIT_DIR/certs"
 
 # 2. Export Variables from Profile
 while read -r line || [[ -n "$line" ]]; do

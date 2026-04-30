@@ -1,9 +1,0 @@
-- beans:
-    - name: "kafka-ssl"
-      type: "org.apache.camel.component.kafka.KafkaConfiguration"
-      properties:
-        brokers: "{{env:KAFKA_BROKERS:localhost:9092}}"
-        securityProtocol: "SASL_SSL"
-        saslMechanism: "PLAIN"
-        sslKeystoreLocation: "{{env:EIP_CERT_DIR}}/keystore.jks"
-        sslKeystorePassword: "{{env:KEYSTORE_PASSWORD}}"

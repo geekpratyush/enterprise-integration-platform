@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ISO 20022 Knowledge Base - Payments</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=JetBrains+Mono:wght@400;700&family=Outfit:wght@400;700;900&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #38bdf8;
+            --bg-dark: #0f172a;
+            --text-main: #f8fafc;
+            --text-dim: #94a3b8;
+            --border: rgba(255,255,255,0.05);
+        }
+        body {
+            margin: 0; padding: 40px; font-family: 'Inter', sans-serif;
+            background: var(--bg-dark); color: var(--text-main);
+            overflow-x: hidden;
+        }
+        .kb-container { max-width: 1200px; margin: 0 auto; }
+        h1 { font-family: 'Outfit', sans-serif; font-size: 32px; color: var(--primary); margin-bottom: 12px; }
+        .intro-box { background: rgba(255,255,255,0.02); padding: 30px; border-radius: 24px; border: 1px solid var(--border); margin-bottom: 40px; line-height: 1.6; color: var(--text-dim); }
+        
+        .mission-chapter { margin-bottom: 80px; }
+        .mission-chapter h2 { font-family: 'Outfit', sans-serif; font-size: 24px; color: #fff; margin-bottom: 20px; display: flex; align-items: center; gap: 12px; }
+        .mission-chapter h2::after { content: ''; flex: 1; height: 1px; background: var(--border); }
+        
+        .blueprint-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 30px; margin-top: 24px; }
+        .code-card { background: #080c14; border: 1px solid var(--border); border-radius: 20px; display: flex; flex-direction: column; overflow: hidden; }
+        .card-header { padding: 12px 20px; background: rgba(255,255,255,0.03); border-bottom: 1px solid var(--border); display: flex; justify-content: space-between; align-items: center; }
+        .protocol-label { font-size: 10px; font-weight: 800; color: var(--primary); text-transform: uppercase; letter-spacing: 1px; }
+        .direction-tag { font-size: 10px; color: var(--text-dim); font-weight: 600; }
+        .code-body { padding: 20px; font-family: 'JetBrains Mono', monospace; font-size: 12px; line-height: 1.6; color: #cbd5e1; white-space: pre; overflow-x: auto; }
+        
+        .code-hl { color: var(--primary); font-weight: 700; }
+        .code-tag { color: #818cf8; }
+        .code-attr { color: #38bdf8; }
+        .code-val { color: #34d399; }
+        .code-comment { color: #64748b; font-style: italic; }
+
+        .mapping-table { width: 100%; border-collapse: collapse; margin-bottom: 30px; }
+        .mapping-table th { text-align: left; padding: 12px; border-bottom: 2px solid var(--border); color: var(--primary); font-size: 11px; text-transform: uppercase; }
+        .mapping-table td { padding: 12px; border-bottom: 1px solid var(--border); font-size: 13px; color: #cbd5e1; }
+    </style>
+</head>
+<body>
+    <div class="kb-container">
+        <h1>Payments & Clearing</h1>
+        <div class="intro-box">
+            The transition from legacy SWIFT MT (Message Type) formats to the ISO 20022 MX (XML) standard is one of the most significant overhauls in global financial messaging. 
+            MX messages are data-rich, meaning <strong>MX-to-MT (down-translation)</strong> results in data truncation, while <strong>MT-to-MX (up-translation)</strong> requires padding mandatory ISO fields.
+        </div>
+
+        <!-- CHAPTER: MT 103 -> pacs.008 -->
+        <div class="mission-chapter">
+            <h2>MT 103 ➔ pacs.008.001.08 (Single Customer Transfer)</h2>
+            <p style="color: var(--text-dim); font-size: 14px;">The core CBPR+ message for bank-to-bank credit transfers on behalf of a customer. Includes gpi tracking (UETR).</p>
+            
+            <div class="blueprint-grid">
+                <div class="code-card">
+                    <div class="card-header"><span class="direction-tag">FROM:</span><span class="protocol-label">SWIFT MT 103 (gpi)</span></div>
+                    <div class="code-body">{1:F01BANKBEBBAXXX0000000000}
+{2:I103BANKDEFFXXXXN}
+{3:{108:EIP-TRANS-2026}{121:eb548f0e-d782-411a-8c9e-112233445566}}
+{4:
+<span class="code-hl">:20:</span>PAY-REF-XYZ
+<span class="code-hl">:23B:</span>CRED
+<span class="code-hl">:32A:</span>260501EUR15000,75
+<span class="code-hl">:50K:</span>/99887766
+ALBERT TRADING CORP
+PARIS, FR
+<span class="code-hl">:52A:</span>DEUTDEFFXXX
+<span class="code-hl">:59:</span>/BE1122334455
+BRUSSELS IMPORTS LTD
+BRUSSELS, BE
+<span class="code-hl">:71A:</span>SHA
+- }</div>
+                </div>
+                <div class="code-card">
+                    <div class="card-header"><span class="direction-tag">TO:</span><span class="protocol-label">ISO 20022 pacs.008.001.08</span></div>
+                    <div class="code-body"><span class="code-comment">&lt;!-- Full CBPR+ Industrial Mapping --&gt;</span>
+<span class="code-tag">&lt;AppHdr</span> <span class="code-attr">xmlns</span>=<span class="code-val">"urn:iso:std:iso:20022:tech:xsd:head.001.001.01"</span><span class="code-tag">&gt;</span>
+  <span class="code-tag">&lt;Fr&gt;</span><span class="code-tag">&lt;FIId&gt;</span><span class="code-tag">&lt;FinInstnId&gt;</span><span class="code-tag">&lt;BICFI&gt;</span>BANKBEBB<span class="code-tag">&lt;/BICFI&gt;</span><span class="code-tag">&lt;/FinInstnId&gt;</span><span class="code-tag">&lt;/FIId&gt;</span><span class="code-tag">&lt;/Fr&gt;</span>
+  <span class="code-tag">&lt;To&gt;</span><span class="code-tag">&lt;FIId&gt;</span><span class="code-tag">&lt;FinInstnId&gt;</span><span class="code-tag">&lt;BICFI&gt;</span>BANKDEFF<span class="code-tag">&lt;/BICFI&gt;</span><span class="code-tag">&lt;/FinInstnId&gt;</span><span class="code-tag">&lt;/FIId&gt;</span><span class="code-tag">&lt;/To&gt;</span>
+  <span class="code-tag">&lt;BizMsgIdr&gt;</span>PAY-REF-XYZ<span class="code-tag">&lt;/BizMsgIdr&gt;</span>
+  <span class="code-tag">&lt;MsgDefIdr&gt;</span>pacs.008.001.08<span class="code-tag">&lt;/MsgDefIdr&gt;</span>
+  <span class="code-tag">&lt;CreDt&gt;</span>2026-05-01T09:00:00Z<span class="code-tag">&lt;/CreDt&gt;</span>
+<span class="code-tag">&lt;/AppHdr&gt;</span>
+<span class="code-tag">&lt;Document</span> <span class="code-attr">xmlns</span>=<span class="code-val">"urn:iso:std:iso:20022:tech:xsd:pacs.008.001.08"</span><span class="code-tag">&gt;</span>
+  <span class="code-tag">&lt;FIToFICstmrCdtTrf&gt;</span>
+    <span class="code-tag">&lt;GrpHdr&gt;</span><span class="code-tag">&lt;MsgId&gt;</span>PAY-REF-XYZ<span class="code-tag">&lt;/MsgId&gt;</span><span class="code-tag">&lt;/GrpHdr&gt;</span>
+    <span class="code-tag">&lt;CdtTrfTxInf&gt;</span>
+      <span class="code-tag">&lt;PmtId&gt;</span>
+        <span class="code-tag">&lt;EndToEndId&gt;</span>PAY-REF-XYZ<span class="code-tag">&lt;/EndToEndId&gt;</span>
+        <span class="code-tag">&lt;UETR&gt;</span>eb548f0e-d782-411a-8c9e-112233445566<span class="code-tag">&lt;/UETR&gt;</span>
+      <span class="code-tag">&lt;/PmtId&gt;</span>
+      <span class="code-tag">&lt;IntrBkSttlmAmt</span> <span class="code-attr">Ccy</span>=<span class="code-val">"EUR"</span><span class="code-tag">&gt;</span>15000.75<span class="code-tag">&lt;/IntrBkSttlmAmt&gt;</span>
+      <span class="code-tag">&lt;ChrgBr&gt;</span>SHAR<span class="code-tag">&lt;/ChrgBr&gt;</span>
+      <span class="code-tag">&lt;Dbtr&gt;</span><span class="code-tag">&lt;Nm&gt;</span>ALBERT TRADING CORP<span class="code-tag">&lt;/Nm&gt;</span><span class="code-tag">&lt;/Dbtr&gt;</span>
+      <span class="code-tag">&lt;Cdtr&gt;</span><span class="code-tag">&lt;Nm&gt;</span>BRUSSELS IMPORTS LTD<span class="code-tag">&lt;/Nm&gt;</span><span class="code-tag">&lt;/Cdtr&gt;</span>
+    <span class="code-tag">&lt;/CdtTrfTxInf&gt;</span>
+  <span class="code-tag">&lt;/FIToFICstmrCdtTrf&gt;</span>
+<span class="code-tag">&lt;/Document&gt;</span></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- CHAPTER: MT 202 -> pacs.009 -->
+        <div class="mission-chapter">
+            <h2>MT 202 ➔ pacs.009.001.08 (Interbank Transfer)</h2>
+            <p style="color: var(--text-dim); font-size: 14px;">Bank-to-bank funds movement for treasury or settlement purposes.</p>
+            
+            <div class="blueprint-grid">
+                <div class="code-card">
+                    <div class="card-header"><span class="direction-tag">FROM:</span><span class="protocol-label">SWIFT MT 202</span></div>
+                    <div class="code-body">{4:
+<span class="code-hl">:20:</span>TREAS-8877
+<span class="code-hl">:21:</span>TRANS-9900
+<span class="code-hl">:32A:</span>260501EUR1000000,
+<span class="code-hl">:52A:</span>BANKBEBBXXX
+<span class="code-hl">:58A:</span>BANKDEFFXXX
+- }</div>
+                </div>
+                <div class="code-card">
+                    <div class="card-header"><span class="direction-tag">TO:</span><span class="protocol-label">ISO 20022 pacs.009.001.08</span></div>
+                    <div class="code-body"><span class="code-tag">&lt;FICdtTrf</span> <span class="code-attr">xmlns</span>=<span class="code-val">"urn:iso:std:iso:20022:tech:xsd:pacs.009.001.08"</span><span class="code-tag">&gt;</span>
+  <span class="code-tag">&lt;GrpHdr&gt;</span><span class="code-tag">&lt;MsgId&gt;</span>TREAS-8877<span class="code-tag">&lt;/MsgId&gt;</span><span class="code-tag">&lt;/GrpHdr&gt;</span>
+  <span class="code-tag">&lt;CdtTrfTxInf&gt;</span>
+    <span class="code-tag">&lt;PmtId&gt;</span><span class="code-tag">&lt;InstrId&gt;</span>TRANS-9900<span class="code-tag">&lt;/InstrId&gt;</span><span class="code-tag">&lt;/PmtId&gt;</span>
+    <span class="code-tag">&lt;IntrBkSttlmAmt</span> <span class="code-attr">Ccy</span>=<span class="code-val">"EUR"</span><span class="code-tag">&gt;</span>1000000.00<span class="code-tag">&lt;/IntrBkSttlmAmt&gt;</span>
+    <span class="code-tag">&lt;InstgAgt&gt;</span><span class="code-tag">&lt;FinInstnId&gt;</span><span class="code-tag">&lt;BICFI&gt;</span>BANKBEBB<span class="code-tag">&lt;/BICFI&gt;</span><span class="code-tag">&lt;/FinInstnId&gt;</span><span class="code-tag">&lt;/InstgAgt&gt;</span>
+    <span class="code-tag">&lt;InstdAgt&gt;</span><span class="code-tag">&lt;FinInstnId&gt;</span><span class="code-tag">&lt;BICFI&gt;</span>BANKDEFF<span class="code-tag">&lt;/BICFI&gt;</span><span class="code-tag">&lt;/FinInstnId&gt;</span><span class="code-tag">&lt;/InstdAgt&gt;</span>
+  <span class="code-tag">&lt;/CdtTrfTxInf&gt;</span>
+<span class="code-tag">&lt;/FICdtTrf&gt;</span></div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>

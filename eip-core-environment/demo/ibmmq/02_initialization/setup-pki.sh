@@ -6,7 +6,7 @@ if [[ -z "$SCENARIO" ]]; then
 fi
 
 EIP_INIT_DIR=$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)
-CERT_DIR="$EIP_INIT_DIR/certs/$SCENARIO"
+CERT_DIR=~/.eip/certs/ibmmq/$SCENARIO
 STORE_PASS="changeit"
 
 echo -e "\033[36m>>> IBMMQ: Initializing PKI assets for [$SCENARIO]...\033[0m"
@@ -15,9 +15,9 @@ echo -e "\033[36m>>> IBMMQ: Initializing PKI assets for [$SCENARIO]...\033[0m"
 mkdir -p "$CERT_DIR"
 
 # 2. GENERATE PKCS12 ASSETS (HOST SIDE)
-echo "    Generating MQ Server Identity (mqserver.p12)..."
+echo "    Generating MQ Server Identity (audit-keystore.p12)..."
 keytool -genkeypair -alias mqserver -keyalg RSA -keysize 2048 -validity 365 \
-  -keystore "$CERT_DIR/mqserver.p12" -storepass $STORE_PASS -storetype PKCS12 \
+  -keystore "$CERT_DIR/audit-keystore.p12" -storepass $STORE_PASS -storetype PKCS12 \
   -dname "CN=localhost, OU=EIP, O=EipPlatform" -ext "SAN=dns:localhost,ip:127.0.0.1" -noprompt
 
 echo "    Generating Client Identity (client-key.p12)..."
@@ -42,7 +42,7 @@ docker exec -u root ibmmq-platform bash -c "mkdir -p /var/mqm/ssl-certs && chown
 # 5. INITIALIZE KEY DATABASE (CMS Format)
 echo "    Creating Key Database inside container..."
 docker exec -u root ibmmq-platform runmqakm -keydb -create -db /var/mqm/ssl-certs/mqserver.kdb -pw $STORE_PASS -type cms -stash
-docker exec -u root ibmmq-platform runmqakm -cert -import -db /var/mqm/ssl-certs/mqserver.p12 -pw $STORE_PASS -type pkcs12 -target /var/mqm/ssl-certs/mqserver.kdb -target_pw $STORE_PASS -target_type cms -label mqserver
+docker exec -u root ibmmq-platform runmqakm -cert -import -db /var/mqm/ssl-certs/audit-keystore.p12 -pw $STORE_PASS -type pkcs12 -target /var/mqm/ssl-certs/mqserver.kdb -target_pw $STORE_PASS -target_type cms -label mqserver
 
 # 5.1 MUTUAL TLS: Import Client into MQ Trust
 if [[ "$SCENARIO" == *"mtls"* ]]; then

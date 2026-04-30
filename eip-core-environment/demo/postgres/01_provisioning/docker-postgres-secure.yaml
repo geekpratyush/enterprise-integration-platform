@@ -1,0 +1,38 @@
+services:
+  postgres-platform:
+    image: postgres:15-alpine
+    container_name: postgres-platform
+    environment:
+      POSTGRES_DB: eip_db
+      POSTGRES_USER: eip_user
+      POSTGRES_PASSWORD: eip_password
+    ports:
+      - "5432:5432"
+    volumes:
+      # Mount to a neutral path so Postgres doesn't auto-discover and lock them during boot
+      - ../02_initialization/certs/${MODE}:/mnt/certs:ro
+    user: root
+    command: 
+      - sh
+      - -c
+      - |
+        if [ -f /mnt/certs/server-key.pem ]; then
+          echo '>>> Industrialized: Securing and Enforcing SSL handshakes...'
+          cp /mnt/certs/ca-cert.pem /tmp/ca-cert.pem 2>/dev/null || true
+          cp /mnt/certs/server-cert.pem /tmp/server-cert.pem
+          cp /mnt/certs/server-key.pem /tmp/server-key.pem
+          chown postgres:postgres /tmp/*.pem
+          chmod 600 /tmp/server-key.pem
+          # Force SSL and set certificate paths
+          export SSL_FLAGS="-c ssl=on -c ssl_cert_file=/tmp/server-cert.pem -c ssl_key_file=/tmp/server-key.pem"
+          if [ -f /tmp/ca-cert.pem ]; then
+            SSL_FLAGS="$$SSL_FLAGS -c ssl_ca_file=/tmp/ca-cert.pem -c ssl_requirement=on"
+          fi
+        fi
+        exec /usr/local/bin/docker-entrypoint.sh postgres $$SSL_FLAGS ${POSTGRES_OPTS}
+    networks:
+      - eip-net
+
+networks:
+  eip-net:
+    name: eip-network

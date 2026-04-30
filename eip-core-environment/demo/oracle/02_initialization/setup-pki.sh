@@ -5,7 +5,7 @@
 
 set -e
 MODE=${MODE:-ssl-oneway}
-BASE_DIR="/home/pratyush/software/eip-core-integration/eip-core-environment/demo/oracle"
+BASE_DIR=~/software/eip-core-integration/eip-core-environment/demo/oracle
 CERT_DIR="${BASE_DIR}/02_initialization/certs/${MODE}"
 
 mkdir -p "$CERT_DIR"

@@ -9,8 +9,13 @@ if [ -z "$SCENARIO" ]; then
 fi
 
 EIP_SCRIPT_DIR=$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)
-CERT_DIR="${EIP_SCRIPT_DIR}/certs/${SCENARIO}"
+CERT_DIR=~/.eip/certs/mongodb/${SCENARIO}
 mkdir -p "$CERT_DIR"
+
+if [[ "$SCENARIO" == "non-ssl-"* ]]; then
+    echo "    (Non-SSL Scenario: Skipping PKI Generation)"
+    exit 0
+fi
 
 echo ">>> MONGODB: Initializing PKI assets for [${SCENARIO}]..."
 

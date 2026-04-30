@@ -1,0 +1,43 @@
+plugins {
+    id 'java'
+    id 'com.gradleup.shadow' version '8.3.6'
+}
+
+group = 'com.pratyush.eip'
+version = '1.0.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+def liquibaseVersion = "4.33.0"
+
+dependencies {
+    implementation "org.liquibase:liquibase-core:${liquibaseVersion}"
+    implementation "info.picocli:picocli:4.7.5"
+    implementation "org.postgresql:postgresql:42.7.5"
+    implementation "com.mysql:mysql-connector-j:9.3.0"
+    implementation "com.oracle.database.jdbc:ojdbc11:23.7.0.25.01"
+    implementation "com.microsoft.sqlserver:mssql-jdbc:12.8.1.jre11"
+    implementation "org.liquibase.ext:liquibase-mongodb:${liquibaseVersion}"
+    implementation "org.liquibase.ext:liquibase-cassandra:${liquibaseVersion}"
+    implementation "com.datastax.oss:java-driver-core:4.17.0"
+}
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_17
+    targetCompatibility = JavaVersion.VERSION_17
+}
+
+shadowJar {
+    archiveBaseName = "eip-core-liquibase"
+    archiveClassifier = ""
+    archiveVersion = ""
+    manifest {
+        attributes 'Main-Class': 'liquibase.integration.commandline.LiquibaseCommandLine'
+    }
+    mergeServiceFiles()
+    exclude "META-INF/*.SF", "META-INF/*.DSA", "META-INF/*.RSA"
+}
+
+build.dependsOn shadowJar

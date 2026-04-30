@@ -35,9 +35,14 @@ public class MongoClientCamelRegistrar implements CamelContextCustomizer {
 
     @Override
     public void configure(CamelContext camelContext) {
-        LOG.info(">>> EIP Platform: Initializing Total-External MongoDB Registry Bridge...");
-
         var config = ConfigProvider.getConfig();
+        boolean enabled = config.getOptionalValue("quarkus.mongodb.enabled", Boolean.class).orElse(true);
+        if (!enabled) {
+            LOG.info(">>> EIP Platform: [LIB] MongoDB is disabled. Skipping registry bridge.");
+            return;
+        }
+
+        LOG.info(">>> EIP Platform: Initializing Total-External MongoDB Registry Bridge...");
 
         StreamSupport.stream(config.getPropertyNames().spliterator(), false)
                 .filter(p -> (p.startsWith("quarkus.mongodb.") && p.endsWith(".connection-string")) ||

@@ -1,0 +1,34 @@
+- from:
+    uri: "platform-http:///fuel-engine/transform/csv"
+    steps:
+      - unmarshal:
+          json: {}
+      - setHeader:
+          name: "jslt_mapping"
+          simple: "${body[mapping]}"
+      - setBody:
+          simple: "${body[source]}"
+      - unmarshal:
+          csv: {}
+      - setBody:
+          simple: "{\"rows\": ${body}}"
+      - choice:
+          when:
+            - simple: "${header.jslt_mapping} != null && ${header.jslt_mapping} != ''"
+              steps:
+                - setHeader:
+                    name: "CamelJsltString"
+                    simple: "${header.jslt_mapping}"
+                - to: "jslt:dummy?allowTemplateFromHeader=true"
+                - unmarshal:
+                    json: {}
+      - setBody:
+          groovy: |
+            try {
+                return groovy.json.JsonOutput.prettyPrint(groovy.json.JsonOutput.toJson(body))
+            } catch (Exception e) {
+                return body
+            }
+      - setHeader:
+          name: "Content-Type"
+          constant: "application/json"

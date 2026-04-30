@@ -1,0 +1,179 @@
+apiVersion: camel.apache.org/v1
+kind: Kamelet
+metadata:
+  name: ibmmq-source
+  labels:
+    camel.apache.org/kamelet.type: "source"
+  annotations:
+    camel.apache.org/kamelet.title: "IBM MQ Source (Local-TX)"
+    camel.apache.org/kamelet.version: "4.0.0"
+    camel.apache.org/provider: "EIP Platform"
+spec:
+  definition:
+    title: "IBM MQ Source (Local-TX)"
+    description: >
+      Consumes messages from an IBM MQ queue with SSL/mTLS support.
+    required:
+      - queuename
+    type: object
+    properties:
+      queuename:
+        title: Queue Name
+        type: string
+      username:
+        title: Username
+        type: string
+        default: ""
+      password:
+        title: Password
+        type: string
+        format: password
+        default: ""
+      transacted:
+        title: Transacted (Local)
+        type: boolean
+        default: true
+      concurrentconsumers:
+        title: Concurrent Consumers
+        type: integer
+        default: 5
+      maxconcurrentconsumers:
+        title: Max Concurrent Consumers
+        type: integer
+        default: 0
+      receivetimeout:
+        title: Receive Timeout (ms)
+        type: integer
+        default: 1000
+      cachelevelname:
+        title: Cache Level
+        type: string
+        default: CACHE_AUTO
+      acknowledgmentmode:
+        title: Acknowledgment Mode
+        type: string
+        default: AUTO_ACKNOWLEDGE
+      hostname:
+        title: Host Name
+        type: string
+        default: localhost
+      port:
+        title: Port
+        type: integer
+        default: 1414
+      queuemanager:
+        title: Queue Manager
+        type: string
+        default: QM1
+      channel:
+        title: Channel
+        type: string
+        default: DEV.APP.SVRCONN
+      sslciphersuite:
+        title: SSL Cipher Suite
+        type: string
+        default: ""
+      sslpeername:
+        title: SSL Peer Name
+        type: string
+        default: ""
+      useibmciphermappings:
+        title: Use IBM Cipher Mappings
+        type: boolean
+        default: false
+      debugssl:
+        title: Debug SSL
+        type: boolean
+        default: false
+      eagerinit:
+        title: Eager SSL Init
+        description: Build the SSLContext at startup instead of on first use
+        type: boolean
+        default: false
+      reloadperiodseconds:
+        title: SSL Reload Period (seconds)
+        description: Rebuild SSLContext from disk at this interval for zero-restart cert rotation. 0 disables reloading.
+        type: integer
+        default: 0
+      truststorepath:
+        title: TrustStore Path
+        type: string
+        default: ""
+      truststorepassword:
+        title: TrustStore Password
+        type: string
+        format: password
+        default: ""
+      keystorepath:
+        title: KeyStore Path
+        type: string
+        default: ""
+      keystorepassword:
+        title: KeyStore Password
+        type: string
+        format: password
+        default: ""
+      authenticationmqcsp:
+        title: Authentication MQCSP
+        type: boolean
+        default: true
+      authenticationtoken:
+        title: Authentication Token
+        type: string
+      authenticationtype:
+        title: Authentication Type
+        type: integer
+      maxconnections:
+        title: Max Connections
+        type: integer
+        default: 5
+
+  template:
+    beans:
+      - name: sslFactory
+        type: "#class:com.pratyush.eip.core.lib.crypto.EipSslSocketFactory"
+        properties:
+          trustStorePath: '{{truststorepath}}'
+          trustStorePassword: '{{truststorepassword}}'
+          keyStorePath: '{{keystorepath}}'
+          keyStorePassword: '{{keystorepassword}}'
+          useIbmCipherMappings: '{{useibmciphermappings}}'
+          debugSsl: '{{debugssl}}'
+          eagerInit: '{{eagerinit}}'
+          reloadPeriodSeconds: '{{reloadperiodseconds}}'
+
+      - name: mqConnectionFactory
+        type: "#class:com.ibm.mq.jakarta.jms.MQConnectionFactory"
+        properties:
+          hostName: '{{hostname}}'
+          port: '{{port}}'
+          queueManager: '{{queuemanager}}'
+          channel: '{{channel}}'
+          transportType: 1
+          authenticationMQCSP: '{{authenticationmqcsp}}'
+          authenticationToken: '{{?authenticationtoken}}'
+          authenticationType: '{{?authenticationtype}}'
+          sslCipherSuite: '{{sslciphersuite}}'
+          sslPeerName: '{{?sslpeername}}'
+          sslSocketFactory: '#bean:{{sslFactory}}'
+
+      - name: mqPoolFactory
+        type: "#class:org.messaginghub.pooled.jms.JmsPoolConnectionFactory"
+        properties:
+          connectionFactory: '#bean:{{mqConnectionFactory}}'
+          maxConnections: '{{maxconnections}}'
+
+    from:
+      uri: "jms:queue:{{queuename}}"
+      parameters:
+        connectionFactory: "#bean:{{mqPoolFactory}}"
+        transacted: "{{transacted}}"
+        cacheLevelName: "{{cachelevelname}}"
+        acknowledgementModeName: "{{acknowledgmentmode}}"
+        concurrentConsumers: "{{concurrentconsumers}}"
+        maxConcurrentConsumers: "{{maxconcurrentconsumers}}"
+        receiveTimeout: "{{receivetimeout}}"
+        username: "{{?username}}"
+        password: "{{?password}}"
+      steps:
+        - to: "kamelet:sink"

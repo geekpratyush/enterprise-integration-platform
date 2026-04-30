@@ -1,16 +1,14 @@
 # 01_provisioning/docker-isolated.yaml
 services:
-  mongo-eip:
+  mongodb-platform:
     image: mongo:latest
-    container_name: mongo-eip
+    container_name: cmongo-platform
     ports:
       - "${EIP_MONGO_PORT:-27020}:27017"
     environment:
-      # Renamed to avoid name-collision with legacy shell exports
-      MONGO_INITDB_ROOT_USERNAME: ${EIP_MONGO_ROOT_USER:-}
-      MONGO_INITDB_ROOT_PASSWORD: ${EIP_MONGO_ROOT_PASS:-}
+      MONGO_INITDB_ROOT_USERNAME: "${EIP_MONGO_ROOT_USER}"
+      MONGO_INITDB_ROOT_PASSWORD: "${EIP_MONGO_ROOT_PASS}"
     volumes:
-      # Isolated Scenario Sandbox
-      - ../02_initialization/certs/${SCENARIO}:/etc/mongodb/certs:ro
-    # Renamed to avoid name-collision with legacy shell exports
-    command: ${EIP_MONGO_CMD_ARGS:-}
+      - ~/.eip/certs/mongodb/${SCENARIO}:/etc/mongodb/certs:ro
+      - ~/.eip/certs/mongodb/replica.key:/etc/mongodb/replica.key:ro
+    command: mongod ${EIP_MONGO_CMD_ARGS}

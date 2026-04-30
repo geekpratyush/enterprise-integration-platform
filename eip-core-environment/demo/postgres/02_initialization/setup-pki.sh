@@ -1,16 +1,14 @@
 #!/bin/bash
-# ======================================================================
-#                POSTGRES PKI AUTOMATION
-# ======================================================================
-
+# setup-pki.sh (PostgreSQL Edition)
 set -e
+
+EIP_SCRIPT_DIR=$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)
 MODE=${MODE:-ssl-postgres}
-BASE_DIR="/home/pratyush/software/eip-core-integration/eip-core-environment/demo/postgres"
-CERT_DIR="${BASE_DIR}/02_initialization/certs/${MODE}"
+CERT_DIR="${EIP_SCRIPT_DIR}/02_initialization/certs/${MODE}"
 
 mkdir -p "$CERT_DIR"
 cd "$CERT_DIR"
-rm -f *.pem *.p12 *.srl *.csr *.req
+rm -f *.pem *.p12 *.srl *.csr *.req *.pk8
 
 echo ">>> POSTGRES PKI: Generating Certificates ($MODE)..."
 
@@ -32,13 +30,18 @@ openssl x509 -req -in client-req.pem -CA ca-cert.pem -CAkey ca-key.pem -CAcreate
 echo "    >>> Converting Client Key to PKCS#8 (For JDBC)..."
 openssl pkcs8 -topk8 -inform PEM -outform DER -in client-key.pem -out client-key.pk8 -nocrypt
 
-echo "    >>> Creating Truststore for EIP Platform..."
-openssl pkcs12 -export -in client-cert.pem -inkey client-key.pem -out client-keystore.p12 -name "postgres-client" -passout pass:changeit
-keytool -importcert -alias postgres-ca -file ca-cert.pem -keystore postgres-truststore.p12 -storetype PKCS12 -storepass changeit -noprompt
+echo "    >>> Creating Truststore and Keystore for EIP Platform..."
+openssl pkcs12 -export -in client-cert.pem -inkey client-key.pem \
+    -out client-keystore.p12 -name "postgres-client" \
+    -passout pass:changeit
+
+keytool -importcert -alias postgres-ca -file ca-cert.pem \
+    -keystore postgres-truststore.p12 -storetype PKCS12 \
+    -storepass changeit -noprompt
 
 # 5. Fix permissions for Postgres Container
-chmod 600 server-key.pem
-chmod 644 server-cert.pem ca-cert.pem
+chmod 600 server-key.pem 2>/dev/null || true
+chmod 644 server-cert.pem ca-cert.pem 2>/dev/null || true
 
 echo ">>> POSTGRES PKI: Generation Complete."
 ls -l

@@ -1,0 +1,23 @@
+# docker-mysql-secure.yaml - Industrialized MySQL with Baked-in SSL
+services:
+  mysql-platform:
+    build:
+      context: ..
+      dockerfile: 01_provisioning/Dockerfile.mysql
+      args:
+        - CERT_PATH=02_initialization/certs/${MODE:-ssl-mysql}
+    image: eip/mysql-resource:${MODE:-ssl-mysql}
+    container_name: mysql-platform
+    environment:
+      MYSQL_DATABASE: eip_db
+      MYSQL_USER: eip_user
+      MYSQL_PASSWORD: eip_password
+      MYSQL_ROOT_PASSWORD: eip_root_password
+      MYSQL_OPTS: ${MYSQL_OPTS:-}
+    ports:
+      - "3306:3306"
+    networks:
+      - eip-net
+
+networks:
+  eip-net:

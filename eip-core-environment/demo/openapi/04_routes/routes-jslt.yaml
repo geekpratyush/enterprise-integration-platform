@@ -1,0 +1,21 @@
+- from:
+    uri: "platform-http:///fuel-engine/transform/jslt"
+    steps:
+      - unmarshal:
+          json: {}
+      - setHeader:
+          name: "CamelJsltString"
+          simple: "${body[mapping]}"
+      - setBody:
+          simple: "${body[source]}"
+      - to: "jslt:dummy?allowTemplateFromHeader=true"
+      - setBody:
+          groovy: |
+            try {
+                return groovy.json.JsonOutput.prettyPrint(body.toString())
+            } catch (Exception e) {
+                return body
+            }
+      - setHeader:
+          name: "Content-Type"
+          constant: "application/json"

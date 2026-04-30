@@ -1,0 +1,2 @@
+
+[Incubating] Problems report is available at: file:///home/pratyush/software/temp/enterprise-integration-platform/eip-core-consumer/build/reports/problems/problems-report.html

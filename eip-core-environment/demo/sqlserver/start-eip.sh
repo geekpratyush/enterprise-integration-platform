@@ -1,84 +1,83 @@
 #!/bin/bash
-# ======================================================================
-#                SQLSERVER PLATFORM MISSION CONTROL
-# ======================================================================
-
-set -e
-BASE_DIR=$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)
-PROJECT_DIR="/home/pratyush/software/eip-core-integration/eip-core-consumer"
-
-clear
 echo "======================================================================"
-echo "                SQLSERVER PLATFORM MISSION CONTROL                     "
+echo "                   SQLSERVER PLATFORM MISSION CONTROL                  "
 echo "======================================================================"
-echo "ID  | MODE                 | SECURITY        | PORT / SCHEMA"
+echo "ID  | MODE                           | SECURITY       "
 echo "----------------------------------------------------------------------"
-echo "1   | non-ssl-sqlserver    | Plaintext       | 1433 / eip_db"
-echo "2   | ssl-oneway           | SSL (Server)    | 1433 / eip_db"
-echo "3   | ssl-sqlserver        | Enforced SSL    | 1433 / eip_db"
+echo "1   | Single Node                    | None           "
+echo "2   | Single Node                    | SSL (1-Way)    "
+echo "3   | Single Node                    | Mutual TLS     "
 echo "======================================================================"
-echo ""
-read -p "Select a number [1-3]: " CHOICE
 
+read -p "Select a number [1-3]: " CHOICE
 case $CHOICE in
-  1) MODE="non-ssl-sqlserver" ;;
-  2) MODE="ssl-oneway" ;;
-  3) MODE="ssl-sqlserver" ;;
-  *) echo "Invalid option"; exit 1 ;;
+    1) SCENARIO="non-ssl-sqlserver" ;;
+    2) SCENARIO="ssl-oneway-sqlserver" ;;
+    3) SCENARIO="ssl-mtls-sqlserver" ;;
+    *) echo "Invalid choice"; exit 1 ;;
 esac
 
-export MODE
-# Ensure cert directory exists before volume mount
-mkdir -p "${BASE_DIR}/02_initialization/certs/${MODE}"
+export SCENARIO
+EIP_SCRIPT_DIR=$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)
+export MODE="$SCENARIO"
+export EIP_CERT_DIR="${EIP_SCRIPT_DIR}/02_initialization/certs/${MODE}"
+mkdir -p "$EIP_CERT_DIR"
 
-# Load environment profile
-PROFILE_FILE="${BASE_DIR}/03_environment/profiles/${MODE}.env"
-set -a
-source $PROFILE_FILE
-set +a
+# PHASE 0.5: LOADING CONFIGURATION
+source "$EIP_SCRIPT_DIR/03_environment/setup-env.sh" "$SCENARIO"
 
-echo ">>> STARTING SQLSERVER LIFECYCLE: $MODE"
+# PHASE 0: CLEANUP
+echo -e "\033[34m>>> PHASE 0: CLEANUP\033[0m"
+pkill -f "eip-core-consumer" > /dev/null 2>&1 || true
 
-# PHASE 1: PROVISIONING
-echo ">>> PHASE 1: PROVISIONING"
-docker rm -f sqlserver-platform 2>/dev/null || true
-
-if [[ "$MODE" == "ssl-"* ]] || [[ "$MODE" == "tcps-"* ]]; then
-    echo "    >>> Orchestrating PKI for $MODE..."
-    bash ${BASE_DIR}/02_initialization/setup-pki.sh
-    echo "    >>> Generating mssql.conf for $MODE..."
-    cat > "${BASE_DIR}/02_initialization/certs/${MODE}/mssql.conf" <<EOF
-[network]
-tlscert = /etc/ssl/sqlserver/server-cert.pem
-tlskey = /etc/ssl/sqlserver/server-key.pem
-tlsprotocols = 1.2
-forceencryption = 1
-EOF
+# Select appropriate Docker strategy
+if [[ "$SCENARIO" == "ssl-"* ]]; then
+    DOCKER_FILE="$EIP_SCRIPT_DIR/01_provisioning/docker-sqlserver-secure.yaml"
+    echo "    >>> [MODE] Industrialized Secure Image Strategy"
 else
-    echo "    >>> Creating default mssql.conf for $MODE..."
-    cat > "${BASE_DIR}/02_initialization/certs/${MODE}/mssql.conf" <<EOF
-[network]
-forceencryption = 0
-EOF
+    DOCKER_FILE="$EIP_SCRIPT_DIR/01_provisioning/docker-sqlserver.yaml"
+    echo "    >>> [MODE] Standard Baseline Image Strategy"
 fi
 
-docker compose -f ${BASE_DIR}/01_provisioning/docker-sqlserver.yaml up -d
+docker compose -p sqlserver -f "$DOCKER_FILE" down -v --remove-orphans
+docker rm -f sqlserver-platform > /dev/null 2>&1 || true
+echo "    >>> Environmental state purged."
 
-# PHASE 2: INITIALIZATION
-echo ">>> PHASE 2: INITIALIZATION"
-echo "    >>> Waiting for SQL Server to be ready..."
-# SQL Server takes a while to start
-until docker exec sqlserver-platform /opt/mssql-tools18/bin/sqlcmd -S localhost -U sa -P Password123! -C -Q "SELECT 1" &>/dev/null; do
-    echo -n "."
-    sleep 5
+# PHASE 0.7: PKI INITIALIZATION
+echo -e "\033[34m>>> PHASE 0.7: PKI INITIALIZATION\033[0m"
+if [[ "$SCENARIO" == "ssl-"* ]]; then
+    bash "$EIP_SCRIPT_DIR/02_initialization/setup-pki.sh" "$SCENARIO"
+else
+    echo "    (Non-SSL Scenario: Skipping PKI)"
+fi
+
+# PHASE 1: PROVISIONING
+echo -e "\033[34m>>> PHASE 1: PROVISIONING"
+docker compose -p sqlserver -f "$DOCKER_FILE" up -d --force-recreate
+
+TARGET_PORT=${EIP_SQLSERVER_PORT:-1433}
+echo -n ">>> Waiting for SQLServer listener (Port $TARGET_PORT)..."
+until nc -z 127.0.0.1 $TARGET_PORT; do
+  echo -n "."
+  sleep 2
 done
-echo ""
-echo "    >>> SQL Server is READY."
+echo -e "\n>>> SQLSERVER is ACTIVE."
 
-echo "    >>> Initializing DB Schema (Liquibase)..."
-bash ${BASE_DIR}/02_initialization/setup-db.sh
+# PHASE 2.5: SCHEMA PROVISIONING
+echo -e "\033[34m>>> PHASE 2.5: SCHEMA PROVISIONING\033[0m"
+bash "$EIP_SCRIPT_DIR/02_initialization/setup-db.sh" "$SCENARIO"
 
 # PHASE 4: LAUNCHING CONSUMER
-echo ">>> PHASE 4: LAUNCHING CONSUMER (GRADLE)"
-cd $PROJECT_DIR
-./gradlew clean quarkusDev
+echo -e "\033[34m>>> PHASE 4: LAUNCHING CONSUMER\033[0m"
+echo ">>> [SYSTEM] Bootstrapping EIP SQLServer Consumer..."
+
+declare -a EXTRA_OPTS
+for var in $(env | grep -E "^(QUARKUS_|CAMEL_|EIP_)" | cut -d= -f1); do
+    prop_name=$(echo "$var" | tr '[:upper:]' '[:lower:]' | tr '_' '.')
+    EXTRA_OPTS+=("-D$prop_name=${!var}")
+done
+
+export JDK_JAVA_OPTIONS="--add-opens java.base/java.nio=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/sun.nio.ch=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/jdk.internal.ref=ALL-UNNAMED"
+
+CONSUMER_JAR="$EIP_SCRIPT_DIR/../../../eip-core-consumer/build/quarkus-app/quarkus-run.jar"
+java $JAVA_OPTS "${EXTRA_OPTS[@]}" -jar "$CONSUMER_JAR"

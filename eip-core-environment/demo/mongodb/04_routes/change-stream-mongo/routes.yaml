@@ -7,11 +7,12 @@
       uri: "timer:trigger-insert?period=30000&repeatCount=1"
       steps:
         - setBody:
-            constant: "{\"messageId\": \"STRM-001\", \"status\": \"NEW\", \"type\": \"CDC-TEST\"}"
+            constant: "{\"messageId\": \"STRM-001\", \"status\": \"NEW\", \"type\":
+              \"CDC-TEST\"}"
         - to:
             uri: "kamelet:eip-mongodb-sink"
             parameters:
-              connectionBean: "client1"
+              connectionBean: "mongoClient"
               database: "eip_db"
               collection: "operations"
               operation: "insert"
@@ -30,7 +31,7 @@
         - to:
             uri: "kamelet:eip-mongodb-action"
             parameters:
-              connectionBean: "client1"
+              connectionBean: "mongoClient"
               database: "eip_db"
               collection: "operations"
               operation: "update"
@@ -50,7 +51,7 @@
         - to:
             uri: "kamelet:eip-mongodb-sink"
             parameters:
-              connectionBean: "client1"
+              connectionBean: "mongoClient"
               database: "eip_db"
               collection: "operations"
               operation: "update"
@@ -66,10 +67,11 @@
     from:
       uri: "kamelet:eip-mongodb-source"
       parameters:
-        connectionBean: "client1"
+        connectionBean: "mongoClient"
         database: "eip_db"
         collection: "operations"
         # Only capture 'update' operations where status becomes 'MUTATED'
-        streamFilter: "{ $match: { 'operationType': 'update', 'updateDescription.updatedFields.status': 'MUTATED' } }"
+        streamFilter: "{ $match: { 'operationType': 'update',
+          'updateDescription.updatedFields.status': 'MUTATED' } }"
       steps:
         - log: ">>> [OBSERVER] Mutation Captured! Event: ${body}"

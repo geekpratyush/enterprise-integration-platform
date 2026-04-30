@@ -1,43 +1,31 @@
 #!/bin/bash
-# ======================================================================
-#                MYSQL DB INITIALIZATION (LIQUIBASE)
-# ======================================================================
-
+# setup-db.sh (MySQL Edition)
+# MISSION: Industrialized Liquibase Schema Migration
+# ----------------------------------------------------------------------
 set -e
-BASE_DIR="/home/pratyush/software/eip-core-integration/eip-core-environment/demo/mysql"
-LIQUIBASE_JAR="/home/pratyush/software/eip-core-integration/eip-core-liquibase/build/libs/eip-core-liquibase.jar"
+
+BASE_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+LIQUIBASE_JAR="${BASE_DIR}/../../../liquibase/eip-core-liquibase.jar"
+
+if [ ! -f "$LIQUIBASE_JAR" ]; then 
+    echo "ERROR: Liquibase JAR not found at $LIQUIBASE_JAR"; 
+    exit 1; 
+fi
 
 echo ">>> MYSQL: Initializing Schema via Liquibase..."
 
-# Safety Check: Ensure variables are set and exported
-if [ -z "$QUARKUS_DATASOURCE_JDBC_URL" ]; then
-    echo "ERROR: QUARKUS_DATASOURCE_JDBC_URL is not set. Reloading profile..."
-    # Fallback to sourcing the mode-specific profile if variable is missing
-    PROFILE_FILE="${BASE_DIR}/03_environment/profiles/${MODE}.env"
-    if [ -f "$PROFILE_FILE" ]; then
-        set -a
-        source "$PROFILE_FILE"
-        set +a
-    else
-        echo "CRITICAL ERROR: Profile for mode '$MODE' not found."
-        exit 1
-    fi
-fi
+# Resolve Core Credentials
+JDBC_URL="${QUARKUS_DATASOURCE_JDBC_URL:-$QUARKUS_DATASOURCE_EIP_JDBC_URL}"
+USERNAME="${QUARKUS_DATASOURCE_USERNAME:-$QUARKUS_DATASOURCE_EIP_USERNAME}"
+PASSWORD="${QUARKUS_DATASOURCE_PASSWORD:-$QUARKUS_DATASOURCE_EIP_PASSWORD}"
 
-# Final Check
-if [ -z "$QUARKUS_DATASOURCE_JDBC_URL" ]; then
-    echo "CRITICAL ERROR: Environment variables were not successfully propagated."
-    exit 1
-fi
-
-echo "    >>> Using URL: $QUARKUS_DATASOURCE_JDBC_URL"
-
-java -jar $LIQUIBASE_JAR \
+# Execute Migration
+java $JAVA_OPTS -jar $LIQUIBASE_JAR \
     --search-path=${BASE_DIR}/02_initialization/changelog \
     --changelog-file=db.changelog-master.yaml \
-    --url="$QUARKUS_DATASOURCE_JDBC_URL" \
-    --username="$QUARKUS_DATASOURCE_USERNAME" \
-    --password="$QUARKUS_DATASOURCE_PASSWORD" \
+    --url="$JDBC_URL" \
+    --username="$USERNAME" \
+    --password="$PASSWORD" \
     update
 
-echo ">>> MYSQL: Schema Ready."
+echo ">>> MYSQL: Schema Industrialized Successfully."

@@ -5,11 +5,14 @@
 
 set -e
 
-BASE_CERT_DIR="/home/pratyush/software/eip-core-integration/eip-core-environment/demo/mysql/02_initialization/certs"
-CERT_DIR="${BASE_CERT_DIR}/${MODE:-ssl-mysql}"
+BASE_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+BASE_CERT_DIR="${BASE_DIR}/certs"
+# Industrialized Mode Resolution: Use the first argument (Scenario)
+MODE="${1:-ssl-mysql}"
+CERT_DIR="${BASE_CERT_DIR}/${MODE}"
 mkdir -p "$CERT_DIR"
 
-echo ">>> MYSQL PKI: Generating Certificates (${MODE:-ssl-mysql})..."
+echo ">>> MYSQL PKI: Generating Certificates ($MODE)..."
 
 # 0. Clean Slate
 rm -rf $CERT_DIR/*.pem $CERT_DIR/*.p12 $CERT_DIR/*.pk8

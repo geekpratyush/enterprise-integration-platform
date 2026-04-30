@@ -1,92 +1,78 @@
 #!/bin/bash
-# start-eip.sh - CONFLUENT KAFKA MISSION CONTROL
-# Lifecycle: Provision -> PKI -> Env -> Topics -> Consumer
-
-EIP_SCRIPT_DIR=$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)
-CONSUMER_DIR=$(realpath "$EIP_SCRIPT_DIR/../../../eip-core-consumer")
-CONTAINER_NAME="kafka-platform"
-
 echo "======================================================================"
-echo "                CONFLUENT KAFKA PLATFORM MISSION CONTROL               "
+echo "                   KAFKA PLATFORM MISSION CONTROL                     "
 echo "======================================================================"
-echo "ID  | MODE                 | SECURITY        | PORT        "
+echo "ID  | MODE                           | SECURITY       "
 echo "----------------------------------------------------------------------"
-echo "1   | non-ssl-kafka        | PLAINTEXT       | 9092        "
-echo "2   | mtls-kafka           | Mutual TLS      | 9095        "
+echo "1   | Single Node                    | None           "
+echo "2   | Single Node                    | Mutual TLS     "
 echo "======================================================================"
-echo ""
+
 read -p "Select a number [1-2]: " CHOICE
 
 case $CHOICE in
     1) SCENARIO="non-ssl-kafka" ;;
     2) SCENARIO="mtls-kafka" ;;
-    *) echo "Invalid choice."; exit 1 ;;
+    *) echo "Invalid choice"; exit 1 ;;
 esac
 
-echo -e "\033[33m>>> STARTING CONFLUENT KAFKA LIFECYCLE: $SCENARIO\033[0m"
+export SCENARIO
+EIP_SCRIPT_DIR=$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)
 
-# PHASE 0: ENVIRONMENT RESOLUTION (Source of Truth)
-echo -e "\033[34m>>> PHASE 0: ENVIRONMENT PREP\033[0m"
+# Phase -1: Clean Slate (Unset EIP/Quarkus variables to prevent pollution)
+echo ">>> [SYSTEM] Resetting environment for $SCENARIO..."
+for var in $(env | grep -E "^(EIP_|QUARKUS_|JAVA_OPTS|CAMEL_|MONGO|KAFKA)" | cut -d= -f1); do
+    unset "$var"
+done
+export SCENARIO # Re-export after cleanup
+
+# PHASE 0.5: LOADING CONFIGURATION
 source "$EIP_SCRIPT_DIR/03_environment/setup-env.sh" "$SCENARIO"
 
-# PHASE 1: DEEP PURGE
-echo -e "\033[34m>>> PHASE 1: DEEP PURGE\033[0m"
-pkill -f "eip-core-consumer" > /dev/null 2>&1 || true
-docker compose -f "$EIP_SCRIPT_DIR/01_provisioning/docker-isolated.yaml" down -v --remove-orphans
-rm -rf "$EIP_SCRIPT_DIR/02_initialization/certs"
-mkdir -p "$EIP_SCRIPT_DIR/02_initialization/certs"
-echo "    >>> Clean State Achieved."
+echo ">>> PHASE 0: CLEANUP"
+docker compose -p ckafka -f "$EIP_SCRIPT_DIR/01_provisioning/docker-isolated.yaml" down -v
+echo "    >>> Environment purged."
 
-# PHASE 2: INITIALIZATION (Security & Storage)
-echo -e "\033[34m>>> PHASE 2: INITIALIZATION\033[0m"
-if [[ "$SCENARIO" == "mtls-kafka" ]]; then
-    bash "$EIP_SCRIPT_DIR/02_initialization/setup-pki.sh" "$SCENARIO"
-fi
 
-# PHASE 3: PROVISIONING (Orchestration)
-echo -e "\033[34m>>> PHASE 3: PROVISIONING\033[0m"
-DOCKER_FILE="docker-isolated.yaml"
-# All variables are now sourced from the environment profile directly
-docker compose -f "$EIP_SCRIPT_DIR/01_provisioning/$DOCKER_FILE" --project-directory "$EIP_SCRIPT_DIR/01_provisioning" up -d --remove-orphans
-
-if [[ "$SCENARIO" == "mtls-kafka" ]]; then
-    echo -e ">>> \033[33m[READINESS-CHECK] Waiting for Confluent JVM to bind SSL Port 9095...\033[0m"
-    sleep 15
-    while ! (echo > /dev/tcp/127.0.0.1/9095) >/dev/null 2>&1; do echo -n "."; sleep 2; done
-    echo -e "\n>>> \033[32m[READINESS-CHECK] SSL Listener 9095 is ACTIVE.\033[0m"
-
-    echo ">>> [SSL-GATE] Performing authoritative mTLS handshake probe..."
-    if openssl s_client -connect 127.0.0.1:9095 -cert "$EIP_CERT_DIR/client.crt" -key "$EIP_CERT_DIR/client.key" -CAfile "$EIP_CERT_DIR/root.crt" < /dev/null > /tmp/ssl_probe.log 2>&1; then
-        echo -e ">>> \033[32m[SSL-GATE] Handshake Verified: 0 (ok). PERIMETER SECURE.\033[0m"
-    else
-        echo -e ">>> \033[31m[SSL-GATE] Handshake FAILED!\033[0m"
-        exit 1
+echo ">>> PHASE 0.7: PKI INITIALIZATION"
+# Only run PKI if it's an SSL scenario
+if [[ "$SCENARIO" == "mtls-"* ]] || [[ "$SCENARIO" == "ssl-"* ]]; then
+    if [ -f "$EIP_SCRIPT_DIR/02_initialization/setup-pki.sh" ]; then
+        bash "$EIP_SCRIPT_DIR/02_initialization/setup-pki.sh" "$SCENARIO"
     fi
 fi
 
-# Wait for Kafka to be ready via standard plaintext port (internal topics/admin)
-echo ">>> Waiting for Kafka Broker bootstrap..."
-COUNT=0
-while ! docker exec $CONTAINER_NAME kafka-topics --bootstrap-server localhost:9092 --list > /dev/null 2>&1; do
-    echo -n "."; sleep 2; ((COUNT++))
-    if [ $COUNT -ge 30 ]; then echo -e "\n\033[31mTimeout: Kafka Broker failed to start.\033[0m"; exit 1; fi
+echo ">>> PHASE 1: PROVISIONING"
+docker compose -p ckafka -f "$EIP_SCRIPT_DIR/01_provisioning/docker-isolated.yaml" up -d --force-recreate
+
+# Wait for Port (using EIP_KAFKA_PORT or default 9092)
+TARGET_PORT=${EIP_KAFKA_PORT:-9092}
+echo -n ">>> Waiting for Kafka listener (Port $TARGET_PORT)..."
+while ! nc -z 127.0.0.1 $TARGET_PORT; do
+  echo -n "."
+  sleep 1
 done
-echo -e "\n>>> Kafka Broker is READY."
+echo -e "\n>>> [HEALTH] Port $TARGET_PORT is OPEN."
 
-echo ">>> Initializing Standard Topics [audit_log, telemetry]..."
-docker exec $CONTAINER_NAME kafka-topics --bootstrap-server localhost:9092 --create --if-not-exists --topic audit_log --replication-factor 1 --partitions 1 > /dev/null 2>&1
-docker exec $CONTAINER_NAME kafka-topics --bootstrap-server localhost:9092 --create --if-not-exists --topic telemetry --replication-factor 1 --partitions 1 > /dev/null 2>&1
-echo "Created topics audit_log & telemetry."
+# Phase 1.5: Metadata Engine Warmup (Prevents 'Bootstrap broker disconnected' logs)
+echo -n ">>> Waiting for Kafka Metadata Engine (Internal Warmup)..."
+until docker exec ckafka-platform kafka-topics --bootstrap-server localhost:29092 --list > /dev/null 2>&1; do
+  echo -n "."
+  sleep 1
+done
+echo -e "\n>>> KAFKA is FULLY ACTIVE."
 
-# PHASE 4: LAUNCHING CONSUMER
-echo -e "\033[34m>>> PHASE 4: LAUNCHING CONSUMER\033[0m"
-cd "$CONSUMER_DIR"
+echo ">>> PHASE 4: LAUNCHING CONSUMER"
+echo ">>> [SYSTEM] Bootstrapping EIP Kafka Consumer..."
 
-# Standard SSL injection for mTLS scenarios (JVM level identity propagation)
-SSL_OPTS=""
-if [[ "$SCENARIO" == "mtls-kafka" ]]; then
-    SSL_OPTS="-Djavax.net.ssl.keyStore=$EIP_CERT_DIR/client.keystore.p12 -Djavax.net.ssl.keyStorePassword=password -Djavax.net.ssl.trustStore=$EIP_CERT_DIR/audit-truststore.p12 -Djavax.net.ssl.trustStorePassword=password"
-    echo ">>> [IDENTITY] Injected mTLS System Properties."
+CONSUMER_JAR="$EIP_SCRIPT_DIR/../../../eip-core-consumer/build/quarkus-app/quarkus-run.jar"
+if [ ! -f "$CONSUMER_JAR" ]; then
+    echo ">>> [ERROR] Consumer JAR not found at $CONSUMER_JAR"
+    echo ">>> Please build the project using ./gradlew build"
+    exit 1
 fi
 
-./gradlew quarkusDev -Dquarkus.profile=prod $SSL_OPTS
+# Fix for Netty 'CleanerJava9' NPE on Java 17+ and Route Discovery
+export JDK_JAVA_OPTIONS="--add-opens java.base/java.nio=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/sun.nio.ch=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/jdk.internal.ref=ALL-UNNAMED"
+
+java $JAVA_OPTS -jar "$CONSUMER_JAR"

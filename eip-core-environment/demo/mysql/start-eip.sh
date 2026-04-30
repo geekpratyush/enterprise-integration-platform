@@ -1,79 +1,83 @@
 #!/bin/bash
 # start-eip.sh (MySQL Edition)
-# MISSION: Interactive Orchestrator for MySQL Lifecycle
+# MISSION: Industrialized Mission Control for MySQL Integration Tracks
 # ----------------------------------------------------------------------
-
-set -e
-
-BASE_DIR="/home/pratyush/software/eip-core-integration/eip-core-environment/demo/mysql"
-
 echo "======================================================================"
-echo "                MYSQL PLATFORM MISSION CONTROL                        "
+echo "                   MYSQL PLATFORM MISSION CONTROL                      "
 echo "======================================================================"
-echo "ID  | MODE                 | SECURITY        | PORT / SCHEMA"
+echo "ID  | MODE                           | SECURITY       "
 echo "----------------------------------------------------------------------"
-echo "1   | non-ssl-mysql        | Plaintext       | 3306 / eip_db"
-echo "2   | ssl-oneway           | SSL (Server-Only)| 3306 / eip_db"
-echo "3   | ssl-mysql            | Mutual SSL      | 3306 / eip_db"
+echo "1   | Single Node                    | None           "
+echo "2   | Single Node                    | SSL (1-Way)    "
+echo "3   | Single Node                    | Mutual TLS     "
 echo "======================================================================"
-echo ""
-read -p "Select a number [1-3]: " CHOICE
 
+read -p "Select a number [1-3]: " CHOICE
 case $CHOICE in
-  1) MODE="non-ssl-mysql" ;;
-  2) MODE="ssl-oneway" ;;
-  3) MODE="ssl-mysql" ;;
-  *) echo "Invalid selection. Exit."; exit 1 ;;
+    1) SCENARIO="non-ssl-mysql" ;;
+    2) SCENARIO="ssl-oneway" ;;
+    3) SCENARIO="ssl-mysql" ;;
+    *) echo "Invalid choice"; exit 1 ;;
 esac
 
-echo ">>> STARTING MYSQL LIFECYCLE: $MODE"
+export SCENARIO
+EIP_SCRIPT_DIR=$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)
+export MODE="$SCENARIO"
 
-# PHASE 0: ENVIRONMENT PREP
-export MODE=$MODE
-# Ensure cert directory exists to avoid Docker auto-creating it as root
-mkdir -p "${BASE_DIR}/02_initialization/certs/${MODE}"
-PROFILE_FILE="${BASE_DIR}/03_environment/profiles/${MODE}.env"
-if [ ! -f "$PROFILE_FILE" ]; then
-    echo "Error: Profile $PROFILE_FILE not found."
-    exit 1
+# PHASE 0: CLEAN SLATE & INFRA PURGE
+echo -e "\033[34m>>> PHASE 0: CLEAN SLATE\033[0m"
+# Stop any existing consumer or containers
+pkill -f "eip-core-consumer" > /dev/null 2>&1 || true
+
+echo "    >>> Purging previous infrastructure and mounts..."
+docker rm -f mysql-platform > /dev/null 2>&1 || true
+docker compose -p mysql -f "$EIP_SCRIPT_DIR/01_provisioning/docker-mysql.yaml" down -v --remove-orphans > /dev/null 2>&1 || true
+docker compose -p mysql -f "$EIP_SCRIPT_DIR/01_provisioning/docker-mysql-secure.yaml" down -v --remove-orphans > /dev/null 2>&1 || true
+docker network rm mysql_eip-net > /dev/null 2>&1 || true
+
+# Purge Local Certificate Mounts (Prevent stale cert leakage)
+rm -rf "$EIP_SCRIPT_DIR/02_initialization/certs/"* > /dev/null 2>&1 || true
+echo "    >>> Environmental state and mounts purged."
+
+# Select appropriate Docker strategy
+if [[ "$SCENARIO" == "ssl-"* ]]; then
+    DOCKER_FILE="$EIP_SCRIPT_DIR/01_provisioning/docker-mysql-secure.yaml"
+    echo "    >>> [MODE] Industrialized Secure Image Strategy"
+else
+    DOCKER_FILE="$EIP_SCRIPT_DIR/01_provisioning/docker-mysql.yaml"
+    echo "    >>> [MODE] Standard Baseline Image Strategy"
 fi
 
-# Load Env for Provisioning
-set -a
-source $PROFILE_FILE
-set +a
+# PHASE 1: LOADING ENVIRONMENT
+source "$EIP_SCRIPT_DIR/03_environment/setup-env.sh" "$SCENARIO"
 
-# PHASE 1: PROVISIONING
-echo ">>> PHASE 1: PROVISIONING"
-# Mandatory Cleanup
-docker rm -f mysql-platform 2>/dev/null || true
-
-if [[ "$MODE" == "ssl-"* ]] || [[ "$MODE" == "tcps-"* ]]; then
-    echo "    >>> Orchestrating PKI for $MODE..."
-    bash ${BASE_DIR}/02_initialization/setup-pki.sh
+# PHASE 2: PKI INITIALIZATION
+echo -e "\033[34m>>> PHASE 2: PKI INITIALIZATION\033[0m"
+if [[ "$SCENARIO" == "ssl-"* ]]; then
+    bash "$EIP_SCRIPT_DIR/02_initialization/setup-pki.sh" "$SCENARIO"
+else
+    echo "    (Non-SSL Scenario: Skipping PKI)"
 fi
 
-docker compose -f ${BASE_DIR}/01_provisioning/docker-mysql.yaml up -d
+# PHASE 3: PROVISIONING
+echo -e "\033[34m>>> PHASE 3: PROVISIONING\033[0m"
+# Build and Launch MySQL
+MYSQL_OPTS="$MYSQL_OPTS" docker compose -p mysql -f "$DOCKER_FILE" up -d --build --force-recreate
 
-# PHASE 2: INITIALIZATION
-echo ">>> PHASE 2: INITIALIZATION"
-echo "    >>> Waiting for MySQL and 'eip_db' to be fully established..."
-until docker exec mysql-platform mysql -ueip_user -peip_password -e "SELECT 1" eip_db &>/dev/null; do
-    echo -n "."
-    sleep 3
+TARGET_PORT=${EIP_MYSQL_PORT:-3306}
+echo -n ">>> Waiting for MySQL to stabilize (Port $TARGET_PORT)..."
+# Industrialized Health Check: Use mysqladmin ping via root for reliability
+until docker exec mysql-platform mysqladmin ping -ueip_user -peip_password > /dev/null 2>&1; do
+  echo -n "."
+  sleep 2
 done
-echo ""
-echo "    >>> MySQL and eip_db are READY."
+echo -e "\n>>> MYSQL is FULLY ACTIVE."
 
-# 1.1 Schema Initialization
-echo "    >>> Initializing DB Schema..."
-bash ${BASE_DIR}/02_initialization/setup-db.sh
+# PHASE 4: SCHEMA PROVISIONING
+echo -e "\033[34m>>> PHASE 4: SCHEMA PROVISIONING\033[0m"
+bash "$EIP_SCRIPT_DIR/02_initialization/setup-db.sh" "$SCENARIO"
 
-# PHASE 3: IDENTITY MOUNTING (Not strictly needed for SQL but reserved for metadata)
-
-# PHASE 4: LAUNCHING CONSUMER
-echo ">>> PHASE 4: LAUNCHING CONSUMER (GRADLE)"
-cd /home/pratyush/software/eip-core-integration/eip-core-consumer
-# Inject profile into Quarkus Dev
-export QUARKUS_PROFILE=dev
-./gradlew quarkusDev --no-daemon
+# PHASE 5: LAUNCH CONSUMER
+echo -e "\033[34m>>> PHASE 5: LAUNCH EIP CONSUMER\033[0m"
+CONSUMER_JAR="$EIP_SCRIPT_DIR/../../../eip-core-consumer/build/quarkus-app/quarkus-run.jar"
+java $JAVA_OPTS -jar "$CONSUMER_JAR"

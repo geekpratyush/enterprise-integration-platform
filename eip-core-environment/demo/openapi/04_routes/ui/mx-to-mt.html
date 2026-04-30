@@ -237,8 +237,23 @@
                 colors: { 'editor.background': '#1e293b' }
             });
 
-            const initialContent = [
-`<?xml version="1.0" encoding="UTF-8"?>
+                const initialContent = [
+`<fuel>
+<AppHdr xmlns="urn:iso:std:iso:20022:tech:xsd:head.001.001.01">
+    <Fr>
+        <FIId>
+            <FinInstnId><BICFI>SNDRBBXXXXX</BICFI></FinInstnId>
+        </FIId>
+    </Fr>
+    <To>
+        <FIId>
+            <FinInstnId><BICFI>RECVBBXXXXX</BICFI></FinInstnId>
+        </FIId>
+    </To>
+    <BizMsgIdr>EIP-TRANS-9900</BizMsgIdr>
+    <MsgDefIdr>pacs.008.001.08</MsgDefIdr>
+    <CreDt>2026-04-28T10:30:00Z</CreDt>
+</AppHdr>
 <Document xmlns="urn:iso:std:iso:20022:tech:xsd:pacs.008.001.08" 
           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <FIToFICstmrCdtTrf>
@@ -246,207 +261,74 @@
             <MsgId>KONDUCTOR-REF-9876543210</MsgId>
             <CreDtTm>2026-04-28T10:30:00Z</CreDtTm>
             <NbOfTxs>1</NbOfTxs>
-            <SttlmInf>
-                <SttlmMtd>INDA</SttlmMtd>
-                <SttlmAcct>
-                    <Id>
-                        <IBAN>US12345678901234567890</IBAN>
-                    </Id>
-                </SttlmAcct>
-            </SttlmInf>
         </GrpHdr>
-
         <CdtTrfTxInf>
             <PmtId>
                 <InstrId>INSTR-ID-001</InstrId>
                 <EndToEndId>E2E-REF-ABC-123</EndToEndId>
-                <TxId>TX-REF-XYZ-789</TxId>
                 <UETR>eb0064f2-9599-4d69-873b-5a63967d6438</UETR>
             </PmtId>
-
-            <PmtTpInf>
-                <SvcLvl>
-                    <Cd>URGP</Cd>
-                </SvcLvl>
-                <LclInstrm>
-                    <Prtry>CRED</Prtry>
-                </LclInstrm>
-                <CtgyPurp>
-                    <Cd>CASH</Cd>
-                </CtgyPurp>
-            </PmtTpInf>
-
             <IntrBkSttlmAmt Ccy="USD">125450.75</IntrBkSttlmAmt>
             <IntrBkSttlmDt>2026-04-28</IntrBkSttlmDt>
-
-            <XchgRate>1.085</XchgRate>
-
             <ChrgBr>SHA</ChrgBr>
-            <ChrgsInf>
-                <Amt Ccy="USD">25.00</Amt>
-                <Agt>
-                    <FinInstnId>
-                        <BICFI>BANKINBBAXXX</BICFI>
-                    </FinInstnId>
-                </Agt>
-            </ChrgsInf>
-
             <Dbtr>
                 <Nm>PRATYUSH RANJAN MISHRA</Nm>
-                <PstlAdr>
-                    <Dept>IT ARCHITECTURE</Dept>
-                    <StrtNm>ODISHA LANE</StrtNm>
-                    <BldgNb>123</BldgNb>
-                    <TwnNm>BHUBANESWAR</TwnNm>
-                    <Ctry>IN</Ctry>
-                </PstlAdr>
             </Dbtr>
             <DbtrAcct>
-                <Id>
-                    <Othr>
-                        <Id>987654321</Id>
-                    </Othr>
-                </Id>
+                <Id><Othr><Id>987654321</Id></Othr></Id>
             </DbtrAcct>
-
-            <DbtrAgt>
-                <FinInstnId>
-                    <BICFI>SNDRBBXXXXX</BICFI>
-                </FinInstnId>
-            </DbtrAgt>
-
-            <PrvsInstgAgt1>
-                <FinInstnId>
-                    <BICFI>PREVBBXXXXX</BICFI>
-                </FinInstnId>
-            </PrvsInstgAgt1>
-
-            <IntrmyAgt1>
-                <FinInstnId>
-                    <BICFI>INTMBBXXXXX</BICFI>
-                </FinInstnId>
-            </IntrmyAgt1>
-
-            <CdtrAgt>
-                <FinInstnId>
-                    <BICFI>RECVBBXXXXX</BICFI>
-                </FinInstnId>
-            </CdtrAgt>
-
             <Cdtr>
                 <Nm>BENEFICIARY CORP LTD</Nm>
-                <PstlAdr>
-                    <AdrLine>WALL STREET 42</AdrLine>
-                    <AdrLine>NEW YORK, 10005</AdrLine>
-                    <Ctry>US</Ctry>
-                </PstlAdr>
             </Cdtr>
             <CdtrAcct>
-                <Id>
-                    <Othr>
-                        <Id>87654321</Id>
-                    </Othr>
-                </Id>
+                <Id><Othr><Id>87654321</Id></Othr></Id>
             </CdtrAcct>
-
-            <Purp>
-                <Cd>GDDS</Cd>
-            </Purp>
-            <RgltryRptg>
-                <Dtls>
-                    <Cd>INV</Cd>
-                    <Inf>REGULATORY REPORT: EXPORT PROCEEDS FOR Q2</Inf>
-                </Dtls>
-            </RgltryRptg>
-
-            <RmtInf>
-                <Ustrd>INVOICE INV-2026-ABC SHIPMENT OF INDUSTRIAL PARTS</Ustrd>
-                <Strd>
-                    <RfrdDocInf>
-                        <Tp>
-                            <CdOrPrtry>
-                                <Cd>CINV</Cd>
-                            </CdOrPrtry>
-                        </Tp>
-                        <Nb>INV-2026-ABC</Nb>
-                        <RltdDt>2026-04-01</RltdDt>
-                    </RfrdDocInf>
-                </Strd>
-            </RmtInf>
         </CdtTrfTxInf>
     </FIToFICstmrCdtTrf>
-</Document>`,
+</Document>
+</fuel>`,
 `<?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet version="2.0" 
-    xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
-
+<xsl:stylesheet version="2.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     <xsl:output method="text" encoding="UTF-8"/>
-
-    <xsl:template match="/*">
-        <!-- Target the core transaction info block -->
+    
+    <xsl:template match="/">
+        <xsl:variable name="appHdr" select="//*[local-name()='AppHdr']"/>
         <xsl:variable name="tx" select="(//*[local-name()='CdtTrfTxInf'])[1]"/>
         
         <xsl:text>{1:F01</xsl:text>
-        <xsl:value-of select="substring(concat(normalize-space(string((//*[local-name()='Fr']//*[local-name()='BICFI'])[1])), 'XXXXXXXXXXXX'), 1, 12)"/>
+        <xsl:value-of select="substring(concat(($appHdr//*[local-name()='BICFI'])[1], 'XXXXXXXXXXXX'), 1, 12)"/>
         <xsl:text>0000000000}{2:I103</xsl:text>
-        <xsl:value-of select="substring(concat(normalize-space(string((//*[local-name()='To']//*[local-name()='BICFI'])[1])), 'XXXXXXXXXXXX'), 1, 12)"/>
+        <xsl:value-of select="substring(concat(($appHdr//*[local-name()='BICFI'])[2], 'XXXXXXXXXXXX'), 1, 12)"/>
         <xsl:text>N}{3:{121:</xsl:text>
-        <xsl:value-of select="normalize-space(string(($tx//*[local-name()='UETR'])[1]))"/>
+        <xsl:value-of select="($tx//*[local-name()='UETR'])[1]"/>
         <xsl:text>}}{4:&#10;</xsl:text>
         
         <xsl:text>:20:</xsl:text>
-        <xsl:value-of select="substring(normalize-space(string(($tx//*[local-name()='InstrId'])[1])), 1, 16)"/>
+        <xsl:value-of select="substring(($tx//*[local-name()='InstrId'])[1], 1, 16)"/>
         <xsl:text>&#10;</xsl:text>
-
+ 
         <xsl:text>:23B:CRED&#10;</xsl:text>
-
         <xsl:text>:32A:</xsl:text>
-        <xsl:variable name="date" select="normalize-space(string(($tx//*[local-name()='IntrBkSttlmDt'])[1]))"/>
+        <xsl:variable name="date" select="($tx//*[local-name()='IntrBkSttlmDt'])[1]"/>
         <xsl:value-of select="concat(substring($date, 3, 2), substring($date, 6, 2), substring($date, 9, 2))"/>
-        <xsl:value-of select="normalize-space(string(($tx//*[local-name()='IntrBkSttlmAmt'])[1]/@Ccy))"/>
-        <xsl:value-of select="translate(normalize-space(string(($tx//*[local-name()='IntrBkSttlmAmt'])[1])), '.', ',')"/>
+        <xsl:value-of select="($tx//*[local-name()='IntrBkSttlmAmt'])[1]/@Ccy"/>
+        <xsl:value-of select="translate(($tx//*[local-name()='IntrBkSttlmAmt'])[1], '.', ',')"/>
         <xsl:text>&#10;</xsl:text>
-
+ 
         <xsl:text>:50K:/</xsl:text>
-        <!-- Targeting the ultimate leaf ID explicitly to avoid cardinality errors -->
-        <xsl:variable name="dbtrId" select="$tx//*[local-name()='DbtrAcct']//*[local-name()='Othr']/*[local-name()='Id']"/>
-        <xsl:value-of select="normalize-space(string(($dbtrId)[1]))"/>
+        <xsl:value-of select="($tx//*[local-name()='DbtrAcct']//*[local-name()='Id'])[1]"/>
         <xsl:text>&#10;</xsl:text>
-        <xsl:call-template name="wrapText">
-            <xsl:with-param name="text" select="normalize-space(string(($tx//*[local-name()='Dbtr']/*[local-name()='Nm'])[1]))"/>
-        </xsl:call-template>
-
-        <xsl:text>:57A:</xsl:text>
-        <xsl:value-of select="normalize-space(string(($tx//*[local-name()='CdtrAgt']//*[local-name()='BICFI'])[1]))"/>
-        <xsl:text>&#10;</xsl:text>
-
+        <xsl:value-of select="substring(($tx//*[local-name()='Dbtr']/*[local-name()='Nm'])[1], 1, 35)"/><xsl:text>&#10;</xsl:text>
+ 
         <xsl:text>:59:/</xsl:text>
-        <xsl:variable name="cdtrId" select="$tx//*[local-name()='CdtrAcct']//*[local-name()='Othr']/*[local-name()='Id']"/>
-        <xsl:value-of select="normalize-space(string(($cdtrId)[1]))"/>
+        <xsl:value-of select="($tx//*[local-name()='CdtrAcct']//*[local-name()='Id'])[1]"/>
         <xsl:text>&#10;</xsl:text>
-        <xsl:call-template name="wrapText">
-            <xsl:with-param name="text" select="normalize-space(string(($tx//*[local-name()='Cdtr']/*[local-name()='Nm'])[1]))"/>
-        </xsl:call-template>
-
+        <xsl:value-of select="substring(($tx//*[local-name()='Cdtr']/*[local-name()='Nm'])[1], 1, 35)"/><xsl:text>&#10;</xsl:text>
+ 
         <xsl:text>:71A:</xsl:text>
-        <xsl:value-of select="normalize-space(string(($tx//*[local-name()='ChrgBr'])[1]))"/>
+        <xsl:value-of select="($tx//*[local-name()='ChrgBr'])[1]"/>
         <xsl:text>&#10;-}</xsl:text>
     </xsl:template>
-
-    <xsl:template name="wrapText">
-        <xsl:param name="text"/>
-        <xsl:variable name="cleanText" select="normalize-space(string($text))"/>
-        <xsl:if test="string-length($cleanText) > 0">
-            <xsl:value-of select="substring($cleanText, 1, 35)"/>
-            <xsl:text>&#10;</xsl:text>
-            <xsl:if test="string-length($cleanText) > 35">
-                <xsl:call-template name="wrapText">
-                    <xsl:with-param name="text" select="substring($cleanText, 36)"/>
-                </xsl:call-template>
-            </xsl:if>
-        </xsl:if>
-    </xsl:template>
-
 </xsl:stylesheet>`,
                 '<!-- Generated Target Payload -->'
             ];

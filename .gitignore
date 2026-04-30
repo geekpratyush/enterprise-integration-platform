@@ -34,3 +34,4 @@ eip-transformer-ui/node_modules/
 eip-transformer-ui/build/
 **/GENERATED_SCHEMA/
 **/.camel-jbang/
+**/liquibase/

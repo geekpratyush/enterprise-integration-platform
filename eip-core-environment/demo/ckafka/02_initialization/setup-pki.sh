@@ -2,7 +2,7 @@
 # 02_initialization/setup-pki.sh - CONFLUENT KAFKA SECURITY PREP
 
 EIP_INIT_DIR=$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)
-CERT_DIR="$EIP_INIT_DIR/certs"
+CERT_DIR=~/.eip/certs/ckafka
 PASSWORD="password"
 
 echo -e "\033[36m>>> CONFLUENT KAFKA: Initializing PKI Infrastructure...\033[0m"
@@ -19,7 +19,7 @@ openssl req -x509 -new -nodes -key "$CERT_DIR/root.key" -sha256 -days 3650 -out 
 openssl genrsa -out "$CERT_DIR/server.key" 2048
 openssl req -new -key "$CERT_DIR/server.key" -out "$CERT_DIR/server.csr" -subj "/CN=localhost"
 cat <<EOF > "$CERT_DIR/server_ext.conf"
-subjectAltName = DNS:localhost,DNS:kafka-platform,IP:127.0.0.1
+subjectAltName = DNS:localhost,DNS:ckafka-platform,IP:127.0.0.1
 EOF
 openssl x509 -req -in "$CERT_DIR/server.csr" -CA "$CERT_DIR/root.crt" -CAkey "$CERT_DIR/root.key" -CAcreateserial -out "$CERT_DIR/server.crt" -days 365 -sha256 -extfile "$CERT_DIR/server_ext.conf"
 

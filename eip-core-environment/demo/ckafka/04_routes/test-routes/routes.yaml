@@ -1,12 +1,15 @@
-# advanced-routes.yaml
-# Demonstrating Zero-Code technical metadata via Environment Profiles
+# routes.yaml
+# Optimized Kafka Routes with granular property control
 
 - route:
     id: "manual-commit-flow"
     from:
-      # Topic is mandatory in the Kamelet template; SSL/Bootstrap are auto-wired from env.
-      uri: "kamelet:kafka-source?topic=audit_log&consumerGroup=manual-commit-group&al\
-        lowManualCommit=true"
+      uri: "kamelet:kafka-source"
+      parameters:
+        topic: "audit_log"
+        consumerGroup: "manual-commit-group"
+        autoOffsetReset: "earliest"
+        allowManualCommit: true
       steps:
         - log: ">>> Processing message manually: ${body}"
         - to: "direct:complex-logic"
@@ -16,9 +19,12 @@
 - route:
     id: "batch-processing-flow"
     from:
-      # Topic is mandatory; SSL/Bootstrap are auto-wired from CAMEL_KAMELET_KAFKA_BATCH_SOURCE_...
-      uri: "kamelet:kafka-batch-source?topic=telemetry&batchSize=50&consumerGroup=bat\
-        ch-consumer-group"
+      uri: "kamelet:kafka-batch-source"
+      parameters:
+        topic: "telemetry"
+        batchSize: 50
+        consumerGroup: "batch-consumer-group"
+        autoOffsetReset: "earliest"
       steps:
         - log: ">>> Received batch of ${header.CamelKafkaBatchSize} messages"
         - split:
@@ -39,9 +45,16 @@
 - route:
     id: "timer-to-kafka"
     from:
-      uri: "timer:tick?period=1000"
+      uri: "timer:tick?period=2000&repeatCount=5"
       steps:
         - setBody:
-            simple: "Testing Kafka Audit Log message at ${date:now:yyyy-MM-dd HH:mm:ss}"
-        - to: "kamelet:kafka-sink?topic=audit_log"
+            simple: "Standardized EIP message at ${date:now:yyyy-MM-dd HH:mm:ss}"
+        - to:
+            uri: "kamelet:kafka-sink"
+            parameters:
+              topic: "audit_log"
+              # Recommended Production Properties:
+              # acks=all ensures high durability
+              # retries=3 handles transient broker failures
+              additionalProperties: "acks=all&retries=3&max.block.ms=5000"
         - log: ">>> Sent message to Kafka: ${body}"

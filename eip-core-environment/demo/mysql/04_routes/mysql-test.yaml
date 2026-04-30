@@ -1,3 +1,11 @@
+- beans:
+    - name: "eip"
+      type: "com.mysql.cj.jdbc.MysqlDataSource"
+      properties:
+        url: "{{env:QUARKUS_DATASOURCE_JDBC_URL}}"
+        user: "{{env:QUARKUS_DATASOURCE_USERNAME}}"
+        password: "{{env:QUARKUS_DATASOURCE_PASSWORD}}"
+
 - route:
     id: "mysql-kamelet-insert"
     from:
@@ -92,7 +100,8 @@
 - route:
     id: "mysql-kamelet-findall-complex"
     from:
-      uri: "timer:mysql-trigger-findall-complex?delay=35000&period=60000&repeatCount=1"
+      uri: "timer:mysql-trigger-findall-complex?delay=35000&period=60000&repeatCount=\
+        1"
       steps:
         - setBody:
             constant: "{}"

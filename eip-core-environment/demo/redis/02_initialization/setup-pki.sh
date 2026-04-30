@@ -6,7 +6,7 @@
 
 set -e
 
-BASE_CERT_DIR="/home/pratyush/software/eip-core-integration/eip-core-environment/demo/redis/02_initialization/certs"
+BASE_CERT_DIR=~/software/eip-core-integration/eip-core-environment/demo/redis/02_initialization/certs
 CERT_DIR="${BASE_CERT_DIR}/${MODE:-redis-tls}"
 mkdir -p "$CERT_DIR"
 

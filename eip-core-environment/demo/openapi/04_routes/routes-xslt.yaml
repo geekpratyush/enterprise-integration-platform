@@ -1,0 +1,46 @@
+- from:
+    uri: "platform-http:///fuel-engine/transform/xslt"
+    steps:
+      - unmarshal:
+          json: {}
+      - to: "direct:xslt-industrial"
+
+- from:
+    uri: "platform-http:///fuel-engine/play-transform"
+    steps:
+      - unmarshal:
+          json: {}
+      - to: "direct:xslt-industrial"
+
+- from:
+    uri: "direct:xslt-industrial"
+    steps:
+      - setBody:
+          groovy: |
+            try {
+                def mapping = body.mapping.trim()
+                def source = body.source.trim()
+                mapping = mapping.replace("\ufeff", "")
+                def factory = new net.sf.saxon.TransformerFactoryImpl()
+                def transformer = factory.newTransformer(new javax.xml.transform.stream.StreamSource(new java.io.StringReader(mapping)))
+                def out = new java.io.StringWriter()
+                transformer.transform(
+                    new javax.xml.transform.stream.StreamSource(new java.io.StringReader(source)),
+                    new javax.xml.transform.stream.StreamResult(out)
+                )
+                return out.toString()
+            } catch (Exception e) {
+                return "XSLT ERROR: " + e.getMessage()
+            }
+      - choice:
+          when:
+            - simple: "${body} startsWith '<'"
+              steps:
+                - setHeader:
+                    name: "Content-Type"
+                    constant: "application/xml"
+          otherwise:
+            steps:
+              - setHeader:
+                  name: "Content-Type"
+                  constant: "text/plain"

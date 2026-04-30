@@ -1,1 +1,3 @@
-/home/pratyush/software/eip-core-integration/eip-core-environment/demo/redis/identities/standalone-identity.yaml
+# EIP Redis - No YAML beans required.
+# Authentication is managed natively by RedisCamelRegistrar in eip-core-lib.
+- beans: []

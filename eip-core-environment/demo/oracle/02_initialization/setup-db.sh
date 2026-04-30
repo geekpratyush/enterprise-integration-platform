@@ -4,8 +4,8 @@
 # ======================================================================
 
 set -e
-BASE_DIR="/home/pratyush/software/eip-core-integration/eip-core-environment/demo/oracle"
-LIQUIBASE_JAR="/home/pratyush/software/eip-core-integration/eip-core-liquibase/build/libs/eip-core-liquibase.jar"
+BASE_DIR=~/software/eip-core-integration/eip-core-environment/demo/oracle
+LIQUIBASE_JAR=~/software/eip-core-integration/eip-core-liquibase/build/libs/eip-core-liquibase.jar
 
 echo ">>> ORACLE: Initializing Schema via Liquibase..."
 

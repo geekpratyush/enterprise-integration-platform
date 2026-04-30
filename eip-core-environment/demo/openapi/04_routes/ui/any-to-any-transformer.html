@@ -124,10 +124,18 @@
 
     <div class="editor-card">
         <div class="card-header">
-            <span class="card-title">Mapping Schema</span>
-            <select onchange="updateLang(1, this.value)">
-                <option value="xml" selected>XSLT / Smooks XML</option>
-            </select>
+            <div style="display: flex; align-items: center; gap: 12px;">
+                <span class="card-title">Mapping Schema</span>
+                <select id="saved-mappings" onchange="loadMapping(1, this.value)" style="border-color: var(--primary); color: white;">
+                    <option value="">-- Load Saved --</option>
+                </select>
+            </div>
+            <div style="display: flex; gap: 8px;">
+                <button onclick="saveMapping(1)" style="background: var(--primary); color: #0f172a; border: none; padding: 4px 12px; border-radius: 4px; font-weight: 800; font-size: 10px; cursor: pointer;">SAVE</button>
+                <select onchange="updateLang(1, this.value)">
+                    <option value="xml" selected>XSLT / Smooks XML</option>
+                </select>
+            </div>
         </div>
         <div id="editor-1" class="monaco-host"></div>
     </div>
@@ -234,6 +242,77 @@
     function updateLang(index, lang) {
         if (editors[index]) { monaco.editor.setModelLanguage(editors[index].getModel(), lang); }
     }
+
+    // PERSISTENCE ENGINE
+    const STORAGE_KEY = 'eip_mappings_any_to_any';
+
+    async function saveMapping(index) {
+        const content = editors[index].getValue();
+
+        // Modern File System Access API (Native Browse Window)
+        if (window.showSaveFilePicker) {
+            try {
+                const handle = await window.showSaveFilePicker({
+                    suggestedName: 'mapping.xslt',
+                    types: [{
+                        description: 'XSLT Mapping',
+                        accept: { 'text/xml': ['.xslt', '.xml'] }
+                    }]
+                });
+                const writable = await handle.createWritable();
+                await writable.write(content);
+                await writable.close();
+                logEvent(`Fuel mapping saved to ${handle.name}`, 'success');
+                return;
+            } catch (err) {
+                if (err.name === 'AbortError') return;
+                logEvent(`Native Save Error: ${err.message}`, 'error');
+            }
+        }
+
+        // Legacy Fallback (Simple Download)
+        const name = prompt("Enter a filename for this fuel mapping:", "mapping.xslt");
+        if (!name) return;
+        const blob = new Blob([content], { type: 'text/xml' });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = name;
+        a.click();
+        URL.revokeObjectURL(url);
+        logEvent(`Fuel mapping '${name}' exported via download.`, 'success');
+
+        // Also keep local storage copy for the 'Load' dropdown
+        const saved = JSON.parse(localStorage.getItem(STORAGE_KEY) || '{}');
+        saved[name] = content;
+        localStorage.setItem(STORAGE_KEY, JSON.stringify(saved));
+        refreshSavedList();
+    }
+
+    function loadMapping(index, name) {
+        if (!name) return;
+        const saved = JSON.parse(localStorage.getItem(STORAGE_KEY) || '{}');
+        if (saved[name]) {
+            editors[index].setValue(saved[name]);
+            logEvent(`Fuel mapping '${name}' loaded from vault.`, 'info');
+        }
+    }
+
+    function refreshSavedList() {
+        const select = document.getElementById('saved-mappings');
+        if (!select) return;
+        const saved = JSON.parse(localStorage.getItem(STORAGE_KEY) || '{}');
+        select.innerHTML = '<option value="">-- Load Saved --</option>';
+        Object.keys(saved).sort().forEach(name => {
+            const opt = document.createElement('option');
+            opt.value = name;
+            opt.textContent = name;
+            select.appendChild(opt);
+        });
+    }
+
+    // Initial load of saved mappings
+    window.addEventListener('DOMContentLoaded', refreshSavedList);
 </script>
 </body>
 </html>
